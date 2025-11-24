@@ -277,11 +277,21 @@ TrendRadar는 GitHub Actions로 자동화된 워크플로를 제공합니다:
 
 ## 주요 문서
 
+### 사용 가이드
 - [📊 ANALYZERS.md](docs/ANALYZERS.md) - 급상승 감지 및 크로스 채널 분석 가이드
 - [🔌 COLLECTORS.md](docs/COLLECTORS.md) - 5개 데이터 수집기 사용법
 - [🌐 DATA_SOURCES.md](docs/DATA_SOURCES.md) - 데이터 소스 리서치 및 우선순위
-- [🏗️ ARCHITECTURE.md](docs/ARCHITECTURE.md) - 시스템 아키텍처
 - [🧪 TESTING.md](docs/TESTING.md) - 테스트 실행 가이드
+
+### 아키텍처 & 배포
+- [🏗️ ARCHITECTURE.md](docs/ARCHITECTURE.md) - 시스템 아키텍처
+- [🚀 DEPLOYMENT.md](DEPLOYMENT.md) - 배포 가이드 (GitHub Actions, 로컬, 클라우드, Docker)
+- [📈 STATUS.md](STATUS.md) - 프로젝트 현황 및 로드맵
+
+### 기여 & 개발
+- [🤝 CONTRIBUTING.md](CONTRIBUTING.md) - 기여 가이드 및 코딩 스타일
+- [👥 CONTRIBUTORS.md](CONTRIBUTORS.md) - 기여자 목록
+- [📝 .env.example](.env.example) - 환경 변수 템플릿
 
 ## 주의사항
 

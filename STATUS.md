@@ -67,6 +67,10 @@
 - [x] **TESTING.md** - 테스트 실행 가이드
 - [x] **ARCHITECTURE.md** - 시스템 아키텍처
 - [x] **TESTING_RESULTS.md** - 테스트 결과 요약
+- [x] **DEPLOYMENT.md** - 배포 가이드 (GitHub Actions, 로컬, 클라우드, Docker)
+- [x] **CONTRIBUTING.md** - 기여 가이드 및 코딩 스타일
+- [x] **CONTRIBUTORS.md** - 기여자 목록
+- [x] **.env.example** - 환경 변수 템플릿
 
 ### 테스트
 - [x] **Unit Tests** (pytest)
