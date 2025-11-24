@@ -53,9 +53,8 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/reports
-          destination_dir: reports
-          keep_files: true  # 이전 리포트 유지
+          publish_dir: ./docs
+          keep_files: false  # 전체 docs 폴더 배포
 
       - name: Create summary
         run: |
