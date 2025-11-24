@@ -300,6 +300,16 @@ def run_once(
             print(f"  ✗ 급상승 감지 실패: {e}")
             all_errors.append(f"Spike detection: {str(e)[:100]}")
 
+        # 인덱스 페이지 생성
+        print("\n  - 리포트 인덱스 페이지 생성 중...")
+        try:
+            from reporters.index_generator import generate_index_page
+            report_dir = report_output_dir or DEFAULT_REPORT_DIR
+            generate_index_page(report_dir)
+            print(f"  ✓ 인덱스 페이지 생성 완료")
+        except Exception as e:
+            print(f"  ✗ 인덱스 페이지 생성 실패: {e}")
+
     runtime_seconds = time.time() - start_time
     print(f"\n  - 실행 시간: {runtime_seconds:.1f}초")
 
