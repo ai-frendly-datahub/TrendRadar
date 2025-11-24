@@ -1,0 +1,84 @@
+name: Spike Analysis
+
+on:
+  workflow_dispatch:  # 수동 실행 전용
+    inputs:
+      recent_days:
+        description: '최근 분석 기간 (일)'
+        required: false
+        default: '7'
+      baseline_days:
+        description: '기준 분석 기간 (일)'
+        required: false
+        default: '30'
+
+jobs:
+  analyze-spikes:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Download latest database
+        uses: actions/download-artifact@v4
+        with:
+          pattern: trendradar-db-*
+          path: data/
+          merge-multiple: true
+        continue-on-error: true
+
+      - name: Run spike analysis
+        run: |
+          python examples/analyzer_example.py > spike_analysis_output.txt 2>&1
+
+      - name: Generate spike report
+        run: |
+          python examples/generate_spike_report.py
+
+      - name: Upload analysis results
+        uses: actions/upload-artifact@v4
+        with:
+          name: spike-analysis-${{ github.run_number }}
+          path: |
+            spike_analysis_output.txt
+            docs/reports/spike_*.html
+          retention-days: 30
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/reports
+          destination_dir: reports/analysis
+          keep_files: true
+
+      - name: Create summary
+        run: |
+          echo "## 🔥 급상승 키워드 분석 완료" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 분석 설정" >> $GITHUB_STEP_SUMMARY
+          echo "- 최근 기간: ${{ github.event.inputs.recent_days }}일" >> $GITHUB_STEP_SUMMARY
+          echo "- 기준 기간: ${{ github.event.inputs.baseline_days }}일" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 결과" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f spike_analysis_output.txt ]; then
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            head -n 50 spike_analysis_output.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          fi

@@ -1,0 +1,17 @@
+# Minimal config for auth-free Wikipedia collector e2e.
+keyword_sets:
+  - name: "Wikipedia smoke"
+    enabled: true
+    keywords:
+      - "Python (programming language)"
+      - "Seoul"
+    channels:
+      - wikipedia
+    time_range:
+      start: "2024-11-01"
+      end: "2024-11-07"
+    filters:
+      wikipedia_project: en.wikipedia
+      wikipedia_access: all-access
+      wikipedia_agent: user
+      wikipedia_granularity: daily

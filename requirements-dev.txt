@@ -1,0 +1,21 @@
+# Development dependencies
+-r requirements.txt
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code quality
+mypy>=1.5.0
+black>=23.0.0
+ruff>=0.1.0
+
+# Type stubs
+types-PyYAML
+types-requests
+types-python-dateutil
+
+# Visualization (optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0

@@ -1,0 +1,15 @@
+# Google Trending (no auth) smoke config
+keyword_sets:
+  - name: "Google trending realtime"
+    enabled: true
+    keywords: []
+    channels:
+      - google_trending
+    time_range:
+      start: "2025-11-23"
+      end: "2025-11-24"
+    filters:
+      google_trending_region: south_korea          # region code used by pytrends
+      google_trending_mode: daily         # daily | realtime
+      google_trending_category: all          # for realtime; e.g., all, b(usiness), e(ntertainment)...
+      google_trending_top_n: 10

@@ -1,0 +1,128 @@
+# TrendRadar 키워드 세트 설정
+# 각 세트는 관심 있는 키워드 그룹을 정의합니다.
+
+keyword_sets:
+  # 예시 1: 위스키 시장 동향
+  - name: "위스키 시장 동향"
+    enabled: true
+    description: "위스키 관련 검색 트렌드 추적"
+    keywords:
+      - "위스키"
+      - "싱글몰트"
+      - "하이볼"
+      - "발렌타인"
+      - "맥캘란"
+    channels:
+      - naver
+      - google
+    time_range:
+      start: "2024-01-01"
+      end: "2025-11-24"
+    filters:
+      # Naver 필터
+      time_unit: date  # date, week, month
+      device: ""       # pc, mo, 빈 문자열 = 전체
+      gender: ""       # m, f, 빈 문자열 = 전체
+      ages: []         # ["1", "2", "3"] = 10대, 20대, 30대, 빈 배열 = 전체
+      # Google 필터
+      geo: KR          # KR, US, JP 등 ISO 국가 코드, 빈 문자열 = 전세계
+
+  # 예시 2: 부동산 키워드 (비활성화)
+  - name: "서울 부동산 트렌드"
+    enabled: false
+    description: "서울 주요 지역 부동산 검색 트렌드"
+    keywords:
+      - "강남 아파트"
+      - "송파 전세"
+      - "마포 매매"
+      - "분양권"
+    channels:
+      - naver
+    time_range:
+      start: "2024-06-01"
+      end: "2025-11-24"
+    filters:
+      time_unit: week
+      device: ""
+      gender: ""
+      ages: ["3", "4"]  # 30대, 40대
+      geo: KR
+
+  # 예시 3: 와인 트렌드
+  - name: "와인 시장 동향"
+    enabled: true
+    description: "와인 관련 검색 트렌드"
+    keywords:
+      - "와인"
+      - "레드와인"
+      - "화이트와인"
+      - "샴페인"
+    channels:
+      - naver
+      - google
+    time_range:
+      start: "2024-01-01"
+      end: "2025-11-24"
+    filters:
+      time_unit: date
+      device: ""
+      gender: ""
+      ages: []
+      geo: KR
+
+  # 예시 4: K-POP 트렌드 (YouTube + 검색)
+  - name: "K-POP 트렌드"
+    enabled: false
+    description: "K-POP 아이돌 및 음악 트렌드 추적"
+    keywords:
+      - "케이팝"
+      - "아이돌"
+      - "걸그룹"
+      - "보이그룹"
+    channels:
+      - naver
+      - google
+      - youtube
+    time_range:
+      start: "2024-01-01"
+      end: "2025-11-24"
+    filters:
+      time_unit: date
+      geo: KR
+      # YouTube 전용 필터
+      youtube_category: "10"  # 10=Music
+      youtube_max_results: 50
+
+  # 예시 5: 커뮤니티 트렌드 (Reddit)
+  - name: "글로벌 테크 커뮤니티 트렌드"
+    enabled: false
+    description: "Reddit 기술 커뮤니티 트렌드"
+    channels:
+      - reddit
+    reddit_subreddits:
+      - "python"
+      - "programming"
+      - "learnpython"
+      - "technology"
+    reddit_sort: "hot"  # hot, new, top, rising, controversial
+    reddit_time_filter: "day"  # hour, day, week, month, year, all
+    reddit_limit: 25
+
+  # 예시 6: 쇼핑 트렌드 (네이버 쇼핑)
+  - name: "패션 쇼핑 트렌드"
+    enabled: false
+    description: "네이버 쇼핑 패션 카테고리 트렌드"
+    channels:
+      - naver_shopping
+    time_range:
+      start: "2024-10-01"
+      end: "2025-11-24"
+    filters:
+      time_unit: week
+      device: "mo"  # 모바일
+      gender: "f"   # 여성
+      ages: ["2", "3"]  # 20대, 30대
+    naver_shopping_categories:
+      - "50000000"  # 패션의류
+      - "50000001"  # 패션잡화
+      - "50000002"  # 화장품/미용
