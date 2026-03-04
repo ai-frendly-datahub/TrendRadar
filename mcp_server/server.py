@@ -3,7 +3,6 @@ from __future__ import annotations
 import asyncio
 import os
 from pathlib import Path
-from typing import Any
 
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
@@ -28,7 +27,7 @@ def _search_db_path() -> Path:
     return Path(os.getenv("TRENDRADAR_SEARCH_DB_PATH", "data/search_index.db"))
 
 
-def _as_int(value: Any, default: int) -> int:
+def _as_int(value: object, default: int) -> int:
     if isinstance(value, bool):
         return default
     if isinstance(value, int):
@@ -96,8 +95,8 @@ async def list_tools() -> list[Tool]:
 
 
 @app.call_tool()
-async def call_tool(name: str, arguments: dict[str, Any] | None) -> list[TextContent]:
-    args = arguments or {}
+async def call_tool(name: str, arguments: dict[str, object] | None) -> list[TextContent]:
+    args: dict[str, object] = arguments or {}
 
     if name == "search":
         result = handle_search(

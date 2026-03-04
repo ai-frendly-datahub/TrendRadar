@@ -15,19 +15,19 @@ class SearchResult:
 
 
 class SearchIndex:
+    db_path: Path
+
     def __init__(self, db_path: Path):
         self.db_path = db_path
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         self._initialize()
 
     def _connect(self) -> sqlite3.Connection:
-        conn = sqlite3.connect(self.db_path)
-        conn.row_factory = sqlite3.Row
-        return conn
+        return sqlite3.connect(self.db_path)
 
     def _initialize(self) -> None:
         with self._connect() as conn:
-            conn.execute(
+            _ = conn.execute(
                 """
                 CREATE TABLE IF NOT EXISTS keyword_documents (
                     link TEXT PRIMARY KEY,
@@ -37,7 +37,7 @@ class SearchIndex:
                 )
                 """
             )
-            conn.execute(
+            _ = conn.execute(
                 """
                 CREATE VIRTUAL TABLE IF NOT EXISTS keyword_fts
                 USING fts5(link UNINDEXED, keyword, context)
@@ -48,15 +48,15 @@ class SearchIndex:
         """Index keyword for search. link = keyword|platform composite key."""
         link = f"{keyword}|{platform}"
         with self._connect() as conn:
-            conn.execute(
+            _ = conn.execute(
                 """
                 INSERT OR REPLACE INTO keyword_documents (link, keyword, platform, context)
                 VALUES (?, ?, ?, ?)
                 """,
                 (link, keyword, platform, context),
             )
-            conn.execute("DELETE FROM keyword_fts WHERE link = ?", (link,))
-            conn.execute(
+            _ = conn.execute("DELETE FROM keyword_fts WHERE link = ?", (link,))
+            _ = conn.execute(
                 """
                 INSERT INTO keyword_fts (link, keyword, context)
                 VALUES (?, ?, ?)
@@ -85,11 +85,11 @@ class SearchIndex:
 
         return [
             SearchResult(
-                keyword=row["keyword"],
-                platform=row["platform"],
-                context=row["context"],
-                link=row["link"],
-                score=float(row["score"]),
+                keyword=str(row[0]),
+                platform=str(row[1]),
+                context=str(row[2]),
+                link=str(row[3]),
+                score=float(row[4]),
             )
             for row in rows
         ]

@@ -69,7 +69,11 @@ def handle_recent_updates(*, db_path: Path, days: int = 7, limit: int = 20) -> s
 
     lines = [f"Recent updates ({len(rows)}):"]
     for row in rows:
-        keyword, source, value, ts, created_at = row
+        keyword = str(row[0])
+        source = str(row[1])
+        value = float(row[2])
+        ts = str(row[3])
+        created_at = str(row[4])
         lines.append(f"- {keyword} | {source} | value={value} | ts={ts} | collected_at={created_at}")
     return "\n".join(lines)
 
@@ -106,8 +110,8 @@ def handle_top_trends(*, db_path: Path, days: int = 7, limit: int = 10) -> str:
     lines = ["Top trend spikes:"]
     for label, signal in records[:limit]:
         lines.append(
-            f"- {signal.keyword} | {signal.source} | {label} | "
-            f"score={signal.spike_score:.1f} | ratio={signal.spike_ratio:.2f}"
+            f"- {signal.keyword} | {signal.source} | {label} | score={signal.spike_score:.1f} | "
+            + f"ratio={signal.spike_ratio:.2f}"
         )
     return "\n".join(lines)
 
@@ -185,8 +189,12 @@ def _fallback_top_trends(*, db_path: Path, days: int, limit: int) -> str:
         return "No trend data available."
 
     lines = ["Top trend spikes:"]
-    for keyword, source, avg_value, peak in rows:
+    for row in rows:
+        keyword = str(row[0])
+        source = str(row[1])
+        avg_value = float(row[2])
+        peak = float(row[3])
         lines.append(
-            f"- {keyword} | {source} | sustained_high | avg={float(avg_value):.2f} | peak={float(peak):.2f}"
+            f"- {keyword} | {source} | sustained_high | avg={avg_value:.2f} | peak={peak:.2f}"
         )
     return "\n".join(lines)

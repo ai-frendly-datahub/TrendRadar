@@ -21,7 +21,8 @@ def test_handle_search_uses_search_index(tmp_path: Path):
     search_db = tmp_path / "search.db"
     data_db = tmp_path / "trend.duckdb"
 
-    SearchIndex(search_db).upsert("인공지능", "google", "ai machine learning")
+    _ = SearchIndex(search_db)
+    _.upsert("인공지능", "google", "ai machine learning")
 
     result = handle_search(
         search_db_path=search_db,
@@ -39,7 +40,7 @@ def test_handle_recent_updates_reads_duckdb(tmp_path: Path):
     db_path = tmp_path / "trend.duckdb"
     now = datetime.now()
 
-    save_trend_points(
+    _ = save_trend_points(
         source="google",
         keyword="반도체",
         points=[
@@ -77,7 +78,7 @@ def test_handle_top_trends_returns_spike_keywords(tmp_path: Path):
         for i in range(7)
     ]
 
-    save_trend_points(
+    _ = save_trend_points(
         source="google",
         keyword="AI",
         points=baseline_points + surge_points,
