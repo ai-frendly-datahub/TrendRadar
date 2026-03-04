@@ -12,6 +12,7 @@ pytrends>=4.9.0
 pandas>=2.0.0
 duckdb>=0.9.0
 numpy>=1.24.0
+mcp>=1.0.0
 
 # Optional: For YouTube API
 # google-api-python-client>=2.100.0
