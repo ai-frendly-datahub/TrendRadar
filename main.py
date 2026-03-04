@@ -19,12 +19,55 @@ from collectors.wikipedia_collector import WikipediaPageviewsCollector
 from storage import trend_store
 from reporters.html_reporter import generate_daily_report
 from analyzers.spike_detector import SpikeDetector
+from raw_logger import RawLogger
 from reporters.spike_reporter import generate_spike_report
+from storage.search_index import SearchIndex
 
 CONFIG_ENV_VAR = "TRENDRADAR_CONFIG_PATH"
 PROJECT_ROOT = Path(__file__).resolve().parent
 DEFAULT_CONFIG_PATH = PROJECT_ROOT / "config" / "keyword_sets.yaml"
 DEFAULT_REPORT_DIR = PROJECT_ROOT / "docs" / "reports"
+DEFAULT_RAW_DIR = PROJECT_ROOT / "data" / "raw"
+DEFAULT_SEARCH_DB_PATH = PROJECT_ROOT / "data" / "search_index.db"
+
+
+def _build_raw_records(
+    *,
+    keyword: str,
+    source: str,
+    points: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    for point in points:
+        date_str = str(point.get("date", "")).strip()
+        if not date_str:
+            continue
+        records.append(
+            {
+                "keyword": keyword,
+                "platform": source,
+                "value": float(point.get("value", 0.0)),
+                "timestamp": date_str,
+            }
+        )
+    return records
+
+
+def _sync_keyword_to_search_index(
+    *,
+    search_index: SearchIndex,
+    keyword: str,
+    source: str,
+    keyword_set: dict[str, Any],
+) -> None:
+    related_keywords = [k for k in keyword_set.get("keywords", []) if isinstance(k, str) and k != keyword]
+    set_name = str(keyword_set.get("name", ""))
+    context_parts = [
+        f"set:{set_name}",
+        f"source:{source}",
+        f"related:{', '.join(related_keywords[:10])}" if related_keywords else "related:",
+    ]
+    search_index.upsert(keyword=keyword, platform=source, context=" | ".join(context_parts))
 
 
 def load_keyword_sets_config(path: Path | None = None) -> dict[str, Any]:
@@ -39,6 +82,8 @@ def collect_trends(
     *,
     db_path: Path | None = None,
     source_filter: str | None = None,
+    raw_logger: RawLogger | None = None,
+    search_index: SearchIndex | None = None,
 ) -> tuple[int, int, list[str]]:
     """Collect trend data from configured sources and persist them."""
     total_points = 0
@@ -68,6 +113,7 @@ def collect_trends(
                 ages=filters.get("ages"),
             )
 
+            naver_raw_records: list[dict[str, Any]] = []
             for keyword, points in naver_data.items():
                 trend_store.save_trend_points(
                     source="naver",
@@ -80,6 +126,18 @@ def collect_trends(
                     db_path=db_path,
                 )
                 total_points += len(points)
+                naver_raw_records.extend(_build_raw_records(keyword=keyword, source="naver", points=points))
+                if search_index is not None:
+                    _sync_keyword_to_search_index(
+                        search_index=search_index,
+                        keyword=keyword,
+                        source="naver",
+                        keyword_set=keyword_set,
+                    )
+
+            if raw_logger is not None and naver_raw_records:
+                raw_path = raw_logger.log(naver_raw_records, source_name="naver")
+                print(f"  - Raw JSONL logged: {raw_path}")
 
             sources_succeeded += 1
             print(f"  - Naver DataLab: {len(naver_data)} keywords, {total_points} points")
@@ -100,6 +158,7 @@ def collect_trends(
             )
 
             google_points = 0
+            google_raw_records: list[dict[str, Any]] = []
             for keyword, points in google_data.items():
                 trend_store.save_trend_points(
                     source="google",
@@ -112,6 +171,18 @@ def collect_trends(
                     db_path=db_path,
                 )
                 google_points += len(points)
+                google_raw_records.extend(_build_raw_records(keyword=keyword, source="google", points=points))
+                if search_index is not None:
+                    _sync_keyword_to_search_index(
+                        search_index=search_index,
+                        keyword=keyword,
+                        source="google",
+                        keyword_set=keyword_set,
+                    )
+
+            if raw_logger is not None and google_raw_records:
+                raw_path = raw_logger.log(google_raw_records, source_name="google")
+                print(f"  - Raw JSONL logged: {raw_path}")
 
             total_points += google_points
             sources_succeeded += 1
@@ -134,6 +205,7 @@ def collect_trends(
             )
 
             trending_points = 0
+            trending_raw_records: list[dict[str, Any]] = []
             for keyword, points in trending_data.items():
                 trend_store.save_trend_points(
                     source="google_trending",
@@ -148,6 +220,20 @@ def collect_trends(
                     db_path=db_path,
                 )
                 trending_points += len(points)
+                trending_raw_records.extend(
+                    _build_raw_records(keyword=keyword, source="google_trending", points=points)
+                )
+                if search_index is not None:
+                    _sync_keyword_to_search_index(
+                        search_index=search_index,
+                        keyword=keyword,
+                        source="google_trending",
+                        keyword_set=keyword_set,
+                    )
+
+            if raw_logger is not None and trending_raw_records:
+                raw_path = raw_logger.log(trending_raw_records, source_name="google_trending")
+                print(f"  - Raw JSONL logged: {raw_path}")
 
             total_points += trending_points
             sources_succeeded += 1
@@ -172,6 +258,7 @@ def collect_trends(
             )
 
             wiki_points = 0
+            wiki_raw_records: list[dict[str, Any]] = []
             for keyword, points in wiki_data.items():
                 trend_store.save_trend_points(
                     source="wikipedia",
@@ -187,6 +274,18 @@ def collect_trends(
                     db_path=db_path,
                 )
                 wiki_points += len(points)
+                wiki_raw_records.extend(_build_raw_records(keyword=keyword, source="wikipedia", points=points))
+                if search_index is not None:
+                    _sync_keyword_to_search_index(
+                        search_index=search_index,
+                        keyword=keyword,
+                        source="wikipedia",
+                        keyword_set=keyword_set,
+                    )
+
+            if raw_logger is not None and wiki_raw_records:
+                raw_path = raw_logger.log(wiki_raw_records, source_name="wikipedia")
+                print(f"  - Raw JSONL logged: {raw_path}")
 
             total_points += wiki_points
             sources_succeeded += 1
@@ -227,6 +326,9 @@ def run_once(
 
     print(f"  - 로드된 키워드 세트: {len(keyword_sets)}개")
 
+    raw_logger = RawLogger(DEFAULT_RAW_DIR)
+    search_index = SearchIndex(DEFAULT_SEARCH_DB_PATH)
+
     # 각 키워드 세트별로 수집
     total_points = 0
     total_sources_succeeded = 0
@@ -243,6 +345,8 @@ def run_once(
             kw_set,
             db_path=db_path,
             source_filter=source_filter,
+            raw_logger=raw_logger,
+            search_index=search_index,
         )
 
         total_points += points
