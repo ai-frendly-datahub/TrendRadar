@@ -99,9 +99,9 @@ export REDDIT_CLIENT_SECRET="your_reddit_client_secret"
 ```
 
 API 키 발급:
-- **Naver**: [네이버 개발자센터](https://developers.naver.com)
-- **YouTube**: [Google Cloud Console](https://console.cloud.google.com)
-- **Reddit**: [Reddit App Settings](https://www.reddit.com/prefs/apps)
+- **Naver**: [네이버 개발자센터](https://developers.naver.com) → [상세 가이드](#naver-datalab-api-설정)
+- **YouTube**: [Google Cloud Console](https://console.cloud.google.com) → [상세 가이드](#youtube-data-api-v3-설정)
+- **Reddit**: [Reddit App Settings](https://www.reddit.com/prefs/apps) → [상세 가이드](#reddit-api-설정)
 
 ### 실행 예시
 
@@ -305,6 +305,204 @@ TrendRadar는 GitHub Actions로 자동화된 워크플로를 제공합니다:
 
 - **Google Trends**: 비공식 API(pytrends)를 사용하므로 rate limit이 있을 수 있습니다. 호출 간격 관리와 캐시 활용을 권장합니다.
 - **Naver DataLab**: 공식 API로 일 1,000회 호출 한도가 있습니다. 키워드 세트와 수집 주기를 분산하여 사용하세요.
+
+---
+
+## API 설정 상세 가이드
+
+### Naver Datalab API 설정
+
+Naver Datalab API는 네이버 검색 트렌드 데이터를 제공합니다. 아래 단계에 따라 API 키를 발급받으세요.
+
+#### 1단계: API 이용 신청 및 키 발급
+
+1. **Naver Developers 접속**: [Naver Developers 센터](https://developers.naver.com/apps/#/register)에 접속하여 네이버 계정으로 로그인
+2. **애플리케이션 등록**:
+   - **애플리케이션 이름**: `TrendRadar-Collector` (또는 자유롭게 입력)
+   - **사용 API**: 카테고리에서 **데이터랩(검색어트렌드)** 선택 및 추가
+   - **서비스 환경**: **Web 설정** 선택
+   - **웹 설정 정보**:
+     - **웹 서비스 URL**: `http://localhost` (실제 서비스가 아니므로 임의 입력 가능)
+     - **Callback URL**: `http://localhost` (데이터랩 API는 콜백을 사용하지 않으나 필수 입력 항목)
+3. **등록 완료**: 하단의 [등록하기] 버튼 클릭
+4. **키 확인**: 생성된 애플리케이션의 **[내 애플리케이션] > [개요]** 탭에서 `Client ID`와 `Client Secret` 복사
+
+#### 2단계: 환경 변수 설정
+
+`.env` 파일에 발급받은 키를 추가합니다:
+
+```env
+NAVER_CLIENT_ID=발급받은_Client_ID
+NAVER_CLIENT_SECRET=발급받은_Client_Secret
+```
+
+#### 3단계: API 작동 테스트
+
+```python
+import os
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+
+url = "https://openapi.naver.com/v1/datalab/search"
+headers = {
+    "X-Naver-Client-Id": os.getenv("NAVER_CLIENT_ID"),
+    "X-Naver-Client-Secret": os.getenv("NAVER_CLIENT_SECRET"),
+    "Content-Type": "application/json"
+}
+body = {
+    "startDate": "2024-01-01",
+    "endDate": "2024-01-31",
+    "timeUnit": "month",
+    "keywordGroups": [{"groupName": "AI", "keywords": ["인공지능", "AI"]}]
+}
+
+response = requests.post(url, headers=headers, json=body)
+if response.status_code == 200:
+    print("✅ API 연결 성공!")
+else:
+    print(f"❌ 연결 실패: {response.status_code}")
+```
+
+#### API 제한사항
+
+- **일일 호출 한도**: 1,000회/일
+- **데이터 형식**: 상대적 비율(0-100)로 제공
+- **공식 문서**: [네이버 데이터랩 API 레퍼런스](https://developers.naver.com/docs/serviceapi/datalab/search/search.md)
+
+---
+
+### YouTube Data API v3 설정
+
+YouTube Data API v3는 YouTube 트렌딩 비디오 및 검색 통계를 제공합니다.
+
+#### 1단계: Google Cloud 프로젝트 생성
+
+1. [Google Cloud Console](https://console.cloud.google.com) 접속 및 로그인
+2. **새 프로젝트 생성**: 상단 프로젝트 드롭다운 → **"새 프로젝트"** 선택
+   - **프로젝트 이름**: `TrendRadar-YouTube` (또는 원하는 이름)
+   - **"만들기"** 클릭
+
+#### 2단계: YouTube Data API v3 활성화
+
+1. **API 라이브러리** → 검색창에 `YouTube Data API v3` 입력
+2. **YouTube Data API v3** 클릭 → **"사용"** 버튼 클릭
+
+#### 3단계: API 키 생성
+
+1. **API 및 서비스** → **자격 증명** 선택
+2. **"자격 증명 만들기"** → **"API 키"** 선택
+3. 생성된 API 키 복사
+
+#### 4단계: API 키 제한 설정 (보안 필수)
+
+**애플리케이션 제한 (권장)**:
+- IP 주소 제한: 서버 IP 입력
+- HTTP 리퍼러 제한: 웹사이트 도메인 입력
+
+**API 제한**:
+- **API 제한** → **"키 제한"** 선택 → **YouTube Data API v3** 체크
+
+#### 5단계: 환경 변수 설정
+
+```env
+YOUTUBE_API_KEY=발급받은_API_키
+```
+
+#### 6단계: 테스트
+
+```python
+import os
+import requests
+
+API_KEY = os.getenv('YOUTUBE_API_KEY')
+url = "https://www.googleapis.com/youtube/v3/videos"
+params = {'key': API_KEY, 'id': 'dQw4w9WgXcQ', 'part': 'statistics'}
+
+response = requests.get(url, params=params)
+if response.status_code == 200:
+    print("✅ API 키 유효!")
+else:
+    print(f"❌ 연결 실패: {response.status_code}")
+```
+
+#### API 제한사항
+
+- **무료 할당량**: 10,000 units/일
+- **API 호출 비용**:
+  - `search.list`: 100 units
+  - `videos.list`: 1 unit
+- **공식 문서**: [YouTube Data API v3 레퍼런스](https://developers.google.com/youtube/v3/docs)
+
+---
+
+### Reddit API 설정
+
+Reddit API는 subreddit의 인기 게시물 및 트렌드 토픽을 수집합니다.
+
+#### 1단계: Reddit 앱 등록
+
+1. [Reddit Apps](https://www.reddit.com/prefs/apps) 접속 및 로그인
+2. **"create another app..."** 또는 **"Create App"** 클릭
+3. **앱 정보 입력**:
+   - **Name**: `TrendRadar-Collector`
+   - **Type**: **script** 선택
+   - **Description**: `TrendRadar용 Reddit 데이터 수집기` (선택)
+   - **Redirect URI**: `http://localhost:8080`
+
+#### 2단계: 자격 증명 확인
+
+앱 생성 후 표시되는 정보:
+- **Client ID**: 앱 이름 바로 아래 14자 문자열
+- **Client Secret**: 더 긴 시크릿 문자열
+
+#### 3단계: 환경 변수 설정
+
+```env
+REDDIT_CLIENT_ID=발급받은_Client_ID
+REDDIT_CLIENT_SECRET=발급받은_Client_Secret
+REDDIT_USER_AGENT=python:TrendRadar:1.0.0 (by /u/your_username)
+```
+
+**User-Agent 형식 (필수)**:
+```
+<platform>:<app_id>:<version> (by /u/<your_username>)
+```
+
+> ⚠️ **중요**: User-Agent가 없으면 API 요청이 차단됩니다!
+
+#### 4단계: 테스트 (PRAW 라이브러리 사용)
+
+```bash
+pip install praw
+```
+
+```python
+import praw
+import os
+
+reddit = praw.Reddit(
+    client_id=os.getenv('REDDIT_CLIENT_ID'),
+    client_secret=os.getenv('REDDIT_CLIENT_SECRET'),
+    user_agent=os.getenv('REDDIT_USER_AGENT')
+)
+
+try:
+    subreddit = reddit.subreddit('technology')
+    for post in subreddit.hot(limit=5):
+        print(f"✅ {post.title}")
+except Exception as e:
+    print(f"❌ 연결 실패: {e}")
+```
+
+#### API 제한사항
+
+- **Rate Limit**: 60 requests/분 (OAuth 인증)
+- **User-Agent 필수**: 모든 요청에 고유한 User-Agent 포함 필수
+- **공식 문서**: [Reddit API 문서](https://www.reddit.com/dev/api/)
+
+---
 
 ## 기여 가이드
 
