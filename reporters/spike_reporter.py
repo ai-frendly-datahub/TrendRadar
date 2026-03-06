@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import logging
 from datetime import date
 from pathlib import Path
 from typing import Any
@@ -11,6 +12,8 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from analyzers.spike_detector import SpikeDetector
 from analyzers.cross_channel_analyzer import CrossChannelAnalyzer
+
+logger = logging.getLogger(__name__)
 
 
 def generate_spike_report(
@@ -51,8 +54,10 @@ def generate_spike_report(
             min_gap=1.5,
         )
         channel_gaps = gaps[:10]
-    except Exception:
-        pass  # 데이터 부족 시 무시
+    except KeyError as e:
+        logger.warning(f"Missing data for cross-channel analysis: {e}")
+    except Exception as e:
+        logger.error(f"Cross-channel analysis failed: {e}", exc_info=True)
 
     # 템플릿 렌더링
     template_dir = Path(__file__).parent / "templates"
@@ -80,6 +85,7 @@ def generate_spike_report(
     output_file = output_dir / f"spike_{target_date.isoformat()}.html"
     output_file.write_text(html_content, encoding="utf-8")
 
+    logger.info(f"Spike report generated: {output_file}")
     print(f"급상승 리포트 생성 완료: {output_file}")
 
 

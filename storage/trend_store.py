@@ -4,11 +4,41 @@
 from __future__ import annotations
 
 import json
+import logging
 from datetime import datetime
 from pathlib import Path
 from typing import Any
 
 import duckdb
+
+logger = logging.getLogger(__name__)
+
+
+def _validate_date_format(date_str: str) -> datetime | None:
+    """날짜 문자열을 검증하고 datetime 객체로 변환합니다.
+    
+    Args:
+        date_str: 날짜 문자열 (YYYY-MM-DD 또는 YYYY-MM)
+        
+    Returns:
+        datetime 객체 또는 None (파싱 실패 시)
+    """
+    if not date_str or not isinstance(date_str, str):
+        logger.warning(f"Invalid date format: {date_str} (type: {type(date_str).__name__})")
+        return None
+    
+    try:
+        return datetime.fromisoformat(date_str)
+    except ValueError:
+        # "2024-01" 형식 (월 단위)
+        if len(date_str) == 7:
+            try:
+                return datetime.fromisoformat(f"{date_str}-01")
+            except ValueError:
+                logger.warning(f"Failed to parse date: {date_str}")
+                return None
+        logger.warning(f"Unsupported date format: {date_str}")
+        return None
 
 
 def _get_db_path(db_path: Path | None = None) -> Path:
@@ -20,17 +50,22 @@ def _get_db_path(db_path: Path | None = None) -> Path:
 
 def _ensure_table_exists(conn: duckdb.DuckDBPyConnection) -> None:
     """trend_points 테이블이 없으면 생성합니다."""
-    conn.execute("""
-        CREATE TABLE IF NOT EXISTS trend_points (
-            source TEXT NOT NULL,
-            keyword TEXT NOT NULL,
-            ts TIMESTAMP NOT NULL,
-            value_normalized FLOAT NOT NULL,
-            meta_json TEXT,
-            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            PRIMARY KEY (source, keyword, ts)
-        )
-    """)
+    try:
+        conn.execute("""
+            CREATE TABLE IF NOT EXISTS trend_points (
+                source TEXT NOT NULL,
+                keyword TEXT NOT NULL,
+                ts TIMESTAMP NOT NULL,
+                value_normalized FLOAT NOT NULL,
+                meta_json TEXT,
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                PRIMARY KEY (source, keyword, ts)
+            )
+        """)
+        logger.debug("trend_points table ensured")
+    except Exception as e:
+        logger.error(f"Failed to ensure table exists: {e}", exc_info=True)
+        raise
 
 
 def save_trend_points(
@@ -56,47 +91,90 @@ def save_trend_points(
     db_file = _get_db_path(db_path)
     db_file.parent.mkdir(parents=True, exist_ok=True)
 
-    conn = duckdb.connect(str(db_file))
-
+    conn = None
     try:
+        conn = duckdb.connect(str(db_file))
         _ensure_table_exists(conn)
 
         inserted = 0
-        for point in points:
-            date_str = point.get("date")
-            value = point.get("value", 0.0)
-
-            # 날짜 파싱
+        failed = 0
+        
+        for idx, point in enumerate(points):
             try:
-                ts = datetime.fromisoformat(date_str)
-            except ValueError:
-                # "2024-01" 형식 (월 단위)
-                if len(date_str) == 7:
-                    ts = datetime.fromisoformat(f"{date_str}-01")
-                else:
+                date_str = point.get("date")
+                value = point.get("value", 0.0)
+
+                # 날짜 파싱 및 검증
+                ts = _validate_date_format(date_str)
+                if ts is None:
+                    logger.warning(
+                        f"Skipping point {idx} for {keyword}: invalid date '{date_str}'"
+                    )
+                    failed += 1
                     continue
 
-            # 메타데이터 JSON 생성
-            meta_dict = metadata.copy() if metadata else {}
-            meta_dict.update({
-                "original_period": point.get("period", date_str),
-            })
-            meta_json = json.dumps(meta_dict, ensure_ascii=False)
+                # 메타데이터 JSON 생성
+                meta_dict = metadata.copy() if metadata else {}
+                meta_dict.update({
+                    "original_period": point.get("period", date_str),
+                })
+                meta_json = json.dumps(meta_dict, ensure_ascii=False)
 
-            # INSERT OR REPLACE
-            conn.execute("""
-                INSERT OR REPLACE INTO trend_points
-                (source, keyword, ts, value_normalized, meta_json)
-                VALUES (?, ?, ?, ?, ?)
-            """, [source, keyword, ts, value, meta_json])
+                # INSERT OR REPLACE
+                try:
+                    conn.execute("""
+                        INSERT OR REPLACE INTO trend_points
+                        (source, keyword, ts, value_normalized, meta_json)
+                        VALUES (?, ?, ?, ?, ?)
+                    """, [source, keyword, ts, value, meta_json])
+                    inserted += 1
+                except duckdb.IntegrityError as e:
+                    logger.error(
+                        f"Integrity error inserting {source}/{keyword}/{ts}: {e}"
+                    )
+                    failed += 1
+                except Exception as e:
+                    logger.error(
+                        f"Failed to insert point {idx} for {keyword}: {e}",
+                        exc_info=True
+                    )
+                    failed += 1
 
-            inserted += 1
+            except Exception as e:
+                logger.error(
+                    f"Unexpected error processing point {idx}: {e}",
+                    exc_info=True
+                )
+                failed += 1
 
-        conn.commit()
+        try:
+            conn.commit()
+            logger.info(
+                f"Saved {inserted} points for {source}/{keyword} "
+                f"({failed} failed)"
+            )
+        except Exception as e:
+            logger.error(f"Failed to commit transaction: {e}", exc_info=True)
+            conn.rollback()
+            return 0
+
         return inserted
 
+    except duckdb.CatalogException as e:
+        logger.error(f"Database catalog error: {e}", exc_info=True)
+        return 0
+    except duckdb.IOException as e:
+        logger.error(f"Database I/O error: {e}", exc_info=True)
+        return 0
+    except Exception as e:
+        logger.error(f"Unexpected error in save_trend_points: {e}", exc_info=True)
+        return 0
     finally:
-        conn.close()
+        if conn is not None:
+            try:
+                conn.close()
+            except Exception as e:
+                logger.warning(f"Error closing database connection: {e}")
 
 
 def query_trend_points(
@@ -121,11 +199,12 @@ def query_trend_points(
     db_file = _get_db_path(db_path)
 
     if not db_file.exists():
+        logger.debug(f"Database file not found: {db_file}")
         return []
 
-    conn = duckdb.connect(str(db_file))
-
+    conn = None
     try:
+        conn = duckdb.connect(str(db_file))
         _ensure_table_exists(conn)
 
         where_clauses = []
@@ -156,7 +235,12 @@ def query_trend_points(
             ORDER BY ts ASC
         """
 
-        result = conn.execute(query, params).fetchall()
+        try:
+            result = conn.execute(query, params).fetchall()
+            logger.debug(f"Query returned {len(result)} rows")
+        except Exception as e:
+            logger.error(f"Query execution failed: {e}", exc_info=True)
+            return []
 
         return [
             {
@@ -169,8 +253,18 @@ def query_trend_points(
             for row in result
         ]
 
+    except duckdb.IOException as e:
+        logger.error(f"Database I/O error during query: {e}", exc_info=True)
+        return []
+    except Exception as e:
+        logger.error(f"Unexpected error in query_trend_points: {e}", exc_info=True)
+        return []
     finally:
-        conn.close()
+        if conn is not None:
+            try:
+                conn.close()
+            except Exception as e:
+                logger.warning(f"Error closing database connection: {e}")
 
 
 def get_keywords_by_set(
@@ -189,20 +283,36 @@ def get_keywords_by_set(
     db_file = _get_db_path(db_path)
 
     if not db_file.exists():
+        logger.debug(f"Database file not found: {db_file}")
         return []
 
-    conn = duckdb.connect(str(db_file))
-
+    conn = None
     try:
+        conn = duckdb.connect(str(db_file))
         _ensure_table_exists(conn)
 
-        result = conn.execute("""
-            SELECT DISTINCT keyword
-            FROM trend_points
-            WHERE meta_json LIKE ?
-        """, [f'%"set_name": "{set_name}"%']).fetchall()
+        try:
+            result = conn.execute("""
+                SELECT DISTINCT keyword
+                FROM trend_points
+                WHERE meta_json LIKE ?
+            """, [f'%"set_name": "{set_name}"%']).fetchall()
+            logger.debug(f"Found {len(result)} keywords for set '{set_name}'")
+        except Exception as e:
+            logger.error(f"Query failed for set '{set_name}': {e}", exc_info=True)
+            return []
 
         return [row[0] for row in result]
 
+    except duckdb.IOException as e:
+        logger.error(f"Database I/O error: {e}", exc_info=True)
+        return []
+    except Exception as e:
+        logger.error(f"Unexpected error in get_keywords_by_set: {e}", exc_info=True)
+        return []
     finally:
-        conn.close()
+        if conn is not None:
+            try:
+                conn.close()
+            except Exception as e:
+                logger.warning(f"Error closing database connection: {e}")
