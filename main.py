@@ -19,6 +19,10 @@ from collectors.naver_shopping_collector import NaverShoppingCollector
 from collectors.reddit_collector import RedditCollector
 from collectors.wikipedia_collector import WikipediaPageviewsCollector
 from collectors.youtube_collector import YouTubeTrendingCollector
+from collectors.hackernews_collector import HackerNewsCollector
+from collectors.devto_collector import DevtoCollector
+from collectors.stackexchange_collector import StackExchangeCollector
+from collectors.producthunt_collector import ProductHuntCollector
 from storage import trend_store
 from reporters.html_reporter import generate_daily_report
 from analyzers.spike_detector import SpikeDetector
@@ -484,6 +488,120 @@ def collect_trends(
             errors.append(f"Naver Shopping: {str(e)[:100]}")
             print(f"  - Naver Shopping failed: {e}")
 
+
+    # HackerNews
+    if "hackernews" in channels and (source_filter is None or source_filter == "hackernews"):
+        try:
+            hn_collector = HackerNewsCollector()
+            hn_stories = hn_collector.collect(limit=30)
+
+            hn_raw_records: list[dict[str, Any]] = []
+            for story in hn_stories:
+                story_record = {
+                    "keyword": story.get("title", ""),
+                    "platform": "hackernews",
+                    "value": float(story.get("score", 0)),
+                    "timestamp": str(story.get("time", 0)),
+                }
+                hn_raw_records.append(story_record)
+
+            if raw_logger is not None and hn_raw_records:
+                raw_path = raw_logger.log(hn_raw_records, source_name="hackernews")
+                print(f"  - Raw JSONL logged: {raw_path}")
+
+            total_points += len(hn_stories)
+            sources_succeeded += 1
+            print(f"  - HackerNews: {len(hn_stories)} stories")
+
+        except Exception as e:
+            errors.append(f"HackerNews: {str(e)[:100]}")
+            print(f"  - HackerNews failed: {e}")
+
+    # Dev.to
+    if "devto" in channels and (source_filter is None or source_filter == "devto"):
+        try:
+            devto_collector = DevtoCollector()
+            devto_articles = devto_collector.collect(limit=30)
+
+            devto_raw_records: list[dict[str, Any]] = []
+            for article in devto_articles:
+                article_record = {
+                    "keyword": article.get("title", ""),
+                    "platform": "devto",
+                    "value": float(article.get("positive_reactions_count", 0)),
+                    "timestamp": article.get("published_at", ""),
+                }
+                devto_raw_records.append(article_record)
+
+            if raw_logger is not None and devto_raw_records:
+                raw_path = raw_logger.log(devto_raw_records, source_name="devto")
+                print(f"  - Raw JSONL logged: {raw_path}")
+
+            total_points += len(devto_articles)
+            sources_succeeded += 1
+            print(f"  - Dev.to: {len(devto_articles)} articles")
+
+        except Exception as e:
+            errors.append(f"Dev.to: {str(e)[:100]}")
+            print(f"  - Dev.to failed: {e}")
+
+    # Stack Exchange
+    if "stackexchange" in channels and (source_filter is None or source_filter == "stackexchange"):
+        try:
+            se_collector = StackExchangeCollector()
+            se_questions = se_collector.collect(limit=30)
+
+            se_raw_records: list[dict[str, Any]] = []
+            for question in se_questions:
+                question_record = {
+                    "keyword": question.get("title", ""),
+                    "platform": "stackexchange",
+                    "value": float(question.get("score", 0)),
+                    "timestamp": str(question.get("creation_date", 0)),
+                }
+                se_raw_records.append(question_record)
+
+            if raw_logger is not None and se_raw_records:
+                raw_path = raw_logger.log(se_raw_records, source_name="stackexchange")
+                print(f"  - Raw JSONL logged: {raw_path}")
+
+            total_points += len(se_questions)
+            sources_succeeded += 1
+            print(f"  - Stack Exchange: {len(se_questions)} questions")
+
+        except Exception as e:
+            errors.append(f"Stack Exchange: {str(e)[:100]}")
+            print(f"  - Stack Exchange failed: {e}")
+
+    # Product Hunt
+    if "producthunt" in channels and (source_filter is None or source_filter == "producthunt"):
+        try:
+            ph_collector = ProductHuntCollector()
+            ph_products = ph_collector.collect(limit=30)
+
+            ph_raw_records: list[dict[str, Any]] = []
+            for product in ph_products:
+                product_record = {
+                    "keyword": product.get("name", ""),
+                    "platform": "producthunt",
+                    "value": float(product.get("votes_count", 0)),
+                    "timestamp": product.get("created_at", ""),
+                }
+                ph_raw_records.append(product_record)
+
+            if raw_logger is not None and ph_raw_records:
+                raw_path = raw_logger.log(ph_raw_records, source_name="producthunt")
+                print(f"  - Raw JSONL logged: {raw_path}")
+
+            total_points += len(ph_products)
+            sources_succeeded += 1
+            print(f"  - Product Hunt: {len(ph_products)} products")
+
+        except Exception as e:
+            errors.append(f"Product Hunt: {str(e)[:100]}")
+            print(f"  - Product Hunt failed: {e}")
+
+
     return total_points, sources_succeeded, errors
 
 
@@ -678,7 +796,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--source",
-        choices=["naver", "google", "google_trending", "wikipedia"],
+        choices=["naver", "google", "google_trending", "wikipedia", "hackernews", "devto", "stackexchange", "producthunt"],
         default=None,
         help="특정 소스만 수집 (기본값: 모두)",
     )

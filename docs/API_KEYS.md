@@ -413,3 +413,206 @@ REDDIT_USER_AGENT=python:TrendRadar:1.0.0 (by /u/your_username)
 ---
 
 **마지막 업데이트**: 2026년 3월 5일
+
+---
+
+## 🆕 새로운 API 수집기 (4개)
+
+### 1. HackerNews Collector (❌ 불필요)
+
+**용도**: HackerNews 상위 스토리 수집 (기술 뉴스, 트렌드)
+
+#### 특징
+- **인증 불필요**: 공개 Firebase API 사용
+- **Rate Limit**: 10,000 requests/hour
+- **응답 시간**: 빠름 (캐시됨)
+
+#### 사용 방법
+
+```python
+from collectors.hackernews_collector import HackerNewsCollector
+
+collector = HackerNewsCollector()
+stories = collector.collect(limit=30)
+```
+
+#### 데이터 필드
+- `id`: 스토리 ID
+- `title`: 제목
+- `url`: 링크
+- `score`: 점수
+- `by`: 작성자
+- `time`: 생성 시간 (Unix timestamp)
+- `descendants`: 댓글 수
+
+#### 📚 참고 자료
+- [HackerNews API 문서](https://github.com/HackerNews/API)
+
+---
+
+### 2. Dev.to Collector (❌ 불필요)
+
+**용도**: Dev.to 인기 기술 글 수집 (개발자 커뮤니티)
+
+#### 특징
+- **인증 불필요**: 공개 API 사용
+- **Rate Limit**: 10 requests/second
+- **응답 시간**: 빠름
+
+#### 사용 방법
+
+```python
+from collectors.devto_collector import DevtoCollector
+
+collector = DevtoCollector()
+articles = collector.collect(limit=30, tag="python")
+```
+
+#### 데이터 필드
+- `id`: 글 ID
+- `title`: 제목
+- `url`: 링크
+- `positive_reactions_count`: 좋아요 수
+- `comments_count`: 댓글 수
+- `published_at`: 발행 시간
+- `author`: 작성자 이름
+- `tags`: 태그 리스트
+
+#### 📚 참고 자료
+- [Dev.to API 문서](https://developers.forem.com/api)
+
+---
+
+### 3. Stack Exchange Collector (✅ 권장)
+
+**용도**: Stack Overflow 트렌딩 질문 수집 (기술 Q&A)
+
+#### 특징
+- **API 키 권장**: 더 높은 Rate Limit
+- **Rate Limit**: 
+  - 키 없음: 300 requests/day
+  - 키 있음: 10,000 requests/day
+- **응답 시간**: 중간
+
+#### 📍 등록 페이지
+- https://stackapps.com/apps/oauth/register
+
+#### 🔑 발급 단계
+
+1. **Stack Apps 계정 로그인**
+   - https://stackapps.com 접속
+   - Stack Overflow 계정으로 로그인
+
+2. **애플리케이션 등록**
+   - **Register your application**
+   - **Application Name**: `TrendRadar-StackExchange`
+   - **OAuth Domain**: `localhost`
+   - **Application Website**: `http://localhost`
+
+3. **API 키 확인**
+   - 등록 후 **Client ID** 확인
+   - API Key는 선택사항 (권장)
+
+#### 📦 환경 변수
+
+```bash
+STACK_EXCHANGE_API_KEY=your_api_key_here
+```
+
+#### 사용 방법
+
+```python
+from collectors.stackexchange_collector import StackExchangeCollector
+
+collector = StackExchangeCollector(api_key="your_key")
+questions = collector.collect(site="stackoverflow", limit=30)
+```
+
+#### 데이터 필드
+- `question_id`: 질문 ID
+- `title`: 제목
+- `link`: 링크
+- `score`: 점수
+- `view_count`: 조회수
+- `answer_count`: 답변 수
+- `is_answered`: 답변 여부
+- `tags`: 태그 리스트
+
+#### 📚 참고 자료
+- [Stack Exchange API 문서](https://api.stackexchange.com/docs)
+- [Stack Apps](https://stackapps.com)
+
+---
+
+### 4. Product Hunt Collector (✅ 권장)
+
+**용도**: Product Hunt 신규 제품 수집 (스타트업, 신제품)
+
+#### 특징
+- **API 키 필수**: GraphQL API 사용
+- **Rate Limit**: 500 requests/day (free tier)
+- **응답 시간**: 중간
+
+#### 📍 등록 페이지
+- https://www.producthunt.com/api/oauth/authorize
+
+#### 🔑 발급 단계
+
+1. **Product Hunt 계정 로그인**
+   - https://www.producthunt.com 접속
+   - 계정 생성 또는 로그인
+
+2. **API 토큰 생성**
+   - [Settings](https://www.producthunt.com/settings) → **API**
+   - **Generate Token** 클릭
+   - 토큰 복사
+
+3. **토큰 저장**
+   - 환경 변수에 저장
+
+#### 📦 환경 변수
+
+```bash
+PRODUCT_HUNT_API_KEY=your_api_token_here
+```
+
+#### 사용 방법
+
+```python
+from collectors.producthunt_collector import ProductHuntCollector
+
+collector = ProductHuntCollector(api_key="your_key")
+products = collector.collect(limit=30)
+```
+
+#### 데이터 필드
+- `id`: 제품 ID
+- `name`: 제품명
+- `tagline`: 한 줄 설명
+- `description`: 상세 설명
+- `url`: 링크
+- `votes_count`: 투표 수
+- `comments_count`: 댓글 수
+- `created_at`: 생성 시간
+- `makers`: 제작자 정보
+
+#### 📚 참고 자료
+- [Product Hunt API 문서](https://api.producthunt.com/v2/docs)
+
+---
+
+## 📊 전체 API 키 요약 (업데이트)
+
+| 데이터 소스 | API 키 필요 | 우선순위 | Rate Limit |
+|------------|------------|---------|-----------|
+| **Naver DataLab** | ✅ 필수 | 🔴 필수 | 1,000/day |
+| **YouTube Data API v3** | ✅ 필수 | 🟡 선택 | 10,000/day |
+| **Reddit API** | ✅ 필수 | 🟡 선택 | 60/min |
+| **Naver Shopping Insight** | ✅ 필수 | 🟢 선택 | 1,000/day |
+| **Stack Exchange API** | ✅ 권장 | 🟡 선택 | 10,000/day (with key) |
+| **Product Hunt API** | ✅ 필수 | 🟡 선택 | 500/day |
+| Google Trends | ❌ 불필요 | 🔴 필수 | - |
+| Google Trending Searches | ❌ 불필요 | 🟡 선택 | - |
+| Wikipedia Pageviews | ❌ 불필요 | 🟡 선택 | - |
+| **HackerNews API** | ❌ 불필요 | 🟡 선택 | 10,000/hour |
+| **Dev.to API** | ❌ 불필요 | 🟡 선택 | 10/sec |

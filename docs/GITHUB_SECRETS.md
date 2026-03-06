@@ -372,6 +372,42 @@ API Key: AIzaSyDaGmWKa4JsXZ...
 
 ---
 
+## 🆕 새로운 API 키 (선택)
+
+### Stack Exchange API Key
+
+```
+Secret Name: STACK_EXCHANGE_API_KEY
+Value: <your_stack_exchange_api_key>
+```
+
+**설정 방법**:
+1. GitHub 리포지토리 Settings > Secrets and variables > Actions
+2. **New repository secret** 클릭
+3. Name: `STACK_EXCHANGE_API_KEY`
+4. Value: Stack Exchange API 키 입력
+5. **Add secret** 클릭
+
+**참고**: 선택사항이지만, 설정하면 Rate Limit이 10배 증가합니다.
+
+### Product Hunt API Key
+
+```
+Secret Name: PRODUCT_HUNT_API_KEY
+Value: <your_product_hunt_api_token>
+```
+
+**설정 방법**:
+1. GitHub 리포지토리 Settings > Secrets and variables > Actions
+2. **New repository secret** 클릭
+3. Name: `PRODUCT_HUNT_API_KEY`
+4. Value: Product Hunt API 토큰 입력
+5. **Add secret** 클릭
+
+**참고**: 필수입니다. Product Hunt API를 사용하려면 반드시 설정해야 합니다.
+
+---
+
 ## ✅ 체크리스트
 
 설정 완료 전 이 체크리스트를 확인하세요:
