@@ -15,7 +15,10 @@ import yaml
 from collectors.google_collector import GoogleTrendsCollector
 from collectors.google_trending_collector import GoogleTrendingCollector
 from collectors.naver_collector import NaverDataLabCollector
+from collectors.naver_shopping_collector import NaverShoppingCollector
+from collectors.reddit_collector import RedditCollector
 from collectors.wikipedia_collector import WikipediaPageviewsCollector
+from collectors.youtube_collector import YouTubeTrendingCollector
 from storage import trend_store
 from reporters.html_reporter import generate_daily_report
 from analyzers.spike_detector import SpikeDetector
@@ -60,7 +63,9 @@ def _sync_keyword_to_search_index(
     source: str,
     keyword_set: dict[str, Any],
 ) -> None:
-    related_keywords = [k for k in keyword_set.get("keywords", []) if isinstance(k, str) and k != keyword]
+    related_keywords = [
+        k for k in keyword_set.get("keywords", []) if isinstance(k, str) and k != keyword
+    ]
     set_name = str(keyword_set.get("name", ""))
     context_parts = [
         f"set:{set_name}",
@@ -126,7 +131,9 @@ def collect_trends(
                     db_path=db_path,
                 )
                 total_points += len(points)
-                naver_raw_records.extend(_build_raw_records(keyword=keyword, source="naver", points=points))
+                naver_raw_records.extend(
+                    _build_raw_records(keyword=keyword, source="naver", points=points)
+                )
                 if search_index is not None:
                     _sync_keyword_to_search_index(
                         search_index=search_index,
@@ -171,7 +178,9 @@ def collect_trends(
                     db_path=db_path,
                 )
                 google_points += len(points)
-                google_raw_records.extend(_build_raw_records(keyword=keyword, source="google", points=points))
+                google_raw_records.extend(
+                    _build_raw_records(keyword=keyword, source="google", points=points)
+                )
                 if search_index is not None:
                     _sync_keyword_to_search_index(
                         search_index=search_index,
@@ -193,7 +202,9 @@ def collect_trends(
             print(f"  - Google Trends failed: {e}")
 
     # Google Trending (daily/realtime)
-    if "google_trending" in channels and (source_filter is None or source_filter == "google_trending"):
+    if "google_trending" in channels and (
+        source_filter is None or source_filter == "google_trending"
+    ):
         try:
             trending_collector = GoogleTrendingCollector()
             trending_data = trending_collector.collect(
@@ -274,7 +285,9 @@ def collect_trends(
                     db_path=db_path,
                 )
                 wiki_points += len(points)
-                wiki_raw_records.extend(_build_raw_records(keyword=keyword, source="wikipedia", points=points))
+                wiki_raw_records.extend(
+                    _build_raw_records(keyword=keyword, source="wikipedia", points=points)
+                )
                 if search_index is not None:
                     _sync_keyword_to_search_index(
                         search_index=search_index,
@@ -295,7 +308,184 @@ def collect_trends(
             errors.append(f"Wikipedia Pageviews: {str(e)[:100]}")
             print(f"  - Wikipedia Pageviews failed: {e}")
 
+    # Reddit Trending
+    if "reddit" in channels and (source_filter is None or source_filter == "reddit"):
+        try:
+            reddit_collector = RedditCollector(
+                client_id=os.environ.get("REDDIT_CLIENT_ID"),
+                client_secret=os.environ.get("REDDIT_CLIENT_SECRET"),
+            )
+
+            reddit_keywords = reddit_collector.collect_trending_keywords(
+                subreddits=filters.get("reddit_subreddits", ["worldnews", "technology", "science"]),
+                time_filter=filters.get("reddit_time_filter", "day"),
+                limit=filters.get("reddit_limit", 25),
+            )
+
+            reddit_points = 0
+            reddit_raw_records: list[dict[str, Any]] = []
+            for keyword, count in reddit_keywords.items():
+                # Convert keyword frequency to trend points format
+                points = [{"date": str(datetime.now(timezone.utc).date()), "value": float(count)}]
+                trend_store.save_trend_points(
+                    source="reddit",
+                    keyword=keyword,
+                    points=points,
+                    metadata={
+                        "set_name": keyword_set.get("name"),
+                        "subreddits": filters.get(
+                            "reddit_subreddits", ["worldnews", "technology", "science"]
+                        ),
+                        "time_filter": filters.get("reddit_time_filter", "day"),
+                    },
+                    db_path=db_path,
+                )
+                reddit_points += 1
+                reddit_raw_records.extend(
+                    _build_raw_records(keyword=keyword, source="reddit", points=points)
+                )
+                if search_index is not None:
+                    _sync_keyword_to_search_index(
+                        search_index=search_index,
+                        keyword=keyword,
+                        source="reddit",
+                        keyword_set=keyword_set,
+                    )
+
+            if raw_logger is not None and reddit_raw_records:
+                raw_path = raw_logger.log(reddit_raw_records, source_name="reddit")
+                print(f"  - Raw JSONL logged: {raw_path}")
+
+            total_points += reddit_points
+            sources_succeeded += 1
+            print(f"  - Reddit Trending: {len(reddit_keywords)} keywords, {reddit_points} points")
+
+        except Exception as e:
+            errors.append(f"Reddit Trending: {str(e)[:100]}")
+            print(f"  - Reddit Trending failed: {e}")
+
+    # YouTube Trending
+    if "youtube" in channels and (source_filter is None or source_filter == "youtube"):
+        try:
+            youtube_collector = YouTubeTrendingCollector(
+                api_key=os.environ.get("YOUTUBE_API_KEY"),
+            )
+
+            youtube_keywords = youtube_collector.collect_trending_keywords(
+                region_code=filters.get("youtube_region", "KR"),
+                max_results=filters.get("youtube_max_results", 50),
+            )
+
+            youtube_points = 0
+            youtube_raw_records: list[dict[str, Any]] = []
+            for keyword, count in youtube_keywords.items():
+                # Convert keyword frequency to trend points format
+                points = [{"date": str(datetime.now(timezone.utc).date()), "value": float(count)}]
+                trend_store.save_trend_points(
+                    source="youtube",
+                    keyword=keyword,
+                    points=points,
+                    metadata={
+                        "set_name": keyword_set.get("name"),
+                        "region_code": filters.get("youtube_region", "KR"),
+                    },
+                    db_path=db_path,
+                )
+                youtube_points += 1
+                youtube_raw_records.extend(
+                    _build_raw_records(keyword=keyword, source="youtube", points=points)
+                )
+                if search_index is not None:
+                    _sync_keyword_to_search_index(
+                        search_index=search_index,
+                        keyword=keyword,
+                        source="youtube",
+                        keyword_set=keyword_set,
+                    )
+
+            if raw_logger is not None and youtube_raw_records:
+                raw_path = raw_logger.log(youtube_raw_records, source_name="youtube")
+                print(f"  - Raw JSONL logged: {raw_path}")
+
+            total_points += youtube_points
+            sources_succeeded += 1
+            print(
+                f"  - YouTube Trending: {len(youtube_keywords)} keywords, {youtube_points} points"
+            )
+
+        except Exception as e:
+            errors.append(f"YouTube Trending: {str(e)[:100]}")
+            print(f"  - YouTube Trending failed: {e}")
+
+    # Naver Shopping
+    if "naver_shopping" in channels and (
+        source_filter is None or source_filter == "naver_shopping"
+    ):
+        try:
+            naver_shopping_collector = NaverShoppingCollector(
+                client_id=os.environ.get("NAVER_CLIENT_ID"),
+                client_secret=os.environ.get("NAVER_CLIENT_SECRET"),
+            )
+
+            shopping_category = filters.get("naver_shopping_category", "50000000")
+            shopping_trends = naver_shopping_collector.collect_category_trends(
+                category=shopping_category,
+                start_date=time_range.get("start", str(datetime.now(timezone.utc).date())),
+                end_date=time_range.get("end", str(datetime.now(timezone.utc).date())),
+                time_unit=filters.get("naver_shopping_time_unit", "date"),
+                device=filters.get("naver_shopping_device", ""),
+                gender=filters.get("naver_shopping_gender", ""),
+                ages=filters.get("naver_shopping_ages"),
+            )
+
+            shopping_points = 0
+            shopping_raw_records: list[dict[str, Any]] = []
+            for trend_item in shopping_trends:
+                category_name = trend_item.get("category", "")
+                points = trend_item.get("points", [])
+
+                trend_store.save_trend_points(
+                    source="naver_shopping",
+                    keyword=category_name,
+                    points=points,
+                    metadata={
+                        "set_name": keyword_set.get("name"),
+                        "category": shopping_category,
+                        "device": filters.get("naver_shopping_device", ""),
+                        "gender": filters.get("naver_shopping_gender", ""),
+                    },
+                    db_path=db_path,
+                )
+                shopping_points += len(points)
+                shopping_raw_records.extend(
+                    _build_raw_records(
+                        keyword=category_name, source="naver_shopping", points=points
+                    )
+                )
+                if search_index is not None:
+                    _sync_keyword_to_search_index(
+                        search_index=search_index,
+                        keyword=category_name,
+                        source="naver_shopping",
+                        keyword_set=keyword_set,
+                    )
+
+            if raw_logger is not None and shopping_raw_records:
+                raw_path = raw_logger.log(shopping_raw_records, source_name="naver_shopping")
+                print(f"  - Raw JSONL logged: {raw_path}")
+
+            total_points += shopping_points
+            sources_succeeded += 1
+            print(
+                f"  - Naver Shopping: {len(shopping_trends)} categories, {shopping_points} points"
+            )
+
+        except Exception as e:
+            errors.append(f"Naver Shopping: {str(e)[:100]}")
+            print(f"  - Naver Shopping failed: {e}")
+
     return total_points, sources_succeeded, errors
+
 
 def run_once(
     execute_collectors: bool = False,
@@ -377,11 +567,7 @@ def run_once(
         # 급상승 키워드 감지 및 리포트 생성
         print("\n  - 급상승 키워드 감지 중...")
         try:
-            detector = SpikeDetector(
-                db_path=db_path,
-                recent_days=7,
-                baseline_days=30
-            )
+            detector = SpikeDetector(db_path=db_path, recent_days=7, baseline_days=30)
             all_spikes = detector.detect_all_spikes(source=None, top_n=10)
 
             total_spikes = sum(len(v) for v in all_spikes.values())
@@ -408,6 +594,7 @@ def run_once(
         print("\n  - 리포트 인덱스 페이지 생성 중...")
         try:
             from reporters.index_generator import generate_index_page
+
             report_dir = report_output_dir or DEFAULT_REPORT_DIR
             generate_index_page(report_dir)
             print(f"  ✓ 인덱스 페이지 생성 완료")
