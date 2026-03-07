@@ -6,6 +6,7 @@ from __future__ import annotations
 from typing import Any, Literal
 
 import requests
+from trendradar.models import ContentItem
 
 
 SortType = Literal["hot", "new", "top", "rising", "controversial"]
@@ -46,9 +47,12 @@ class RedditCollector:
 
     def _authenticate(self) -> None:
         """OAuth 인증으로 access token을 발급받습니다."""
+        if self.client_id is None or self.client_secret is None:
+            return
+
         auth_url = "https://www.reddit.com/api/v1/access_token"
 
-        auth = (self.client_id, self.client_secret)
+        auth: tuple[str, str] = (self.client_id, self.client_secret)
         data = {"grant_type": "client_credentials"}
 
         try:
@@ -76,7 +80,7 @@ class RedditCollector:
         sort: SortType = "hot",
         time_filter: TimeFilter = "day",
         limit: int = 25,
-    ) -> list[dict[str, Any]]:
+    ) -> list[ContentItem]:
         """특정 서브레딧의 게시글을 수집합니다.
 
         Args:
@@ -107,27 +111,30 @@ class RedditCollector:
             raise RuntimeError(f"Reddit API 호출 실패: {e}") from e
 
         # 응답 파싱
-        posts = []
+        posts: list[ContentItem] = []
 
         for item in data.get("data", {}).get("children", []):
             post_data = item.get("data", {})
 
-            post = {
-                "post_id": post_data.get("id"),
-                "title": post_data.get("title"),
-                "author": post_data.get("author"),
-                "subreddit": post_data.get("subreddit"),
-                "created_utc": post_data.get("created_utc"),
-                "score": post_data.get("score", 0),
-                "upvote_ratio": post_data.get("upvote_ratio", 0.0),
-                "num_comments": post_data.get("num_comments", 0),
-                "url": post_data.get("url"),
-                "permalink": f"https://reddit.com{post_data.get('permalink')}",
-                "selftext": post_data.get("selftext", "")[:500],  # 처음 500자
-                "is_video": post_data.get("is_video", False),
-                "domain": post_data.get("domain"),
-                "flair": post_data.get("link_flair_text"),
-            }
+            post = ContentItem(
+                title=str(post_data.get("title", "")),
+                url=str(post_data.get("url", "")),
+                source="reddit",
+                author=str(post_data.get("author", "")),
+                score=float(post_data.get("score", 0)),
+                metadata={
+                    "post_id": post_data.get("id"),
+                    "subreddit": post_data.get("subreddit"),
+                    "created_utc": post_data.get("created_utc"),
+                    "upvote_ratio": post_data.get("upvote_ratio", 0.0),
+                    "num_comments": post_data.get("num_comments", 0),
+                    "permalink": f"https://reddit.com{post_data.get('permalink')}",
+                    "selftext": str(post_data.get("selftext", ""))[:500],
+                    "is_video": post_data.get("is_video", False),
+                    "domain": post_data.get("domain"),
+                    "flair": post_data.get("link_flair_text"),
+                },
+            )
 
             posts.append(post)
 
@@ -137,7 +144,7 @@ class RedditCollector:
         self,
         time_filter: TimeFilter = "day",
         limit: int = 25,
-    ) -> list[dict[str, Any]]:
+    ) -> list[ContentItem]:
         """r/popular (전체 인기 게시글)을 수집합니다.
 
         Args:
@@ -162,22 +169,25 @@ class RedditCollector:
         except requests.exceptions.RequestException as e:
             raise RuntimeError(f"Reddit API 호출 실패: {e}") from e
 
-        posts = []
+        posts: list[ContentItem] = []
 
         for item in data.get("data", {}).get("children", []):
             post_data = item.get("data", {})
 
-            post = {
-                "post_id": post_data.get("id"),
-                "title": post_data.get("title"),
-                "author": post_data.get("author"),
-                "subreddit": post_data.get("subreddit"),
-                "created_utc": post_data.get("created_utc"),
-                "score": post_data.get("score", 0),
-                "num_comments": post_data.get("num_comments", 0),
-                "url": post_data.get("url"),
-                "permalink": f"https://reddit.com{post_data.get('permalink')}",
-            }
+            post = ContentItem(
+                title=str(post_data.get("title", "")),
+                url=str(post_data.get("url", "")),
+                source="reddit",
+                author=str(post_data.get("author", "")),
+                score=float(post_data.get("score", 0)),
+                metadata={
+                    "post_id": post_data.get("id"),
+                    "subreddit": post_data.get("subreddit"),
+                    "created_utc": post_data.get("created_utc"),
+                    "num_comments": post_data.get("num_comments", 0),
+                    "permalink": f"https://reddit.com{post_data.get('permalink')}",
+                },
+            )
 
             posts.append(post)
 
@@ -207,7 +217,7 @@ class RedditCollector:
 
             for post in posts:
                 # 제목에서 단어 추출
-                title = post.get("title", "")
+                title = post.title
                 for word in title.split():
                     if len(word) > 2:  # 2글자 이하 제외
                         word_lower = word.lower().strip(".,!?")
@@ -224,15 +234,13 @@ class RedditCollector:
                 )
 
                 for post in posts:
-                    title = post.get("title", "")
+                    title = post.title
                     for word in title.split():
                         if len(word) > 2:
                             word_lower = word.lower().strip(".,!?")
                             keyword_counts[word_lower] = keyword_counts.get(word_lower, 0) + 1
 
         # 빈도순 정렬
-        sorted_keywords = dict(
-            sorted(keyword_counts.items(), key=lambda x: x[1], reverse=True)
-        )
+        sorted_keywords = dict(sorted(keyword_counts.items(), key=lambda x: x[1], reverse=True))
 
         return sorted_keywords

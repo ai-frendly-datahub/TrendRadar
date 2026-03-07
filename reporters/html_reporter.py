@@ -5,14 +5,14 @@ from __future__ import annotations
 
 from datetime import date
 from pathlib import Path
-from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from trendradar.models import KeywordSet
 
 
 def generate_daily_report(
     target_date: date,
-    keyword_sets: list[dict[str, Any]],
+    keyword_sets: list[KeywordSet],
     db_path: Path | None = None,
     output_dir: Path | None = None,
 ) -> None:
@@ -35,11 +35,11 @@ def generate_daily_report(
     sections = []
 
     for kw_set in keyword_sets:
-        if not kw_set.get("enabled", True):
+        if not kw_set.enabled:
             continue
 
-        set_name = kw_set.get("name", "Unknown")
-        keywords = kw_set.get("keywords", [])
+        set_name = kw_set.name or "Unknown"
+        keywords = kw_set.keywords
 
         # 데이터 조회 (최근 30일)
         start_date = str(target_date.replace(day=1))  # 월초부터
@@ -53,17 +53,21 @@ def generate_daily_report(
                 end_date=end_date,
                 db_path=db_path,
             )
-            trend_data.append({
-                "keyword": keyword,
-                "points": points,
-                "latest_value": points[-1]["value"] if points else 0,
-            })
+            trend_data.append(
+                {
+                    "keyword": keyword,
+                    "points": points,
+                    "latest_value": points[-1].value if points else 0,
+                }
+            )
 
-        sections.append({
-            "name": set_name,
-            "description": kw_set.get("description", ""),
-            "trend_data": trend_data,
-        })
+        sections.append(
+            {
+                "name": set_name,
+                "description": kw_set.description,
+                "trend_data": trend_data,
+            }
+        )
 
     # 템플릿 렌더링
     template_dir = Path(__file__).parent / "templates"

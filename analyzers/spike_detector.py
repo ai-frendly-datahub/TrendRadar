@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 from storage import trend_store
+from trendradar.models import TrendPoint
 
 
 SpikeType = Literal["surge", "emerging", "sustained", "viral"]
@@ -130,7 +131,7 @@ class SpikeDetector:
 
                 signal = SpikeSignal(
                     keyword=keyword,
-                    source=recent_by_keyword[keyword][0].get("source", "unknown"),
+                    source=recent_by_keyword[keyword][0].source,
                     spike_type="surge",
                     current_value=recent_avg,
                     baseline_value=baseline_avg,
@@ -215,7 +216,7 @@ class SpikeDetector:
 
             signal = SpikeSignal(
                 keyword=keyword,
-                source=recent_by_keyword[keyword][0].get("source", "unknown"),
+                source=recent_by_keyword[keyword][0].source,
                 spike_type="emerging",
                 current_value=recent_avg,
                 baseline_value=baseline_avg,
@@ -267,7 +268,7 @@ class SpikeDetector:
 
         for keyword, keyword_points in by_keyword.items():
             # 시간순 정렬
-            sorted_points = sorted(keyword_points, key=lambda x: x["ts"])
+            sorted_points = sorted(keyword_points, key=lambda x: x.timestamp)
 
             if len(sorted_points) < window_days:
                 continue
@@ -290,7 +291,7 @@ class SpikeDetector:
 
                 signal = SpikeSignal(
                     keyword=keyword,
-                    source=keyword_points[0].get("source", "unknown"),
+                    source=keyword_points[0].source,
                     spike_type="viral",
                     current_value=recent_avg,
                     baseline_value=early_avg,
@@ -330,12 +331,12 @@ class SpikeDetector:
         }
 
     @staticmethod
-    def _group_by_keyword(points: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+    def _group_by_keyword(points: list[TrendPoint]) -> dict[str, list[TrendPoint]]:
         """데이터 포인트를 키워드별로 그룹화."""
-        grouped: dict[str, list[dict[str, Any]]] = {}
+        grouped: dict[str, list[TrendPoint]] = {}
 
         for point in points:
-            keyword = point.get("keyword", "")
+            keyword = point.keyword
             if keyword not in grouped:
                 grouped[keyword] = []
             grouped[keyword].append(point)
@@ -343,12 +344,12 @@ class SpikeDetector:
         return grouped
 
     @staticmethod
-    def _calculate_average(points: list[dict[str, Any]]) -> float:
+    def _calculate_average(points: list[TrendPoint]) -> float:
         """평균 값 계산."""
         if not points:
             return 0.0
 
-        total = sum(p.get("value", 0) for p in points)
+        total = sum(p.value for p in points)
         return total / len(points)
 
     @staticmethod

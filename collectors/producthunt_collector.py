@@ -8,6 +8,7 @@ from typing import Any, ClassVar
 
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
+from trendradar.models import ContentItem
 
 
 class ProductHuntCollector:
@@ -32,7 +33,9 @@ class ProductHuntCollector:
         stop=stop_after_attempt(3),
         wait=wait_exponential(multiplier=1, min=2, max=10),
     )
-    def _fetch_with_retry(self, query: str, variables: dict[str, Any] | None = None) -> dict[str, Any]:
+    def _fetch_with_retry(
+        self, query: str, variables: dict[str, Any] | None = None
+    ) -> dict[str, Any]:
         """GraphQL 요청을 재시도 로직과 함께 실행합니다."""
         headers = {
             "Content-Type": "application/json",
@@ -44,14 +47,16 @@ class ProductHuntCollector:
             "variables": variables or {},
         }
 
-        response = requests.post(self.API_BASE_URL, json=payload, headers=headers, timeout=self.TIMEOUT)
+        response = requests.post(
+            self.API_BASE_URL, json=payload, headers=headers, timeout=self.TIMEOUT
+        )
         response.raise_for_status()
         result = response.json()
         if not isinstance(result, dict):
             raise RuntimeError("Expected dict response from Product Hunt API")
         return result
 
-    def collect(self, limit: int = 30) -> list[dict[str, Any]]:
+    def collect(self, limit: int = 30) -> list[ContentItem]:
         """Product Hunt 신규 제품을 수집합니다.
 
         Args:
@@ -60,7 +65,7 @@ class ProductHuntCollector:
         Returns:
             제품 정보 리스트
         """
-        products: list[dict[str, Any]] = []
+        products: list[ContentItem] = []
 
         if not self.api_key:
             raise RuntimeError("PRODUCT_HUNT_API_KEY 환경변수가 설정되지 않았습니다")
@@ -114,18 +119,23 @@ class ProductHuntCollector:
                 post = post_edge.get("node", {})
                 makers = post.get("makers", [])
 
-                product_info = {
-                    "id": post.get("id"),
-                    "name": post.get("name", ""),
-                    "tagline": post.get("tagline", ""),
-                    "description": post.get("description", ""),
-                    "url": post.get("url", ""),
-                    "votes_count": post.get("votesCount", 0),
-                    "comments_count": post.get("commentsCount", 0),
-                    "created_at": post.get("createdAt", ""),
-                    "makers": [{"name": m.get("name"), "username": m.get("username")} for m in makers],
-                    "thumbnail_url": post.get("thumbnail", {}).get("url", ""),
-                }
+                product_info = ContentItem(
+                    title=str(post.get("name", "")),
+                    url=str(post.get("url", "")),
+                    source="producthunt",
+                    score=float(post.get("votesCount", 0)),
+                    metadata={
+                        "id": post.get("id"),
+                        "tagline": post.get("tagline", ""),
+                        "description": post.get("description", ""),
+                        "comments_count": post.get("commentsCount", 0),
+                        "created_at": post.get("createdAt", ""),
+                        "makers": [
+                            {"name": m.get("name"), "username": m.get("username")} for m in makers
+                        ],
+                        "thumbnail_url": post.get("thumbnail", {}).get("url", ""),
+                    },
+                )
                 products.append(product_info)
 
             return products

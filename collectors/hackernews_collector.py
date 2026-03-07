@@ -7,6 +7,7 @@ from typing import Any, ClassVar
 
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
+from trendradar.models import ContentItem
 
 
 class HackerNewsCollector:
@@ -18,6 +19,9 @@ class HackerNewsCollector:
 
     API_BASE_URL: ClassVar[str] = "https://hacker-news.firebaseio.com/v0"
     TIMEOUT: ClassVar[int] = 30
+    DEFAULT_HEADERS: dict[str, str] = {
+        "User-Agent": "Mozilla/5.0 (compatible; TrendRadarBot/1.0; +https://github.com/zzragida/ai-frendly-datahub)",
+    }
 
     @retry(
         stop=stop_after_attempt(3),
@@ -25,11 +29,11 @@ class HackerNewsCollector:
     )
     def _fetch_with_retry(self, url: str) -> list[int] | dict[str, Any]:
         """HTTP 요청을 재시도 로직과 함께 실행합니다."""
-        response = requests.get(url, timeout=self.TIMEOUT)
+        response = requests.get(url, headers=self.DEFAULT_HEADERS, timeout=self.TIMEOUT)
         response.raise_for_status()
         return response.json()
 
-    def collect(self, limit: int = 30) -> list[dict[str, Any]]:
+    def collect(self, limit: int = 30) -> list[ContentItem]:
         """HackerNews 상위 스토리를 수집합니다.
 
         Args:
@@ -38,7 +42,7 @@ class HackerNewsCollector:
         Returns:
             스토리 정보 리스트
         """
-        stories: list[dict[str, Any]] = []
+        stories: list[ContentItem] = []
 
         try:
             # 상위 스토리 ID 목록 가져오기
@@ -59,16 +63,19 @@ class HackerNewsCollector:
                     item_data: dict[str, Any] = item_response
 
                     if item_data and item_data.get("type") == "story":
-                        story = {
-                            "id": item_data.get("id"),
-                            "title": item_data.get("title", ""),
-                            "url": item_data.get("url", ""),
-                            "score": item_data.get("score", 0),
-                            "by": item_data.get("by", ""),
-                            "time": item_data.get("time", 0),
-                            "descendants": item_data.get("descendants", 0),
-                            "type": item_data.get("type", "story"),
-                        }
+                        story = ContentItem(
+                            title=str(item_data.get("title", "")),
+                            url=str(item_data.get("url", "")),
+                            source="hackernews",
+                            author=str(item_data.get("by", "")),
+                            score=float(item_data.get("score", 0)),
+                            metadata={
+                                "id": item_data.get("id"),
+                                "time": item_data.get("time", 0),
+                                "descendants": item_data.get("descendants", 0),
+                                "type": item_data.get("type", "story"),
+                            },
+                        )
                         stories.append(story)
 
                 except requests.exceptions.RequestException as e:

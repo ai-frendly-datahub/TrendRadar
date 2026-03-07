@@ -8,7 +8,6 @@ import os
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
 
 import yaml
 
@@ -32,36 +31,45 @@ from raw_logger import RawLogger
 from reporters.spike_reporter import generate_spike_report
 from storage.search_index import SearchIndex
 from trendradar.common.validators import validate_keyword, validate_score
+from trendradar.models import (
+    ContentItem,
+    KeywordSet,
+    TrendCollectionResult,
+    TrendPoint,
+    TrendRadarSettings,
+)
 
 CONFIG_ENV_VAR = "TRENDRADAR_CONFIG_PATH"
 PROJECT_ROOT = Path(__file__).resolve().parent
 DEFAULT_CONFIG_PATH = PROJECT_ROOT / "config" / "keyword_sets.yaml"
-DEFAULT_REPORT_DIR = PROJECT_ROOT / "docs" / "reports"
-DEFAULT_RAW_DIR = PROJECT_ROOT / "data" / "raw"
-DEFAULT_SEARCH_DB_PATH = PROJECT_ROOT / "data" / "search_index.db"
-DEFAULT_NOTIFICATION_CONFIG_PATH = PROJECT_ROOT / "config" / "notifications.yaml"
+DEFAULT_SETTINGS = TrendRadarSettings()
+DEFAULT_REPORT_DIR = PROJECT_ROOT / DEFAULT_SETTINGS.report_dir
+DEFAULT_RAW_DIR = PROJECT_ROOT / DEFAULT_SETTINGS.raw_data_dir
+DEFAULT_SEARCH_DB_PATH = PROJECT_ROOT / DEFAULT_SETTINGS.search_db_path
+DEFAULT_NOTIFICATION_CONFIG_PATH = PROJECT_ROOT / DEFAULT_SETTINGS.notification_config_path
+DEFAULT_DB_PATH = PROJECT_ROOT / DEFAULT_SETTINGS.database_path
 
 
 def _filter_valid_points(
     *,
     keyword: str,
-    points: list[dict[str, Any]],
+    points: list[TrendPoint],
     source: str,
     errors: list[str],
-) -> list[dict[str, Any]]:
+) -> list[TrendPoint]:
     if not validate_keyword(keyword):
         errors.append(f"{source}: invalid keyword '{keyword}'")
         return []
 
-    valid_points: list[dict[str, Any]] = []
+    valid_points: list[TrendPoint] = []
     for point in points:
-        date_str = str(point.get("date", "")).strip()
+        date_str = point.timestamp.date().isoformat()
         if not date_str:
             errors.append(f"{source}: missing date for keyword '{keyword}'")
             continue
 
         try:
-            score = float(point.get("value", 0.0))
+            score = float(point.value)
         except (TypeError, ValueError):
             errors.append(f"{source}: invalid score for keyword '{keyword}'")
             continue
@@ -70,7 +78,15 @@ def _filter_valid_points(
             errors.append(f"{source}: negative score for keyword '{keyword}'")
             continue
 
-        valid_points.append({"date": date_str, "value": score})
+        valid_points.append(
+            TrendPoint(
+                keyword=keyword,
+                source=source,
+                timestamp=point.timestamp,
+                value=score,
+                metadata=point.metadata,
+            )
+        )
 
     return valid_points
 
@@ -79,22 +95,37 @@ def _build_raw_records(
     *,
     keyword: str,
     source: str,
-    points: list[dict[str, Any]],
-) -> list[dict[str, Any]]:
-    records: list[dict[str, Any]] = []
+    points: list[TrendPoint],
+) -> list[dict[str, object]]:
+    records: list[dict[str, object]] = []
     for point in points:
-        date_str = str(point.get("date", "")).strip()
+        date_str = point.timestamp.date().isoformat()
         if not date_str:
             continue
         records.append(
             {
                 "keyword": keyword,
                 "platform": source,
-                "value": float(point.get("value", 0.0)),
+                "value": float(point.value),
                 "timestamp": date_str,
             }
         )
     return records
+
+
+def _build_content_raw_record(
+    *,
+    keyword: str,
+    source: str,
+    score: float,
+    timestamp: str,
+) -> dict[str, object]:
+    return {
+        "keyword": keyword,
+        "platform": source,
+        "value": score,
+        "timestamp": timestamp,
+    }
 
 
 def _sync_keyword_to_search_index(
@@ -102,12 +133,10 @@ def _sync_keyword_to_search_index(
     search_index: SearchIndex,
     keyword: str,
     source: str,
-    keyword_set: dict[str, Any],
+    keyword_set: KeywordSet,
 ) -> None:
-    related_keywords = [
-        k for k in keyword_set.get("keywords", []) if isinstance(k, str) and k != keyword
-    ]
-    set_name = str(keyword_set.get("name", ""))
+    related_keywords = [k for k in keyword_set.keywords if k != keyword]
+    set_name = keyword_set.name
     context_parts = [
         f"set:{set_name}",
         f"source:{source}",
@@ -116,15 +145,24 @@ def _sync_keyword_to_search_index(
     search_index.upsert(keyword=keyword, platform=source, context=" | ".join(context_parts))
 
 
-def load_keyword_sets_config(path: Path | None = None) -> dict[str, Any]:
+def load_keyword_sets_config(path: Path | None = None) -> list[KeywordSet]:
     """keyword_sets.yaml 로드."""
     config_path = Path(path or os.environ.get(CONFIG_ENV_VAR, DEFAULT_CONFIG_PATH))
     with config_path.open(encoding="utf-8") as fp:
-        return yaml.safe_load(fp)
+        config = yaml.safe_load(fp)
+
+    if not isinstance(config, dict):
+        return []
+
+    keyword_sets = config.get("keyword_sets", [])
+    if not isinstance(keyword_sets, list):
+        return []
+
+    return [KeywordSet.from_dict(item) for item in keyword_sets if isinstance(item, dict)]
 
 
 def collect_trends(
-    keyword_set: dict[str, Any],
+    keyword_set: KeywordSet,
     *,
     db_path: Path | None = None,
     source_filter: str | None = None,
@@ -136,10 +174,12 @@ def collect_trends(
     sources_succeeded = 0
     errors: list[str] = []
 
-    keywords = keyword_set.get("keywords", [])
-    channels = keyword_set.get("channels", ["naver", "google"])
-    time_range = keyword_set.get("time_range", {})
-    filters = keyword_set.get("filters", {})
+    keywords = keyword_set.keywords
+    channels = keyword_set.channels or ["naver", "google"]
+    time_range = keyword_set.time_range
+    filters = keyword_set.filters
+    start_date = time_range.get("start") or str(datetime.now(timezone.utc).date())
+    end_date = time_range.get("end") or str(datetime.now(timezone.utc).date())
 
     # Naver DataLab
     if "naver" in channels and (source_filter is None or source_filter == "naver"):
@@ -151,15 +191,15 @@ def collect_trends(
 
             naver_data = naver_collector.collect(
                 keywords=keywords,
-                start_date=time_range.get("start"),
-                end_date=time_range.get("end"),
+                start_date=start_date,
+                end_date=end_date,
                 time_unit=filters.get("time_unit", "date"),
                 device=filters.get("device"),
                 gender=filters.get("gender"),
                 ages=filters.get("ages"),
             )
 
-            naver_raw_records: list[dict[str, Any]] = []
+            naver_raw_records: list[dict[str, object]] = []
             for keyword, points in naver_data.items():
                 valid_points = _filter_valid_points(
                     keyword=keyword,
@@ -175,7 +215,7 @@ def collect_trends(
                     keyword=keyword,
                     points=valid_points,
                     metadata={
-                        "set_name": keyword_set.get("name"),
+                        "set_name": keyword_set.name,
                         "filters": filters,
                     },
                     db_path=db_path,
@@ -211,11 +251,11 @@ def collect_trends(
             google_data = google_collector.collect(
                 keywords=keywords,
                 geo=filters.get("geo", "KR"),
-                timeframe=f"{time_range.get('start')} {time_range.get('end')}",
+                timeframe=f"{start_date} {end_date}",
             )
 
             google_points = 0
-            google_raw_records: list[dict[str, Any]] = []
+            google_raw_records: list[dict[str, object]] = []
             for keyword, points in google_data.items():
                 valid_points = _filter_valid_points(
                     keyword=keyword,
@@ -231,7 +271,7 @@ def collect_trends(
                     keyword=keyword,
                     points=valid_points,
                     metadata={
-                        "set_name": keyword_set.get("name"),
+                        "set_name": keyword_set.name,
                         "geo": filters.get("geo", "KR"),
                     },
                     db_path=db_path,
@@ -271,11 +311,11 @@ def collect_trends(
                 mode=filters.get("google_trending_mode", "daily"),
                 category=filters.get("google_trending_category"),
                 top_n=filters.get("google_trending_top_n", 20),
-                date_override=time_range.get("end") or time_range.get("start"),
+                date_override=end_date or start_date,
             )
 
             trending_points = 0
-            trending_raw_records: list[dict[str, Any]] = []
+            trending_raw_records: list[dict[str, object]] = []
             for keyword, points in trending_data.items():
                 valid_points = _filter_valid_points(
                     keyword=keyword,
@@ -291,7 +331,7 @@ def collect_trends(
                     keyword=keyword,
                     points=valid_points,
                     metadata={
-                        "set_name": keyword_set.get("name"),
+                        "set_name": keyword_set.name,
                         "region": filters.get("google_trending_region", "south_korea"),
                         "mode": filters.get("google_trending_mode", "daily"),
                         "category": filters.get("google_trending_category"),
@@ -330,8 +370,8 @@ def collect_trends(
             wiki_collector = WikipediaPageviewsCollector()
             wiki_data = wiki_collector.collect(
                 keywords=keywords,
-                start_date=time_range.get("start"),
-                end_date=time_range.get("end"),
+                start_date=start_date,
+                end_date=end_date,
                 project=filters.get("wikipedia_project", "ko.wikipedia"),
                 access=filters.get("wikipedia_access", "all-access"),
                 agent=filters.get("wikipedia_agent", "user"),
@@ -339,7 +379,7 @@ def collect_trends(
             )
 
             wiki_points = 0
-            wiki_raw_records: list[dict[str, Any]] = []
+            wiki_raw_records: list[dict[str, object]] = []
             for keyword, points in wiki_data.items():
                 valid_points = _filter_valid_points(
                     keyword=keyword,
@@ -355,7 +395,7 @@ def collect_trends(
                     keyword=keyword,
                     points=valid_points,
                     metadata={
-                        "set_name": keyword_set.get("name"),
+                        "set_name": keyword_set.name,
                         "project": filters.get("wikipedia_project", "ko.wikipedia"),
                         "access": filters.get("wikipedia_access", "all-access"),
                         "agent": filters.get("wikipedia_agent", "user"),
@@ -402,9 +442,16 @@ def collect_trends(
             )
 
             reddit_points = 0
-            reddit_raw_records: list[dict[str, Any]] = []
+            reddit_raw_records: list[dict[str, object]] = []
             for keyword, count in reddit_keywords.items():
-                points = [{"date": str(datetime.now(timezone.utc).date()), "value": float(count)}]
+                points = [
+                    TrendPoint(
+                        keyword=keyword,
+                        source="reddit",
+                        timestamp=datetime.now(timezone.utc),
+                        value=float(count),
+                    )
+                ]
                 valid_points = _filter_valid_points(
                     keyword=keyword,
                     points=points,
@@ -419,7 +466,7 @@ def collect_trends(
                     keyword=keyword,
                     points=valid_points,
                     metadata={
-                        "set_name": keyword_set.get("name"),
+                        "set_name": keyword_set.name,
                         "subreddits": filters.get(
                             "reddit_subreddits", ["worldnews", "technology", "science"]
                         ),
@@ -464,9 +511,16 @@ def collect_trends(
             )
 
             youtube_points = 0
-            youtube_raw_records: list[dict[str, Any]] = []
+            youtube_raw_records: list[dict[str, object]] = []
             for keyword, count in youtube_keywords.items():
-                points = [{"date": str(datetime.now(timezone.utc).date()), "value": float(count)}]
+                points = [
+                    TrendPoint(
+                        keyword=keyword,
+                        source="youtube",
+                        timestamp=datetime.now(timezone.utc),
+                        value=float(count),
+                    )
+                ]
                 valid_points = _filter_valid_points(
                     keyword=keyword,
                     points=points,
@@ -481,7 +535,7 @@ def collect_trends(
                     keyword=keyword,
                     points=valid_points,
                     metadata={
-                        "set_name": keyword_set.get("name"),
+                        "set_name": keyword_set.name,
                         "region_code": filters.get("youtube_region", "KR"),
                     },
                     db_path=db_path,
@@ -523,21 +577,23 @@ def collect_trends(
             )
 
             shopping_category = filters.get("naver_shopping_category", "50000000")
-            shopping_trends = naver_shopping_collector.collect_category_trends(
-                category=shopping_category,
-                start_date=time_range.get("start", str(datetime.now(timezone.utc).date())),
-                end_date=time_range.get("end", str(datetime.now(timezone.utc).date())),
-                time_unit=filters.get("naver_shopping_time_unit", "date"),
-                device=filters.get("naver_shopping_device", ""),
-                gender=filters.get("naver_shopping_gender", ""),
-                ages=filters.get("naver_shopping_ages"),
+            shopping_trends: list[TrendCollectionResult] = (
+                naver_shopping_collector.collect_category_trends(
+                    category=shopping_category,
+                    start_date=start_date,
+                    end_date=end_date,
+                    time_unit=filters.get("naver_shopping_time_unit", "date"),
+                    device=filters.get("naver_shopping_device", ""),
+                    gender=filters.get("naver_shopping_gender", ""),
+                    ages=filters.get("naver_shopping_ages"),
+                )
             )
 
             shopping_points = 0
-            shopping_raw_records: list[dict[str, Any]] = []
+            shopping_raw_records: list[dict[str, object]] = []
             for trend_item in shopping_trends:
-                category_name = trend_item.get("category", "")
-                points = trend_item.get("points", [])
+                category_name = trend_item.keyword
+                points = trend_item.points
                 valid_points = _filter_valid_points(
                     keyword=category_name,
                     points=points,
@@ -552,7 +608,7 @@ def collect_trends(
                     keyword=category_name,
                     points=valid_points,
                     metadata={
-                        "set_name": keyword_set.get("name"),
+                        "set_name": keyword_set.name,
                         "category": shopping_category,
                         "device": filters.get("naver_shopping_device", ""),
                         "gender": filters.get("naver_shopping_gender", ""),
@@ -591,22 +647,22 @@ def collect_trends(
     if "hackernews" in channels and (source_filter is None or source_filter == "hackernews"):
         try:
             hn_collector = HackerNewsCollector()
-            hn_stories = hn_collector.collect(limit=30)
+            hn_stories: list[ContentItem] = hn_collector.collect(limit=30)
 
-            hn_raw_records: list[dict[str, Any]] = []
+            hn_raw_records: list[dict[str, object]] = []
             for story in hn_stories:
-                keyword = str(story.get("title", ""))
-                score = float(story.get("score", 0))
+                keyword = story.title
+                score = story.score
                 if not validate_keyword(keyword) or not validate_score(score):
                     errors.append("hackernews: invalid keyword/score")
                     continue
 
-                story_record = {
-                    "keyword": keyword,
-                    "platform": "hackernews",
-                    "value": score,
-                    "timestamp": str(story.get("time", 0)),
-                }
+                story_record = _build_content_raw_record(
+                    keyword=keyword,
+                    source="hackernews",
+                    score=score,
+                    timestamp=str(story.metadata.get("time", 0)),
+                )
                 hn_raw_records.append(story_record)
 
             if raw_logger is not None and hn_raw_records:
@@ -625,22 +681,22 @@ def collect_trends(
     if "devto" in channels and (source_filter is None or source_filter == "devto"):
         try:
             devto_collector = DevtoCollector()
-            devto_articles = devto_collector.collect(limit=30)
+            devto_articles: list[ContentItem] = devto_collector.collect(limit=30)
 
-            devto_raw_records: list[dict[str, Any]] = []
+            devto_raw_records: list[dict[str, object]] = []
             for article in devto_articles:
-                keyword = str(article.get("title", ""))
-                score = float(article.get("positive_reactions_count", 0))
+                keyword = article.title
+                score = article.score
                 if not validate_keyword(keyword) or not validate_score(score):
                     errors.append("devto: invalid keyword/score")
                     continue
 
-                article_record = {
-                    "keyword": keyword,
-                    "platform": "devto",
-                    "value": score,
-                    "timestamp": article.get("published_at", ""),
-                }
+                article_record = _build_content_raw_record(
+                    keyword=keyword,
+                    source="devto",
+                    score=score,
+                    timestamp=str(article.metadata.get("published_at", "")),
+                )
                 devto_raw_records.append(article_record)
 
             if raw_logger is not None and devto_raw_records:
@@ -659,22 +715,22 @@ def collect_trends(
     if "stackexchange" in channels and (source_filter is None or source_filter == "stackexchange"):
         try:
             se_collector = StackExchangeCollector()
-            se_questions = se_collector.collect(limit=30)
+            se_questions: list[ContentItem] = se_collector.collect(limit=30)
 
-            se_raw_records: list[dict[str, Any]] = []
+            se_raw_records: list[dict[str, object]] = []
             for question in se_questions:
-                keyword = str(question.get("title", ""))
-                score = float(question.get("score", 0))
+                keyword = question.title
+                score = question.score
                 if not validate_keyword(keyword) or not validate_score(score):
                     errors.append("stackexchange: invalid keyword/score")
                     continue
 
-                question_record = {
-                    "keyword": keyword,
-                    "platform": "stackexchange",
-                    "value": score,
-                    "timestamp": str(question.get("creation_date", 0)),
-                }
+                question_record = _build_content_raw_record(
+                    keyword=keyword,
+                    source="stackexchange",
+                    score=score,
+                    timestamp=str(question.metadata.get("creation_date", 0)),
+                )
                 se_raw_records.append(question_record)
 
             if raw_logger is not None and se_raw_records:
@@ -693,22 +749,22 @@ def collect_trends(
     if "producthunt" in channels and (source_filter is None or source_filter == "producthunt"):
         try:
             ph_collector = ProductHuntCollector()
-            ph_products = ph_collector.collect(limit=30)
+            ph_products: list[ContentItem] = ph_collector.collect(limit=30)
 
-            ph_raw_records: list[dict[str, Any]] = []
+            ph_raw_records: list[dict[str, object]] = []
             for product in ph_products:
-                keyword = str(product.get("name", ""))
-                score = float(product.get("votes_count", 0))
+                keyword = product.title
+                score = product.score
                 if not validate_keyword(keyword) or not validate_score(score):
                     errors.append("producthunt: invalid keyword/score")
                     continue
 
-                product_record = {
-                    "keyword": keyword,
-                    "platform": "producthunt",
-                    "value": score,
-                    "timestamp": product.get("created_at", ""),
-                }
+                product_record = _build_content_raw_record(
+                    keyword=keyword,
+                    source="producthunt",
+                    score=score,
+                    timestamp=str(product.metadata.get("created_at", "")),
+                )
                 ph_raw_records.append(product_record)
 
             if raw_logger is not None and ph_raw_records:
@@ -747,8 +803,7 @@ def run_once(
         return
 
     # 키워드 세트 설정 로드
-    config = load_keyword_sets_config(config_path)
-    keyword_sets = config.get("keyword_sets", [])
+    keyword_sets = load_keyword_sets_config(config_path)
 
     if not keyword_sets:
         print("  - 경고: keyword_sets.yaml에 키워드 세트가 없습니다.")
@@ -762,13 +817,13 @@ def run_once(
     # 각 키워드 세트별로 수집
     total_points = 0
     total_sources_succeeded = 0
-    all_errors = []
+    all_errors: list[str] = []
 
     for kw_set in keyword_sets:
-        if not kw_set.get("enabled", True):
+        if not kw_set.enabled:
             continue
 
-        set_name = kw_set.get("name", "Unknown")
+        set_name = kw_set.name or "Unknown"
         print(f"\n  [{set_name}] 수집 시작...")
 
         points, sources, errors = collect_trends(
@@ -946,7 +1001,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--db-path",
         type=Path,
-        default=PROJECT_ROOT / "data" / "trendradar.duckdb",
+        default=DEFAULT_DB_PATH,
         help="DuckDB 파일 경로",
     )
     parser.add_argument(

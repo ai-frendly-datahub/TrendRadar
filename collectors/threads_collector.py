@@ -4,10 +4,10 @@
 from __future__ import annotations
 
 import os
-from typing import Any
 
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
+from trendradar.models import ContentItem
 
 
 class ThreadsCollector:
@@ -47,7 +47,7 @@ class ThreadsCollector:
         self,
         region: str = "KR",
         limit: int = 50,
-    ) -> list[dict[str, Any]]:
+    ) -> list[ContentItem]:
         """트렌딩 토픽을 수집합니다.
 
         Args:
@@ -87,19 +87,22 @@ class ThreadsCollector:
             response.raise_for_status()
             data = response.json()
 
-            topics = []
+            topics: list[ContentItem] = []
             for item in data.get("data", []):
-                topic = {
-                    "id": item.get("id"),
-                    "name": item.get("name"),
-                    "post_count": item.get("post_count", 0),
-                    "engagement_count": item.get("engagement_count", 0),
-                    "rank": item.get("rank", 0),
-                    "category": item.get("category", "general"),
-                    "url": item.get("url", ""),
-                    "source": "threads",
-                    "collected_at": item.get("collected_at"),
-                }
+                topic = ContentItem(
+                    title=str(item.get("name", "")),
+                    url=str(item.get("url", "")),
+                    source="threads",
+                    score=float(item.get("engagement_count", 0)),
+                    metadata={
+                        "id": item.get("id"),
+                        "post_count": item.get("post_count", 0),
+                        "engagement_count": item.get("engagement_count", 0),
+                        "rank": item.get("rank", 0),
+                        "category": item.get("category", "general"),
+                        "collected_at": item.get("collected_at"),
+                    },
+                )
                 topics.append(topic)
 
             return topics
@@ -117,7 +120,7 @@ class ThreadsCollector:
         category: str = "news",
         region: str = "KR",
         limit: int = 50,
-    ) -> list[dict[str, Any]]:
+    ) -> list[ContentItem]:
         """카테고리별 트렌딩 토픽을 수집합니다.
 
         Args:
@@ -147,18 +150,21 @@ class ThreadsCollector:
             response.raise_for_status()
             data = response.json()
 
-            topics = []
+            topics: list[ContentItem] = []
             for item in data.get("data", []):
-                topic = {
-                    "id": item.get("id"),
-                    "name": item.get("name"),
-                    "post_count": item.get("post_count", 0),
-                    "engagement_count": item.get("engagement_count", 0),
-                    "rank": item.get("rank", 0),
-                    "category": category,
-                    "url": item.get("url", ""),
-                    "source": "threads",
-                }
+                topic = ContentItem(
+                    title=str(item.get("name", "")),
+                    url=str(item.get("url", "")),
+                    source="threads",
+                    score=float(item.get("engagement_count", 0)),
+                    metadata={
+                        "id": item.get("id"),
+                        "post_count": item.get("post_count", 0),
+                        "engagement_count": item.get("engagement_count", 0),
+                        "rank": item.get("rank", 0),
+                        "category": category,
+                    },
+                )
                 topics.append(topic)
 
             return topics
@@ -167,6 +173,6 @@ class ThreadsCollector:
             print(f"Threads API 카테고리 요청 실패: {e}")
             raise
 
-    def collect(self) -> list[dict[str, Any]]:
+    def collect(self) -> list[ContentItem]:
         """기본 수집 메서드 - 글로벌 트렌딩 토픽 수집"""
         return self.collect_trending_topics(region="KR", limit=50)

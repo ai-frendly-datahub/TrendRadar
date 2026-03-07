@@ -5,9 +5,9 @@ from __future__ import annotations
 
 import json
 from datetime import datetime
-from typing import Any
 
 import requests
+from trendradar.models import TrendPoint
 
 
 class NaverDataLabCollector:
@@ -47,7 +47,7 @@ class NaverDataLabCollector:
         device: str | None = None,
         gender: str | None = None,
         ages: list[str] | None = None,
-    ) -> dict[str, list[dict[str, Any]]]:
+    ) -> dict[str, list[TrendPoint]]:
         """네이버 데이터랩에서 트렌드 데이터를 수집합니다.
 
         Args:
@@ -67,11 +67,9 @@ class NaverDataLabCollector:
             raise ValueError("네이버 API는 최대 5개 키워드만 지원합니다.")
 
         # API 요청 본문 생성
-        keyword_groups = [
-            {"groupName": kw, "keywords": [kw]} for kw in keywords
-        ]
+        keyword_groups = [{"groupName": kw, "keywords": [kw]} for kw in keywords]
 
-        request_body = {
+        request_body: dict[str, object] = {
             "startDate": start_date.replace("-", ""),
             "endDate": end_date.replace("-", ""),
             "timeUnit": time_unit,
@@ -101,11 +99,11 @@ class NaverDataLabCollector:
             raise RuntimeError(f"네이버 API 호출 실패: {e}") from e
 
         # 응답 파싱
-        result: dict[str, list[dict[str, Any]]] = {}
+        result: dict[str, list[TrendPoint]] = {}
 
         for item in data.get("results", []):
             keyword = item.get("title", "")
-            points = []
+            points: list[TrendPoint] = []
 
             for point in item.get("data", []):
                 # period를 날짜로 변환
@@ -114,12 +112,22 @@ class NaverDataLabCollector:
 
                 # period 형식: "2024-01-01" (date), "2024-01-01~2024-01-07" (week), "2024-01" (month)
                 date_str = period.split("~")[0] if "~" in period else period
+                try:
+                    point_timestamp = datetime.fromisoformat(
+                        date_str if len(date_str) == 10 else f"{date_str}-01"
+                    )
+                except ValueError:
+                    continue
 
-                points.append({
-                    "date": date_str,
-                    "value": ratio,
-                    "period": period,
-                })
+                points.append(
+                    TrendPoint(
+                        keyword=keyword,
+                        source="naver",
+                        timestamp=point_timestamp,
+                        value=float(ratio),
+                        metadata={"period": period},
+                    )
+                )
 
             result[keyword] = points
 

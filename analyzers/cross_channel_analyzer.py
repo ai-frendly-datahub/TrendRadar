@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from storage import trend_store
+from trendradar.models import TrendPoint
 
 
 @dataclass
@@ -113,40 +114,40 @@ class CrossChannelAnalyzer:
                 gap_ratio = val1 / val2
                 gap_score = self._calculate_gap_score(val1, val2, gap_ratio)
 
-                insight = self._generate_gap_insight(
-                    keyword, channel1, channel2, val1, val2
-                )
+                insight = self._generate_gap_insight(keyword, channel1, channel2, val1, val2)
 
-                gaps.append(ChannelGap(
-                    keyword=keyword,
-                    leading_channel=channel1,
-                    lagging_channel=channel2,
-                    leading_value=val1,
-                    lagging_value=val2,
-                    gap_ratio=gap_ratio,
-                    gap_score=gap_score,
-                    insight=insight,
-                ))
+                gaps.append(
+                    ChannelGap(
+                        keyword=keyword,
+                        leading_channel=channel1,
+                        lagging_channel=channel2,
+                        leading_value=val1,
+                        lagging_value=val2,
+                        gap_ratio=gap_ratio,
+                        gap_score=gap_score,
+                        insight=insight,
+                    )
+                )
 
             # 채널2가 높은 경우
             elif val2 >= val1 * min_gap and val1 > 0:
                 gap_ratio = val2 / val1
                 gap_score = self._calculate_gap_score(val2, val1, gap_ratio)
 
-                insight = self._generate_gap_insight(
-                    keyword, channel2, channel1, val2, val1
-                )
+                insight = self._generate_gap_insight(keyword, channel2, channel1, val2, val1)
 
-                gaps.append(ChannelGap(
-                    keyword=keyword,
-                    leading_channel=channel2,
-                    lagging_channel=channel1,
-                    leading_value=val2,
-                    lagging_value=val1,
-                    gap_ratio=gap_ratio,
-                    gap_score=gap_score,
-                    insight=insight,
-                ))
+                gaps.append(
+                    ChannelGap(
+                        keyword=keyword,
+                        leading_channel=channel2,
+                        lagging_channel=channel1,
+                        leading_value=val2,
+                        lagging_value=val1,
+                        gap_ratio=gap_ratio,
+                        gap_score=gap_score,
+                        insight=insight,
+                    )
+                )
 
         # 점수순 정렬
         gaps.sort(key=lambda x: x.gap_score, reverse=True)
@@ -201,12 +202,14 @@ class CrossChannelAnalyzer:
 
         for keyword, value in target_keywords.items():
             if keyword not in exclude_keywords and value >= min_value:
-                exclusive.append({
-                    "keyword": keyword,
-                    "channel": channel,
-                    "value": value,
-                    "exclusivity_score": value,  # 간단한 점수
-                })
+                exclusive.append(
+                    {
+                        "keyword": keyword,
+                        "channel": channel,
+                        "value": value,
+                        "exclusivity_score": value,  # 간단한 점수
+                    }
+                )
 
         # 값 순 정렬
         exclusive.sort(key=lambda x: x["value"], reverse=True)
@@ -246,11 +249,7 @@ class CrossChannelAnalyzer:
             channel_data[channel] = {
                 "total_keywords": len(keyword_avgs),
                 "avg_value": sum(keyword_avgs.values()) / len(keyword_avgs) if keyword_avgs else 0,
-                "top_keywords": sorted(
-                    keyword_avgs.items(),
-                    key=lambda x: x[1],
-                    reverse=True
-                )[:10],
+                "top_keywords": sorted(keyword_avgs.items(), key=lambda x: x[1], reverse=True)[:10],
                 "keywords": keyword_avgs,
             }
 
@@ -275,25 +274,20 @@ class CrossChannelAnalyzer:
         }
 
     @staticmethod
-    def _calculate_keyword_averages(
-        points: list[dict[str, Any]]
-    ) -> dict[str, float]:
+    def _calculate_keyword_averages(points: list[TrendPoint]) -> dict[str, float]:
         """키워드별 평균 값 계산."""
         keyword_values: dict[str, list[float]] = {}
 
         for point in points:
-            keyword = point.get("keyword", "")
-            value = point.get("value", 0)
+            keyword = point.keyword
+            value = point.value
 
             if keyword not in keyword_values:
                 keyword_values[keyword] = []
 
             keyword_values[keyword].append(value)
 
-        return {
-            kw: sum(vals) / len(vals)
-            for kw, vals in keyword_values.items()
-        }
+        return {kw: sum(vals) / len(vals) for kw, vals in keyword_values.items()}
 
     @staticmethod
     def _calculate_gap_score(

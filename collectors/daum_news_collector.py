@@ -6,11 +6,12 @@ from __future__ import annotations
 import re
 import time
 from datetime import datetime
-from typing import Any, Optional
+from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_attempt, wait_exponential
+from trendradar.models import ContentItem
 
 
 class DaumNewsCollector:
@@ -56,7 +57,7 @@ class DaumNewsCollector:
             print(f"Daum News HTML 가져오기 실패 ({url}): {e}")
             raise
 
-    def collect_realtime_keywords(self, limit: int = 20) -> list[dict[str, Any]]:
+    def collect_realtime_keywords(self, limit: int = 20) -> list[ContentItem]:
         """실시간 검색어를 수집합니다.
 
         Args:
@@ -152,24 +153,30 @@ class DaumNewsCollector:
 
             # 검색 URL
             keyword_url = f"{self.BASE_URL}/search?q={keyword}"
-            if keyword_elem.get("href"):
-                keyword_url = keyword_elem.get("href", keyword_url)
+            href = keyword_elem.get("href")
+            if isinstance(href, str) and href:
+                keyword_url = href
                 if not keyword_url.startswith("http"):
                     keyword_url = self.BASE_URL + keyword_url
 
-            keywords.append({
-                "rank": rank,
-                "keyword": keyword,
-                "article_count": article_count,
-                "trend": trend,
-                "change": change,
-                "url": keyword_url,
-                "source": "daum_news",
-                "collected_at": datetime.now().isoformat(),
-            })
+            keywords.append(
+                ContentItem(
+                    title=keyword,
+                    url=keyword_url,
+                    source="daum_news",
+                    score=float(article_count),
+                    metadata={
+                        "rank": rank,
+                        "article_count": article_count,
+                        "trend": trend,
+                        "change": change,
+                        "collected_at": datetime.now().isoformat(),
+                    },
+                )
+            )
 
         return keywords
 
-    def collect(self) -> list[dict[str, Any]]:
+    def collect(self) -> list[ContentItem]:
         """기본 수집 메서드"""
         return self.collect_realtime_keywords(limit=20)

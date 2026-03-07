@@ -7,26 +7,27 @@ import json
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, Mapping, Sequence
 
 import duckdb
+from trendradar.models import TrendPoint
 
 logger = logging.getLogger(__name__)
 
 
 def _validate_date_format(date_str: str) -> datetime | None:
     """날짜 문자열을 검증하고 datetime 객체로 변환합니다.
-    
+
     Args:
         date_str: 날짜 문자열 (YYYY-MM-DD 또는 YYYY-MM)
-        
+
     Returns:
         datetime 객체 또는 None (파싱 실패 시)
     """
     if not date_str or not isinstance(date_str, str):
         logger.warning(f"Invalid date format: {date_str} (type: {type(date_str).__name__})")
         return None
-    
+
     try:
         return datetime.fromisoformat(date_str)
     except ValueError:
@@ -71,7 +72,7 @@ def _ensure_table_exists(conn: duckdb.DuckDBPyConnection) -> None:
 def save_trend_points(
     source: str,
     keyword: str,
-    points: list[dict[str, Any]],
+    points: Sequence[TrendPoint | Mapping[str, object]],
     metadata: dict[str, Any] | None = None,
     db_path: Path | None = None,
 ) -> int:
@@ -98,61 +99,110 @@ def save_trend_points(
 
         inserted = 0
         failed = 0
-        
-        for idx, point in enumerate(points):
-            try:
-                date_str = point.get("date")
-                value = point.get("value", 0.0)
 
-                # 날짜 파싱 및 검증
-                ts = _validate_date_format(date_str)
-                if ts is None:
+        for idx, item in enumerate(points):
+            try:
+                original_period: str = ""
+                point: TrendPoint
+
+                if isinstance(item, TrendPoint):
+                    point = item
+                    ts = point.timestamp
+                    if not isinstance(ts, datetime):
+                        logger.warning(
+                            f"Skipping point {idx} for {keyword}: invalid timestamp '{point.timestamp}'"
+                        )
+                        failed += 1
+                        continue
+                    original_period = str(
+                        point.metadata.get("original_period")
+                        or point.metadata.get("period")
+                        or ts.date().isoformat()
+                    )
+                elif isinstance(item, Mapping):
+                    date_str = str(item.get("date", "")).strip()
+                    ts = _validate_date_format(date_str)
+                    if ts is None:
+                        logger.warning(
+                            f"Skipping point {idx} for {keyword}: invalid date '{date_str}'"
+                        )
+                        failed += 1
+                        continue
+
+                    value_raw = item.get("value", 0.0)
+                    if not isinstance(value_raw, (int, float, str)):
+                        logger.warning(
+                            f"Skipping point {idx} for {keyword}: invalid value '{value_raw}'"
+                        )
+                        failed += 1
+                        continue
+
+                    try:
+                        value = float(value_raw)
+                    except (TypeError, ValueError):
+                        logger.warning(
+                            f"Skipping point {idx} for {keyword}: invalid value '{item.get('value')}'"
+                        )
+                        failed += 1
+                        continue
+
+                    point = TrendPoint(
+                        keyword=keyword,
+                        source=source,
+                        timestamp=ts,
+                        value=value,
+                        metadata={
+                            "period": item.get("period", date_str),
+                        },
+                    )
+                    original_period = str(item.get("period", date_str))
+                else:
                     logger.warning(
-                        f"Skipping point {idx} for {keyword}: invalid date '{date_str}'"
+                        "Skipping point %s for %s: unsupported type '%s'",
+                        idx,
+                        keyword,
+                        type(item).__name__,
                     )
                     failed += 1
                     continue
 
                 # 메타데이터 JSON 생성
                 meta_dict = metadata.copy() if metadata else {}
-                meta_dict.update({
-                    "original_period": point.get("period", date_str),
-                })
+                meta_dict.update(point.metadata)
+                meta_dict.update({"original_period": original_period})
                 meta_json = json.dumps(meta_dict, ensure_ascii=False)
 
                 # INSERT OR REPLACE
                 try:
-                    conn.execute("""
+                    conn.execute(
+                        """
                         INSERT OR REPLACE INTO trend_points
                         (source, keyword, ts, value_normalized, meta_json)
                         VALUES (?, ?, ?, ?, ?)
-                    """, [source, keyword, ts, value, meta_json])
+                    """,
+                        [
+                            point.source or source,
+                            point.keyword or keyword,
+                            ts,
+                            point.value,
+                            meta_json,
+                        ],
+                    )
                     inserted += 1
                 except duckdb.IntegrityError as e:
-                    logger.error(
-                        f"Integrity error inserting {source}/{keyword}/{ts}: {e}"
-                    )
+                    logger.error(f"Integrity error inserting {source}/{keyword}/{ts}: {e}")
                     failed += 1
                 except Exception as e:
-                    logger.error(
-                        f"Failed to insert point {idx} for {keyword}: {e}",
-                        exc_info=True
-                    )
+                    logger.error(f"Failed to insert point {idx} for {keyword}: {e}", exc_info=True)
                     failed += 1
 
             except Exception as e:
-                logger.error(
-                    f"Unexpected error processing point {idx}: {e}",
-                    exc_info=True
-                )
+                logger.error(f"Unexpected error processing point {idx}: {e}", exc_info=True)
                 failed += 1
 
         try:
             conn.commit()
-            logger.info(
-                f"Saved {inserted} points for {source}/{keyword} "
-                f"({failed} failed)"
-            )
+            logger.info(f"Saved {inserted} points for {source}/{keyword} ({failed} failed)")
         except Exception as e:
             logger.error(f"Failed to commit transaction: {e}", exc_info=True)
             conn.rollback()
@@ -183,7 +233,7 @@ def query_trend_points(
     start_date: str | None = None,
     end_date: str | None = None,
     db_path: Path | None = None,
-) -> list[dict[str, Any]]:
+) -> list[TrendPoint]:
     """트렌드 포인트를 조회합니다.
 
     Args:
@@ -242,16 +292,22 @@ def query_trend_points(
             logger.error(f"Query execution failed: {e}", exc_info=True)
             return []
 
-        return [
-            {
-                "source": row[0],
-                "keyword": row[1],
-                "ts": row[2],
-                "value": row[3],
-                "metadata": json.loads(row[4]) if row[4] else {},
-            }
-            for row in result
-        ]
+        points: list[TrendPoint] = []
+        for row in result:
+            metadata = json.loads(row[4]) if row[4] else {}
+            points.append(
+                TrendPoint.from_dict(
+                    {
+                        "source": row[0],
+                        "keyword": row[1],
+                        "ts": row[2],
+                        "value_normalized": row[3],
+                        "metadata": metadata,
+                    }
+                )
+            )
+
+        return points
 
     except duckdb.IOException as e:
         logger.error(f"Database I/O error during query: {e}", exc_info=True)
@@ -292,11 +348,14 @@ def get_keywords_by_set(
         _ensure_table_exists(conn)
 
         try:
-            result = conn.execute("""
+            result = conn.execute(
+                """
                 SELECT DISTINCT keyword
                 FROM trend_points
                 WHERE meta_json LIKE ?
-            """, [f'%"set_name": "{set_name}"%']).fetchall()
+            """,
+                [f'%"set_name": "{set_name}"%'],
+            ).fetchall()
             logger.debug(f"Found {len(result)} keywords for set '{set_name}'")
         except Exception as e:
             logger.error(f"Query failed for set '{set_name}': {e}", exc_info=True)

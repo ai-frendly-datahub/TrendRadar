@@ -3,9 +3,8 @@
 
 from __future__ import annotations
 
-from typing import Any
-
 from pytrends.request import TrendReq
+from trendradar.models import TrendPoint
 
 
 class GoogleTrendsCollector:
@@ -27,7 +26,7 @@ class GoogleTrendsCollector:
         keywords: list[str],
         geo: str = "KR",
         timeframe: str = "today 3-m",
-    ) -> dict[str, list[dict[str, Any]]]:
+    ) -> dict[str, list[TrendPoint]]:
         """Google Trends에서 트렌드 데이터를 수집합니다.
 
         Args:
@@ -60,23 +59,30 @@ class GoogleTrendsCollector:
                 return {kw: [] for kw in keywords}
 
             # DataFrame을 딕셔너리로 변환
-            result: dict[str, list[dict[str, Any]]] = {}
+            result: dict[str, list[TrendPoint]] = {}
 
             for keyword in keywords:
                 if keyword not in interest_over_time_df.columns:
                     result[keyword] = []
                     continue
 
-                points = []
-                for timestamp, value in interest_over_time_df[keyword].items():
-                    # timestamp를 문자열로 변환
-                    date_str = timestamp.strftime("%Y-%m-%d")
-
-                    points.append({
-                        "date": date_str,
-                        "value": float(value),
-                        "timestamp": timestamp.isoformat(),
-                    })
+                points: list[TrendPoint] = []
+                values = interest_over_time_df[keyword].tolist()
+                timestamps = interest_over_time_df.index.tolist()
+                for timestamp, value in zip(timestamps, values):
+                    timestamp_text = str(timestamp)
+                    date_text = timestamp_text[:10]
+                    points.append(
+                        TrendPoint.from_dict(
+                            {
+                                "keyword": keyword,
+                                "source": "google",
+                                "timestamp": timestamp_text,
+                                "date": date_text,
+                                "value": float(value),
+                            }
+                        )
+                    )
 
                 result[keyword] = points
 

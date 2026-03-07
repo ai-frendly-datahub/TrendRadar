@@ -4,9 +4,11 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from typing import Any, Literal
 
 import requests
+from trendradar.models import TrendCollectionResult, TrendPoint
 
 
 DeviceType = Literal["pc", "mo", ""]
@@ -31,9 +33,7 @@ class NaverShoppingCollector:
             client_secret: 네이버 API Client Secret
         """
         if not client_id or not client_secret:
-            raise ValueError(
-                "NAVER_CLIENT_ID와 NAVER_CLIENT_SECRET 환경 변수를 설정해주세요."
-            )
+            raise ValueError("NAVER_CLIENT_ID와 NAVER_CLIENT_SECRET 환경 변수를 설정해주세요.")
 
         self.client_id = client_id
         self.client_secret = client_secret
@@ -52,7 +52,7 @@ class NaverShoppingCollector:
         device: DeviceType = "",
         gender: GenderType = "",
         ages: list[AgeGroup] | None = None,
-    ) -> list[dict[str, Any]]:
+    ) -> list[TrendCollectionResult]:
         """카테고리별 쇼핑 트렌드를 수집합니다.
 
         Args:
@@ -96,28 +96,42 @@ class NaverShoppingCollector:
             raise RuntimeError(f"네이버 쇼핑인사이트 API 호출 실패: {e}") from e
 
         # 응답 파싱
-        result = []
+        result: list[TrendCollectionResult] = []
 
         for item in data.get("results", []):
             category_name = item.get("title", "")
-            points = []
+            points: list[TrendPoint] = []
 
             for point in item.get("data", []):
                 period = point.get("period")
                 ratio = point.get("ratio", 0.0)
 
                 date_str = period.split("~")[0] if "~" in period else period
+                try:
+                    point_timestamp = datetime.fromisoformat(
+                        date_str if len(date_str) == 10 else f"{date_str}-01"
+                    )
+                except ValueError:
+                    continue
 
-                points.append({
-                    "date": date_str,
-                    "value": ratio,
-                    "period": period,
-                })
+                points.append(
+                    TrendPoint(
+                        keyword=category_name,
+                        source="naver_shopping",
+                        timestamp=point_timestamp,
+                        value=float(ratio),
+                        metadata={"period": period},
+                    )
+                )
 
-            result.append({
-                "category": category_name,
-                "points": points,
-            })
+            result.append(
+                TrendCollectionResult(
+                    source="naver_shopping",
+                    keyword=category_name,
+                    points=points,
+                    metadata={"category": category},
+                )
+            )
 
         return result
 
@@ -127,7 +141,7 @@ class NaverShoppingCollector:
         start_date: str,
         end_date: str,
         time_unit: str = "date",
-    ) -> dict[str, list[dict[str, Any]]]:
+    ) -> dict[str, list[TrendPoint]]:
         """카테고리의 인기 검색어를 수집합니다.
 
         Args:
@@ -160,22 +174,32 @@ class NaverShoppingCollector:
             raise RuntimeError(f"네이버 쇼핑인사이트 API 호출 실패: {e}") from e
 
         # 응답 파싱
-        result: dict[str, list[dict[str, Any]]] = {}
+        result: dict[str, list[TrendPoint]] = {}
 
         for item in data.get("results", []):
             keyword = item.get("keyword", "")
-            points = []
+            points: list[TrendPoint] = []
 
             for point in item.get("data", []):
                 period = point.get("period")
                 ratio = point.get("ratio", 0.0)
                 date_str = period.split("~")[0] if "~" in period else period
+                try:
+                    point_timestamp = datetime.fromisoformat(
+                        date_str if len(date_str) == 10 else f"{date_str}-01"
+                    )
+                except ValueError:
+                    continue
 
-                points.append({
-                    "date": date_str,
-                    "value": ratio,
-                    "period": period,
-                })
+                points.append(
+                    TrendPoint(
+                        keyword=keyword,
+                        source="naver_shopping",
+                        timestamp=point_timestamp,
+                        value=float(ratio),
+                        metadata={"period": period},
+                    )
+                )
 
             result[keyword] = points
 

@@ -5,10 +5,10 @@ from __future__ import annotations
 
 import logging
 from datetime import datetime
-from typing import Any
 from urllib.parse import quote
 
 import requests
+from trendradar.models import TrendPoint
 
 
 class WikipediaPageviewsCollector:
@@ -28,8 +28,7 @@ class WikipediaPageviewsCollector:
             timeout: Request timeout in seconds.
         """
         self.user_agent = (
-            user_agent
-            or "TrendRadar/0.1 (wikipedia collector; https://wikimedia.org/api/rest_v1/)"
+            user_agent or "TrendRadar/0.1 (wikipedia collector; https://wikimedia.org/api/rest_v1/)"
         )
         self.timeout = timeout
 
@@ -48,7 +47,7 @@ class WikipediaPageviewsCollector:
         access: str = "all-access",
         agent: str = "user",
         granularity: str = "daily",
-    ) -> dict[str, list[dict[str, Any]]]:
+    ) -> dict[str, list[TrendPoint]]:
         """Fetch pageview stats for the given article titles.
 
         Args:
@@ -71,13 +70,12 @@ class WikipediaPageviewsCollector:
 
         headers = {"User-Agent": self.user_agent}
 
-        results: dict[str, list[dict[str, Any]]] = {}
+        results: dict[str, list[TrendPoint]] = {}
 
         for keyword in keywords:
             article = quote(keyword.replace(" ", "_"))
             url = (
-                f"{self.BASE_URL}/{project}/{access}/{agent}/"
-                f"{article}/{granularity}/{start}/{end}"
+                f"{self.BASE_URL}/{project}/{access}/{agent}/{article}/{granularity}/{start}/{end}"
             )
 
             try:
@@ -94,7 +92,7 @@ class WikipediaPageviewsCollector:
                 logging.exception("Wikipedia API request failed: %s", exc)
                 raise RuntimeError(f"Wikipedia API request failed: {exc}") from exc
 
-            points = []
+            points: list[TrendPoint] = []
             for item in data.get("items", []):
                 timestamp = item.get("timestamp")  # e.g., 2024010100
                 if not timestamp or len(timestamp) < 8:
@@ -104,11 +102,13 @@ class WikipediaPageviewsCollector:
                 date_str = f"{date_part[:4]}-{date_part[4:6]}-{date_part[6:]}"
 
                 points.append(
-                    {
-                        "date": date_str,
-                        "value": int(item.get("views", 0)),
-                        "timestamp": timestamp,
-                    }
+                    TrendPoint(
+                        keyword=keyword,
+                        source="wikipedia",
+                        timestamp=datetime.fromisoformat(date_str),
+                        value=float(item.get("views", 0)),
+                        metadata={"timestamp": timestamp},
+                    )
                 )
 
             results[keyword] = points

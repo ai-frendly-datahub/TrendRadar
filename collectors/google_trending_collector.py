@@ -5,9 +5,8 @@ from __future__ import annotations
 
 import logging
 from datetime import datetime, timezone
-from typing import Any
-
 from pytrends.request import TrendReq
+from trendradar.models import TrendPoint
 
 
 class GoogleTrendingCollector:
@@ -29,7 +28,7 @@ class GoogleTrendingCollector:
         category: str | None = None,
         top_n: int = 20,
         date_override: str | None = None,
-    ) -> dict[str, list[dict[str, Any]]]:
+    ) -> dict[str, list[TrendPoint]]:
         """Fetch trending searches.
 
         Args:
@@ -71,16 +70,18 @@ class GoogleTrendingCollector:
 
         keywords = keywords[:top_n]
 
-        results: dict[str, list[dict[str, Any]]] = {}
-        timestamp = datetime.now(timezone.utc).isoformat()
+        results: dict[str, list[TrendPoint]] = {}
+        timestamp = datetime.now(timezone.utc)
 
         for idx, kw in enumerate(keywords, start=1):
             results[kw] = [
-                {
-                    "date": date_str,
-                    "value": float(idx),  # rank as value (1 = highest)
-                    "timestamp": timestamp,
-                }
+                TrendPoint(
+                    keyword=kw,
+                    source="google_trending",
+                    timestamp=timestamp,
+                    value=float(idx),
+                    metadata={"date": date_str},
+                )
             ]
 
         return results

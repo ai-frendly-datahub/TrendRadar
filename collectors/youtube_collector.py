@@ -6,6 +6,7 @@ from __future__ import annotations
 from typing import Any
 
 import requests
+from trendradar.models import ContentItem
 
 
 class YouTubeTrendingCollector:
@@ -15,6 +16,9 @@ class YouTubeTrendingCollector:
     """
 
     API_BASE_URL = "https://www.googleapis.com/youtube/v3"
+    DEFAULT_HEADERS: dict[str, str] = {
+        "User-Agent": "Mozilla/5.0 (compatible; TrendRadarBot/1.0; +https://github.com/zzragida/ai-frendly-datahub)",
+    }
 
     def __init__(self, api_key: str | None = None):
         """
@@ -35,7 +39,7 @@ class YouTubeTrendingCollector:
         region_code: str = "KR",
         category_id: str | None = None,
         max_results: int = 50,
-    ) -> list[dict[str, Any]]:
+    ) -> list[ContentItem]:
         """인기 급상승 영상을 수집합니다.
 
         Args:
@@ -62,7 +66,12 @@ class YouTubeTrendingCollector:
             params["videoCategoryId"] = category_id
 
         try:
-            response = requests.get(url, params=params, timeout=30)
+            response = requests.get(
+                url,
+                params=params,
+                headers=self.DEFAULT_HEADERS,
+                timeout=30,
+            )
             response.raise_for_status()
             data = response.json()
 
@@ -70,31 +79,34 @@ class YouTubeTrendingCollector:
             raise RuntimeError(f"YouTube API 호출 실패: {e}") from e
 
         # 응답 파싱
-        videos = []
+        videos: list[ContentItem] = []
 
         for item in data.get("items", []):
             snippet = item.get("snippet", {})
             statistics = item.get("statistics", {})
             content_details = item.get("contentDetails", {})
 
-            video = {
-                "video_id": item.get("id"),
-                "title": snippet.get("title"),
-                "channel_title": snippet.get("channelTitle"),
-                "channel_id": snippet.get("channelId"),
-                "published_at": snippet.get("publishedAt"),
-                "description": snippet.get("description", "")[:500],  # 처음 500자만
-                "category_id": snippet.get("categoryId"),
-                "tags": snippet.get("tags", [])[:10],  # 최대 10개 태그
-                # 통계
-                "view_count": int(statistics.get("viewCount", 0)),
-                "like_count": int(statistics.get("likeCount", 0)),
-                "comment_count": int(statistics.get("commentCount", 0)),
-                # 메타데이터
-                "duration": content_details.get("duration"),
-                "thumbnail_url": snippet.get("thumbnails", {}).get("high", {}).get("url"),
-                "region_code": region_code,
-            }
+            video = ContentItem(
+                title=str(snippet.get("title", "")),
+                url=f"https://www.youtube.com/watch?v={item.get('id', '')}",
+                source="youtube",
+                author=str(snippet.get("channelTitle", "")),
+                score=float(statistics.get("viewCount", 0)),
+                metadata={
+                    "video_id": item.get("id"),
+                    "channel_id": snippet.get("channelId"),
+                    "published_at": snippet.get("publishedAt"),
+                    "description": str(snippet.get("description", ""))[:500],
+                    "category_id": snippet.get("categoryId"),
+                    "tags": snippet.get("tags", [])[:10],
+                    "view_count": int(statistics.get("viewCount", 0)),
+                    "like_count": int(statistics.get("likeCount", 0)),
+                    "comment_count": int(statistics.get("commentCount", 0)),
+                    "duration": content_details.get("duration"),
+                    "thumbnail_url": snippet.get("thumbnails", {}).get("high", {}).get("url"),
+                    "region_code": region_code,
+                },
+            )
 
             videos.append(video)
 
@@ -125,19 +137,17 @@ class YouTubeTrendingCollector:
 
         for video in videos:
             # 태그
-            for tag in video.get("tags", []):
+            for tag in video.metadata.get("tags", []):
                 keyword_counts[tag] = keyword_counts.get(tag, 0) + 1
 
             # 제목에서 단어 추출 (간단한 공백 기반)
-            title = video.get("title", "")
+            title = video.title
             for word in title.split():
                 if len(word) > 1:  # 1글자 제외
                     keyword_counts[word] = keyword_counts.get(word, 0) + 1
 
         # 빈도순 정렬
-        sorted_keywords = dict(
-            sorted(keyword_counts.items(), key=lambda x: x[1], reverse=True)
-        )
+        sorted_keywords = dict(sorted(keyword_counts.items(), key=lambda x: x[1], reverse=True))
 
         return sorted_keywords
 
@@ -159,7 +169,12 @@ class YouTubeTrendingCollector:
         }
 
         try:
-            response = requests.get(url, params=params, timeout=30)
+            response = requests.get(
+                url,
+                params=params,
+                headers=self.DEFAULT_HEADERS,
+                timeout=30,
+            )
             response.raise_for_status()
             data = response.json()
 
