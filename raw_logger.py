@@ -20,7 +20,7 @@ class RawLogger:
         safe_source_name = source_name.replace("/", "_").replace("\\", "_")
         output_path = target_dir / f"{safe_source_name}.jsonl"
 
-        with output_path.open("w", encoding="utf-8") as fp:
+        with output_path.open("a", encoding="utf-8") as fp:
             for record in records:
                 _ = fp.write(json.dumps(record, ensure_ascii=False))
                 _ = fp.write("\n")
