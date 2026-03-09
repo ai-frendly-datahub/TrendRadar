@@ -2,6 +2,7 @@
 """HTML 리포트 생성 모듈."""
 
 from __future__ import annotations
+from typing import Optional
 
 from datetime import date
 from pathlib import Path
@@ -13,8 +14,8 @@ from trendradar.models import KeywordSet
 def generate_daily_report(
     target_date: date,
     keyword_sets: list[KeywordSet],
-    db_path: Path | None = None,
-    output_dir: Path | None = None,
+    db_path: Optional[Path] = None,
+    output_dir: Optional[Path] = None,
 ) -> None:
     """일일 트렌드 리포트를 생성합니다.
 

@@ -4,7 +4,7 @@
 from __future__ import annotations
 
 import os
-from typing import Any, ClassVar
+from typing import Optional, Any, ClassVar
 
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
@@ -25,12 +25,12 @@ class StackExchangeCollector:
         "User-Agent": "Mozilla/5.0 (compatible; TrendRadarBot/1.0; +https://github.com/zzragida/ai-frendly-datahub)",
     }
 
-    def __init__(self, api_key: str | None = None) -> None:
+    def __init__(self, api_key: Optional[str] = None) -> None:
         """
         Args:
             api_key: Stack Exchange API Key (기본값: STACK_EXCHANGE_API_KEY 환경변수)
         """
-        self.api_key: str | None = api_key or os.environ.get("STACK_EXCHANGE_API_KEY")
+        self.api_key: Optional[str] = api_key or os.environ.get("STACK_EXCHANGE_API_KEY")
 
     @retry(
         stop=stop_after_attempt(3),

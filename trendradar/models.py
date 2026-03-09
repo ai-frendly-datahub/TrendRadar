@@ -9,7 +9,7 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Any
+from typing import Optional, Any
 
 from typing_extensions import Self
 
@@ -29,7 +29,7 @@ def _coerce_datetime(value: Any) -> datetime:
     return datetime.now()
 
 
-def _coerce_optional_datetime(value: Any) -> datetime | None:
+def _coerce_optional_datetime(value: Any) -> Optional[datetime]:
     if value is None:
         return None
     if isinstance(value, str) and not value.strip():
@@ -170,7 +170,7 @@ class ContentItem:
     source: str
     author: str = ""
     score: float = 0.0
-    timestamp: datetime | None = None
+    timestamp: Optional[datetime] = None
     metadata: dict[str, Any] = field(default_factory=dict)
 
     @classmethod

@@ -2,6 +2,7 @@
 """Google Trends real-time / daily trending collector (no auth)."""
 
 from __future__ import annotations
+from typing import Optional
 
 import logging
 from datetime import datetime, timezone
@@ -25,9 +26,9 @@ class GoogleTrendingCollector:
         *,
         region: str = "south_korea",
         mode: str = "daily",
-        category: str | None = None,
+        category: Optional[str] = None,
         top_n: int = 20,
-        date_override: str | None = None,
+        date_override: Optional[str] = None,
     ) -> dict[str, list[TrendPoint]]:
         """Fetch trending searches.
 

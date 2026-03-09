@@ -2,6 +2,7 @@
 """Wikipedia Pageviews Collector (no auth)."""
 
 from __future__ import annotations
+from typing import Optional
 
 import logging
 from datetime import datetime
@@ -20,7 +21,7 @@ class WikipediaPageviewsCollector:
 
     BASE_URL = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article"
 
-    def __init__(self, user_agent: str | None = None, timeout: int = 15):
+    def __init__(self, user_agent: Optional[str] = None, timeout: int = 15):
         """
         Args:
             user_agent: Optional User-Agent header value. If not provided,

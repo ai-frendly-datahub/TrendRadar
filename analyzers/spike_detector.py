@@ -9,7 +9,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Any, Literal
+from typing import Optional, Any, Literal
 
 from storage import trend_store
 from trendradar.models import TrendPoint
@@ -49,7 +49,7 @@ class SpikeDetector:
 
     def __init__(
         self,
-        db_path: Path | None = None,
+        db_path: Optional[Path] = None,
         recent_days: int = 7,
         baseline_days: int = 30,
     ):
@@ -65,7 +65,7 @@ class SpikeDetector:
 
     def detect_surge_keywords(
         self,
-        source: str | None = None,
+        source: Optional[str] = None,
         min_ratio: float = 1.5,
         min_baseline: float = 10.0,
     ) -> list[SpikeSignal]:
@@ -155,7 +155,7 @@ class SpikeDetector:
 
     def detect_emerging_keywords(
         self,
-        source: str | None = None,
+        source: Optional[str] = None,
         min_current: float = 30.0,
         max_baseline: float = 5.0,
     ) -> list[SpikeSignal]:
@@ -236,7 +236,7 @@ class SpikeDetector:
 
     def detect_viral_keywords(
         self,
-        source: str | None = None,
+        source: Optional[str] = None,
         window_days: int = 3,
         min_growth_rate: float = 2.0,
     ) -> list[SpikeSignal]:
@@ -312,7 +312,7 @@ class SpikeDetector:
 
     def detect_all_spikes(
         self,
-        source: str | None = None,
+        source: Optional[str] = None,
         top_n: int = 20,
     ) -> dict[str, list[SpikeSignal]]:
         """모든 종류의 급상승 감지.

@@ -9,7 +9,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Any
+from typing import Optional, Any
 
 from storage import trend_store
 from trendradar.models import TrendPoint
@@ -51,7 +51,7 @@ class ChannelCorrelation:
 class CrossChannelAnalyzer:
     """크로스 채널 트렌드 분석기."""
 
-    def __init__(self, db_path: Path | None = None):
+    def __init__(self, db_path: Optional[Path] = None):
         """
         Args:
             db_path: DuckDB 파일 경로

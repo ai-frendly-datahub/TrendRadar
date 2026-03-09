@@ -2,6 +2,7 @@
 """TrendRadar 메인 실행 스크립트."""
 
 from __future__ import annotations
+from typing import Optional
 
 import argparse
 import os
@@ -145,7 +146,7 @@ def _sync_keyword_to_search_index(
     search_index.upsert(keyword=keyword, platform=source, context=" | ".join(context_parts))
 
 
-def load_keyword_sets_config(path: Path | None = None) -> list[KeywordSet]:
+def load_keyword_sets_config(path: Optional[Path] = None) -> list[KeywordSet]:
     """keyword_sets.yaml 로드."""
     config_path = Path(path or os.environ.get(CONFIG_ENV_VAR, DEFAULT_CONFIG_PATH))
     with config_path.open(encoding="utf-8") as fp:
@@ -164,10 +165,10 @@ def load_keyword_sets_config(path: Path | None = None) -> list[KeywordSet]:
 def collect_trends(
     keyword_set: KeywordSet,
     *,
-    db_path: Path | None = None,
-    source_filter: str | None = None,
-    raw_logger: RawLogger | None = None,
-    search_index: SearchIndex | None = None,
+    db_path: Optional[Path] = None,
+    source_filter: Optional[str] = None,
+    raw_logger: Optional[RawLogger] = None,
+    search_index: Optional[SearchIndex] = None,
 ) -> tuple[int, int, list[str]]:
     """Collect trend data from configured sources and persist them."""
     total_points = 0
@@ -785,12 +786,12 @@ def collect_trends(
 def run_once(
     execute_collectors: bool = False,
     *,
-    config_path: Path | None = None,
-    db_path: Path | None = None,
+    config_path: Optional[Path] = None,
+    db_path: Optional[Path] = None,
     generate_report: bool = False,
-    report_output_dir: Path | None = None,
-    source_filter: str | None = None,
-    notifier: Notifier | None = None,
+    report_output_dir: Optional[Path] = None,
+    source_filter: Optional[str] = None,
+    notifier: Optional[Notifier] = None,
 ) -> None:
     """트렌드 수집을 한 번 실행합니다."""
     start_time = time.time()
@@ -918,9 +919,9 @@ def run_once(
 def run_scheduler(
     interval_hours: int = 24,
     *,
-    config_path: Path | None = None,
-    db_path: Path | None = None,
-    notifier: Notifier | None = None,
+    config_path: Optional[Path] = None,
+    db_path: Optional[Path] = None,
+    notifier: Optional[Notifier] = None,
 ) -> None:
     """정기적으로 트렌드 데이터를 수집하는 스케줄러.
 

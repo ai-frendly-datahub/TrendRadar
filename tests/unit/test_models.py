@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from collections.abc import Mapping
 from datetime import datetime, timezone
-from typing import Callable, cast
+from typing import Optional, Callable, cast
 
 import pytest
 
@@ -17,7 +17,7 @@ from trendradar.models import (
 
 _coerce_datetime = cast(Callable[[object], datetime], getattr(models, "_coerce_datetime"))
 _coerce_optional_datetime = cast(
-    Callable[[object], datetime | None], getattr(models, "_coerce_optional_datetime")
+    Callable[[object], Optional[datetime]], getattr(models, "_coerce_optional_datetime")
 )
 _coerce_float = cast(Callable[..., float], getattr(models, "_coerce_float"))
 _coerce_bool = cast(Callable[..., bool], getattr(models, "_coerce_bool"))

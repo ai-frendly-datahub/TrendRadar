@@ -1,4 +1,5 @@
 from __future__ import annotations
+from typing import Optional
 
 import re
 from dataclasses import dataclass
@@ -11,7 +12,7 @@ DEFAULT_LIMIT = 20
 class ParsedQuery:
     original_query: str
     search_text: str
-    days: int | None
+    days: Optional[int]
     limit: int
 
 
@@ -19,7 +20,7 @@ def parse_query(query: str) -> ParsedQuery:
     normalized = " ".join(query.strip().split())
     working = normalized
 
-    days: int | None = None
+    days: Optional[int] = None
     limit = DEFAULT_LIMIT
 
     day_match = re.search(r"(?:최근\s*(\d+)\s*일|last\s*(\d+)\s*days?)", working, re.IGNORECASE)

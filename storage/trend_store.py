@@ -7,7 +7,7 @@ import json
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Mapping, Sequence
+from typing import Optional, Any, Mapping, Sequence
 
 import duckdb
 from trendradar.models import TrendPoint
@@ -15,7 +15,7 @@ from trendradar.models import TrendPoint
 logger = logging.getLogger(__name__)
 
 
-def _validate_date_format(date_str: str) -> datetime | None:
+def _validate_date_format(date_str: str) -> Optional[datetime]:
     """날짜 문자열을 검증하고 datetime 객체로 변환합니다.
 
     Args:
@@ -42,7 +42,7 @@ def _validate_date_format(date_str: str) -> datetime | None:
         return None
 
 
-def _get_db_path(db_path: Path | None = None) -> Path:
+def _get_db_path(db_path: Optional[Path] = None) -> Path:
     """DB 파일 경로를 반환합니다."""
     if db_path is None:
         return Path(__file__).parent.parent / "data" / "trendradar.duckdb"
@@ -74,7 +74,7 @@ def save_trend_points(
     keyword: str,
     points: Sequence[TrendPoint | Mapping[str, object]],
     metadata: dict[str, Any] | None = None,
-    db_path: Path | None = None,
+    db_path: Optional[Path] = None,
 ) -> int:
     """트렌드 포인트를 DuckDB에 저장합니다.
 
@@ -228,11 +228,11 @@ def save_trend_points(
 
 
 def query_trend_points(
-    source: str | None = None,
-    keyword: str | None = None,
-    start_date: str | None = None,
-    end_date: str | None = None,
-    db_path: Path | None = None,
+    source: Optional[str] = None,
+    keyword: Optional[str] = None,
+    start_date: Optional[str] = None,
+    end_date: Optional[str] = None,
+    db_path: Optional[Path] = None,
 ) -> list[TrendPoint]:
     """트렌드 포인트를 조회합니다.
 
@@ -325,7 +325,7 @@ def query_trend_points(
 
 def get_keywords_by_set(
     set_name: str,
-    db_path: Path | None = None,
+    db_path: Optional[Path] = None,
 ) -> list[str]:
     """특정 키워드 세트에 속한 모든 키워드를 반환합니다.
 

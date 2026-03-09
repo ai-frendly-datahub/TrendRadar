@@ -6,7 +6,7 @@ from __future__ import annotations
 import logging
 from datetime import date
 from pathlib import Path
-from typing import Any
+from typing import Optional, Any
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -18,8 +18,8 @@ logger = logging.getLogger(__name__)
 
 def generate_spike_report(
     target_date: date,
-    db_path: Path | None = None,
-    output_dir: Path | None = None,
+    db_path: Optional[Path] = None,
+    output_dir: Optional[Path] = None,
 ) -> None:
     """급상승 키워드 리포트를 생성합니다.
 
