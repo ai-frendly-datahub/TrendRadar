@@ -2,13 +2,37 @@
 """HTML 리포트 생성 모듈."""
 
 from __future__ import annotations
+import json
 from typing import Optional
 
-from datetime import date
+from datetime import date, timezone
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
-from trendradar.models import KeywordSet
+from reporters.correlation_analysis import analyze_cross_platform_correlation
+from reporters.trend_forecast import forecast_keyword_trends
+from trendradar.models import KeywordSet, TrendPoint
+
+
+def _build_7x24_heatmap_data(points: list[TrendPoint]) -> dict[str, object]:
+    matrix = [[0 for _ in range(24)] for _ in range(7)]
+
+    for point in points:
+        timestamp = point.timestamp
+        if timestamp.tzinfo is not None:
+            timestamp = timestamp.astimezone(timezone.utc)
+
+        matrix[timestamp.weekday()][timestamp.hour] += 1
+
+    max_count = max((max(row) for row in matrix), default=0)
+
+    return {
+        "x": [f"{hour:02d}:00" for hour in range(24)],
+        "y": ["월", "화", "수", "목", "금", "토", "일"],
+        "z": matrix,
+        "max_count": max_count,
+        "total_points": len(points),
+    }
 
 
 def generate_daily_report(
@@ -33,7 +57,10 @@ def generate_daily_report(
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # 각 키워드 세트별로 데이터 조회
-    sections = []
+    sections: list[dict[str, object]] = []
+    heatmap_points: list[TrendPoint] = []
+    forecast_points: list[TrendPoint] = []
+    total_keywords = 0
 
     for kw_set in keyword_sets:
         if not kw_set.enabled:
@@ -46,7 +73,7 @@ def generate_daily_report(
         start_date = str(target_date.replace(day=1))  # 월초부터
         end_date = str(target_date)
 
-        trend_data = []
+        trend_data: list[dict[str, object]] = []
         for keyword in keywords:
             points = trend_store.query_trend_points(
                 keyword=keyword,
@@ -54,6 +81,9 @@ def generate_daily_report(
                 end_date=end_date,
                 db_path=db_path,
             )
+            heatmap_points.extend(points)
+            forecast_points.extend(points)
+            total_keywords += 1
             trend_data.append(
                 {
                     "keyword": keyword,
@@ -83,16 +113,26 @@ def generate_daily_report(
     )
 
     template = env.get_template("daily_report.html")
+    heatmap_data = _build_7x24_heatmap_data(heatmap_points)
+    heatmap_total_points = len(heatmap_points)
+    forecast_data = forecast_keyword_trends(forecast_points, top_n=10)
+    correlation_analysis = analyze_cross_platform_correlation(heatmap_points)
 
     html_content = template.render(
         report_date=target_date.isoformat(),
         sections=sections,
-        total_keywords=sum(len(s["trend_data"]) for s in sections),
+        total_keywords=total_keywords,
+        heatmap_total_points=heatmap_total_points,
+        heatmap_data_json=json.dumps(heatmap_data, ensure_ascii=False),
+        forecast_keyword_count=len(forecast_data),
+        forecast_data_json=json.dumps(forecast_data, ensure_ascii=False),
+        correlation_analysis_json=json.dumps(correlation_analysis, ensure_ascii=False),
+        top_lead_lag_relationships=correlation_analysis["top_lead_lag_relationships"],
     )
 
     # 파일 저장
     output_file = output_dir / f"{target_date.isoformat()}.html"
-    output_file.write_text(html_content, encoding="utf-8")
+    _ = output_file.write_text(html_content, encoding="utf-8")
 
     print(f"리포트 생성 완료: {output_file}")
 
@@ -208,7 +248,7 @@ def _create_default_template(template_dir: Path) -> None:
 </body>
 </html>
 """
-    template_file.write_text(template_content, encoding="utf-8")
+    _ = template_file.write_text(template_content, encoding="utf-8")
 
 
 def generate_index_html(report_dir: Path) -> Path:
@@ -222,7 +262,7 @@ def generate_index_html(report_dir: Path) -> Path:
         key=lambda p: p.name,
     )
 
-    reports = []
+    reports: list[dict[str, str]] = []
     for html_file in html_files:
         name = html_file.stem
         display_name = name.replace("_report", "").replace("_", " ").title()
@@ -266,5 +306,5 @@ def generate_index_html(report_dir: Path) -> Path:
 </html>"""
 
     index_path = report_dir / "index.html"
-    index_path.write_text(html_content, encoding="utf-8")
+    _ = index_path.write_text(html_content, encoding="utf-8")
     return index_path

@@ -94,13 +94,24 @@ class TrendPoint:
     value: float
     metadata: dict[str, Any] = field(default_factory=dict)
 
+    @property
+    def platform(self) -> str:
+        return self.source
+
+    @property
+    def score(self) -> float:
+        return self.value
+
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> Self:
         timestamp_value = data.get("ts", data.get("timestamp", data.get("date")))
-        value_raw = data.get("value_normalized", data.get("value", data.get("ratio", 0.0)))
+        value_raw = data.get(
+            "value_normalized",
+            data.get("value", data.get("ratio", data.get("score", 0.0))),
+        )
         return cls(
             keyword=str(data.get("keyword", "")),
-            source=str(data.get("source", "")),
+            source=str(data.get("source", data.get("platform", ""))),
             timestamp=_coerce_datetime(timestamp_value),
             value=_coerce_float(value_raw),
             metadata=_coerce_metadata(data),
