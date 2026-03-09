@@ -245,6 +245,21 @@ class TestTrendPoint:
 
         assert point.value == 12.5
 
+    def test_from_dict_with_platform_and_score_aliases(self) -> None:
+        point = TrendPoint.from_dict(
+            {
+                "keyword": "ai",
+                "platform": "youtube",
+                "timestamp": "2024-01-01T00:00:00",
+                "score": "33.3",
+            }
+        )
+
+        assert point.source == "youtube"
+        assert point.platform == "youtube"
+        assert point.value == 33.3
+        assert point.score == 33.3
+
     def test_from_dict_missing_optional_fields_uses_defaults(self) -> None:
         point = TrendPoint.from_dict(
             {
@@ -279,8 +294,10 @@ class TestTrendPoint:
 
         assert point.keyword == "ai"
         assert point.source == "google"
+        assert point.platform == "google"
         assert point.timestamp == datetime(2024, 1, 1, 0, 0, 0)
         assert point.value == 1.5
+        assert point.score == 1.5
         assert point.metadata == {"foo": "bar"}
 
 
