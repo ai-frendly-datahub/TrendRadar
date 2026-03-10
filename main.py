@@ -27,7 +27,7 @@ from storage import trend_store
 from reporters.html_reporter import generate_daily_report
 from analyzers.spike_detector import SpikeDetector
 from config_loader import load_notification_config
-from notifier import Notifier, detect_trend_notifications
+from notifier import Notifier, PipelineNotifier, detect_trend_notifications
 from raw_logger import RawLogger
 from reporters.spike_reporter import generate_spike_report
 from storage.search_index import SearchIndex
@@ -1015,7 +1015,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     notification_config = load_notification_config(args.notifications_config)
-    notifier = Notifier(notification_config)
+    notifier = PipelineNotifier(notification_config)
 
     if args.mode == "once":
         run_once(
