@@ -200,6 +200,25 @@ class ContentItem:
             metadata=_coerce_metadata(data),
         )
 
+    def __getitem__(self, key: str) -> Any:
+        if key == "name":
+            return self.title
+        if key == "category":
+            return self.metadata.get("category")
+        if key == "rank":
+            return self.metadata.get("rank")
+        if key == "post_count":
+            return self.metadata.get("post_count")
+        if key == "engagement_count":
+            return self.metadata.get("engagement_count")
+        if key == "collected_at":
+            return self.metadata.get("collected_at")
+        if key == "url":
+            return self.url
+        if key == "source":
+            return self.source
+        raise KeyError(key)
+
 
 @dataclass
 class TrendRadarSettings:

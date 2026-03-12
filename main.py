@@ -2,6 +2,8 @@
 """TrendRadar 메인 실행 스크립트."""
 
 from __future__ import annotations
+from collections.abc import Sequence
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Optional
 
 import argparse
@@ -23,6 +25,7 @@ from collectors.hackernews_collector import HackerNewsCollector
 from collectors.devto_collector import DevtoCollector
 from collectors.stackexchange_collector import StackExchangeCollector
 from collectors.producthunt_collector import ProductHuntCollector
+from collectors.base import resolve_max_workers
 from storage import trend_store
 from reporters.html_reporter import generate_daily_report
 from analyzers.spike_detector import SpikeDetector
@@ -54,7 +57,7 @@ DEFAULT_DB_PATH = PROJECT_ROOT / DEFAULT_SETTINGS.database_path
 def _filter_valid_points(
     *,
     keyword: str,
-    points: list[TrendPoint],
+    points: Sequence[TrendPoint | dict[str, object]],
     source: str,
     errors: list[str],
 ) -> list[TrendPoint]:
@@ -63,7 +66,12 @@ def _filter_valid_points(
         return []
 
     valid_points: list[TrendPoint] = []
-    for point in points:
+    for point_value in points:
+        point = (
+            point_value
+            if isinstance(point_value, TrendPoint)
+            else TrendPoint.from_dict(point_value)
+        )
         date_str = point.timestamp.date().isoformat()
         if not date_str:
             errors.append(f"{source}: missing date for keyword '{keyword}'")
@@ -163,7 +171,7 @@ def load_keyword_sets_config(path: Optional[Path] = None) -> list[KeywordSet]:
 
 
 def collect_trends(
-    keyword_set: KeywordSet,
+    keyword_set: KeywordSet | dict[str, object],
     *,
     db_path: Optional[Path] = None,
     source_filter: Optional[str] = None,
@@ -174,6 +182,9 @@ def collect_trends(
     total_points = 0
     sources_succeeded = 0
     errors: list[str] = []
+
+    if isinstance(keyword_set, dict):
+        keyword_set = KeywordSet.from_dict(keyword_set)
 
     keywords = keyword_set.keywords
     channels = keyword_set.channels or ["naver", "google"]
@@ -791,7 +802,8 @@ def run_once(
     generate_report: bool = False,
     report_output_dir: Optional[Path] = None,
     source_filter: Optional[str] = None,
-    notifier: Optional[Notifier] = None,
+    notifier: Optional[PipelineNotifier] = None,
+    keep_days: int = 90,
 ) -> None:
     """트렌드 수집을 한 번 실행합니다."""
     start_time = time.time()
@@ -820,13 +832,10 @@ def run_once(
     total_sources_succeeded = 0
     all_errors: list[str] = []
 
-    for kw_set in keyword_sets:
-        if not kw_set.enabled:
-            continue
+    enabled_keyword_sets = [kw_set for kw_set in keyword_sets if kw_set.enabled]
 
+    def _collect_for_set(kw_set: KeywordSet) -> tuple[str, int, int, list[str]]:
         set_name = kw_set.name or "Unknown"
-        print(f"\n  [{set_name}] 수집 시작...")
-
         points, sources, errors = collect_trends(
             kw_set,
             db_path=db_path,
@@ -834,10 +843,31 @@ def run_once(
             raw_logger=raw_logger,
             search_index=search_index,
         )
+        return set_name, points, sources, errors
 
+    workers = resolve_max_workers()
+    if workers == 1 or len(enabled_keyword_sets) <= 1:
+        set_results = []
+        for kw_set in enabled_keyword_sets:
+            set_name = kw_set.name or "Unknown"
+            print(f"\n  [{set_name}] 수집 시작...")
+            set_results.append(_collect_for_set(kw_set))
+    else:
+        set_results = []
+        with ThreadPoolExecutor(max_workers=workers) as executor:
+            futures = [executor.submit(_collect_for_set, kw_set) for kw_set in enabled_keyword_sets]
+            for future in as_completed(futures):
+                set_results.append(future.result())
+
+    for set_name, points, sources, errors in set_results:
         total_points += points
         total_sources_succeeded += sources
         all_errors.extend(errors)
+        print(f"\n  [{set_name}] 수집 완료: {points} points, {sources} sources")
+
+    deleted = trend_store.delete_older_than(keep_days, db_path=db_path)
+    if deleted:
+        print(f"  - 보존 기간 초과 데이터 삭제: {deleted}개 포인트")
 
     if notifier is not None and db_path is not None:
         events = detect_trend_notifications(db_path, notifier.config.rules)
@@ -921,7 +951,7 @@ def run_scheduler(
     *,
     config_path: Optional[Path] = None,
     db_path: Optional[Path] = None,
-    notifier: Optional[Notifier] = None,
+    notifier: Optional[PipelineNotifier] = None,
 ) -> None:
     """정기적으로 트렌드 데이터를 수집하는 스케줄러.
 
@@ -1006,6 +1036,12 @@ if __name__ == "__main__":
         help="DuckDB 파일 경로",
     )
     parser.add_argument(
+        "--keep-days",
+        type=int,
+        default=90,
+        help="보존 기간 (일 단위, 기본값: 90)",
+    )
+    parser.add_argument(
         "--notifications-config",
         type=Path,
         default=DEFAULT_NOTIFICATION_CONFIG_PATH,
@@ -1025,6 +1061,7 @@ if __name__ == "__main__":
             source_filter=args.source,
             db_path=args.db_path,
             notifier=notifier,
+            keep_days=args.keep_days,
         )
     else:
         if args.dry_run:
