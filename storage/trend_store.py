@@ -5,11 +5,12 @@ from __future__ import annotations
 
 import json
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional, Any, Mapping, Sequence
 
 import duckdb
+from exceptions import StorageError
 from trendradar.models import TrendPoint
 
 logger = logging.getLogger(__name__)
@@ -96,6 +97,7 @@ def save_trend_points(
     try:
         conn = duckdb.connect(str(db_file))
         _ensure_table_exists(conn)
+        conn.execute("BEGIN TRANSACTION")
 
         inserted = 0
         failed = 0
@@ -172,13 +174,16 @@ def save_trend_points(
                 meta_dict.update({"original_period": original_period})
                 meta_json = json.dumps(meta_dict, ensure_ascii=False)
 
-                # INSERT OR REPLACE
                 try:
                     conn.execute(
                         """
-                        INSERT OR REPLACE INTO trend_points
+                        INSERT INTO trend_points
                         (source, keyword, ts, value_normalized, meta_json)
                         VALUES (?, ?, ?, ?, ?)
+                        ON CONFLICT (source, keyword, ts)
+                        DO UPDATE SET
+                            value_normalized = EXCLUDED.value_normalized,
+                            meta_json = EXCLUDED.meta_json
                     """,
                         [
                             point.source or source,
@@ -212,13 +217,13 @@ def save_trend_points(
 
     except duckdb.CatalogException as e:
         logger.error(f"Database catalog error: {e}", exc_info=True)
-        return 0
+        raise StorageError(f"Database catalog error while saving trend points: {e}") from e
     except duckdb.IOException as e:
         logger.error(f"Database I/O error: {e}", exc_info=True)
-        return 0
+        raise StorageError(f"Database I/O error while saving trend points: {e}") from e
     except Exception as e:
         logger.error(f"Unexpected error in save_trend_points: {e}", exc_info=True)
-        return 0
+        raise StorageError(f"Unexpected storage error while saving trend points: {e}") from e
     finally:
         if conn is not None:
             try:
@@ -301,7 +306,7 @@ def query_trend_points(
                         "source": row[0],
                         "keyword": row[1],
                         "ts": row[2],
-                        "value_normalized": row[3],
+                        "value_normalized": round(float(row[3]), 4),
                         "metadata": metadata,
                     }
                 )
@@ -321,6 +326,45 @@ def query_trend_points(
                 conn.close()
             except Exception as e:
                 logger.warning(f"Error closing database connection: {e}")
+
+
+def delete_older_than(days: int, db_path: Optional[Path] = None) -> int:
+    """trend_points 테이블에서 days일보다 오래된 레코드를 삭제한다.
+
+    Args:
+        days: 보존 기간 (일 단위)
+        db_path: DuckDB 파일 경로
+
+    Returns:
+        삭제된 레코드 수
+    """
+    db_file = _get_db_path(db_path)
+    if not db_file.exists():
+        return 0
+
+    cutoff = datetime.now(timezone.utc).replace(tzinfo=None) - timedelta(days=days)
+    conn = None
+    try:
+        conn = duckdb.connect(str(db_file))
+        _ensure_table_exists(conn)
+        conn.execute("BEGIN TRANSACTION")
+        count_row = conn.execute(
+            "SELECT COUNT(*) FROM trend_points WHERE ts < ?", [cutoff]
+        ).fetchone()
+        to_delete = int(count_row[0]) if count_row else 0
+        conn.execute("DELETE FROM trend_points WHERE ts < ?", [cutoff])
+        conn.commit()
+        logger.info(f"Deleted {to_delete} trend points older than {days} days")
+        return to_delete
+    except Exception as e:
+        logger.error(f"Failed to delete old trend points: {e}", exc_info=True)
+        raise StorageError(f"Failed to delete old trend points: {e}") from e
+    finally:
+        if conn is not None:
+            try:
+                conn.close()
+            except Exception as close_err:
+                logger.warning(f"Error closing connection after delete: {close_err}")
 
 
 def get_keywords_by_set(
