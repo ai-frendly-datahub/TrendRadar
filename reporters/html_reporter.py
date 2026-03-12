@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 import json
+import shutil
 from typing import Optional
 
 from datetime import date, timezone
@@ -12,6 +13,16 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from reporters.correlation_analysis import analyze_cross_platform_correlation
 from reporters.trend_forecast import forecast_keyword_trends
 from trendradar.models import KeywordSet, TrendPoint
+
+
+def _copy_static_assets(template_dir: Path, report_dir: Path) -> None:
+    src = template_dir / "static"
+    dst = report_dir / "static"
+    if not src.is_dir():
+        return
+    if dst.exists():
+        shutil.rmtree(dst)
+    shutil.copytree(src, dst)
 
 
 def _build_7x24_heatmap_data(points: list[TrendPoint]) -> dict[str, object]:
@@ -130,9 +141,15 @@ def generate_daily_report(
         top_lead_lag_relationships=correlation_analysis["top_lead_lag_relationships"],
     )
 
-    # 파일 저장
-    output_file = output_dir / f"{target_date.isoformat()}.html"
-    _ = output_file.write_text(html_content, encoding="utf-8")
+    date_stamp = target_date.strftime("%Y%m%d")
+    category_name = "daily_report"
+    output_file = output_dir / f"{category_name}.html"
+    dated_file = output_dir / f"{category_name}_{date_stamp}.html"
+
+    _ = dated_file.write_text(html_content, encoding="utf-8")
+    if dated_file != output_file:
+        shutil.copy2(dated_file, output_file)
+    _copy_static_assets(template_dir, output_dir)
 
     print(f"리포트 생성 완료: {output_file}")
 
