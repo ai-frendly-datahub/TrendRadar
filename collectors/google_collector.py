@@ -69,7 +69,7 @@ class GoogleTrendsCollector:
                 points: list[TrendPoint] = []
                 values = interest_over_time_df[keyword].tolist()
                 timestamps = interest_over_time_df.index.tolist()
-                for timestamp, value in zip(timestamps, values):
+                for timestamp, value in zip(timestamps, values, strict=False):
                     timestamp_text = str(timestamp)
                     date_text = timestamp_text[:10]
                     points.append(

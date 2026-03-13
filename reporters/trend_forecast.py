@@ -282,7 +282,7 @@ def _select_forecast_model(history_dates: list[date], history_counts: list[float
 def _compute_weekly_signal(history_dates: list[date], history_counts: list[float]) -> float:
     weekday_buckets: dict[int, list[float]] = {index: [] for index in range(7)}
 
-    for day, count in zip(history_dates, history_counts):
+    for day, count in zip(history_dates, history_counts, strict=False):
         weekday_buckets[day.weekday()].append(count)
 
     weekday_means = [sum(bucket) / len(bucket) for bucket in weekday_buckets.values() if bucket]
@@ -375,7 +375,7 @@ def _forecast_with_prophet(
     lower_80: list[float] = []
     upper_80: list[float] = []
 
-    for mean_value, low_95, up_95 in zip(forecast, lower_95, upper_95):
+    for mean_value, low_95, up_95 in zip(forecast, lower_95, upper_95, strict=False):
         half_width_95 = max(up_95 - mean_value, mean_value - low_95, 0.0)
         half_width_80 = (half_width_95 / z_95) * z_80
         lower_80.append(mean_value - half_width_80)
@@ -388,7 +388,7 @@ def _sanitize_bounds(lower: list[float], upper: list[float]) -> tuple[list[float
     sanitized_lower: list[float] = []
     sanitized_upper: list[float] = []
 
-    for low, up in zip(lower, upper):
+    for low, up in zip(lower, upper, strict=False):
         low_value = max(0.0, float(low))
         upper_value = max(0.0, float(up))
         if upper_value < low_value:
