@@ -9,12 +9,14 @@ from urllib.parse import urlparse
 
 import requests
 from pybreaker import CircuitBreakerError
+from requests.adapters import HTTPAdapter
 from tenacity import (
     retry,
     retry_if_exception_type,
     stop_after_attempt,
     wait_exponential,
 )
+from urllib3.util.retry import Retry
 
 from resilience import SourceCircuitBreakerManager
 
@@ -36,6 +38,22 @@ class BaseCollector(ABC):
         self._last_request: float = 0.0
         self._lock: threading.Lock = threading.Lock()
         self.breaker_manager = SourceCircuitBreakerManager()
+        self._session = self._create_session()
+
+    def _create_session(self) -> requests.Session:
+        """Create a session with retry logic for transient errors."""
+        session = requests.Session()
+        retry_strategy = Retry(
+            total=3,
+            backoff_factor=1,
+            status_forcelist=[408, 429, 500, 502, 503, 504, 522, 524],
+            allowed_methods=frozenset(["GET", "POST"]),
+            raise_on_status=False,
+        )
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        session.mount("http://", adapter)
+        session.mount("https://", adapter)
+        return session
 
     def _apply_rate_limit(self) -> None:
         """Apply rate limiting between requests."""
@@ -49,7 +67,7 @@ class BaseCollector(ABC):
         stop=stop_after_attempt(3),
         wait=wait_exponential(multiplier=1, min=1, max=10),
         retry=retry_if_exception_type(
-            (requests.exceptions.Timeout, requests.exceptions.ConnectionError)
+            (requests.exceptions.Timeout, requests.exceptions.ConnectionError, requests.exceptions.HTTPError)
         ),
         reraise=True,
     )
@@ -59,7 +77,7 @@ class BaseCollector(ABC):
 
         def _fetch_impl() -> requests.Response:
             try:
-                response = requests.get(url, timeout=self.timeout)
+                response = self._session.get(url, timeout=self.timeout)
                 response.raise_for_status()
                 return response
             except requests.exceptions.RequestException as exc:
@@ -75,7 +93,7 @@ class BaseCollector(ABC):
         stop=stop_after_attempt(3),
         wait=wait_exponential(multiplier=1, min=1, max=10),
         retry=retry_if_exception_type(
-            (requests.exceptions.Timeout, requests.exceptions.ConnectionError)
+            (requests.exceptions.Timeout, requests.exceptions.ConnectionError, requests.exceptions.HTTPError)
         ),
         reraise=True,
     )
@@ -85,7 +103,7 @@ class BaseCollector(ABC):
 
         def _fetch_html_impl() -> str | None:
             try:
-                response = requests.get(url, timeout=self.timeout)
+                response = self._session.get(url, timeout=self.timeout)
                 response.raise_for_status()
                 response.encoding = response.apparent_encoding or "utf-8"
                 return response.text
@@ -102,7 +120,7 @@ class BaseCollector(ABC):
         stop=stop_after_attempt(3),
         wait=wait_exponential(multiplier=1, min=1, max=10),
         retry=retry_if_exception_type(
-            (requests.exceptions.Timeout, requests.exceptions.ConnectionError)
+            (requests.exceptions.Timeout, requests.exceptions.ConnectionError, requests.exceptions.HTTPError)
         ),
         reraise=True,
     )
@@ -112,7 +130,7 @@ class BaseCollector(ABC):
 
         def _fetch_json_impl() -> dict[str, Any] | list[Any]:
             try:
-                response = requests.get(url, timeout=self.timeout)
+                response = self._session.get(url, timeout=self.timeout)
                 response.raise_for_status()
                 return response.json()
             except requests.exceptions.RequestException as exc:
