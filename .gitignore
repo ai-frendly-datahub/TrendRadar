@@ -59,6 +59,7 @@ dmyp.json
 # Local data
 data/*.duckdb
 data/*.db
+data/daily/
 reports/
 *.log
 
