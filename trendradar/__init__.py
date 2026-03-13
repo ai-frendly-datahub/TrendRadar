@@ -1,4 +1,3 @@
-import importlib
+"""TrendRadar - 트렌드 키워드 수집 및 분석"""
 
-_ = importlib.import_module("radar_core")
-_core_version = "radar-core"
+__version__ = "0.2.0"
