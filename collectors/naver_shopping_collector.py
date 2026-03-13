@@ -1,13 +1,13 @@
-# -*- coding: utf-8 -*-
 """네이버 쇼핑인사이트 API Collector."""
 
 from __future__ import annotations
 
 import json
 from datetime import datetime
-from typing import Optional, Any, Literal
+from typing import Any, Literal
 
 import requests
+
 from trendradar.models import TrendCollectionResult, TrendPoint
 
 
@@ -26,7 +26,7 @@ class NaverShoppingCollector:
     CATEGORY_API_URL = "https://openapi.naver.com/v1/datalab/shopping/category/keywords"
     KEYWORD_API_URL = "https://openapi.naver.com/v1/datalab/shopping/category/keyword/device"
 
-    def __init__(self, client_id: Optional[str] = None, client_secret: Optional[str] = None):
+    def __init__(self, client_id: str | None = None, client_secret: str | None = None):
         """
         Args:
             client_id: 네이버 API Client ID

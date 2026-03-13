@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Collector 단위 테스트."""
 
 from __future__ import annotations
@@ -28,11 +27,7 @@ class TestGoogleTrendsCollector:
         collector = GoogleTrendsCollector()
 
         # 최근 3개월 데이터
-        data = collector.collect(
-            keywords=["python"],
-            geo="KR",
-            timeframe="today 3-m"
-        )
+        data = collector.collect(keywords=["python"], geo="KR", timeframe="today 3-m")
 
         assert "python" in data
         assert len(data["python"]) > 0
@@ -56,25 +51,18 @@ class TestNaverDataLabCollector:
         from collectors.naver_collector import NaverDataLabCollector
 
         # 더미 키로 초기화만 테스트
-        collector = NaverDataLabCollector(
-            client_id="dummy_id",
-            client_secret="dummy_secret"
-        )
+        collector = NaverDataLabCollector(client_id="dummy_id", client_secret="dummy_secret")
         assert collector.client_id == "dummy_id"
         assert collector.client_secret == "dummy_secret"
 
     @pytest.mark.integration
-    @pytest.mark.skipif(
-        not os.environ.get("NAVER_CLIENT_ID"),
-        reason="NAVER_CLIENT_ID not set"
-    )
+    @pytest.mark.skipif(not os.environ.get("NAVER_CLIENT_ID"), reason="NAVER_CLIENT_ID not set")
     def test_collect_basic(self):
         """기본 수집 테스트 (실제 API 호출)."""
         from collectors.naver_collector import NaverDataLabCollector
 
         collector = NaverDataLabCollector(
-            client_id=os.environ["NAVER_CLIENT_ID"],
-            client_secret=os.environ["NAVER_CLIENT_SECRET"]
+            client_id=os.environ["NAVER_CLIENT_ID"], client_secret=os.environ["NAVER_CLIENT_SECRET"]
         )
 
         end_date = datetime.now()
@@ -84,7 +72,7 @@ class TestNaverDataLabCollector:
             keywords=["파이썬"],
             start_date=start_date.strftime("%Y-%m-%d"),
             end_date=end_date.strftime("%Y-%m-%d"),
-            time_unit="date"
+            time_unit="date",
         )
 
         assert "파이썬" in data
@@ -110,22 +98,14 @@ class TestYouTubeTrendingCollector:
         assert collector.api_key == "dummy_key"
 
     @pytest.mark.integration
-    @pytest.mark.skipif(
-        not os.environ.get("YOUTUBE_API_KEY"),
-        reason="YOUTUBE_API_KEY not set"
-    )
+    @pytest.mark.skipif(not os.environ.get("YOUTUBE_API_KEY"), reason="YOUTUBE_API_KEY not set")
     def test_collect_trending_videos(self):
         """인기 영상 수집 테스트 (실제 API 호출)."""
         from collectors.youtube_collector import YouTubeTrendingCollector
 
-        collector = YouTubeTrendingCollector(
-            api_key=os.environ["YOUTUBE_API_KEY"]
-        )
+        collector = YouTubeTrendingCollector(api_key=os.environ["YOUTUBE_API_KEY"])
 
-        videos = collector.collect_trending_videos(
-            region_code="KR",
-            max_results=10
-        )
+        videos = collector.collect_trending_videos(region_code="KR", max_results=10)
 
         assert len(videos) > 0
         assert "video_id" in videos[0]
@@ -133,22 +113,14 @@ class TestYouTubeTrendingCollector:
         assert "view_count" in videos[0]
 
     @pytest.mark.integration
-    @pytest.mark.skipif(
-        not os.environ.get("YOUTUBE_API_KEY"),
-        reason="YOUTUBE_API_KEY not set"
-    )
+    @pytest.mark.skipif(not os.environ.get("YOUTUBE_API_KEY"), reason="YOUTUBE_API_KEY not set")
     def test_collect_trending_keywords(self):
         """트렌딩 키워드 집계 테스트."""
         from collectors.youtube_collector import YouTubeTrendingCollector
 
-        collector = YouTubeTrendingCollector(
-            api_key=os.environ["YOUTUBE_API_KEY"]
-        )
+        collector = YouTubeTrendingCollector(api_key=os.environ["YOUTUBE_API_KEY"])
 
-        keywords = collector.collect_trending_keywords(
-            region_code="KR",
-            max_results=10
-        )
+        keywords = collector.collect_trending_keywords(region_code="KR", max_results=10)
 
         assert isinstance(keywords, dict)
         assert len(keywords) > 0
@@ -170,10 +142,7 @@ class TestRedditCollector:
         """인증 정보로 초기화."""
         from collectors.reddit_collector import RedditCollector
 
-        collector = RedditCollector(
-            client_id="dummy_id",
-            client_secret="dummy_secret"
-        )
+        collector = RedditCollector(client_id="dummy_id", client_secret="dummy_secret")
         assert collector.client_id == "dummy_id"
 
     @pytest.mark.integration
@@ -183,11 +152,7 @@ class TestRedditCollector:
 
         collector = RedditCollector()
 
-        posts = collector.collect_subreddit_posts(
-            subreddit="python",
-            sort="hot",
-            limit=10
-        )
+        posts = collector.collect_subreddit_posts(subreddit="python", sort="hot", limit=10)
 
         assert len(posts) > 0
         assert "post_id" in posts[0]
@@ -201,10 +166,7 @@ class TestRedditCollector:
 
         collector = RedditCollector()
 
-        posts = collector.collect_popular_posts(
-            time_filter="day",
-            limit=10
-        )
+        posts = collector.collect_popular_posts(time_filter="day", limit=10)
 
         assert len(posts) > 0
         assert "subreddit" in posts[0]
@@ -232,17 +194,13 @@ class TestNaverShoppingCollector:
         assert categories["50000000"] == "패션의류"
 
     @pytest.mark.integration
-    @pytest.mark.skipif(
-        not os.environ.get("NAVER_CLIENT_ID"),
-        reason="NAVER_CLIENT_ID not set"
-    )
+    @pytest.mark.skipif(not os.environ.get("NAVER_CLIENT_ID"), reason="NAVER_CLIENT_ID not set")
     def test_collect_category_trends(self):
         """카테고리 트렌드 수집 (실제 API 호출)."""
         from collectors.naver_shopping_collector import NaverShoppingCollector
 
         collector = NaverShoppingCollector(
-            client_id=os.environ["NAVER_CLIENT_ID"],
-            client_secret=os.environ["NAVER_CLIENT_SECRET"]
+            client_id=os.environ["NAVER_CLIENT_ID"], client_secret=os.environ["NAVER_CLIENT_SECRET"]
         )
 
         end_date = datetime.now()
@@ -252,7 +210,7 @@ class TestNaverShoppingCollector:
             category="50000000",  # 패션의류
             start_date=start_date.strftime("%Y-%m-%d"),
             end_date=end_date.strftime("%Y-%m-%d"),
-            time_unit="week"
+            time_unit="week",
         )
 
         assert len(trends) > 0

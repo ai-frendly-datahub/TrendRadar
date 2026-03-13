@@ -22,7 +22,9 @@ class _DummyGoogleCollector:
 
 
 @pytest.mark.unit
-def test_collect_trends_logs_raw_and_syncs_search_index(monkeypatch: pytest.MonkeyPatch, tmp_path: Path):
+def test_collect_trends_logs_raw_and_syncs_search_index(
+    monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+):
     monkeypatch.setattr(main, "GoogleTrendsCollector", _DummyGoogleCollector)
 
     keyword_set = {

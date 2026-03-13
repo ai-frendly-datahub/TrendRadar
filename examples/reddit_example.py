@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Reddit Collector 사용 예시."""
 
 from collectors.reddit_collector import RedditCollector
@@ -13,11 +12,7 @@ def main():
     print("🐍 r/python 인기 게시글 Top 10")
     print("=" * 60)
 
-    python_posts = collector.collect_subreddit_posts(
-        subreddit="python",
-        sort="hot",
-        limit=10
-    )
+    python_posts = collector.collect_subreddit_posts(subreddit="python", sort="hot", limit=10)
 
     for i, post in enumerate(python_posts, 1):
         print(f"\n{i}. {post['title']}")
@@ -30,10 +25,7 @@ def main():
     print("\n\n🔥 r/popular 인기 게시글 Top 10")
     print("=" * 60)
 
-    popular_posts = collector.collect_popular_posts(
-        time_filter="day",
-        limit=10
-    )
+    popular_posts = collector.collect_popular_posts(time_filter="day", limit=10)
 
     for i, post in enumerate(popular_posts, 1):
         print(f"{i}. [{post['subreddit']}] {post['title'][:60]}")
@@ -44,9 +36,7 @@ def main():
     print("=" * 60)
 
     keywords = collector.collect_trending_keywords(
-        subreddits=["python", "learnpython", "django", "flask"],
-        time_filter="day",
-        limit=25
+        subreddits=["python", "learnpython", "django", "flask"], time_filter="day", limit=25
     )
 
     for i, (keyword, count) in enumerate(list(keywords.items())[:20], 1):
@@ -57,10 +47,7 @@ def main():
     print("=" * 60)
 
     top_posts = collector.collect_subreddit_posts(
-        subreddit="programming",
-        sort="top",
-        time_filter="week",
-        limit=5
+        subreddit="programming", sort="top", time_filter="week", limit=5
     )
 
     for i, post in enumerate(top_posts, 1):

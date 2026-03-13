@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
 """Reddit Trending Topics Collector."""
 
 from __future__ import annotations
 
-from typing import Optional, Any, Literal
+from typing import Any, Literal
 
 import requests
+
 from trendradar.models import ContentItem
 
 
@@ -25,9 +25,9 @@ class RedditCollector:
 
     def __init__(
         self,
-        client_id: Optional[str] = None,
-        client_secret: Optional[str] = None,
-        user_agent: Optional[str] = None,
+        client_id: str | None = None,
+        client_secret: str | None = None,
+        user_agent: str | None = None,
     ):
         """
         Args:
@@ -41,7 +41,7 @@ class RedditCollector:
         self.headers = {"User-Agent": self.user_agent}
 
         # OAuth 토큰 (인증 시)
-        self.access_token: Optional[str] = None
+        self.access_token: str | None = None
         if client_id and client_secret:
             self._authenticate()
 

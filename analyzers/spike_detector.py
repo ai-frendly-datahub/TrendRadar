@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """급상승 키워드 감지 모듈.
 
 최근 기간 대비 급격한 상승을 보이는 키워드를 탐지합니다.
@@ -9,7 +8,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Optional, Any, Literal
+from typing import Any, Literal
 
 from storage import trend_store
 from trendradar.models import TrendPoint
@@ -49,7 +48,7 @@ class SpikeDetector:
 
     def __init__(
         self,
-        db_path: Optional[Path] = None,
+        db_path: Path | None = None,
         recent_days: int = 7,
         baseline_days: int = 30,
     ):
@@ -65,7 +64,7 @@ class SpikeDetector:
 
     def detect_surge_keywords(
         self,
-        source: Optional[str] = None,
+        source: str | None = None,
         min_ratio: float = 1.5,
         min_baseline: float = 10.0,
     ) -> list[SpikeSignal]:
@@ -155,7 +154,7 @@ class SpikeDetector:
 
     def detect_emerging_keywords(
         self,
-        source: Optional[str] = None,
+        source: str | None = None,
         min_current: float = 30.0,
         max_baseline: float = 5.0,
     ) -> list[SpikeSignal]:
@@ -236,7 +235,7 @@ class SpikeDetector:
 
     def detect_viral_keywords(
         self,
-        source: Optional[str] = None,
+        source: str | None = None,
         window_days: int = 3,
         min_growth_rate: float = 2.0,
     ) -> list[SpikeSignal]:
@@ -312,7 +311,7 @@ class SpikeDetector:
 
     def detect_all_spikes(
         self,
-        source: Optional[str] = None,
+        source: str | None = None,
         top_n: int = 20,
     ) -> dict[str, list[SpikeSignal]]:
         """모든 종류의 급상승 감지.

@@ -1,12 +1,12 @@
-# -*- coding: utf-8 -*-
 """Google Trends real-time / daily trending collector (no auth)."""
 
 from __future__ import annotations
-from typing import Optional
 
 import logging
-from datetime import datetime, timezone
+from datetime import UTC, datetime
+
 from pytrends.request import TrendReq
+
 from trendradar.models import TrendPoint
 
 
@@ -26,9 +26,9 @@ class GoogleTrendingCollector:
         *,
         region: str = "south_korea",
         mode: str = "daily",
-        category: Optional[str] = None,
+        category: str | None = None,
         top_n: int = 20,
-        date_override: Optional[str] = None,
+        date_override: str | None = None,
     ) -> dict[str, list[TrendPoint]]:
         """Fetch trending searches.
 
@@ -42,7 +42,7 @@ class GoogleTrendingCollector:
         Returns:
             Mapping keyword -> list of points [{date, value, timestamp}], where value is rank (1 = most popular).
         """
-        today = datetime.now(timezone.utc).date()
+        today = datetime.now(UTC).date()
         date_str = date_override or today.isoformat()
 
         keywords: list[str] = []
@@ -72,7 +72,7 @@ class GoogleTrendingCollector:
         keywords = keywords[:top_n]
 
         results: dict[str, list[TrendPoint]] = {}
-        timestamp = datetime.now(timezone.utc)
+        timestamp = datetime.now(UTC)
 
         for idx, kw in enumerate(keywords, start=1):
             results[kw] = [

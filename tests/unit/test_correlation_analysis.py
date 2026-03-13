@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import math
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import Any, cast
 
 import pytest
@@ -16,7 +16,7 @@ pytestmark = pytest.mark.unit
 def _build_keyword_points(
     keyword: str, platform_values: dict[str, list[float]]
 ) -> list[TrendPoint]:
-    start = datetime(2026, 1, 1, tzinfo=timezone.utc)
+    start = datetime(2026, 1, 1, tzinfo=UTC)
     points: list[TrendPoint] = []
     day_count = len(next(iter(platform_values.values())))
 

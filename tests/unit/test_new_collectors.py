@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """New Collectors Unit Tests (HackerNews, Dev.to, Stack Exchange, Product Hunt)."""
 
 from __future__ import annotations
@@ -46,7 +45,12 @@ class TestHackerNewsCollector:
         mock_response_item.raise_for_status.return_value = None
 
         # Configure mock to return different responses
-        mock_get.side_effect = [mock_response_stories, mock_response_item, mock_response_item, mock_response_item]
+        mock_get.side_effect = [
+            mock_response_stories,
+            mock_response_item,
+            mock_response_item,
+            mock_response_item,
+        ]
 
         collector = HackerNewsCollector()
         stories = collector.collect(limit=3)
@@ -58,8 +62,9 @@ class TestHackerNewsCollector:
     @patch("collectors.hackernews_collector.requests.get")
     def test_collect_handles_errors(self, mock_get: MagicMock) -> None:
         """API 에러 처리 테스트."""
-        from collectors.hackernews_collector import HackerNewsCollector
         import requests
+
+        from collectors.hackernews_collector import HackerNewsCollector
 
         mock_get.side_effect = requests.exceptions.RequestException("API Error")
 
@@ -113,8 +118,9 @@ class TestDevtoCollector:
     @patch("collectors.devto_collector.requests.get")
     def test_collect_handles_errors(self, mock_get: MagicMock) -> None:
         """API 에러 처리 테스트."""
-        from collectors.devto_collector import DevtoCollector
         import requests
+
+        from collectors.devto_collector import DevtoCollector
 
         mock_get.side_effect = requests.exceptions.RequestException("API Error")
 
@@ -180,8 +186,9 @@ class TestStackExchangeCollector:
     @patch("collectors.stackexchange_collector.requests.get")
     def test_collect_handles_errors(self, mock_get: MagicMock) -> None:
         """API 에러 처리 테스트."""
-        from collectors.stackexchange_collector import StackExchangeCollector
         import requests
+
+        from collectors.stackexchange_collector import StackExchangeCollector
 
         mock_get.side_effect = requests.exceptions.RequestException("API Error")
 
@@ -240,9 +247,7 @@ class TestProductHuntCollector:
                                 "votesCount": 100,
                                 "commentsCount": 10,
                                 "createdAt": "2024-01-01T00:00:00Z",
-                                "makers": [
-                                    {"name": "Test Maker", "username": "testmaker"}
-                                ],
+                                "makers": [{"name": "Test Maker", "username": "testmaker"}],
                                 "thumbnail": {"url": "https://example.com/thumb.jpg"},
                             }
                         }
@@ -266,9 +271,7 @@ class TestProductHuntCollector:
         from collectors.producthunt_collector import ProductHuntCollector
 
         mock_response = MagicMock()
-        mock_response.json.return_value = {
-            "errors": [{"message": "Invalid query"}]
-        }
+        mock_response.json.return_value = {"errors": [{"message": "Invalid query"}]}
         mock_response.raise_for_status.return_value = None
         mock_post.return_value = mock_response
 
@@ -279,8 +282,9 @@ class TestProductHuntCollector:
     @patch("collectors.producthunt_collector.requests.post")
     def test_collect_handles_request_errors(self, mock_post: MagicMock) -> None:
         """HTTP 요청 에러 처리 테스트."""
-        from collectors.producthunt_collector import ProductHuntCollector
         import requests
+
+        from collectors.producthunt_collector import ProductHuntCollector
 
         mock_post.side_effect = requests.exceptions.RequestException("API Error")
 

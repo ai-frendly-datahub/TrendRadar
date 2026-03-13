@@ -16,6 +16,7 @@ from mcp_server.tools import (
     handle_top_trends,
 )
 
+
 app = Server("trendradar")
 
 

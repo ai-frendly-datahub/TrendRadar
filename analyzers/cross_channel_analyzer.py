@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """크로스 채널 트렌드 분석 모듈.
 
 여러 채널(Google, Naver, YouTube 등)의 트렌드를 비교 분석합니다.
@@ -9,7 +8,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Optional, Any
+from typing import Any
 
 from storage import trend_store
 from trendradar.models import TrendPoint
@@ -51,7 +50,7 @@ class ChannelCorrelation:
 class CrossChannelAnalyzer:
     """크로스 채널 트렌드 분석기."""
 
-    def __init__(self, db_path: Optional[Path] = None):
+    def __init__(self, db_path: Path | None = None):
         """
         Args:
             db_path: DuckDB 파일 경로

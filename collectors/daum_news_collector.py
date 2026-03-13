@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """Daum News Realtime Search Collector."""
 
 from __future__ import annotations
@@ -6,11 +5,11 @@ from __future__ import annotations
 import re
 import time
 from datetime import datetime
-from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_attempt, wait_exponential
+
 from trendradar.models import ContentItem
 
 
@@ -39,7 +38,7 @@ class DaumNewsCollector:
         stop=stop_after_attempt(3),
         wait=wait_exponential(multiplier=1, min=2, max=10),
     )
-    def _fetch_html(self, url: str) -> Optional[str]:
+    def _fetch_html(self, url: str) -> str | None:
         """HTML 페이지 가져오기"""
         headers = {
             "User-Agent": self.USER_AGENT,

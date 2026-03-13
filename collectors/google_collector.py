@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
 """Google Trends Collector (pytrends 기반)."""
 
 from __future__ import annotations
 
 from pytrends.request import TrendReq
+
 from trendradar.models import TrendPoint
 
 

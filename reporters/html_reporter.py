@@ -1,14 +1,13 @@
-# -*- coding: utf-8 -*-
 """HTML 리포트 생성 모듈."""
 
 from __future__ import annotations
-import json
-from typing import Optional
 
-from datetime import date, timezone
+import json
+from datetime import UTC, date
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+
 from reporters.correlation_analysis import analyze_cross_platform_correlation
 from reporters.trend_forecast import forecast_keyword_trends
 from trendradar.models import KeywordSet, TrendPoint
@@ -20,7 +19,7 @@ def _build_7x24_heatmap_data(points: list[TrendPoint]) -> dict[str, object]:
     for point in points:
         timestamp = point.timestamp
         if timestamp.tzinfo is not None:
-            timestamp = timestamp.astimezone(timezone.utc)
+            timestamp = timestamp.astimezone(UTC)
 
         matrix[timestamp.weekday()][timestamp.hour] += 1
 
@@ -38,8 +37,8 @@ def _build_7x24_heatmap_data(points: list[TrendPoint]) -> dict[str, object]:
 def generate_daily_report(
     target_date: date,
     keyword_sets: list[KeywordSet],
-    db_path: Optional[Path] = None,
-    output_dir: Optional[Path] = None,
+    db_path: Path | None = None,
+    output_dir: Path | None = None,
 ) -> None:
     """일일 트렌드 리포트를 생성합니다.
 
@@ -253,7 +252,7 @@ def _create_default_template(template_dir: Path) -> None:
 
 def generate_index_html(report_dir: Path) -> Path:
     """Generate an index.html that lists all available report files."""
-    from datetime import datetime, timezone
+    from datetime import datetime
 
     report_dir.mkdir(parents=True, exist_ok=True)
 
@@ -268,7 +267,7 @@ def generate_index_html(report_dir: Path) -> Path:
         display_name = name.replace("_report", "").replace("_", " ").title()
         reports.append({"filename": html_file.name, "display_name": display_name})
 
-    generated_at = datetime.now(timezone.utc).isoformat()
+    generated_at = datetime.now(UTC).isoformat()
 
     if reports:
         cards_html = "\n    ".join(

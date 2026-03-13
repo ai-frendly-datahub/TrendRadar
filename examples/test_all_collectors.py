@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """모든 Collector 통합 테스트 스크립트.
 
 실제 API를 호출하여 각 Collector가 제대로 작동하는지 확인합니다.
@@ -12,9 +11,9 @@ from datetime import datetime, timedelta
 
 def test_google_trends():
     """Google Trends Collector 테스트."""
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("🔍 Google Trends Collector 테스트")
-    print("="*60)
+    print("=" * 60)
 
     from collectors.google_collector import GoogleTrendsCollector
 
@@ -25,9 +24,7 @@ def test_google_trends():
         print("📅 기간: 최근 3개월")
 
         data = collector.collect(
-            keywords=["파이썬", "자바스크립트"],
-            geo="KR",
-            timeframe="today 3-m"
+            keywords=["파이썬", "자바스크립트"], geo="KR", timeframe="today 3-m"
         )
 
         for keyword, points in data.items():
@@ -48,9 +45,9 @@ def test_google_trends():
 
 def test_naver_datalab():
     """네이버 데이터랩 Collector 테스트."""
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("🔍 네이버 데이터랩 Collector 테스트")
-    print("="*60)
+    print("=" * 60)
 
     client_id = os.environ.get("NAVER_CLIENT_ID")
     client_secret = os.environ.get("NAVER_CLIENT_SECRET")
@@ -63,22 +60,19 @@ def test_naver_datalab():
     from collectors.naver_collector import NaverDataLabCollector
 
     try:
-        collector = NaverDataLabCollector(
-            client_id=client_id,
-            client_secret=client_secret
-        )
+        collector = NaverDataLabCollector(client_id=client_id, client_secret=client_secret)
 
         end_date = datetime.now()
         start_date = end_date - timedelta(days=30)
 
-        print(f"📊 키워드: 파이썬, 자바스크립트")
+        print("📊 키워드: 파이썬, 자바스크립트")
         print(f"📅 기간: {start_date.date()} ~ {end_date.date()}")
 
         data = collector.collect(
             keywords=["파이썬", "자바스크립트"],
             start_date=start_date.strftime("%Y-%m-%d"),
             end_date=end_date.strftime("%Y-%m-%d"),
-            time_unit="date"
+            time_unit="date",
         )
 
         for keyword, points in data.items():
@@ -99,9 +93,9 @@ def test_naver_datalab():
 
 def test_youtube_trending():
     """YouTube Trending Collector 테스트."""
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("🎥 YouTube Trending Collector 테스트")
-    print("="*60)
+    print("=" * 60)
 
     api_key = os.environ.get("YOUTUBE_API_KEY")
 
@@ -121,7 +115,7 @@ def test_youtube_trending():
         videos = collector.collect_trending_videos(
             region_code="KR",
             category_id="10",  # Music
-            max_results=10
+            max_results=10,
         )
 
         print(f"  ✅ 수집된 영상: {len(videos)}개")
@@ -130,14 +124,10 @@ def test_youtube_trending():
             print("\n  🔥 Top 5 트렌딩 영상:")
             for i, video in enumerate(videos[:5], 1):
                 print(f"     {i}. {video['title'][:50]}")
-                print(f"        👁 {video['view_count']:,} views | "
-                      f"👍 {video['like_count']:,} likes")
+                print(f"        👁 {video['view_count']:,} views | 👍 {video['like_count']:,} likes")
 
         # 키워드 집계
-        keywords = collector.collect_trending_keywords(
-            region_code="KR",
-            max_results=10
-        )
+        keywords = collector.collect_trending_keywords(region_code="KR", max_results=10)
 
         if keywords:
             print("\n  🏷️  Top 10 트렌딩 키워드:")
@@ -154,9 +144,9 @@ def test_youtube_trending():
 
 def test_reddit():
     """Reddit Collector 테스트."""
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("💬 Reddit Collector 테스트")
-    print("="*60)
+    print("=" * 60)
 
     from collectors.reddit_collector import RedditCollector
 
@@ -167,11 +157,7 @@ def test_reddit():
         print("📊 서브레딧: python")
         print("📅 정렬: hot")
 
-        posts = collector.collect_subreddit_posts(
-            subreddit="python",
-            sort="hot",
-            limit=10
-        )
+        posts = collector.collect_subreddit_posts(subreddit="python", sort="hot", limit=10)
 
         print(f"  ✅ 수집된 게시글: {len(posts)}개")
 
@@ -179,14 +165,11 @@ def test_reddit():
             print("\n  🔥 Top 5 인기 게시글:")
             for i, post in enumerate(posts[:5], 1):
                 print(f"     {i}. {post['title'][:60]}")
-                print(f"        ⬆️  {post['score']} points | "
-                      f"💬 {post['num_comments']} comments")
+                print(f"        ⬆️  {post['score']} points | 💬 {post['num_comments']} comments")
 
         # 키워드 집계
         keywords = collector.collect_trending_keywords(
-            subreddits=["python", "learnpython"],
-            time_filter="day",
-            limit=10
+            subreddits=["python", "learnpython"], time_filter="day", limit=10
         )
 
         if keywords:
@@ -204,9 +187,9 @@ def test_reddit():
 
 def test_naver_shopping():
     """네이버 쇼핑인사이트 Collector 테스트."""
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("🛒 네이버 쇼핑인사이트 Collector 테스트")
-    print("="*60)
+    print("=" * 60)
 
     client_id = os.environ.get("NAVER_CLIENT_ID")
     client_secret = os.environ.get("NAVER_CLIENT_SECRET")
@@ -219,10 +202,7 @@ def test_naver_shopping():
     from collectors.naver_shopping_collector import NaverShoppingCollector
 
     try:
-        collector = NaverShoppingCollector(
-            client_id=client_id,
-            client_secret=client_secret
-        )
+        collector = NaverShoppingCollector(client_id=client_id, client_secret=client_secret)
 
         # 카테고리 목록
         categories = NaverShoppingCollector.get_popular_categories()
@@ -240,13 +220,13 @@ def test_naver_shopping():
             category="50000000",  # 패션의류
             start_date=start_date.strftime("%Y-%m-%d"),
             end_date=end_date.strftime("%Y-%m-%d"),
-            time_unit="week"
+            time_unit="week",
         )
 
         if trends:
             print(f"  ✅ 수집된 트렌드 데이터: {len(trends[0]['points'])}개 포인트")
-            if trends[0]['points']:
-                latest = trends[0]['points'][-1]
+            if trends[0]["points"]:
+                latest = trends[0]["points"][-1]
                 print(f"     최신 값: {latest['value']} ({latest['date']})")
 
         print("✅ 네이버 쇼핑인사이트 테스트 성공!")
@@ -271,9 +251,9 @@ def main():
     }
 
     # 결과 요약
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("📊 테스트 결과 요약")
-    print("="*60)
+    print("=" * 60)
 
     for name, result in results.items():
         if result is True:
@@ -295,12 +275,12 @@ def main():
     print(f"  • 실패: {fail_count}개")
     print(f"  • 건너뜀: {skip_count}개")
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("💡 API 키 설정 방법:")
     print("   export NAVER_CLIENT_ID=your_id")
     print("   export NAVER_CLIENT_SECRET=your_secret")
     print("   export YOUTUBE_API_KEY=your_key")
-    print("="*60)
+    print("=" * 60)
 
 
 if __name__ == "__main__":
