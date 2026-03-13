@@ -1,379 +1,188 @@
-"""트렌드 데이터를 DuckDB에 저장하는 모듈."""
-
 from __future__ import annotations
 
 import json
-import logging
-from collections.abc import Mapping, Sequence
-from datetime import datetime
+from collections.abc import Iterable
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
-from typing import Any
+from typing import cast
 
 import duckdb
 
-from trendradar.models import TrendPoint
+from .exceptions import StorageError
+from .models import Article
 
 
-logger = logging.getLogger(__name__)
-
-
-def _validate_date_format(date_str: str) -> datetime | None:
-    """날짜 문자열을 검증하고 datetime 객체로 변환합니다.
-
-    Args:
-        date_str: 날짜 문자열 (YYYY-MM-DD 또는 YYYY-MM)
-
-    Returns:
-        datetime 객체 또는 None (파싱 실패 시)
-    """
-    if not date_str or not isinstance(date_str, str):
-        logger.warning(f"Invalid date format: {date_str} (type: {type(date_str).__name__})")
+def _utc_naive(dt: datetime | None) -> datetime | None:
+    """Convert tz-aware datetime to UTC naive for DuckDB."""
+    if dt is None:
         return None
-
-    try:
-        return datetime.fromisoformat(date_str)
-    except ValueError:
-        # "2024-01" 형식 (월 단위)
-        if len(date_str) == 7:
-            try:
-                return datetime.fromisoformat(f"{date_str}-01")
-            except ValueError:
-                logger.warning(f"Failed to parse date: {date_str}")
-                return None
-        logger.warning(f"Unsupported date format: {date_str}")
-        return None
+    if dt.tzinfo:
+        return dt.astimezone(UTC).replace(tzinfo=None)
+    return dt
 
 
-def _get_db_path(db_path: Path | None = None) -> Path:
-    """DB 파일 경로를 반환합니다."""
-    if db_path is None:
-        return Path(__file__).parent.parent / "data" / "trendradar.duckdb"
-    return db_path
+class RadarStorage:
+    """DuckDB 기반 경량 스토리지."""
 
+    def __init__(self, db_path: Path):
+        self.db_path: Path = db_path
+        self.db_path.parent.mkdir(parents=True, exist_ok=True)
+        self.conn: duckdb.DuckDBPyConnection = duckdb.connect(str(self.db_path))
+        self._ensure_tables()
 
-def _ensure_table_exists(conn: duckdb.DuckDBPyConnection) -> None:
-    """trend_points 테이블이 없으면 생성합니다."""
-    try:
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS trend_points (
+    def close(self) -> None:
+        self.conn.close()
+
+    def __enter__(self) -> RadarStorage:
+        return self
+
+    def __exit__(self, *args: object) -> None:
+        self.close()
+
+    def _ensure_tables(self) -> None:
+        _ = self.conn.execute(
+            """
+            CREATE SEQUENCE IF NOT EXISTS articles_id_seq START 1;
+            CREATE TABLE IF NOT EXISTS articles (
+                id BIGINT PRIMARY KEY DEFAULT nextval('articles_id_seq'),
+                category TEXT NOT NULL,
                 source TEXT NOT NULL,
-                keyword TEXT NOT NULL,
-                ts TIMESTAMP NOT NULL,
-                value_normalized FLOAT NOT NULL,
-                meta_json TEXT,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                PRIMARY KEY (source, keyword, ts)
-            )
-        """)
-        logger.debug("trend_points table ensured")
-    except Exception as e:
-        logger.error(f"Failed to ensure table exists: {e}", exc_info=True)
-        raise
+                title TEXT NOT NULL,
+                link TEXT NOT NULL UNIQUE,
+                summary TEXT,
+                published TIMESTAMP,
+                collected_at TIMESTAMP NOT NULL,
+                entities_json TEXT
+            );
+            """
+        )
+        _ = self.conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_articles_category_time ON articles (category, published, collected_at);"
+        )
 
-
-def save_trend_points(
-    source: str,
-    keyword: str,
-    points: Sequence[TrendPoint | Mapping[str, object]],
-    metadata: dict[str, Any] | None = None,
-    db_path: Path | None = None,
-) -> int:
-    """트렌드 포인트를 DuckDB에 저장합니다.
-
-    Args:
-        source: 데이터 소스 (google, naver)
-        keyword: 키워드
-        points: 트렌드 포인트 리스트
-            예: [{"date": "2024-01-01", "value": 85, ...}, ...]
-        metadata: 메타데이터 (set_name, filters 등)
-        db_path: DuckDB 파일 경로
-
-    Returns:
-        저장된 레코드 수
-    """
-    db_file = _get_db_path(db_path)
-    db_file.parent.mkdir(parents=True, exist_ok=True)
-
-    conn = None
-    try:
-        conn = duckdb.connect(str(db_file))
-        _ensure_table_exists(conn)
-
-        inserted = 0
-        failed = 0
-
-        for idx, item in enumerate(points):
-            try:
-                original_period: str = ""
-                point: TrendPoint
-
-                if isinstance(item, TrendPoint):
-                    point = item
-                    ts = point.timestamp
-                    if not isinstance(ts, datetime):
-                        logger.warning(
-                            f"Skipping point {idx} for {keyword}: invalid timestamp '{point.timestamp}'"
-                        )
-                        failed += 1
-                        continue
-                    original_period = str(
-                        point.metadata.get("original_period")
-                        or point.metadata.get("period")
-                        or ts.date().isoformat()
-                    )
-                elif isinstance(item, Mapping):
-                    date_str = str(item.get("date", "")).strip()
-                    ts = _validate_date_format(date_str)
-                    if ts is None:
-                        logger.warning(
-                            f"Skipping point {idx} for {keyword}: invalid date '{date_str}'"
-                        )
-                        failed += 1
-                        continue
-
-                    value_raw = item.get("value", 0.0)
-                    if not isinstance(value_raw, (int, float, str)):
-                        logger.warning(
-                            f"Skipping point {idx} for {keyword}: invalid value '{value_raw}'"
-                        )
-                        failed += 1
-                        continue
-
-                    try:
-                        value = float(value_raw)
-                    except (TypeError, ValueError):
-                        logger.warning(
-                            f"Skipping point {idx} for {keyword}: invalid value '{item.get('value')}'"
-                        )
-                        failed += 1
-                        continue
-
-                    point = TrendPoint(
-                        keyword=keyword,
-                        source=source,
-                        timestamp=ts,
-                        value=value,
-                        metadata={
-                            "period": item.get("period", date_str),
-                        },
-                    )
-                    original_period = str(item.get("period", date_str))
-                else:
-                    logger.warning(
-                        "Skipping point %s for %s: unsupported type '%s'",
-                        idx,
-                        keyword,
-                        type(item).__name__,
-                    )
-                    failed += 1
-                    continue
-
-                # 메타데이터 JSON 생성
-                meta_dict = metadata.copy() if metadata else {}
-                meta_dict.update(point.metadata)
-                meta_dict.update({"original_period": original_period})
-                meta_json = json.dumps(meta_dict, ensure_ascii=False)
-
-                # INSERT OR REPLACE
-                try:
-                    conn.execute(
-                        """
-                        INSERT OR REPLACE INTO trend_points
-                        (source, keyword, ts, value_normalized, meta_json)
-                        VALUES (?, ?, ?, ?, ?)
-                    """,
-                        [
-                            point.source or source,
-                            point.keyword or keyword,
-                            ts,
-                            point.value,
-                            meta_json,
-                        ],
-                    )
-                    inserted += 1
-                except duckdb.IntegrityError as e:
-                    logger.error(f"Integrity error inserting {source}/{keyword}/{ts}: {e}")
-                    failed += 1
-                except Exception as e:
-                    logger.error(f"Failed to insert point {idx} for {keyword}: {e}", exc_info=True)
-                    failed += 1
-
-            except Exception as e:
-                logger.error(f"Unexpected error processing point {idx}: {e}", exc_info=True)
-                failed += 1
-
-        try:
-            conn.commit()
-            logger.info(f"Saved {inserted} points for {source}/{keyword} ({failed} failed)")
-        except Exception as e:
-            logger.error(f"Failed to commit transaction: {e}", exc_info=True)
-            conn.rollback()
-            return 0
-
-        return inserted
-
-    except duckdb.CatalogException as e:
-        logger.error(f"Database catalog error: {e}", exc_info=True)
-        return 0
-    except duckdb.IOException as e:
-        logger.error(f"Database I/O error: {e}", exc_info=True)
-        return 0
-    except Exception as e:
-        logger.error(f"Unexpected error in save_trend_points: {e}", exc_info=True)
-        return 0
-    finally:
-        if conn is not None:
-            try:
-                conn.close()
-            except Exception as e:
-                logger.warning(f"Error closing database connection: {e}")
-
-
-def query_trend_points(
-    source: str | None = None,
-    keyword: str | None = None,
-    start_date: str | None = None,
-    end_date: str | None = None,
-    db_path: Path | None = None,
-) -> list[TrendPoint]:
-    """트렌드 포인트를 조회합니다.
-
-    Args:
-        source: 데이터 소스 필터 (google, naver)
-        keyword: 키워드 필터
-        start_date: 시작일 (YYYY-MM-DD)
-        end_date: 종료일 (YYYY-MM-DD)
-        db_path: DuckDB 파일 경로
-
-    Returns:
-        트렌드 포인트 리스트
-    """
-    db_file = _get_db_path(db_path)
-
-    if not db_file.exists():
-        logger.debug(f"Database file not found: {db_file}")
-        return []
-
-    conn = None
-    try:
-        conn = duckdb.connect(str(db_file))
-        _ensure_table_exists(conn)
-
-        where_clauses = []
-        params = []
-
-        if source:
-            where_clauses.append("source = ?")
-            params.append(source)
-
-        if keyword:
-            where_clauses.append("keyword = ?")
-            params.append(keyword)
-
-        if start_date:
-            where_clauses.append("ts >= ?")
-            params.append(start_date)
-
-        if end_date:
-            where_clauses.append("ts <= ?")
-            params.append(end_date)
-
-        where_sql = " AND ".join(where_clauses) if where_clauses else "1=1"
-
-        query = f"""
-            SELECT source, keyword, ts, value_normalized, meta_json
-            FROM trend_points
-            WHERE {where_sql}
-            ORDER BY ts ASC
-        """
-
-        try:
-            result = conn.execute(query, params).fetchall()
-            logger.debug(f"Query returned {len(result)} rows")
-        except Exception as e:
-            logger.error(f"Query execution failed: {e}", exc_info=True)
-            return []
-
-        points: list[TrendPoint] = []
-        for row in result:
-            metadata = json.loads(row[4]) if row[4] else {}
-            points.append(
-                TrendPoint.from_dict(
-                    {
-                        "source": row[0],
-                        "keyword": row[1],
-                        "ts": row[2],
-                        "value_normalized": row[3],
-                        "metadata": metadata,
-                    }
+    def upsert_articles(self, articles: Iterable[Article]) -> None:
+        """중복 링크는 덮어쓰고 최신 수집 시각을 기록."""
+        now = _utc_naive(datetime.now(UTC))
+        rows: list[tuple[object, ...]] = []
+        for article in articles:
+            rows.append(
+                (
+                    article.category,
+                    article.source,
+                    article.title,
+                    article.link,
+                    article.summary,
+                    _utc_naive(article.published),
+                    now,
+                    json.dumps(article.matched_entities, ensure_ascii=False),
                 )
             )
 
-        return points
-
-    except duckdb.IOException as e:
-        logger.error(f"Database I/O error during query: {e}", exc_info=True)
-        return []
-    except Exception as e:
-        logger.error(f"Unexpected error in query_trend_points: {e}", exc_info=True)
-        return []
-    finally:
-        if conn is not None:
-            try:
-                conn.close()
-            except Exception as e:
-                logger.warning(f"Error closing database connection: {e}")
-
-
-def get_keywords_by_set(
-    set_name: str,
-    db_path: Path | None = None,
-) -> list[str]:
-    """특정 키워드 세트에 속한 모든 키워드를 반환합니다.
-
-    Args:
-        set_name: 키워드 세트 이름
-        db_path: DuckDB 파일 경로
-
-    Returns:
-        키워드 리스트
-    """
-    db_file = _get_db_path(db_path)
-
-    if not db_file.exists():
-        logger.debug(f"Database file not found: {db_file}")
-        return []
-
-    conn = None
-    try:
-        conn = duckdb.connect(str(db_file))
-        _ensure_table_exists(conn)
+        if not rows:
+            return
 
         try:
-            result = conn.execute(
+            _ = self.conn.begin()
+            _ = self.conn.executemany(
                 """
-                SELECT DISTINCT keyword
-                FROM trend_points
-                WHERE meta_json LIKE ?
-            """,
-                [f'%"set_name": "{set_name}"%'],
-            ).fetchall()
-            logger.debug(f"Found {len(result)} keywords for set '{set_name}'")
-        except Exception as e:
-            logger.error(f"Query failed for set '{set_name}': {e}", exc_info=True)
-            return []
-
-        return [row[0] for row in result]
-
-    except duckdb.IOException as e:
-        logger.error(f"Database I/O error: {e}", exc_info=True)
-        return []
-    except Exception as e:
-        logger.error(f"Unexpected error in get_keywords_by_set: {e}", exc_info=True)
-        return []
-    finally:
-        if conn is not None:
+                INSERT INTO articles (category, source, title, link, summary, published, collected_at, entities_json)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(link) DO UPDATE SET
+                    title = EXCLUDED.title,
+                    summary = EXCLUDED.summary,
+                    published = EXCLUDED.published,
+                    collected_at = EXCLUDED.collected_at,
+                    entities_json = EXCLUDED.entities_json
+                """,
+                rows,
+            )
+            _ = self.conn.commit()
+        except Exception as exc:
             try:
-                conn.close()
-            except Exception as e:
-                logger.warning(f"Error closing database connection: {e}")
+                _ = self.conn.rollback()
+            except duckdb.Error:
+                pass
+            raise StorageError("Failed to upsert articles") from exc
+
+    def recent_articles(self, category: str, *, days: int = 7, limit: int = 200) -> list[Article]:
+        """최근 N일 내 기사 반환."""
+        since = _utc_naive(datetime.now(UTC) - timedelta(days=days))
+        cur = self.conn.execute(
+            """
+            SELECT category, source, title, link, summary, published, collected_at, entities_json
+            FROM articles
+            WHERE category = ? AND COALESCE(published, collected_at) >= ?
+            ORDER BY COALESCE(published, collected_at) DESC
+            LIMIT ?
+            """,
+            [category, since, limit],
+        )
+        rows = cast(
+            list[
+                tuple[str, str, str, str, str | None, datetime | None, datetime | None, str | None]
+            ],
+            cur.fetchall(),
+        )
+
+        results: list[Article] = []
+        for row in rows:
+            category_value, source, title, link, summary, published, collected_at, raw_entities = (
+                row
+            )
+            published_at = published if isinstance(published, datetime) else None
+            collected = collected_at if isinstance(collected_at, datetime) else None
+
+            entities: dict[str, list[str]] = {}
+            if raw_entities:
+                try:
+                    parsed_entities = cast(object, json.loads(raw_entities))
+                    if isinstance(parsed_entities, dict):
+                        parsed_map = cast(dict[object, object], parsed_entities)
+                        entities = {}
+                        for name, keywords in parsed_map.items():
+                            if not isinstance(name, str) or not isinstance(keywords, list):
+                                continue
+                            normalized_keywords: list[str] = []
+                            for keyword in cast(list[object], keywords):
+                                normalized_keywords.append(str(keyword))
+                            entities[name] = normalized_keywords
+                except json.JSONDecodeError:
+                    entities = {}
+
+            results.append(
+                Article(
+                    title=str(title),
+                    link=str(link),
+                    summary=str(summary) if summary is not None else "",
+                    published=published_at,
+                    source=str(source),
+                    category=str(category_value),
+                    matched_entities=entities,
+                    collected_at=collected,
+                )
+            )
+        return results
+
+    def delete_older_than(self, days: int) -> int:
+        """보존 기간 밖 데이터 삭제."""
+        cutoff = _utc_naive(datetime.now(UTC) - timedelta(days=days))
+        count_row = self.conn.execute(
+            "SELECT COUNT(*) FROM articles WHERE COALESCE(published, collected_at) < ?", [cutoff]
+        ).fetchone()
+        to_delete = count_row[0] if count_row else 0
+        _ = self.conn.execute(
+            "DELETE FROM articles WHERE COALESCE(published, collected_at) < ?", [cutoff]
+        )
+        return to_delete
+
+    def create_daily_snapshot(self, snapshot_dir: str | None = None) -> Path | None:
+        from .date_storage import snapshot_database
+
+        snapshot_root = Path(snapshot_dir) if snapshot_dir else self.db_path.parent / "daily"
+        return snapshot_database(self.db_path, snapshot_root=snapshot_root)
+
+    def cleanup_old_snapshots(self, snapshot_dir: str | None = None, keep_days: int = 90) -> int:
+        from .date_storage import cleanup_date_directories
+
+        snapshot_root = Path(snapshot_dir) if snapshot_dir else self.db_path.parent / "daily"
+        return cleanup_date_directories(snapshot_root, keep_days=keep_days)

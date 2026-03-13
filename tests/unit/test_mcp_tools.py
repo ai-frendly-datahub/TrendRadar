@@ -1,95 +1,195 @@
 from __future__ import annotations
 
+import json
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
-import pytest
+import duckdb
 
-from mcp_server.tools import (
-    handle_price_watch,
-    handle_recent_updates,
-    handle_search,
-    handle_sql,
-    handle_top_trends,
-)
-from storage.search_index import SearchIndex
-from storage.trend_store import save_trend_points
+from trendradar.search_index import SearchIndex
 
 
-@pytest.mark.unit
-def test_handle_search_uses_search_index(tmp_path: Path):
-    search_db = tmp_path / "search.db"
-    data_db = tmp_path / "trend.duckdb"
+def _init_articles_table(db_path: Path) -> None:
+    conn = duckdb.connect(str(db_path))
+    try:
+        _ = conn.execute(
+            """
+            CREATE TABLE articles (
+                id BIGINT PRIMARY KEY,
+                category TEXT NOT NULL,
+                source TEXT NOT NULL,
+                title TEXT NOT NULL,
+                link TEXT NOT NULL UNIQUE,
+                summary TEXT,
+                published TIMESTAMP,
+                collected_at TIMESTAMP NOT NULL,
+                entities_json TEXT
+            )
+            """
+        )
+    finally:
+        conn.close()
 
-    _ = SearchIndex(search_db)
-    _.upsert("인공지능", "google", "ai machine learning")
 
-    result = handle_search(
-        search_db_path=search_db,
-        db_path=data_db,
-        query="최근 7일 인공지능 5개",
-        limit=20,
-    )
+def _seed_article(
+    *,
+    db_path: Path,
+    article_id: int,
+    title: str,
+    link: str,
+    collected_at: datetime,
+    entities: dict[str, list[str]] | None = None,
+) -> None:
+    conn = duckdb.connect(str(db_path))
+    try:
+        _ = conn.execute(
+            """
+            INSERT INTO articles (id, category, source, title, link, summary, published, collected_at, entities_json)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            [
+                article_id,
+                "coffee",
+                "Test Source",
+                title,
+                link,
+                "summary",
+                None,
+                collected_at,
+                json.dumps(entities or {}, ensure_ascii=False),
+            ],
+        )
+    finally:
+        conn.close()
 
-    assert "인공지능" in result
-    assert "google" in result
 
+def test_handle_search(tmp_path: Path) -> None:
+    from mcp_server.tools import handle_search
 
-@pytest.mark.unit
-def test_handle_recent_updates_reads_duckdb(tmp_path: Path):
-    db_path = tmp_path / "trend.duckdb"
-    now = datetime.now(tz=UTC)
+    db_path = tmp_path / "radar.duckdb"
+    search_db_path = tmp_path / "search.db"
+    _init_articles_table(db_path)
 
-    _ = save_trend_points(
-        source="google",
-        keyword="반도체",
-        points=[
-            {"date": (now - timedelta(days=1)).strftime("%Y-%m-%d"), "value": 45.0},
-        ],
+    now = datetime.now(UTC)
+    recent_link = "https://example.com/recent"
+    old_link = "https://example.com/old"
+
+    _seed_article(
         db_path=db_path,
+        article_id=1,
+        title="Recent coffee demand",
+        link=recent_link,
+        collected_at=now - timedelta(days=2),
     )
-
-    result = handle_recent_updates(db_path=db_path, days=7, limit=5)
-
-    assert "반도체" in result
-    assert "google" in result
-
-
-@pytest.mark.unit
-def test_handle_sql_blocks_non_select(tmp_path: Path):
-    db_path = tmp_path / "trend.duckdb"
-
-    result = handle_sql(db_path=db_path, query="DELETE FROM trend_points")
-
-    assert "Only SELECT" in result
-
-
-@pytest.mark.unit
-def test_handle_top_trends_returns_spike_keywords(tmp_path: Path):
-    db_path = tmp_path / "trend.duckdb"
-    now = datetime.now(tz=UTC)
-
-    baseline_points = [
-        {"date": (now - timedelta(days=35 - i)).strftime("%Y-%m-%d"), "value": 10.0}
-        for i in range(7)
-    ]
-    surge_points = [
-        {"date": (now - timedelta(days=6 - i)).strftime("%Y-%m-%d"), "value": 80.0}
-        for i in range(7)
-    ]
-
-    _ = save_trend_points(
-        source="google",
-        keyword="AI",
-        points=baseline_points + surge_points,
+    _seed_article(
         db_path=db_path,
+        article_id=2,
+        title="Old coffee demand",
+        link=old_link,
+        collected_at=now - timedelta(days=20),
     )
 
-    result = handle_top_trends(db_path=db_path, days=7, limit=5)
+    with SearchIndex(search_db_path) as idx:
+        idx.upsert(recent_link, "Recent coffee demand", "Demand is rising")
+        idx.upsert(old_link, "Old coffee demand", "Demand was low")
 
-    assert "AI" in result
+    output = handle_search(
+        search_db_path=search_db_path,
+        db_path=db_path,
+        query="last 7 days coffee",
+        limit=10,
+    )
+
+    assert "Recent coffee demand" in output
+    assert "Old coffee demand" not in output
 
 
-@pytest.mark.unit
-def test_handle_price_watch_is_stub():
-    assert handle_price_watch() == "Not available in TrendRadar"
+def test_handle_recent_updates(tmp_path: Path) -> None:
+    from mcp_server.tools import handle_recent_updates
+
+    db_path = tmp_path / "radar.duckdb"
+    _init_articles_table(db_path)
+    now = datetime.now(UTC)
+
+    _seed_article(
+        db_path=db_path,
+        article_id=1,
+        title="Most recent",
+        link="https://example.com/1",
+        collected_at=now - timedelta(hours=1),
+    )
+    _seed_article(
+        db_path=db_path,
+        article_id=2,
+        title="Older",
+        link="https://example.com/2",
+        collected_at=now - timedelta(days=2),
+    )
+
+    output = handle_recent_updates(db_path=db_path, days=1, limit=10)
+
+    assert "Most recent" in output
+    assert "Older" not in output
+
+
+def test_handle_sql_select(tmp_path: Path) -> None:
+    from mcp_server.tools import handle_sql
+
+    db_path = tmp_path / "radar.duckdb"
+    _init_articles_table(db_path)
+
+    output = handle_sql(db_path=db_path, query="SELECT COUNT(*) AS total FROM articles")
+
+    assert "total" in output
+    assert "0" in output
+
+
+def test_handle_sql_blocked(tmp_path: Path) -> None:
+    from mcp_server.tools import handle_sql
+
+    db_path = tmp_path / "radar.duckdb"
+    _init_articles_table(db_path)
+
+    output = handle_sql(db_path=db_path, query="DROP TABLE articles")
+
+    assert "Only SELECT/WITH/EXPLAIN queries are allowed" in output
+
+
+def test_handle_top_trends(tmp_path: Path) -> None:
+    from mcp_server.tools import handle_top_trends
+
+    db_path = tmp_path / "radar.duckdb"
+    _init_articles_table(db_path)
+    now = datetime.now(UTC)
+
+    _seed_article(
+        db_path=db_path,
+        article_id=1,
+        title="a",
+        link="https://example.com/a",
+        collected_at=now - timedelta(days=1),
+        entities={"Region": ["ethiopia", "kenya"], "Roaster": ["blue bottle"]},
+    )
+    _seed_article(
+        db_path=db_path,
+        article_id=2,
+        title="b",
+        link="https://example.com/b",
+        collected_at=now - timedelta(days=1),
+        entities={"Region": ["brazil"]},
+    )
+
+    output = handle_top_trends(db_path=db_path, days=7, limit=10)
+
+    assert "Region" in output
+    assert "3" in output
+    assert "Roaster" in output
+    assert "1" in output
+
+
+def test_handle_price_watch_stub() -> None:
+    from mcp_server.tools import handle_price_watch
+
+    output = handle_price_watch(threshold=10.0)
+
+    assert "Not available in template project" in output

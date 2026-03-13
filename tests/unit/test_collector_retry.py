@@ -1,214 +1,185 @@
-# pyright: reportPrivateUsage=false, reportAny=false
 from __future__ import annotations
 
+import time
 from unittest.mock import Mock, patch
 
+# pyright: reportPrivateUsage=false
 import pytest
 import requests
-from tenacity import RetryError
 
-from collectors.devto_collector import DevtoCollector
-from collectors.hackernews_collector import HackerNewsCollector
-from collectors.stackexchange_collector import StackExchangeCollector
-
-
-pytestmark = pytest.mark.unit
+from trendradar.collector import RateLimiter, _collect_single, collect_sources
+from trendradar.exceptions import NetworkError, SourceError
+from trendradar.models import Article, Source
 
 
-def _mock_json_response(payload: object) -> Mock:
-    response = Mock()
-    response.raise_for_status = Mock()
-    response.json.return_value = payload
-    return response
+class TestCollectorRetryLogic:
+    """Test HTTP retry logic with exponential backoff."""
 
-
-def _http_500_error() -> requests.exceptions.HTTPError:
-    return requests.exceptions.HTTPError("500 server error")
-
-
-class TestDevtoCollectorRetry:
     def test_retry_on_timeout(self) -> None:
-        collector = DevtoCollector()
-        with patch("collectors.devto_collector.requests.get") as mock_get:
+        """Should retry on request timeout and eventually succeed."""
+        source = Source(name="test_feed", type="rss", url="http://example.com/feed")
+
+        with patch("radar.collector.requests.get") as mock_get:
+            mock_response = Mock()
+            mock_response.content = b"""<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <item>
+            <title>Test Article</title>
+            <link>http://example.com/article</link>
+            <description>Test summary</description>
+            <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>"""
+            mock_response.raise_for_status = Mock()
+
             mock_get.side_effect = [
                 requests.exceptions.Timeout("timeout"),
                 requests.exceptions.Timeout("timeout"),
-                _mock_json_response([{"id": 1, "title": "Test Article"}]),
+                mock_response,
             ]
 
-            result = collector._fetch_with_retry("https://dev.to/api/articles")
+            articles = _collect_single(source, category="test", limit=10, timeout=15)
 
-            assert isinstance(result, list)
-            assert result[0]["id"] == 1
+            assert len(articles) == 1
+            assert articles[0].title == "Test Article"
+            assert isinstance(articles[0], Article)
+            assert mock_get.call_count == 3
+            assert collect_sources([], category="test") == ([], [])
+
+    def test_retry_on_5xx_error(self) -> None:
+        """Should retry on 5xx server errors."""
+        source = Source(name="test_feed", type="rss", url="http://example.com/feed")
+
+        with patch("radar.collector.requests.get") as mock_get:
+            mock_response = Mock()
+            mock_response.content = b"""<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <item>
+            <title>Test Article</title>
+            <link>http://example.com/article</link>
+            <description>Test summary</description>
+            <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>"""
+            mock_response.raise_for_status = Mock()
+
+            error_response = Mock()
+            error_response.status_code = 503
+            error_response.raise_for_status = Mock(
+                side_effect=requests.exceptions.HTTPError("503 Service Unavailable")
+            )
+
+            mock_get.side_effect = [
+                error_response,
+                error_response,
+                mock_response,
+            ]
+
+            articles = _collect_single(source, category="test", limit=10, timeout=15)
+
+            assert len(articles) == 1
+            assert articles[0].title == "Test Article"
             assert mock_get.call_count == 3
 
-    def test_retry_on_5xx(self) -> None:
-        collector = DevtoCollector()
-        with patch("collectors.devto_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                _http_500_error(),
-                _http_500_error(),
-                _mock_json_response([{"id": 1, "title": "Test Article"}]),
-            ]
+    def test_4xx_error_retries_and_raises(self) -> None:
+        """Should retry on 4xx errors (RequestException) and raise after max retries."""
+        source = Source(name="test_feed", type="rss", url="http://example.com/feed")
 
-            result = collector._fetch_with_retry("https://dev.to/api/articles")
+        with patch("radar.collector.requests.get") as mock_get:
+            mock_get.side_effect = requests.exceptions.HTTPError("404 Not Found")
 
-            assert isinstance(result, list)
-            assert result[0]["title"] == "Test Article"
+            with pytest.raises(SourceError):
+                _ = _collect_single(source, category="test", limit=10, timeout=15)
+
             assert mock_get.call_count == 3
 
     def test_max_retries_exceeded(self) -> None:
-        collector = DevtoCollector()
-        with patch("collectors.devto_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                requests.exceptions.Timeout("timeout"),
-                requests.exceptions.Timeout("timeout"),
-                requests.exceptions.Timeout("timeout"),
-            ]
+        """Should raise after 3 failed attempts."""
+        source = Source(name="test_feed", type="rss", url="http://example.com/feed")
 
-            with pytest.raises(RetryError):
-                _ = collector._fetch_with_retry("https://dev.to/api/articles")
+        with patch("radar.collector.requests.get") as mock_get:
+            mock_get.side_effect = requests.exceptions.Timeout("timeout")
+
+            with pytest.raises(NetworkError):
+                _ = _collect_single(source, category="test", limit=10, timeout=15)
 
             assert mock_get.call_count == 3
 
     def test_connection_error_retry(self) -> None:
-        collector = DevtoCollector()
-        with patch("collectors.devto_collector.requests.get") as mock_get:
+        """Should retry on connection errors."""
+        source = Source(name="test_feed", type="rss", url="http://example.com/feed")
+
+        with patch("radar.collector.requests.get") as mock_get:
+            mock_response = Mock()
+            mock_response.content = b"""<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <item>
+            <title>Test Article</title>
+            <link>http://example.com/article</link>
+            <description>Test summary</description>
+            <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>"""
+            mock_response.raise_for_status = Mock()
+
             mock_get.side_effect = [
-                requests.exceptions.ConnectionError("connection error"),
-                _mock_json_response([{"id": 1, "title": "Test Article"}]),
+                requests.exceptions.ConnectionError("connection failed"),
+                requests.exceptions.ConnectionError("connection failed"),
+                mock_response,
             ]
 
-            result = collector._fetch_with_retry("https://dev.to/api/articles")
+            articles = _collect_single(source, category="test", limit=10, timeout=15)
 
-            assert isinstance(result, list)
-            assert len(result) == 1
-            assert mock_get.call_count == 2
-
-
-class TestHackerNewsCollectorRetry:
-    def test_retry_on_timeout(self) -> None:
-        collector = HackerNewsCollector()
-        with patch("collectors.hackernews_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                requests.exceptions.Timeout("timeout"),
-                requests.exceptions.Timeout("timeout"),
-                _mock_json_response([1, 2, 3]),
-            ]
-
-            result = collector._fetch_with_retry(
-                "https://hacker-news.firebaseio.com/v0/topstories.json"
-            )
-
-            assert isinstance(result, list)
-            assert result == [1, 2, 3]
+            assert len(articles) == 1
             assert mock_get.call_count == 3
 
-    def test_retry_on_5xx(self) -> None:
-        collector = HackerNewsCollector()
-        with patch("collectors.hackernews_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                _http_500_error(),
-                _http_500_error(),
-                _mock_json_response({"id": 1, "title": "HN Story"}),
-            ]
+    def test_session_reuse(self) -> None:
+        sources = [
+            Source(name="feed_1", type="rss", url="http://host1.example.com/feed"),
+            Source(name="feed_2", type="rss", url="http://host2.example.com/feed"),
+            Source(name="feed_3", type="rss", url="http://host3.example.com/feed"),
+        ]
 
-            result = collector._fetch_with_retry(
-                "https://hacker-news.firebaseio.com/v0/item/1.json"
-            )
+        mock_breaker = Mock()
+        mock_breaker.call.side_effect = lambda func, *args, **kwargs: func(*args, **kwargs)
+        mock_manager = Mock()
+        mock_manager.get_breaker.return_value = mock_breaker
 
-            assert isinstance(result, dict)
-            assert result["id"] == 1
+        with (
+            patch("radar.collector.requests.Session.get") as mock_get,
+            patch("radar.collector.get_circuit_breaker_manager", return_value=mock_manager),
+        ):
+            mock_response = Mock()
+            mock_response.content = b"""<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <item>
+            <title>Test Article</title>
+            <link>http://example.com/article</link>
+            <description>Test summary</description>
+            <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>"""
+            mock_response.raise_for_status = Mock()
+            mock_get.return_value = mock_response
+
+            collect_sources(sources, category="test", limit_per_source=10)
             assert mock_get.call_count == 3
 
-    def test_max_retries_exceeded(self) -> None:
-        collector = HackerNewsCollector()
-        with patch("collectors.hackernews_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                requests.exceptions.Timeout("timeout"),
-                requests.exceptions.Timeout("timeout"),
-                requests.exceptions.Timeout("timeout"),
-            ]
+    def test_rate_limiter_enforces_delay(self) -> None:
+        limiter = RateLimiter(min_interval=0.3)
 
-            with pytest.raises(RetryError):
-                _ = collector._fetch_with_retry(
-                    "https://hacker-news.firebaseio.com/v0/topstories.json"
-                )
+        start = time.monotonic()
+        limiter.acquire()
+        limiter.acquire()
+        limiter.acquire()
+        elapsed = time.monotonic() - start
 
-            assert mock_get.call_count == 3
-
-    def test_connection_error_retry(self) -> None:
-        collector = HackerNewsCollector()
-        with patch("collectors.hackernews_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                requests.exceptions.ConnectionError("connection error"),
-                _mock_json_response([1]),
-            ]
-
-            result = collector._fetch_with_retry(
-                "https://hacker-news.firebaseio.com/v0/topstories.json"
-            )
-
-            assert isinstance(result, list)
-            assert result == [1]
-            assert mock_get.call_count == 2
-
-
-class TestStackExchangeCollectorRetry:
-    def test_retry_on_timeout(self) -> None:
-        collector = StackExchangeCollector(api_key="test")
-        with patch("collectors.stackexchange_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                requests.exceptions.Timeout("timeout"),
-                requests.exceptions.Timeout("timeout"),
-                _mock_json_response({"items": [{"question_id": 1, "title": "Q1"}]}),
-            ]
-
-            result = collector._fetch_with_retry("https://api.stackexchange.com/2.3/questions")
-
-            assert isinstance(result, dict)
-            assert "items" in result
-            assert mock_get.call_count == 3
-
-    def test_retry_on_5xx(self) -> None:
-        collector = StackExchangeCollector(api_key="test")
-        with patch("collectors.stackexchange_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                _http_500_error(),
-                _http_500_error(),
-                _mock_json_response({"items": [{"question_id": 1, "title": "Q1"}]}),
-            ]
-
-            result = collector._fetch_with_retry("https://api.stackexchange.com/2.3/questions")
-
-            assert isinstance(result, dict)
-            assert result["items"][0]["question_id"] == 1
-            assert mock_get.call_count == 3
-
-    def test_max_retries_exceeded(self) -> None:
-        collector = StackExchangeCollector(api_key="test")
-        with patch("collectors.stackexchange_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                requests.exceptions.Timeout("timeout"),
-                requests.exceptions.Timeout("timeout"),
-                requests.exceptions.Timeout("timeout"),
-            ]
-
-            with pytest.raises(RetryError):
-                _ = collector._fetch_with_retry("https://api.stackexchange.com/2.3/questions")
-
-            assert mock_get.call_count == 3
-
-    def test_connection_error_retry(self) -> None:
-        collector = StackExchangeCollector(api_key="test")
-        with patch("collectors.stackexchange_collector.requests.get") as mock_get:
-            mock_get.side_effect = [
-                requests.exceptions.ConnectionError("connection error"),
-                _mock_json_response({"items": []}),
-            ]
-
-            result = collector._fetch_with_retry("https://api.stackexchange.com/2.3/questions")
-
-            assert isinstance(result, dict)
-            assert result["items"] == []
-            assert mock_get.call_count == 2
+        assert elapsed >= 0.6
