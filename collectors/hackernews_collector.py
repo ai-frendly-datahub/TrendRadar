@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """HackerNews Top Stories Collector."""
 
 from __future__ import annotations
@@ -7,6 +6,7 @@ from typing import Any, ClassVar
 
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
+
 from trendradar.models import ContentItem
 
 

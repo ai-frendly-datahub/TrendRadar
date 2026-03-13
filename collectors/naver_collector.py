@@ -1,13 +1,12 @@
-# -*- coding: utf-8 -*-
 """네이버 데이터랩 통합 검색어 트렌드 API Collector."""
 
 from __future__ import annotations
-from typing import Optional
 
 import json
 from datetime import datetime
 
 import requests
+
 from trendradar.models import TrendPoint
 
 
@@ -19,7 +18,7 @@ class NaverDataLabCollector:
 
     API_URL = "https://openapi.naver.com/v1/datalab/search"
 
-    def __init__(self, client_id: Optional[str] = None, client_secret: Optional[str] = None):
+    def __init__(self, client_id: str | None = None, client_secret: str | None = None):
         """
         Args:
             client_id: 네이버 API Client ID
@@ -45,8 +44,8 @@ class NaverDataLabCollector:
         start_date: str,
         end_date: str,
         time_unit: str = "date",
-        device: Optional[str] = None,
-        gender: Optional[str] = None,
+        device: str | None = None,
+        gender: str | None = None,
         ages: list[str] | None = None,
     ) -> dict[str, list[TrendPoint]]:
         """네이버 데이터랩에서 트렌드 데이터를 수집합니다.

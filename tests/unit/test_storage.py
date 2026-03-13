@@ -8,6 +8,7 @@ import pytest
 from storage.trend_store import get_keywords_by_set, query_trend_points, save_trend_points
 from trendradar.models import TrendPoint
 
+
 pytestmark = pytest.mark.unit
 
 
@@ -77,7 +78,7 @@ class TestSaveTrendPoints:
             timestamp=datetime(2024, 1, 1, 0, 0, 0),
             value=10.0,
         )
-        setattr(invalid_point, "timestamp", "bad-ts")
+        invalid_point.timestamp = "bad-ts"
         points = [invalid_point]
 
         inserted = save_trend_points("google", "ai", points, db_path=db_path)

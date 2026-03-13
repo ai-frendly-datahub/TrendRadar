@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 from difflib import SequenceMatcher
-from typing import Any, Optional
+from typing import Any
 from urllib.parse import urlparse
 
 
@@ -112,7 +112,7 @@ def validate_article(article: Any) -> tuple[bool, list[str]]:
     return len(errors) == 0, errors
 
 
-def validate_score(score: Optional[float]) -> bool:
+def validate_score(score: float | None) -> bool:
     if score is None:
         return True
     return score >= 0.0

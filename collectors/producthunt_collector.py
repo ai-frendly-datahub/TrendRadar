@@ -1,13 +1,13 @@
-# -*- coding: utf-8 -*-
 """Product Hunt New Products Collector."""
 
 from __future__ import annotations
 
 import os
-from typing import Optional, Any, ClassVar
+from typing import Any, ClassVar
 
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
+
 from trendradar.models import ContentItem
 
 
@@ -22,12 +22,12 @@ class ProductHuntCollector:
     API_BASE_URL: ClassVar[str] = "https://api.producthunt.com/v2/api/graphql"
     TIMEOUT: ClassVar[int] = 30
 
-    def __init__(self, api_key: Optional[str] = None) -> None:
+    def __init__(self, api_key: str | None = None) -> None:
         """
         Args:
             api_key: Product Hunt API Key (기본값: PRODUCT_HUNT_API_KEY 환경변수)
         """
-        self.api_key: Optional[str] = api_key or os.environ.get("PRODUCT_HUNT_API_KEY")
+        self.api_key: str | None = api_key or os.environ.get("PRODUCT_HUNT_API_KEY")
 
     @retry(
         stop=stop_after_attempt(3),

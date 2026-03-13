@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
 """YouTube Trending Videos Collector."""
 
 from __future__ import annotations
 
-from typing import Optional, Any
+from typing import Any
 
 import requests
+
 from trendradar.models import ContentItem
 
 
@@ -20,7 +20,7 @@ class YouTubeTrendingCollector:
         "User-Agent": "Mozilla/5.0 (compatible; TrendRadarBot/1.0; +https://github.com/zzragida/ai-frendly-datahub)",
     }
 
-    def __init__(self, api_key: Optional[str] = None):
+    def __init__(self, api_key: str | None = None):
         """
         Args:
             api_key: YouTube Data API v3 키
@@ -37,7 +37,7 @@ class YouTubeTrendingCollector:
     def collect_trending_videos(
         self,
         region_code: str = "KR",
-        category_id: Optional[str] = None,
+        category_id: str | None = None,
         max_results: int = 50,
     ) -> list[ContentItem]:
         """인기 급상승 영상을 수집합니다.

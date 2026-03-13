@@ -1,13 +1,12 @@
-# -*- coding: utf-8 -*-
 """Threads Trending Topics Collector (Meta Threads API)."""
 
 from __future__ import annotations
-from typing import Optional
 
 import os
 
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
+
 from trendradar.models import ContentItem
 
 
@@ -23,7 +22,7 @@ class ThreadsCollector:
     API_BASE_URL = "https://graph.threads.net/v1.0"
     USER_AGENT = "TrendRadar/0.1.0 (Trend Analysis Bot)"
 
-    def __init__(self, access_token: Optional[str] = None):
+    def __init__(self, access_token: str | None = None):
         """
         Args:
             access_token: Meta Threads API Access Token

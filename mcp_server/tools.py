@@ -10,6 +10,7 @@ from analyzers.spike_detector import SpikeDetector, SpikeSignal
 from nl_query import parse_query
 from storage.search_index import SearchIndex, SearchResult
 
+
 _ALLOWED_SQL = re.compile(r"^\s*(SELECT|WITH|EXPLAIN)\b", re.IGNORECASE)
 _SPIKE_LABELS = {
     "surge": "sudden_spike",
@@ -74,7 +75,9 @@ def handle_recent_updates(*, db_path: Path, days: int = 7, limit: int = 20) -> s
         value = float(row[2])
         ts = str(row[3])
         created_at = str(row[4])
-        lines.append(f"- {keyword} | {source} | value={value} | ts={ts} | collected_at={created_at}")
+        lines.append(
+            f"- {keyword} | {source} | value={value} | ts={ts} | collected_at={created_at}"
+        )
     return "\n".join(lines)
 
 
@@ -120,7 +123,9 @@ def handle_price_watch() -> str:
     return "Not available in TrendRadar"
 
 
-def _filter_results_by_days(*, db_path: Path, results: list[SearchResult], days: int) -> list[SearchResult]:
+def _filter_results_by_days(
+    *, db_path: Path, results: list[SearchResult], days: int
+) -> list[SearchResult]:
     if not results:
         return []
     if not db_path.exists():
@@ -161,7 +166,9 @@ def _format_rows(columns: list[str], rows: list[tuple[object, ...]]) -> str:
 
     header = " | ".join(column.ljust(widths[idx]) for idx, column in enumerate(columns))
     divider = "-+-".join("-" * widths[idx] for idx in range(len(columns)))
-    body = [" | ".join(value.ljust(widths[idx]) for idx, value in enumerate(row)) for row in text_rows]
+    body = [
+        " | ".join(value.ljust(widths[idx]) for idx, value in enumerate(row)) for row in text_rows
+    ]
     return "\n".join([header, divider, *body])
 
 

@@ -1,7 +1,7 @@
-# -*- coding: utf-8 -*-
 """YouTube Trending Collector 사용 예시."""
 
 import os
+
 from collectors.youtube_collector import YouTubeTrendingCollector
 
 
@@ -24,7 +24,7 @@ def main():
     music_videos = collector.collect_trending_videos(
         region_code="KR",
         category_id="10",  # Music
-        max_results=10
+        max_results=10,
     )
 
     for i, video in enumerate(music_videos, 1):
@@ -39,10 +39,7 @@ def main():
     print("\n\n🔥 한국 전체 인기 영상 Top 10")
     print("=" * 60)
 
-    all_videos = collector.collect_trending_videos(
-        region_code="KR",
-        max_results=10
-    )
+    all_videos = collector.collect_trending_videos(region_code="KR", max_results=10)
 
     for i, video in enumerate(all_videos, 1):
         print(f"{i}. {video['title'][:60]}")
@@ -52,10 +49,7 @@ def main():
     print("\n\n🏷️  트렌딩 키워드 Top 20")
     print("=" * 60)
 
-    keywords = collector.collect_trending_keywords(
-        region_code="KR",
-        max_results=50
-    )
+    keywords = collector.collect_trending_keywords(region_code="KR", max_results=50)
 
     for i, (keyword, count) in enumerate(list(keywords.items())[:20], 1):
         print(f"{i:2d}. {keyword[:30]:30s} - {count:3d}회")

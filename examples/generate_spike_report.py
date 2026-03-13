@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """급상승 키워드 리포트 생성 예시."""
 
 from datetime import datetime
@@ -51,6 +50,7 @@ def main():
     except Exception as e:
         print(f"❌ 리포트 생성 실패: {e}")
         import traceback
+
         traceback.print_exc()
 
 

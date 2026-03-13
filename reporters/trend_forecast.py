@@ -4,8 +4,8 @@ import importlib
 import logging
 import warnings
 from collections.abc import Sequence
-from datetime import date, datetime, timedelta, timezone
-from typing import Optional, Protocol, TypedDict, cast
+from datetime import UTC, date, datetime, timedelta
+from typing import Protocol, TypedDict, cast
 
 from trendradar.models import TrendPoint
 
@@ -81,9 +81,9 @@ MIN_HISTORY_DAYS = 14
 ARIMA_ORDER = (5, 1, 0)
 WEEKLY_SIGNAL_THRESHOLD = 0.35
 
-ARIMAModel: Optional[_ArimaFactoryLike] = None
-ProphetModel: Optional[_ProphetFactoryLike] = None
-PandasModule: Optional[_PandasLike] = None
+ARIMAModel: _ArimaFactoryLike | None = None
+ProphetModel: _ProphetFactoryLike | None = None
+PandasModule: _PandasLike | None = None
 
 _arima_lookup_done = False
 _prophet_lookup_done = False
@@ -116,9 +116,9 @@ def forecast_keyword_trends(
             continue
 
         selected_model = _select_forecast_model(history_dates, history_counts)
-        forecast_result: Optional[
-            tuple[list[float], list[float], list[float], list[float], list[float]]
-        ]
+        forecast_result: (
+            tuple[list[float], list[float], list[float], list[float], list[float]] | None
+        )
         forecast_result = None
         model_used = selected_model
 
@@ -165,7 +165,7 @@ def forecast_keyword_trends(
     return forecasts
 
 
-def _load_arima_model() -> Optional[_ArimaFactoryLike]:
+def _load_arima_model() -> _ArimaFactoryLike | None:
     global ARIMAModel, _arima_lookup_done
     if _arima_lookup_done:
         return ARIMAModel
@@ -184,7 +184,7 @@ def _load_arima_model() -> Optional[_ArimaFactoryLike]:
     return ARIMAModel
 
 
-def _load_prophet_model() -> Optional[_ProphetFactoryLike]:
+def _load_prophet_model() -> _ProphetFactoryLike | None:
     global ProphetModel, _prophet_lookup_done
     if _prophet_lookup_done:
         return ProphetModel
@@ -203,7 +203,7 @@ def _load_prophet_model() -> Optional[_ProphetFactoryLike]:
     return ProphetModel
 
 
-def _load_pandas_module() -> Optional[_PandasLike]:
+def _load_pandas_module() -> _PandasLike | None:
     global PandasModule, _pandas_lookup_done
     if _pandas_lookup_done:
         return PandasModule
@@ -239,7 +239,7 @@ def _aggregate_daily_keyword_counts(
 def _to_utc_date(timestamp: datetime) -> date:
     if timestamp.tzinfo is None:
         return timestamp.date()
-    return timestamp.astimezone(timezone.utc).date()
+    return timestamp.astimezone(UTC).date()
 
 
 def _build_dense_daily_series(daily_counts: dict[date, float]) -> tuple[list[date], list[float]]:
@@ -303,7 +303,7 @@ def _to_float_list(frame: _FrameLike, column: str) -> list[float]:
 
 def _forecast_with_arima(
     history_counts: list[float],
-) -> Optional[tuple[list[float], list[float], list[float], list[float], list[float]]]:
+) -> tuple[list[float], list[float], list[float], list[float], list[float]] | None:
     arima_factory = _load_arima_model()
     if arima_factory is None:
         logger.warning("statsmodels is not available. ARIMA forecast skipped.")
@@ -334,7 +334,7 @@ def _forecast_with_arima(
 def _forecast_with_prophet(
     history_dates: list[date],
     history_counts: list[float],
-) -> Optional[tuple[list[float], list[float], list[float], list[float], list[float]]]:
+) -> tuple[list[float], list[float], list[float], list[float], list[float]] | None:
     prophet_factory = _load_prophet_model()
     pandas_module = _load_pandas_module()
     if prophet_factory is None or pandas_module is None:

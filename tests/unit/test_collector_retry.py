@@ -11,6 +11,7 @@ from collectors.devto_collector import DevtoCollector
 from collectors.hackernews_collector import HackerNewsCollector
 from collectors.stackexchange_collector import StackExchangeCollector
 
+
 pytestmark = pytest.mark.unit
 
 

@@ -1,10 +1,10 @@
 from __future__ import annotations
-from typing import Optional
 
 import sys
 from pathlib import Path
 
 import pytest
+
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
@@ -119,7 +119,7 @@ def test_validate_article_invalid_cases(article: dict[str, str]) -> None:
         (-0.0001, False),
     ],
 )
-def test_validate_score(score: Optional[float], expected: bool) -> None:
+def test_validate_score(score: float | None, expected: bool) -> None:
     assert validate_score(score) is expected
 
 

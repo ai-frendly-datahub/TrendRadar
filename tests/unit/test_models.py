@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from collections.abc import Mapping
-from datetime import datetime, timezone
-from typing import Optional, Callable, cast
+from collections.abc import Callable, Mapping
+from datetime import UTC, datetime
+from typing import cast
 
 import pytest
 
@@ -15,16 +15,17 @@ from trendradar.models import (
     TrendRadarSettings,
 )
 
-_coerce_datetime = cast(Callable[[object], datetime], getattr(models, "_coerce_datetime"))
+
+_coerce_datetime = cast(Callable[[object], datetime], models._coerce_datetime)
 _coerce_optional_datetime = cast(
-    Callable[[object], Optional[datetime]], getattr(models, "_coerce_optional_datetime")
+    Callable[[object], datetime | None], models._coerce_optional_datetime
 )
-_coerce_float = cast(Callable[..., float], getattr(models, "_coerce_float"))
-_coerce_bool = cast(Callable[..., bool], getattr(models, "_coerce_bool"))
-_coerce_list_of_str = cast(Callable[[object], list[str]], getattr(models, "_coerce_list_of_str"))
-_coerce_dict = cast(Callable[[object], dict[str, object]], getattr(models, "_coerce_dict"))
+_coerce_float = cast(Callable[..., float], models._coerce_float)
+_coerce_bool = cast(Callable[..., bool], models._coerce_bool)
+_coerce_list_of_str = cast(Callable[[object], list[str]], models._coerce_list_of_str)
+_coerce_dict = cast(Callable[[object], dict[str, object]], models._coerce_dict)
 _coerce_metadata = cast(
-    Callable[[Mapping[str, object]], dict[str, object]], getattr(models, "_coerce_metadata")
+    Callable[[Mapping[str, object]], dict[str, object]], models._coerce_metadata
 )
 
 pytestmark = pytest.mark.unit
@@ -46,7 +47,7 @@ class TestCoerceDatetime:
     def test_iso_string_with_z_suffix(self) -> None:
         result = _coerce_datetime("2024-01-15T10:30:00Z")
 
-        assert result == datetime(2024, 1, 15, 10, 30, 0, tzinfo=timezone.utc)
+        assert result == datetime(2024, 1, 15, 10, 30, 0, tzinfo=UTC)
 
     def test_invalid_string_returns_now_approximately(self) -> None:
         before = datetime.now()

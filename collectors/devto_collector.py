@@ -1,12 +1,12 @@
-# -*- coding: utf-8 -*-
 """Dev.to Articles Collector."""
 
 from __future__ import annotations
 
-from typing import Optional, Any, ClassVar
+from typing import Any, ClassVar
 
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
+
 from trendradar.models import ContentItem
 
 
@@ -43,7 +43,7 @@ class DevtoCollector:
             raise RuntimeError("Expected list response from Dev.to API")
         return result
 
-    def collect(self, limit: int = 30, tag: Optional[str] = None) -> list[ContentItem]:
+    def collect(self, limit: int = 30, tag: str | None = None) -> list[ContentItem]:
         """Dev.to 인기 기술 글을 수집합니다.
 
         Args:

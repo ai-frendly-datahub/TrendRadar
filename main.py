@@ -1,35 +1,33 @@
-# -*- coding: utf-8 -*-
 """TrendRadar 메인 실행 스크립트."""
 
 from __future__ import annotations
-from typing import Optional
 
 import argparse
 import os
 import time
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import yaml
 
+from analyzers.spike_detector import SpikeDetector
+from collectors.devto_collector import DevtoCollector
 from collectors.google_collector import GoogleTrendsCollector
 from collectors.google_trending_collector import GoogleTrendingCollector
+from collectors.hackernews_collector import HackerNewsCollector
 from collectors.naver_collector import NaverDataLabCollector
 from collectors.naver_shopping_collector import NaverShoppingCollector
+from collectors.producthunt_collector import ProductHuntCollector
 from collectors.reddit_collector import RedditCollector
+from collectors.stackexchange_collector import StackExchangeCollector
 from collectors.wikipedia_collector import WikipediaPageviewsCollector
 from collectors.youtube_collector import YouTubeTrendingCollector
-from collectors.hackernews_collector import HackerNewsCollector
-from collectors.devto_collector import DevtoCollector
-from collectors.stackexchange_collector import StackExchangeCollector
-from collectors.producthunt_collector import ProductHuntCollector
-from storage import trend_store
-from reporters.html_reporter import generate_daily_report
-from analyzers.spike_detector import SpikeDetector
 from config_loader import load_notification_config
 from notifier import Notifier, PipelineNotifier, detect_trend_notifications
 from raw_logger import RawLogger
+from reporters.html_reporter import generate_daily_report
 from reporters.spike_reporter import generate_spike_report
+from storage import trend_store
 from storage.search_index import SearchIndex
 from trendradar.common.validators import validate_keyword, validate_score
 from trendradar.models import (
@@ -39,6 +37,7 @@ from trendradar.models import (
     TrendPoint,
     TrendRadarSettings,
 )
+
 
 CONFIG_ENV_VAR = "TRENDRADAR_CONFIG_PATH"
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -146,7 +145,7 @@ def _sync_keyword_to_search_index(
     search_index.upsert(keyword=keyword, platform=source, context=" | ".join(context_parts))
 
 
-def load_keyword_sets_config(path: Optional[Path] = None) -> list[KeywordSet]:
+def load_keyword_sets_config(path: Path | None = None) -> list[KeywordSet]:
     """keyword_sets.yaml 로드."""
     config_path = Path(path or os.environ.get(CONFIG_ENV_VAR, DEFAULT_CONFIG_PATH))
     with config_path.open(encoding="utf-8") as fp:
@@ -165,10 +164,10 @@ def load_keyword_sets_config(path: Optional[Path] = None) -> list[KeywordSet]:
 def collect_trends(
     keyword_set: KeywordSet,
     *,
-    db_path: Optional[Path] = None,
-    source_filter: Optional[str] = None,
-    raw_logger: Optional[RawLogger] = None,
-    search_index: Optional[SearchIndex] = None,
+    db_path: Path | None = None,
+    source_filter: str | None = None,
+    raw_logger: RawLogger | None = None,
+    search_index: SearchIndex | None = None,
 ) -> tuple[int, int, list[str]]:
     """Collect trend data from configured sources and persist them."""
     total_points = 0
@@ -179,8 +178,8 @@ def collect_trends(
     channels = keyword_set.channels or ["naver", "google"]
     time_range = keyword_set.time_range
     filters = keyword_set.filters
-    start_date = time_range.get("start") or str(datetime.now(timezone.utc).date())
-    end_date = time_range.get("end") or str(datetime.now(timezone.utc).date())
+    start_date = time_range.get("start") or str(datetime.now(UTC).date())
+    end_date = time_range.get("end") or str(datetime.now(UTC).date())
 
     # Naver DataLab
     if "naver" in channels and (source_filter is None or source_filter == "naver"):
@@ -449,7 +448,7 @@ def collect_trends(
                     TrendPoint(
                         keyword=keyword,
                         source="reddit",
-                        timestamp=datetime.now(timezone.utc),
+                        timestamp=datetime.now(UTC),
                         value=float(count),
                     )
                 ]
@@ -518,7 +517,7 @@ def collect_trends(
                     TrendPoint(
                         keyword=keyword,
                         source="youtube",
-                        timestamp=datetime.now(timezone.utc),
+                        timestamp=datetime.now(UTC),
                         value=float(count),
                     )
                 ]
@@ -786,16 +785,16 @@ def collect_trends(
 def run_once(
     execute_collectors: bool = False,
     *,
-    config_path: Optional[Path] = None,
-    db_path: Optional[Path] = None,
+    config_path: Path | None = None,
+    db_path: Path | None = None,
     generate_report: bool = False,
-    report_output_dir: Optional[Path] = None,
-    source_filter: Optional[str] = None,
-    notifier: Optional[Notifier] = None,
+    report_output_dir: Path | None = None,
+    source_filter: str | None = None,
+    notifier: Notifier | None = None,
 ) -> None:
     """트렌드 수집을 한 번 실행합니다."""
     start_time = time.time()
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
 
     print(f"[{now.isoformat()}] TrendRadar run_once 시작")
 
@@ -903,7 +902,7 @@ def run_once(
 
             report_dir = report_output_dir or DEFAULT_REPORT_DIR
             generate_index_page(report_dir)
-            print(f"  ✓ 인덱스 페이지 생성 완료")
+            print("  ✓ 인덱스 페이지 생성 완료")
         except Exception as e:
             print(f"  ✗ 인덱스 페이지 생성 실패: {e}")
 
@@ -919,9 +918,9 @@ def run_once(
 def run_scheduler(
     interval_hours: int = 24,
     *,
-    config_path: Optional[Path] = None,
-    db_path: Optional[Path] = None,
-    notifier: Optional[Notifier] = None,
+    config_path: Path | None = None,
+    db_path: Path | None = None,
+    notifier: Notifier | None = None,
 ) -> None:
     """정기적으로 트렌드 데이터를 수집하는 스케줄러.
 
@@ -931,7 +930,7 @@ def run_scheduler(
         db_path: DuckDB 파일 경로
     """
     print(f"TrendRadar 스케줄러 시작 (수집 간격: {interval_hours}시간)")
-    print(f"중단하려면 Ctrl+C를 누르세요")
+    print("중단하려면 Ctrl+C를 누르세요")
 
     while True:
         try:
@@ -950,7 +949,7 @@ def run_scheduler(
             break
         except Exception as e:
             print(f"오류 발생: {e}")
-            print(f"10분 후 재시도...")
+            print("10분 후 재시도...")
             time.sleep(600)  # 10분 대기 후 재시도
 
 

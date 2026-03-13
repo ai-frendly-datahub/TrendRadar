@@ -1,11 +1,11 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
-from pathlib import Path
 import sys
-from typing import Optional
+from datetime import UTC, datetime, timedelta
+from pathlib import Path
 
 import pytest
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 if str(PROJECT_ROOT) not in sys.path:
@@ -20,7 +20,7 @@ pytestmark = pytest.mark.unit
 
 def _build_points(keyword: str, days: int, daily_count: int) -> list[TrendPoint]:
     points: list[TrendPoint] = []
-    start = datetime(2026, 1, 1, tzinfo=timezone.utc)
+    start = datetime(2026, 1, 1, tzinfo=UTC)
 
     for day_offset in range(days):
         base_time = start + timedelta(days=day_offset)
@@ -103,7 +103,7 @@ def test_forecast_keyword_trends_handles_model_failures(monkeypatch: pytest.Monk
 
     def failing_arima(
         _: list[float],
-    ) -> Optional[tuple[list[float], list[float], list[float], list[float], list[float]]]:
+    ) -> tuple[list[float], list[float], list[float], list[float], list[float]] | None:
         return None
 
     monkeypatch.setattr(trend_forecast, "_forecast_with_arima", failing_arima)

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import math
-from datetime import timezone
+from datetime import UTC
 from itertools import combinations
 from typing import Any
 
@@ -58,7 +58,7 @@ def _build_keyword_frames(trend_points: list[TrendPoint]) -> dict[str, Any]:
     for point in trend_points:
         timestamp = point.timestamp
         if timestamp.tzinfo is not None:
-            timestamp = timestamp.astimezone(timezone.utc)
+            timestamp = timestamp.astimezone(UTC)
 
         records.append(
             {

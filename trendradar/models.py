@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+
 """TrendRadar 도메인 모델.
 
 트렌드 수집, 분석, 설정에 사용되는 데이터 클래스를 정의합니다.
@@ -9,9 +10,7 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass, field
 from datetime import datetime
-from typing import Optional, Any
-
-from typing_extensions import Self
+from typing import Any, Self
 
 
 def _coerce_datetime(value: Any) -> datetime:
@@ -29,7 +28,7 @@ def _coerce_datetime(value: Any) -> datetime:
     return datetime.now()
 
 
-def _coerce_optional_datetime(value: Any) -> Optional[datetime]:
+def _coerce_optional_datetime(value: Any) -> datetime | None:
     if value is None:
         return None
     if isinstance(value, str) and not value.strip():
@@ -181,7 +180,7 @@ class ContentItem:
     source: str
     author: str = ""
     score: float = 0.0
-    timestamp: Optional[datetime] = None
+    timestamp: datetime | None = None
     metadata: dict[str, Any] = field(default_factory=dict)
 
     @classmethod

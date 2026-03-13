@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from abc import ABC, abstractmethod
 import threading
-from typing import Optional, Any
+from abc import ABC, abstractmethod
+from typing import Any
 from urllib.parse import urlparse
 
 import requests
@@ -36,10 +36,10 @@ class BaseCollector(ABC):
             source=self.source_name,
         )
 
-    def _fetch_html(self, url: str) -> Optional[str]:
+    def _fetch_html(self, url: str) -> str | None:
         breaker = self.breaker_manager.get_breaker(self.source_name)
 
-        def _fetch_html_impl() -> Optional[str]:
+        def _fetch_html_impl() -> str | None:
             response = requests.get(url, timeout=self.timeout)
             response.raise_for_status()
             response.encoding = response.apparent_encoding or "utf-8"
@@ -95,5 +95,5 @@ def install_requests_circuit_breaker() -> None:
         if _patched:
             return
 
-        setattr(requests.sessions.Session, "request", _session_request_with_circuit_breaker)
+        requests.sessions.Session.request = _session_request_with_circuit_breaker
         _patched = True

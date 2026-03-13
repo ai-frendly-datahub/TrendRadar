@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """리포트 인덱스 페이지 생성 모듈."""
 
 from __future__ import annotations
@@ -226,7 +225,7 @@ def generate_index_page(reports_dir: Path) -> None:
 
             if "trend" in reports:
                 html_content += f"""
-                <a href="{reports['trend']}" class="report-link trend">
+                <a href="{reports["trend"]}" class="report-link trend">
                     <span class="icon">📈</span>
                     <span>일일 트렌드 리포트</span>
                 </a>
@@ -234,7 +233,7 @@ def generate_index_page(reports_dir: Path) -> None:
 
             if "spike" in reports:
                 html_content += f"""
-                <a href="{reports['spike']}" class="report-link spike">
+                <a href="{reports["spike"]}" class="report-link spike">
                     <span class="icon">🔥</span>
                     <span>급상승 키워드 리포트</span>
                 </a>
