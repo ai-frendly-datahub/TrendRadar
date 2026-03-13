@@ -33,7 +33,7 @@ pytestmark = pytest.mark.unit
 
 class TestCoerceDatetime:
     def test_datetime_instance_passthrough(self) -> None:
-        value = datetime(2024, 1, 15, 10, 30, 0)
+        value = datetime(2024, 1, 15, 10, 30, 0, tzinfo=UTC)
 
         result = _coerce_datetime(value)
 
@@ -42,7 +42,7 @@ class TestCoerceDatetime:
     def test_iso_8601_string(self) -> None:
         result = _coerce_datetime("2024-01-15T10:30:00")
 
-        assert result == datetime(2024, 1, 15, 10, 30, 0)
+        assert result == datetime(2024, 1, 15, 10, 30, 0, tzinfo=UTC)
 
     def test_iso_string_with_z_suffix(self) -> None:
         result = _coerce_datetime("2024-01-15T10:30:00Z")
@@ -50,23 +50,23 @@ class TestCoerceDatetime:
         assert result == datetime(2024, 1, 15, 10, 30, 0, tzinfo=UTC)
 
     def test_invalid_string_returns_now_approximately(self) -> None:
-        before = datetime.now()
+        before = datetime.now(tz=UTC)
         result = _coerce_datetime("not-a-date")
-        after = datetime.now()
+        after = datetime.now(tz=UTC)
 
         assert before <= result <= after
 
     def test_none_returns_now_approximately(self) -> None:
-        before = datetime.now()
+        before = datetime.now(tz=UTC)
         result = _coerce_datetime(None)
-        after = datetime.now()
+        after = datetime.now(tz=UTC)
 
         assert before <= result <= after
 
     def test_empty_string_returns_now_approximately(self) -> None:
-        before = datetime.now()
+        before = datetime.now(tz=UTC)
         result = _coerce_datetime("   ")
-        after = datetime.now()
+        after = datetime.now(tz=UTC)
 
         assert before <= result <= after
 
@@ -81,7 +81,7 @@ class TestCoerceOptionalDatetime:
     def test_valid_string_returns_datetime(self) -> None:
         result = _coerce_optional_datetime("2024-01-15T10:30:00")
 
-        assert result == datetime(2024, 1, 15, 10, 30, 0)
+        assert result == datetime(2024, 1, 15, 10, 30, 0, tzinfo=UTC)
 
 
 class TestCoerceFloat:
@@ -194,7 +194,7 @@ class TestTrendPoint:
 
         assert point.keyword == "ai"
         assert point.source == "google"
-        assert point.timestamp == datetime(2024, 1, 15, 10, 30, 0)
+        assert point.timestamp == datetime(2024, 1, 15, 10, 30, 0, tzinfo=UTC)
         assert point.value == 75.5
         assert point.metadata == {"set_name": "tech"}
 
@@ -208,7 +208,7 @@ class TestTrendPoint:
             }
         )
 
-        assert point.timestamp == datetime(2024, 2, 1, 0, 0, 0)
+        assert point.timestamp == datetime(2024, 2, 1, 0, 0, 0, tzinfo=UTC)
 
     def test_from_dict_with_date_alias(self) -> None:
         point = TrendPoint.from_dict(
@@ -220,7 +220,7 @@ class TestTrendPoint:
             }
         )
 
-        assert point.timestamp == datetime(2024, 3, 1, 0, 0, 0)
+        assert point.timestamp == datetime(2024, 3, 1, 0, 0, 0, tzinfo=UTC)
 
     def test_from_dict_with_value_normalized_alias(self) -> None:
         point = TrendPoint.from_dict(
@@ -274,9 +274,9 @@ class TestTrendPoint:
         assert point.metadata == {}
 
     def test_from_dict_empty_dict_uses_all_defaults(self) -> None:
-        before = datetime.now()
+        before = datetime.now(tz=UTC)
         point = TrendPoint.from_dict({})
-        after = datetime.now()
+        after = datetime.now(tz=UTC)
 
         assert point.keyword == ""
         assert point.source == ""
@@ -288,7 +288,7 @@ class TestTrendPoint:
         point = TrendPoint(
             keyword="ai",
             source="google",
-            timestamp=datetime(2024, 1, 1, 0, 0, 0),
+            timestamp=datetime(2024, 1, 1, 0, 0, 0, tzinfo=UTC),
             value=1.5,
             metadata={"foo": "bar"},
         )
@@ -296,7 +296,7 @@ class TestTrendPoint:
         assert point.keyword == "ai"
         assert point.source == "google"
         assert point.platform == "google"
-        assert point.timestamp == datetime(2024, 1, 1, 0, 0, 0)
+        assert point.timestamp == datetime(2024, 1, 1, 0, 0, 0, tzinfo=UTC)
         assert point.value == 1.5
         assert point.score == 1.5
         assert point.metadata == {"foo": "bar"}
@@ -382,7 +382,7 @@ class TestContentItem:
         assert item.source == "reddit"
         assert item.author == "alice"
         assert item.score == 88.2
-        assert item.timestamp == datetime(2024, 1, 15, 10, 30, 0)
+        assert item.timestamp == datetime(2024, 1, 15, 10, 30, 0, tzinfo=UTC)
         assert item.metadata == {"tag": "news"}
 
     def test_from_dict_with_published_at_alias(self) -> None:
@@ -395,7 +395,7 @@ class TestContentItem:
             }
         )
 
-        assert item.timestamp == datetime(2024, 2, 1, 0, 0, 0)
+        assert item.timestamp == datetime(2024, 2, 1, 0, 0, 0, tzinfo=UTC)
 
     def test_from_dict_with_timestamp_none(self) -> None:
         item = ContentItem.from_dict(
@@ -428,7 +428,7 @@ class TestTrendCollectionResult:
             TrendPoint(
                 keyword="ai",
                 source="google",
-                timestamp=datetime(2024, 1, 1, 0, 0, 0),
+                timestamp=datetime(2024, 1, 1, 0, 0, 0, tzinfo=UTC),
                 value=10.0,
             )
         ]
@@ -470,7 +470,7 @@ class TestTrendCollectionResult:
         existing = TrendPoint(
             keyword="ai",
             source="google",
-            timestamp=datetime(2024, 1, 1, 0, 0, 0),
+            timestamp=datetime(2024, 1, 1, 0, 0, 0, tzinfo=UTC),
             value=10.0,
         )
         result = TrendCollectionResult.from_dict(
@@ -492,7 +492,7 @@ class TestTrendCollectionResult:
 
         assert len(result.points) == 2
         assert result.points[0] is existing
-        assert result.points[1].timestamp == datetime(2024, 1, 2, 0, 0, 0)
+        assert result.points[1].timestamp == datetime(2024, 1, 2, 0, 0, 0, tzinfo=UTC)
 
     def test_from_dict_with_errors_list(self) -> None:
         result = TrendCollectionResult.from_dict(

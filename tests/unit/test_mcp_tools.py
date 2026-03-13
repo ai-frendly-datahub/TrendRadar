@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 import pytest
@@ -38,7 +38,7 @@ def test_handle_search_uses_search_index(tmp_path: Path):
 @pytest.mark.unit
 def test_handle_recent_updates_reads_duckdb(tmp_path: Path):
     db_path = tmp_path / "trend.duckdb"
-    now = datetime.now()
+    now = datetime.now(tz=UTC)
 
     _ = save_trend_points(
         source="google",
@@ -67,7 +67,7 @@ def test_handle_sql_blocks_non_select(tmp_path: Path):
 @pytest.mark.unit
 def test_handle_top_trends_returns_spike_keywords(tmp_path: Path):
     db_path = tmp_path / "trend.duckdb"
-    now = datetime.now()
+    now = datetime.now(tz=UTC)
 
     baseline_points = [
         {"date": (now - timedelta(days=35 - i)).strftime("%Y-%m-%d"), "value": 10.0}

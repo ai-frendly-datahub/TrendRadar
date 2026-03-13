@@ -2,7 +2,7 @@
 
 import io
 import sys
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 
@@ -35,7 +35,7 @@ try:
 
     # 테스트 데이터 저장
     test_points = [
-        {"date": (datetime.now() - timedelta(days=i)).strftime("%Y-%m-%d"), "value": 50 + i * 5}
+        {"date": (datetime.now(tz=UTC) - timedelta(days=i)).strftime("%Y-%m-%d"), "value": 50 + i * 5}
         for i in range(40)
     ]
 
@@ -83,12 +83,12 @@ print("\n[4/5] Cross-Channel Analyzer 테스트...")
 try:
     # 다른 채널 데이터 추가
     test_points2 = [
-        {"date": (datetime.now() - timedelta(days=i)).strftime("%Y-%m-%d"), "value": 30 + i * 2}
+        {"date": (datetime.now(tz=UTC) - timedelta(days=i)).strftime("%Y-%m-%d"), "value": 30 + i * 2}
         for i in range(40)
     ]
 
     test_points3 = [
-        {"date": (datetime.now() - timedelta(days=i)).strftime("%Y-%m-%d"), "value": 70 + i * 3}
+        {"date": (datetime.now(tz=UTC) - timedelta(days=i)).strftime("%Y-%m-%d"), "value": 70 + i * 3}
         for i in range(40)
     ]
 
@@ -121,9 +121,9 @@ try:
     report_dir = Path("docs/reports")
     report_dir.mkdir(parents=True, exist_ok=True)
 
-    generate_spike_report(target_date=datetime.now().date(), db_path=test_db, output_dir=report_dir)
+    generate_spike_report(target_date=datetime.now(tz=UTC).date(), db_path=test_db, output_dir=report_dir)
 
-    report_file = report_dir / f"spike_{datetime.now().date().isoformat()}.html"
+    report_file = report_dir / f"spike_{datetime.now(tz=UTC).date().isoformat()}.html"
     if report_file.exists():
         print(f"✓ 급상승 리포트 생성 성공: {report_file}")
     else:

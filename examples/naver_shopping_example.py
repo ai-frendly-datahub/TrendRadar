@@ -1,7 +1,7 @@
 """네이버 쇼핑인사이트 Collector 사용 예시."""
 
 import os
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 
 from collectors.naver_shopping_collector import NaverShoppingCollector
 
@@ -31,7 +31,7 @@ def main():
     print("\n\n👗 패션의류 카테고리 트렌드 (최근 3개월)")
     print("=" * 60)
 
-    end_date = datetime.now()
+    end_date = datetime.now(tz=UTC)
     start_date = end_date - timedelta(days=90)
 
     fashion_trends = collector.collect_category_trends(
@@ -54,7 +54,7 @@ def main():
     print("\n\n🔍 패션의류 인기 검색어 (최근 1개월)")
     print("=" * 60)
 
-    end_date = datetime.now()
+    end_date = datetime.now(tz=UTC)
     start_date = end_date - timedelta(days=30)
 
     fashion_keywords = collector.collect_category_keywords(
@@ -74,7 +74,7 @@ def main():
     print("\n\n👩 여성 20-30대 모바일 패션 트렌드")
     print("=" * 60)
 
-    end_date = datetime.now()
+    end_date = datetime.now(tz=UTC)
     start_date = end_date - timedelta(days=60)
 
     target_trends = collector.collect_category_trends(
@@ -99,7 +99,7 @@ def main():
     print("\n\n💄 화장품/미용 카테고리 트렌드")
     print("=" * 60)
 
-    end_date = datetime.now()
+    end_date = datetime.now(tz=UTC)
     start_date = end_date - timedelta(days=30)
 
     beauty_trends = collector.collect_category_trends(

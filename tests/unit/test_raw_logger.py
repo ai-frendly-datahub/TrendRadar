@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from datetime import date
+from datetime import UTC, date, datetime
 
 import pytest
 
@@ -29,7 +29,7 @@ def test_raw_logger_writes_jsonl_records(tmp_path):
     output_path = logger.log(records, source_name="google")
 
     assert output_path.name == "google.jsonl"
-    assert output_path.parent.name == date.today().isoformat()
+    assert output_path.parent.name == datetime.now(tz=UTC).date().isoformat()
     assert output_path.parent.parent.name == "raw"
 
     lines = output_path.read_text(encoding="utf-8").splitlines()

@@ -6,7 +6,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any, Literal
 
@@ -80,7 +80,7 @@ class SpikeDetector:
         Returns:
             급상승 신호 리스트
         """
-        now = datetime.now()
+        now = datetime.now(tz=UTC)
         recent_start = now - timedelta(days=self.recent_days)
         baseline_start = now - timedelta(days=self.baseline_days + self.recent_days)
         baseline_end = recent_start
@@ -170,7 +170,7 @@ class SpikeDetector:
         Returns:
             신규 등장 신호 리스트
         """
-        now = datetime.now()
+        now = datetime.now(tz=UTC)
         recent_start = now - timedelta(days=self.recent_days)
         baseline_start = now - timedelta(days=self.baseline_days + self.recent_days)
         baseline_end = recent_start
@@ -251,7 +251,7 @@ class SpikeDetector:
         Returns:
             바이럴 신호 리스트
         """
-        now = datetime.now()
+        now = datetime.now(tz=UTC)
         start_date = now - timedelta(days=window_days * 2)
 
         points = trend_store.query_trend_points(

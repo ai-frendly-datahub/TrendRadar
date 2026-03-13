@@ -6,7 +6,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -77,7 +77,7 @@ class CrossChannelAnalyzer:
         Returns:
             채널 격차 리스트
         """
-        now = datetime.now()
+        now = datetime.now(tz=UTC)
         start_date = now - timedelta(days=days)
 
         # 두 채널 데이터 조회
@@ -171,7 +171,7 @@ class CrossChannelAnalyzer:
         Returns:
             독점 키워드 리스트
         """
-        now = datetime.now()
+        now = datetime.now(tz=UTC)
         start_date = now - timedelta(days=days)
 
         # 분석 채널 데이터
@@ -229,7 +229,7 @@ class CrossChannelAnalyzer:
         Returns:
             비교 결과 딕셔너리
         """
-        now = datetime.now()
+        now = datetime.now(tz=UTC)
         start_date = now - timedelta(days=days)
 
         channel_data = {}

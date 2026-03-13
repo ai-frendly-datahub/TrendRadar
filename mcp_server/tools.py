@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import re
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 import duckdb
@@ -47,7 +47,7 @@ def handle_recent_updates(*, db_path: Path, days: int = 7, limit: int = 20) -> s
     if limit <= 0:
         return "No recent updates found."
 
-    cutoff = datetime.now() - timedelta(days=days)
+    cutoff = datetime.now(tz=UTC) - timedelta(days=days)
     conn = duckdb.connect(str(db_path), read_only=True)
     try:
         rows = conn.execute(
@@ -131,7 +131,7 @@ def _filter_results_by_days(
     if not db_path.exists():
         return results
 
-    cutoff = datetime.now() - timedelta(days=days)
+    cutoff = datetime.now(tz=UTC) - timedelta(days=days)
     conn = duckdb.connect(str(db_path), read_only=True)
     try:
         filtered: list[SearchResult] = []
@@ -173,7 +173,7 @@ def _format_rows(columns: list[str], rows: list[tuple[object, ...]]) -> str:
 
 
 def _fallback_top_trends(*, db_path: Path, days: int, limit: int) -> str:
-    cutoff = datetime.now() - timedelta(days=days)
+    cutoff = datetime.now(tz=UTC) - timedelta(days=days)
     conn = duckdb.connect(str(db_path), read_only=True)
     try:
         rows = conn.execute(

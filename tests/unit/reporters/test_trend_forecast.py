@@ -11,8 +11,8 @@ PROJECT_ROOT = Path(__file__).resolve().parents[3]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from reporters import trend_forecast
-from trendradar.models import TrendPoint
+from reporters import trend_forecast  # noqa: E402
+from trendradar.models import TrendPoint  # noqa: E402
 
 
 pytestmark = pytest.mark.unit

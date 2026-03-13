@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import UTC, datetime
 from pathlib import Path
 
 
@@ -211,11 +211,11 @@ def generate_index_page(reports_dir: Path) -> None:
 
             # 날짜 포맷팅
             try:
-                date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+                date_obj = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=UTC)
                 formatted_date = date_obj.strftime("%Y년 %m월 %d일")
                 weekday = ["월", "화", "수", "목", "금", "토", "일"][date_obj.weekday()]
                 formatted_date += f" ({weekday})"
-            except:
+            except Exception:
                 formatted_date = date_str
 
             html_content += f"""

@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import os
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 
 import pytest
 
@@ -65,7 +65,7 @@ class TestNaverDataLabCollector:
             client_id=os.environ["NAVER_CLIENT_ID"], client_secret=os.environ["NAVER_CLIENT_SECRET"]
         )
 
-        end_date = datetime.now()
+        end_date = datetime.now(tz=UTC)
         start_date = end_date - timedelta(days=30)
 
         data = collector.collect(
@@ -203,7 +203,7 @@ class TestNaverShoppingCollector:
             client_id=os.environ["NAVER_CLIENT_ID"], client_secret=os.environ["NAVER_CLIENT_SECRET"]
         )
 
-        end_date = datetime.now()
+        end_date = datetime.now(tz=UTC)
         start_date = end_date - timedelta(days=30)
 
         trends = collector.collect_category_trends(

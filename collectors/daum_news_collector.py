@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import re
 import time
-from datetime import datetime
+from datetime import UTC, datetime
 
 import requests
 from bs4 import BeautifulSoup
@@ -169,7 +169,7 @@ class DaumNewsCollector:
                         "article_count": article_count,
                         "trend": trend,
                         "change": change,
-                        "collected_at": datetime.now().isoformat(),
+                        "collected_at": datetime.now(tz=UTC).isoformat(),
                     },
                 )
             )

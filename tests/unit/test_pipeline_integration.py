@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json
-from datetime import date
+from datetime import UTC, date, datetime
 from pathlib import Path
 
 import pytest
@@ -51,7 +51,7 @@ def test_collect_trends_logs_raw_and_syncs_search_index(
     assert sources_succeeded == 1
     assert errors == []
 
-    raw_file = tmp_path / "raw" / date.today().isoformat() / "google.jsonl"
+    raw_file = tmp_path / "raw" / datetime.now(tz=UTC).date().isoformat() / "google.jsonl"
     assert raw_file.exists()
     raw_lines = raw_file.read_text(encoding="utf-8").splitlines()
     assert len(raw_lines) == 2

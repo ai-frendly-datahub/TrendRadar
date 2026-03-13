@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from unittest.mock import patch
 
@@ -98,7 +98,7 @@ def test_detect_trend_notifications_detects_priority_and_types(tmp_path: Path) -
             )
             """
         )
-        today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        today = datetime.now(tz=UTC).replace(hour=0, minute=0, second=0, microsecond=0)
         yesterday = today - timedelta(days=1)
 
         conn.execute(

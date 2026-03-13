@@ -78,7 +78,7 @@ def test_daum_news_collector_parses_trend() -> None:
     soup = BeautifulSoup(html, "html.parser")
     item = soup.select_one("li")
 
-    collector = DaumNewsCollector()
+    _ = DaumNewsCollector()
 
     # 상승 추세 확인
     trend_elem = item.select_one("span.trend")

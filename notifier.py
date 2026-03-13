@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import smtplib
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import UTC, datetime
 from email.mime.text import MIMEText
 from pathlib import Path
 from typing import Any, Protocol
@@ -414,7 +414,7 @@ class PipelineNotifier:
             collected_count=0,
             matched_count=0,
             errors_count=0,
-            timestamp=datetime.now(),
+            timestamp=datetime.now(tz=UTC),
         )
         composite = CompositeNotifier(self._notifiers)
         return composite.send(payload)

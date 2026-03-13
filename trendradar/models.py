@@ -7,10 +7,10 @@ from __future__ import annotations
 향후 dict 기반 코드를 점진적으로 마이그레이션하기 위한 from_dict() 메서드를 포함합니다.
 """
 
-import json
-from dataclasses import dataclass, field
-from datetime import datetime
-from typing import Any, Self
+import json  # noqa: E402
+from dataclasses import dataclass, field  # noqa: E402
+from datetime import UTC, datetime  # noqa: E402
+from typing import Any, Self  # noqa: E402
 
 
 def _coerce_datetime(value: Any) -> datetime:
@@ -25,7 +25,7 @@ def _coerce_datetime(value: Any) -> datetime:
                 return datetime.fromisoformat(normalized)
             except ValueError:
                 pass
-    return datetime.now()
+    return datetime.now(tz=UTC)
 
 
 def _coerce_optional_datetime(value: Any) -> datetime | None:

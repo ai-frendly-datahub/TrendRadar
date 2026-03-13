@@ -6,7 +6,7 @@
 from __future__ import annotations
 
 import os
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 
 
 def test_google_trends():
@@ -62,7 +62,7 @@ def test_naver_datalab():
     try:
         collector = NaverDataLabCollector(client_id=client_id, client_secret=client_secret)
 
-        end_date = datetime.now()
+        end_date = datetime.now(tz=UTC)
         start_date = end_date - timedelta(days=30)
 
         print("📊 키워드: 파이썬, 자바스크립트")
@@ -210,7 +210,7 @@ def test_naver_shopping():
         for cat_id, cat_name in list(categories.items())[:5]:
             print(f"  • {cat_name} ({cat_id})")
 
-        end_date = datetime.now()
+        end_date = datetime.now(tz=UTC)
         start_date = end_date - timedelta(days=30)
 
         print(f"\n📅 기간: {start_date.date()} ~ {end_date.date()}")
