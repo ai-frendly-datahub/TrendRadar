@@ -100,5 +100,5 @@ def test_threads_collector_retries_on_failure(mock_get: MagicMock) -> None:
 
     collector = ThreadsCollector(access_token="test_token")
 
-    with pytest.raises(Exception):
+    with pytest.raises(Exception):  # noqa: B017
         collector.collect_trending_topics()

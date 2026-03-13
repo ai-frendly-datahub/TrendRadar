@@ -95,7 +95,7 @@ def test_daum_news_collector_retries_on_failure(mock_get: MagicMock) -> None:
 
     collector = DaumNewsCollector()
 
-    with pytest.raises(Exception):
+    with pytest.raises(Exception):  # noqa: B017
         collector._fetch_html("https://news.daum.net/search")
 
 

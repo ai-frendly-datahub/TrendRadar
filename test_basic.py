@@ -18,8 +18,8 @@ print("\n[1/5] Import 테스트...")
 try:
     from analyzers.cross_channel_analyzer import CrossChannelAnalyzer
     from analyzers.spike_detector import SpikeDetector
-    from collectors.google_collector import GoogleTrendsCollector
-    from collectors.naver_collector import NaverDataLabCollector
+    from collectors.google_collector import GoogleTrendsCollector  # noqa: F401
+    from collectors.naver_collector import NaverDataLabCollector  # noqa: F401
     from storage import trend_store
 
     print("✓ 모든 모듈 import 성공")

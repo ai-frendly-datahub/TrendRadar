@@ -71,7 +71,7 @@ class _ProphetFactoryLike(Protocol):
 class _PandasLike(Protocol):
     def to_datetime(self, values: Sequence[date]) -> object: ...
 
-    def DataFrame(self, data: dict[str, object]) -> object: ...
+    def DataFrame(self, data: dict[str, object]) -> object: ...  # noqa: N802
 
 
 logger = logging.getLogger(__name__)
