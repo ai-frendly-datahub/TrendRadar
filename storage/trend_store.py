@@ -8,8 +8,8 @@ from typing import cast
 
 import duckdb
 
-from .exceptions import StorageError
-from .models import Article
+from exceptions import StorageError
+from trendradar.models import Article
 
 
 def _utc_naive(dt: datetime | None) -> datetime | None:
