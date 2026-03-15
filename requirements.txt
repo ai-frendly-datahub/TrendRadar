@@ -26,5 +26,5 @@ mcp>=1.0.0
 # Retry logic
 tenacity>=8.2.0
 pybreaker>=1.0.0
-radar-core>=0.1.0
+radar-core>=0.2.0
 structlog>=23.2.0
