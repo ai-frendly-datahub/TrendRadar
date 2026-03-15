@@ -20,6 +20,7 @@ from collectors.naver_shopping_collector import NaverShoppingCollector
 from collectors.producthunt_collector import ProductHuntCollector
 from collectors.reddit_collector import RedditCollector
 from collectors.stackexchange_collector import StackExchangeCollector
+from collectors.browser_collector import BrowserCollector
 from collectors.wikipedia_collector import WikipediaPageviewsCollector
 from collectors.youtube_collector import YouTubeTrendingCollector
 from config_loader import load_notification_config
@@ -48,6 +49,62 @@ DEFAULT_RAW_DIR = PROJECT_ROOT / DEFAULT_SETTINGS.raw_data_dir
 DEFAULT_SEARCH_DB_PATH = PROJECT_ROOT / DEFAULT_SETTINGS.search_db_path
 DEFAULT_NOTIFICATION_CONFIG_PATH = PROJECT_ROOT / DEFAULT_SETTINGS.notification_config_path
 DEFAULT_DB_PATH = PROJECT_ROOT / DEFAULT_SETTINGS.database_path
+
+CORE_SOURCE_REQUIREMENTS: dict[str, tuple[str, ...]] = {
+    "naver": ("NAVER_CLIENT_ID", "NAVER_CLIENT_SECRET"),
+    "google": (),
+    "google_trending": (),
+    "wikipedia": (),
+    "reddit": ("REDDIT_CLIENT_ID", "REDDIT_CLIENT_SECRET"),
+    "youtube": ("YOUTUBE_API_KEY",),
+    "naver_shopping": ("NAVER_CLIENT_ID", "NAVER_CLIENT_SECRET"),
+}
+CORE_SOURCE_LABELS: dict[str, str] = {
+    "naver": "Naver DataLab",
+    "google": "Google Trends",
+    "google_trending": "Google Trending",
+    "wikipedia": "Wikipedia Pageviews",
+    "reddit": "Reddit Trending",
+    "youtube": "YouTube Trending",
+    "naver_shopping": "Naver Shopping",
+}
+TOTAL_CORE_SOURCES = len(CORE_SOURCE_REQUIREMENTS)
+
+
+def _missing_required_env_vars(env_vars: tuple[str, ...]) -> list[str]:
+    return [env_var for env_var in env_vars if not os.environ.get(env_var)]
+
+
+def get_core_source_availability() -> dict[str, tuple[bool, list[str]]]:
+    availability: dict[str, tuple[bool, list[str]]] = {}
+    for source_name, env_vars in CORE_SOURCE_REQUIREMENTS.items():
+        missing_env_vars = _missing_required_env_vars(env_vars)
+        availability[source_name] = (len(missing_env_vars) == 0, missing_env_vars)
+    return availability
+
+
+def _print_core_source_availability_report(
+    source_availability: dict[str, tuple[bool, list[str]]],
+) -> None:
+    print(f"  - 소스 준비 상태 (핵심 {TOTAL_CORE_SOURCES}개):")
+    for source_name in CORE_SOURCE_REQUIREMENTS:
+        source_label = CORE_SOURCE_LABELS.get(source_name, source_name)
+        is_available, missing_env_vars = source_availability[source_name]
+        if is_available:
+            print(f"    - {source_label}: ready")
+            continue
+
+        missing_vars_text = ", ".join(missing_env_vars)
+        print(f"    - {source_label}: skipped (missing env: {missing_vars_text})")
+
+
+def _is_source_available(
+    source_name: str,
+    source_availability: dict[str, tuple[bool, list[str]]] | None,
+) -> tuple[bool, list[str]]:
+    if source_availability is None:
+        return True, []
+    return source_availability.get(source_name, (True, []))
 
 
 def _filter_valid_points(
@@ -168,11 +225,17 @@ def collect_trends(
     source_filter: str | None = None,
     raw_logger: RawLogger | None = None,
     search_index: SearchIndex | None = None,
+    source_availability: dict[str, tuple[bool, list[str]]] | None = None,
+    successful_core_sources: set[str] | None = None,
 ) -> tuple[int, int, list[str]]:
     """Collect trend data from configured sources and persist them."""
     total_points = 0
     sources_succeeded = 0
     errors: list[str] = []
+
+    def mark_core_source_success(source_name: str) -> None:
+        if successful_core_sources is not None and source_name in CORE_SOURCE_REQUIREMENTS:
+            successful_core_sources.add(source_name)
 
     keywords = keyword_set.keywords
     channels = keyword_set.channels or ["naver", "google"]
@@ -183,122 +246,134 @@ def collect_trends(
 
     # Naver DataLab
     if "naver" in channels and (source_filter is None or source_filter == "naver"):
-        try:
-            naver_collector = NaverDataLabCollector(
-                client_id=os.environ.get("NAVER_CLIENT_ID"),
-                client_secret=os.environ.get("NAVER_CLIENT_SECRET"),
-            )
-
-            naver_data = naver_collector.collect(
-                keywords=keywords,
-                start_date=start_date,
-                end_date=end_date,
-                time_unit=filters.get("time_unit", "date"),
-                device=filters.get("device"),
-                gender=filters.get("gender"),
-                ages=filters.get("ages"),
-            )
-
-            naver_raw_records: list[dict[str, object]] = []
-            for keyword, points in naver_data.items():
-                valid_points = _filter_valid_points(
-                    keyword=keyword,
-                    points=points,
-                    source="naver",
-                    errors=errors,
+        source_ready, missing_env_vars = _is_source_available("naver", source_availability)
+        if not source_ready:
+            missing_vars_text = ", ".join(missing_env_vars)
+            print(f"  - Naver DataLab skipped: missing env vars ({missing_vars_text})")
+        else:
+            try:
+                naver_collector = NaverDataLabCollector(
+                    client_id=os.environ.get("NAVER_CLIENT_ID"),
+                    client_secret=os.environ.get("NAVER_CLIENT_SECRET"),
                 )
-                if not valid_points:
-                    continue
 
-                trend_store.save_trend_points(
-                    source="naver",
-                    keyword=keyword,
-                    points=valid_points,
-                    metadata={
-                        "set_name": keyword_set.name,
-                        "filters": filters,
-                    },
-                    db_path=db_path,
+                naver_data = naver_collector.collect(
+                    keywords=keywords,
+                    start_date=start_date,
+                    end_date=end_date,
+                    time_unit=filters.get("time_unit", "date"),
+                    device=filters.get("device"),
+                    gender=filters.get("gender"),
+                    ages=filters.get("ages"),
                 )
-                total_points += len(valid_points)
-                naver_raw_records.extend(
-                    _build_raw_records(keyword=keyword, source="naver", points=valid_points)
-                )
-                if search_index is not None:
-                    _sync_keyword_to_search_index(
-                        search_index=search_index,
+
+                naver_raw_records: list[dict[str, object]] = []
+                for keyword, points in naver_data.items():
+                    valid_points = _filter_valid_points(
                         keyword=keyword,
+                        points=points,
                         source="naver",
-                        keyword_set=keyword_set,
+                        errors=errors,
                     )
+                    if not valid_points:
+                        continue
 
-            if raw_logger is not None and naver_raw_records:
-                raw_path = raw_logger.log(naver_raw_records, source_name="naver")
-                print(f"  - Raw JSONL logged: {raw_path}")
+                    trend_store.save_trend_points(
+                        source="naver",
+                        keyword=keyword,
+                        points=valid_points,
+                        metadata={
+                            "set_name": keyword_set.name,
+                            "filters": filters,
+                        },
+                        db_path=db_path,
+                    )
+                    total_points += len(valid_points)
+                    naver_raw_records.extend(
+                        _build_raw_records(keyword=keyword, source="naver", points=valid_points)
+                    )
+                    if search_index is not None:
+                        _sync_keyword_to_search_index(
+                            search_index=search_index,
+                            keyword=keyword,
+                            source="naver",
+                            keyword_set=keyword_set,
+                        )
 
-            sources_succeeded += 1
-            print(f"  - Naver DataLab: {len(naver_data)} keywords, {total_points} points")
+                if raw_logger is not None and naver_raw_records:
+                    raw_path = raw_logger.log(naver_raw_records, source_name="naver")
+                    print(f"  - Raw JSONL logged: {raw_path}")
 
-        except Exception as e:
-            errors.append(f"Naver DataLab: {str(e)[:100]}")
-            print(f"  - Naver DataLab failed: {e}")
+                sources_succeeded += 1
+                mark_core_source_success("naver")
+                print(f"  - Naver DataLab: {len(naver_data)} keywords, {total_points} points")
+
+            except Exception as e:
+                errors.append(f"Naver DataLab: {str(e)[:100]}")
+                print(f"  - Naver DataLab failed: {e}")
 
     # Google Trends
     if "google" in channels and (source_filter is None or source_filter == "google"):
-        try:
-            google_collector = GoogleTrendsCollector()
+        source_ready, missing_env_vars = _is_source_available("google", source_availability)
+        if not source_ready:
+            missing_vars_text = ", ".join(missing_env_vars)
+            print(f"  - Google Trends skipped: missing env vars ({missing_vars_text})")
+        else:
+            try:
+                google_collector = GoogleTrendsCollector()
 
-            google_data = google_collector.collect(
-                keywords=keywords,
-                geo=filters.get("geo", "KR"),
-                timeframe=f"{start_date} {end_date}",
-            )
+                google_data = google_collector.collect(
+                    keywords=keywords,
+                    geo=filters.get("geo", "KR"),
+                    timeframe=f"{start_date} {end_date}",
+                )
 
-            google_points = 0
-            google_raw_records: list[dict[str, object]] = []
-            for keyword, points in google_data.items():
-                valid_points = _filter_valid_points(
-                    keyword=keyword,
-                    points=points,
-                    source="google",
-                    errors=errors,
-                )
-                if not valid_points:
-                    continue
-
-                trend_store.save_trend_points(
-                    source="google",
-                    keyword=keyword,
-                    points=valid_points,
-                    metadata={
-                        "set_name": keyword_set.name,
-                        "geo": filters.get("geo", "KR"),
-                    },
-                    db_path=db_path,
-                )
-                google_points += len(valid_points)
-                google_raw_records.extend(
-                    _build_raw_records(keyword=keyword, source="google", points=valid_points)
-                )
-                if search_index is not None:
-                    _sync_keyword_to_search_index(
-                        search_index=search_index,
+                google_points = 0
+                google_raw_records: list[dict[str, object]] = []
+                for keyword, points in google_data.items():
+                    valid_points = _filter_valid_points(
                         keyword=keyword,
                         source="google",
-                        keyword_set=keyword_set,
+                        points=points,
+                        errors=errors,
                     )
+                    if not valid_points:
+                        continue
 
-            if raw_logger is not None and google_raw_records:
-                raw_path = raw_logger.log(google_raw_records, source_name="google")
-                print(f"  - Raw JSONL logged: {raw_path}")
+                    trend_store.save_trend_points(
+                        source="google",
+                        keyword=keyword,
+                        points=valid_points,
+                        metadata={
+                            "set_name": keyword_set.name,
+                            "geo": filters.get("geo", "KR"),
+                        },
+                        db_path=db_path,
+                    )
+                    google_points += len(valid_points)
+                    google_raw_records.extend(
+                        _build_raw_records(keyword=keyword, source="google", points=valid_points)
+                    )
+                    if search_index is not None:
+                        _sync_keyword_to_search_index(
+                            search_index=search_index,
+                            keyword=keyword,
+                            source="google",
+                            keyword_set=keyword_set,
+                        )
 
-            total_points += google_points
-            sources_succeeded += 1
-            print(f"  - Google Trends: {len(google_data)} keywords, {google_points} points")
+                if raw_logger is not None and google_raw_records:
+                    raw_path = raw_logger.log(google_raw_records, source_name="google")
+                    print(f"  - Raw JSONL logged: {raw_path}")
 
-        except Exception as e:
-            errors.append(f"Google Trends: {str(e)[:100]}")
-            print(f"  - Google Trends failed: {e}")
+                total_points += google_points
+                sources_succeeded += 1
+                mark_core_source_success("google")
+                print(f"  - Google Trends: {len(google_data)} keywords, {google_points} points")
+
+            except Exception as e:
+                errors.append(f"Google Trends: {str(e)[:100]}")
+                print(f"  - Google Trends failed: {e}")
 
     # Google Trending (daily/realtime)
     if "google_trending" in channels and (
@@ -358,6 +433,7 @@ def collect_trends(
 
             total_points += trending_points
             sources_succeeded += 1
+            mark_core_source_success("google_trending")
             print(f"  - Google Trending: {len(trending_data)} keywords, {trending_points} points")
 
         except Exception as e:
@@ -421,6 +497,7 @@ def collect_trends(
 
             total_points += wiki_points
             sources_succeeded += 1
+            mark_core_source_success("wikipedia")
             print(f"  - Wikipedia Pageviews: {len(wiki_data)} keywords, {wiki_points} points")
 
         except Exception as e:
@@ -429,219 +506,243 @@ def collect_trends(
 
     # Reddit Trending
     if "reddit" in channels and (source_filter is None or source_filter == "reddit"):
-        try:
-            reddit_collector = RedditCollector(
-                client_id=os.environ.get("REDDIT_CLIENT_ID"),
-                client_secret=os.environ.get("REDDIT_CLIENT_SECRET"),
-            )
+        source_ready, missing_env_vars = _is_source_available("reddit", source_availability)
+        if not source_ready:
+            missing_vars_text = ", ".join(missing_env_vars)
+            print(f"  - Reddit Trending skipped: missing env vars ({missing_vars_text})")
+        else:
+            try:
+                reddit_collector = RedditCollector(
+                    client_id=os.environ.get("REDDIT_CLIENT_ID"),
+                    client_secret=os.environ.get("REDDIT_CLIENT_SECRET"),
+                )
 
-            reddit_keywords = reddit_collector.collect_trending_keywords(
-                subreddits=filters.get("reddit_subreddits", ["worldnews", "technology", "science"]),
-                time_filter=filters.get("reddit_time_filter", "day"),
-                limit=filters.get("reddit_limit", 25),
-            )
+                reddit_keywords = reddit_collector.collect_trending_keywords(
+                    subreddits=filters.get(
+                        "reddit_subreddits", ["worldnews", "technology", "science"]
+                    ),
+                    time_filter=filters.get("reddit_time_filter", "day"),
+                    limit=filters.get("reddit_limit", 25),
+                )
 
-            reddit_points = 0
-            reddit_raw_records: list[dict[str, object]] = []
-            for keyword, count in reddit_keywords.items():
-                points = [
-                    TrendPoint(
+                reddit_points = 0
+                reddit_raw_records: list[dict[str, object]] = []
+                for keyword, count in reddit_keywords.items():
+                    points = [
+                        TrendPoint(
+                            keyword=keyword,
+                            source="reddit",
+                            timestamp=datetime.now(UTC),
+                            value=float(count),
+                        )
+                    ]
+                    valid_points = _filter_valid_points(
                         keyword=keyword,
+                        points=points,
                         source="reddit",
-                        timestamp=datetime.now(UTC),
-                        value=float(count),
+                        errors=errors,
                     )
-                ]
-                valid_points = _filter_valid_points(
-                    keyword=keyword,
-                    points=points,
-                    source="reddit",
-                    errors=errors,
-                )
-                if not valid_points:
-                    continue
+                    if not valid_points:
+                        continue
 
-                trend_store.save_trend_points(
-                    source="reddit",
-                    keyword=keyword,
-                    points=valid_points,
-                    metadata={
-                        "set_name": keyword_set.name,
-                        "subreddits": filters.get(
-                            "reddit_subreddits", ["worldnews", "technology", "science"]
-                        ),
-                        "time_filter": filters.get("reddit_time_filter", "day"),
-                    },
-                    db_path=db_path,
-                )
-                reddit_points += 1
-                reddit_raw_records.extend(
-                    _build_raw_records(keyword=keyword, source="reddit", points=valid_points)
-                )
-                if search_index is not None:
-                    _sync_keyword_to_search_index(
-                        search_index=search_index,
+                    trend_store.save_trend_points(
+                        source="reddit",
                         keyword=keyword,
-                        source="reddit",
-                        keyword_set=keyword_set,
+                        points=valid_points,
+                        metadata={
+                            "set_name": keyword_set.name,
+                            "subreddits": filters.get(
+                                "reddit_subreddits", ["worldnews", "technology", "science"]
+                            ),
+                            "time_filter": filters.get("reddit_time_filter", "day"),
+                        },
+                        db_path=db_path,
                     )
+                    reddit_points += 1
+                    reddit_raw_records.extend(
+                        _build_raw_records(keyword=keyword, source="reddit", points=valid_points)
+                    )
+                    if search_index is not None:
+                        _sync_keyword_to_search_index(
+                            search_index=search_index,
+                            keyword=keyword,
+                            source="reddit",
+                            keyword_set=keyword_set,
+                        )
 
-            if raw_logger is not None and reddit_raw_records:
-                raw_path = raw_logger.log(reddit_raw_records, source_name="reddit")
-                print(f"  - Raw JSONL logged: {raw_path}")
+                if raw_logger is not None and reddit_raw_records:
+                    raw_path = raw_logger.log(reddit_raw_records, source_name="reddit")
+                    print(f"  - Raw JSONL logged: {raw_path}")
 
-            total_points += reddit_points
-            sources_succeeded += 1
-            print(f"  - Reddit Trending: {len(reddit_keywords)} keywords, {reddit_points} points")
+                total_points += reddit_points
+                sources_succeeded += 1
+                mark_core_source_success("reddit")
+                print(
+                    f"  - Reddit Trending: {len(reddit_keywords)} keywords, {reddit_points} points"
+                )
 
-        except Exception as e:
-            errors.append(f"Reddit Trending: {str(e)[:100]}")
-            print(f"  - Reddit Trending failed: {e}")
+            except Exception as e:
+                errors.append(f"Reddit Trending: {str(e)[:100]}")
+                print(f"  - Reddit Trending failed: {e}")
 
     # YouTube Trending
     if "youtube" in channels and (source_filter is None or source_filter == "youtube"):
-        try:
-            youtube_collector = YouTubeTrendingCollector(
-                api_key=os.environ.get("YOUTUBE_API_KEY"),
-            )
+        source_ready, missing_env_vars = _is_source_available("youtube", source_availability)
+        if not source_ready:
+            missing_vars_text = ", ".join(missing_env_vars)
+            print(f"  - YouTube Trending skipped: missing env vars ({missing_vars_text})")
+        else:
+            try:
+                youtube_collector = YouTubeTrendingCollector(
+                    api_key=os.environ.get("YOUTUBE_API_KEY"),
+                )
 
-            youtube_keywords = youtube_collector.collect_trending_keywords(
-                region_code=filters.get("youtube_region", "KR"),
-                max_results=filters.get("youtube_max_results", 50),
-            )
+                youtube_keywords = youtube_collector.collect_trending_keywords(
+                    region_code=filters.get("youtube_region", "KR"),
+                    max_results=filters.get("youtube_max_results", 50),
+                )
 
-            youtube_points = 0
-            youtube_raw_records: list[dict[str, object]] = []
-            for keyword, count in youtube_keywords.items():
-                points = [
-                    TrendPoint(
+                youtube_points = 0
+                youtube_raw_records: list[dict[str, object]] = []
+                for keyword, count in youtube_keywords.items():
+                    points = [
+                        TrendPoint(
+                            keyword=keyword,
+                            source="youtube",
+                            timestamp=datetime.now(UTC),
+                            value=float(count),
+                        )
+                    ]
+                    valid_points = _filter_valid_points(
                         keyword=keyword,
+                        points=points,
                         source="youtube",
-                        timestamp=datetime.now(UTC),
-                        value=float(count),
+                        errors=errors,
                     )
-                ]
-                valid_points = _filter_valid_points(
-                    keyword=keyword,
-                    points=points,
-                    source="youtube",
-                    errors=errors,
-                )
-                if not valid_points:
-                    continue
+                    if not valid_points:
+                        continue
 
-                trend_store.save_trend_points(
-                    source="youtube",
-                    keyword=keyword,
-                    points=valid_points,
-                    metadata={
-                        "set_name": keyword_set.name,
-                        "region_code": filters.get("youtube_region", "KR"),
-                    },
-                    db_path=db_path,
-                )
-                youtube_points += 1
-                youtube_raw_records.extend(
-                    _build_raw_records(keyword=keyword, source="youtube", points=valid_points)
-                )
-                if search_index is not None:
-                    _sync_keyword_to_search_index(
-                        search_index=search_index,
+                    trend_store.save_trend_points(
+                        source="youtube",
                         keyword=keyword,
-                        source="youtube",
-                        keyword_set=keyword_set,
+                        points=valid_points,
+                        metadata={
+                            "set_name": keyword_set.name,
+                            "region_code": filters.get("youtube_region", "KR"),
+                        },
+                        db_path=db_path,
                     )
+                    youtube_points += 1
+                    youtube_raw_records.extend(
+                        _build_raw_records(keyword=keyword, source="youtube", points=valid_points)
+                    )
+                    if search_index is not None:
+                        _sync_keyword_to_search_index(
+                            search_index=search_index,
+                            keyword=keyword,
+                            source="youtube",
+                            keyword_set=keyword_set,
+                        )
 
-            if raw_logger is not None and youtube_raw_records:
-                raw_path = raw_logger.log(youtube_raw_records, source_name="youtube")
-                print(f"  - Raw JSONL logged: {raw_path}")
+                if raw_logger is not None and youtube_raw_records:
+                    raw_path = raw_logger.log(youtube_raw_records, source_name="youtube")
+                    print(f"  - Raw JSONL logged: {raw_path}")
 
-            total_points += youtube_points
-            sources_succeeded += 1
-            print(
-                f"  - YouTube Trending: {len(youtube_keywords)} keywords, {youtube_points} points"
-            )
+                total_points += youtube_points
+                sources_succeeded += 1
+                mark_core_source_success("youtube")
+                print(
+                    f"  - YouTube Trending: {len(youtube_keywords)} keywords, {youtube_points} points"
+                )
 
-        except Exception as e:
-            errors.append(f"YouTube Trending: {str(e)[:100]}")
-            print(f"  - YouTube Trending failed: {e}")
+            except Exception as e:
+                errors.append(f"YouTube Trending: {str(e)[:100]}")
+                print(f"  - YouTube Trending failed: {e}")
 
     # Naver Shopping
     if "naver_shopping" in channels and (
         source_filter is None or source_filter == "naver_shopping"
     ):
-        try:
-            naver_shopping_collector = NaverShoppingCollector(
-                client_id=os.environ.get("NAVER_CLIENT_ID"),
-                client_secret=os.environ.get("NAVER_CLIENT_SECRET"),
-            )
-
-            shopping_category = filters.get("naver_shopping_category", "50000000")
-            shopping_trends: list[TrendCollectionResult] = (
-                naver_shopping_collector.collect_category_trends(
-                    category=shopping_category,
-                    start_date=start_date,
-                    end_date=end_date,
-                    time_unit=filters.get("naver_shopping_time_unit", "date"),
-                    device=filters.get("naver_shopping_device", ""),
-                    gender=filters.get("naver_shopping_gender", ""),
-                    ages=filters.get("naver_shopping_ages"),
+        source_ready, missing_env_vars = _is_source_available("naver_shopping", source_availability)
+        if not source_ready:
+            missing_vars_text = ", ".join(missing_env_vars)
+            print(f"  - Naver Shopping skipped: missing env vars ({missing_vars_text})")
+        else:
+            try:
+                naver_shopping_collector = NaverShoppingCollector(
+                    client_id=os.environ.get("NAVER_CLIENT_ID"),
+                    client_secret=os.environ.get("NAVER_CLIENT_SECRET"),
                 )
-            )
 
-            shopping_points = 0
-            shopping_raw_records: list[dict[str, object]] = []
-            for trend_item in shopping_trends:
-                category_name = trend_item.keyword
-                points = trend_item.points
-                valid_points = _filter_valid_points(
-                    keyword=category_name,
-                    points=points,
-                    source="naver_shopping",
-                    errors=errors,
-                )
-                if not valid_points:
-                    continue
-
-                trend_store.save_trend_points(
-                    source="naver_shopping",
-                    keyword=category_name,
-                    points=valid_points,
-                    metadata={
-                        "set_name": keyword_set.name,
-                        "category": shopping_category,
-                        "device": filters.get("naver_shopping_device", ""),
-                        "gender": filters.get("naver_shopping_gender", ""),
-                    },
-                    db_path=db_path,
-                )
-                shopping_points += len(valid_points)
-                shopping_raw_records.extend(
-                    _build_raw_records(
-                        keyword=category_name, source="naver_shopping", points=valid_points
+                shopping_category = filters.get("naver_shopping_category", "50000000")
+                shopping_trends: list[TrendCollectionResult] = (
+                    naver_shopping_collector.collect_category_trends(
+                        category=shopping_category,
+                        start_date=start_date,
+                        end_date=end_date,
+                        time_unit=filters.get("naver_shopping_time_unit", "date"),
+                        device=filters.get("naver_shopping_device", ""),
+                        gender=filters.get("naver_shopping_gender", ""),
+                        ages=filters.get("naver_shopping_ages"),
                     )
                 )
-                if search_index is not None:
-                    _sync_keyword_to_search_index(
-                        search_index=search_index,
+
+                shopping_points = 0
+                shopping_raw_records: list[dict[str, object]] = []
+                for trend_item in shopping_trends:
+                    category_name = trend_item.keyword
+                    points = trend_item.points
+                    valid_points = _filter_valid_points(
                         keyword=category_name,
+                        points=points,
                         source="naver_shopping",
-                        keyword_set=keyword_set,
+                        errors=errors,
                     )
+                    if not valid_points:
+                        continue
 
-            if raw_logger is not None and shopping_raw_records:
-                raw_path = raw_logger.log(shopping_raw_records, source_name="naver_shopping")
-                print(f"  - Raw JSONL logged: {raw_path}")
+                    trend_store.save_trend_points(
+                        source="naver_shopping",
+                        keyword=category_name,
+                        points=valid_points,
+                        metadata={
+                            "set_name": keyword_set.name,
+                            "category": shopping_category,
+                            "device": filters.get("naver_shopping_device", ""),
+                            "gender": filters.get("naver_shopping_gender", ""),
+                        },
+                        db_path=db_path,
+                    )
+                    shopping_points += len(valid_points)
+                    shopping_raw_records.extend(
+                        _build_raw_records(
+                            keyword=category_name,
+                            source="naver_shopping",
+                            points=valid_points,
+                        )
+                    )
+                    if search_index is not None:
+                        _sync_keyword_to_search_index(
+                            search_index=search_index,
+                            keyword=category_name,
+                            source="naver_shopping",
+                            keyword_set=keyword_set,
+                        )
 
-            total_points += shopping_points
-            sources_succeeded += 1
-            print(
-                f"  - Naver Shopping: {len(shopping_trends)} categories, {shopping_points} points"
-            )
+                if raw_logger is not None and shopping_raw_records:
+                    raw_path = raw_logger.log(shopping_raw_records, source_name="naver_shopping")
+                    print(f"  - Raw JSONL logged: {raw_path}")
 
-        except Exception as e:
-            errors.append(f"Naver Shopping: {str(e)[:100]}")
-            print(f"  - Naver Shopping failed: {e}")
+                total_points += shopping_points
+                sources_succeeded += 1
+                mark_core_source_success("naver_shopping")
+                print(
+                    f"  - Naver Shopping: {len(shopping_trends)} categories, {shopping_points} points"
+                )
+
+            except Exception as e:
+                errors.append(f"Naver Shopping: {str(e)[:100]}")
+                print(f"  - Naver Shopping failed: {e}")
 
     # HackerNews
     if "hackernews" in channels and (source_filter is None or source_filter == "hackernews"):
@@ -779,6 +880,51 @@ def collect_trends(
             errors.append(f"Product Hunt: {str(e)[:100]}")
             print(f"  - Product Hunt failed: {e}")
 
+    # Browser (Playwright)
+    if "browser" in channels and (source_filter is None or source_filter == "browser"):
+        try:
+            browser_sources_config = filters.get("browser_sources")
+            browser_sources: list[dict[str, object]] | None = (
+                browser_sources_config if isinstance(browser_sources_config, list) else None
+            )
+
+            browser_collector = BrowserCollector(
+                timeout_ms=int(filters.get("browser_timeout_ms", 20_000)),
+                rate_limit=float(filters.get("browser_rate_limit", 3.0)),
+            )
+            browser_items: list[ContentItem] = browser_collector.collect(
+                sources=browser_sources,
+                limit=int(filters.get("browser_limit", 30)),
+            )
+
+            browser_raw_records: list[dict[str, object]] = []
+            for item in browser_items:
+                keyword = item.title
+                score = item.score
+                if not validate_keyword(keyword) or not validate_score(score):
+                    errors.append("browser: invalid keyword/score")
+                    continue
+
+                item_record = _build_content_raw_record(
+                    keyword=keyword,
+                    source="browser",
+                    score=score,
+                    timestamp=str(item.metadata.get("collected_at", "")),
+                )
+                browser_raw_records.append(item_record)
+
+            if raw_logger is not None and browser_raw_records:
+                raw_path = raw_logger.log(browser_raw_records, source_name="browser")
+                print(f"  - Raw JSONL logged: {raw_path}")
+
+            total_points += len(browser_raw_records)
+            sources_succeeded += 1
+            print(f"  - Browser (Playwright): {len(browser_raw_records)} items")
+
+        except Exception as e:
+            errors.append(f"Browser: {str(e)[:100]}")
+            print(f"  - Browser (Playwright) failed: {e}")
+
     return total_points, sources_succeeded, errors
 
 
@@ -802,6 +948,9 @@ def run_once(
         print("  - 실행 모드: dry-run (collectors 미실행)")
         return
 
+    source_availability = get_core_source_availability()
+    _print_core_source_availability_report(source_availability)
+
     # 키워드 세트 설정 로드
     keyword_sets = load_keyword_sets_config(config_path)
 
@@ -817,6 +966,7 @@ def run_once(
     # 각 키워드 세트별로 수집
     total_points = 0
     total_sources_succeeded = 0
+    successful_core_sources: set[str] = set()
     all_errors: list[str] = []
 
     for kw_set in keyword_sets:
@@ -832,6 +982,8 @@ def run_once(
             source_filter=source_filter,
             raw_logger=raw_logger,
             search_index=search_index,
+            source_availability=source_availability,
+            successful_core_sources=successful_core_sources,
         )
 
         total_points += points
@@ -849,7 +1001,8 @@ def run_once(
             )
 
     print(f"\n  - 총 수집 데이터 포인트: {total_points}개")
-    print(f"  - 성공한 소스: {total_sources_succeeded}개")
+    print(f"  - collected from {len(successful_core_sources)}/{TOTAL_CORE_SOURCES} sources")
+    print(f"  - 성공한 소스 실행 횟수: {total_sources_succeeded}개")
 
     # HTML 리포트 생성
     if generate_report:
@@ -994,6 +1147,7 @@ if __name__ == "__main__":
             "devto",
             "stackexchange",
             "producthunt",
+            "browser",
         ],
         default=None,
         help="특정 소스만 수집 (기본값: 모두)",
