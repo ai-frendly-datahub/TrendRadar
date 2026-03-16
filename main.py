@@ -1018,6 +1018,14 @@ def run_once(
                 output_dir=report_dir,
             )
             print(f"  ✓ 리포트 저장: {report_dir}")
+            # Generate unified index.html
+            try:
+                from trendradar.reporter import generate_index_html
+
+                generate_index_html(report_dir)
+                print("  ✓ 인덱스 페이지 생성 완료 (radar-core)")
+            except Exception as e_idx:
+                print(f"  ✗ 인덱스 생성 실패: {e_idx}")
         except Exception as e:
             print(f"  ✗ 리포트 생성 실패: {e}")
             all_errors.append(f"Report generation: {str(e)[:100]}")
