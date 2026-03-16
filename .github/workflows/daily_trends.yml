@@ -48,7 +48,7 @@ jobs:
 
       - name: Generate index.html
         run: |
-          python -c "from reporters.html_reporter import generate_index_html; from pathlib import Path; generate_index_html(Path('docs'))"
+          python -c "from trendradar.reporter import generate_index_html; from pathlib import Path; generate_index_html(Path('docs'))"
 
       - name: Run Quality Checks
         if: always()
