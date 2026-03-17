@@ -67,11 +67,8 @@ jobs:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: |
-          python main.py --mode once --generate-report
+          python main.py --mode once --generate-report --report-dir docs
 
-      - name: Generate index.html
-        run: |
-          python -c "from trendradar.reporter import generate_index_html; from pathlib import Path; generate_index_html(Path('docs'))"
 
       - name: Run Quality Checks
         if: always()
