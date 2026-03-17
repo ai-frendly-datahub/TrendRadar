@@ -9,7 +9,7 @@ from typing import cast
 import duckdb
 
 from exceptions import StorageError
-from trendradar.models import Article
+from trendradar.models import Article, TrendPoint
 
 
 def _utc_naive(dt: datetime | None) -> datetime | None:
@@ -186,3 +186,190 @@ class RadarStorage:
 
         snapshot_root = Path(snapshot_dir) if snapshot_dir else self.db_path.parent / "daily"
         return cleanup_date_directories(snapshot_root, keep_days=keep_days)
+
+
+# ---------------------------------------------------------------------------
+# Module-level trend_points persistence
+# ---------------------------------------------------------------------------
+
+_DEFAULT_DB_PATH = Path("data/trendradar.duckdb")
+
+
+def _resolve_db_path(db_path: Path | None) -> Path:
+    """Resolve db_path, falling back to the project default."""
+    return db_path if db_path is not None else _DEFAULT_DB_PATH
+
+
+def _ensure_trend_points_table(conn: duckdb.DuckDBPyConnection) -> None:
+    """Create trend_points table and index if they don't exist."""
+    _ = conn.execute(
+        """
+        CREATE SEQUENCE IF NOT EXISTS trend_points_id_seq START 1;
+        CREATE TABLE IF NOT EXISTS trend_points (
+            id BIGINT PRIMARY KEY DEFAULT nextval('trend_points_id_seq'),
+            source TEXT NOT NULL,
+            keyword TEXT NOT NULL,
+            timestamp TIMESTAMP NOT NULL,
+            value DOUBLE NOT NULL,
+            metadata_json TEXT,
+            created_at TIMESTAMP NOT NULL
+        );
+        """
+    )
+    _ = conn.execute(
+        "CREATE INDEX IF NOT EXISTS idx_tp_source_keyword "
+        "ON trend_points (source, keyword, timestamp);"
+    )
+
+
+def save_trend_points(
+    source: str,
+    keyword: str,
+    points: list[TrendPoint | dict[str, object]],
+    metadata: dict[str, object] | None = None,
+    db_path: Path | None = None,
+) -> int:
+    """Persist a list of TrendPoints (or raw dicts) to the trend_points table.
+
+    Returns the number of rows inserted.
+    """
+    if not points:
+        return 0
+
+    resolved_path = _resolve_db_path(db_path)
+    resolved_path.parent.mkdir(parents=True, exist_ok=True)
+
+    now = _utc_naive(datetime.now(UTC))
+    meta_str = json.dumps(metadata, ensure_ascii=False) if metadata else None
+
+    rows: list[tuple[object, ...]] = []
+    for point in points:
+        if isinstance(point, TrendPoint):
+            ts = _utc_naive(point.timestamp)
+            val = point.value
+            point_meta = point.metadata
+        elif isinstance(point, dict):
+            raw_ts = point.get("timestamp")
+            if isinstance(raw_ts, datetime):
+                ts = _utc_naive(raw_ts)
+            elif isinstance(raw_ts, str):
+                ts = _utc_naive(datetime.fromisoformat(raw_ts))
+            else:
+                ts = now
+            try:
+                val = float(point.get("value", 0.0))  # type: ignore[arg-type]
+            except (TypeError, ValueError):
+                val = 0.0
+            raw_point_meta = point.get("metadata")
+            point_meta = raw_point_meta if isinstance(raw_point_meta, dict) else None
+        else:
+            continue
+
+        # Merge point-level metadata with call-level metadata
+        merged_meta: dict[str, object] = {}
+        if metadata:
+            merged_meta.update(metadata)
+        if point_meta:
+            merged_meta.update(point_meta)
+        row_meta_str = json.dumps(merged_meta, ensure_ascii=False) if merged_meta else meta_str
+
+        rows.append((source, keyword, ts, val, row_meta_str, now))
+
+    if not rows:
+        return 0
+
+    conn = duckdb.connect(str(resolved_path))
+    try:
+        _ensure_trend_points_table(conn)
+        _ = conn.begin()
+        _ = conn.executemany(
+            """
+            INSERT INTO trend_points (source, keyword, timestamp, value, metadata_json, created_at)
+            VALUES (?, ?, ?, ?, ?, ?)
+            """,
+            rows,
+        )
+        _ = conn.commit()
+        return len(rows)
+    except Exception as exc:
+        try:
+            _ = conn.rollback()
+        except duckdb.Error:
+            pass
+        raise StorageError("Failed to save trend points") from exc
+    finally:
+        conn.close()
+
+
+def query_trend_points(
+    source: str | None = None,
+    keyword: str | None = None,
+    start_date: str | None = None,
+    end_date: str | None = None,
+    db_path: Path | None = None,
+) -> list[dict[str, object]]:
+    """Query trend_points with optional filters.
+
+    Returns a list of dicts with keys: source, keyword, timestamp, value, metadata.
+    """
+    resolved_path = _resolve_db_path(db_path)
+    if not resolved_path.exists():
+        return []
+
+    conn = duckdb.connect(str(resolved_path))
+    try:
+        _ensure_trend_points_table(conn)
+
+        conditions: list[str] = []
+        params: list[object] = []
+
+        if source is not None:
+            conditions.append("source = ?")
+            params.append(source)
+        if keyword is not None:
+            conditions.append("keyword = ?")
+            params.append(keyword)
+        if start_date is not None:
+            conditions.append("timestamp >= ?")
+            params.append(start_date)
+        if end_date is not None:
+            conditions.append("timestamp <= ?")
+            params.append(end_date)
+
+        where_clause = (" WHERE " + " AND ".join(conditions)) if conditions else ""
+        query = (
+            "SELECT source, keyword, timestamp, value, metadata_json "
+            f"FROM trend_points{where_clause} "
+            "ORDER BY timestamp DESC"
+        )
+
+        cur = conn.execute(query, params)
+        raw_rows = cast(
+            list[tuple[str, str, datetime, float, str | None]],
+            cur.fetchall(),
+        )
+
+        results: list[dict[str, object]] = []
+        for row_source, row_keyword, row_ts, row_value, raw_meta in raw_rows:
+            meta: dict[str, object] = {}
+            if raw_meta:
+                try:
+                    parsed = json.loads(raw_meta)
+                    if isinstance(parsed, dict):
+                        meta = parsed
+                except json.JSONDecodeError:
+                    pass
+            results.append(
+                {
+                    "source": row_source,
+                    "keyword": row_keyword,
+                    "timestamp": row_ts,
+                    "value": row_value,
+                    "metadata": meta,
+                }
+            )
+        return results
+    except Exception as exc:
+        raise StorageError("Failed to query trend points") from exc
+    finally:
+        conn.close()
