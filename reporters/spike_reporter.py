@@ -81,7 +81,7 @@ def generate_spike_report(
     )
 
     # 파일 저장
-    output_file = output_dir / f"spike_{target_date.isoformat()}.html"
+    output_file = output_dir / f"spike_{target_date.strftime('%Y%m%d')}.html"
     output_file.write_text(html_content, encoding="utf-8")
 
     logger.info(f"Spike report generated: {output_file}")

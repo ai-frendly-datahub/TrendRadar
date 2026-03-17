@@ -130,7 +130,7 @@ def generate_daily_report(
     )
 
     # 파일 저장
-    output_file = output_dir / f"{target_date.isoformat()}.html"
+    output_file = output_dir / f"trend_{target_date.strftime('%Y%m%d')}.html"
     _ = output_file.write_text(html_content, encoding="utf-8")
 
     print(f"리포트 생성 완료: {output_file}")
