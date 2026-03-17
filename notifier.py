@@ -276,7 +276,9 @@ def detect_trend_notifications(db_path: Path, rules: dict[str, Any]) -> list[Not
     spread_min_channels = int(rules.get("spread_min_channels", 3))
 
     with duckdb.connect(str(db_path)) as conn:
-        latest_row = conn.execute("SELECT CAST(MAX(ts) AS DATE) FROM trend_points").fetchone()
+        latest_row = conn.execute(
+            "SELECT CAST(MAX(timestamp) AS DATE) FROM trend_points"
+        ).fetchone()
         if not latest_row or latest_row[0] is None:
             return []
         latest_date = latest_row[0]
@@ -284,15 +286,15 @@ def detect_trend_notifications(db_path: Path, rules: dict[str, Any]) -> list[Not
         spikes = conn.execute(
             """
             WITH latest AS (
-                SELECT source, keyword, AVG(value_normalized) AS value_latest
+                SELECT source, keyword, AVG(value) AS value_latest
                 FROM trend_points
-                WHERE CAST(ts AS DATE) = ?
+                WHERE CAST(timestamp AS DATE) = ?
                 GROUP BY source, keyword
             ),
             prev AS (
-                SELECT source, keyword, AVG(value_normalized) AS value_prev
+                SELECT source, keyword, AVG(value) AS value_prev
                 FROM trend_points
-                WHERE CAST(ts AS DATE) = ?::DATE - INTERVAL 1 DAY
+                WHERE CAST(timestamp AS DATE) = ?::DATE - INTERVAL 1 DAY
                 GROUP BY source, keyword
             )
             SELECT latest.source, latest.keyword, latest.value_latest, prev.value_prev
@@ -307,9 +309,9 @@ def detect_trend_notifications(db_path: Path, rules: dict[str, Any]) -> list[Not
             """
             SELECT latest.source, latest.keyword, latest.value_latest
             FROM (
-                SELECT source, keyword, AVG(value_normalized) AS value_latest
+                SELECT source, keyword, AVG(value) AS value_latest
                 FROM trend_points
-                WHERE CAST(ts AS DATE) = ?
+                WHERE CAST(timestamp AS DATE) = ?
                 GROUP BY source, keyword
             ) latest
             WHERE NOT EXISTS (
@@ -317,7 +319,7 @@ def detect_trend_notifications(db_path: Path, rules: dict[str, Any]) -> list[Not
                 FROM trend_points older
                 WHERE older.source = latest.source
                   AND older.keyword = latest.keyword
-                  AND CAST(older.ts AS DATE) < ?
+                  AND CAST(older.timestamp AS DATE) < ?
             )
             """,
             [latest_date, latest_date],
@@ -327,7 +329,7 @@ def detect_trend_notifications(db_path: Path, rules: dict[str, Any]) -> list[Not
             """
             SELECT keyword, COUNT(DISTINCT source) AS channel_count
             FROM trend_points
-            WHERE CAST(ts AS DATE) = ?
+            WHERE CAST(timestamp AS DATE) = ?
             GROUP BY keyword
             HAVING COUNT(DISTINCT source) >= ?
             """,
