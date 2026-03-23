@@ -44,11 +44,11 @@ jobs:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: |
-          python main.py --mode once --generate-report --report-dir docs
+          python main.py --mode once --generate-report --report-dir reports
 
       - name: Generate index.html
         run: |
-          python -c "from trendradar.reporter import generate_index_html; from pathlib import Path; generate_index_html(Path('docs'))"
+          python -c "from trendradar.reporter import generate_index_html; from pathlib import Path; generate_index_html(Path('reports'))"
 
       - name: Run Quality Checks
         if: always()
@@ -77,8 +77,8 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          keep_files: false  # 전체 docs 폴더 배포
+          publish_dir: ./reports
+          keep_files: false
 
       - name: Create summary
         run: |
@@ -87,6 +87,6 @@ jobs:
           echo "- 수집 날짜: $(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
           echo "- 리포트: [GitHub Pages에서 확인](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/reports/)" >> $GITHUB_STEP_SUMMARY
 
-          if [ -f "docs/reports/spike_$(date +'%Y-%m-%d').html" ]; then
+          if [ -f "reports/spike_$(date +'%Y%m%d').html" ]; then
             echo "- ✅ 급상승 리포트 생성됨" >> $GITHUB_STEP_SUMMARY
           fi

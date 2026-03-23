@@ -67,7 +67,11 @@ jobs:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: |
-          python main.py --mode once --generate-report --report-dir docs
+          python main.py --mode once --generate-report --report-dir reports
+
+      - name: Generate index.html
+        run: |
+          python -c "from trendradar.reporter import generate_index_html; from pathlib import Path; generate_index_html(Path('reports'))"
 
 
       - name: Run Quality Checks
@@ -99,7 +103,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: ./docs
+          publish_dir: ./reports
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
           commit_message: "docs: update radar report"
@@ -119,7 +123,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: radar-reports-${{ github.run_number }}
-          path: docs/
+          path: reports/
           retention-days: 30
           if-no-files-found: warn
 
@@ -132,7 +136,7 @@ jobs:
           echo "- **Timestamp**: $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
           echo "- **Status**: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          if [ -f "docs/index.html" ]; then
+          if [ -f "reports/index.html" ]; then
             echo "✅ Report generated successfully" >> $GITHUB_STEP_SUMMARY
           fi
           if [ -f "data/trendradar.duckdb" ]; then
