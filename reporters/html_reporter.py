@@ -51,7 +51,7 @@ def generate_daily_report(
     from storage import trend_store
 
     if output_dir is None:
-        output_dir = Path(__file__).parent.parent / "docs" / "reports"
+        output_dir = Path(__file__).parent.parent / "reports"
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -74,12 +74,15 @@ def generate_daily_report(
 
         trend_data: list[dict[str, object]] = []
         for keyword in keywords:
-            points = trend_store.query_trend_points(
+            raw_points = trend_store.query_trend_points(
                 keyword=keyword,
                 start_date=start_date,
                 end_date=end_date,
                 db_path=db_path,
             )
+            points = [
+                TrendPoint.from_dict(point) for point in raw_points if isinstance(point, dict)
+            ]
             heatmap_points.extend(points)
             forecast_points.extend(points)
             total_keywords += 1

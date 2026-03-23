@@ -1,12 +1,9 @@
 from __future__ import annotations
 
 from collections.abc import Iterable
+from dataclasses import replace
+from importlib import import_module
 from pathlib import Path
-
-from radar_core.report_utils import (
-    generate_index_html as _core_generate_index_html,
-    generate_report as _core_generate_report,
-)
 
 from .models import Article, CategoryConfig
 
@@ -21,7 +18,19 @@ def generate_report(
     store=None,
 ) -> Path:
     """Render HTML report using radar-core unified template."""
+    normalized_category = category
+    if not category.category_name.strip() or not category.display_name.strip():
+        category_name = category.category_name.strip() or category.display_name.strip() or "daily"
+        display_name = category.display_name.strip() or category_name
+        normalized_category = replace(
+            category,
+            category_name=category_name,
+            display_name=display_name,
+        )
+
     articles_list = list(articles)
+    report_utils = import_module("radar_core.report_utils")
+    core_generate_report = report_utils.generate_report
     plugin_charts = []
     if articles_list:
         try:
@@ -35,24 +44,22 @@ def generate_report(
 
     # --- Universal plugins (entity heatmap + source reliability) ---
     try:
-        from radar_core.plugins.entity_heatmap import get_chart_config as _heatmap_config
-
-        _heatmap = _heatmap_config(articles=articles_list)
+        entity_heatmap = import_module("radar_core.plugins.entity_heatmap")
+        _heatmap = entity_heatmap.get_chart_config(articles=articles_list)
         if _heatmap is not None:
             plugin_charts.append(_heatmap)
     except Exception:
         pass
     try:
-        from radar_core.plugins.source_reliability import get_chart_config as _reliability_config
-
-        _reliability = _reliability_config(store=store)
+        source_reliability = import_module("radar_core.plugins.source_reliability")
+        _reliability = source_reliability.get_chart_config(store=store)
         if _reliability is not None:
             plugin_charts.append(_reliability)
     except Exception:
         pass
 
-    return _core_generate_report(
-        category=category,
+    return core_generate_report(
+        category=normalized_category,
         articles=articles_list,
         output_path=output_path,
         stats=stats,
@@ -63,4 +70,6 @@ def generate_report(
 
 def generate_index_html(report_dir: Path, summaries_dir: Path | None = None) -> Path:
     """Generate index.html using radar-core unified template."""
-    return _core_generate_index_html(report_dir, "Trend Radar")
+    report_utils = import_module("radar_core.report_utils")
+    core_generate_index_html = report_utils.generate_index_html
+    return core_generate_index_html(report_dir, "TrendRadar")

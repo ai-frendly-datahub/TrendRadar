@@ -28,7 +28,7 @@ def generate_spike_report(
         output_dir: 리포트 출력 디렉토리
     """
     if output_dir is None:
-        output_dir = Path(__file__).parent.parent / "docs" / "reports"
+        output_dir = Path(__file__).parent.parent / "reports"
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
