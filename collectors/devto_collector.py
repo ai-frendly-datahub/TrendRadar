@@ -76,7 +76,6 @@ class DevtoCollector:
                     source="devto",
                     author=str(article.get("user", {}).get("name", "")),
                     score=float(article.get("positive_reactions_count", 0)),
-                    timestamp=None,
                     metadata={
                         "id": article.get("id"),
                         "slug": article.get("slug", ""),

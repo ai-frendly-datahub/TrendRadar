@@ -45,6 +45,13 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: |
           python main.py --mode once --generate-report --report-dir reports
+          
+      - name: Collect free sources (HackerNews, Dev.to, StackExchange)
+        run: |
+          echo "Collecting from free sources..."
+          python main.py --mode once --source hackernews --report-dir reports
+          python main.py --mode once --source devto --report-dir reports
+          python main.py --mode once --source stackexchange --report-dir reports
 
       - name: Generate index.html
         run: |

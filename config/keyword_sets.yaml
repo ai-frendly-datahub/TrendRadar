@@ -15,6 +15,9 @@ keyword_sets:
     channels:
       - naver
       - google
+      - hackernews
+      - devto
+      - stackexchange
     time_range:
       start: "2024-01-01"
       end: "2025-11-24"
