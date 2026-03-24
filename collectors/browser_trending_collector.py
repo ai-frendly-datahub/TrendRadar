@@ -13,7 +13,7 @@ class BrowserTrendingCollector:
     def collect(self, url: str, limit: int = 20) -> list[ContentItem]:
         try:
             browser_module = importlib.import_module("radar_core.browser_collector")
-            collect_browser_sources = getattr(browser_module, "collect_browser_sources")
+            collect_browser_sources = browser_module.collect_browser_sources
         except ImportError:
             return []
 

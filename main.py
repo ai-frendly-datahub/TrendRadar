@@ -11,6 +11,7 @@ from pathlib import Path
 import yaml
 
 from analyzers.spike_detector import SpikeDetector
+from collectors.browser_collector import BrowserCollector
 from collectors.devto_collector import DevtoCollector
 from collectors.google_collector import GoogleTrendsCollector
 from collectors.google_trending_collector import GoogleTrendingCollector
@@ -20,7 +21,6 @@ from collectors.naver_shopping_collector import NaverShoppingCollector
 from collectors.producthunt_collector import ProductHuntCollector
 from collectors.reddit_collector import RedditCollector
 from collectors.stackexchange_collector import StackExchangeCollector
-from collectors.browser_collector import BrowserCollector
 from collectors.wikipedia_collector import WikipediaPageviewsCollector
 from collectors.youtube_collector import YouTubeTrendingCollector
 from config_loader import load_notification_config

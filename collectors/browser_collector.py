@@ -14,6 +14,7 @@ from typing import Any
 
 from trendradar.models import ContentItem
 
+
 logger = logging.getLogger(__name__)
 
 
@@ -90,7 +91,7 @@ class BrowserCollector:
 
         try:
             browser_module = importlib.import_module("radar_core.browser_collector")
-            collect_fn = getattr(browser_module, "collect_browser_sources")
+            collect_fn = browser_module.collect_browser_sources
         except (ImportError, AttributeError) as exc:
             logger.error("Failed to import radar_core.browser_collector: %s", exc)
             return []
