@@ -30,20 +30,27 @@ keyword_sets:
       # Google 필터
       geo: KR          # KR, US, JP 등 ISO 국가 코드, 빈 문자열 = 전세계
 
-  # 예시 2: 부동산 키워드 (비활성화)
+  # 예시 2: 부동산 키워드 (활성화)
   - name: "서울 부동산 트렌드"
-    enabled: false
+    enabled: true
     description: "서울 주요 지역 부동산 검색 트렌드"
     keywords:
       - "강남 아파트"
       - "송파 전세"
       - "마포 매매"
       - "분양권"
+      - "서울 부동산"
+      - "아파트 매매"
+      - "전세 시세"
+      - "부동산 시장"
+      - "재건축"
+      - "청약"
     channels:
       - naver
+      - google
     time_range:
       start: "2024-06-01"
-      end: "2025-11-24"
+      end: "2026-12-31"
     filters:
       time_unit: week
       device: ""
@@ -75,20 +82,28 @@ keyword_sets:
 
   # 예시 4: K-POP 트렌드 (YouTube + 검색)
   - name: "K-POP 트렌드"
-    enabled: false
+    enabled: true
     description: "K-POP 아이돌 및 음악 트렌드 추적"
     keywords:
       - "케이팝"
+      - "K-POP"
       - "아이돌"
       - "걸그룹"
       - "보이그룹"
+      - "뉴진스"
+      - "에스파"
+      - "블랙핑크"
+      - "BTS"
+      - "음원차트"
+      - "멜론"
+      - "음악방송"
     channels:
       - naver
       - google
       - youtube
     time_range:
       start: "2024-01-01"
-      end: "2025-11-24"
+      end: "2026-12-31"
     filters:
       time_unit: date
       geo: KR
@@ -98,28 +113,51 @@ keyword_sets:
 
   # 예시 5: 커뮤니티 트렌드 (Reddit)
   - name: "글로벌 테크 커뮤니티 트렌드"
-    enabled: false
+    enabled: true
     description: "Reddit 기술 커뮤니티 트렌드"
+    keywords:
+      - "AI"
+      - "machine learning"
+      - "Python"
+      - "programming"
+      - "tech news"
+      - "software development"
+      - "cloud computing"
+      - "open source"
     channels:
       - reddit
+      - hackernews
+      - devto
     reddit_subreddits:
       - "python"
       - "programming"
       - "learnpython"
       - "technology"
+      - "machinelearning"
+      - "artificial"
     reddit_sort: "hot"  # hot, new, top, rising, controversial
     reddit_time_filter: "day"  # hour, day, week, month, year, all
     reddit_limit: 25
 
   # 예시 6: 쇼핑 트렌드 (네이버 쇼핑)
   - name: "패션 쇼핑 트렌드"
-    enabled: false
+    enabled: true
     description: "네이버 쇼핑 패션 카테고리 트렌드"
+    keywords:
+      - "패션"
+      - "의류"
+      - "쇼핑"
+      - "코디"
+      - "브랜드"
+      - "화장품"
+      - "스킨케어"
+      - "메이크업"
     channels:
       - naver_shopping
+      - naver
     time_range:
       start: "2024-10-01"
-      end: "2025-11-24"
+      end: "2026-12-31"
     filters:
       time_unit: week
       device: "mo"  # 모바일
@@ -129,3 +167,27 @@ keyword_sets:
       - "50000000"  # 패션의류
       - "50000001"  # 패션잡화
       - "50000002"  # 화장품/미용
+
+  # 예시 7: 인물 검색 트렌드
+  - name: "인물 검색 트렌드"
+    enabled: true
+    description: "주요 인물 및 유명인 검색 트렌드"
+    keywords:
+      - "유명인"
+      - "연예인"
+      - "배우"
+      - "가수"
+      - "정치인"
+      - "스포츠 선수"
+      - "인플루언서"
+      - "유튜버"
+    channels:
+      - naver
+      - google
+      - youtube
+    time_range:
+      start: "2024-01-01"
+      end: "2026-12-31"
+    filters:
+      time_unit: date
+      geo: KR
