@@ -19,6 +19,7 @@ TrendRadar/
 │   └── cross_channel_analyzer.py     # 채널 간 상관 분석 (UNIQUE)
 ├── storage/
 │   ├── trend_store.py                # TrendStore — DuckDB trend_points 테이블
+│   ├── date_storage.py               # daily DuckDB snapshot + raw/report retention
 │   └── search_index.py               # 전문 검색
 ├── reporters/
 │   ├── html_reporter.py              # 일반 HTML 리포트
@@ -50,11 +51,12 @@ TrendRadar/
 - **분석 모듈**: `spike_detector` + `cross_channel_analyzer` — 템플릿의 단순 keyword matching과 다름
 - **환경변수**: `.env.example`에 Naver/YouTube/Reddit API 키 필수
 - **리포터 2종**: 일반 + 스파이크 전용
+- **날짜별 저장**: `data/daily/YYYY-MM-DD.duckdb`, `data/raw/YYYY-MM-DD/*.jsonl`, `reports/*_YYYYMMDD.html`
 
 ## COMMANDS
 
 ```bash
-python main.py --mode once
+python main.py --mode once --snapshot-db
 python main.py --mode scheduler
 
 # API 키 필요

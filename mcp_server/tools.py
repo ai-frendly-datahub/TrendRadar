@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 import re
+from collections import Counter
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
@@ -26,8 +28,8 @@ def handle_search(*, search_db_path: Path, db_path: Path, query: str, limit: int
         return "No results found."
 
     effective_limit = parsed.limit if parsed.limit > 0 else limit
-    idx = SearchIndex(search_db_path)
-    results = idx.search(search_text, limit=effective_limit)
+    with SearchIndex(search_db_path) as idx:
+        results = idx.search(search_text, limit=effective_limit)
 
     if parsed.days is not None:
         results = _filter_results_by_days(db_path=db_path, results=results, days=parsed.days)
@@ -50,6 +52,22 @@ def handle_recent_updates(*, db_path: Path, days: int = 7, limit: int = 20) -> s
     cutoff = datetime.now(tz=UTC) - timedelta(days=days)
     conn = duckdb.connect(str(db_path), read_only=True)
     try:
+        article_rows = conn.execute(
+            """
+            SELECT title, link, source, category, collected_at
+            FROM articles
+            WHERE COALESCE(published, collected_at) >= ?
+            ORDER BY COALESCE(published, collected_at) DESC
+            LIMIT ?
+            """,
+            [cutoff, limit],
+        ).fetchall()
+        if article_rows:
+            lines = [f"Recent updates ({len(article_rows)}):"]
+            for row in article_rows:
+                lines.append(f"- {row[0]} | {row[2]} | {row[3]} | {row[4]}")
+            return "\n".join(lines)
+
         rows = conn.execute(
             """
             SELECT keyword, source, value_normalized, ts, created_at
@@ -119,8 +137,9 @@ def handle_top_trends(*, db_path: Path, days: int = 7, limit: int = 10) -> str:
     return "\n".join(lines)
 
 
-def handle_price_watch() -> str:
-    return "Not available in TrendRadar"
+def handle_price_watch(*, threshold: float = 0.0) -> str:
+    _ = threshold
+    return "Not available in template project"
 
 
 def _filter_results_by_days(
@@ -136,17 +155,33 @@ def _filter_results_by_days(
     try:
         filtered: list[SearchResult] = []
         for result in results:
-            row = conn.execute(
+            article_row = conn.execute(
                 """
                 SELECT 1
-                FROM trend_points
-                WHERE keyword = ? AND source = ? AND created_at >= ?
+                FROM articles
+                WHERE link = ? AND COALESCE(published, collected_at) >= ?
                 LIMIT 1
                 """,
-                [result.keyword, result.platform, cutoff],
+                [result.link, cutoff],
             ).fetchone()
-            if row:
+            if article_row:
                 filtered.append(result)
+                continue
+
+            try:
+                row = conn.execute(
+                    """
+                    SELECT 1
+                    FROM trend_points
+                    WHERE keyword = ? AND source = ? AND created_at >= ?
+                    LIMIT 1
+                    """,
+                    [result.keyword, result.platform, cutoff],
+                ).fetchone()
+                if row:
+                    filtered.append(result)
+            except Exception:
+                continue
     except Exception:
         return []
     finally:
@@ -176,6 +211,35 @@ def _fallback_top_trends(*, db_path: Path, days: int, limit: int) -> str:
     cutoff = datetime.now(tz=UTC) - timedelta(days=days)
     conn = duckdb.connect(str(db_path), read_only=True)
     try:
+        article_rows = conn.execute(
+            """
+            SELECT entities_json
+            FROM articles
+            WHERE COALESCE(published, collected_at) >= ?
+            """,
+            [cutoff],
+        ).fetchall()
+        entity_counts: Counter[str] = Counter()
+        for (raw_entities,) in article_rows:
+            if not raw_entities:
+                continue
+            try:
+                parsed = json.loads(str(raw_entities))
+            except json.JSONDecodeError:
+                continue
+            if not isinstance(parsed, dict):
+                continue
+            for entity_name, keywords in parsed.items():
+                if isinstance(keywords, list):
+                    entity_counts[str(entity_name)] += len(keywords)
+                else:
+                    entity_counts[str(entity_name)] += 1
+        if entity_counts:
+            lines = ["Top trend spikes:"]
+            for entity_name, count in entity_counts.most_common(limit):
+                lines.append(f"- {entity_name} | count={count}")
+            return "\n".join(lines)
+
         rows = conn.execute(
             """
             SELECT keyword, source, AVG(value_normalized) AS avg_value, MAX(value_normalized) AS peak

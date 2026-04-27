@@ -5,6 +5,8 @@ from dataclasses import replace
 from importlib import import_module
 from pathlib import Path
 
+from radar_core.ontology import build_summary_ontology_metadata
+
 from .models import Article, CategoryConfig
 
 
@@ -65,6 +67,11 @@ def generate_report(
         stats=stats,
         errors=errors,
         plugin_charts=plugin_charts if plugin_charts else None,
+        ontology_metadata=build_summary_ontology_metadata(
+            "TrendRadar",
+            category_name=normalized_category.category_name,
+            search_from=Path(__file__).resolve(),
+        ),
     )
 
 

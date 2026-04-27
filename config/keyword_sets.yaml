@@ -1,11 +1,108 @@
 # TrendRadar 키워드 세트 설정
 # 각 세트는 관심 있는 키워드 그룹을 정의합니다.
 
+data_quality:
+  priority: P1
+  primary_motion: attention
+  weakest_dimension: authority
+  quality_outputs:
+    latest: docs/reports/trend_quality.json
+    dated_pattern: docs/reports/trend_YYYYMMDD_quality.json
+    tracked_event_models:
+      - attention_signal
+      - conversion_proxy_signal
+      - community_signal
+  event_models:
+    attention_signal:
+      date_fields:
+        - signal_date
+        - collected_at
+      required_fields:
+        - keyword_set_name
+        - channel
+        - raw_value
+        - normalized_value
+    conversion_proxy_signal:
+      date_fields:
+        - signal_date
+        - collected_at
+      required_fields:
+        - keyword_set_name
+        - proxy_type
+        - source
+    community_signal:
+      date_fields:
+        - signal_date
+        - collected_at
+      required_fields:
+        - keyword_set_name
+        - community
+        - signal_value
+  canonical_keys:
+    keyword_pack:
+      - name
+      - version
+      - taxonomy.vertical
+      - taxonomy.intent
+    platform_signal:
+      - keyword_set_name
+      - channel
+      - signal_date
+  freshness_sla:
+    attention_signal_days: 1
+    conversion_proxy_signal_days: 7
+    community_signal_days: 3
+  signal_layers:
+    attention:
+      - naver
+      - google
+      - google_trending
+      - wikipedia
+      - youtube
+    conversion_proxy:
+      - naver_shopping
+    community:
+      - reddit
+      - hackernews
+      - devto
+      - stackexchange
+      - producthunt
+  score_axes:
+    attention:
+      description: search, trending, pageview, and content attention score
+      output_field: attention_score
+    conversion_proxy:
+      description: shopping and other downstream behavior proxy score
+      output_field: conversion_proxy_score
+  normalization:
+    policy: normalize each platform to a 0-100 daily scale before cross-platform comparison
+    preserve_raw_value: true
+    preserve_platform: true
+  quality_gates:
+    - keyword pack 버전과 생성 기준을 추적
+    - 관심 신호와 전환 신호를 같은 점수로 병합하지 않음
+    - 플랫폼별 trend scale 차이를 정규화한 뒤 비교
+  next_actions:
+    - shopping·conversion proxy source를 운영 레이어로 넓힘
+    - vertical keyword pack을 표준 파일로 분리하고 버전 관리
+    - attention score와 conversion proxy score를 별도 축으로 시각화
+  source_backlog:
+    - id: product_signup_proxy
+      name: Product signup / waitlist proxy
+      activation_gate: ToS review and domain-specific entity mapping
+    - id: commerce_visit_proxy
+      name: Commerce visit / catalog interest proxy
+      activation_gate: aggregation policy and privacy review
+
 keyword_sets:
   # 예시 1: 위스키 시장 동향
   - name: "위스키 시장 동향"
     enabled: true
     description: "위스키 관련 검색 트렌드 추적"
+    version: "2026.04"
+    taxonomy:
+      vertical: beverage
+      intent: market_attention
     keywords:
       - "위스키"
       - "싱글몰트"
@@ -34,6 +131,10 @@ keyword_sets:
   - name: "서울 부동산 트렌드"
     enabled: true
     description: "서울 주요 지역 부동산 검색 트렌드"
+    version: "2026.04"
+    taxonomy:
+      vertical: real_estate
+      intent: market_attention
     keywords:
       - "강남 아파트"
       - "송파 전세"
@@ -62,6 +163,10 @@ keyword_sets:
   - name: "와인 시장 동향"
     enabled: true
     description: "와인 관련 검색 트렌드"
+    version: "2026.04"
+    taxonomy:
+      vertical: beverage
+      intent: market_attention
     keywords:
       - "와인"
       - "레드와인"
@@ -84,6 +189,10 @@ keyword_sets:
   - name: "K-POP 트렌드"
     enabled: true
     description: "K-POP 아이돌 및 음악 트렌드 추적"
+    version: "2026.04"
+    taxonomy:
+      vertical: entertainment
+      intent: fan_attention
     keywords:
       - "케이팝"
       - "K-POP"
@@ -115,6 +224,10 @@ keyword_sets:
   - name: "글로벌 테크 커뮤니티 트렌드"
     enabled: true
     description: "Reddit 기술 커뮤니티 트렌드"
+    version: "2026.04"
+    taxonomy:
+      vertical: technology
+      intent: community_attention
     keywords:
       - "AI"
       - "machine learning"
@@ -143,6 +256,10 @@ keyword_sets:
   - name: "패션 쇼핑 트렌드"
     enabled: true
     description: "네이버 쇼핑 패션 카테고리 트렌드"
+    version: "2026.04"
+    taxonomy:
+      vertical: commerce_fashion
+      intent: conversion_proxy
     keywords:
       - "패션"
       - "의류"
@@ -172,6 +289,10 @@ keyword_sets:
   - name: "인물 검색 트렌드"
     enabled: true
     description: "주요 인물 및 유명인 검색 트렌드"
+    version: "2026.04"
+    taxonomy:
+      vertical: people
+      intent: public_attention
     keywords:
       - "유명인"
       - "연예인"

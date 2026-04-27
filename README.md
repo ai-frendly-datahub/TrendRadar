@@ -111,14 +111,15 @@ API 키 발급:
 #### 1회 수집 실행 (일일 리포트 + 급상승 리포트)
 
 ```bash
-python main.py --mode once --generate-report
+python main.py --mode once --generate-report --snapshot-db
 ```
 
 이 명령은 다음을 수행합니다:
 - 모든 키워드 세트 수집 (Google, Naver, YouTube 등)
 - DuckDB에 저장
-- 일일 트렌드 리포트 생성 (`docs/reports/trend_YYYY-MM-DD.html`)
-- 급상승 키워드 감지 및 리포트 생성 (`docs/reports/spike_YYYY-MM-DD.html`)
+- 일일 트렌드 리포트 생성 (`docs/reports/trend_YYYYMMDD.html`)
+- 급상승 키워드 감지 및 리포트 생성 (`docs/reports/spike_YYYYMMDD.html`)
+- 날짜별 DuckDB 스냅샷 생성 (`data/daily/YYYY-MM-DD.duckdb`)
 
 #### 정기 수집 스케줄러 실행 (24시간 간격)
 
@@ -145,6 +146,14 @@ python examples/analyzer_example.py
 # 급상승 리포트만 생성
 python examples/generate_spike_report.py
 ```
+
+#### 데이터 품질 리포트 생성
+
+```bash
+python -m trendradar.quality_report --config config/keyword_sets.yaml --output-dir docs/reports
+```
+
+이 명령은 keyword pack 버전, vertical/intent taxonomy, attention 신호와 conversion proxy 신호의 분리 상태를 점검하고 `docs/reports/trend_quality.json`과 `docs/reports/trend_YYYYMMDD_quality.json`을 생성합니다.
 
 ### 키워드 세트 설정
 
@@ -182,6 +191,9 @@ keyword_sets:
 --report-dir        리포트 출력 디렉토리 (기본값: docs/reports)
 --source            특정 소스만 수집 (naver, google, youtube 등)
 --db-path           DuckDB 파일 경로 (기본값: data/trendradar.duckdb)
+--snapshot-db       수집 후 data/daily/YYYY-MM-DD.duckdb 스냅샷 생성
+--keep-raw-days     data/raw/YYYY-MM-DD 디렉토리 보존 기간
+--keep-report-days  reports/*_YYYYMMDD.html 리포트 보존 기간
 ```
 
 ## 급상승 감지 알고리즘
@@ -270,6 +282,7 @@ TrendRadar는 GitHub Actions로 자동화된 워크플로를 제공합니다:
 # .github/workflows/daily_trends.yml
 - 모든 소스에서 트렌드 수집
 - 일일 리포트 + 급상승 리포트 생성
+- DuckDB 일별 스냅샷 및 raw/report 보존 정책 적용
 - GitHub Pages에 자동 배포
 ```
 
@@ -517,3 +530,15 @@ except Exception as e:
 ## 라이선스
 
 MIT License – 자세한 내용은 [LICENSE](LICENSE)를 참고하세요.
+
+<!-- DATAHUB-OPS-AUDIT:START -->
+## DataHub Operations
+
+- CI/CD workflows: `daily_trends.yml`, `pr-checks.yml`, `radar-crawler.yml`, `release.yml`, `spike_analysis.yml`.
+- GitHub Pages visualization: `reports/index.html` (valid HTML); https://ai-frendly-datahub.github.io/TrendRadar/.
+- Latest remote Pages check: HTTP 200, HTML.
+- Local workspace audit: 94 Python files parsed, 0 syntax errors.
+- Re-run audit from the workspace root: `python scripts/audit_ci_pages_readme.py --syntax-check --write`.
+- Latest audit report: `_workspace/2026-04-14_github_ci_pages_readme_audit.md`.
+- Latest Pages URL report: `_workspace/2026-04-14_github_pages_url_check.md`.
+<!-- DATAHUB-OPS-AUDIT:END -->

@@ -33,22 +33,15 @@ class NaverDataLabCollector:
         self.client_id = client_id or os.environ.get("NAVER_CLIENT_ID")
         self.client_secret = client_secret or os.environ.get("NAVER_CLIENT_SECRET")
 
-        # API 키가 없으면 graceful skip
         if not self.client_id or not self.client_secret:
-            logger.warning(
-                "NAVER_CLIENT_ID 또는 NAVER_CLIENT_SECRET 환경 변수가 설정되지 않았습니다. "
-                "네이버 데이터랩 수집을 건너뜁니다. "
-                "네이버 개발자센터 (https://developers.naver.com) 에서 발급받을 수 있습니다."
-            )
-            self.enabled = False
-            self.headers = {}
-        else:
-            self.enabled = True
-            self.headers = {
-                "X-Naver-Client-Id": self.client_id,
-                "X-Naver-Client-Secret": self.client_secret,
-                "Content-Type": "application/json",
-            }
+            raise ValueError("NAVER_CLIENT_ID 또는 NAVER_CLIENT_SECRET 환경 변수가 필요합니다")
+
+        self.enabled = True
+        self.headers = {
+            "X-Naver-Client-Id": self.client_id,
+            "X-Naver-Client-Secret": self.client_secret,
+            "Content-Type": "application/json",
+        }
 
     def collect(
         self,

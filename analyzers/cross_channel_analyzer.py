@@ -273,11 +273,18 @@ class CrossChannelAnalyzer:
         }
 
     @staticmethod
-    def _calculate_keyword_averages(points: list[TrendPoint]) -> dict[str, float]:
+    def _calculate_keyword_averages(
+        points: list[TrendPoint | dict[str, object]],
+    ) -> dict[str, float]:
         """키워드별 평균 값 계산."""
         keyword_values: dict[str, list[float]] = {}
 
-        for point in points:
+        for raw_point in points:
+            point = (
+                TrendPoint.from_dict(raw_point)
+                if isinstance(raw_point, dict)
+                else raw_point
+            )
             keyword = point.keyword
             value = point.value
 

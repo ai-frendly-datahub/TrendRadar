@@ -4,11 +4,16 @@ from __future__ import annotations
 
 import argparse
 import os
+import shutil
 import time
-from datetime import UTC, datetime
+from collections.abc import Iterable
+from datetime import UTC, date, datetime, timedelta
+from importlib import import_module
 from pathlib import Path
 
 import yaml
+
+from radar_core.ontology import build_summary_ontology_metadata
 
 from analyzers.spike_detector import SpikeDetector
 from collectors.browser_collector import BrowserCollector
@@ -30,6 +35,16 @@ from reporters.html_reporter import generate_daily_report
 from reporters.spike_reporter import generate_spike_report
 from storage import trend_store
 from storage.search_index import SearchIndex
+from trendradar.date_storage import (
+    cleanup_date_directories,
+    cleanup_dated_reports,
+    snapshot_database,
+)
+from trendradar.quality_report import (
+    build_quality_report,
+    load_keyword_quality_config,
+    write_quality_report,
+)
 from trendradar.common.validators import validate_keyword, validate_score
 from trendradar.models import (
     ContentItem,
@@ -69,6 +84,18 @@ CORE_SOURCE_LABELS: dict[str, str] = {
     "naver_shopping": "Naver Shopping",
 }
 TOTAL_CORE_SOURCES = len(CORE_SOURCE_REQUIREMENTS)
+MAX_KEYWORDS_PER_TRENDS_REQUEST = 5
+SUMMARY_POINT_LIMIT = 200
+
+
+def _keyword_batches(
+    keywords: list[str],
+    batch_size: int = MAX_KEYWORDS_PER_TRENDS_REQUEST,
+) -> list[list[str]]:
+    """Split keyword lists for trend APIs with a small per-request keyword limit."""
+    if batch_size < 1:
+        raise ValueError("batch_size must be at least 1")
+    return [keywords[index : index + batch_size] for index in range(0, len(keywords), batch_size)]
 
 
 def _missing_required_env_vars(env_vars: tuple[str, ...]) -> list[str]:
@@ -119,7 +146,12 @@ def _filter_valid_points(
         return []
 
     valid_points: list[TrendPoint] = []
-    for point in points:
+    for raw_point in points:
+        point = (
+            TrendPoint.from_dict({"keyword": keyword, "source": source, **raw_point})
+            if isinstance(raw_point, dict)
+            else raw_point
+        )
         date_str = point.timestamp.date().isoformat()
         if not date_str:
             errors.append(f"{source}: missing date for keyword '{keyword}'")
@@ -202,6 +234,121 @@ def _sync_keyword_to_search_index(
     search_index.upsert(keyword=keyword, platform=source, context=" | ".join(context_parts))
 
 
+def _trend_summary_window(target_date: date) -> tuple[str, str]:
+    start_date = target_date.replace(day=1)
+    # `query_trend_points` uses an inclusive timestamp comparison. Use the
+    # following day so same-day points with non-midnight timestamps are included.
+    end_date = target_date + timedelta(days=1)
+    return start_date.isoformat(), end_date.isoformat()
+
+
+def _trend_summary_article(point: dict[str, object]) -> dict[str, object]:
+    keyword = str(point.get("keyword", "")).strip()
+    source = str(point.get("source", "")).strip()
+    timestamp = point.get("timestamp")
+    timestamp_text = timestamp.isoformat() if hasattr(timestamp, "isoformat") else str(timestamp)
+    value = point.get("value", 0)
+    matched_entities = {keyword: [source]} if keyword and source else {}
+    return {
+        "title": keyword or "Trend point",
+        "link": f"trend://{source}/{keyword}/{timestamp_text}",
+        "source": source,
+        "summary": f"{source} trend score {value} at {timestamp_text}",
+        "published_at": timestamp_text,
+        "collected_at": timestamp_text,
+        "matched_entities": matched_entities,
+    }
+
+
+def _trend_summary_articles(
+    *,
+    target_date: date,
+    db_path: Path | None,
+    limit: int = SUMMARY_POINT_LIMIT,
+) -> list[dict[str, object]]:
+    start_date, end_date = _trend_summary_window(target_date)
+    points = trend_store.query_trend_points(
+        start_date=start_date,
+        end_date=end_date,
+        db_path=db_path,
+    )
+    return [_trend_summary_article(point) for point in points[:limit]]
+
+
+def _write_summary_report(
+    *,
+    target_date: date,
+    db_path: Path | None,
+    report_dir: Path,
+) -> Path:
+    articles = _trend_summary_articles(target_date=target_date, db_path=db_path)
+    source_count = len(
+        {
+            str(article.get("source", ""))
+            for article in articles
+            if str(article.get("source", "")).strip()
+        }
+    )
+    summary_stats = {
+        "article_count": len(articles),
+        "source_count": source_count,
+        "matched_count": sum(1 for article in articles if article.get("matched_entities")),
+    }
+    report_utils = import_module("radar_core.report_utils")
+    generate_summary_json = report_utils.generate_summary_json
+    return generate_summary_json(
+        "trend",
+        articles,
+        summary_stats,
+        report_dir,
+        ontology_metadata=build_summary_ontology_metadata(
+            "TrendRadar",
+            category_name="trend",
+            search_from=Path(__file__).resolve(),
+        ),
+    )
+
+
+def _sync_report_contract_artifacts(
+    *,
+    generated_paths: Iterable[Path | str | None],
+    canonical_dir: Path,
+) -> list[Path]:
+    canonical_dir.mkdir(parents=True, exist_ok=True)
+    synced: list[Path] = []
+    seen_names: set[str] = set()
+    for raw_path in generated_paths:
+        if raw_path is None:
+            continue
+        path = Path(raw_path)
+        if not path.exists():
+            continue
+        target = canonical_dir / path.name
+        if target.name in seen_names or path.resolve() == target.resolve():
+            continue
+        shutil.copy2(path, target)
+        seen_names.add(target.name)
+        synced.append(target)
+    return synced
+
+
+def _quality_trend_points(
+    *,
+    target_date: date,
+    db_path: Path | None,
+    limit: int = SUMMARY_POINT_LIMIT,
+) -> list[dict[str, object]]:
+    start_date, end_date = _trend_summary_window(target_date)
+    try:
+        return trend_store.query_trend_points(
+            start_date=start_date,
+            end_date=end_date,
+            db_path=db_path,
+        )[:limit]
+    except Exception:
+        return []
+
+
 def load_keyword_sets_config(path: Path | None = None) -> list[KeywordSet]:
     """keyword_sets.yaml 로드."""
     config_path = Path(path or os.environ.get(CONFIG_ENV_VAR, DEFAULT_CONFIG_PATH))
@@ -229,6 +376,9 @@ def collect_trends(
     successful_core_sources: set[str] | None = None,
 ) -> tuple[int, int, list[str]]:
     """Collect trend data from configured sources and persist them."""
+    if isinstance(keyword_set, dict):
+        keyword_set = KeywordSet.from_dict(keyword_set)
+
     total_points = 0
     sources_succeeded = 0
     errors: list[str] = []
@@ -257,15 +407,19 @@ def collect_trends(
                     client_secret=os.environ.get("NAVER_CLIENT_SECRET"),
                 )
 
-                naver_data = naver_collector.collect(
-                    keywords=keywords,
-                    start_date=start_date,
-                    end_date=end_date,
-                    time_unit=filters.get("time_unit", "date"),
-                    device=filters.get("device"),
-                    gender=filters.get("gender"),
-                    ages=filters.get("ages"),
-                )
+                naver_data: dict[str, list[TrendPoint]] = {}
+                for keyword_batch in _keyword_batches(keywords):
+                    naver_data.update(
+                        naver_collector.collect(
+                            keywords=keyword_batch,
+                            start_date=start_date,
+                            end_date=end_date,
+                            time_unit=filters.get("time_unit", "date"),
+                            device=filters.get("device"),
+                            gender=filters.get("gender"),
+                            ages=filters.get("ages"),
+                        )
+                    )
 
                 naver_raw_records: list[dict[str, object]] = []
                 for keyword, points in naver_data.items():
@@ -322,11 +476,15 @@ def collect_trends(
             try:
                 google_collector = GoogleTrendsCollector()
 
-                google_data = google_collector.collect(
-                    keywords=keywords,
-                    geo=filters.get("geo", "KR"),
-                    timeframe=f"{start_date} {end_date}",
-                )
+                google_data: dict[str, list[TrendPoint]] = {}
+                for keyword_batch in _keyword_batches(keywords):
+                    google_data.update(
+                        google_collector.collect(
+                            keywords=keyword_batch,
+                            geo=filters.get("geo", "KR"),
+                            timeframe=f"{start_date} {end_date}",
+                        )
+                    )
 
                 google_points = 0
                 google_raw_records: list[dict[str, object]] = []
@@ -937,6 +1095,9 @@ def run_once(
     report_output_dir: Path | None = None,
     source_filter: str | None = None,
     notifier: Notifier | None = None,
+    snapshot_db: bool = False,
+    keep_raw_days: int = 180,
+    keep_report_days: int = 90,
 ) -> None:
     """트렌드 수집을 한 번 실행합니다."""
     start_time = time.time()
@@ -1004,25 +1165,57 @@ def run_once(
     print(f"  - collected from {len(successful_core_sources)}/{TOTAL_CORE_SOURCES} sources")
     print(f"  - 성공한 소스 실행 횟수: {total_sources_succeeded}개")
 
+    resolved_db_path = db_path or DEFAULT_DB_PATH
+    report_dir = report_output_dir or DEFAULT_REPORT_DIR
+    quality_report: dict[str, object] | None = None
+    daily_report_path: Path | None = None
+    spike_report_path: Path | None = None
+    summary_path: Path | None = None
+    index_path: Path | None = None
+    quality_paths: dict[str, str] | None = None
+    try:
+        quality_config_path = Path(
+            config_path or os.environ.get(CONFIG_ENV_VAR, DEFAULT_CONFIG_PATH)
+        )
+        quality_config = load_keyword_quality_config(quality_config_path)
+        quality_points = _quality_trend_points(
+            target_date=now.date(),
+            db_path=resolved_db_path,
+        )
+        quality_report = build_quality_report(
+            quality_config,
+            target_date=now.date(),
+            trend_points=quality_points,
+        )
+    except Exception as e:
+        print(f"  - Data quality report build failed: {e}")
+
     # HTML 리포트 생성
     if generate_report:
         print("\n  - HTML 리포트 생성 중...")
         try:
-            report_dir = report_output_dir or DEFAULT_REPORT_DIR
             report_dir.mkdir(parents=True, exist_ok=True)
 
             generate_daily_report(
                 target_date=now.date(),
                 keyword_sets=keyword_sets,
-                db_path=db_path,
+                db_path=resolved_db_path,
                 output_dir=report_dir,
+                quality_report=quality_report,
+            )
+            daily_report_path = report_dir / f"trend_{now.date().strftime('%Y%m%d')}.html"
+            summary_path = _write_summary_report(
+                target_date=now.date(),
+                db_path=resolved_db_path,
+                report_dir=report_dir,
             )
             print(f"  ✓ 리포트 저장: {report_dir}")
+            print(f"  ✓ Summary 저장: {summary_path}")
             # Generate unified index.html
             try:
                 from trendradar.reporter import generate_index_html
 
-                generate_index_html(report_dir)
+                index_path = generate_index_html(report_dir)
                 print("  ✓ 인덱스 페이지 생성 완료 (radar-core)")
             except Exception as e_idx:
                 print(f"  ✗ 인덱스 생성 실패: {e_idx}")
@@ -1049,12 +1242,65 @@ def run_once(
                     db_path=db_path,
                     output_dir=report_dir,
                 )
+                spike_report_path = report_dir / f"spike_{now.date().strftime('%Y%m%d')}.html"
                 print(f"  ✓ 급상승 리포트 저장: {report_dir}")
             else:
                 print("  ℹ️  급상승 신호 없음 (데이터 부족 가능)")
         except Exception as e:
             print(f"  ✗ 급상승 감지 실패: {e}")
             all_errors.append(f"Spike detection: {str(e)[:100]}")
+
+    snapshot_path = snapshot_database(resolved_db_path) if snapshot_db else None
+    raw_removed = cleanup_date_directories(DEFAULT_RAW_DIR, keep_days=keep_raw_days)
+    report_removed = cleanup_dated_reports(report_dir, keep_days=keep_report_days)
+    print(
+        "  - 날짜별 저장 정책: "
+        f"snapshot={snapshot_path if snapshot_path is not None else 'skipped'}, "
+        f"raw_removed={raw_removed}, report_removed={report_removed}"
+    )
+
+    try:
+        if quality_report is None:
+            quality_config_path = Path(
+                config_path or os.environ.get(CONFIG_ENV_VAR, DEFAULT_CONFIG_PATH)
+            )
+            quality_config = load_keyword_quality_config(quality_config_path)
+            quality_report = build_quality_report(
+                quality_config,
+                target_date=now.date(),
+                trend_points=_quality_trend_points(
+                    target_date=now.date(),
+                    db_path=resolved_db_path,
+                ),
+            )
+        quality_paths = write_quality_report(
+            quality_report,
+            report_dir,
+            target_date=now.date(),
+        )
+        print(f"  - Data quality report saved: {quality_paths['latest']}")
+    except Exception as e:
+        print(f"  - Data quality report generation failed: {e}")
+
+    if report_dir != DEFAULT_REPORT_DIR:
+        synced_paths = _sync_report_contract_artifacts(
+            generated_paths=[
+                daily_report_path,
+                spike_report_path,
+                summary_path,
+                index_path,
+                quality_paths["latest"] if quality_paths else None,
+                quality_paths["dated"] if quality_paths else None,
+            ],
+            canonical_dir=DEFAULT_REPORT_DIR,
+        )
+        if synced_paths:
+            canonical_removed = cleanup_dated_reports(DEFAULT_REPORT_DIR, keep_days=keep_report_days)
+            print(
+                "  - Canonical report sync: "
+                f"target={DEFAULT_REPORT_DIR}, synced={len(synced_paths)}, "
+                f"removed={canonical_removed}"
+            )
 
     runtime_seconds = time.time() - start_time
     print(f"\n  - 실행 시간: {runtime_seconds:.1f}초")
@@ -1071,6 +1317,9 @@ def run_scheduler(
     config_path: Path | None = None,
     db_path: Path | None = None,
     notifier: Notifier | None = None,
+    snapshot_db: bool = False,
+    keep_raw_days: int = 180,
+    keep_report_days: int = 90,
 ) -> None:
     """정기적으로 트렌드 데이터를 수집하는 스케줄러.
 
@@ -1090,6 +1339,9 @@ def run_scheduler(
                 db_path=db_path,
                 generate_report=True,
                 notifier=notifier,
+                snapshot_db=snapshot_db,
+                keep_raw_days=keep_raw_days,
+                keep_report_days=keep_report_days,
             )
             print(f"\n다음 수집까지 {interval_hours}시간 대기 중...")
             time.sleep(interval_hours * 3600)
@@ -1161,6 +1413,23 @@ if __name__ == "__main__":
         default=DEFAULT_NOTIFICATION_CONFIG_PATH,
         help="알림 설정 파일 경로",
     )
+    parser.add_argument(
+        "--snapshot-db",
+        action="store_true",
+        help="수집 후 DuckDB를 data/daily/YYYY-MM-DD.duckdb로 보관",
+    )
+    parser.add_argument(
+        "--keep-raw-days",
+        type=int,
+        default=180,
+        help="날짜별 raw JSONL 디렉토리 보존 기간",
+    )
+    parser.add_argument(
+        "--keep-report-days",
+        type=int,
+        default=90,
+        help="날짜별 HTML 리포트 보존 기간",
+    )
 
     args = parser.parse_args()
 
@@ -1175,6 +1444,9 @@ if __name__ == "__main__":
             source_filter=args.source,
             db_path=args.db_path,
             notifier=notifier,
+            snapshot_db=args.snapshot_db,
+            keep_raw_days=args.keep_raw_days,
+            keep_report_days=args.keep_report_days,
         )
     else:
         if args.dry_run:
@@ -1184,4 +1456,7 @@ if __name__ == "__main__":
                 interval_hours=args.interval,
                 db_path=args.db_path,
                 notifier=notifier,
+                snapshot_db=args.snapshot_db,
+                keep_raw_days=args.keep_raw_days,
+                keep_report_days=args.keep_report_days,
             )

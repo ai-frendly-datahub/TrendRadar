@@ -10,7 +10,7 @@ from dataclasses import dataclass, field
 from datetime import UTC, datetime
 from email.mime.text import MIMEText
 from pathlib import Path
-from typing import Any, Protocol
+from typing import Any
 
 import duckdb
 import requests
@@ -45,12 +45,52 @@ class NotificationPayload:
         }
 
 
-class Notifier(Protocol):
-    """Protocol for notification delivery."""
+class Notifier:
+    """Trend notification facade used by legacy tests and scripts."""
 
-    def send(self, payload: NotificationPayload) -> bool:
-        """Send notification. Return True if successful, False otherwise."""
-        ...
+    def __init__(self, config: NotificationConfig) -> None:
+        self.config = config
+
+    def send(self, title: str, message: str, priority: str = "normal") -> bool:
+        if not self.config.enabled:
+            return True
+
+        ok = True
+        if "email" in self.config.channels and self.config.email_settings:
+            settings = self.config.email_settings
+            with smtplib.SMTP(
+                str(settings.get("smtp_host", "")), int(settings.get("smtp_port", 587))
+            ) as server:
+                msg = MIMEText(message, "plain")
+                msg["Subject"] = title
+                msg["From"] = str(
+                    settings.get("from_address") or settings.get("from_addr") or ""
+                )
+                to_addresses = settings.get("to_addresses") or settings.get("to_addrs") or []
+                msg["To"] = ", ".join(str(item) for item in to_addresses)
+                server.send_message(msg)
+
+        if "webhook" in self.config.channels and self.config.webhook_url:
+            response = requests.post(
+                self.config.webhook_url,
+                json={"title": title, "message": message, "priority": priority},
+                timeout=10,
+            )
+            status_code = getattr(response, "status_code", 200)
+            ok = ok and (status_code < 400 if isinstance(status_code, int) else True)
+
+        if "telegram" in self.config.channels and self.config.telegram_config:
+            token = self.config.telegram_config.get("bot_token", "")
+            chat_id = self.config.telegram_config.get("chat_id", "")
+            response = requests.post(
+                f"https://api.telegram.org/bot{token}/sendMessage",
+                json={"chat_id": chat_id, "text": f"{title}\n{message}"},
+                timeout=10,
+            )
+            status_code = getattr(response, "status_code", 200)
+            ok = ok and (status_code < 400 if isinstance(status_code, int) else True)
+
+        return ok
 
 
 class EmailNotifier:
@@ -276,25 +316,30 @@ def detect_trend_notifications(db_path: Path, rules: dict[str, Any]) -> list[Not
     spread_min_channels = int(rules.get("spread_min_channels", 3))
 
     with duckdb.connect(str(db_path)) as conn:
+        schema_rows = conn.execute("PRAGMA table_info('trend_points')").fetchall()
+        columns = {str(row[1]) for row in schema_rows}
+        time_column = "timestamp" if "timestamp" in columns else "ts"
+        value_column = "value" if "value" in columns else "value_normalized"
+
         latest_row = conn.execute(
-            "SELECT CAST(MAX(timestamp) AS DATE) FROM trend_points"
+            f"SELECT CAST(MAX({time_column}) AS DATE) FROM trend_points"
         ).fetchone()
         if not latest_row or latest_row[0] is None:
             return []
         latest_date = latest_row[0]
 
         spikes = conn.execute(
-            """
+            f"""
             WITH latest AS (
-                SELECT source, keyword, AVG(value) AS value_latest
+                SELECT source, keyword, AVG({value_column}) AS value_latest
                 FROM trend_points
-                WHERE CAST(timestamp AS DATE) = ?
+                WHERE CAST({time_column} AS DATE) = ?
                 GROUP BY source, keyword
             ),
             prev AS (
-                SELECT source, keyword, AVG(value) AS value_prev
+                SELECT source, keyword, AVG({value_column}) AS value_prev
                 FROM trend_points
-                WHERE CAST(timestamp AS DATE) = ?::DATE - INTERVAL 1 DAY
+                WHERE CAST({time_column} AS DATE) = ?::DATE - INTERVAL 1 DAY
                 GROUP BY source, keyword
             )
             SELECT latest.source, latest.keyword, latest.value_latest, prev.value_prev
@@ -306,12 +351,12 @@ def detect_trend_notifications(db_path: Path, rules: dict[str, Any]) -> list[Not
         ).fetchall()
 
         new_keywords = conn.execute(
-            """
+            f"""
             SELECT latest.source, latest.keyword, latest.value_latest
             FROM (
-                SELECT source, keyword, AVG(value) AS value_latest
+                SELECT source, keyword, AVG({value_column}) AS value_latest
                 FROM trend_points
-                WHERE CAST(timestamp AS DATE) = ?
+                WHERE CAST({time_column} AS DATE) = ?
                 GROUP BY source, keyword
             ) latest
             WHERE NOT EXISTS (
@@ -319,17 +364,17 @@ def detect_trend_notifications(db_path: Path, rules: dict[str, Any]) -> list[Not
                 FROM trend_points older
                 WHERE older.source = latest.source
                   AND older.keyword = latest.keyword
-                  AND CAST(older.timestamp AS DATE) < ?
+                  AND CAST(older.{time_column} AS DATE) < ?
             )
             """,
             [latest_date, latest_date],
         ).fetchall()
 
         spreads = conn.execute(
-            """
+            f"""
             SELECT keyword, COUNT(DISTINCT source) AS channel_count
             FROM trend_points
-            WHERE CAST(timestamp AS DATE) = ?
+            WHERE CAST({time_column} AS DATE) = ?
             GROUP BY keyword
             HAVING COUNT(DISTINCT source) >= ?
             """,

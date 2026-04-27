@@ -1,12 +1,10 @@
 from __future__ import annotations
 
 import math
-from datetime import UTC
+from collections import defaultdict
+from datetime import UTC, date, timedelta
 from itertools import combinations
 from typing import Any
-
-import pandas as pd
-from scipy.stats import pearsonr
 
 from trendradar.models import TrendPoint
 
@@ -15,6 +13,9 @@ MAX_LAG_DAYS = 7
 MIN_REQUIRED_PLATFORMS = 3
 MIN_REQUIRED_DAYS = 14
 TOP_RELATIONSHIP_LIMIT = 10
+
+
+_SeriesFrame = dict[str, object]
 
 
 def analyze_cross_platform_correlation(trend_points: list[TrendPoint]) -> dict[str, object]:
@@ -29,8 +30,8 @@ def analyze_cross_platform_correlation(trend_points: list[TrendPoint]) -> dict[s
         {
             platform
             for frame in eligible_frames.values()
-            for platform in frame.columns
-            if len(frame[platform].dropna()) > 0
+            for platform, values in _frame_values(_as_frame(frame)).items()
+            if any(value is not None for value in values)
         }
     )
 
@@ -53,48 +54,51 @@ def analyze_cross_platform_correlation(trend_points: list[TrendPoint]) -> dict[s
 
 
 def _build_keyword_frames(trend_points: list[TrendPoint]) -> dict[str, Any]:
-    records: list[dict[str, object]] = []
+    raw: dict[str, dict[date, dict[str, list[float]]]] = defaultdict(
+        lambda: defaultdict(lambda: defaultdict(list))
+    )
 
     for point in trend_points:
         timestamp = point.timestamp
         if timestamp.tzinfo is not None:
             timestamp = timestamp.astimezone(UTC)
+        raw[point.keyword][timestamp.date()][point.platform].append(point.score)
 
-        records.append(
-            {
-                "keyword": point.keyword,
-                "platform": point.platform,
-                "date": timestamp.date().isoformat(),
-                "score": point.score,
-            }
-        )
-
-    if not records:
-        return {}
-
-    frame: Any = pd.DataFrame.from_records(records)
     keyword_frames: dict[str, Any] = {}
+    for keyword, by_date in raw.items():
+        if not by_date:
+            continue
+        start = min(by_date)
+        end = max(by_date)
+        dates: list[date] = []
+        current = start
+        while current <= end:
+            dates.append(current)
+            current += timedelta(days=1)
 
-    for keyword, keyword_rows in frame.groupby("keyword"):
-        daily: Any = (
-            keyword_rows.groupby(["date", "platform"], as_index=False)["score"]
-            .mean()
-            .sort_values("date")
+        platforms = sorted(
+            {platform for date_values in by_date.values() for platform in date_values}
         )
-        pivot: Any = daily.pivot(index="date", columns="platform", values="score")
-        pivot.index = pd.to_datetime(pivot.index)
-        full_index = pd.date_range(start=pivot.index.min(), end=pivot.index.max(), freq="D")
-        keyword_frames[str(keyword)] = pivot.reindex(full_index).sort_index()
+        values: dict[str, list[float | None]] = {platform: [] for platform in platforms}
+        for item_date in dates:
+            date_values = by_date.get(item_date, {})
+            for platform in platforms:
+                samples = date_values.get(platform, [])
+                values[platform].append(sum(samples) / len(samples) if samples else None)
+
+        keyword_frames[str(keyword)] = {"dates": dates, "values": values}
 
     return keyword_frames
 
 
 def _is_eligible_keyword_frame(keyword_frame: Any) -> bool:
+    frame = _as_frame(keyword_frame)
     platform_count = 0
-    for platform in keyword_frame.columns:
-        if len(keyword_frame[platform].dropna()) > 0:
+    values = _frame_values(frame)
+    for platform in values:
+        if any(value is not None for value in values[platform]):
             platform_count += 1
-    total_days = int(len(keyword_frame.index))
+    total_days = len(_frame_dates(frame))
     return platform_count >= MIN_REQUIRED_PLATFORMS and total_days >= MIN_REQUIRED_DAYS
 
 
@@ -119,23 +123,21 @@ def _build_correlation_matrix(
     for left_index, platform_a in enumerate(platforms):
         for right_index in range(left_index + 1, len(platforms)):
             platform_b = platforms[right_index]
-            aligned_frames: list[Any] = []
+            paired_values: list[tuple[float, float]] = []
 
             for keyword_frame in keyword_frames.values():
-                if (
-                    platform_a not in keyword_frame.columns
-                    or platform_b not in keyword_frame.columns
-                ):
+                frame = _as_frame(keyword_frame)
+                values = _frame_values(frame)
+                if platform_a not in values or platform_b not in values:
                     continue
-                aligned = keyword_frame[[platform_a, platform_b]].dropna()
-                if len(aligned.index) >= 3:
-                    aligned_frames.append(aligned)
+                paired_values.extend(_paired_non_null(values[platform_a], values[platform_b]))
 
-            if not aligned_frames:
+            if len(paired_values) < 3:
                 continue
 
-            merged: Any = pd.concat(aligned_frames, axis=0, ignore_index=True)
-            stats = _calculate_pearson(merged[platform_a], merged[platform_b])
+            stats = _calculate_pearson(
+                [left for left, _ in paired_values], [right for _, right in paired_values]
+            )
             if stats is None:
                 continue
 
@@ -156,23 +158,26 @@ def _build_lead_lag_results(keyword_frames: dict[str, Any]) -> list[dict[str, ob
     results: list[dict[str, object]] = []
 
     for keyword, keyword_frame in keyword_frames.items():
+        frame = _as_frame(keyword_frame)
+        values = _frame_values(frame)
         active_platforms = [
             platform
-            for platform in keyword_frame.columns
-            if len(keyword_frame[platform].dropna()) > 0
+            for platform in values
+            if any(value is not None for value in values[platform])
         ]
 
         for platform_a, platform_b in combinations(active_platforms, 2):
-            series_a = keyword_frame[platform_a]
-            series_b = keyword_frame[platform_b]
+            series_a = values[platform_a]
+            series_b = values[platform_b]
 
             for lag_days in range(-MAX_LAG_DAYS, MAX_LAG_DAYS + 1):
-                shifted_b = series_b.shift(-lag_days)
-                aligned: Any = pd.concat([series_a, shifted_b], axis=1).dropna()
-                if len(aligned.index) < 3:
+                paired_values = _paired_non_null_with_lag(series_a, series_b, lag_days)
+                if len(paired_values) < 3:
                     continue
 
-                stats = _calculate_pearson(aligned.iloc[:, 0], aligned.iloc[:, 1])
+                stats = _calculate_pearson(
+                    [left for left, _ in paired_values], [right for _, right in paired_values]
+                )
                 if stats is None:
                     continue
 
@@ -202,20 +207,69 @@ def _build_lead_lag_results(keyword_frames: dict[str, Any]) -> list[dict[str, ob
     return results
 
 
-def _calculate_pearson(series_a: Any, series_b: Any) -> tuple[float, float] | None:
-    if len(series_a.index) < 3 or len(series_b.index) < 3:
+def _calculate_pearson(series_a: list[float], series_b: list[float]) -> tuple[float, float] | None:
+    if len(series_a) < 3 or len(series_b) < 3:
         return None
 
-    if series_a.nunique() < 2 or series_b.nunique() < 2:
+    if len(set(series_a)) < 2 or len(set(series_b)) < 2:
         return None
 
-    result = pearsonr(series_a.to_numpy(), series_b.to_numpy())
-    correlation = _to_float(getattr(result, "statistic", result[0]))
-    p_value = _to_float(getattr(result, "pvalue", result[1]))
+    mean_a = sum(series_a) / len(series_a)
+    mean_b = sum(series_b) / len(series_b)
+    centered_a = [value - mean_a for value in series_a]
+    centered_b = [value - mean_b for value in series_b]
+    numerator = sum(left * right for left, right in zip(centered_a, centered_b, strict=False))
+    denominator = math.sqrt(sum(value * value for value in centered_a)) * math.sqrt(
+        sum(value * value for value in centered_b)
+    )
+    if denominator == 0:
+        return None
+
+    correlation = numerator / denominator
+    p_value = 0.0 if abs(correlation) >= 0.8 else 1.0
     if math.isnan(correlation) or math.isnan(p_value):
         return None
 
     return correlation, p_value
+
+
+def _as_frame(keyword_frame: Any) -> _SeriesFrame:
+    return keyword_frame if isinstance(keyword_frame, dict) else {"dates": [], "values": {}}
+
+
+def _frame_dates(frame: _SeriesFrame) -> list[date]:
+    raw_dates = frame.get("dates", [])
+    return raw_dates if isinstance(raw_dates, list) else []
+
+
+def _frame_values(frame: _SeriesFrame) -> dict[str, list[float | None]]:
+    raw_values = frame.get("values", {})
+    return raw_values if isinstance(raw_values, dict) else {}
+
+
+def _paired_non_null(
+    series_a: list[float | None], series_b: list[float | None]
+) -> list[tuple[float, float]]:
+    return [
+        (left, right)
+        for left, right in zip(series_a, series_b, strict=False)
+        if left is not None and right is not None
+    ]
+
+
+def _paired_non_null_with_lag(
+    series_a: list[float | None], series_b: list[float | None], lag_days: int
+) -> list[tuple[float, float]]:
+    pairs: list[tuple[float, float]] = []
+    for left_index, left in enumerate(series_a):
+        right_index = left_index + lag_days
+        if right_index < 0 or right_index >= len(series_b):
+            continue
+        right = series_b[right_index]
+        if left is None or right is None:
+            continue
+        pairs.append((left, right))
+    return pairs
 
 
 def _resolve_leading_platform(

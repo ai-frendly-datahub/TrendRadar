@@ -330,11 +330,18 @@ class SpikeDetector:
         }
 
     @staticmethod
-    def _group_by_keyword(points: list[TrendPoint]) -> dict[str, list[TrendPoint]]:
+    def _group_by_keyword(
+        points: list[TrendPoint | dict[str, object]],
+    ) -> dict[str, list[TrendPoint]]:
         """데이터 포인트를 키워드별로 그룹화."""
         grouped: dict[str, list[TrendPoint]] = {}
 
-        for point in points:
+        for raw_point in points:
+            point = (
+                TrendPoint.from_dict(raw_point)
+                if isinstance(raw_point, dict)
+                else raw_point
+            )
             keyword = point.keyword
             if keyword not in grouped:
                 grouped[keyword] = []

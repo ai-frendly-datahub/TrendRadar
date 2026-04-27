@@ -27,7 +27,12 @@ class TestGoogleTrendsCollector:
         collector = GoogleTrendsCollector()
 
         # 최근 3개월 데이터
-        data = collector.collect(keywords=["python"], geo="KR", timeframe="today 3-m")
+        try:
+            data = collector.collect(keywords=["python"], geo="KR", timeframe="today 3-m")
+        except RuntimeError as exc:
+            if "code 429" in str(exc):
+                pytest.skip("Google Trends rate limited the live integration request")
+            raise
 
         assert "python" in data
         assert len(data["python"]) > 0

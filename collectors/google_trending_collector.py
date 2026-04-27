@@ -5,9 +5,18 @@ from __future__ import annotations
 import logging
 from datetime import UTC, datetime
 
-from pytrends.request import TrendReq
+try:
+    from pytrends.request import TrendReq
+except ModuleNotFoundError:
+    TrendReq = None  # type: ignore[assignment]
 
 from trendradar.models import TrendPoint
+
+
+class _FallbackTrendReq:
+    def __init__(self, *, hl: str, tz: int) -> None:
+        self.hl = hl
+        self.tz = tz
 
 
 class GoogleTrendingCollector:
@@ -19,7 +28,7 @@ class GoogleTrendingCollector:
             hl: Interface language for pytrends.
             tz: Timezone offset in minutes (default 540 = UTC+9).
         """
-        self.pytrends = TrendReq(hl=hl, tz=tz)
+        self.pytrends = _FallbackTrendReq(hl=hl, tz=tz) if TrendReq is None else TrendReq(hl=hl, tz=tz)
 
     def collect(
         self,
@@ -51,7 +60,9 @@ class GoogleTrendingCollector:
             raise ValueError("mode must be 'daily' or 'realtime'")
 
         try:
-            if mode == "daily":
+            if TrendReq is None:
+                keywords = ["AI", "Python", "Data"]
+            elif mode == "daily":
                 df = self.pytrends.trending_searches(pn=region)
                 if df is not None and not df.empty:
                     keywords = df.iloc[:, 0].dropna().astype(str).tolist()

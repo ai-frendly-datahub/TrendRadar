@@ -10,6 +10,9 @@ concurrency:
   group: trendradar-daily-trends
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   collect-trends:
     runs-on: ubuntu-latest
@@ -44,14 +47,14 @@ jobs:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
         run: |
-          python main.py --mode once --generate-report --report-dir reports
+          python main.py --mode once --generate-report --report-dir reports --snapshot-db --keep-raw-days 180 --keep-report-days 90
           
       - name: Collect free sources (HackerNews, Dev.to, StackExchange)
         run: |
           echo "Collecting from free sources..."
-          python main.py --mode once --source hackernews --report-dir reports
-          python main.py --mode once --source devto --report-dir reports
-          python main.py --mode once --source stackexchange --report-dir reports
+          python main.py --mode once --source hackernews --report-dir reports --snapshot-db --keep-raw-days 180 --keep-report-days 90
+          python main.py --mode once --source devto --report-dir reports --snapshot-db --keep-raw-days 180 --keep-report-days 90
+          python main.py --mode once --source stackexchange --report-dir reports --snapshot-db --keep-raw-days 180 --keep-report-days 90
 
       - name: Generate index.html
         run: |
@@ -76,11 +79,13 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: trendradar-db-${{ github.run_number }}
-          path: data/trendradar.duckdb
+          path: |
+            data/trendradar.duckdb
+            data/daily/
           retention-days: 30
 
       - name: Deploy reports to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -92,7 +97,7 @@ jobs:
           echo "## 📊 TrendRadar 수집 완료" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- 수집 날짜: $(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_STEP_SUMMARY
-          echo "- 리포트: [GitHub Pages에서 확인](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/reports/)" >> $GITHUB_STEP_SUMMARY
+          echo "- 리포트: [GitHub Pages에서 확인](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/)" >> $GITHUB_STEP_SUMMARY
 
           if [ -f "reports/spike_$(date +'%Y%m%d').html" ]; then
             echo "- ✅ 급상승 리포트 생성됨" >> $GITHUB_STEP_SUMMARY
