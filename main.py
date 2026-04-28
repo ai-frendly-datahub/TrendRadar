@@ -1418,18 +1418,18 @@ def run_once(
                 db_path=resolved_db_path,
                 report_dir=report_dir,
             )
-            print(f"  ✓ 리포트 저장: {report_dir}")
-            print(f"  ✓ Summary 저장: {summary_path}")
+            print(f"  [ok] 리포트 저장: {report_dir}")
+            print(f"  [ok] Summary 저장: {summary_path}")
             # Generate unified index.html
             try:
                 from trendradar.reporter import generate_index_html
 
                 index_path = generate_index_html(report_dir)
-                print("  ✓ 인덱스 페이지 생성 완료 (radar-core)")
+                print("  [ok] 인덱스 페이지 생성 완료 (radar-core)")
             except Exception as e_idx:
-                print(f"  ✗ 인덱스 생성 실패: {e_idx}")
+                print(f"  [error] 인덱스 생성 실패: {e_idx}")
         except Exception as e:
-            print(f"  ✗ 리포트 생성 실패: {e}")
+            print(f"  [error] 리포트 생성 실패: {e}")
             all_errors.append(f"Report generation: {str(e)[:100]}")
 
         # 급상승 키워드 감지 및 리포트 생성
@@ -1440,7 +1440,7 @@ def run_once(
 
             total_spikes = sum(len(v) for v in all_spikes.values())
             if total_spikes > 0:
-                print(f"  ✓ 급상승 신호 {total_spikes}개 감지")
+                print(f"  [ok] 급상승 신호 {total_spikes}개 감지")
                 print(f"    - Surge: {len(all_spikes['surge'])}개")
                 print(f"    - Emerging: {len(all_spikes['emerging'])}개")
                 print(f"    - Viral: {len(all_spikes['viral'])}개")
@@ -1452,11 +1452,11 @@ def run_once(
                     output_dir=report_dir,
                 )
                 spike_report_path = report_dir / f"spike_{now.date().strftime('%Y%m%d')}.html"
-                print(f"  ✓ 급상승 리포트 저장: {report_dir}")
+                print(f"  [ok] 급상승 리포트 저장: {report_dir}")
             else:
-                print("  ℹ️  급상승 신호 없음 (데이터 부족 가능)")
+                print("  [info] 급상승 신호 없음 (데이터 부족 가능)")
         except Exception as e:
-            print(f"  ✗ 급상승 감지 실패: {e}")
+            print(f"  [error] 급상승 감지 실패: {e}")
             all_errors.append(f"Spike detection: {str(e)[:100]}")
 
     snapshot_path = snapshot_database(resolved_db_path) if snapshot_db else None
