@@ -13,7 +13,7 @@ from pathlib import Path
 
 import yaml
 
-from radar_core.ontology import build_summary_ontology_metadata
+from radar_core.ontology import build_event_model_payload, build_summary_ontology_metadata
 
 from analyzers.spike_detector import SpikeDetector
 from collectors.browser_collector import BrowserCollector
@@ -242,6 +242,200 @@ def _trend_summary_window(target_date: date) -> tuple[str, str]:
     return start_date.isoformat(), end_date.isoformat()
 
 
+_TRENDRADAR_REPO_NAME = "TrendRadar"
+
+# Source → contract event_model_key 매핑. keyword_sets.yaml 의 signal_layers 와 동일한
+# 분류 (attention / conversion_proxy / community) 를 contract 의 3 event_model_key 로
+# 변환한다. 동일 source 가 두 layer 에 속할 수 없으므로 1:1 매핑이 안전하다.
+_TREND_SOURCE_EVENT_MODEL: dict[str, str] = {
+    # attention layer
+    "naver": "attention_signal",
+    "google": "attention_signal",
+    "google_trending": "attention_signal",
+    "wikipedia": "attention_signal",
+    "youtube": "attention_signal",
+    # conversion_proxy layer
+    "naver_shopping": "conversion_proxy_signal",
+    # community layer
+    "reddit": "community_signal",
+    "hackernews": "community_signal",
+    "devto": "community_signal",
+    "stackexchange": "community_signal",
+    "producthunt": "community_signal",
+    "browser": "community_signal",
+}
+
+# conversion_proxy_signal 의 proxy_type override. naver_shopping 이 유일한 source 로
+# 등록되어 있어 단일 매핑이지만, 향후 commerce 계열 source 추가 시 확장 지점.
+_TREND_PROXY_TYPE: dict[str, str] = {
+    "naver_shopping": "shopping_search",
+}
+
+_TREND_KEYWORD_SET_INDEX_CACHE: dict[str, str] | None = None
+
+
+def _resolve_trend_event_model(source: str | None) -> str | None:
+    """Map a trend source name to its contract event_model_key.
+
+    Returns None for sources outside the registered signal layers so partial
+    wiring stays opt-in (HomeRadar's listing_inventory pattern — unmappable rows
+    skip enrichment and emit only the baseline summary keys).
+    """
+    if not source:
+        return None
+    return _TREND_SOURCE_EVENT_MODEL.get(str(source).strip().lower())
+
+
+def _resolve_trend_channel(source: str | None) -> str | None:
+    """Return the channel token for the contract attention_signal payload.
+
+    The contract declares no enum for `channel`, so we surface the source name
+    verbatim — matches keyword_sets.yaml's signal_layers convention.
+    """
+    if not source:
+        return None
+    text = str(source).strip()
+    return text or None
+
+
+def _resolve_trend_proxy_type(source: str | None) -> str | None:
+    if not source:
+        return None
+    return _TREND_PROXY_TYPE.get(str(source).strip().lower())
+
+
+def _resolve_trend_community(source: str | None) -> str | None:
+    """Return the community token for community_signal — same as source name."""
+    if not source:
+        return None
+    text = str(source).strip()
+    return text or None
+
+
+def _load_trend_keyword_set_index(
+    config_path: Path | None = None,
+) -> dict[str, str]:
+    """Build (and cache) a keyword → keyword_set_name reverse lookup from yaml.
+
+    First match wins when a keyword belongs to multiple sets (build_event_model_payload
+    only consumes a single string). The cache is invalidated when an explicit
+    ``config_path`` differs from the previously-loaded path so tests can override.
+    """
+    global _TREND_KEYWORD_SET_INDEX_CACHE
+    if _TREND_KEYWORD_SET_INDEX_CACHE is not None and config_path is None:
+        return _TREND_KEYWORD_SET_INDEX_CACHE
+    resolved_path = Path(config_path or os.environ.get(CONFIG_ENV_VAR, DEFAULT_CONFIG_PATH))
+    index: dict[str, str] = {}
+    try:
+        with resolved_path.open(encoding="utf-8") as fp:
+            payload = yaml.safe_load(fp) or {}
+    except (OSError, yaml.YAMLError):
+        if config_path is None:
+            _TREND_KEYWORD_SET_INDEX_CACHE = index
+        return index
+    keyword_sets = payload.get("keyword_sets") if isinstance(payload, dict) else None
+    if isinstance(keyword_sets, list):
+        for entry in keyword_sets:
+            if not isinstance(entry, dict):
+                continue
+            set_name = str(entry.get("name", "")).strip()
+            if not set_name:
+                continue
+            keywords = entry.get("keywords") or []
+            if not isinstance(keywords, list):
+                continue
+            for keyword in keywords:
+                key_text = str(keyword).strip()
+                if not key_text or key_text in index:
+                    continue
+                index[key_text] = set_name
+    if config_path is None:
+        _TREND_KEYWORD_SET_INDEX_CACHE = index
+    return index
+
+
+def _resolve_trend_keyword_set_name(
+    keyword: str | None,
+    *,
+    metadata: dict[str, object] | None = None,
+) -> str | None:
+    """Resolve keyword_set_name with metadata-first (live storage) precedence.
+
+    save_trend_points stores ``metadata={"set_name": keyword_set.name}`` per row,
+    so the storage row is the authoritative source. Fall back to the yaml reverse
+    lookup when metadata is absent (legacy rows or non-canonical sources).
+    """
+    if isinstance(metadata, dict):
+        meta_value = metadata.get("set_name") or metadata.get("keyword_set_name")
+        if isinstance(meta_value, str):
+            text = meta_value.strip()
+            if text:
+                return text
+    if not keyword:
+        return None
+    keyword_text = str(keyword).strip()
+    if not keyword_text:
+        return None
+    index = _load_trend_keyword_set_index()
+    return index.get(keyword_text)
+
+
+def _attach_trend_event_model_payload(
+    summary_payload: dict[str, object],
+    *,
+    event_model_key: str | None,
+    source: str | None,
+    keyword: str | None,
+    value: object,
+    metadata: dict[str, object] | None = None,
+) -> None:
+    """Enrich a TrendRadar summary article dict with its event_model_payload.
+
+    Cycle 12 partial wiring (HomeRadar mirror). Uses radar-core's dict-aware
+    ``build_event_model_payload`` plus contract-driven overrides keyed off the
+    resolved ``event_model_key``. Sources outside the registered signal layers
+    short-circuit and leave the summary dict untouched (graceful skip).
+    """
+    if not event_model_key:
+        return
+    overrides: dict[str, object] = {}
+    keyword_set_name = _resolve_trend_keyword_set_name(keyword, metadata=metadata)
+    if keyword_set_name:
+        overrides["keyword_set_name"] = keyword_set_name
+    if event_model_key == "attention_signal":
+        channel = _resolve_trend_channel(source)
+        if channel:
+            overrides["channel"] = channel
+        if value is not None:
+            overrides["normalized_value"] = value
+    elif event_model_key == "conversion_proxy_signal":
+        proxy_type = _resolve_trend_proxy_type(source)
+        if proxy_type:
+            overrides["proxy_type"] = proxy_type
+        source_text = (str(source).strip() if source else "") or None
+        if source_text:
+            overrides["source"] = source_text
+    elif event_model_key == "community_signal":
+        community = _resolve_trend_community(source)
+        if community:
+            overrides["community"] = community
+        if value is not None:
+            overrides["signal_value"] = value
+    try:
+        payload = build_event_model_payload(
+            summary_payload,
+            repo_name=_TRENDRADAR_REPO_NAME,
+            event_model_key=event_model_key,
+            overrides=overrides,
+            search_from=Path(__file__).resolve(),
+        )
+    except Exception:
+        # Best-effort enrichment: never let payload errors break the report run.
+        return
+    if payload:
+        summary_payload["event_model_payload"] = payload
+
+
 def _trend_summary_article(point: dict[str, object]) -> dict[str, object]:
     keyword = str(point.get("keyword", "")).strip()
     source = str(point.get("source", "")).strip()
@@ -272,7 +466,22 @@ def _trend_summary_articles(
         end_date=end_date,
         db_path=db_path,
     )
-    return [_trend_summary_article(point) for point in points[:limit]]
+    articles: list[dict[str, object]] = []
+    for point in points[:limit]:
+        if not isinstance(point, dict):
+            continue
+        article = _trend_summary_article(point)
+        metadata = point.get("metadata")
+        _attach_trend_event_model_payload(
+            article,
+            event_model_key=_resolve_trend_event_model(str(point.get("source", "")).strip()),
+            source=str(point.get("source", "")).strip(),
+            keyword=str(point.get("keyword", "")).strip(),
+            value=point.get("value"),
+            metadata=metadata if isinstance(metadata, dict) else None,
+        )
+        articles.append(article)
+    return articles
 
 
 def _write_summary_report(

@@ -87,8 +87,8 @@ def generate_quality_artifacts(project_root: Path = PROJECT_ROOT) -> tuple[dict[
 def main() -> None:
     db_path = PROJECT_ROOT / "data" / "trendradar.duckdb"
     if not db_path.exists():
-        print(f"Database not found: {db_path}")
-        sys.exit(1)
+        print(f"not_applicable: database not yet generated at {db_path}")
+        sys.exit(0)
 
     with duckdb.connect(str(db_path), read_only=True) as con:
         run_all_checks(

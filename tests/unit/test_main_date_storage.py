@@ -92,6 +92,105 @@ def test_write_summary_report_uses_trend_points(tmp_path: Path) -> None:
     assert "trend.attention_signal" in payload["ontology"]["event_model_ids"]
 
 
+def test_attach_trend_event_model_payload_full_attention(tmp_path: Path) -> None:
+    """Full mapping: source + keyword resolvable via metadata → 3/3 attention fields."""
+    article = main._trend_summary_article(
+        {
+            "keyword": "위스키",
+            "source": "google",
+            "timestamp": datetime(2026, 4, 12, 9, 0, tzinfo=UTC),
+            "value": 88.0,
+        }
+    )
+    main._attach_trend_event_model_payload(
+        article,
+        event_model_key="attention_signal",
+        source="google",
+        keyword="위스키",
+        value=88.0,
+        metadata={"set_name": "위스키 시장 동향"},
+    )
+    payload = article.get("event_model_payload")
+    assert payload == {
+        "keyword_set_name": "위스키 시장 동향",
+        "channel": "google",
+        "normalized_value": 88.0,
+    }
+
+
+def test_attach_trend_event_model_payload_partial_when_keyword_unknown() -> None:
+    """Partial mapping: source maps but keyword absent from metadata + yaml index."""
+    article = main._trend_summary_article(
+        {
+            "keyword": "전혀없는키워드xyz",
+            "source": "google",
+            "timestamp": datetime(2026, 4, 12, 9, 0, tzinfo=UTC),
+            "value": 12.0,
+        }
+    )
+    main._attach_trend_event_model_payload(
+        article,
+        event_model_key="attention_signal",
+        source="google",
+        keyword="전혀없는키워드xyz",
+        value=12.0,
+        metadata=None,
+    )
+    payload = article.get("event_model_payload")
+    assert payload is not None
+    assert "keyword_set_name" not in payload  # unknown keyword drops the field
+    assert payload["channel"] == "google"
+    assert payload["normalized_value"] == 12.0
+
+
+def test_attach_trend_event_model_payload_skips_unmappable_source() -> None:
+    """Unmappable source: _resolve returns None → enrichment is skipped (graceful)."""
+    article = main._trend_summary_article(
+        {
+            "keyword": "AI",
+            "source": "foobar_unregistered",
+            "timestamp": datetime(2026, 4, 12, 9, 0, tzinfo=UTC),
+            "value": 1.0,
+        }
+    )
+    assert main._resolve_trend_event_model("foobar_unregistered") is None
+    main._attach_trend_event_model_payload(
+        article,
+        event_model_key=None,
+        source="foobar_unregistered",
+        keyword="AI",
+        value=1.0,
+        metadata=None,
+    )
+    assert "event_model_payload" not in article
+
+
+def test_attach_trend_event_model_payload_handles_none_metadata_defensively() -> None:
+    """Defensive: keyword reverse-lookup must work when metadata is None."""
+    article = main._trend_summary_article(
+        {
+            "keyword": "AI",
+            "source": "reddit",
+            "timestamp": datetime(2026, 4, 12, 9, 0, tzinfo=UTC),
+            "value": 7,
+        }
+    )
+    main._attach_trend_event_model_payload(
+        article,
+        event_model_key="community_signal",
+        source="reddit",
+        keyword="AI",
+        value=7,
+        metadata=None,
+    )
+    payload = article.get("event_model_payload")
+    assert payload == {
+        "keyword_set_name": "글로벌 테크 커뮤니티 트렌드",
+        "community": "reddit",
+        "signal_value": 7,
+    }
+
+
 def test_sync_report_contract_artifacts_copies_custom_outputs_to_canonical_dir(tmp_path: Path) -> None:
     generated_dir = tmp_path / "reports"
     canonical_dir = tmp_path / "docs" / "reports"
