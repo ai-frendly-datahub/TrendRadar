@@ -20,7 +20,6 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-import pytest
 import yaml
 
 import main
@@ -55,16 +54,6 @@ def _load_contract_event_model_ids() -> set[str]:
     return set((contract.get("event_model_field_specs") or {}).keys())
 
 
-@pytest.mark.xfail(
-    strict=False,
-    reason=(
-        "Cycle 15 audit: 'browser' is wired in _TREND_SOURCE_EVENT_MODEL but "
-        "missing from keyword_sets.yaml signal_layers.community. Mirror "
-        "reconciliation is deferred to a separate cycle; this xfail surfaces "
-        "the divergence without blocking CI. Remove the marker once the "
-        "mismatch is resolved."
-    ),
-)
 def test_source_event_model_dict_mirrors_yaml_signal_layers() -> None:
     """Dict keys must match the union of yaml signal_layers source lists."""
 
