@@ -96,6 +96,41 @@ data_quality:
       activation_gate: aggregation policy and privacy review
 
 keyword_sets:
+  # 인증 없이 매일 검증 가능한 Wikipedia pageview 기준 신호
+  - name: "Wikipedia 참조 관심 트렌드"
+    enabled: true
+    description: "공개 Wikipedia pageview로 기본 attention 수집 경로를 검증"
+    version: "2026.04"
+    taxonomy:
+      vertical: reference_attention
+      intent: public_attention
+    keywords:
+      - "Seoul"
+      - "South Korea"
+      - "Python (programming language)"
+      - "Artificial intelligence"
+      - "Machine learning"
+      - "K-pop"
+      - "World Wide Web"
+      - "Samsung"
+      - "Netflix"
+      - "Bitcoin"
+      - "Climate change"
+      - "Electric vehicle"
+      - "E-commerce"
+      - "YouTube"
+      - "OpenAI"
+    channels:
+      - wikipedia
+    time_range:
+      start: "yesterday"
+      end: "yesterday"
+    filters:
+      wikipedia_project: en.wikipedia
+      wikipedia_access: all-access
+      wikipedia_agent: user
+      wikipedia_granularity: daily
+
   # 예시 1: 위스키 시장 동향
   - name: "위스키 시장 동향"
     enabled: true

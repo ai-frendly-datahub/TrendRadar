@@ -1,15 +1,46 @@
 # Minimal config for auth-free Wikipedia collector e2e.
+data_quality:
+  priority: P1
+  primary_motion: attention
+  signal_layers:
+    attention:
+      - wikipedia
+    conversion_proxy: []
+    community: []
+  score_axes:
+    attention:
+      output_field: attention_score
+    conversion_proxy:
+      output_field: conversion_proxy_score
+  normalization:
+    policy: normalize each platform to a 0-100 daily scale before comparison
+    preserve_raw_value: true
+    preserve_platform: true
+  event_models:
+    attention_signal:
+      required_fields:
+        - keyword_set_name
+        - channel
+        - raw_value
+        - normalized_value
+  freshness_sla:
+    attention_signal_days: 1
+
 keyword_sets:
   - name: "Wikipedia smoke"
     enabled: true
+    version: "2026.04"
+    taxonomy:
+      vertical: reference_attention
+      intent: public_attention
     keywords:
       - "Python (programming language)"
       - "Seoul"
     channels:
       - wikipedia
     time_range:
-      start: "2024-11-01"
-      end: "2024-11-07"
+      start: "today-7d"
+      end: "yesterday"
     filters:
       wikipedia_project: en.wikipedia
       wikipedia_access: all-access

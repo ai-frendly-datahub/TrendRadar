@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import shutil
 import time
 from collections.abc import Iterable
@@ -86,6 +87,7 @@ CORE_SOURCE_LABELS: dict[str, str] = {
 TOTAL_CORE_SOURCES = len(CORE_SOURCE_REQUIREMENTS)
 MAX_KEYWORDS_PER_TRENDS_REQUEST = 5
 SUMMARY_POINT_LIMIT = 200
+RELATIVE_DATE_RE = re.compile(r"^(?:today)?([+-]\d+)d$")
 
 
 def _keyword_batches(
@@ -178,6 +180,29 @@ def _filter_valid_points(
         )
 
     return valid_points
+
+
+def _resolve_time_range_date(raw_value: object, *, default_date: date | None = None) -> str:
+    """Resolve YYYY-MM-DD or small relative date tokens used by smoke configs."""
+    base_date = default_date or datetime.now(UTC).date()
+    if raw_value is None:
+        return base_date.isoformat()
+
+    text = str(raw_value).strip()
+    if not text:
+        return base_date.isoformat()
+
+    normalized = text.lower()
+    if normalized in {"today", "now"}:
+        return base_date.isoformat()
+    if normalized in {"yesterday", "latest_available"}:
+        return (base_date - timedelta(days=1)).isoformat()
+
+    match = RELATIVE_DATE_RE.fullmatch(normalized)
+    if match:
+        return (base_date + timedelta(days=int(match.group(1)))).isoformat()
+
+    return text
 
 
 def _build_raw_records(
@@ -600,8 +625,9 @@ def collect_trends(
     channels = keyword_set.channels or ["naver", "google"]
     time_range = keyword_set.time_range
     filters = keyword_set.filters
-    start_date = time_range.get("start") or str(datetime.now(UTC).date())
-    end_date = time_range.get("end") or str(datetime.now(UTC).date())
+    today = datetime.now(UTC).date()
+    start_date = _resolve_time_range_date(time_range.get("start"), default_date=today)
+    end_date = _resolve_time_range_date(time_range.get("end"), default_date=today)
 
     # Naver DataLab
     if "naver" in channels and (source_filter is None or source_filter == "naver"):
@@ -1589,6 +1615,12 @@ if __name__ == "__main__":
         help="HTML 리포트 생성 (기본값: False)",
     )
     parser.add_argument(
+        "--config",
+        type=Path,
+        default=None,
+        help=f"키워드 세트 설정 파일 경로 (기본값: {DEFAULT_CONFIG_PATH})",
+    )
+    parser.add_argument(
         "--report-dir",
         type=Path,
         default=DEFAULT_REPORT_DIR,
@@ -1601,6 +1633,9 @@ if __name__ == "__main__":
             "google",
             "google_trending",
             "wikipedia",
+            "reddit",
+            "youtube",
+            "naver_shopping",
             "hackernews",
             "devto",
             "stackexchange",
@@ -1648,6 +1683,7 @@ if __name__ == "__main__":
     if args.mode == "once":
         run_once(
             execute_collectors=not args.dry_run,
+            config_path=args.config,
             generate_report=args.generate_report,
             report_output_dir=args.report_dir,
             source_filter=args.source,
@@ -1663,6 +1699,7 @@ if __name__ == "__main__":
         else:
             run_scheduler(
                 interval_hours=args.interval,
+                config_path=args.config,
                 db_path=args.db_path,
                 notifier=notifier,
                 snapshot_db=args.snapshot_db,

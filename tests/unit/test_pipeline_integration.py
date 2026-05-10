@@ -26,6 +26,25 @@ class _DummyGoogleCollector:
         }
 
 
+class _DummyWikipediaCollector:
+    calls: list[tuple[str, str]] = []
+
+    def collect(self, **kwargs: object) -> dict[str, list[dict[str, object]]]:
+        start_date = str(kwargs["start_date"])
+        end_date = str(kwargs["end_date"])
+        self.calls.append((start_date, end_date))
+        return {
+            str(keyword): [{"date": end_date, "value": 100.0}]
+            for keyword in kwargs.get("keywords", [])
+        }
+
+
+class _FixedDateTime(datetime):
+    @classmethod
+    def now(cls, tz=None):
+        return cls(2026, 4, 29, 9, 0, tzinfo=tz or UTC)
+
+
 @pytest.mark.unit
 def test_collect_trends_logs_raw_and_syncs_search_index(
     monkeypatch: pytest.MonkeyPatch, tmp_path: Path
@@ -92,5 +111,34 @@ def test_collect_trends_batches_google_keywords(
 
     assert _DummyGoogleCollector.calls == [["k1", "k2", "k3", "k4", "k5"], ["k6"]]
     assert total_points == 4
+    assert sources_succeeded == 1
+    assert errors == []
+
+
+@pytest.mark.unit
+def test_collect_trends_resolves_relative_time_range_for_wikipedia(
+    monkeypatch: pytest.MonkeyPatch,
+    tmp_path: Path,
+) -> None:
+    _DummyWikipediaCollector.calls = []
+    monkeypatch.setattr(main, "WikipediaPageviewsCollector", _DummyWikipediaCollector)
+    monkeypatch.setattr(main, "datetime", _FixedDateTime)
+
+    keyword_set = {
+        "name": "Wikipedia smoke",
+        "keywords": ["Seoul"],
+        "channels": ["wikipedia"],
+        "time_range": {"start": "today-7d", "end": "yesterday"},
+        "filters": {"wikipedia_project": "en.wikipedia"},
+    }
+
+    total_points, sources_succeeded, errors = main.collect_trends(
+        keyword_set,
+        db_path=tmp_path / "trend.duckdb",
+        source_filter="wikipedia",
+    )
+
+    assert _DummyWikipediaCollector.calls == [("2026-04-22", "2026-04-28")]
+    assert total_points == 1
     assert sources_succeeded == 1
     assert errors == []

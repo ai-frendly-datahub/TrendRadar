@@ -11,7 +11,7 @@ This source uses the Wikimedia REST API to pull daily pageview counts for given 
    - `wikipedia_granularity`: `daily` or `monthly` (default `daily`)
 3. Run once for only Wikipedia if desired:
    ```bash
-   python main.py --mode once --source wikipedia
+   python main.py --mode once --config config/keyword_sets_wikipedia.yaml --source wikipedia --generate-report
    ```
 
 ## Example config snippet
@@ -25,8 +25,8 @@ keyword_sets:
     channels:
       - wikipedia
     time_range:
-      start: "2024-01-01"
-      end: "2024-01-31"
+      start: "today-7d"
+      end: "yesterday"
     filters:
       wikipedia_project: ko.wikipedia
       wikipedia_access: all-access

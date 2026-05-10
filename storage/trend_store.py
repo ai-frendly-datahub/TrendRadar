@@ -248,7 +248,7 @@ def save_trend_points(
     now = _utc_naive(datetime.now(UTC))
     meta_str = json.dumps(metadata, ensure_ascii=False) if metadata else None
 
-    rows: list[tuple[object, ...]] = []
+    rows_by_key: dict[tuple[str, str, datetime | None], tuple[object, ...]] = {}
     for point in points:
         if isinstance(point, TrendPoint):
             ts = _utc_naive(point.timestamp)
@@ -279,8 +279,9 @@ def save_trend_points(
             merged_meta.update(point_meta)
         row_meta_str = json.dumps(merged_meta, ensure_ascii=False) if merged_meta else meta_str
 
-        rows.append((source, keyword, ts, val, row_meta_str, now))
+        rows_by_key[(source, keyword, ts)] = (source, keyword, ts, val, row_meta_str, now)
 
+    rows = list(rows_by_key.values())
     if not rows:
         return 0
 
@@ -288,6 +289,13 @@ def save_trend_points(
     try:
         _ensure_trend_points_table(conn)
         _ = conn.begin()
+        _ = conn.executemany(
+            """
+            DELETE FROM trend_points
+            WHERE source = ? AND keyword = ? AND timestamp = ?
+            """,
+            [(row[0], row[1], row[2]) for row in rows],
+        )
         _ = conn.executemany(
             """
             INSERT INTO trend_points (source, keyword, timestamp, value, metadata_json, created_at)
