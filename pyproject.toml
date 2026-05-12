@@ -33,11 +33,11 @@ dependencies = [
     "jinja2>=3.1.3",
     "python-dateutil>=2.8.0",
     "pydantic>=2.5.0",
-"pytrends>=4.9.0",
-"pandas>=2.0.0",
-"scipy>=1.9.0",
-"duckdb>=0.9.0",
-"numpy>=1.24.0",
+    "pytrends>=4.9.0",
+    "pandas>=2.0.0",
+    "scipy>=1.9.0",
+    "duckdb>=0.9.0",
+    "numpy>=1.24.0",
     "tenacity>=8.2.0",
     "pybreaker>=1.0.0",
     "structlog>=24.2.0",
@@ -67,6 +67,10 @@ Homepage = "https://github.com/<username>/TrendRadar"
 Documentation = "https://github.com/<username>/TrendRadar/tree/main/docs"
 Repository = "https://github.com/<username>/TrendRadar"
 Issues = "https://github.com/<username>/TrendRadar/issues"
+
+[tool.setuptools.packages.find]
+include = ["trendradar*", "collectors*", "analyzers*", "reporters*", "storage*", "mcp_server*", "radar*"]
+exclude = ["tests*", "scripts*", "examples*", "docs*", "data*", "reports*", "config*"]
 
 # Black formatter configuration
 [tool.black]
