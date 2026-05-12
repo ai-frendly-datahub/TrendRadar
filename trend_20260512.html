@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko" data-visual-system="radar-unified-v2" data-visual-surface="report">
+<html lang="ko" data-visual-system="radar-unified-v2" data-visual-surface="report" data-visual-page="daily-report">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -141,18 +141,28 @@
             font-size: 0.85em;
         }
         :root {
-            --radar-bg:#11100f;
-            --radar-bg2:#171613;
-            --radar-panel:rgba(29, 33, 31, .88);
-            --radar-panel2:rgba(35, 39, 36, .82);
-            --radar-line:rgba(215, 201, 123, .22);
-            --radar-text:#f4f2ea;
-            --radar-muted:rgba(244, 242, 234, .68);
-            --radar-brand:#37d7bd;
-            --radar-accent:#f2c14e;
+            --vs-bg-0:#11100f;
+            --vs-bg-1:#171613;
+            --vs-surface-0:rgba(29, 33, 31, .88);
+            --vs-surface-1:rgba(35, 39, 36, .82);
+            --vs-line:rgba(215, 201, 123, .22);
+            --vs-text:#f4f2ea;
+            --vs-text-muted:rgba(244, 242, 234, .68);
+            --vs-brand:#37d7bd;
+            --vs-accent:#f2c14e;
+            --vs-font-sans:"Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --radar-bg:var(--vs-bg-0);
+            --radar-bg2:var(--vs-bg-1);
+            --radar-panel:var(--vs-surface-0);
+            --radar-panel2:var(--vs-surface-1);
+            --radar-line:var(--vs-line);
+            --radar-text:var(--vs-text);
+            --radar-muted:var(--vs-text-muted);
+            --radar-brand:var(--vs-brand);
+            --radar-accent:var(--vs-accent);
         }
         body {
-            font-family: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: var(--vs-font-sans);
             background: linear-gradient(180deg, var(--radar-bg), var(--radar-bg2) 55%, #0e0d0b);
             color: var(--radar-text);
         }
@@ -222,11 +232,11 @@
 
     <div class="stats">
         <div class="stat-box">
-            <div class="stat-number">7</div>
+            <div class="stat-number">8</div>
             <div class="stat-label">키워드 세트</div>
         </div>
         <div class="stat-box">
-            <div class="stat-number">55</div>
+            <div class="stat-number">70</div>
             <div class="stat-label">총 키워드</div>
         </div>
     </div>
@@ -234,9 +244,9 @@
     <div class="section">
         <h2>🕒 7x24 시간 패턴 히트맵</h2>
         <p class="section-desc">trend_points 타임스탬프를 요일 x 시간대 분포로 시각화</p>
-        <div class="heatmap-summary">총 데이터 포인트: 0개</div>
+        <div class="heatmap-summary">총 데이터 포인트: 15개</div>
         <div id="time-pattern-heatmap" class="heatmap-chart"></div>
-        <p id="time-pattern-no-data" class="no-data" >
+        <p id="time-pattern-no-data" class="no-data" style="display: none;">
             히트맵을 그릴 트렌드 포인트가 없습니다.
         </p>
     </div>
@@ -275,6 +285,118 @@
         </p>
     </div>
 
+    
+    <div class="section">
+        <h2>Wikipedia 참조 관심 트렌드</h2>
+        <p class="section-desc">공개 Wikipedia pageview로 기본 attention 수집 경로를 검증</p>
+
+        
+        <div class="keyword-card">
+            <div class="keyword-name">Seoul</div>
+            <div class="keyword-value">
+                최근 관심도: 2366.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">South Korea</div>
+            <div class="keyword-value">
+                최근 관심도: 6444.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">Python (programming language)</div>
+            <div class="keyword-value">
+                최근 관심도: 5028.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">Artificial intelligence</div>
+            <div class="keyword-value">
+                최근 관심도: 11024.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">Machine learning</div>
+            <div class="keyword-value">
+                최근 관심도: 2026.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">K-pop</div>
+            <div class="keyword-value">
+                최근 관심도: 1625.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">World Wide Web</div>
+            <div class="keyword-value">
+                최근 관심도: 4314.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">Samsung</div>
+            <div class="keyword-value">
+                최근 관심도: 3794.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">Netflix</div>
+            <div class="keyword-value">
+                최근 관심도: 6459.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">Bitcoin</div>
+            <div class="keyword-value">
+                최근 관심도: 3623.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">Climate change</div>
+            <div class="keyword-value">
+                최근 관심도: 2642.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">Electric vehicle</div>
+            <div class="keyword-value">
+                최근 관심도: 450.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">E-commerce</div>
+            <div class="keyword-value">
+                최근 관심도: 838.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">YouTube</div>
+            <div class="keyword-value">
+                최근 관심도: 42129.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+        <div class="keyword-card">
+            <div class="keyword-name">OpenAI</div>
+            <div class="keyword-value">
+                최근 관심도: 7425.0 / 데이터 포인트: 1개
+            </div>
+        </div>
+        
+    </div>
     
     <div class="section">
         <h2>위스키 시장 동향</h2>
@@ -711,9 +833,51 @@
     </div>
     
 
+        <div class="section" id="trend-quality">
+        <h2>Trend Quality</h2>
+        <p class="section-desc">attention, conversion proxy, and community signals are scored as separate axes. Generated at 2026-05-12T20:40:46.012000+00:00</p>
+        <div class="trend-quality-chips">
+            <span class="metric-chip">signals: 15</span>
+            <span class="metric-chip">attention: 15</span>
+            <span class="metric-chip">conversion: 0</span>
+            <span class="metric-chip">community: 0</span>
+            <span class="metric-chip">field gaps: 0</span>
+            <span class="metric-chip">review: 1</span>
+        </div>
+        <h3>Quality Signals</h3>
+        <div class="table-wrap">
+            <table class="lead-lag-table">
+                <thead>
+                    <tr><th>Model</th><th>Pack</th><th>Channel</th><th>Keyword</th><th>Axis</th><th>Score</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>attention_signal</td><td>Wikipedia 참조 관심 트렌드</td><td>wikipedia</td><td>YouTube</td><td>attention</td><td>100.0</td></tr>
+                <tr><td>attention_signal</td><td>Wikipedia 참조 관심 트렌드</td><td>wikipedia</td><td>Artificial intelligence</td><td>attention</td><td>26.167</td></tr>
+                <tr><td>attention_signal</td><td>Wikipedia 참조 관심 트렌드</td><td>wikipedia</td><td>OpenAI</td><td>attention</td><td>17.624</td></tr>
+                <tr><td>attention_signal</td><td>Wikipedia 참조 관심 트렌드</td><td>wikipedia</td><td>Netflix</td><td>attention</td><td>15.331</td></tr>
+                <tr><td>attention_signal</td><td>Wikipedia 참조 관심 트렌드</td><td>wikipedia</td><td>South Korea</td><td>attention</td><td>15.296</td></tr>
+                <tr><td>attention_signal</td><td>Wikipedia 참조 관심 트렌드</td><td>wikipedia</td><td>Python (programming language)</td><td>attention</td><td>11.935</td></tr>
+                <tr><td>attention_signal</td><td>Wikipedia 참조 관심 트렌드</td><td>wikipedia</td><td>World Wide Web</td><td>attention</td><td>10.24</td></tr>
+                <tr><td>attention_signal</td><td>Wikipedia 참조 관심 트렌드</td><td>wikipedia</td><td>Samsung</td><td>attention</td><td>9.006</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <h3>Daily Review</h3>
+        <div class="table-wrap">
+            <table class="lead-lag-table">
+                <thead>
+                    <tr><th>Reason</th><th>Model</th><th>Pack</th><th>Detail</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>conversion_proxy_no_observed_signal</td><td>conversion_proxy_signal</td><td></td><td>Conversion proxy is configured but no live proxy rows were observed.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
     <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
     <script>
-        const heatmapData = {"x": ["00:00", "01:00", "02:00", "03:00", "04:00", "05:00", "06:00", "07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00", "23:00"], "y": ["월", "화", "수", "목", "금", "토", "일"], "z": [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], "max_count": 0, "total_points": 0};
+        const heatmapData = {"x": ["00:00", "01:00", "02:00", "03:00", "04:00", "05:00", "06:00", "07:00", "08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00", "19:00", "20:00", "21:00", "22:00", "23:00"], "y": ["월", "화", "수", "목", "금", "토", "일"], "z": [[15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], "max_count": 15, "total_points": 15};
         const forecastData = {};
         const correlationAnalysis = {"correlation_matrix": {"platforms": [], "z": [], "p_values": []}, "lead_lag_results": [], "top_lead_lag_relationships": []};
         const heatmapContainer = document.getElementById("time-pattern-heatmap");

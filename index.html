@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-visual-system="radar-unified-v2" data-visual-surface="index">
+<html lang="en" data-visual-system="radar-unified-v2" data-visual-surface="report" data-visual-page="index">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,30 +22,50 @@
   <style>
 
     :root {
+      --vs-bg-0: #0b0b0f;
+      --vs-bg-1: #121116;
+      --vs-surface-0: rgba(28, 26, 34, 0.85);
+      --vs-surface-1: rgba(36, 33, 43, 0.95);
+      --vs-surface-alt: rgba(24, 22, 29, 0.72);
+      --vs-text: #e4e6eb;
+      --vs-text-muted: #b0b3b8;
+      --vs-text-faint: rgba(233, 238, 251, 0.52);
+      --vs-line: rgba(244, 244, 247, 0.14);
+      --vs-line-strong: rgba(244, 244, 247, 0.22);
+      --vs-brand: #33d6c5;
+      --vs-brand-strong: #f6c84c;
+      --vs-danger: #ff5b6e;
+      --vs-shadow: 0 4px 24px rgba(0, 0, 0, 0.28);
+      --vs-shadow-glow: 0 0 40px rgba(51, 214, 197, 0.12);
+      --vs-font-sans: "Pretendard Variable", "Pretendard", ui-sans-serif, system-ui, -apple-system, sans-serif;
+      --vs-font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      --vs-radius: 10px;
+      --vs-max: 1280px;
 
-      --bg-primary: #0b0b0f;
-      --bg-secondary: #121116;
-      --bg-card: rgba(28, 26, 34, 0.85);
-      --bg-card-hover: rgba(36, 33, 43, 0.95);
-      --bg-glass: rgba(24, 22, 29, 0.72);
+
+      --bg-primary: var(--vs-bg-0);
+      --bg-secondary: var(--vs-bg-1);
+      --bg-card: var(--vs-surface-0);
+      --bg-card-hover: var(--vs-surface-1);
+      --bg-glass: var(--vs-surface-alt);
 
 
-      --text-primary: #e4e6eb;
-      --text-secondary: #b0b3b8;
+      --text-primary: var(--vs-text);
+      --text-secondary: var(--vs-text-muted);
       --text-muted: #6b7280;
-      --text-faint: rgba(233, 238, 251, 0.52);
+      --text-faint: var(--vs-text-faint);
 
 
-      --accent-primary: #33d6c5;
-      --accent-secondary: #f6c84c;
-      --accent-highlight: #f6c84c;
-      --accent-danger: #ff5b6e;
+      --accent-primary: var(--vs-brand);
+      --accent-secondary: var(--vs-brand-strong);
+      --accent-highlight: var(--vs-brand-strong);
+      --accent-danger: var(--vs-danger);
 
 
-      --border-color: rgba(244, 244, 247, 0.14);
-      --border-highlight: rgba(244, 244, 247, 0.22);
-      --shadow-soft: 0 4px 24px rgba(0, 0, 0, 0.28);
-      --shadow-glow: 0 0 40px rgba(51, 214, 197, 0.12);
+      --border-color: var(--vs-line);
+      --border-highlight: var(--vs-line-strong);
+      --shadow-soft: var(--vs-shadow);
+      --shadow-glow: var(--vs-shadow-glow);
 
 
       --space-1: 0.25rem;
@@ -60,20 +80,20 @@
 
 
       --radius-sm: 6px;
-      --radius-md: 10px;
+      --radius-md: var(--vs-radius);
       --radius-lg: 8px;
       --radius-xl: 8px;
 
 
-      --font-sans: "Pretendard Variable", "Pretendard", ui-sans-serif, system-ui, -apple-system, sans-serif;
-      --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      --font-sans: var(--vs-font-sans);
+      --font-mono: var(--vs-font-mono);
 
 
       --transition-fast: 0.15s ease-out;
       --transition-normal: 0.25s ease-out;
 
 
-      --max-width: 1280px;
+      --max-width: var(--vs-max);
     }
 
 
@@ -511,7 +531,7 @@
 
       <div class="header__stats">
         <div class="stat-item">
-          <span class="stat-value">29</span>
+          <span class="stat-value">2</span>
           <span class="stat-label">Total Reports</span>
         </div>
 
@@ -521,7 +541,7 @@
         </div>
 
         <div class="stat-item">
-          <span class="stat-value">2026-04-14</span>
+          <span class="stat-value">2026-05-12</span>
           <span class="stat-label">Earliest Report</span>
         </div>
 
@@ -601,9 +621,9 @@
             </div>
           </a>
 
-          <a href="trend_20260511.html" class="report-card" data-date="2026-05-11" data-name="trend - 2026-05-11" data-title="trend - 2026-05-11" data-entities="">
+          <a href="spike_20260512.html" class="report-card" data-date="2026-05-12" data-name="spike - 2026-05-12" data-title="spike - 2026-05-12" data-entities="">
             <div class="report-card__header">
-              <span class="report-card__date">2026-05-11</span>
+              <span class="report-card__date">2026-05-12</span>
 
               <span class="report-card__badge">Daily</span>
 
@@ -618,601 +638,7 @@
               </span>
             </div>
 
-            <div class="report-card__entities" data-summary-date="2026-05-11">
-
-            </div>
-          </a>
-
-          <a href="trend_20260510.html" class="report-card" data-date="2026-05-10" data-name="trend - 2026-05-10" data-title="trend - 2026-05-10" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-10</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-10">
-
-            </div>
-          </a>
-
-          <a href="trend_20260509.html" class="report-card" data-date="2026-05-09" data-name="trend - 2026-05-09" data-title="trend - 2026-05-09" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-09</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-09">
-
-            </div>
-          </a>
-
-          <a href="trend_20260508.html" class="report-card" data-date="2026-05-08" data-name="trend - 2026-05-08" data-title="trend - 2026-05-08" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-08</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-08">
-
-            </div>
-          </a>
-
-          <a href="trend_20260507.html" class="report-card" data-date="2026-05-07" data-name="trend - 2026-05-07" data-title="trend - 2026-05-07" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-07</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-07">
-
-            </div>
-          </a>
-
-          <a href="trend_20260506.html" class="report-card" data-date="2026-05-06" data-name="trend - 2026-05-06" data-title="trend - 2026-05-06" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-06</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-06">
-
-            </div>
-          </a>
-
-          <a href="trend_20260505.html" class="report-card" data-date="2026-05-05" data-name="trend - 2026-05-05" data-title="trend - 2026-05-05" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-05</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-05">
-
-            </div>
-          </a>
-
-          <a href="trend_20260504.html" class="report-card" data-date="2026-05-04" data-name="trend - 2026-05-04" data-title="trend - 2026-05-04" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-04</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-04">
-
-            </div>
-          </a>
-
-          <a href="trend_20260503.html" class="report-card" data-date="2026-05-03" data-name="trend - 2026-05-03" data-title="trend - 2026-05-03" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-03</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-03">
-
-            </div>
-          </a>
-
-          <a href="trend_20260502.html" class="report-card" data-date="2026-05-02" data-name="trend - 2026-05-02" data-title="trend - 2026-05-02" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-02</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-02">
-
-            </div>
-          </a>
-
-          <a href="trend_20260501.html" class="report-card" data-date="2026-05-01" data-name="trend - 2026-05-01" data-title="trend - 2026-05-01" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-05-01</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-05-01">
-
-            </div>
-          </a>
-
-          <a href="trend_20260430.html" class="report-card" data-date="2026-04-30" data-name="trend - 2026-04-30" data-title="trend - 2026-04-30" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-30</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-30">
-
-            </div>
-          </a>
-
-          <a href="trend_20260429.html" class="report-card" data-date="2026-04-29" data-name="trend - 2026-04-29" data-title="trend - 2026-04-29" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-29</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-29">
-
-            </div>
-          </a>
-
-          <a href="trend_20260428.html" class="report-card" data-date="2026-04-28" data-name="trend - 2026-04-28" data-title="trend - 2026-04-28" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-28</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-28">
-
-            </div>
-          </a>
-
-          <a href="trend_20260427.html" class="report-card" data-date="2026-04-27" data-name="trend - 2026-04-27" data-title="trend - 2026-04-27" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-27</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-27">
-
-            </div>
-          </a>
-
-          <a href="trend_20260426.html" class="report-card" data-date="2026-04-26" data-name="trend - 2026-04-26" data-title="trend - 2026-04-26" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-26</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-26">
-
-            </div>
-          </a>
-
-          <a href="trend_20260425.html" class="report-card" data-date="2026-04-25" data-name="trend - 2026-04-25" data-title="trend - 2026-04-25" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-25</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-25">
-
-            </div>
-          </a>
-
-          <a href="trend_20260424.html" class="report-card" data-date="2026-04-24" data-name="trend - 2026-04-24" data-title="trend - 2026-04-24" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-24</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-24">
-
-            </div>
-          </a>
-
-          <a href="trend_20260423.html" class="report-card" data-date="2026-04-23" data-name="trend - 2026-04-23" data-title="trend - 2026-04-23" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-23</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-23">
-
-            </div>
-          </a>
-
-          <a href="trend_20260422.html" class="report-card" data-date="2026-04-22" data-name="trend - 2026-04-22" data-title="trend - 2026-04-22" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-22</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-22">
-
-            </div>
-          </a>
-
-          <a href="trend_20260421.html" class="report-card" data-date="2026-04-21" data-name="trend - 2026-04-21" data-title="trend - 2026-04-21" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-21</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-21">
-
-            </div>
-          </a>
-
-          <a href="trend_20260420.html" class="report-card" data-date="2026-04-20" data-name="trend - 2026-04-20" data-title="trend - 2026-04-20" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-20</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-20">
-
-            </div>
-          </a>
-
-          <a href="trend_20260419.html" class="report-card" data-date="2026-04-19" data-name="trend - 2026-04-19" data-title="trend - 2026-04-19" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-19</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-19">
-
-            </div>
-          </a>
-
-          <a href="trend_20260418.html" class="report-card" data-date="2026-04-18" data-name="trend - 2026-04-18" data-title="trend - 2026-04-18" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-18</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-18">
-
-            </div>
-          </a>
-
-          <a href="trend_20260417.html" class="report-card" data-date="2026-04-17" data-name="trend - 2026-04-17" data-title="trend - 2026-04-17" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-17</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-17">
-
-            </div>
-          </a>
-
-          <a href="trend_20260416.html" class="report-card" data-date="2026-04-16" data-name="trend - 2026-04-16" data-title="trend - 2026-04-16" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-16</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-16">
-
-            </div>
-          </a>
-
-          <a href="trend_20260415.html" class="report-card" data-date="2026-04-15" data-name="trend - 2026-04-15" data-title="trend - 2026-04-15" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-15</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-15">
-
-            </div>
-          </a>
-
-          <a href="trend_20260414.html" class="report-card" data-date="2026-04-14" data-name="trend - 2026-04-14" data-title="trend - 2026-04-14" data-entities="">
-            <div class="report-card__header">
-              <span class="report-card__date">2026-04-14</span>
-
-              <span class="report-card__badge">Daily</span>
-
-            </div>
-            <div class="report-card__meta">
-              <span class="report-card__meta-item">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                  <polyline points="14 2 14 8 20 8"></polyline>
-                </svg>
-                View Report
-              </span>
-            </div>
-
-            <div class="report-card__entities" data-summary-date="2026-04-14">
+            <div class="report-card__entities" data-summary-date="2026-05-12">
 
             </div>
           </a>
@@ -1228,7 +654,7 @@
         <span class="footer__timestamp">
 
 
-              2026-05-12T03:31:09.815425+00:00
+              2026-05-12T20:40:47.584712+00:00
 
 
         </span>
@@ -1244,9 +670,9 @@
 
     const RADAR_DATA = {
       name: "TrendRadar",
-      reports: [{"date": "2026-05-12", "date_label": "2026-05-12", "display_name": "trend - 2026-05-12", "filename": "trend_20260512.html"}, {"date": "2026-05-11", "date_label": "2026-05-11", "display_name": "trend - 2026-05-11", "filename": "trend_20260511.html"}, {"date": "2026-05-10", "date_label": "2026-05-10", "display_name": "trend - 2026-05-10", "filename": "trend_20260510.html"}, {"date": "2026-05-09", "date_label": "2026-05-09", "display_name": "trend - 2026-05-09", "filename": "trend_20260509.html"}, {"date": "2026-05-08", "date_label": "2026-05-08", "display_name": "trend - 2026-05-08", "filename": "trend_20260508.html"}, {"date": "2026-05-07", "date_label": "2026-05-07", "display_name": "trend - 2026-05-07", "filename": "trend_20260507.html"}, {"date": "2026-05-06", "date_label": "2026-05-06", "display_name": "trend - 2026-05-06", "filename": "trend_20260506.html"}, {"date": "2026-05-05", "date_label": "2026-05-05", "display_name": "trend - 2026-05-05", "filename": "trend_20260505.html"}, {"date": "2026-05-04", "date_label": "2026-05-04", "display_name": "trend - 2026-05-04", "filename": "trend_20260504.html"}, {"date": "2026-05-03", "date_label": "2026-05-03", "display_name": "trend - 2026-05-03", "filename": "trend_20260503.html"}, {"date": "2026-05-02", "date_label": "2026-05-02", "display_name": "trend - 2026-05-02", "filename": "trend_20260502.html"}, {"date": "2026-05-01", "date_label": "2026-05-01", "display_name": "trend - 2026-05-01", "filename": "trend_20260501.html"}, {"date": "2026-04-30", "date_label": "2026-04-30", "display_name": "trend - 2026-04-30", "filename": "trend_20260430.html"}, {"date": "2026-04-29", "date_label": "2026-04-29", "display_name": "trend - 2026-04-29", "filename": "trend_20260429.html"}, {"date": "2026-04-28", "date_label": "2026-04-28", "display_name": "trend - 2026-04-28", "filename": "trend_20260428.html"}, {"date": "2026-04-27", "date_label": "2026-04-27", "display_name": "trend - 2026-04-27", "filename": "trend_20260427.html"}, {"date": "2026-04-26", "date_label": "2026-04-26", "display_name": "trend - 2026-04-26", "filename": "trend_20260426.html"}, {"date": "2026-04-25", "date_label": "2026-04-25", "display_name": "trend - 2026-04-25", "filename": "trend_20260425.html"}, {"date": "2026-04-24", "date_label": "2026-04-24", "display_name": "trend - 2026-04-24", "filename": "trend_20260424.html"}, {"date": "2026-04-23", "date_label": "2026-04-23", "display_name": "trend - 2026-04-23", "filename": "trend_20260423.html"}, {"date": "2026-04-22", "date_label": "2026-04-22", "display_name": "trend - 2026-04-22", "filename": "trend_20260422.html"}, {"date": "2026-04-21", "date_label": "2026-04-21", "display_name": "trend - 2026-04-21", "filename": "trend_20260421.html"}, {"date": "2026-04-20", "date_label": "2026-04-20", "display_name": "trend - 2026-04-20", "filename": "trend_20260420.html"}, {"date": "2026-04-19", "date_label": "2026-04-19", "display_name": "trend - 2026-04-19", "filename": "trend_20260419.html"}, {"date": "2026-04-18", "date_label": "2026-04-18", "display_name": "trend - 2026-04-18", "filename": "trend_20260418.html"}, {"date": "2026-04-17", "date_label": "2026-04-17", "display_name": "trend - 2026-04-17", "filename": "trend_20260417.html"}, {"date": "2026-04-16", "date_label": "2026-04-16", "display_name": "trend - 2026-04-16", "filename": "trend_20260416.html"}, {"date": "2026-04-15", "date_label": "2026-04-15", "display_name": "trend - 2026-04-15", "filename": "trend_20260415.html"}, {"date": "2026-04-14", "date_label": "2026-04-14", "display_name": "trend - 2026-04-14", "filename": "trend_20260414.html"}],
-      summaries: [],
-      generatedAt: "2026-05-12T03:31:09.815425+00:00"
+      reports: [{"date": "2026-05-12", "date_label": "2026-05-12", "display_name": "trend - 2026-05-12", "filename": "trend_20260512.html"}, {"date": "2026-05-12", "date_label": "2026-05-12", "display_name": "spike - 2026-05-12", "filename": "spike_20260512.html"}],
+      summaries: [{"date": "2026-05-13", "category": "trend", "article_count": 15, "source_count": 1, "matched_count": 15, "top_entities": [{"name": "Seoul", "count": 1}, {"name": "South Korea", "count": 1}, {"name": "Python (programming language)", "count": 1}, {"name": "Artificial intelligence", "count": 1}, {"name": "Machine learning", "count": 1}, {"name": "K-pop", "count": 1}, {"name": "World Wide Web", "count": 1}, {"name": "Samsung", "count": 1}, {"name": "Netflix", "count": 1}, {"name": "Bitcoin", "count": 1}, {"name": "Climate change", "count": 1}, {"name": "Electric vehicle", "count": 1}, {"name": "E-commerce", "count": 1}, {"name": "YouTube", "count": 1}, {"name": "OpenAI", "count": 1}]}],
+      generatedAt: "2026-05-12T20:40:47.584712+00:00"
     };
 
 
