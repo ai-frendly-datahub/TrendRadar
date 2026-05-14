@@ -80,5 +80,6 @@ docs/reports/*.html
 # DuckDB database files (binary, should not be in git)
 *.duckdb
 *.duckdb.wal
+*.duckdb.wal.broken-*
 data/snapshots/
 !data/snapshots/.gitkeep
