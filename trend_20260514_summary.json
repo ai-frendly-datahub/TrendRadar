@@ -1,16 +1,16 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "category": "trend",
-  "article_count": 75,
+  "article_count": 62,
   "source_count": 2,
-  "matched_count": 75,
+  "matched_count": 62,
   "top_entities": [
     {
-      "name": "유튜버",
+      "name": "보이그룹",
       "count": 2
     },
     {
-      "name": "보이그룹",
+      "name": "뉴진스",
       "count": 2
     },
     {
@@ -62,15 +62,15 @@
       "count": 2
     },
     {
+      "name": "유튜버",
+      "count": 2
+    },
+    {
+      "name": "강남 아파트",
+      "count": 2
+    },
+    {
       "name": "유명인",
-      "count": 2
-    },
-    {
-      "name": "부동산 시장",
-      "count": 2
-    },
-    {
-      "name": "음악방송",
       "count": 2
     },
     {
@@ -78,7 +78,7 @@
       "count": 2
     },
     {
-      "name": "멜론",
+      "name": "음악방송",
       "count": 2
     },
     {
@@ -87,8 +87,8 @@
     }
   ],
   "sources": {
-    "wikipedia": 15,
+    "wikipedia": 2,
     "google": 60
   },
-  "generated_at": "2026-05-13T23:03:51.175650+00:00"
+  "generated_at": "2026-05-14T02:31:10.370147+00:00"
 }
