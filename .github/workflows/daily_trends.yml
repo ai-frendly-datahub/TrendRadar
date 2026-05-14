@@ -84,6 +84,17 @@ jobs:
             data/daily/
           retention-days: 30
 
+      - name: Auto-commit data updates
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update trend data [skip ci]"
+          file_pattern: "data/ reports/"
+          add_options: "-f"
+          skip_fetch: false
+          skip_checkout: false
+
       - name: Deploy reports to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
