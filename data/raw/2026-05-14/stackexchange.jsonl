@@ -80,3 +80,51 @@
 {"keyword": "How do I cache images in local storage?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778742808"}
 {"keyword": "Neutralino Window PID", "platform": "stackexchange", "value": 1.0, "timestamp": "1778744047"}
 {"keyword": "How to make a laravel system with only 3 modules", "platform": "stackexchange", "value": 1.0, "timestamp": "1778732581"}
+{"keyword": "Need ideas for simple Laravel project structure", "platform": "stackexchange", "value": 0.0, "timestamp": "1778797513"}
+{"keyword": "What&#39;s a simple CRUD module in laravel?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778797325"}
+{"keyword": "How to use darshan-belani/laravel-crud-generator package to scaffold full CRUD in Laravel 11?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778796157"}
+{"keyword": "Why is git hanging when a push appears nearly done?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778789003"}
+{"keyword": "How to prevent SQL injection from spark.read.jdbc()?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778794419"}
+{"keyword": "Static IIFE used for side effect", "platform": "stackexchange", "value": 0.0, "timestamp": "1778795155"}
+{"keyword": "Missing response_type parameter in Agent Engine OAuth2 Authorization request", "platform": "stackexchange", "value": 0.0, "timestamp": "1778795782"}
+{"keyword": "Best way to get total record count and sum of a specific column for a dashboard view?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778794578"}
+{"keyword": "Icons inside Excel Text", "platform": "stackexchange", "value": 0.0, "timestamp": "1778788442"}
+{"keyword": "Android approach to launch an emergency Activity from background without user interaction", "platform": "stackexchange", "value": 0.0, "timestamp": "1778787172"}
+{"keyword": "Colored rows not hiding with conditional formatting", "platform": "stackexchange", "value": 0.0, "timestamp": "1778791910"}
+{"keyword": "How to properly integrate a data table and a form inside an &lt;x-app-layout&gt; component?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778791291"}
+{"keyword": "FFmpeg/React video editor renders successfully but ignores object recolor and color grading", "platform": "stackexchange", "value": 0.0, "timestamp": "1778790139"}
+{"keyword": "How to handle RPC rate limiting in a production Web3 app?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778791730"}
+{"keyword": "Coldfusion CFMail is seeming to send 3 or even 4 emails during one process", "platform": "stackexchange", "value": 0.0, "timestamp": "1778789704"}
+{"keyword": "Recommend a book for HTML, CSS, JavaScript, PHP and MySQL", "platform": "stackexchange", "value": 0.0, "timestamp": "1778785717"}
+{"keyword": "Unable to call `std::stoi` on split string", "platform": "stackexchange", "value": 1.0, "timestamp": "1778761555"}
+{"keyword": "Do i need to create a separate factory class if I&#39;m using HasFactory in my Laravel Model?", "platform": "stackexchange", "value": 1.0, "timestamp": "1778787167"}
+{"keyword": "What does the syntax import { some_type_or_function } from &quot;@software/more&quot; indicate?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778785650"}
+{"keyword": "How to understand this line of HTML?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778785025"}
+{"keyword": "Laravel Blade — what is the difference between create and edit views?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778767478"}
+{"keyword": "Meaning of the documentation about OffsetDateTime", "platform": "stackexchange", "value": 0.0, "timestamp": "1778786231"}
+{"keyword": "Accessibility Service Breaking Compose Navigation inside TextFields While Xml is fine", "platform": "stackexchange", "value": 0.0, "timestamp": "1778785432"}
+{"keyword": "Unit testing a function that does math calculations", "platform": "stackexchange", "value": 1.0, "timestamp": "1778780421"}
+{"keyword": "Need ideas for simple Laravel project structure", "platform": "stackexchange", "value": 0.0, "timestamp": "1778797513"}
+{"keyword": "What&#39;s a simple CRUD module in laravel?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778797325"}
+{"keyword": "How to use darshan-belani/laravel-crud-generator package to scaffold full CRUD in Laravel 11?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778796157"}
+{"keyword": "Why is git hanging when a push appears nearly done?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778789003"}
+{"keyword": "How to prevent SQL injection from spark.read.jdbc()?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778794419"}
+{"keyword": "Static IIFE used for side effect", "platform": "stackexchange", "value": 0.0, "timestamp": "1778795155"}
+{"keyword": "Missing response_type parameter in Agent Engine OAuth2 Authorization request", "platform": "stackexchange", "value": 0.0, "timestamp": "1778795782"}
+{"keyword": "Best way to get total record count and sum of a specific column for a dashboard view?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778794578"}
+{"keyword": "Icons inside Excel Text", "platform": "stackexchange", "value": 0.0, "timestamp": "1778788442"}
+{"keyword": "Android approach to launch an emergency Activity from background without user interaction", "platform": "stackexchange", "value": 0.0, "timestamp": "1778787172"}
+{"keyword": "Colored rows not hiding with conditional formatting", "platform": "stackexchange", "value": 0.0, "timestamp": "1778791910"}
+{"keyword": "How to properly integrate a data table and a form inside an &lt;x-app-layout&gt; component?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778791291"}
+{"keyword": "FFmpeg/React video editor renders successfully but ignores object recolor and color grading", "platform": "stackexchange", "value": 0.0, "timestamp": "1778790139"}
+{"keyword": "How to handle RPC rate limiting in a production Web3 app?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778791730"}
+{"keyword": "Coldfusion CFMail is seeming to send 3 or even 4 emails during one process", "platform": "stackexchange", "value": 0.0, "timestamp": "1778789704"}
+{"keyword": "Recommend a book for HTML, CSS, JavaScript, PHP and MySQL", "platform": "stackexchange", "value": 0.0, "timestamp": "1778785717"}
+{"keyword": "Unable to call `std::stoi` on split string", "platform": "stackexchange", "value": 1.0, "timestamp": "1778761555"}
+{"keyword": "Do i need to create a separate factory class if I&#39;m using HasFactory in my Laravel Model?", "platform": "stackexchange", "value": 1.0, "timestamp": "1778787167"}
+{"keyword": "What does the syntax import { some_type_or_function } from &quot;@software/more&quot; indicate?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778785650"}
+{"keyword": "How to understand this line of HTML?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778785025"}
+{"keyword": "Laravel Blade — what is the difference between create and edit views?", "platform": "stackexchange", "value": 0.0, "timestamp": "1778767478"}
+{"keyword": "Meaning of the documentation about OffsetDateTime", "platform": "stackexchange", "value": 0.0, "timestamp": "1778786231"}
+{"keyword": "Accessibility Service Breaking Compose Navigation inside TextFields While Xml is fine", "platform": "stackexchange", "value": 0.0, "timestamp": "1778785432"}
+{"keyword": "Unit testing a function that does math calculations", "platform": "stackexchange", "value": 1.0, "timestamp": "1778780421"}
