@@ -1,0 +1,94 @@
+{
+  "date": "2026-05-15",
+  "category": "trend",
+  "article_count": 90,
+  "source_count": 2,
+  "matched_count": 90,
+  "top_entities": [
+    {
+      "name": "Seoul",
+      "count": 2
+    },
+    {
+      "name": "OpenAI",
+      "count": 2
+    },
+    {
+      "name": "South Korea",
+      "count": 2
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 2
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 2
+    },
+    {
+      "name": "Machine learning",
+      "count": 2
+    },
+    {
+      "name": "K-pop",
+      "count": 2
+    },
+    {
+      "name": "Samsung",
+      "count": 2
+    },
+    {
+      "name": "Netflix",
+      "count": 2
+    },
+    {
+      "name": "Bitcoin",
+      "count": 2
+    },
+    {
+      "name": "Climate change",
+      "count": 2
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 2
+    },
+    {
+      "name": "E-commerce",
+      "count": 2
+    },
+    {
+      "name": "YouTube",
+      "count": 2
+    },
+    {
+      "name": "World Wide Web",
+      "count": 2
+    },
+    {
+      "name": "음악방송",
+      "count": 2
+    },
+    {
+      "name": "분양권",
+      "count": 2
+    },
+    {
+      "name": "재건축",
+      "count": 2
+    },
+    {
+      "name": "멜론",
+      "count": 2
+    },
+    {
+      "name": "청약",
+      "count": 2
+    }
+  ],
+  "sources": {
+    "wikipedia": 30,
+    "google": 60
+  },
+  "generated_at": "2026-05-15T20:53:14.361867+09:00"
+}
