@@ -1,0 +1,94 @@
+{
+  "date": "2026-05-16",
+  "category": "trend",
+  "article_count": 105,
+  "source_count": 2,
+  "matched_count": 105,
+  "top_entities": [
+    {
+      "name": "OpenAI",
+      "count": 3
+    },
+    {
+      "name": "YouTube",
+      "count": 3
+    },
+    {
+      "name": "E-commerce",
+      "count": 3
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 3
+    },
+    {
+      "name": "Climate change",
+      "count": 3
+    },
+    {
+      "name": "Bitcoin",
+      "count": 3
+    },
+    {
+      "name": "Netflix",
+      "count": 3
+    },
+    {
+      "name": "Samsung",
+      "count": 3
+    },
+    {
+      "name": "World Wide Web",
+      "count": 3
+    },
+    {
+      "name": "K-pop",
+      "count": 3
+    },
+    {
+      "name": "Machine learning",
+      "count": 3
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 3
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 3
+    },
+    {
+      "name": "South Korea",
+      "count": 3
+    },
+    {
+      "name": "Seoul",
+      "count": 3
+    },
+    {
+      "name": "분양권",
+      "count": 2
+    },
+    {
+      "name": "보이그룹",
+      "count": 2
+    },
+    {
+      "name": "인플루언서",
+      "count": 2
+    },
+    {
+      "name": "송파 전세",
+      "count": 2
+    },
+    {
+      "name": "스포츠 선수",
+      "count": 2
+    }
+  ],
+  "sources": {
+    "wikipedia": 45,
+    "google": 60
+  },
+  "generated_at": "2026-05-16T20:00:22.277907+09:00"
+}
