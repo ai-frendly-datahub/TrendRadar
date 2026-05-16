@@ -56,3 +56,115 @@
 {"keyword": "The Bot Left a Fingerprint: Detecting and Attributing LLM-Generated Passwords", "platform": "devto", "value": 1.0, "timestamp": "2026-05-15T13:15:27Z"}
 {"keyword": "Claprec: Frontend - Angular, NgRx, and OpenAPI (3/6)", "platform": "devto", "value": 7.0, "timestamp": "2026-05-15T11:37:44Z"}
 {"keyword": "🧠 Beyond Chatbots: Understanding Hermes Agent and the Rise of Autonomous AI Systems", "platform": "devto", "value": 5.0, "timestamp": "2026-05-15T17:25:23Z"}
+{"keyword": "Chat to build and schedule your own personal Hacker News email digest! 🎉", "platform": "devto", "value": 47.0, "timestamp": "2026-05-16T13:15:06Z"}
+{"keyword": "I Gave Hermes Agent 5 Impossible Tasks", "platform": "devto", "value": 164.0, "timestamp": "2026-05-16T08:34:50Z"}
+{"keyword": "I Ran Hermes Agent on the Same Task for 7 Days. The Skill File on Day 7 Looked Nothing Like Day 1.", "platform": "devto", "value": 14.0, "timestamp": "2026-05-16T04:05:21Z"}
+{"keyword": "I Added Three Rules to Gemma 4. The MoE Searched. The Dense Model Refused.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-16T14:28:27Z"}
+{"keyword": "Building a Ride Analysis Web App with Antigravity and the Strava API", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T13:00:00Z"}
+{"keyword": "🐝 Real-Life Debugging Story + Home Network Analysis: Peekyport 🫣", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T16:44:11Z"}
+{"keyword": "I Built an Enterprise Workflow Engine Like a Game Engine — And It Was the Right Call", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T08:14:40Z"}
+{"keyword": "Why every Claude Code-built site looks the same — and the image layer that breaks it", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T05:18:06Z"}
+{"keyword": "Prisma vs JDBC: the benchmark that almost made me blame the wrong ORM", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T01:36:53Z"}
+{"keyword": "Dead Internet Theory is happening on DEV", "platform": "devto", "value": 5.0, "timestamp": "2026-05-16T21:07:34Z"}
+{"keyword": "Maintaining an Agent-Searchable Profile: Public Impressions, Semantic Tags, and Real-Time Refresh", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T05:06:53Z"}
+{"keyword": "Observable Adversarial Behavior, Not Portable Adversarial Procedure", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T14:15:49Z"}
+{"keyword": "Self-Hosting Gemma 4 for Production Automation Revealed Two Ollama Bugs", "platform": "devto", "value": 4.0, "timestamp": "2026-05-16T11:27:31Z"}
+{"keyword": "I Built an Agent That Actually Reviews Your Pull Requests", "platform": "devto", "value": 5.0, "timestamp": "2026-05-16T16:39:00Z"}
+{"keyword": "VibeSafe", "platform": "devto", "value": 6.0, "timestamp": "2026-05-16T11:07:38Z"}
+{"keyword": "How to render code videos with React", "platform": "devto", "value": 6.0, "timestamp": "2026-05-16T17:39:09Z"}
+{"keyword": "Composer is just a console application", "platform": "devto", "value": 3.0, "timestamp": "2026-05-16T10:04:45Z"}
+{"keyword": "TWAP Oracles: How AMMs regulate crypto prices", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T06:24:30Z"}
+{"keyword": "I Beat Meta's LLM Guardrail With No GPU and No Team -Here's How", "platform": "devto", "value": 3.0, "timestamp": "2026-05-16T05:49:13Z"}
+{"keyword": "Building tiny-docker-go in Go: What I Learned from Building a Tiny Docker-like Runtime", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T15:14:08Z"}
+{"keyword": "The Solana Account Model Explained: Everything is an Account", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T21:31:20Z"}
+{"keyword": "The Future of Coding Is Agents, Not Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T13:30:50Z"}
+{"keyword": "OpenTelemetry en Spring Boot 3: cuando el log dice OK y el trace muestra el problema", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T19:06:09Z"}
+{"keyword": "OpenTelemetry on Spring Boot 3: when logs say OK and traces show the problem", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T19:06:15Z"}
+{"keyword": "Live Canary Deployments with AWS SAM, the New WebSocket API Resource, and Lambda Durable Functions", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T16:40:31Z"}
+{"keyword": "⭐ I gave Claude Code a real Ubuntu computer (and open-sourced the engine)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T15:23:23Z"}
+{"keyword": "How AI Can Help You Recover Your Bitcoin", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T10:18:21Z"}
+{"keyword": "Saving the World From AI... with AI!", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T12:46:04Z"}
+{"keyword": "Chat to build and schedule your own personal Hacker News email digest! 🎉", "platform": "devto", "value": 47.0, "timestamp": "2026-05-16T13:15:06Z"}
+{"keyword": "I Gave Hermes Agent 5 Impossible Tasks", "platform": "devto", "value": 164.0, "timestamp": "2026-05-16T08:34:50Z"}
+{"keyword": "I Ran Hermes Agent on the Same Task for 7 Days. The Skill File on Day 7 Looked Nothing Like Day 1.", "platform": "devto", "value": 14.0, "timestamp": "2026-05-16T04:05:21Z"}
+{"keyword": "I Added Three Rules to Gemma 4. The MoE Searched. The Dense Model Refused.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-16T14:28:27Z"}
+{"keyword": "Building a Ride Analysis Web App with Antigravity and the Strava API", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T13:00:00Z"}
+{"keyword": "🐝 Real-Life Debugging Story + Home Network Analysis: Peekyport 🫣", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T16:44:11Z"}
+{"keyword": "I Built an Enterprise Workflow Engine Like a Game Engine — And It Was the Right Call", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T08:14:40Z"}
+{"keyword": "Why every Claude Code-built site looks the same — and the image layer that breaks it", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T05:18:06Z"}
+{"keyword": "Prisma vs JDBC: the benchmark that almost made me blame the wrong ORM", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T01:36:53Z"}
+{"keyword": "Dead Internet Theory is happening on DEV", "platform": "devto", "value": 5.0, "timestamp": "2026-05-16T21:07:34Z"}
+{"keyword": "Maintaining an Agent-Searchable Profile: Public Impressions, Semantic Tags, and Real-Time Refresh", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T05:06:53Z"}
+{"keyword": "Observable Adversarial Behavior, Not Portable Adversarial Procedure", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T14:15:49Z"}
+{"keyword": "Self-Hosting Gemma 4 for Production Automation Revealed Two Ollama Bugs", "platform": "devto", "value": 4.0, "timestamp": "2026-05-16T11:27:31Z"}
+{"keyword": "I Built an Agent That Actually Reviews Your Pull Requests", "platform": "devto", "value": 5.0, "timestamp": "2026-05-16T16:39:00Z"}
+{"keyword": "VibeSafe", "platform": "devto", "value": 6.0, "timestamp": "2026-05-16T11:07:38Z"}
+{"keyword": "How to render code videos with React", "platform": "devto", "value": 6.0, "timestamp": "2026-05-16T17:39:09Z"}
+{"keyword": "Composer is just a console application", "platform": "devto", "value": 3.0, "timestamp": "2026-05-16T10:04:45Z"}
+{"keyword": "TWAP Oracles: How AMMs regulate crypto prices", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T06:24:30Z"}
+{"keyword": "I Beat Meta's LLM Guardrail With No GPU and No Team -Here's How", "platform": "devto", "value": 3.0, "timestamp": "2026-05-16T05:49:13Z"}
+{"keyword": "Building tiny-docker-go in Go: What I Learned from Building a Tiny Docker-like Runtime", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T15:14:08Z"}
+{"keyword": "The Solana Account Model Explained: Everything is an Account", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T21:31:20Z"}
+{"keyword": "The Future of Coding Is Agents, Not Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T13:30:50Z"}
+{"keyword": "OpenTelemetry en Spring Boot 3: cuando el log dice OK y el trace muestra el problema", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T19:06:09Z"}
+{"keyword": "OpenTelemetry on Spring Boot 3: when logs say OK and traces show the problem", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T19:06:15Z"}
+{"keyword": "Live Canary Deployments with AWS SAM, the New WebSocket API Resource, and Lambda Durable Functions", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T16:40:31Z"}
+{"keyword": "⭐ I gave Claude Code a real Ubuntu computer (and open-sourced the engine)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T15:23:23Z"}
+{"keyword": "How AI Can Help You Recover Your Bitcoin", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T10:18:21Z"}
+{"keyword": "Saving the World From AI... with AI!", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T12:46:04Z"}
+{"keyword": "Chat to build and schedule your own personal Hacker News email digest! 🎉", "platform": "devto", "value": 47.0, "timestamp": "2026-05-16T13:15:06Z"}
+{"keyword": "I Gave Hermes Agent 5 Impossible Tasks", "platform": "devto", "value": 164.0, "timestamp": "2026-05-16T08:34:50Z"}
+{"keyword": "I Ran Hermes Agent on the Same Task for 7 Days. The Skill File on Day 7 Looked Nothing Like Day 1.", "platform": "devto", "value": 14.0, "timestamp": "2026-05-16T04:05:21Z"}
+{"keyword": "I Added Three Rules to Gemma 4. The MoE Searched. The Dense Model Refused.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-16T14:28:27Z"}
+{"keyword": "Building a Ride Analysis Web App with Antigravity and the Strava API", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T13:00:00Z"}
+{"keyword": "🐝 Real-Life Debugging Story + Home Network Analysis: Peekyport 🫣", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T16:44:11Z"}
+{"keyword": "I Built an Enterprise Workflow Engine Like a Game Engine — And It Was the Right Call", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T08:14:40Z"}
+{"keyword": "Why every Claude Code-built site looks the same — and the image layer that breaks it", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T05:18:06Z"}
+{"keyword": "Prisma vs JDBC: the benchmark that almost made me blame the wrong ORM", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T01:36:53Z"}
+{"keyword": "Dead Internet Theory is happening on DEV", "platform": "devto", "value": 5.0, "timestamp": "2026-05-16T21:07:34Z"}
+{"keyword": "Maintaining an Agent-Searchable Profile: Public Impressions, Semantic Tags, and Real-Time Refresh", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T05:06:53Z"}
+{"keyword": "Observable Adversarial Behavior, Not Portable Adversarial Procedure", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T14:15:49Z"}
+{"keyword": "Self-Hosting Gemma 4 for Production Automation Revealed Two Ollama Bugs", "platform": "devto", "value": 4.0, "timestamp": "2026-05-16T11:27:31Z"}
+{"keyword": "I Built an Agent That Actually Reviews Your Pull Requests", "platform": "devto", "value": 5.0, "timestamp": "2026-05-16T16:39:00Z"}
+{"keyword": "VibeSafe", "platform": "devto", "value": 6.0, "timestamp": "2026-05-16T11:07:38Z"}
+{"keyword": "How to render code videos with React", "platform": "devto", "value": 6.0, "timestamp": "2026-05-16T17:39:09Z"}
+{"keyword": "Composer is just a console application", "platform": "devto", "value": 3.0, "timestamp": "2026-05-16T10:04:45Z"}
+{"keyword": "TWAP Oracles: How AMMs regulate crypto prices", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T06:24:30Z"}
+{"keyword": "I Beat Meta's LLM Guardrail With No GPU and No Team -Here's How", "platform": "devto", "value": 3.0, "timestamp": "2026-05-16T05:49:13Z"}
+{"keyword": "Building tiny-docker-go in Go: What I Learned from Building a Tiny Docker-like Runtime", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T15:14:08Z"}
+{"keyword": "The Solana Account Model Explained: Everything is an Account", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T21:31:20Z"}
+{"keyword": "The Future of Coding Is Agents, Not Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T13:30:50Z"}
+{"keyword": "OpenTelemetry en Spring Boot 3: cuando el log dice OK y el trace muestra el problema", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T19:06:09Z"}
+{"keyword": "OpenTelemetry on Spring Boot 3: when logs say OK and traces show the problem", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T19:06:15Z"}
+{"keyword": "Live Canary Deployments with AWS SAM, the New WebSocket API Resource, and Lambda Durable Functions", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T16:40:31Z"}
+{"keyword": "⭐ I gave Claude Code a real Ubuntu computer (and open-sourced the engine)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T15:23:23Z"}
+{"keyword": "How AI Can Help You Recover Your Bitcoin", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T10:18:21Z"}
+{"keyword": "Saving the World From AI... with AI!", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T12:46:04Z"}
+{"keyword": "Chat to build and schedule your own personal Hacker News email digest! 🎉", "platform": "devto", "value": 47.0, "timestamp": "2026-05-16T13:15:06Z"}
+{"keyword": "I Gave Hermes Agent 5 Impossible Tasks", "platform": "devto", "value": 164.0, "timestamp": "2026-05-16T08:34:50Z"}
+{"keyword": "I Ran Hermes Agent on the Same Task for 7 Days. The Skill File on Day 7 Looked Nothing Like Day 1.", "platform": "devto", "value": 14.0, "timestamp": "2026-05-16T04:05:21Z"}
+{"keyword": "I Added Three Rules to Gemma 4. The MoE Searched. The Dense Model Refused.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-16T14:28:27Z"}
+{"keyword": "Building a Ride Analysis Web App with Antigravity and the Strava API", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T13:00:00Z"}
+{"keyword": "🐝 Real-Life Debugging Story + Home Network Analysis: Peekyport 🫣", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T16:44:11Z"}
+{"keyword": "I Built an Enterprise Workflow Engine Like a Game Engine — And It Was the Right Call", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T08:14:40Z"}
+{"keyword": "Why every Claude Code-built site looks the same — and the image layer that breaks it", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T05:18:06Z"}
+{"keyword": "Prisma vs JDBC: the benchmark that almost made me blame the wrong ORM", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T01:36:53Z"}
+{"keyword": "Dead Internet Theory is happening on DEV", "platform": "devto", "value": 5.0, "timestamp": "2026-05-16T21:07:34Z"}
+{"keyword": "Maintaining an Agent-Searchable Profile: Public Impressions, Semantic Tags, and Real-Time Refresh", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T05:06:53Z"}
+{"keyword": "Observable Adversarial Behavior, Not Portable Adversarial Procedure", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T14:15:49Z"}
+{"keyword": "Self-Hosting Gemma 4 for Production Automation Revealed Two Ollama Bugs", "platform": "devto", "value": 4.0, "timestamp": "2026-05-16T11:27:31Z"}
+{"keyword": "I Built an Agent That Actually Reviews Your Pull Requests", "platform": "devto", "value": 5.0, "timestamp": "2026-05-16T16:39:00Z"}
+{"keyword": "VibeSafe", "platform": "devto", "value": 6.0, "timestamp": "2026-05-16T11:07:38Z"}
+{"keyword": "How to render code videos with React", "platform": "devto", "value": 6.0, "timestamp": "2026-05-16T17:39:09Z"}
+{"keyword": "Composer is just a console application", "platform": "devto", "value": 3.0, "timestamp": "2026-05-16T10:04:45Z"}
+{"keyword": "TWAP Oracles: How AMMs regulate crypto prices", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T06:24:30Z"}
+{"keyword": "I Beat Meta's LLM Guardrail With No GPU and No Team -Here's How", "platform": "devto", "value": 3.0, "timestamp": "2026-05-16T05:49:13Z"}
+{"keyword": "Building tiny-docker-go in Go: What I Learned from Building a Tiny Docker-like Runtime", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T15:14:08Z"}
+{"keyword": "The Solana Account Model Explained: Everything is an Account", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T21:31:20Z"}
+{"keyword": "The Future of Coding Is Agents, Not Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T13:30:50Z"}
+{"keyword": "OpenTelemetry en Spring Boot 3: cuando el log dice OK y el trace muestra el problema", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T19:06:09Z"}
+{"keyword": "OpenTelemetry on Spring Boot 3: when logs say OK and traces show the problem", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T19:06:15Z"}
+{"keyword": "Live Canary Deployments with AWS SAM, the New WebSocket API Resource, and Lambda Durable Functions", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T16:40:31Z"}
+{"keyword": "⭐ I gave Claude Code a real Ubuntu computer (and open-sourced the engine)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T15:23:23Z"}
+{"keyword": "How AI Can Help You Recover Your Bitcoin", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T10:18:21Z"}
+{"keyword": "Saving the World From AI... with AI!", "platform": "devto", "value": 1.0, "timestamp": "2026-05-16T12:46:04Z"}
