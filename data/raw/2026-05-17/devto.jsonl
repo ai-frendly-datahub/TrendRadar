@@ -58,3 +58,115 @@
 {"keyword": "Why Floci is built in Java (and why that's the right call in 2026)", "platform": "devto", "value": 3.0, "timestamp": "2026-05-16T18:35:05Z"}
 {"keyword": "OpenTelemetry on Spring Boot 3: when logs say OK and traces show the problem", "platform": "devto", "value": 0.0, "timestamp": "2026-05-16T19:06:15Z"}
 {"keyword": "⭐ I gave Claude Code a real Ubuntu computer (and open-sourced the engine)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-16T15:23:23Z"}
+{"keyword": "I built a real-time ASL interpreter for the Gemma4 challenge, no cloud needed", "platform": "devto", "value": 12.0, "timestamp": "2026-05-17T10:46:23Z"}
+{"keyword": "Mnemonic - local-first voice notes with Gemma 4 E4B", "platform": "devto", "value": 8.0, "timestamp": "2026-05-16T23:43:24Z"}
+{"keyword": "How to read any legacy codebase. The archaeology playbook.", "platform": "devto", "value": 12.0, "timestamp": "2026-05-17T04:25:00Z"}
+{"keyword": "I Built a Desktop App That Ends My “Open 7 Terminals and Pray” Routine", "platform": "devto", "value": 12.0, "timestamp": "2026-05-16T23:35:44Z"}
+{"keyword": "I Got Tired of Docker Eating My Raspberry Pi's RAM — So I Built My Own Container Orchestrator", "platform": "devto", "value": 15.0, "timestamp": "2026-05-16T23:33:55Z"}
+{"keyword": "What I actually learned using Gemma 4 for ASL recognition (spoiler: D kept showing up as 1)", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T10:55:47Z"}
+{"keyword": "I Tested Gemma 4 E4B vs 31B on 50 Real Student Career Queries — The Results Surprised Me", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T05:33:24Z"}
+{"keyword": "Indexing Solana Programs in Rust: Notes From a Python Backend Engineer", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T10:16:39Z"}
+{"keyword": "I Ran AI Models Directly in the Browser and Measured What It Did to Core Web Vitals", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T07:37:49Z"}
+{"keyword": "Running My Tiny Docker-like Runtime on macOS with Lima", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T14:40:30Z"}
+{"keyword": "How Resumable Uploads and Downloads Actually Work", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T12:29:02Z"}
+{"keyword": "I built a multi-tenant food delivery platform alone. Here's what nobody tells you about that.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T16:40:10Z"}
+{"keyword": "I built GHOST — an AI agent that actually fixes your slow laptop using Gemma 4 locally", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T14:35:11Z"}
+{"keyword": "When Chaos Wins: Adding Noise Improved My Snake AI's Stability", "platform": "devto", "value": 4.0, "timestamp": "2026-05-17T07:20:58Z"}
+{"keyword": "I Turned Obsidian Into a Live SOC Dashboard", "platform": "devto", "value": 1.0, "timestamp": "2026-05-17T02:02:44Z"}
+{"keyword": "The Delusion of Infinite Compute: Running Gemma 4 on an i5 CPU", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T15:19:51Z"}
+{"keyword": "Hermes Skill HQ: a knowledge base that teaches agents when to use skills", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T16:23:47Z"}
+{"keyword": "GemmaLink: Your Private Eye Assistant", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T13:57:22Z"}
+{"keyword": "Building a connect wallet button", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T01:44:48Z"}
+{"keyword": "SHENRON v0.3.3: From Telemetry Generator to Blue-Team Reasoning Instrument", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T02:03:39Z"}
+{"keyword": "Vayal AI: Tamil Voice + Vision Crop Advisory for Farmers Using Gemma 4", "platform": "devto", "value": 4.0, "timestamp": "2026-05-17T11:55:23Z"}
+{"keyword": "Building a Virtual IPL Captain with 5 Gemini Agents arguing Strategy (Google ADK Hackathon)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T12:47:08Z"}
+{"keyword": "The Future of AI Runs on Your Laptop: Testing Gemma 4 31B as Real Infrastructure", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T14:11:27Z"}
+{"keyword": "CodeGraph: Stop Your AI Agent From Grepping the Same Files 50 Times", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T17:29:58Z"}
+{"keyword": "OpenAgent for Obsidian: Local-Only Grounded Research with Gemma 4", "platform": "devto", "value": 13.0, "timestamp": "2026-05-17T13:00:35Z"}
+{"keyword": "Aggregate Benchmarks Lie. Here's What 700 AI Functions Look Like by Security Domain.", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T15:40:50Z"}
+{"keyword": "Why your Tailwind project feels unmaintainable, and how to structure CSS instead", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T02:02:04Z"}
+{"keyword": "Debugging Multi-Agent Systems in TypeScript: From Flat Logs to Execution Trees", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T18:25:38Z"}
+{"keyword": "I built a real-time ASL interpreter for the Gemma4 challenge, no cloud needed", "platform": "devto", "value": 12.0, "timestamp": "2026-05-17T10:46:23Z"}
+{"keyword": "Mnemonic - local-first voice notes with Gemma 4 E4B", "platform": "devto", "value": 8.0, "timestamp": "2026-05-16T23:43:24Z"}
+{"keyword": "How to read any legacy codebase. The archaeology playbook.", "platform": "devto", "value": 12.0, "timestamp": "2026-05-17T04:25:00Z"}
+{"keyword": "I Built a Desktop App That Ends My “Open 7 Terminals and Pray” Routine", "platform": "devto", "value": 12.0, "timestamp": "2026-05-16T23:35:44Z"}
+{"keyword": "I Got Tired of Docker Eating My Raspberry Pi's RAM — So I Built My Own Container Orchestrator", "platform": "devto", "value": 15.0, "timestamp": "2026-05-16T23:33:55Z"}
+{"keyword": "What I actually learned using Gemma 4 for ASL recognition (spoiler: D kept showing up as 1)", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T10:55:47Z"}
+{"keyword": "I Tested Gemma 4 E4B vs 31B on 50 Real Student Career Queries — The Results Surprised Me", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T05:33:24Z"}
+{"keyword": "Indexing Solana Programs in Rust: Notes From a Python Backend Engineer", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T10:16:39Z"}
+{"keyword": "I Ran AI Models Directly in the Browser and Measured What It Did to Core Web Vitals", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T07:37:49Z"}
+{"keyword": "Running My Tiny Docker-like Runtime on macOS with Lima", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T14:40:30Z"}
+{"keyword": "How Resumable Uploads and Downloads Actually Work", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T12:29:02Z"}
+{"keyword": "I built a multi-tenant food delivery platform alone. Here's what nobody tells you about that.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T16:40:10Z"}
+{"keyword": "I built GHOST — an AI agent that actually fixes your slow laptop using Gemma 4 locally", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T14:35:11Z"}
+{"keyword": "When Chaos Wins: Adding Noise Improved My Snake AI's Stability", "platform": "devto", "value": 4.0, "timestamp": "2026-05-17T07:20:58Z"}
+{"keyword": "I Turned Obsidian Into a Live SOC Dashboard", "platform": "devto", "value": 1.0, "timestamp": "2026-05-17T02:02:44Z"}
+{"keyword": "The Delusion of Infinite Compute: Running Gemma 4 on an i5 CPU", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T15:19:51Z"}
+{"keyword": "Hermes Skill HQ: a knowledge base that teaches agents when to use skills", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T16:23:47Z"}
+{"keyword": "GemmaLink: Your Private Eye Assistant", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T13:57:22Z"}
+{"keyword": "Building a connect wallet button", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T01:44:48Z"}
+{"keyword": "SHENRON v0.3.3: From Telemetry Generator to Blue-Team Reasoning Instrument", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T02:03:39Z"}
+{"keyword": "Vayal AI: Tamil Voice + Vision Crop Advisory for Farmers Using Gemma 4", "platform": "devto", "value": 4.0, "timestamp": "2026-05-17T11:55:23Z"}
+{"keyword": "Building a Virtual IPL Captain with 5 Gemini Agents arguing Strategy (Google ADK Hackathon)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T12:47:08Z"}
+{"keyword": "The Future of AI Runs on Your Laptop: Testing Gemma 4 31B as Real Infrastructure", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T14:11:27Z"}
+{"keyword": "CodeGraph: Stop Your AI Agent From Grepping the Same Files 50 Times", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T17:29:58Z"}
+{"keyword": "OpenAgent for Obsidian: Local-Only Grounded Research with Gemma 4", "platform": "devto", "value": 13.0, "timestamp": "2026-05-17T13:00:35Z"}
+{"keyword": "Aggregate Benchmarks Lie. Here's What 700 AI Functions Look Like by Security Domain.", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T15:40:50Z"}
+{"keyword": "Why your Tailwind project feels unmaintainable, and how to structure CSS instead", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T02:02:04Z"}
+{"keyword": "Debugging Multi-Agent Systems in TypeScript: From Flat Logs to Execution Trees", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T18:25:38Z"}
+{"keyword": "I built a real-time ASL interpreter for the Gemma4 challenge, no cloud needed", "platform": "devto", "value": 12.0, "timestamp": "2026-05-17T10:46:23Z"}
+{"keyword": "Mnemonic - local-first voice notes with Gemma 4 E4B", "platform": "devto", "value": 8.0, "timestamp": "2026-05-16T23:43:24Z"}
+{"keyword": "How to read any legacy codebase. The archaeology playbook.", "platform": "devto", "value": 12.0, "timestamp": "2026-05-17T04:25:00Z"}
+{"keyword": "I Built a Desktop App That Ends My “Open 7 Terminals and Pray” Routine", "platform": "devto", "value": 12.0, "timestamp": "2026-05-16T23:35:44Z"}
+{"keyword": "I Got Tired of Docker Eating My Raspberry Pi's RAM — So I Built My Own Container Orchestrator", "platform": "devto", "value": 15.0, "timestamp": "2026-05-16T23:33:55Z"}
+{"keyword": "What I actually learned using Gemma 4 for ASL recognition (spoiler: D kept showing up as 1)", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T10:55:47Z"}
+{"keyword": "I Tested Gemma 4 E4B vs 31B on 50 Real Student Career Queries — The Results Surprised Me", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T05:33:24Z"}
+{"keyword": "Indexing Solana Programs in Rust: Notes From a Python Backend Engineer", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T10:16:39Z"}
+{"keyword": "I Ran AI Models Directly in the Browser and Measured What It Did to Core Web Vitals", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T07:37:49Z"}
+{"keyword": "Running My Tiny Docker-like Runtime on macOS with Lima", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T14:40:30Z"}
+{"keyword": "How Resumable Uploads and Downloads Actually Work", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T12:29:02Z"}
+{"keyword": "I built a multi-tenant food delivery platform alone. Here's what nobody tells you about that.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T16:40:10Z"}
+{"keyword": "I built GHOST — an AI agent that actually fixes your slow laptop using Gemma 4 locally", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T14:35:11Z"}
+{"keyword": "When Chaos Wins: Adding Noise Improved My Snake AI's Stability", "platform": "devto", "value": 4.0, "timestamp": "2026-05-17T07:20:58Z"}
+{"keyword": "I Turned Obsidian Into a Live SOC Dashboard", "platform": "devto", "value": 1.0, "timestamp": "2026-05-17T02:02:44Z"}
+{"keyword": "The Delusion of Infinite Compute: Running Gemma 4 on an i5 CPU", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T15:19:51Z"}
+{"keyword": "Hermes Skill HQ: a knowledge base that teaches agents when to use skills", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T16:23:47Z"}
+{"keyword": "GemmaLink: Your Private Eye Assistant", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T13:57:22Z"}
+{"keyword": "Building a connect wallet button", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T01:44:48Z"}
+{"keyword": "SHENRON v0.3.3: From Telemetry Generator to Blue-Team Reasoning Instrument", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T02:03:39Z"}
+{"keyword": "Vayal AI: Tamil Voice + Vision Crop Advisory for Farmers Using Gemma 4", "platform": "devto", "value": 4.0, "timestamp": "2026-05-17T11:55:23Z"}
+{"keyword": "Building a Virtual IPL Captain with 5 Gemini Agents arguing Strategy (Google ADK Hackathon)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T12:47:08Z"}
+{"keyword": "The Future of AI Runs on Your Laptop: Testing Gemma 4 31B as Real Infrastructure", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T14:11:27Z"}
+{"keyword": "CodeGraph: Stop Your AI Agent From Grepping the Same Files 50 Times", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T17:29:58Z"}
+{"keyword": "OpenAgent for Obsidian: Local-Only Grounded Research with Gemma 4", "platform": "devto", "value": 13.0, "timestamp": "2026-05-17T13:00:35Z"}
+{"keyword": "Aggregate Benchmarks Lie. Here's What 700 AI Functions Look Like by Security Domain.", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T15:40:50Z"}
+{"keyword": "Why your Tailwind project feels unmaintainable, and how to structure CSS instead", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T02:02:04Z"}
+{"keyword": "Debugging Multi-Agent Systems in TypeScript: From Flat Logs to Execution Trees", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T18:25:38Z"}
+{"keyword": "I built a real-time ASL interpreter for the Gemma4 challenge, no cloud needed", "platform": "devto", "value": 12.0, "timestamp": "2026-05-17T10:46:23Z"}
+{"keyword": "Mnemonic - local-first voice notes with Gemma 4 E4B", "platform": "devto", "value": 8.0, "timestamp": "2026-05-16T23:43:24Z"}
+{"keyword": "How to read any legacy codebase. The archaeology playbook.", "platform": "devto", "value": 12.0, "timestamp": "2026-05-17T04:25:00Z"}
+{"keyword": "I Built a Desktop App That Ends My “Open 7 Terminals and Pray” Routine", "platform": "devto", "value": 12.0, "timestamp": "2026-05-16T23:35:44Z"}
+{"keyword": "I Got Tired of Docker Eating My Raspberry Pi's RAM — So I Built My Own Container Orchestrator", "platform": "devto", "value": 15.0, "timestamp": "2026-05-16T23:33:55Z"}
+{"keyword": "What I actually learned using Gemma 4 for ASL recognition (spoiler: D kept showing up as 1)", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T10:55:47Z"}
+{"keyword": "I Tested Gemma 4 E4B vs 31B on 50 Real Student Career Queries — The Results Surprised Me", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T05:33:24Z"}
+{"keyword": "Indexing Solana Programs in Rust: Notes From a Python Backend Engineer", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T10:16:39Z"}
+{"keyword": "I Ran AI Models Directly in the Browser and Measured What It Did to Core Web Vitals", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T07:37:49Z"}
+{"keyword": "Running My Tiny Docker-like Runtime on macOS with Lima", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T14:40:30Z"}
+{"keyword": "How Resumable Uploads and Downloads Actually Work", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T12:29:02Z"}
+{"keyword": "I built a multi-tenant food delivery platform alone. Here's what nobody tells you about that.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T16:40:10Z"}
+{"keyword": "I built GHOST — an AI agent that actually fixes your slow laptop using Gemma 4 locally", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T14:35:11Z"}
+{"keyword": "When Chaos Wins: Adding Noise Improved My Snake AI's Stability", "platform": "devto", "value": 4.0, "timestamp": "2026-05-17T07:20:58Z"}
+{"keyword": "I Turned Obsidian Into a Live SOC Dashboard", "platform": "devto", "value": 1.0, "timestamp": "2026-05-17T02:02:44Z"}
+{"keyword": "The Delusion of Infinite Compute: Running Gemma 4 on an i5 CPU", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T15:19:51Z"}
+{"keyword": "Hermes Skill HQ: a knowledge base that teaches agents when to use skills", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T16:23:47Z"}
+{"keyword": "GemmaLink: Your Private Eye Assistant", "platform": "devto", "value": 6.0, "timestamp": "2026-05-17T13:57:22Z"}
+{"keyword": "Building a connect wallet button", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T01:44:48Z"}
+{"keyword": "SHENRON v0.3.3: From Telemetry Generator to Blue-Team Reasoning Instrument", "platform": "devto", "value": 3.0, "timestamp": "2026-05-17T02:03:39Z"}
+{"keyword": "Vayal AI: Tamil Voice + Vision Crop Advisory for Farmers Using Gemma 4", "platform": "devto", "value": 4.0, "timestamp": "2026-05-17T11:55:23Z"}
+{"keyword": "Building a Virtual IPL Captain with 5 Gemini Agents arguing Strategy (Google ADK Hackathon)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T12:47:08Z"}
+{"keyword": "The Future of AI Runs on Your Laptop: Testing Gemma 4 31B as Real Infrastructure", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T14:11:27Z"}
+{"keyword": "CodeGraph: Stop Your AI Agent From Grepping the Same Files 50 Times", "platform": "devto", "value": 5.0, "timestamp": "2026-05-17T17:29:58Z"}
+{"keyword": "OpenAgent for Obsidian: Local-Only Grounded Research with Gemma 4", "platform": "devto", "value": 13.0, "timestamp": "2026-05-17T13:00:35Z"}
+{"keyword": "Aggregate Benchmarks Lie. Here's What 700 AI Functions Look Like by Security Domain.", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T15:40:50Z"}
+{"keyword": "Why your Tailwind project feels unmaintainable, and how to structure CSS instead", "platform": "devto", "value": 2.0, "timestamp": "2026-05-17T02:02:04Z"}
+{"keyword": "Debugging Multi-Agent Systems in TypeScript: From Flat Logs to Execution Trees", "platform": "devto", "value": 0.0, "timestamp": "2026-05-17T18:25:38Z"}
