@@ -6,11 +6,11 @@
   "matched_count": 165,
   "top_entities": [
     {
-      "name": "Seoul",
+      "name": "Machine learning",
       "count": 5
     },
     {
-      "name": "E-commerce",
+      "name": "Seoul",
       "count": 5
     },
     {
@@ -22,15 +22,19 @@
       "count": 5
     },
     {
-      "name": "World Wide Web",
-      "count": 5
-    },
-    {
       "name": "Artificial intelligence",
       "count": 5
     },
     {
+      "name": "OpenAI",
+      "count": 5
+    },
+    {
       "name": "K-pop",
+      "count": 5
+    },
+    {
+      "name": "World Wide Web",
       "count": 5
     },
     {
@@ -54,23 +58,23 @@
       "count": 5
     },
     {
+      "name": "E-commerce",
+      "count": 5
+    },
+    {
       "name": "YouTube",
       "count": 5
     },
     {
-      "name": "OpenAI",
-      "count": 5
-    },
-    {
-      "name": "Machine learning",
-      "count": 5
-    },
-    {
-      "name": "케이팝",
+      "name": "유명인",
       "count": 3
     },
     {
-      "name": "뉴진스",
+      "name": "아파트 매매",
+      "count": 3
+    },
+    {
+      "name": "가수",
       "count": 3
     },
     {
@@ -78,17 +82,13 @@
       "count": 3
     },
     {
-      "name": "아이돌",
-      "count": 3
-    },
-    {
-      "name": "에스파",
+      "name": "전세 시세",
       "count": 3
     }
   ],
   "sources": {
-    "wikipedia": 75,
-    "google": 90
+    "google": 90,
+    "wikipedia": 75
   },
-  "generated_at": "2026-05-18T22:42:49.773295+09:00"
+  "generated_at": "2026-05-18T22:59:25.063799+00:00"
 }
