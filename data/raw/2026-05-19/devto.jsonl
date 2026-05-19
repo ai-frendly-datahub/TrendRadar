@@ -110,3 +110,119 @@
 {"keyword": "Tollere got an update. Still intentionally simple.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T06:31:37Z"}
 {"keyword": "The second-order cost of a(nother) layoff year.", "platform": "devto", "value": 1.0, "timestamp": "2026-05-18T23:14:46Z"}
 {"keyword": "Goodbye Nginx and Redis: Building a Zero-Service Monolith in Rails 8", "platform": "devto", "value": 0.0, "timestamp": "2026-05-18T16:08:35Z"}
+{"keyword": "Demystifying AI Agents with Turtle & Gemma", "platform": "devto", "value": 41.0, "timestamp": "2026-05-19T00:37:24Z"}
+{"keyword": "Great Little Software: Rackula", "platform": "devto", "value": 7.0, "timestamp": "2026-05-19T16:31:46Z"}
+{"keyword": "What If Every Phone in the Room Was a Game Controller — in the Age of AI?", "platform": "devto", "value": 45.0, "timestamp": "2026-05-19T07:42:27Z"}
+{"keyword": "What Happens When You Run `npm run dev`", "platform": "devto", "value": 8.0, "timestamp": "2026-05-19T18:45:40Z"}
+{"keyword": "The portfolio math. When 30 small apps beat 1 big one.", "platform": "devto", "value": 16.0, "timestamp": "2026-05-19T03:36:50Z"}
+{"keyword": "Hermes Just Killed OpenClaw (Here's Why)", "platform": "devto", "value": 33.0, "timestamp": "2026-05-19T13:12:33Z"}
+{"keyword": "How one bad prompt burned $40 of my Claude budget in 18 minutes", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T14:15:01Z"}
+{"keyword": "I built a free debugger because Next.js 16 'use cache' was completely invisible during development", "platform": "devto", "value": 11.0, "timestamp": "2026-05-19T10:29:28Z"}
+{"keyword": "Gemma-San — A Teacher in Every Pocket.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-19T19:33:57Z"}
+{"keyword": "Instruction systems capability ladder: harness leveling", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T06:53:07Z"}
+{"keyword": "The second-order cost of a(nother) layoff year.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-18T23:14:46Z"}
+{"keyword": "How I Cut Load Time by 60% Using Next.js App Router", "platform": "devto", "value": 7.0, "timestamp": "2026-05-19T08:06:35Z"}
+{"keyword": "Why Every Hacker Eventually Falls in Love With Old ThinkPads", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T12:43:08Z"}
+{"keyword": "Definitely looking forward to using Antigravity 2.0", "platform": "devto", "value": 3.0, "timestamp": "2026-05-19T17:27:33Z"}
+{"keyword": "AI isn't replacing junior devs. Your org chart is.", "platform": "devto", "value": 19.0, "timestamp": "2026-05-19T15:50:26Z"}
+{"keyword": "API Calls Done Right: From Messy Fetch to Clean Data Layer", "platform": "devto", "value": 17.0, "timestamp": "2026-05-19T07:30:00Z"}
+{"keyword": "Your Agent Sessions Belong in Your Codebase: Nullius in Verba", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T08:56:46Z"}
+{"keyword": "Post-mortems and RCAs: why you should be doing them", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T16:36:01Z"}
+{"keyword": "Best AI Tools for CMOs in 2026: The Stack Smart Marketing Leaders Are Actually Using", "platform": "devto", "value": 27.0, "timestamp": "2026-05-19T09:00:07Z"}
+{"keyword": "3 takeaways from the IO '26 developer keynote", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:53:04Z"}
+{"keyword": "AI agents are only as useful as the tools they can safely touch", "platform": "devto", "value": 2.0, "timestamp": "2026-05-19T15:18:06Z"}
+{"keyword": "Found a Coordinated GitHub Follow Botnet Hiding in My Followers?", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:32:45Z"}
+{"keyword": "Gemma 4 Is the First Open Model I'd Actually Recommend to a Client", "platform": "devto", "value": 6.0, "timestamp": "2026-05-19T10:56:33Z"}
+{"keyword": "I Built a DAW and a DJ Tool in the Browser Because My English Teacher Asked", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:31:06Z"}
+{"keyword": "It might seem slower or old-school. But it forces me to stay in control", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T13:31:51Z"}
+{"keyword": "What AI Tools, MCP Servers, and Skills Actually Do", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T13:39:13Z"}
+{"keyword": "Your benchmarks are lying to you, and your judge is to blame!", "platform": "devto", "value": 17.0, "timestamp": "2026-05-19T09:18:00Z"}
+{"keyword": "Frameworks matter more in the age of AI", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T16:39:56Z"}
+{"keyword": "Build MCP Servers that don't suck...tokens.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-19T00:27:45Z"}
+{"keyword": "Demystifying AI Agents with Turtle & Gemma", "platform": "devto", "value": 41.0, "timestamp": "2026-05-19T00:37:24Z"}
+{"keyword": "Great Little Software: Rackula", "platform": "devto", "value": 7.0, "timestamp": "2026-05-19T16:31:46Z"}
+{"keyword": "What If Every Phone in the Room Was a Game Controller — in the Age of AI?", "platform": "devto", "value": 45.0, "timestamp": "2026-05-19T07:42:27Z"}
+{"keyword": "What Happens When You Run `npm run dev`", "platform": "devto", "value": 8.0, "timestamp": "2026-05-19T18:45:40Z"}
+{"keyword": "The portfolio math. When 30 small apps beat 1 big one.", "platform": "devto", "value": 16.0, "timestamp": "2026-05-19T03:36:50Z"}
+{"keyword": "Hermes Just Killed OpenClaw (Here's Why)", "platform": "devto", "value": 33.0, "timestamp": "2026-05-19T13:12:33Z"}
+{"keyword": "How one bad prompt burned $40 of my Claude budget in 18 minutes", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T14:15:01Z"}
+{"keyword": "I built a free debugger because Next.js 16 'use cache' was completely invisible during development", "platform": "devto", "value": 11.0, "timestamp": "2026-05-19T10:29:28Z"}
+{"keyword": "Gemma-San — A Teacher in Every Pocket.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-19T19:33:57Z"}
+{"keyword": "Instruction systems capability ladder: harness leveling", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T06:53:07Z"}
+{"keyword": "The second-order cost of a(nother) layoff year.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-18T23:14:46Z"}
+{"keyword": "How I Cut Load Time by 60% Using Next.js App Router", "platform": "devto", "value": 7.0, "timestamp": "2026-05-19T08:06:35Z"}
+{"keyword": "Why Every Hacker Eventually Falls in Love With Old ThinkPads", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T12:43:08Z"}
+{"keyword": "Definitely looking forward to using Antigravity 2.0", "platform": "devto", "value": 3.0, "timestamp": "2026-05-19T17:27:33Z"}
+{"keyword": "AI isn't replacing junior devs. Your org chart is.", "platform": "devto", "value": 19.0, "timestamp": "2026-05-19T15:50:26Z"}
+{"keyword": "API Calls Done Right: From Messy Fetch to Clean Data Layer", "platform": "devto", "value": 17.0, "timestamp": "2026-05-19T07:30:00Z"}
+{"keyword": "Your Agent Sessions Belong in Your Codebase: Nullius in Verba", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T08:56:46Z"}
+{"keyword": "Post-mortems and RCAs: why you should be doing them", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T16:36:01Z"}
+{"keyword": "Best AI Tools for CMOs in 2026: The Stack Smart Marketing Leaders Are Actually Using", "platform": "devto", "value": 27.0, "timestamp": "2026-05-19T09:00:07Z"}
+{"keyword": "3 takeaways from the IO '26 developer keynote", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:53:04Z"}
+{"keyword": "AI agents are only as useful as the tools they can safely touch", "platform": "devto", "value": 2.0, "timestamp": "2026-05-19T15:18:06Z"}
+{"keyword": "Found a Coordinated GitHub Follow Botnet Hiding in My Followers?", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:32:45Z"}
+{"keyword": "Gemma 4 Is the First Open Model I'd Actually Recommend to a Client", "platform": "devto", "value": 6.0, "timestamp": "2026-05-19T10:56:33Z"}
+{"keyword": "I Built a DAW and a DJ Tool in the Browser Because My English Teacher Asked", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:31:06Z"}
+{"keyword": "It might seem slower or old-school. But it forces me to stay in control", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T13:31:51Z"}
+{"keyword": "What AI Tools, MCP Servers, and Skills Actually Do", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T13:39:13Z"}
+{"keyword": "Your benchmarks are lying to you, and your judge is to blame!", "platform": "devto", "value": 17.0, "timestamp": "2026-05-19T09:18:00Z"}
+{"keyword": "Frameworks matter more in the age of AI", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T16:39:56Z"}
+{"keyword": "Build MCP Servers that don't suck...tokens.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-19T00:27:45Z"}
+{"keyword": "Demystifying AI Agents with Turtle & Gemma", "platform": "devto", "value": 41.0, "timestamp": "2026-05-19T00:37:24Z"}
+{"keyword": "Great Little Software: Rackula", "platform": "devto", "value": 7.0, "timestamp": "2026-05-19T16:31:46Z"}
+{"keyword": "What If Every Phone in the Room Was a Game Controller — in the Age of AI?", "platform": "devto", "value": 45.0, "timestamp": "2026-05-19T07:42:27Z"}
+{"keyword": "What Happens When You Run `npm run dev`", "platform": "devto", "value": 8.0, "timestamp": "2026-05-19T18:45:40Z"}
+{"keyword": "The portfolio math. When 30 small apps beat 1 big one.", "platform": "devto", "value": 16.0, "timestamp": "2026-05-19T03:36:50Z"}
+{"keyword": "Hermes Just Killed OpenClaw (Here's Why)", "platform": "devto", "value": 33.0, "timestamp": "2026-05-19T13:12:33Z"}
+{"keyword": "How one bad prompt burned $40 of my Claude budget in 18 minutes", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T14:15:01Z"}
+{"keyword": "I built a free debugger because Next.js 16 'use cache' was completely invisible during development", "platform": "devto", "value": 11.0, "timestamp": "2026-05-19T10:29:28Z"}
+{"keyword": "Gemma-San — A Teacher in Every Pocket.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-19T19:33:57Z"}
+{"keyword": "Instruction systems capability ladder: harness leveling", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T06:53:07Z"}
+{"keyword": "The second-order cost of a(nother) layoff year.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-18T23:14:46Z"}
+{"keyword": "How I Cut Load Time by 60% Using Next.js App Router", "platform": "devto", "value": 7.0, "timestamp": "2026-05-19T08:06:35Z"}
+{"keyword": "Why Every Hacker Eventually Falls in Love With Old ThinkPads", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T12:43:08Z"}
+{"keyword": "Definitely looking forward to using Antigravity 2.0", "platform": "devto", "value": 3.0, "timestamp": "2026-05-19T17:27:33Z"}
+{"keyword": "AI isn't replacing junior devs. Your org chart is.", "platform": "devto", "value": 19.0, "timestamp": "2026-05-19T15:50:26Z"}
+{"keyword": "API Calls Done Right: From Messy Fetch to Clean Data Layer", "platform": "devto", "value": 17.0, "timestamp": "2026-05-19T07:30:00Z"}
+{"keyword": "Your Agent Sessions Belong in Your Codebase: Nullius in Verba", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T08:56:46Z"}
+{"keyword": "Post-mortems and RCAs: why you should be doing them", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T16:36:01Z"}
+{"keyword": "Best AI Tools for CMOs in 2026: The Stack Smart Marketing Leaders Are Actually Using", "platform": "devto", "value": 27.0, "timestamp": "2026-05-19T09:00:07Z"}
+{"keyword": "3 takeaways from the IO '26 developer keynote", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:53:04Z"}
+{"keyword": "AI agents are only as useful as the tools they can safely touch", "platform": "devto", "value": 2.0, "timestamp": "2026-05-19T15:18:06Z"}
+{"keyword": "Found a Coordinated GitHub Follow Botnet Hiding in My Followers?", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:32:45Z"}
+{"keyword": "Gemma 4 Is the First Open Model I'd Actually Recommend to a Client", "platform": "devto", "value": 6.0, "timestamp": "2026-05-19T10:56:33Z"}
+{"keyword": "I Built a DAW and a DJ Tool in the Browser Because My English Teacher Asked", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:31:06Z"}
+{"keyword": "It might seem slower or old-school. But it forces me to stay in control", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T13:31:51Z"}
+{"keyword": "What AI Tools, MCP Servers, and Skills Actually Do", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T13:39:13Z"}
+{"keyword": "Your benchmarks are lying to you, and your judge is to blame!", "platform": "devto", "value": 17.0, "timestamp": "2026-05-19T09:18:00Z"}
+{"keyword": "Frameworks matter more in the age of AI", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T16:39:56Z"}
+{"keyword": "Build MCP Servers that don't suck...tokens.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-19T00:27:45Z"}
+{"keyword": "Demystifying AI Agents with Turtle & Gemma", "platform": "devto", "value": 41.0, "timestamp": "2026-05-19T00:37:24Z"}
+{"keyword": "Great Little Software: Rackula", "platform": "devto", "value": 7.0, "timestamp": "2026-05-19T16:31:46Z"}
+{"keyword": "What If Every Phone in the Room Was a Game Controller — in the Age of AI?", "platform": "devto", "value": 45.0, "timestamp": "2026-05-19T07:42:27Z"}
+{"keyword": "What Happens When You Run `npm run dev`", "platform": "devto", "value": 8.0, "timestamp": "2026-05-19T18:45:40Z"}
+{"keyword": "The portfolio math. When 30 small apps beat 1 big one.", "platform": "devto", "value": 16.0, "timestamp": "2026-05-19T03:36:50Z"}
+{"keyword": "Hermes Just Killed OpenClaw (Here's Why)", "platform": "devto", "value": 33.0, "timestamp": "2026-05-19T13:12:33Z"}
+{"keyword": "How one bad prompt burned $40 of my Claude budget in 18 minutes", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T14:15:01Z"}
+{"keyword": "I built a free debugger because Next.js 16 'use cache' was completely invisible during development", "platform": "devto", "value": 11.0, "timestamp": "2026-05-19T10:29:28Z"}
+{"keyword": "Gemma-San — A Teacher in Every Pocket.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-19T19:33:57Z"}
+{"keyword": "Instruction systems capability ladder: harness leveling", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T06:53:07Z"}
+{"keyword": "The second-order cost of a(nother) layoff year.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-18T23:14:46Z"}
+{"keyword": "How I Cut Load Time by 60% Using Next.js App Router", "platform": "devto", "value": 7.0, "timestamp": "2026-05-19T08:06:35Z"}
+{"keyword": "Why Every Hacker Eventually Falls in Love With Old ThinkPads", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T12:43:08Z"}
+{"keyword": "Definitely looking forward to using Antigravity 2.0", "platform": "devto", "value": 3.0, "timestamp": "2026-05-19T17:27:33Z"}
+{"keyword": "AI isn't replacing junior devs. Your org chart is.", "platform": "devto", "value": 19.0, "timestamp": "2026-05-19T15:50:26Z"}
+{"keyword": "API Calls Done Right: From Messy Fetch to Clean Data Layer", "platform": "devto", "value": 17.0, "timestamp": "2026-05-19T07:30:00Z"}
+{"keyword": "Your Agent Sessions Belong in Your Codebase: Nullius in Verba", "platform": "devto", "value": 1.0, "timestamp": "2026-05-19T08:56:46Z"}
+{"keyword": "Post-mortems and RCAs: why you should be doing them", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T16:36:01Z"}
+{"keyword": "Best AI Tools for CMOs in 2026: The Stack Smart Marketing Leaders Are Actually Using", "platform": "devto", "value": 27.0, "timestamp": "2026-05-19T09:00:07Z"}
+{"keyword": "3 takeaways from the IO '26 developer keynote", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:53:04Z"}
+{"keyword": "AI agents are only as useful as the tools they can safely touch", "platform": "devto", "value": 2.0, "timestamp": "2026-05-19T15:18:06Z"}
+{"keyword": "Found a Coordinated GitHub Follow Botnet Hiding in My Followers?", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:32:45Z"}
+{"keyword": "Gemma 4 Is the First Open Model I'd Actually Recommend to a Client", "platform": "devto", "value": 6.0, "timestamp": "2026-05-19T10:56:33Z"}
+{"keyword": "I Built a DAW and a DJ Tool in the Browser Because My English Teacher Asked", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T21:31:06Z"}
+{"keyword": "It might seem slower or old-school. But it forces me to stay in control", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T13:31:51Z"}
+{"keyword": "What AI Tools, MCP Servers, and Skills Actually Do", "platform": "devto", "value": 0.0, "timestamp": "2026-05-19T13:39:13Z"}
+{"keyword": "Your benchmarks are lying to you, and your judge is to blame!", "platform": "devto", "value": 17.0, "timestamp": "2026-05-19T09:18:00Z"}
+{"keyword": "Frameworks matter more in the age of AI", "platform": "devto", "value": 5.0, "timestamp": "2026-05-19T16:39:56Z"}
+{"keyword": "Build MCP Servers that don't suck...tokens.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-19T00:27:45Z"}
