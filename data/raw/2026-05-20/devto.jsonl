@@ -50,3 +50,111 @@
 {"keyword": "Freshworks Just Shipped an MCP Gateway Inside Its ITSM Platform. Here's What That Actually Changes.", "platform": "devto", "value": 10.0, "timestamp": "2026-05-20T09:43:29Z"}
 {"keyword": "Book Review: Operational AI with Docker", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T07:32:00Z"}
 {"keyword": "AI agents are becoming the new IDE. Keep your hands on the wheel.", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T08:03:48Z"}
+{"keyword": "Google I/O 2026 - Day 1 - Live from the Front Row", "platform": "devto", "value": 13.0, "timestamp": "2026-05-20T15:02:06Z"}
+{"keyword": "MCP Just Landed on Your Phone: What Google AI Edge Gallery Actually Does", "platform": "devto", "value": 16.0, "timestamp": "2026-05-20T17:09:24Z"}
+{"keyword": "Working With Japanese Clients Humbled Me Faster Than I Expected", "platform": "devto", "value": 21.0, "timestamp": "2026-05-20T05:27:44Z"}
+{"keyword": "I decided to build a Kubernetes alternative. Yes, I know I'm crazy", "platform": "devto", "value": 17.0, "timestamp": "2026-05-20T11:44:59Z"}
+{"keyword": "Google AI Edge Gallery Now Runs MCP On-Device. The Privacy Architecture", "platform": "devto", "value": 27.0, "timestamp": "2026-05-20T00:44:23Z"}
+{"keyword": "GitHub Got Breached Through a VS Code Extension. MCP Servers Are Next.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:01:08Z"}
+{"keyword": "Book Review: Operational AI with Docker", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T07:32:00Z"}
+{"keyword": "The Mid-Dev Paradox: Why Juniors Are Chill and Mid-Levels Will Reorganize Your Code at 3 AM", "platform": "devto", "value": 7.0, "timestamp": "2026-05-20T09:58:51Z"}
+{"keyword": "Care Compass: Pairing Gemma 4 With Signed Policy Evidence for Healthcare Navigation", "platform": "devto", "value": 3.0, "timestamp": "2026-05-20T04:45:48Z"}
+{"keyword": "My 6-year-old asks 400 questions a day. So I built him a Gemma 4 AI tutor.", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T12:26:19Z"}
+{"keyword": "Shipping on Gemma 4: chain-of-thought leakage, MoE-vs-Dense, and on-device pragmatism", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T12:42:41Z"}
+{"keyword": "Google I/O Just Made MCP Inevitable", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T19:01:30Z"}
+{"keyword": "Which OpenAPI Codegen Should You Choose? openapi-typescript vs hey-api vs Orval vs Kubb", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T13:34:57Z"}
+{"keyword": "Claprec: Database Design - Modeling the Data (5/6)", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T11:41:14Z"}
+{"keyword": "Your Story: Local Gemma 4 Interactive Fiction That Remembers Your Choices", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T04:11:33Z"}
+{"keyword": "DevBrief — AI Standup Writer Powered by Hermes Agent (Vercel + Render)", "platform": "devto", "value": 10.0, "timestamp": "2026-05-20T04:27:47Z"}
+{"keyword": "I Built a Tool for Turning Customer Reviews Into Shareable Cards — Here's What It Does", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T06:31:03Z"}
+{"keyword": "Hermes Agent: Autonomous SEO engineer for 11ty", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T07:59:37Z"}
+{"keyword": "Shipping Your Machine: Building a Container in 50 Lines of Code (Part 1)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T20:09:10Z"}
+{"keyword": "AI-Sandbox", "platform": "devto", "value": 3.0, "timestamp": "2026-05-20T13:32:35Z"}
+{"keyword": "I Built a Local Gemma 4 Content Radar for Private Editorial Decisions", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T07:07:04Z"}
+{"keyword": "Per-User OAuth for AI Agents: Why It Matters and What to Look For", "platform": "devto", "value": 6.0, "timestamp": "2026-05-20T14:21:08Z"}
+{"keyword": "Deploying Forgejo Lightweight Git Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:02:47Z"}
+{"keyword": "Deploying Tempo Distributed Tracing Backend on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:04:17Z"}
+{"keyword": "Deploying Angular applications to Cloudflare with Void", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T13:30:15Z"}
+{"keyword": "The Feature Store: Consistency and Latency Are Both Non-Negotiable", "platform": "devto", "value": 1.0, "timestamp": "2026-05-20T15:23:34Z"}
+{"keyword": "HookGuard AI: A Local React Hook Reviewer Powered by Gemma 4 and Ollama", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T09:38:01Z"}
+{"keyword": "Google I/O 2026 - Day 1 - Live from the Front Row", "platform": "devto", "value": 13.0, "timestamp": "2026-05-20T15:02:06Z"}
+{"keyword": "MCP Just Landed on Your Phone: What Google AI Edge Gallery Actually Does", "platform": "devto", "value": 16.0, "timestamp": "2026-05-20T17:09:24Z"}
+{"keyword": "Working With Japanese Clients Humbled Me Faster Than I Expected", "platform": "devto", "value": 21.0, "timestamp": "2026-05-20T05:27:44Z"}
+{"keyword": "I decided to build a Kubernetes alternative. Yes, I know I'm crazy", "platform": "devto", "value": 17.0, "timestamp": "2026-05-20T11:44:59Z"}
+{"keyword": "Google AI Edge Gallery Now Runs MCP On-Device. The Privacy Architecture", "platform": "devto", "value": 27.0, "timestamp": "2026-05-20T00:44:23Z"}
+{"keyword": "GitHub Got Breached Through a VS Code Extension. MCP Servers Are Next.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:01:08Z"}
+{"keyword": "Book Review: Operational AI with Docker", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T07:32:00Z"}
+{"keyword": "The Mid-Dev Paradox: Why Juniors Are Chill and Mid-Levels Will Reorganize Your Code at 3 AM", "platform": "devto", "value": 7.0, "timestamp": "2026-05-20T09:58:51Z"}
+{"keyword": "Care Compass: Pairing Gemma 4 With Signed Policy Evidence for Healthcare Navigation", "platform": "devto", "value": 3.0, "timestamp": "2026-05-20T04:45:48Z"}
+{"keyword": "My 6-year-old asks 400 questions a day. So I built him a Gemma 4 AI tutor.", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T12:26:19Z"}
+{"keyword": "Shipping on Gemma 4: chain-of-thought leakage, MoE-vs-Dense, and on-device pragmatism", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T12:42:41Z"}
+{"keyword": "Google I/O Just Made MCP Inevitable", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T19:01:30Z"}
+{"keyword": "Which OpenAPI Codegen Should You Choose? openapi-typescript vs hey-api vs Orval vs Kubb", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T13:34:57Z"}
+{"keyword": "Claprec: Database Design - Modeling the Data (5/6)", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T11:41:14Z"}
+{"keyword": "Your Story: Local Gemma 4 Interactive Fiction That Remembers Your Choices", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T04:11:33Z"}
+{"keyword": "DevBrief — AI Standup Writer Powered by Hermes Agent (Vercel + Render)", "platform": "devto", "value": 10.0, "timestamp": "2026-05-20T04:27:47Z"}
+{"keyword": "I Built a Tool for Turning Customer Reviews Into Shareable Cards — Here's What It Does", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T06:31:03Z"}
+{"keyword": "Hermes Agent: Autonomous SEO engineer for 11ty", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T07:59:37Z"}
+{"keyword": "Shipping Your Machine: Building a Container in 50 Lines of Code (Part 1)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T20:09:10Z"}
+{"keyword": "AI-Sandbox", "platform": "devto", "value": 3.0, "timestamp": "2026-05-20T13:32:35Z"}
+{"keyword": "I Built a Local Gemma 4 Content Radar for Private Editorial Decisions", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T07:07:04Z"}
+{"keyword": "Per-User OAuth for AI Agents: Why It Matters and What to Look For", "platform": "devto", "value": 6.0, "timestamp": "2026-05-20T14:21:08Z"}
+{"keyword": "Deploying Forgejo Lightweight Git Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:02:47Z"}
+{"keyword": "Deploying Tempo Distributed Tracing Backend on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:04:17Z"}
+{"keyword": "Deploying Angular applications to Cloudflare with Void", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T13:30:15Z"}
+{"keyword": "The Feature Store: Consistency and Latency Are Both Non-Negotiable", "platform": "devto", "value": 1.0, "timestamp": "2026-05-20T15:23:34Z"}
+{"keyword": "HookGuard AI: A Local React Hook Reviewer Powered by Gemma 4 and Ollama", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T09:38:01Z"}
+{"keyword": "Google I/O 2026 - Day 1 - Live from the Front Row", "platform": "devto", "value": 13.0, "timestamp": "2026-05-20T15:02:06Z"}
+{"keyword": "MCP Just Landed on Your Phone: What Google AI Edge Gallery Actually Does", "platform": "devto", "value": 16.0, "timestamp": "2026-05-20T17:09:24Z"}
+{"keyword": "Working With Japanese Clients Humbled Me Faster Than I Expected", "platform": "devto", "value": 21.0, "timestamp": "2026-05-20T05:27:44Z"}
+{"keyword": "I decided to build a Kubernetes alternative. Yes, I know I'm crazy", "platform": "devto", "value": 17.0, "timestamp": "2026-05-20T11:44:59Z"}
+{"keyword": "Google AI Edge Gallery Now Runs MCP On-Device. The Privacy Architecture", "platform": "devto", "value": 27.0, "timestamp": "2026-05-20T00:44:23Z"}
+{"keyword": "GitHub Got Breached Through a VS Code Extension. MCP Servers Are Next.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:01:08Z"}
+{"keyword": "Book Review: Operational AI with Docker", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T07:32:00Z"}
+{"keyword": "The Mid-Dev Paradox: Why Juniors Are Chill and Mid-Levels Will Reorganize Your Code at 3 AM", "platform": "devto", "value": 7.0, "timestamp": "2026-05-20T09:58:51Z"}
+{"keyword": "Care Compass: Pairing Gemma 4 With Signed Policy Evidence for Healthcare Navigation", "platform": "devto", "value": 3.0, "timestamp": "2026-05-20T04:45:48Z"}
+{"keyword": "My 6-year-old asks 400 questions a day. So I built him a Gemma 4 AI tutor.", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T12:26:19Z"}
+{"keyword": "Shipping on Gemma 4: chain-of-thought leakage, MoE-vs-Dense, and on-device pragmatism", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T12:42:41Z"}
+{"keyword": "Google I/O Just Made MCP Inevitable", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T19:01:30Z"}
+{"keyword": "Which OpenAPI Codegen Should You Choose? openapi-typescript vs hey-api vs Orval vs Kubb", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T13:34:57Z"}
+{"keyword": "Claprec: Database Design - Modeling the Data (5/6)", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T11:41:14Z"}
+{"keyword": "Your Story: Local Gemma 4 Interactive Fiction That Remembers Your Choices", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T04:11:33Z"}
+{"keyword": "DevBrief — AI Standup Writer Powered by Hermes Agent (Vercel + Render)", "platform": "devto", "value": 10.0, "timestamp": "2026-05-20T04:27:47Z"}
+{"keyword": "I Built a Tool for Turning Customer Reviews Into Shareable Cards — Here's What It Does", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T06:31:03Z"}
+{"keyword": "Hermes Agent: Autonomous SEO engineer for 11ty", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T07:59:37Z"}
+{"keyword": "Shipping Your Machine: Building a Container in 50 Lines of Code (Part 1)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T20:09:10Z"}
+{"keyword": "AI-Sandbox", "platform": "devto", "value": 3.0, "timestamp": "2026-05-20T13:32:35Z"}
+{"keyword": "I Built a Local Gemma 4 Content Radar for Private Editorial Decisions", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T07:07:04Z"}
+{"keyword": "Per-User OAuth for AI Agents: Why It Matters and What to Look For", "platform": "devto", "value": 6.0, "timestamp": "2026-05-20T14:21:08Z"}
+{"keyword": "Deploying Forgejo Lightweight Git Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:02:47Z"}
+{"keyword": "Deploying Tempo Distributed Tracing Backend on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:04:17Z"}
+{"keyword": "Deploying Angular applications to Cloudflare with Void", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T13:30:15Z"}
+{"keyword": "The Feature Store: Consistency and Latency Are Both Non-Negotiable", "platform": "devto", "value": 1.0, "timestamp": "2026-05-20T15:23:34Z"}
+{"keyword": "HookGuard AI: A Local React Hook Reviewer Powered by Gemma 4 and Ollama", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T09:38:01Z"}
+{"keyword": "Google I/O 2026 - Day 1 - Live from the Front Row", "platform": "devto", "value": 13.0, "timestamp": "2026-05-20T15:02:06Z"}
+{"keyword": "MCP Just Landed on Your Phone: What Google AI Edge Gallery Actually Does", "platform": "devto", "value": 16.0, "timestamp": "2026-05-20T17:09:24Z"}
+{"keyword": "Working With Japanese Clients Humbled Me Faster Than I Expected", "platform": "devto", "value": 21.0, "timestamp": "2026-05-20T05:27:44Z"}
+{"keyword": "I decided to build a Kubernetes alternative. Yes, I know I'm crazy", "platform": "devto", "value": 17.0, "timestamp": "2026-05-20T11:44:59Z"}
+{"keyword": "Google AI Edge Gallery Now Runs MCP On-Device. The Privacy Architecture", "platform": "devto", "value": 27.0, "timestamp": "2026-05-20T00:44:23Z"}
+{"keyword": "GitHub Got Breached Through a VS Code Extension. MCP Servers Are Next.", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:01:08Z"}
+{"keyword": "Book Review: Operational AI with Docker", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T07:32:00Z"}
+{"keyword": "The Mid-Dev Paradox: Why Juniors Are Chill and Mid-Levels Will Reorganize Your Code at 3 AM", "platform": "devto", "value": 7.0, "timestamp": "2026-05-20T09:58:51Z"}
+{"keyword": "Care Compass: Pairing Gemma 4 With Signed Policy Evidence for Healthcare Navigation", "platform": "devto", "value": 3.0, "timestamp": "2026-05-20T04:45:48Z"}
+{"keyword": "My 6-year-old asks 400 questions a day. So I built him a Gemma 4 AI tutor.", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T12:26:19Z"}
+{"keyword": "Shipping on Gemma 4: chain-of-thought leakage, MoE-vs-Dense, and on-device pragmatism", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T12:42:41Z"}
+{"keyword": "Google I/O Just Made MCP Inevitable", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T19:01:30Z"}
+{"keyword": "Which OpenAPI Codegen Should You Choose? openapi-typescript vs hey-api vs Orval vs Kubb", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T13:34:57Z"}
+{"keyword": "Claprec: Database Design - Modeling the Data (5/6)", "platform": "devto", "value": 9.0, "timestamp": "2026-05-20T11:41:14Z"}
+{"keyword": "Your Story: Local Gemma 4 Interactive Fiction That Remembers Your Choices", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T04:11:33Z"}
+{"keyword": "DevBrief — AI Standup Writer Powered by Hermes Agent (Vercel + Render)", "platform": "devto", "value": 10.0, "timestamp": "2026-05-20T04:27:47Z"}
+{"keyword": "I Built a Tool for Turning Customer Reviews Into Shareable Cards — Here's What It Does", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T06:31:03Z"}
+{"keyword": "Hermes Agent: Autonomous SEO engineer for 11ty", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T07:59:37Z"}
+{"keyword": "Shipping Your Machine: Building a Container in 50 Lines of Code (Part 1)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T20:09:10Z"}
+{"keyword": "AI-Sandbox", "platform": "devto", "value": 3.0, "timestamp": "2026-05-20T13:32:35Z"}
+{"keyword": "I Built a Local Gemma 4 Content Radar for Private Editorial Decisions", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T07:07:04Z"}
+{"keyword": "Per-User OAuth for AI Agents: Why It Matters and What to Look For", "platform": "devto", "value": 6.0, "timestamp": "2026-05-20T14:21:08Z"}
+{"keyword": "Deploying Forgejo Lightweight Git Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:02:47Z"}
+{"keyword": "Deploying Tempo Distributed Tracing Backend on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-05-20T14:04:17Z"}
+{"keyword": "Deploying Angular applications to Cloudflare with Void", "platform": "devto", "value": 2.0, "timestamp": "2026-05-20T13:30:15Z"}
+{"keyword": "The Feature Store: Consistency and Latency Are Both Non-Negotiable", "platform": "devto", "value": 1.0, "timestamp": "2026-05-20T15:23:34Z"}
+{"keyword": "HookGuard AI: A Local React Hook Reviewer Powered by Gemma 4 and Ollama", "platform": "devto", "value": 4.0, "timestamp": "2026-05-20T09:38:01Z"}
