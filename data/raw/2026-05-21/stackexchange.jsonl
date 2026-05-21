@@ -16,3 +16,49 @@
 {"keyword": "What parameters can I tune to speed up InnoDB undo purge?", "platform": "stackexchange", "value": 6.0, "timestamp": "1779344551"}
 {"keyword": "Shopware 6 timeout while big DAL operation", "platform": "stackexchange", "value": 0.0, "timestamp": "1779357025"}
 {"keyword": "Using Intl.DurationFormat in Angular 21 app", "platform": "stackexchange", "value": 1.0, "timestamp": "1779344310"}
+{"keyword": "Delete line if substitution would leave it empty", "platform": "stackexchange", "value": 0.0, "timestamp": "1779400810"}
+{"keyword": "Is it bad practice to programmatically add submodules to sys?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779402363"}
+{"keyword": "xml-xsd-engine marks errors instead of warnings in lax mode", "platform": "stackexchange", "value": 2.0, "timestamp": "1779400900"}
+{"keyword": "Optimize a Python Polars function to avoid counting IDs or stacking empty dataframes", "platform": "stackexchange", "value": 0.0, "timestamp": "1779398578"}
+{"keyword": "Can&#39;t get POSIX extended sed to replace square brackets", "platform": "stackexchange", "value": 0.0, "timestamp": "1779388853"}
+{"keyword": "Prevent browser from adding .xml to .gpx downloads", "platform": "stackexchange", "value": 0.0, "timestamp": "1779391717"}
+{"keyword": "OpenGL batch renderer shows blank window with clear color and no OpenGL errors", "platform": "stackexchange", "value": 1.0, "timestamp": "1779388645"}
+{"keyword": "Why is `NoInfer` inconsistently required at certain places in type-level TS?", "platform": "stackexchange", "value": 1.0, "timestamp": "1779391730"}
+{"keyword": "In recursive DP, can a function parameter ever equal the return value?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779395785"}
+{"keyword": "Cannot generate dependency in my Spring project", "platform": "stackexchange", "value": 0.0, "timestamp": "1779393448"}
+{"keyword": "Displaying a JS varible", "platform": "stackexchange", "value": 0.0, "timestamp": "1779392569"}
+{"keyword": "What are common architectural patterns used in modern web applications", "platform": "stackexchange", "value": 0.0, "timestamp": "1779394718"}
+{"keyword": "Why does my monotonically increasing by 1 counter, return a decimal?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779389381"}
+{"keyword": "Exporting ~500,000 rows from MySQL into an XLSX file using batch processing", "platform": "stackexchange", "value": 0.0, "timestamp": "1779386694"}
+{"keyword": "How to add chars to a malloc buffer?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779377109"}
+{"keyword": "Can an assignment with a braced initializer list cause a redundant move of a temporary?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779363304"}
+{"keyword": "PowerCLI: Find out maximum VM Hardware version for a host", "platform": "stackexchange", "value": 0.0, "timestamp": "1779396443"}
+{"keyword": "How do I direct data from an array to alsa pcm in C?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779382404"}
+{"keyword": "How to avoid mutating the shared state through multiple callees in typescript", "platform": "stackexchange", "value": 0.0, "timestamp": "1779387107"}
+{"keyword": "How should I organize a beginner CRUD application with frontend routing and REST API communication?", "platform": "stackexchange", "value": 2.0, "timestamp": "1779382213"}
+{"keyword": "Racing wheel. Force FeedBack. Simulation of real behavior", "platform": "stackexchange", "value": 0.0, "timestamp": "1779388970"}
+{"keyword": "Colon operator behavior for 1: length()-1 vs. 1:length()-2", "platform": "stackexchange", "value": 0.0, "timestamp": "1779380767"}
+{"keyword": "Real-time Two Way Dynamic Auto-fetch", "platform": "stackexchange", "value": 0.0, "timestamp": "1779383492"}
+{"keyword": "Delete line if substitution would leave it empty", "platform": "stackexchange", "value": 0.0, "timestamp": "1779400810"}
+{"keyword": "Is it bad practice to programmatically add submodules to sys?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779402363"}
+{"keyword": "xml-xsd-engine marks errors instead of warnings in lax mode", "platform": "stackexchange", "value": 2.0, "timestamp": "1779400900"}
+{"keyword": "Optimize a Python Polars function to avoid counting IDs or stacking empty dataframes", "platform": "stackexchange", "value": 0.0, "timestamp": "1779398578"}
+{"keyword": "Can&#39;t get POSIX extended sed to replace square brackets", "platform": "stackexchange", "value": 0.0, "timestamp": "1779388853"}
+{"keyword": "Prevent browser from adding .xml to .gpx downloads", "platform": "stackexchange", "value": 0.0, "timestamp": "1779391717"}
+{"keyword": "OpenGL batch renderer shows blank window with clear color and no OpenGL errors", "platform": "stackexchange", "value": 1.0, "timestamp": "1779388645"}
+{"keyword": "Why is `NoInfer` inconsistently required at certain places in type-level TS?", "platform": "stackexchange", "value": 1.0, "timestamp": "1779391730"}
+{"keyword": "In recursive DP, can a function parameter ever equal the return value?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779395785"}
+{"keyword": "Cannot generate dependency in my Spring project", "platform": "stackexchange", "value": 0.0, "timestamp": "1779393448"}
+{"keyword": "Displaying a JS varible", "platform": "stackexchange", "value": 0.0, "timestamp": "1779392569"}
+{"keyword": "What are common architectural patterns used in modern web applications", "platform": "stackexchange", "value": 0.0, "timestamp": "1779394718"}
+{"keyword": "Why does my monotonically increasing by 1 counter, return a decimal?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779389381"}
+{"keyword": "Exporting ~500,000 rows from MySQL into an XLSX file using batch processing", "platform": "stackexchange", "value": 0.0, "timestamp": "1779386694"}
+{"keyword": "How to add chars to a malloc buffer?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779377109"}
+{"keyword": "Can an assignment with a braced initializer list cause a redundant move of a temporary?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779363304"}
+{"keyword": "PowerCLI: Find out maximum VM Hardware version for a host", "platform": "stackexchange", "value": 0.0, "timestamp": "1779396443"}
+{"keyword": "How do I direct data from an array to alsa pcm in C?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779382404"}
+{"keyword": "How to avoid mutating the shared state through multiple callees in typescript", "platform": "stackexchange", "value": 0.0, "timestamp": "1779387107"}
+{"keyword": "How should I organize a beginner CRUD application with frontend routing and REST API communication?", "platform": "stackexchange", "value": 2.0, "timestamp": "1779382213"}
+{"keyword": "Racing wheel. Force FeedBack. Simulation of real behavior", "platform": "stackexchange", "value": 0.0, "timestamp": "1779388970"}
+{"keyword": "Colon operator behavior for 1: length()-1 vs. 1:length()-2", "platform": "stackexchange", "value": 0.0, "timestamp": "1779380767"}
+{"keyword": "Real-time Two Way Dynamic Auto-fetch", "platform": "stackexchange", "value": 0.0, "timestamp": "1779383492"}
