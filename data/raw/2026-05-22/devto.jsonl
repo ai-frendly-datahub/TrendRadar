@@ -58,3 +58,107 @@
 {"keyword": "AI agents don't have a memory problem. They have an architecture problem.", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T08:06:23Z"}
 {"keyword": "I Built a Chrome Extension That Teaches Vocabulary While You Browse", "platform": "devto", "value": 1.0, "timestamp": "2026-05-21T14:04:46Z"}
 {"keyword": "AI Agents Security for Developers: Don't Let Your Agents Become a Liability", "platform": "devto", "value": 1.0, "timestamp": "2026-05-21T12:18:53Z"}
+{"keyword": "The Most Concerning AI Risk of 2026", "platform": "devto", "value": 41.0, "timestamp": "2026-05-22T06:49:44Z"}
+{"keyword": "How we're using Gemini Embeddings to build a smarter, community-driven feed on DEV", "platform": "devto", "value": 42.0, "timestamp": "2026-05-22T16:27:19Z"}
+{"keyword": "Google Antigravity 1.0 to 2.0/IDE Quick Migration Guide", "platform": "devto", "value": 16.0, "timestamp": "2026-05-22T18:24:09Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 24.0, "timestamp": "2026-05-22T13:00:00Z"}
+{"keyword": "Your company won't replace you with good AI. They'll replace you with bad AI.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T16:06:37Z"}
+{"keyword": "AI Agent Failure Modes Beyond Hallucination", "platform": "devto", "value": 14.0, "timestamp": "2026-05-22T14:59:09Z"}
+{"keyword": "How to Use Gemma 4 E2B the Smart Way: Family Trip Advisor", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T06:07:25Z"}
+{"keyword": "include-tidy: A Tool to Enforce Include-What-You-Use", "platform": "devto", "value": 1.0, "timestamp": "2026-05-22T01:56:57Z"}
+{"keyword": "I built a version manager for llama.cpp using nothing but vibe coding.", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T15:25:26Z"}
+{"keyword": "Claprec: Engineering Tradeoffs - Limited time vs. Perfection (6/6)", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T11:53:18Z"}
+{"keyword": "The subtle impact of AI (& IT) on jobs", "platform": "devto", "value": 14.0, "timestamp": "2026-05-22T16:52:42Z"}
+{"keyword": "Post-Mortem: Why My Blog Cover Images Silently Failed to Restore from S3", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T09:09:36Z"}
+{"keyword": "Solana's System Program: Understanding the Kernel", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T06:08:17Z"}
+{"keyword": "I Investigated 986,317 retro cards. Teams aren't as negative as you think 🤔", "platform": "devto", "value": 17.0, "timestamp": "2026-05-22T00:56:19Z"}
+{"keyword": "Google redesigned 13 Workspace icons last week. Here is where to grab the new SVGs.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T07:07:47Z"}
+{"keyword": "Running a Full Multi-Stage Intrusion Simulation. Every Detection Fired.", "platform": "devto", "value": 1.0, "timestamp": "2026-05-22T21:01:31Z"}
+{"keyword": "Skills, Java 17, And Theme Accents", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T13:46:38Z"}
+{"keyword": "Arc 1 Recap: Keypairs, Wallets, and Solana Fundamentals", "platform": "devto", "value": 2.0, "timestamp": "2026-05-22T10:16:13Z"}
+{"keyword": "Validating Gemma 4 for Industrial IoT: A Governance Pattern", "platform": "devto", "value": 6.0, "timestamp": "2026-05-22T14:38:10Z"}
+{"keyword": "Using Apache Iceberg with Python and MPP Query Engines", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T16:35:48Z"}
+{"keyword": "Approaches to Streaming Data into Apache Iceberg Tables", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T16:53:14Z"}
+{"keyword": "Migrating to Apache Iceberg: Strategies for Every Source System", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T17:48:08Z"}
+{"keyword": "Hosting a Docker runner for processing GitLab CI/CD pipelines", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T09:29:03Z"}
+{"keyword": "Organizing How to Use AWS Glue Workflow", "platform": "devto", "value": 6.0, "timestamp": "2026-05-22T13:38:32Z"}
+{"keyword": "The Hardest Part of Being a Developer Isn't Coding", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T14:02:16Z"}
+{"keyword": "Serverless with Mama J — Why Serverless", "platform": "devto", "value": 2.0, "timestamp": "2026-05-22T06:00:00Z"}
+{"keyword": "The Most Concerning AI Risk of 2026", "platform": "devto", "value": 41.0, "timestamp": "2026-05-22T06:49:44Z"}
+{"keyword": "How we're using Gemini Embeddings to build a smarter, community-driven feed on DEV", "platform": "devto", "value": 42.0, "timestamp": "2026-05-22T16:27:19Z"}
+{"keyword": "Google Antigravity 1.0 to 2.0/IDE Quick Migration Guide", "platform": "devto", "value": 16.0, "timestamp": "2026-05-22T18:24:09Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 24.0, "timestamp": "2026-05-22T13:00:00Z"}
+{"keyword": "Your company won't replace you with good AI. They'll replace you with bad AI.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T16:06:37Z"}
+{"keyword": "AI Agent Failure Modes Beyond Hallucination", "platform": "devto", "value": 14.0, "timestamp": "2026-05-22T14:59:09Z"}
+{"keyword": "How to Use Gemma 4 E2B the Smart Way: Family Trip Advisor", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T06:07:25Z"}
+{"keyword": "include-tidy: A Tool to Enforce Include-What-You-Use", "platform": "devto", "value": 1.0, "timestamp": "2026-05-22T01:56:57Z"}
+{"keyword": "I built a version manager for llama.cpp using nothing but vibe coding.", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T15:25:26Z"}
+{"keyword": "Claprec: Engineering Tradeoffs - Limited time vs. Perfection (6/6)", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T11:53:18Z"}
+{"keyword": "The subtle impact of AI (& IT) on jobs", "platform": "devto", "value": 14.0, "timestamp": "2026-05-22T16:52:42Z"}
+{"keyword": "Post-Mortem: Why My Blog Cover Images Silently Failed to Restore from S3", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T09:09:36Z"}
+{"keyword": "Solana's System Program: Understanding the Kernel", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T06:08:17Z"}
+{"keyword": "I Investigated 986,317 retro cards. Teams aren't as negative as you think 🤔", "platform": "devto", "value": 17.0, "timestamp": "2026-05-22T00:56:19Z"}
+{"keyword": "Google redesigned 13 Workspace icons last week. Here is where to grab the new SVGs.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T07:07:47Z"}
+{"keyword": "Running a Full Multi-Stage Intrusion Simulation. Every Detection Fired.", "platform": "devto", "value": 1.0, "timestamp": "2026-05-22T21:01:31Z"}
+{"keyword": "Skills, Java 17, And Theme Accents", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T13:46:38Z"}
+{"keyword": "Arc 1 Recap: Keypairs, Wallets, and Solana Fundamentals", "platform": "devto", "value": 2.0, "timestamp": "2026-05-22T10:16:13Z"}
+{"keyword": "Validating Gemma 4 for Industrial IoT: A Governance Pattern", "platform": "devto", "value": 6.0, "timestamp": "2026-05-22T14:38:10Z"}
+{"keyword": "Using Apache Iceberg with Python and MPP Query Engines", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T16:35:48Z"}
+{"keyword": "Approaches to Streaming Data into Apache Iceberg Tables", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T16:53:14Z"}
+{"keyword": "Migrating to Apache Iceberg: Strategies for Every Source System", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T17:48:08Z"}
+{"keyword": "Hosting a Docker runner for processing GitLab CI/CD pipelines", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T09:29:03Z"}
+{"keyword": "Organizing How to Use AWS Glue Workflow", "platform": "devto", "value": 6.0, "timestamp": "2026-05-22T13:38:32Z"}
+{"keyword": "The Hardest Part of Being a Developer Isn't Coding", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T14:02:16Z"}
+{"keyword": "Serverless with Mama J — Why Serverless", "platform": "devto", "value": 2.0, "timestamp": "2026-05-22T06:00:00Z"}
+{"keyword": "The Most Concerning AI Risk of 2026", "platform": "devto", "value": 41.0, "timestamp": "2026-05-22T06:49:44Z"}
+{"keyword": "How we're using Gemini Embeddings to build a smarter, community-driven feed on DEV", "platform": "devto", "value": 42.0, "timestamp": "2026-05-22T16:27:19Z"}
+{"keyword": "Google Antigravity 1.0 to 2.0/IDE Quick Migration Guide", "platform": "devto", "value": 16.0, "timestamp": "2026-05-22T18:24:09Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 24.0, "timestamp": "2026-05-22T13:00:00Z"}
+{"keyword": "Your company won't replace you with good AI. They'll replace you with bad AI.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T16:06:37Z"}
+{"keyword": "AI Agent Failure Modes Beyond Hallucination", "platform": "devto", "value": 14.0, "timestamp": "2026-05-22T14:59:09Z"}
+{"keyword": "How to Use Gemma 4 E2B the Smart Way: Family Trip Advisor", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T06:07:25Z"}
+{"keyword": "include-tidy: A Tool to Enforce Include-What-You-Use", "platform": "devto", "value": 1.0, "timestamp": "2026-05-22T01:56:57Z"}
+{"keyword": "I built a version manager for llama.cpp using nothing but vibe coding.", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T15:25:26Z"}
+{"keyword": "Claprec: Engineering Tradeoffs - Limited time vs. Perfection (6/6)", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T11:53:18Z"}
+{"keyword": "The subtle impact of AI (& IT) on jobs", "platform": "devto", "value": 14.0, "timestamp": "2026-05-22T16:52:42Z"}
+{"keyword": "Post-Mortem: Why My Blog Cover Images Silently Failed to Restore from S3", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T09:09:36Z"}
+{"keyword": "Solana's System Program: Understanding the Kernel", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T06:08:17Z"}
+{"keyword": "I Investigated 986,317 retro cards. Teams aren't as negative as you think 🤔", "platform": "devto", "value": 17.0, "timestamp": "2026-05-22T00:56:19Z"}
+{"keyword": "Google redesigned 13 Workspace icons last week. Here is where to grab the new SVGs.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T07:07:47Z"}
+{"keyword": "Running a Full Multi-Stage Intrusion Simulation. Every Detection Fired.", "platform": "devto", "value": 1.0, "timestamp": "2026-05-22T21:01:31Z"}
+{"keyword": "Skills, Java 17, And Theme Accents", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T13:46:38Z"}
+{"keyword": "Arc 1 Recap: Keypairs, Wallets, and Solana Fundamentals", "platform": "devto", "value": 2.0, "timestamp": "2026-05-22T10:16:13Z"}
+{"keyword": "Validating Gemma 4 for Industrial IoT: A Governance Pattern", "platform": "devto", "value": 6.0, "timestamp": "2026-05-22T14:38:10Z"}
+{"keyword": "Using Apache Iceberg with Python and MPP Query Engines", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T16:35:48Z"}
+{"keyword": "Approaches to Streaming Data into Apache Iceberg Tables", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T16:53:14Z"}
+{"keyword": "Migrating to Apache Iceberg: Strategies for Every Source System", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T17:48:08Z"}
+{"keyword": "Hosting a Docker runner for processing GitLab CI/CD pipelines", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T09:29:03Z"}
+{"keyword": "Organizing How to Use AWS Glue Workflow", "platform": "devto", "value": 6.0, "timestamp": "2026-05-22T13:38:32Z"}
+{"keyword": "The Hardest Part of Being a Developer Isn't Coding", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T14:02:16Z"}
+{"keyword": "Serverless with Mama J — Why Serverless", "platform": "devto", "value": 2.0, "timestamp": "2026-05-22T06:00:00Z"}
+{"keyword": "The Most Concerning AI Risk of 2026", "platform": "devto", "value": 41.0, "timestamp": "2026-05-22T06:49:44Z"}
+{"keyword": "How we're using Gemini Embeddings to build a smarter, community-driven feed on DEV", "platform": "devto", "value": 42.0, "timestamp": "2026-05-22T16:27:19Z"}
+{"keyword": "Google Antigravity 1.0 to 2.0/IDE Quick Migration Guide", "platform": "devto", "value": 16.0, "timestamp": "2026-05-22T18:24:09Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 24.0, "timestamp": "2026-05-22T13:00:00Z"}
+{"keyword": "Your company won't replace you with good AI. They'll replace you with bad AI.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T16:06:37Z"}
+{"keyword": "AI Agent Failure Modes Beyond Hallucination", "platform": "devto", "value": 14.0, "timestamp": "2026-05-22T14:59:09Z"}
+{"keyword": "How to Use Gemma 4 E2B the Smart Way: Family Trip Advisor", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T06:07:25Z"}
+{"keyword": "include-tidy: A Tool to Enforce Include-What-You-Use", "platform": "devto", "value": 1.0, "timestamp": "2026-05-22T01:56:57Z"}
+{"keyword": "I built a version manager for llama.cpp using nothing but vibe coding.", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T15:25:26Z"}
+{"keyword": "Claprec: Engineering Tradeoffs - Limited time vs. Perfection (6/6)", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T11:53:18Z"}
+{"keyword": "The subtle impact of AI (& IT) on jobs", "platform": "devto", "value": 14.0, "timestamp": "2026-05-22T16:52:42Z"}
+{"keyword": "Post-Mortem: Why My Blog Cover Images Silently Failed to Restore from S3", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T09:09:36Z"}
+{"keyword": "Solana's System Program: Understanding the Kernel", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T06:08:17Z"}
+{"keyword": "I Investigated 986,317 retro cards. Teams aren't as negative as you think 🤔", "platform": "devto", "value": 17.0, "timestamp": "2026-05-22T00:56:19Z"}
+{"keyword": "Google redesigned 13 Workspace icons last week. Here is where to grab the new SVGs.", "platform": "devto", "value": 8.0, "timestamp": "2026-05-22T07:07:47Z"}
+{"keyword": "Running a Full Multi-Stage Intrusion Simulation. Every Detection Fired.", "platform": "devto", "value": 1.0, "timestamp": "2026-05-22T21:01:31Z"}
+{"keyword": "Skills, Java 17, And Theme Accents", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T13:46:38Z"}
+{"keyword": "Arc 1 Recap: Keypairs, Wallets, and Solana Fundamentals", "platform": "devto", "value": 2.0, "timestamp": "2026-05-22T10:16:13Z"}
+{"keyword": "Validating Gemma 4 for Industrial IoT: A Governance Pattern", "platform": "devto", "value": 6.0, "timestamp": "2026-05-22T14:38:10Z"}
+{"keyword": "Using Apache Iceberg with Python and MPP Query Engines", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T16:35:48Z"}
+{"keyword": "Approaches to Streaming Data into Apache Iceberg Tables", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T16:53:14Z"}
+{"keyword": "Migrating to Apache Iceberg: Strategies for Every Source System", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T17:48:08Z"}
+{"keyword": "Hosting a Docker runner for processing GitLab CI/CD pipelines", "platform": "devto", "value": 9.0, "timestamp": "2026-05-22T09:29:03Z"}
+{"keyword": "Organizing How to Use AWS Glue Workflow", "platform": "devto", "value": 6.0, "timestamp": "2026-05-22T13:38:32Z"}
+{"keyword": "The Hardest Part of Being a Developer Isn't Coding", "platform": "devto", "value": 0.0, "timestamp": "2026-05-22T14:02:16Z"}
+{"keyword": "Serverless with Mama J — Why Serverless", "platform": "devto", "value": 2.0, "timestamp": "2026-05-22T06:00:00Z"}

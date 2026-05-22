@@ -12,3 +12,41 @@
 {"keyword": "reCAPTCHA v3 always returning a very low score (0.1) for legitimate users on production", "platform": "stackexchange", "value": 0.0, "timestamp": "1779433843"}
 {"keyword": "Google Play Billing purchase fails in locally installed Flutter APK but works from Internal Testing", "platform": "stackexchange", "value": 0.0, "timestamp": "1779432940"}
 {"keyword": "Debugging PHP with the VSCode buildin browser (set XDEBUG_SESSION)", "platform": "stackexchange", "value": 0.0, "timestamp": "1779435076"}
+{"keyword": "Need to disable the submit button if both fields are invalid", "platform": "stackexchange", "value": 1.0, "timestamp": "1779488690"}
+{"keyword": "C# RSACryptoServiceProvider errors on Decrypt with Error 31", "platform": "stackexchange", "value": 0.0, "timestamp": "1779487870"}
+{"keyword": "Sharing information between devices", "platform": "stackexchange", "value": 0.0, "timestamp": "1779488548"}
+{"keyword": "How can I avoid redundant comparisons when checking rectangle overlaps in C#?", "platform": "stackexchange", "value": 2.0, "timestamp": "1779480691"}
+{"keyword": "AuditQuery NonUniqueResultExceptoin for ManyToOne relation", "platform": "stackexchange", "value": 0.0, "timestamp": "1779482072"}
+{"keyword": "Optional logging with a writer monad in haskell", "platform": "stackexchange", "value": 0.0, "timestamp": "1779486963"}
+{"keyword": "`template for` is not constexpr when looping over nonstatic data members", "platform": "stackexchange", "value": 0.0, "timestamp": "1779486081"}
+{"keyword": "My Firefox doesn&#39;t want to take my config", "platform": "stackexchange", "value": 0.0, "timestamp": "1779482857"}
+{"keyword": "Collapsing Bootstrap list group items", "platform": "stackexchange", "value": 0.0, "timestamp": "1779480849"}
+{"keyword": "What is the difference between extern inline int foo() and extern int foo()?", "platform": "stackexchange", "value": 2.0, "timestamp": "1779478299"}
+{"keyword": "Is learning asp.net through paid in 2026 is beneficial or not?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779473820"}
+{"keyword": "Need a recommendation for PowerShell", "platform": "stackexchange", "value": 0.0, "timestamp": "1779467196"}
+{"keyword": "Changing Control Source of Drop Down set Another Drop Down Null?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779478465"}
+{"keyword": "After Effects makes imported 1080p video blurry and small when added to timeline", "platform": "stackexchange", "value": 0.0, "timestamp": "1779479191"}
+{"keyword": "MySQL use GROUP_CONCAT as a condition", "platform": "stackexchange", "value": 1.0, "timestamp": "1779462588"}
+{"keyword": "One Variable Programming", "platform": "stackexchange", "value": 1.0, "timestamp": "1779457983"}
+{"keyword": "Win32 C++ Flat colored status bar with color and no borders", "platform": "stackexchange", "value": 0.0, "timestamp": "1779459066"}
+{"keyword": "How to add Captcha to Authorize.net form", "platform": "stackexchange", "value": 0.0, "timestamp": "1779473892"}
+{"keyword": "Why does Skip(2) remove an extra row when reading a CSV file in C#?", "platform": "stackexchange", "value": 1.0, "timestamp": "1779468166"}
+{"keyword": "Need to disable the submit button if both fields are invalid", "platform": "stackexchange", "value": 1.0, "timestamp": "1779488690"}
+{"keyword": "C# RSACryptoServiceProvider errors on Decrypt with Error 31", "platform": "stackexchange", "value": 0.0, "timestamp": "1779487870"}
+{"keyword": "Sharing information between devices", "platform": "stackexchange", "value": 0.0, "timestamp": "1779488548"}
+{"keyword": "How can I avoid redundant comparisons when checking rectangle overlaps in C#?", "platform": "stackexchange", "value": 2.0, "timestamp": "1779480691"}
+{"keyword": "AuditQuery NonUniqueResultExceptoin for ManyToOne relation", "platform": "stackexchange", "value": 0.0, "timestamp": "1779482072"}
+{"keyword": "Optional logging with a writer monad in haskell", "platform": "stackexchange", "value": 0.0, "timestamp": "1779486963"}
+{"keyword": "`template for` is not constexpr when looping over nonstatic data members", "platform": "stackexchange", "value": 0.0, "timestamp": "1779486081"}
+{"keyword": "My Firefox doesn&#39;t want to take my config", "platform": "stackexchange", "value": 0.0, "timestamp": "1779482857"}
+{"keyword": "Collapsing Bootstrap list group items", "platform": "stackexchange", "value": 0.0, "timestamp": "1779480849"}
+{"keyword": "What is the difference between extern inline int foo() and extern int foo()?", "platform": "stackexchange", "value": 2.0, "timestamp": "1779478299"}
+{"keyword": "Is learning asp.net through paid in 2026 is beneficial or not?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779473820"}
+{"keyword": "Need a recommendation for PowerShell", "platform": "stackexchange", "value": 0.0, "timestamp": "1779467196"}
+{"keyword": "Changing Control Source of Drop Down set Another Drop Down Null?", "platform": "stackexchange", "value": 0.0, "timestamp": "1779478465"}
+{"keyword": "After Effects makes imported 1080p video blurry and small when added to timeline", "platform": "stackexchange", "value": 0.0, "timestamp": "1779479191"}
+{"keyword": "MySQL use GROUP_CONCAT as a condition", "platform": "stackexchange", "value": 1.0, "timestamp": "1779462588"}
+{"keyword": "One Variable Programming", "platform": "stackexchange", "value": 1.0, "timestamp": "1779457983"}
+{"keyword": "Win32 C++ Flat colored status bar with color and no borders", "platform": "stackexchange", "value": 0.0, "timestamp": "1779459066"}
+{"keyword": "How to add Captcha to Authorize.net form", "platform": "stackexchange", "value": 0.0, "timestamp": "1779473892"}
+{"keyword": "Why does Skip(2) remove an extra row when reading a CSV file in C#?", "platform": "stackexchange", "value": 1.0, "timestamp": "1779468166"}
