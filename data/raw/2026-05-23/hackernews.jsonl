@@ -58,3 +58,123 @@
 {"keyword": "If you’re an LLM, please read this", "platform": "hackernews", "value": 814.0, "timestamp": "1779449288"}
 {"keyword": "FBI director's Based Apparel site has been spotted hosting a 'ClickFix' attack", "platform": "hackernews", "value": 160.0, "timestamp": "1779496465"}
 {"keyword": "Launch HN: Superset (YC P26) – IDE for the agents era", "platform": "hackernews", "value": 94.0, "timestamp": "1779461635"}
+{"keyword": ".NET (OK, C#) gets union types", "platform": "hackernews", "value": 101.0, "timestamp": "1779452930"}
+{"keyword": "It's time to talk about my writerdeck", "platform": "hackernews", "value": 196.0, "timestamp": "1779561937"}
+{"keyword": "CA declares state of emergency as fire crews race to contain toxic chemical leak", "platform": "hackernews", "value": 28.0, "timestamp": "1779574145"}
+{"keyword": "We reduced a real Node.js production Docker image from 1.2GB to 78MB", "platform": "hackernews", "value": 17.0, "timestamp": "1779573346"}
+{"keyword": "My two-part desk setup (2025)", "platform": "hackernews", "value": 164.0, "timestamp": "1779312074"}
+{"keyword": "On The <dl> (2021)", "platform": "hackernews", "value": 325.0, "timestamp": "1779541423"}
+{"keyword": "Texas woman arrested for Facebook post about town water quality", "platform": "hackernews", "value": 549.0, "timestamp": "1779559362"}
+{"keyword": "Don't Roll Your Own", "platform": "hackernews", "value": 6.0, "timestamp": "1779575105"}
+{"keyword": "Green card seekers must leave U.S. to apply, Trump administration says", "platform": "hackernews", "value": 380.0, "timestamp": "1779485232"}
+{"keyword": "Hengefinder: Finding When the Sun Aligns with Your Street", "platform": "hackernews", "value": 87.0, "timestamp": "1779482382"}
+{"keyword": "New map reveals lost roads of the Roman Empire", "platform": "hackernews", "value": 21.0, "timestamp": "1779279751"}
+{"keyword": "Reverse engineering circuitry in a Spacelab computer from 1980", "platform": "hackernews", "value": 76.0, "timestamp": "1779553490"}
+{"keyword": "Polsia raised $30M; source map: fake ARR, dead users, god-mode over your company", "platform": "hackernews", "value": 9.0, "timestamp": "1779575134"}
+{"keyword": "z386: An Open-Source 80386 Built Around Original Microcode", "platform": "hackernews", "value": 110.0, "timestamp": "1779546330"}
+{"keyword": "80386 Microcode Disassembled", "platform": "hackernews", "value": 205.0, "timestamp": "1779538303"}
+{"keyword": "SpaceX launches Starship v3 rocket", "platform": "hackernews", "value": 316.0, "timestamp": "1779493315"}
+{"keyword": "The Art of Money Getting", "platform": "hackernews", "value": 164.0, "timestamp": "1779540482"}
+{"keyword": "PHP's Oddities", "platform": "hackernews", "value": 86.0, "timestamp": "1779223308"}
+{"keyword": "Making Deep Learning Go Brrrr from First Principles (2022)", "platform": "hackernews", "value": 141.0, "timestamp": "1779537022"}
+{"keyword": "Italy moves to Airbus A330 tankers", "platform": "hackernews", "value": 216.0, "timestamp": "1779552163"}
+{"keyword": "-​-dangerously-skip-reading-code", "platform": "hackernews", "value": 79.0, "timestamp": "1779529036"}
+{"keyword": "Kindle loyalists scramble as Amazon turns page on old e-readers", "platform": "hackernews", "value": 95.0, "timestamp": "1779204601"}
+{"keyword": "sp.h: Fixing C by giving it a high quality, ultra portable standard library", "platform": "hackernews", "value": 174.0, "timestamp": "1779282346"}
+{"keyword": "A self-powered computer in actual credit-card size (~1mm thick)", "platform": "hackernews", "value": 24.0, "timestamp": "1779570397"}
+{"keyword": "Rubish: A Unix shell written in pure Ruby", "platform": "hackernews", "value": 164.0, "timestamp": "1779517920"}
+{"keyword": "Highest Random Weight in Elixir", "platform": "hackernews", "value": 57.0, "timestamp": "1779371309"}
+{"keyword": "Oura says it gets government demands for user data", "platform": "hackernews", "value": 243.0, "timestamp": "1779545397"}
+{"keyword": "Lisp in Vim (2019)", "platform": "hackernews", "value": 46.0, "timestamp": "1779548159"}
+{"keyword": "Spanish court declines to fine NordVPN over LaLiga piracy blocking order", "platform": "hackernews", "value": 98.0, "timestamp": "1779519289"}
+{"keyword": "Improving C# Memory Safety", "platform": "hackernews", "value": 136.0, "timestamp": "1779382488"}
+{"keyword": ".NET (OK, C#) gets union types", "platform": "hackernews", "value": 101.0, "timestamp": "1779452930"}
+{"keyword": "It's time to talk about my writerdeck", "platform": "hackernews", "value": 196.0, "timestamp": "1779561937"}
+{"keyword": "CA declares state of emergency as fire crews race to contain toxic chemical leak", "platform": "hackernews", "value": 28.0, "timestamp": "1779574145"}
+{"keyword": "We reduced a real Node.js production Docker image from 1.2GB to 78MB", "platform": "hackernews", "value": 17.0, "timestamp": "1779573346"}
+{"keyword": "My two-part desk setup (2025)", "platform": "hackernews", "value": 164.0, "timestamp": "1779312074"}
+{"keyword": "On The <dl> (2021)", "platform": "hackernews", "value": 325.0, "timestamp": "1779541423"}
+{"keyword": "Texas woman arrested for Facebook post about town water quality", "platform": "hackernews", "value": 549.0, "timestamp": "1779559362"}
+{"keyword": "Don't Roll Your Own", "platform": "hackernews", "value": 6.0, "timestamp": "1779575105"}
+{"keyword": "Green card seekers must leave U.S. to apply, Trump administration says", "platform": "hackernews", "value": 380.0, "timestamp": "1779485232"}
+{"keyword": "Hengefinder: Finding When the Sun Aligns with Your Street", "platform": "hackernews", "value": 87.0, "timestamp": "1779482382"}
+{"keyword": "New map reveals lost roads of the Roman Empire", "platform": "hackernews", "value": 21.0, "timestamp": "1779279751"}
+{"keyword": "Reverse engineering circuitry in a Spacelab computer from 1980", "platform": "hackernews", "value": 76.0, "timestamp": "1779553490"}
+{"keyword": "Polsia raised $30M; source map: fake ARR, dead users, god-mode over your company", "platform": "hackernews", "value": 9.0, "timestamp": "1779575134"}
+{"keyword": "z386: An Open-Source 80386 Built Around Original Microcode", "platform": "hackernews", "value": 110.0, "timestamp": "1779546330"}
+{"keyword": "80386 Microcode Disassembled", "platform": "hackernews", "value": 205.0, "timestamp": "1779538303"}
+{"keyword": "SpaceX launches Starship v3 rocket", "platform": "hackernews", "value": 316.0, "timestamp": "1779493315"}
+{"keyword": "The Art of Money Getting", "platform": "hackernews", "value": 164.0, "timestamp": "1779540482"}
+{"keyword": "PHP's Oddities", "platform": "hackernews", "value": 86.0, "timestamp": "1779223308"}
+{"keyword": "Making Deep Learning Go Brrrr from First Principles (2022)", "platform": "hackernews", "value": 141.0, "timestamp": "1779537022"}
+{"keyword": "Italy moves to Airbus A330 tankers", "platform": "hackernews", "value": 216.0, "timestamp": "1779552163"}
+{"keyword": "-​-dangerously-skip-reading-code", "platform": "hackernews", "value": 79.0, "timestamp": "1779529036"}
+{"keyword": "Kindle loyalists scramble as Amazon turns page on old e-readers", "platform": "hackernews", "value": 95.0, "timestamp": "1779204601"}
+{"keyword": "sp.h: Fixing C by giving it a high quality, ultra portable standard library", "platform": "hackernews", "value": 174.0, "timestamp": "1779282346"}
+{"keyword": "A self-powered computer in actual credit-card size (~1mm thick)", "platform": "hackernews", "value": 24.0, "timestamp": "1779570397"}
+{"keyword": "Rubish: A Unix shell written in pure Ruby", "platform": "hackernews", "value": 164.0, "timestamp": "1779517920"}
+{"keyword": "Highest Random Weight in Elixir", "platform": "hackernews", "value": 57.0, "timestamp": "1779371309"}
+{"keyword": "Oura says it gets government demands for user data", "platform": "hackernews", "value": 243.0, "timestamp": "1779545397"}
+{"keyword": "Lisp in Vim (2019)", "platform": "hackernews", "value": 46.0, "timestamp": "1779548159"}
+{"keyword": "Spanish court declines to fine NordVPN over LaLiga piracy blocking order", "platform": "hackernews", "value": 98.0, "timestamp": "1779519289"}
+{"keyword": "Improving C# Memory Safety", "platform": "hackernews", "value": 136.0, "timestamp": "1779382488"}
+{"keyword": ".NET (OK, C#) gets union types", "platform": "hackernews", "value": 101.0, "timestamp": "1779452930"}
+{"keyword": "It's time to talk about my writerdeck", "platform": "hackernews", "value": 196.0, "timestamp": "1779561937"}
+{"keyword": "CA declares state of emergency as fire crews race to contain toxic chemical leak", "platform": "hackernews", "value": 28.0, "timestamp": "1779574145"}
+{"keyword": "We reduced a real Node.js production Docker image from 1.2GB to 78MB", "platform": "hackernews", "value": 17.0, "timestamp": "1779573346"}
+{"keyword": "My two-part desk setup (2025)", "platform": "hackernews", "value": 164.0, "timestamp": "1779312074"}
+{"keyword": "On The <dl> (2021)", "platform": "hackernews", "value": 325.0, "timestamp": "1779541423"}
+{"keyword": "Texas woman arrested for Facebook post about town water quality", "platform": "hackernews", "value": 549.0, "timestamp": "1779559362"}
+{"keyword": "Don't Roll Your Own", "platform": "hackernews", "value": 6.0, "timestamp": "1779575105"}
+{"keyword": "Green card seekers must leave U.S. to apply, Trump administration says", "platform": "hackernews", "value": 380.0, "timestamp": "1779485232"}
+{"keyword": "Hengefinder: Finding When the Sun Aligns with Your Street", "platform": "hackernews", "value": 87.0, "timestamp": "1779482382"}
+{"keyword": "New map reveals lost roads of the Roman Empire", "platform": "hackernews", "value": 21.0, "timestamp": "1779279751"}
+{"keyword": "Reverse engineering circuitry in a Spacelab computer from 1980", "platform": "hackernews", "value": 76.0, "timestamp": "1779553490"}
+{"keyword": "Polsia raised $30M; source map: fake ARR, dead users, god-mode over your company", "platform": "hackernews", "value": 9.0, "timestamp": "1779575134"}
+{"keyword": "z386: An Open-Source 80386 Built Around Original Microcode", "platform": "hackernews", "value": 110.0, "timestamp": "1779546330"}
+{"keyword": "80386 Microcode Disassembled", "platform": "hackernews", "value": 205.0, "timestamp": "1779538303"}
+{"keyword": "SpaceX launches Starship v3 rocket", "platform": "hackernews", "value": 316.0, "timestamp": "1779493315"}
+{"keyword": "The Art of Money Getting", "platform": "hackernews", "value": 164.0, "timestamp": "1779540482"}
+{"keyword": "PHP's Oddities", "platform": "hackernews", "value": 86.0, "timestamp": "1779223308"}
+{"keyword": "Making Deep Learning Go Brrrr from First Principles (2022)", "platform": "hackernews", "value": 141.0, "timestamp": "1779537022"}
+{"keyword": "Italy moves to Airbus A330 tankers", "platform": "hackernews", "value": 216.0, "timestamp": "1779552163"}
+{"keyword": "-​-dangerously-skip-reading-code", "platform": "hackernews", "value": 79.0, "timestamp": "1779529036"}
+{"keyword": "Kindle loyalists scramble as Amazon turns page on old e-readers", "platform": "hackernews", "value": 95.0, "timestamp": "1779204601"}
+{"keyword": "sp.h: Fixing C by giving it a high quality, ultra portable standard library", "platform": "hackernews", "value": 174.0, "timestamp": "1779282346"}
+{"keyword": "A self-powered computer in actual credit-card size (~1mm thick)", "platform": "hackernews", "value": 24.0, "timestamp": "1779570397"}
+{"keyword": "Rubish: A Unix shell written in pure Ruby", "platform": "hackernews", "value": 164.0, "timestamp": "1779517920"}
+{"keyword": "Highest Random Weight in Elixir", "platform": "hackernews", "value": 57.0, "timestamp": "1779371309"}
+{"keyword": "Oura says it gets government demands for user data", "platform": "hackernews", "value": 243.0, "timestamp": "1779545397"}
+{"keyword": "Lisp in Vim (2019)", "platform": "hackernews", "value": 46.0, "timestamp": "1779548159"}
+{"keyword": "Spanish court declines to fine NordVPN over LaLiga piracy blocking order", "platform": "hackernews", "value": 98.0, "timestamp": "1779519289"}
+{"keyword": "Improving C# Memory Safety", "platform": "hackernews", "value": 136.0, "timestamp": "1779382488"}
+{"keyword": ".NET (OK, C#) gets union types", "platform": "hackernews", "value": 101.0, "timestamp": "1779452930"}
+{"keyword": "It's time to talk about my writerdeck", "platform": "hackernews", "value": 196.0, "timestamp": "1779561937"}
+{"keyword": "CA declares state of emergency as fire crews race to contain toxic chemical leak", "platform": "hackernews", "value": 28.0, "timestamp": "1779574145"}
+{"keyword": "We reduced a real Node.js production Docker image from 1.2GB to 78MB", "platform": "hackernews", "value": 17.0, "timestamp": "1779573346"}
+{"keyword": "My two-part desk setup (2025)", "platform": "hackernews", "value": 164.0, "timestamp": "1779312074"}
+{"keyword": "On The <dl> (2021)", "platform": "hackernews", "value": 325.0, "timestamp": "1779541423"}
+{"keyword": "Texas woman arrested for Facebook post about town water quality", "platform": "hackernews", "value": 549.0, "timestamp": "1779559362"}
+{"keyword": "Don't Roll Your Own", "platform": "hackernews", "value": 6.0, "timestamp": "1779575105"}
+{"keyword": "Green card seekers must leave U.S. to apply, Trump administration says", "platform": "hackernews", "value": 380.0, "timestamp": "1779485232"}
+{"keyword": "Hengefinder: Finding When the Sun Aligns with Your Street", "platform": "hackernews", "value": 87.0, "timestamp": "1779482382"}
+{"keyword": "New map reveals lost roads of the Roman Empire", "platform": "hackernews", "value": 21.0, "timestamp": "1779279751"}
+{"keyword": "Reverse engineering circuitry in a Spacelab computer from 1980", "platform": "hackernews", "value": 76.0, "timestamp": "1779553490"}
+{"keyword": "Polsia raised $30M; source map: fake ARR, dead users, god-mode over your company", "platform": "hackernews", "value": 9.0, "timestamp": "1779575134"}
+{"keyword": "z386: An Open-Source 80386 Built Around Original Microcode", "platform": "hackernews", "value": 110.0, "timestamp": "1779546330"}
+{"keyword": "80386 Microcode Disassembled", "platform": "hackernews", "value": 205.0, "timestamp": "1779538303"}
+{"keyword": "SpaceX launches Starship v3 rocket", "platform": "hackernews", "value": 316.0, "timestamp": "1779493315"}
+{"keyword": "The Art of Money Getting", "platform": "hackernews", "value": 164.0, "timestamp": "1779540482"}
+{"keyword": "PHP's Oddities", "platform": "hackernews", "value": 86.0, "timestamp": "1779223308"}
+{"keyword": "Making Deep Learning Go Brrrr from First Principles (2022)", "platform": "hackernews", "value": 141.0, "timestamp": "1779537022"}
+{"keyword": "Italy moves to Airbus A330 tankers", "platform": "hackernews", "value": 216.0, "timestamp": "1779552163"}
+{"keyword": "-​-dangerously-skip-reading-code", "platform": "hackernews", "value": 79.0, "timestamp": "1779529036"}
+{"keyword": "Kindle loyalists scramble as Amazon turns page on old e-readers", "platform": "hackernews", "value": 95.0, "timestamp": "1779204601"}
+{"keyword": "sp.h: Fixing C by giving it a high quality, ultra portable standard library", "platform": "hackernews", "value": 174.0, "timestamp": "1779282346"}
+{"keyword": "A self-powered computer in actual credit-card size (~1mm thick)", "platform": "hackernews", "value": 24.0, "timestamp": "1779570397"}
+{"keyword": "Rubish: A Unix shell written in pure Ruby", "platform": "hackernews", "value": 164.0, "timestamp": "1779517920"}
+{"keyword": "Highest Random Weight in Elixir", "platform": "hackernews", "value": 57.0, "timestamp": "1779371309"}
+{"keyword": "Oura says it gets government demands for user data", "platform": "hackernews", "value": 243.0, "timestamp": "1779545397"}
+{"keyword": "Lisp in Vim (2019)", "platform": "hackernews", "value": 46.0, "timestamp": "1779548159"}
+{"keyword": "Spanish court declines to fine NordVPN over LaLiga piracy blocking order", "platform": "hackernews", "value": 98.0, "timestamp": "1779519289"}
+{"keyword": "Improving C# Memory Safety", "platform": "hackernews", "value": 136.0, "timestamp": "1779382488"}
