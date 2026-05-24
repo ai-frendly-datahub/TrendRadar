@@ -56,3 +56,123 @@
 {"keyword": "Building a Real Android App at Google I/O 2026: No Kotlin, Just Prompts", "platform": "devto", "value": 1.0, "timestamp": "2026-05-23T22:10:39Z"}
 {"keyword": "E2B vs E4B vs 31B Dense: The Practical Guide to Choosing the Right Gemma 4 Model", "platform": "devto", "value": 0.0, "timestamp": "2026-05-23T11:28:15Z"}
 {"keyword": "Snap Your Fridge, Get a Recipe: Building PantryLens with Gemma 4", "platform": "devto", "value": 1.0, "timestamp": "2026-05-24T07:45:21Z"}
+{"keyword": "NeuralHats: I Put Edward de Bono’s Six Thinking Hats on Local LLMs Using Gemma 4", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T19:10:31Z"}
+{"keyword": "I built a local document Q&A tool around Gemma 4 E4B's 128K context — five days, no RAG, no cloud", "platform": "devto", "value": 35.0, "timestamp": "2026-05-24T07:16:52Z"}
+{"keyword": "Gemma 4 challenge inspired me to build my first app!", "platform": "devto", "value": 12.0, "timestamp": "2026-05-24T18:11:38Z"}
+{"keyword": "I stress-tested Gemma 4 E4B's 128K context on a laptop GPU — recall is great, prefill is not", "platform": "devto", "value": 22.0, "timestamp": "2026-05-24T06:44:15Z"}
+{"keyword": "My Impression of AI in Programming", "platform": "devto", "value": 2.0, "timestamp": "2026-05-24T14:47:19Z"}
+{"keyword": "From Govhack Win to Something That Actually Matters", "platform": "devto", "value": 8.0, "timestamp": "2026-05-24T12:46:29Z"}
+{"keyword": "Your Inbox Knows Too Much: Parsli for the Privacy Paranoid", "platform": "devto", "value": 2.0, "timestamp": "2026-05-24T15:17:03Z"}
+{"keyword": "Everyone's Talking About Gemini 3.5 Flash. The Real Story at Google I/O 2026 Was a Skill File.", "platform": "devto", "value": 18.0, "timestamp": "2026-05-24T08:13:34Z"}
+{"keyword": "I Built ResuMate! A 100% Private, Local AI Resume Optimizer with Google Gemma 4", "platform": "devto", "value": 11.0, "timestamp": "2026-05-24T19:10:57Z"}
+{"keyword": "Entrei pra fazer networking, mas não imaginava o que ia encontrar...", "platform": "devto", "value": 13.0, "timestamp": "2026-05-24T00:29:09Z"}
+{"keyword": "I Fine-Tuned Gemma 4 on an Emotion Dataset Using a Single GPU", "platform": "devto", "value": 10.0, "timestamp": "2026-05-24T08:06:04Z"}
+{"keyword": "I Built a Hermes Agent to Tell Me Which Hackathons to Enter. It Told Me to Enter This One.", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T20:24:30Z"}
+{"keyword": "🎙️Interview Coach AI — Practice Mock Interviews Locally with Gemma 4 + Jan", "platform": "devto", "value": 6.0, "timestamp": "2026-05-24T17:32:20Z"}
+{"keyword": "I Got Tired of Forgetting. So I Built PwnLog.", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T11:29:32Z"}
+{"keyword": "Every Time She Got Confused Online, She Called Me. I Got Tired of Answering. So I Built This.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-24T06:57:39Z"}
+{"keyword": "Configuring MCP Servers and Skills for Antigravity CLI and IDE", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T10:36:37Z"}
+{"keyword": "Google I/O 2026: AI Built an OS in 12 Hours. I Spent Mine Sorting Screenshots. 🤦", "platform": "devto", "value": 6.0, "timestamp": "2026-05-24T21:18:41Z"}
+{"keyword": "Google I/O 2026: The Year Google Stopped Building AI Assistants and Started Shipping AI Engineers", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T18:15:27Z"}
+{"keyword": "I Ditched Cloud LLMs for Gemma 4 4B: A DevOps Engineer's 48-Hour Reality Check", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T19:55:03Z"}
+{"keyword": "I built a local first AI CCTV assistant using Gemma 4 + Frigate", "platform": "devto", "value": 1.0, "timestamp": "2026-05-24T18:48:26Z"}
+{"keyword": "Understanding Parsers by Building One", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T14:39:42Z"}
+{"keyword": "The Runtime Was Dead Long Before the Dashboard Noticed", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T10:20:25Z"}
+{"keyword": "Beyond RAG: Architecting Local Long-Context Pipelines with Gemma 4's 31B Dense Model", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T07:53:33Z"}
+{"keyword": "Claude Code Hooks 101: Turning Your AI Coding Assistant Into an Automated Teammate", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T17:24:35Z"}
+{"keyword": "How to Build a Persistent AI Agent with Hermes in 15 Minutes", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T14:30:00Z"}
+{"keyword": "WebMCP Is the Most Underrated Announcement from Google I/O 2026", "platform": "devto", "value": 1.0, "timestamp": "2026-05-24T12:30:00Z"}
+{"keyword": "OpenCode Go + Oh My OpenAgent: The Model Routing Config That Actually Saves Money", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T02:53:03Z"}
+{"keyword": "Gemma 4 26B A4B: What \"Mixture of Experts\" Actually Means for Your Inference Budget", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T12:40:10Z"}
+{"keyword": "Shadow CTO — A GitHub Repo Memory Container Powered by Hermes Agent", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T11:40:42Z"}
+{"keyword": "Android Views Is Now in Maintenance Mode — Here's What That Actually Means for Android Devs", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T12:21:55Z"}
+{"keyword": "NeuralHats: I Put Edward de Bono’s Six Thinking Hats on Local LLMs Using Gemma 4", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T19:10:31Z"}
+{"keyword": "I built a local document Q&A tool around Gemma 4 E4B's 128K context — five days, no RAG, no cloud", "platform": "devto", "value": 35.0, "timestamp": "2026-05-24T07:16:52Z"}
+{"keyword": "Gemma 4 challenge inspired me to build my first app!", "platform": "devto", "value": 12.0, "timestamp": "2026-05-24T18:11:38Z"}
+{"keyword": "I stress-tested Gemma 4 E4B's 128K context on a laptop GPU — recall is great, prefill is not", "platform": "devto", "value": 22.0, "timestamp": "2026-05-24T06:44:15Z"}
+{"keyword": "My Impression of AI in Programming", "platform": "devto", "value": 2.0, "timestamp": "2026-05-24T14:47:19Z"}
+{"keyword": "From Govhack Win to Something That Actually Matters", "platform": "devto", "value": 8.0, "timestamp": "2026-05-24T12:46:29Z"}
+{"keyword": "Your Inbox Knows Too Much: Parsli for the Privacy Paranoid", "platform": "devto", "value": 2.0, "timestamp": "2026-05-24T15:17:03Z"}
+{"keyword": "Everyone's Talking About Gemini 3.5 Flash. The Real Story at Google I/O 2026 Was a Skill File.", "platform": "devto", "value": 18.0, "timestamp": "2026-05-24T08:13:34Z"}
+{"keyword": "I Built ResuMate! A 100% Private, Local AI Resume Optimizer with Google Gemma 4", "platform": "devto", "value": 11.0, "timestamp": "2026-05-24T19:10:57Z"}
+{"keyword": "Entrei pra fazer networking, mas não imaginava o que ia encontrar...", "platform": "devto", "value": 13.0, "timestamp": "2026-05-24T00:29:09Z"}
+{"keyword": "I Fine-Tuned Gemma 4 on an Emotion Dataset Using a Single GPU", "platform": "devto", "value": 10.0, "timestamp": "2026-05-24T08:06:04Z"}
+{"keyword": "I Built a Hermes Agent to Tell Me Which Hackathons to Enter. It Told Me to Enter This One.", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T20:24:30Z"}
+{"keyword": "🎙️Interview Coach AI — Practice Mock Interviews Locally with Gemma 4 + Jan", "platform": "devto", "value": 6.0, "timestamp": "2026-05-24T17:32:20Z"}
+{"keyword": "I Got Tired of Forgetting. So I Built PwnLog.", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T11:29:32Z"}
+{"keyword": "Every Time She Got Confused Online, She Called Me. I Got Tired of Answering. So I Built This.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-24T06:57:39Z"}
+{"keyword": "Configuring MCP Servers and Skills for Antigravity CLI and IDE", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T10:36:37Z"}
+{"keyword": "Google I/O 2026: AI Built an OS in 12 Hours. I Spent Mine Sorting Screenshots. 🤦", "platform": "devto", "value": 6.0, "timestamp": "2026-05-24T21:18:41Z"}
+{"keyword": "Google I/O 2026: The Year Google Stopped Building AI Assistants and Started Shipping AI Engineers", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T18:15:27Z"}
+{"keyword": "I Ditched Cloud LLMs for Gemma 4 4B: A DevOps Engineer's 48-Hour Reality Check", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T19:55:03Z"}
+{"keyword": "I built a local first AI CCTV assistant using Gemma 4 + Frigate", "platform": "devto", "value": 1.0, "timestamp": "2026-05-24T18:48:26Z"}
+{"keyword": "Understanding Parsers by Building One", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T14:39:42Z"}
+{"keyword": "The Runtime Was Dead Long Before the Dashboard Noticed", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T10:20:25Z"}
+{"keyword": "Beyond RAG: Architecting Local Long-Context Pipelines with Gemma 4's 31B Dense Model", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T07:53:33Z"}
+{"keyword": "Claude Code Hooks 101: Turning Your AI Coding Assistant Into an Automated Teammate", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T17:24:35Z"}
+{"keyword": "How to Build a Persistent AI Agent with Hermes in 15 Minutes", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T14:30:00Z"}
+{"keyword": "WebMCP Is the Most Underrated Announcement from Google I/O 2026", "platform": "devto", "value": 1.0, "timestamp": "2026-05-24T12:30:00Z"}
+{"keyword": "OpenCode Go + Oh My OpenAgent: The Model Routing Config That Actually Saves Money", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T02:53:03Z"}
+{"keyword": "Gemma 4 26B A4B: What \"Mixture of Experts\" Actually Means for Your Inference Budget", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T12:40:10Z"}
+{"keyword": "Shadow CTO — A GitHub Repo Memory Container Powered by Hermes Agent", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T11:40:42Z"}
+{"keyword": "Android Views Is Now in Maintenance Mode — Here's What That Actually Means for Android Devs", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T12:21:55Z"}
+{"keyword": "NeuralHats: I Put Edward de Bono’s Six Thinking Hats on Local LLMs Using Gemma 4", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T19:10:31Z"}
+{"keyword": "I built a local document Q&A tool around Gemma 4 E4B's 128K context — five days, no RAG, no cloud", "platform": "devto", "value": 35.0, "timestamp": "2026-05-24T07:16:52Z"}
+{"keyword": "Gemma 4 challenge inspired me to build my first app!", "platform": "devto", "value": 12.0, "timestamp": "2026-05-24T18:11:38Z"}
+{"keyword": "I stress-tested Gemma 4 E4B's 128K context on a laptop GPU — recall is great, prefill is not", "platform": "devto", "value": 22.0, "timestamp": "2026-05-24T06:44:15Z"}
+{"keyword": "My Impression of AI in Programming", "platform": "devto", "value": 2.0, "timestamp": "2026-05-24T14:47:19Z"}
+{"keyword": "From Govhack Win to Something That Actually Matters", "platform": "devto", "value": 8.0, "timestamp": "2026-05-24T12:46:29Z"}
+{"keyword": "Your Inbox Knows Too Much: Parsli for the Privacy Paranoid", "platform": "devto", "value": 2.0, "timestamp": "2026-05-24T15:17:03Z"}
+{"keyword": "Everyone's Talking About Gemini 3.5 Flash. The Real Story at Google I/O 2026 Was a Skill File.", "platform": "devto", "value": 18.0, "timestamp": "2026-05-24T08:13:34Z"}
+{"keyword": "I Built ResuMate! A 100% Private, Local AI Resume Optimizer with Google Gemma 4", "platform": "devto", "value": 11.0, "timestamp": "2026-05-24T19:10:57Z"}
+{"keyword": "Entrei pra fazer networking, mas não imaginava o que ia encontrar...", "platform": "devto", "value": 13.0, "timestamp": "2026-05-24T00:29:09Z"}
+{"keyword": "I Fine-Tuned Gemma 4 on an Emotion Dataset Using a Single GPU", "platform": "devto", "value": 10.0, "timestamp": "2026-05-24T08:06:04Z"}
+{"keyword": "I Built a Hermes Agent to Tell Me Which Hackathons to Enter. It Told Me to Enter This One.", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T20:24:30Z"}
+{"keyword": "🎙️Interview Coach AI — Practice Mock Interviews Locally with Gemma 4 + Jan", "platform": "devto", "value": 6.0, "timestamp": "2026-05-24T17:32:20Z"}
+{"keyword": "I Got Tired of Forgetting. So I Built PwnLog.", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T11:29:32Z"}
+{"keyword": "Every Time She Got Confused Online, She Called Me. I Got Tired of Answering. So I Built This.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-24T06:57:39Z"}
+{"keyword": "Configuring MCP Servers and Skills for Antigravity CLI and IDE", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T10:36:37Z"}
+{"keyword": "Google I/O 2026: AI Built an OS in 12 Hours. I Spent Mine Sorting Screenshots. 🤦", "platform": "devto", "value": 6.0, "timestamp": "2026-05-24T21:18:41Z"}
+{"keyword": "Google I/O 2026: The Year Google Stopped Building AI Assistants and Started Shipping AI Engineers", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T18:15:27Z"}
+{"keyword": "I Ditched Cloud LLMs for Gemma 4 4B: A DevOps Engineer's 48-Hour Reality Check", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T19:55:03Z"}
+{"keyword": "I built a local first AI CCTV assistant using Gemma 4 + Frigate", "platform": "devto", "value": 1.0, "timestamp": "2026-05-24T18:48:26Z"}
+{"keyword": "Understanding Parsers by Building One", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T14:39:42Z"}
+{"keyword": "The Runtime Was Dead Long Before the Dashboard Noticed", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T10:20:25Z"}
+{"keyword": "Beyond RAG: Architecting Local Long-Context Pipelines with Gemma 4's 31B Dense Model", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T07:53:33Z"}
+{"keyword": "Claude Code Hooks 101: Turning Your AI Coding Assistant Into an Automated Teammate", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T17:24:35Z"}
+{"keyword": "How to Build a Persistent AI Agent with Hermes in 15 Minutes", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T14:30:00Z"}
+{"keyword": "WebMCP Is the Most Underrated Announcement from Google I/O 2026", "platform": "devto", "value": 1.0, "timestamp": "2026-05-24T12:30:00Z"}
+{"keyword": "OpenCode Go + Oh My OpenAgent: The Model Routing Config That Actually Saves Money", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T02:53:03Z"}
+{"keyword": "Gemma 4 26B A4B: What \"Mixture of Experts\" Actually Means for Your Inference Budget", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T12:40:10Z"}
+{"keyword": "Shadow CTO — A GitHub Repo Memory Container Powered by Hermes Agent", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T11:40:42Z"}
+{"keyword": "Android Views Is Now in Maintenance Mode — Here's What That Actually Means for Android Devs", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T12:21:55Z"}
+{"keyword": "NeuralHats: I Put Edward de Bono’s Six Thinking Hats on Local LLMs Using Gemma 4", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T19:10:31Z"}
+{"keyword": "I built a local document Q&A tool around Gemma 4 E4B's 128K context — five days, no RAG, no cloud", "platform": "devto", "value": 35.0, "timestamp": "2026-05-24T07:16:52Z"}
+{"keyword": "Gemma 4 challenge inspired me to build my first app!", "platform": "devto", "value": 12.0, "timestamp": "2026-05-24T18:11:38Z"}
+{"keyword": "I stress-tested Gemma 4 E4B's 128K context on a laptop GPU — recall is great, prefill is not", "platform": "devto", "value": 22.0, "timestamp": "2026-05-24T06:44:15Z"}
+{"keyword": "My Impression of AI in Programming", "platform": "devto", "value": 2.0, "timestamp": "2026-05-24T14:47:19Z"}
+{"keyword": "From Govhack Win to Something That Actually Matters", "platform": "devto", "value": 8.0, "timestamp": "2026-05-24T12:46:29Z"}
+{"keyword": "Your Inbox Knows Too Much: Parsli for the Privacy Paranoid", "platform": "devto", "value": 2.0, "timestamp": "2026-05-24T15:17:03Z"}
+{"keyword": "Everyone's Talking About Gemini 3.5 Flash. The Real Story at Google I/O 2026 Was a Skill File.", "platform": "devto", "value": 18.0, "timestamp": "2026-05-24T08:13:34Z"}
+{"keyword": "I Built ResuMate! A 100% Private, Local AI Resume Optimizer with Google Gemma 4", "platform": "devto", "value": 11.0, "timestamp": "2026-05-24T19:10:57Z"}
+{"keyword": "Entrei pra fazer networking, mas não imaginava o que ia encontrar...", "platform": "devto", "value": 13.0, "timestamp": "2026-05-24T00:29:09Z"}
+{"keyword": "I Fine-Tuned Gemma 4 on an Emotion Dataset Using a Single GPU", "platform": "devto", "value": 10.0, "timestamp": "2026-05-24T08:06:04Z"}
+{"keyword": "I Built a Hermes Agent to Tell Me Which Hackathons to Enter. It Told Me to Enter This One.", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T20:24:30Z"}
+{"keyword": "🎙️Interview Coach AI — Practice Mock Interviews Locally with Gemma 4 + Jan", "platform": "devto", "value": 6.0, "timestamp": "2026-05-24T17:32:20Z"}
+{"keyword": "I Got Tired of Forgetting. So I Built PwnLog.", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T11:29:32Z"}
+{"keyword": "Every Time She Got Confused Online, She Called Me. I Got Tired of Answering. So I Built This.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-24T06:57:39Z"}
+{"keyword": "Configuring MCP Servers and Skills for Antigravity CLI and IDE", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T10:36:37Z"}
+{"keyword": "Google I/O 2026: AI Built an OS in 12 Hours. I Spent Mine Sorting Screenshots. 🤦", "platform": "devto", "value": 6.0, "timestamp": "2026-05-24T21:18:41Z"}
+{"keyword": "Google I/O 2026: The Year Google Stopped Building AI Assistants and Started Shipping AI Engineers", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T18:15:27Z"}
+{"keyword": "I Ditched Cloud LLMs for Gemma 4 4B: A DevOps Engineer's 48-Hour Reality Check", "platform": "devto", "value": 7.0, "timestamp": "2026-05-24T19:55:03Z"}
+{"keyword": "I built a local first AI CCTV assistant using Gemma 4 + Frigate", "platform": "devto", "value": 1.0, "timestamp": "2026-05-24T18:48:26Z"}
+{"keyword": "Understanding Parsers by Building One", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T14:39:42Z"}
+{"keyword": "The Runtime Was Dead Long Before the Dashboard Noticed", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T10:20:25Z"}
+{"keyword": "Beyond RAG: Architecting Local Long-Context Pipelines with Gemma 4's 31B Dense Model", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T07:53:33Z"}
+{"keyword": "Claude Code Hooks 101: Turning Your AI Coding Assistant Into an Automated Teammate", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T17:24:35Z"}
+{"keyword": "How to Build a Persistent AI Agent with Hermes in 15 Minutes", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T14:30:00Z"}
+{"keyword": "WebMCP Is the Most Underrated Announcement from Google I/O 2026", "platform": "devto", "value": 1.0, "timestamp": "2026-05-24T12:30:00Z"}
+{"keyword": "OpenCode Go + Oh My OpenAgent: The Model Routing Config That Actually Saves Money", "platform": "devto", "value": 5.0, "timestamp": "2026-05-24T02:53:03Z"}
+{"keyword": "Gemma 4 26B A4B: What \"Mixture of Experts\" Actually Means for Your Inference Budget", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T12:40:10Z"}
+{"keyword": "Shadow CTO — A GitHub Repo Memory Container Powered by Hermes Agent", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T11:40:42Z"}
+{"keyword": "Android Views Is Now in Maintenance Mode — Here's What That Actually Means for Android Devs", "platform": "devto", "value": 0.0, "timestamp": "2026-05-24T12:21:55Z"}
