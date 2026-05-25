@@ -7,22 +7,26 @@
   "top_entities": [
     {
       "name": "Seoul",
-      "count": 9
+      "count": 10
     },
     {
       "name": "South Korea",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Python (programming language)",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Artificial intelligence",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Machine learning",
+      "count": 10
+    },
+    {
+      "name": "OpenAI",
       "count": 9
     },
     {
@@ -62,33 +66,29 @@
       "count": 9
     },
     {
-      "name": "OpenAI",
-      "count": 9
+      "name": "K-POP",
+      "count": 2
+    },
+    {
+      "name": "음악방송",
+      "count": 2
     },
     {
       "name": "멜론",
-      "count": 3
+      "count": 2
     },
     {
-      "name": "뉴진스",
-      "count": 3
+      "name": "음원차트",
+      "count": 2
     },
     {
-      "name": "걸그룹",
-      "count": 3
-    },
-    {
-      "name": "정치인",
-      "count": 3
-    },
-    {
-      "name": "아이돌",
-      "count": 3
+      "name": "인플루언서",
+      "count": 2
     }
   ],
   "sources": {
-    "google": 65,
-    "wikipedia": 135
+    "google": 60,
+    "wikipedia": 140
   },
-  "generated_at": "2026-05-25T21:59:36.587839+09:00"
+  "generated_at": "2026-05-25T22:58:51.153552+00:00"
 }
