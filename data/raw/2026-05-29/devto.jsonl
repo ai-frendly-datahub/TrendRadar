@@ -48,3 +48,115 @@
 {"keyword": "I was wrong about Electron", "platform": "devto", "value": 5.0, "timestamp": "2026-05-29T11:31:40Z"}
 {"keyword": "I made my Markdown Editor \"AI-Ready\": MarkSmith v0.3.0", "platform": "devto", "value": 5.0, "timestamp": "2026-05-28T18:51:39Z"}
 {"keyword": "Stop Hunting for Root Causes: Build Your Own AI Kubernetes Troubleshooting Agent", "platform": "devto", "value": 15.0, "timestamp": "2026-05-28T20:48:17Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 34.0, "timestamp": "2026-05-29T13:00:00Z"}
+{"keyword": "DevRelCon NYC 2026: Where Developer Relations, DevX, & Developer Marketing Come Together", "platform": "devto", "value": 17.0, "timestamp": "2026-05-29T17:34:01Z"}
+{"keyword": "🗓️ Monthly Dev Report: May 2026", "platform": "devto", "value": 36.0, "timestamp": "2026-05-29T14:17:56Z"}
+{"keyword": "Dev Opportunity Radar #1: A $100K AI Grant, Two Fellowships, and an AI Agent Resource", "platform": "devto", "value": 13.0, "timestamp": "2026-05-29T14:19:10Z"}
+{"keyword": "The Kubernetes Overkill: Why I Built a \"K8s Killer\" for Small Environments", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T09:48:30Z"}
+{"keyword": "Weekly Dev Log 2026-W07", "platform": "devto", "value": 3.0, "timestamp": "2026-05-29T00:18:11Z"}
+{"keyword": "Building a Resume Download Gate: Email Collection, Signed Tokens, and an S3 Lesson", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T03:32:12Z"}
+{"keyword": "I left a Linux security guide half-finished for months — Copilot helped me wrap it up", "platform": "devto", "value": 5.0, "timestamp": "2026-05-28T23:27:04Z"}
+{"keyword": "Autofilling in the Blanks", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T14:16:00Z"}
+{"keyword": "VS Code Prompt Files - Custom Slash Commands for GitHub Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T10:33:32Z"}
+{"keyword": "NFC, Crypto, Biometrics, And A New Build Cloud", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T14:01:40Z"}
+{"keyword": "What actually happens when you run `go run main.go`", "platform": "devto", "value": 27.0, "timestamp": "2026-05-29T10:11:16Z"}
+{"keyword": "An AI agent that pays for its own API calls on AWS", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T11:27:13Z"}
+{"keyword": "Fungible and Non-Fungible Tokens on Solana: Same System, Different Rules", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T18:40:51Z"}
+{"keyword": "A self-hosted Google reCAPTCHA alternative (we ship it)", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T06:29:01Z"}
+{"keyword": "Sidemark: Active Telemetry Comments for C#", "platform": "devto", "value": 1.0, "timestamp": "2026-05-29T12:42:17Z"}
+{"keyword": "A Warm Welcome to \"gemma-skills\"", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T21:52:03Z"}
+{"keyword": "No Template Fits? Generate Your Own Awesome DESIGN.md with .NET and Ollama", "platform": "devto", "value": 2.0, "timestamp": "2026-05-29T14:21:04Z"}
+{"keyword": "how I revived and scaled Vim Royale, a pvp vim based multiplayer game to 200+ users", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T05:59:52Z"}
+{"keyword": "LLMs suck at generating large, structured data. Tips on how to get your AI agent to do it reliably", "platform": "devto", "value": 2.0, "timestamp": "2026-05-29T12:06:19Z"}
+{"keyword": "I was wrong about Electron", "platform": "devto", "value": 5.0, "timestamp": "2026-05-29T11:31:40Z"}
+{"keyword": "Building Image Compression in Rust with libvips Real Benchmarks, Real Tradeoffs", "platform": "devto", "value": 5.0, "timestamp": "2026-05-29T13:00:32Z"}
+{"keyword": "SMS Delivery Receipts on AWS Lambda", "platform": "devto", "value": 4.0, "timestamp": "2026-05-29T13:12:50Z"}
+{"keyword": "I Pointed Chrome's Prompt API at a 1.25 Million Character Memoir, and It Got Interesting Fast", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T18:36:12Z"}
+{"keyword": "From a 3-Day Deadline Disaster to a Real Product: Reviving My First Full-Stack Project", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T12:03:41Z"}
+{"keyword": "I Spent a Weekend Hunting Through Linux's File System and Here's What I Found", "platform": "devto", "value": 4.0, "timestamp": "2026-05-29T05:49:26Z"}
+{"keyword": "Renovate & Dependabot: The New Malware Delivery System", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T12:56:15Z"}
+{"keyword": "MongoDB `$facet` Explained: One Query, Multiple Results", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T09:35:59Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 34.0, "timestamp": "2026-05-29T13:00:00Z"}
+{"keyword": "DevRelCon NYC 2026: Where Developer Relations, DevX, & Developer Marketing Come Together", "platform": "devto", "value": 17.0, "timestamp": "2026-05-29T17:34:01Z"}
+{"keyword": "🗓️ Monthly Dev Report: May 2026", "platform": "devto", "value": 36.0, "timestamp": "2026-05-29T14:17:56Z"}
+{"keyword": "Dev Opportunity Radar #1: A $100K AI Grant, Two Fellowships, and an AI Agent Resource", "platform": "devto", "value": 13.0, "timestamp": "2026-05-29T14:19:10Z"}
+{"keyword": "The Kubernetes Overkill: Why I Built a \"K8s Killer\" for Small Environments", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T09:48:30Z"}
+{"keyword": "Weekly Dev Log 2026-W07", "platform": "devto", "value": 3.0, "timestamp": "2026-05-29T00:18:11Z"}
+{"keyword": "Building a Resume Download Gate: Email Collection, Signed Tokens, and an S3 Lesson", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T03:32:12Z"}
+{"keyword": "I left a Linux security guide half-finished for months — Copilot helped me wrap it up", "platform": "devto", "value": 5.0, "timestamp": "2026-05-28T23:27:04Z"}
+{"keyword": "Autofilling in the Blanks", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T14:16:00Z"}
+{"keyword": "VS Code Prompt Files - Custom Slash Commands for GitHub Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T10:33:32Z"}
+{"keyword": "NFC, Crypto, Biometrics, And A New Build Cloud", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T14:01:40Z"}
+{"keyword": "What actually happens when you run `go run main.go`", "platform": "devto", "value": 27.0, "timestamp": "2026-05-29T10:11:16Z"}
+{"keyword": "An AI agent that pays for its own API calls on AWS", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T11:27:13Z"}
+{"keyword": "Fungible and Non-Fungible Tokens on Solana: Same System, Different Rules", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T18:40:51Z"}
+{"keyword": "A self-hosted Google reCAPTCHA alternative (we ship it)", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T06:29:01Z"}
+{"keyword": "Sidemark: Active Telemetry Comments for C#", "platform": "devto", "value": 1.0, "timestamp": "2026-05-29T12:42:17Z"}
+{"keyword": "A Warm Welcome to \"gemma-skills\"", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T21:52:03Z"}
+{"keyword": "No Template Fits? Generate Your Own Awesome DESIGN.md with .NET and Ollama", "platform": "devto", "value": 2.0, "timestamp": "2026-05-29T14:21:04Z"}
+{"keyword": "how I revived and scaled Vim Royale, a pvp vim based multiplayer game to 200+ users", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T05:59:52Z"}
+{"keyword": "LLMs suck at generating large, structured data. Tips on how to get your AI agent to do it reliably", "platform": "devto", "value": 2.0, "timestamp": "2026-05-29T12:06:19Z"}
+{"keyword": "I was wrong about Electron", "platform": "devto", "value": 5.0, "timestamp": "2026-05-29T11:31:40Z"}
+{"keyword": "Building Image Compression in Rust with libvips Real Benchmarks, Real Tradeoffs", "platform": "devto", "value": 5.0, "timestamp": "2026-05-29T13:00:32Z"}
+{"keyword": "SMS Delivery Receipts on AWS Lambda", "platform": "devto", "value": 4.0, "timestamp": "2026-05-29T13:12:50Z"}
+{"keyword": "I Pointed Chrome's Prompt API at a 1.25 Million Character Memoir, and It Got Interesting Fast", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T18:36:12Z"}
+{"keyword": "From a 3-Day Deadline Disaster to a Real Product: Reviving My First Full-Stack Project", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T12:03:41Z"}
+{"keyword": "I Spent a Weekend Hunting Through Linux's File System and Here's What I Found", "platform": "devto", "value": 4.0, "timestamp": "2026-05-29T05:49:26Z"}
+{"keyword": "Renovate & Dependabot: The New Malware Delivery System", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T12:56:15Z"}
+{"keyword": "MongoDB `$facet` Explained: One Query, Multiple Results", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T09:35:59Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 34.0, "timestamp": "2026-05-29T13:00:00Z"}
+{"keyword": "DevRelCon NYC 2026: Where Developer Relations, DevX, & Developer Marketing Come Together", "platform": "devto", "value": 17.0, "timestamp": "2026-05-29T17:34:01Z"}
+{"keyword": "🗓️ Monthly Dev Report: May 2026", "platform": "devto", "value": 36.0, "timestamp": "2026-05-29T14:17:56Z"}
+{"keyword": "Dev Opportunity Radar #1: A $100K AI Grant, Two Fellowships, and an AI Agent Resource", "platform": "devto", "value": 13.0, "timestamp": "2026-05-29T14:19:10Z"}
+{"keyword": "The Kubernetes Overkill: Why I Built a \"K8s Killer\" for Small Environments", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T09:48:30Z"}
+{"keyword": "Weekly Dev Log 2026-W07", "platform": "devto", "value": 3.0, "timestamp": "2026-05-29T00:18:11Z"}
+{"keyword": "Building a Resume Download Gate: Email Collection, Signed Tokens, and an S3 Lesson", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T03:32:12Z"}
+{"keyword": "I left a Linux security guide half-finished for months — Copilot helped me wrap it up", "platform": "devto", "value": 5.0, "timestamp": "2026-05-28T23:27:04Z"}
+{"keyword": "Autofilling in the Blanks", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T14:16:00Z"}
+{"keyword": "VS Code Prompt Files - Custom Slash Commands for GitHub Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T10:33:32Z"}
+{"keyword": "NFC, Crypto, Biometrics, And A New Build Cloud", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T14:01:40Z"}
+{"keyword": "What actually happens when you run `go run main.go`", "platform": "devto", "value": 27.0, "timestamp": "2026-05-29T10:11:16Z"}
+{"keyword": "An AI agent that pays for its own API calls on AWS", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T11:27:13Z"}
+{"keyword": "Fungible and Non-Fungible Tokens on Solana: Same System, Different Rules", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T18:40:51Z"}
+{"keyword": "A self-hosted Google reCAPTCHA alternative (we ship it)", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T06:29:01Z"}
+{"keyword": "Sidemark: Active Telemetry Comments for C#", "platform": "devto", "value": 1.0, "timestamp": "2026-05-29T12:42:17Z"}
+{"keyword": "A Warm Welcome to \"gemma-skills\"", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T21:52:03Z"}
+{"keyword": "No Template Fits? Generate Your Own Awesome DESIGN.md with .NET and Ollama", "platform": "devto", "value": 2.0, "timestamp": "2026-05-29T14:21:04Z"}
+{"keyword": "how I revived and scaled Vim Royale, a pvp vim based multiplayer game to 200+ users", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T05:59:52Z"}
+{"keyword": "LLMs suck at generating large, structured data. Tips on how to get your AI agent to do it reliably", "platform": "devto", "value": 2.0, "timestamp": "2026-05-29T12:06:19Z"}
+{"keyword": "I was wrong about Electron", "platform": "devto", "value": 5.0, "timestamp": "2026-05-29T11:31:40Z"}
+{"keyword": "Building Image Compression in Rust with libvips Real Benchmarks, Real Tradeoffs", "platform": "devto", "value": 5.0, "timestamp": "2026-05-29T13:00:32Z"}
+{"keyword": "SMS Delivery Receipts on AWS Lambda", "platform": "devto", "value": 4.0, "timestamp": "2026-05-29T13:12:50Z"}
+{"keyword": "I Pointed Chrome's Prompt API at a 1.25 Million Character Memoir, and It Got Interesting Fast", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T18:36:12Z"}
+{"keyword": "From a 3-Day Deadline Disaster to a Real Product: Reviving My First Full-Stack Project", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T12:03:41Z"}
+{"keyword": "I Spent a Weekend Hunting Through Linux's File System and Here's What I Found", "platform": "devto", "value": 4.0, "timestamp": "2026-05-29T05:49:26Z"}
+{"keyword": "Renovate & Dependabot: The New Malware Delivery System", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T12:56:15Z"}
+{"keyword": "MongoDB `$facet` Explained: One Query, Multiple Results", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T09:35:59Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 34.0, "timestamp": "2026-05-29T13:00:00Z"}
+{"keyword": "DevRelCon NYC 2026: Where Developer Relations, DevX, & Developer Marketing Come Together", "platform": "devto", "value": 17.0, "timestamp": "2026-05-29T17:34:01Z"}
+{"keyword": "🗓️ Monthly Dev Report: May 2026", "platform": "devto", "value": 36.0, "timestamp": "2026-05-29T14:17:56Z"}
+{"keyword": "Dev Opportunity Radar #1: A $100K AI Grant, Two Fellowships, and an AI Agent Resource", "platform": "devto", "value": 13.0, "timestamp": "2026-05-29T14:19:10Z"}
+{"keyword": "The Kubernetes Overkill: Why I Built a \"K8s Killer\" for Small Environments", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T09:48:30Z"}
+{"keyword": "Weekly Dev Log 2026-W07", "platform": "devto", "value": 3.0, "timestamp": "2026-05-29T00:18:11Z"}
+{"keyword": "Building a Resume Download Gate: Email Collection, Signed Tokens, and an S3 Lesson", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T03:32:12Z"}
+{"keyword": "I left a Linux security guide half-finished for months — Copilot helped me wrap it up", "platform": "devto", "value": 5.0, "timestamp": "2026-05-28T23:27:04Z"}
+{"keyword": "Autofilling in the Blanks", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T14:16:00Z"}
+{"keyword": "VS Code Prompt Files - Custom Slash Commands for GitHub Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T10:33:32Z"}
+{"keyword": "NFC, Crypto, Biometrics, And A New Build Cloud", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T14:01:40Z"}
+{"keyword": "What actually happens when you run `go run main.go`", "platform": "devto", "value": 27.0, "timestamp": "2026-05-29T10:11:16Z"}
+{"keyword": "An AI agent that pays for its own API calls on AWS", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T11:27:13Z"}
+{"keyword": "Fungible and Non-Fungible Tokens on Solana: Same System, Different Rules", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T18:40:51Z"}
+{"keyword": "A self-hosted Google reCAPTCHA alternative (we ship it)", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T06:29:01Z"}
+{"keyword": "Sidemark: Active Telemetry Comments for C#", "platform": "devto", "value": 1.0, "timestamp": "2026-05-29T12:42:17Z"}
+{"keyword": "A Warm Welcome to \"gemma-skills\"", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T21:52:03Z"}
+{"keyword": "No Template Fits? Generate Your Own Awesome DESIGN.md with .NET and Ollama", "platform": "devto", "value": 2.0, "timestamp": "2026-05-29T14:21:04Z"}
+{"keyword": "how I revived and scaled Vim Royale, a pvp vim based multiplayer game to 200+ users", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T05:59:52Z"}
+{"keyword": "LLMs suck at generating large, structured data. Tips on how to get your AI agent to do it reliably", "platform": "devto", "value": 2.0, "timestamp": "2026-05-29T12:06:19Z"}
+{"keyword": "I was wrong about Electron", "platform": "devto", "value": 5.0, "timestamp": "2026-05-29T11:31:40Z"}
+{"keyword": "Building Image Compression in Rust with libvips Real Benchmarks, Real Tradeoffs", "platform": "devto", "value": 5.0, "timestamp": "2026-05-29T13:00:32Z"}
+{"keyword": "SMS Delivery Receipts on AWS Lambda", "platform": "devto", "value": 4.0, "timestamp": "2026-05-29T13:12:50Z"}
+{"keyword": "I Pointed Chrome's Prompt API at a 1.25 Million Character Memoir, and It Got Interesting Fast", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T18:36:12Z"}
+{"keyword": "From a 3-Day Deadline Disaster to a Real Product: Reviving My First Full-Stack Project", "platform": "devto", "value": 8.0, "timestamp": "2026-05-29T12:03:41Z"}
+{"keyword": "I Spent a Weekend Hunting Through Linux's File System and Here's What I Found", "platform": "devto", "value": 4.0, "timestamp": "2026-05-29T05:49:26Z"}
+{"keyword": "Renovate & Dependabot: The New Malware Delivery System", "platform": "devto", "value": 0.0, "timestamp": "2026-05-29T12:56:15Z"}
+{"keyword": "MongoDB `$facet` Explained: One Query, Multiple Results", "platform": "devto", "value": 7.0, "timestamp": "2026-05-29T09:35:59Z"}
