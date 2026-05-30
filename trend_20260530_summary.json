@@ -6,38 +6,6 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Artificial intelligence",
-      "count": 11
-    },
-    {
-      "name": "Netflix",
-      "count": 11
-    },
-    {
-      "name": "Bitcoin",
-      "count": 11
-    },
-    {
-      "name": "Climate change",
-      "count": 11
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 11
-    },
-    {
-      "name": "E-commerce",
-      "count": 11
-    },
-    {
-      "name": "YouTube",
-      "count": 11
-    },
-    {
-      "name": "OpenAI",
-      "count": 11
-    },
-    {
       "name": "Seoul",
       "count": 10
     },
@@ -47,6 +15,10 @@
     },
     {
       "name": "Python (programming language)",
+      "count": 10
+    },
+    {
+      "name": "Artificial intelligence",
       "count": 10
     },
     {
@@ -66,15 +38,39 @@
       "count": 10
     },
     {
+      "name": "Netflix",
+      "count": 10
+    },
+    {
+      "name": "Bitcoin",
+      "count": 10
+    },
+    {
+      "name": "Climate change",
+      "count": 10
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 10
+    },
+    {
+      "name": "E-commerce",
+      "count": 10
+    },
+    {
+      "name": "YouTube",
+      "count": 10
+    },
+    {
+      "name": "OpenAI",
+      "count": 10
+    },
+    {
       "name": "강남 아파트",
       "count": 2
     },
     {
-      "name": "유명인",
-      "count": 2
-    },
-    {
-      "name": "K-POP",
+      "name": "아이돌",
       "count": 2
     },
     {
@@ -82,13 +78,17 @@
       "count": 2
     },
     {
-      "name": "유튜버",
+      "name": "걸그룹",
+      "count": 2
+    },
+    {
+      "name": "보이그룹",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 158,
-    "google": 42
+    "wikipedia": 150,
+    "google": 50
   },
-  "generated_at": "2026-05-30T20:18:37.068153+09:00"
+  "generated_at": "2026-05-30T22:56:31.772595+00:00"
 }
