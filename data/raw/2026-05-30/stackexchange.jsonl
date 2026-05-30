@@ -13,3 +13,45 @@
 {"keyword": "What is well architecture from AWS Google Azure?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780121696"}
 {"keyword": "Can someone tell me what KPIs are used for?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780100273"}
 {"keyword": "OSSignposter cannot be enabled on WatchOS, but is fine on IOS, what am I missing?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780098020"}
+{"keyword": "Best alternative for ❌ (U+274C; Cross Mark)", "platform": "stackexchange", "value": 0.0, "timestamp": "1780179434"}
+{"keyword": "React Native app - tab-order of absolute positioned elementts", "platform": "stackexchange", "value": 0.0, "timestamp": "1780175817"}
+{"keyword": "How can i apply a for loop for my ASCII pattern for it to be in the X and Y direction when needed?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780172248"}
+{"keyword": "Rigidbody controller sliding on moving platform", "platform": "stackexchange", "value": 0.0, "timestamp": "1780171315"}
+{"keyword": "Seemingly bad design choices in C++? Why are things the way they are?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780157844"}
+{"keyword": "Consumer&#39;s/caller&#39;s vars Value passed and blank strings for Reusable Inputs", "platform": "stackexchange", "value": 0.0, "timestamp": "1780173078"}
+{"keyword": "Tracking visited nodes when traversing datastructure", "platform": "stackexchange", "value": 1.0, "timestamp": "1780157085"}
+{"keyword": "In lock-free atomic C/C++ programming, can memory reordering affect the intended result?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780162054"}
+{"keyword": "How can I get wxUIActionSimulator to work on Mac?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780168752"}
+{"keyword": "Why does this vb script not do what I am expecting it to do?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780156970"}
+{"keyword": "If CUDA versions have inter-minor-version driver compatibility - where is my cuFuncGetParamCount?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780168397"}
+{"keyword": "How can I avoid using LLMs as a software developer?", "platform": "stackexchange", "value": 8.0, "timestamp": "1780090787"}
+{"keyword": "cURL request error 400 trying to access langSearch API", "platform": "stackexchange", "value": 1.0, "timestamp": "1780161491"}
+{"keyword": "Difference between Spring Initializr and Maven Repository", "platform": "stackexchange", "value": 0.0, "timestamp": "1780162322"}
+{"keyword": "Why doesn&#39;t my program show a tooltip to a button?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780147784"}
+{"keyword": "Reading an existing apache-jena tdb database using the java jena api : dataset is empy", "platform": "stackexchange", "value": 0.0, "timestamp": "1780153653"}
+{"keyword": "Is there any other way of storing redirectUrl other than session", "platform": "stackexchange", "value": 0.0, "timestamp": "1780152625"}
+{"keyword": "Apache Tika: How to use RAM instread of temp files while parsing?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780142189"}
+{"keyword": "Can I access variables within a user-defined function in Jupyter Lab while debugging?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780122017"}
+{"keyword": "Can you prevent AI Workslop as soon as you receive a Pull Request?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780142029"}
+{"keyword": "How to get a dependency&#39;s MAJOR version in CMake (for ffmpeg)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780144591"}
+{"keyword": "Best alternative for ❌ (U+274C; Cross Mark)", "platform": "stackexchange", "value": 0.0, "timestamp": "1780179434"}
+{"keyword": "React Native app - tab-order of absolute positioned elementts", "platform": "stackexchange", "value": 0.0, "timestamp": "1780175817"}
+{"keyword": "How can i apply a for loop for my ASCII pattern for it to be in the X and Y direction when needed?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780172248"}
+{"keyword": "Rigidbody controller sliding on moving platform", "platform": "stackexchange", "value": 0.0, "timestamp": "1780171315"}
+{"keyword": "Seemingly bad design choices in C++? Why are things the way they are?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780157844"}
+{"keyword": "Consumer&#39;s/caller&#39;s vars Value passed and blank strings for Reusable Inputs", "platform": "stackexchange", "value": 0.0, "timestamp": "1780173078"}
+{"keyword": "Tracking visited nodes when traversing datastructure", "platform": "stackexchange", "value": 1.0, "timestamp": "1780157085"}
+{"keyword": "In lock-free atomic C/C++ programming, can memory reordering affect the intended result?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780162054"}
+{"keyword": "How can I get wxUIActionSimulator to work on Mac?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780168752"}
+{"keyword": "Why does this vb script not do what I am expecting it to do?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780156970"}
+{"keyword": "If CUDA versions have inter-minor-version driver compatibility - where is my cuFuncGetParamCount?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780168397"}
+{"keyword": "How can I avoid using LLMs as a software developer?", "platform": "stackexchange", "value": 8.0, "timestamp": "1780090787"}
+{"keyword": "cURL request error 400 trying to access langSearch API", "platform": "stackexchange", "value": 1.0, "timestamp": "1780161491"}
+{"keyword": "Difference between Spring Initializr and Maven Repository", "platform": "stackexchange", "value": 0.0, "timestamp": "1780162322"}
+{"keyword": "Why doesn&#39;t my program show a tooltip to a button?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780147784"}
+{"keyword": "Reading an existing apache-jena tdb database using the java jena api : dataset is empy", "platform": "stackexchange", "value": 0.0, "timestamp": "1780153653"}
+{"keyword": "Is there any other way of storing redirectUrl other than session", "platform": "stackexchange", "value": 0.0, "timestamp": "1780152625"}
+{"keyword": "Apache Tika: How to use RAM instread of temp files while parsing?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780142189"}
+{"keyword": "Can I access variables within a user-defined function in Jupyter Lab while debugging?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780122017"}
+{"keyword": "Can you prevent AI Workslop as soon as you receive a Pull Request?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780142029"}
+{"keyword": "How to get a dependency&#39;s MAJOR version in CMake (for ffmpeg)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780144591"}
