@@ -56,3 +56,123 @@
 {"keyword": "How I Built a Permanent Testing Server Using Cloudflare Tunnel", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T07:37:18Z"}
 {"keyword": "How I Built One", "platform": "devto", "value": 2.0, "timestamp": "2026-05-30T22:53:07Z"}
 {"keyword": "Skills Are the New Packages", "platform": "devto", "value": 0.0, "timestamp": "2026-05-30T17:15:56Z"}
+{"keyword": "Streaming an LLM response, in 4 GIFs", "platform": "devto", "value": 13.0, "timestamp": "2026-05-31T00:16:15Z"}
+{"keyword": "Lazy Loading Wasn't Enough: How I Cut Load Time from 15s to 1.1s", "platform": "devto", "value": 4.0, "timestamp": "2026-05-31T06:00:00Z"}
+{"keyword": "I Added a 71-Line Black Box to My Python Agent, Then Queried the $200 Crash With DuckDB", "platform": "devto", "value": 14.0, "timestamp": "2026-05-31T16:54:50Z"}
+{"keyword": "peektea: brewing a terminal file browser with Bubble Tea", "platform": "devto", "value": 6.0, "timestamp": "2026-05-31T19:00:22Z"}
+{"keyword": "Claude vs Gemini Across 4 Security Domains: A Dead Heat — and the Hardening 63% of AI Code Skips", "platform": "devto", "value": 4.0, "timestamp": "2026-05-31T03:39:06Z"}
+{"keyword": "My website has two audiences now. I only built for one of them.", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T00:32:22Z"}
+{"keyword": "AI doesn't fail because the model is bad. It fails because there's nothing underneath it", "platform": "devto", "value": 3.0, "timestamp": "2026-05-31T13:17:48Z"}
+{"keyword": "How I Built a Permanent Testing Server Using Cloudflare Tunnel", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T07:37:18Z"}
+{"keyword": "Building in public, week 11: 143 pages indexed, a TinyPNG alternative in Rust", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T11:15:26Z"}
+{"keyword": "Frontend Architecture: Where Does This File Go?", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T13:57:30Z"}
+{"keyword": "I Let Hermes Agent Interview Me. Then It Wrote a File That Describes How I Think", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T10:29:32Z"}
+{"keyword": "From 0 to 27K Search Impressions on a Developer Portfolio in 90 Days", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T09:31:53Z"}
+{"keyword": "Top API Gateways for AI Applications and Agentic Workflows", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T09:50:25Z"}
+{"keyword": "The 1978 Paper Behind Go’s Concurrency Model", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T11:31:35Z"}
+{"keyword": "AI Won't Save You From Forgetting How to Think", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T13:05:55Z"}
+{"keyword": "Building Truly Cross-Platform Claude Code Hooks with Go, Bash, PowerShell, WSL, and Git-Bash", "platform": "devto", "value": 10.0, "timestamp": "2026-05-31T16:57:59Z"}
+{"keyword": "When Is 100% Vibe Coding OK ?", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T22:20:09Z"}
+{"keyword": "I taught Hermes Agent to predict which API changes will break my system", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T17:30:59Z"}
+{"keyword": "Stop your app from booting with broken env vars: a type-safe, universal config library", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T08:57:21Z"}
+{"keyword": "Three SQL Injection Patterns That Still Ship in Node.js — And the ESLint Rule That Catches Them", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T04:35:32Z"}
+{"keyword": "WordPress Emails Were Failing Silently on DigitalOcean. Here's What Broke.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-31T15:06:04Z"}
+{"keyword": "What Nobody Tells You About Running Hermes Agent Locally (M-Series Mac Edition)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T17:33:11Z"}
+{"keyword": "🗡️ Tsundoku Slayer: An Agent That Decides What Not To Read", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T03:35:30Z"}
+{"keyword": "Building a GitHub Stats MCP Server with Security Metrics", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T10:15:41Z"}
+{"keyword": "Modern Web Security Attacks Every Developer Must Know (2026 Guide) Clickjacking", "platform": "devto", "value": 6.0, "timestamp": "2026-05-31T16:38:47Z"}
+{"keyword": "The Mobile Testing Stack Just Got Unbundled", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T14:34:15Z"}
+{"keyword": "How Instagram, WhatsApp, Uber & Netflix Would Be Built Today Using Expo Router", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T14:21:55Z"}
+{"keyword": "EcoSnap — I Built an AI That Reads Waste Photos and Tells You Exactly What to Do 🌍", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T16:55:32Z"}
+{"keyword": "Tokyo Transit: How MCP Helped Me Fix a Broken Multi-Agent System", "platform": "devto", "value": 1.0, "timestamp": "2026-05-30T23:22:50Z"}
+{"keyword": "Why Single Agents Fail at Scale And the 3 Role Architecture That Fixes It", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T04:04:51Z"}
+{"keyword": "Streaming an LLM response, in 4 GIFs", "platform": "devto", "value": 13.0, "timestamp": "2026-05-31T00:16:15Z"}
+{"keyword": "Lazy Loading Wasn't Enough: How I Cut Load Time from 15s to 1.1s", "platform": "devto", "value": 4.0, "timestamp": "2026-05-31T06:00:00Z"}
+{"keyword": "I Added a 71-Line Black Box to My Python Agent, Then Queried the $200 Crash With DuckDB", "platform": "devto", "value": 14.0, "timestamp": "2026-05-31T16:54:50Z"}
+{"keyword": "peektea: brewing a terminal file browser with Bubble Tea", "platform": "devto", "value": 6.0, "timestamp": "2026-05-31T19:00:22Z"}
+{"keyword": "Claude vs Gemini Across 4 Security Domains: A Dead Heat — and the Hardening 63% of AI Code Skips", "platform": "devto", "value": 4.0, "timestamp": "2026-05-31T03:39:06Z"}
+{"keyword": "My website has two audiences now. I only built for one of them.", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T00:32:22Z"}
+{"keyword": "AI doesn't fail because the model is bad. It fails because there's nothing underneath it", "platform": "devto", "value": 3.0, "timestamp": "2026-05-31T13:17:48Z"}
+{"keyword": "How I Built a Permanent Testing Server Using Cloudflare Tunnel", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T07:37:18Z"}
+{"keyword": "Building in public, week 11: 143 pages indexed, a TinyPNG alternative in Rust", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T11:15:26Z"}
+{"keyword": "Frontend Architecture: Where Does This File Go?", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T13:57:30Z"}
+{"keyword": "I Let Hermes Agent Interview Me. Then It Wrote a File That Describes How I Think", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T10:29:32Z"}
+{"keyword": "From 0 to 27K Search Impressions on a Developer Portfolio in 90 Days", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T09:31:53Z"}
+{"keyword": "Top API Gateways for AI Applications and Agentic Workflows", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T09:50:25Z"}
+{"keyword": "The 1978 Paper Behind Go’s Concurrency Model", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T11:31:35Z"}
+{"keyword": "AI Won't Save You From Forgetting How to Think", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T13:05:55Z"}
+{"keyword": "Building Truly Cross-Platform Claude Code Hooks with Go, Bash, PowerShell, WSL, and Git-Bash", "platform": "devto", "value": 10.0, "timestamp": "2026-05-31T16:57:59Z"}
+{"keyword": "When Is 100% Vibe Coding OK ?", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T22:20:09Z"}
+{"keyword": "I taught Hermes Agent to predict which API changes will break my system", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T17:30:59Z"}
+{"keyword": "Stop your app from booting with broken env vars: a type-safe, universal config library", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T08:57:21Z"}
+{"keyword": "Three SQL Injection Patterns That Still Ship in Node.js — And the ESLint Rule That Catches Them", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T04:35:32Z"}
+{"keyword": "WordPress Emails Were Failing Silently on DigitalOcean. Here's What Broke.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-31T15:06:04Z"}
+{"keyword": "What Nobody Tells You About Running Hermes Agent Locally (M-Series Mac Edition)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T17:33:11Z"}
+{"keyword": "🗡️ Tsundoku Slayer: An Agent That Decides What Not To Read", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T03:35:30Z"}
+{"keyword": "Building a GitHub Stats MCP Server with Security Metrics", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T10:15:41Z"}
+{"keyword": "Modern Web Security Attacks Every Developer Must Know (2026 Guide) Clickjacking", "platform": "devto", "value": 6.0, "timestamp": "2026-05-31T16:38:47Z"}
+{"keyword": "The Mobile Testing Stack Just Got Unbundled", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T14:34:15Z"}
+{"keyword": "How Instagram, WhatsApp, Uber & Netflix Would Be Built Today Using Expo Router", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T14:21:55Z"}
+{"keyword": "EcoSnap — I Built an AI That Reads Waste Photos and Tells You Exactly What to Do 🌍", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T16:55:32Z"}
+{"keyword": "Tokyo Transit: How MCP Helped Me Fix a Broken Multi-Agent System", "platform": "devto", "value": 1.0, "timestamp": "2026-05-30T23:22:50Z"}
+{"keyword": "Why Single Agents Fail at Scale And the 3 Role Architecture That Fixes It", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T04:04:51Z"}
+{"keyword": "Streaming an LLM response, in 4 GIFs", "platform": "devto", "value": 13.0, "timestamp": "2026-05-31T00:16:15Z"}
+{"keyword": "Lazy Loading Wasn't Enough: How I Cut Load Time from 15s to 1.1s", "platform": "devto", "value": 4.0, "timestamp": "2026-05-31T06:00:00Z"}
+{"keyword": "I Added a 71-Line Black Box to My Python Agent, Then Queried the $200 Crash With DuckDB", "platform": "devto", "value": 14.0, "timestamp": "2026-05-31T16:54:50Z"}
+{"keyword": "peektea: brewing a terminal file browser with Bubble Tea", "platform": "devto", "value": 6.0, "timestamp": "2026-05-31T19:00:22Z"}
+{"keyword": "Claude vs Gemini Across 4 Security Domains: A Dead Heat — and the Hardening 63% of AI Code Skips", "platform": "devto", "value": 4.0, "timestamp": "2026-05-31T03:39:06Z"}
+{"keyword": "My website has two audiences now. I only built for one of them.", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T00:32:22Z"}
+{"keyword": "AI doesn't fail because the model is bad. It fails because there's nothing underneath it", "platform": "devto", "value": 3.0, "timestamp": "2026-05-31T13:17:48Z"}
+{"keyword": "How I Built a Permanent Testing Server Using Cloudflare Tunnel", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T07:37:18Z"}
+{"keyword": "Building in public, week 11: 143 pages indexed, a TinyPNG alternative in Rust", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T11:15:26Z"}
+{"keyword": "Frontend Architecture: Where Does This File Go?", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T13:57:30Z"}
+{"keyword": "I Let Hermes Agent Interview Me. Then It Wrote a File That Describes How I Think", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T10:29:32Z"}
+{"keyword": "From 0 to 27K Search Impressions on a Developer Portfolio in 90 Days", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T09:31:53Z"}
+{"keyword": "Top API Gateways for AI Applications and Agentic Workflows", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T09:50:25Z"}
+{"keyword": "The 1978 Paper Behind Go’s Concurrency Model", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T11:31:35Z"}
+{"keyword": "AI Won't Save You From Forgetting How to Think", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T13:05:55Z"}
+{"keyword": "Building Truly Cross-Platform Claude Code Hooks with Go, Bash, PowerShell, WSL, and Git-Bash", "platform": "devto", "value": 10.0, "timestamp": "2026-05-31T16:57:59Z"}
+{"keyword": "When Is 100% Vibe Coding OK ?", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T22:20:09Z"}
+{"keyword": "I taught Hermes Agent to predict which API changes will break my system", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T17:30:59Z"}
+{"keyword": "Stop your app from booting with broken env vars: a type-safe, universal config library", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T08:57:21Z"}
+{"keyword": "Three SQL Injection Patterns That Still Ship in Node.js — And the ESLint Rule That Catches Them", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T04:35:32Z"}
+{"keyword": "WordPress Emails Were Failing Silently on DigitalOcean. Here's What Broke.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-31T15:06:04Z"}
+{"keyword": "What Nobody Tells You About Running Hermes Agent Locally (M-Series Mac Edition)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T17:33:11Z"}
+{"keyword": "🗡️ Tsundoku Slayer: An Agent That Decides What Not To Read", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T03:35:30Z"}
+{"keyword": "Building a GitHub Stats MCP Server with Security Metrics", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T10:15:41Z"}
+{"keyword": "Modern Web Security Attacks Every Developer Must Know (2026 Guide) Clickjacking", "platform": "devto", "value": 6.0, "timestamp": "2026-05-31T16:38:47Z"}
+{"keyword": "The Mobile Testing Stack Just Got Unbundled", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T14:34:15Z"}
+{"keyword": "How Instagram, WhatsApp, Uber & Netflix Would Be Built Today Using Expo Router", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T14:21:55Z"}
+{"keyword": "EcoSnap — I Built an AI That Reads Waste Photos and Tells You Exactly What to Do 🌍", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T16:55:32Z"}
+{"keyword": "Tokyo Transit: How MCP Helped Me Fix a Broken Multi-Agent System", "platform": "devto", "value": 1.0, "timestamp": "2026-05-30T23:22:50Z"}
+{"keyword": "Why Single Agents Fail at Scale And the 3 Role Architecture That Fixes It", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T04:04:51Z"}
+{"keyword": "Streaming an LLM response, in 4 GIFs", "platform": "devto", "value": 13.0, "timestamp": "2026-05-31T00:16:15Z"}
+{"keyword": "Lazy Loading Wasn't Enough: How I Cut Load Time from 15s to 1.1s", "platform": "devto", "value": 4.0, "timestamp": "2026-05-31T06:00:00Z"}
+{"keyword": "I Added a 71-Line Black Box to My Python Agent, Then Queried the $200 Crash With DuckDB", "platform": "devto", "value": 14.0, "timestamp": "2026-05-31T16:54:50Z"}
+{"keyword": "peektea: brewing a terminal file browser with Bubble Tea", "platform": "devto", "value": 6.0, "timestamp": "2026-05-31T19:00:22Z"}
+{"keyword": "Claude vs Gemini Across 4 Security Domains: A Dead Heat — and the Hardening 63% of AI Code Skips", "platform": "devto", "value": 4.0, "timestamp": "2026-05-31T03:39:06Z"}
+{"keyword": "My website has two audiences now. I only built for one of them.", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T00:32:22Z"}
+{"keyword": "AI doesn't fail because the model is bad. It fails because there's nothing underneath it", "platform": "devto", "value": 3.0, "timestamp": "2026-05-31T13:17:48Z"}
+{"keyword": "How I Built a Permanent Testing Server Using Cloudflare Tunnel", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T07:37:18Z"}
+{"keyword": "Building in public, week 11: 143 pages indexed, a TinyPNG alternative in Rust", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T11:15:26Z"}
+{"keyword": "Frontend Architecture: Where Does This File Go?", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T13:57:30Z"}
+{"keyword": "I Let Hermes Agent Interview Me. Then It Wrote a File That Describes How I Think", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T10:29:32Z"}
+{"keyword": "From 0 to 27K Search Impressions on a Developer Portfolio in 90 Days", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T09:31:53Z"}
+{"keyword": "Top API Gateways for AI Applications and Agentic Workflows", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T09:50:25Z"}
+{"keyword": "The 1978 Paper Behind Go’s Concurrency Model", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T11:31:35Z"}
+{"keyword": "AI Won't Save You From Forgetting How to Think", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T13:05:55Z"}
+{"keyword": "Building Truly Cross-Platform Claude Code Hooks with Go, Bash, PowerShell, WSL, and Git-Bash", "platform": "devto", "value": 10.0, "timestamp": "2026-05-31T16:57:59Z"}
+{"keyword": "When Is 100% Vibe Coding OK ?", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T22:20:09Z"}
+{"keyword": "I taught Hermes Agent to predict which API changes will break my system", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T17:30:59Z"}
+{"keyword": "Stop your app from booting with broken env vars: a type-safe, universal config library", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T08:57:21Z"}
+{"keyword": "Three SQL Injection Patterns That Still Ship in Node.js — And the ESLint Rule That Catches Them", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T04:35:32Z"}
+{"keyword": "WordPress Emails Were Failing Silently on DigitalOcean. Here's What Broke.", "platform": "devto", "value": 3.0, "timestamp": "2026-05-31T15:06:04Z"}
+{"keyword": "What Nobody Tells You About Running Hermes Agent Locally (M-Series Mac Edition)", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T17:33:11Z"}
+{"keyword": "🗡️ Tsundoku Slayer: An Agent That Decides What Not To Read", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T03:35:30Z"}
+{"keyword": "Building a GitHub Stats MCP Server with Security Metrics", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T10:15:41Z"}
+{"keyword": "Modern Web Security Attacks Every Developer Must Know (2026 Guide) Clickjacking", "platform": "devto", "value": 6.0, "timestamp": "2026-05-31T16:38:47Z"}
+{"keyword": "The Mobile Testing Stack Just Got Unbundled", "platform": "devto", "value": 2.0, "timestamp": "2026-05-31T14:34:15Z"}
+{"keyword": "How Instagram, WhatsApp, Uber & Netflix Would Be Built Today Using Expo Router", "platform": "devto", "value": 5.0, "timestamp": "2026-05-31T14:21:55Z"}
+{"keyword": "EcoSnap — I Built an AI That Reads Waste Photos and Tells You Exactly What to Do 🌍", "platform": "devto", "value": 0.0, "timestamp": "2026-05-31T16:55:32Z"}
+{"keyword": "Tokyo Transit: How MCP Helped Me Fix a Broken Multi-Agent System", "platform": "devto", "value": 1.0, "timestamp": "2026-05-30T23:22:50Z"}
+{"keyword": "Why Single Agents Fail at Scale And the 3 Role Architecture That Fixes It", "platform": "devto", "value": 1.0, "timestamp": "2026-05-31T04:04:51Z"}
