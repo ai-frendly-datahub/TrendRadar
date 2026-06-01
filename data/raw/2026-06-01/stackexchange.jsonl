@@ -16,3 +16,51 @@
 {"keyword": "Quarkus PanacheRepositoryBase.findByIds() returns a list of &lt;T extends PanacheEntityBase&gt;", "platform": "stackexchange", "value": 0.0, "timestamp": "1780318086"}
 {"keyword": "Order of evaluation in piped expressions", "platform": "stackexchange", "value": 2.0, "timestamp": "1780301488"}
 {"keyword": "Implementing custom LinkedList in C#: Best practices for Node and List classes (Ungureanu approach)", "platform": "stackexchange", "value": 1.0, "timestamp": "1780296694"}
+{"keyword": "How to differentiate user accounts from linked accounts in Banno Consumer API /accounts endpoint?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780351434"}
+{"keyword": "X11 XInput2 XI_RawMotion moves at half speed when holding down a mouse button", "platform": "stackexchange", "value": 0.0, "timestamp": "1780354076"}
+{"keyword": "how to bypass security controls like an admin panel", "platform": "stackexchange", "value": 0.0, "timestamp": "1780341271"}
+{"keyword": "Passing value to a C function", "platform": "stackexchange", "value": 0.0, "timestamp": "1780343939"}
+{"keyword": "How can I avoid using LLMs as a software developer?", "platform": "stackexchange", "value": 39.0, "timestamp": "1780090787"}
+{"keyword": "Call graph generation", "platform": "stackexchange", "value": 0.0, "timestamp": "1780350424"}
+{"keyword": "c programming basic output not getting", "platform": "stackexchange", "value": 1.0, "timestamp": "1780316365"}
+{"keyword": "Show select-options and divs", "platform": "stackexchange", "value": 0.0, "timestamp": "1780334265"}
+{"keyword": "Visibility of JFrames", "platform": "stackexchange", "value": 0.0, "timestamp": "1780338755"}
+{"keyword": "Youtube think I&#39;m associated with many project but I&#39;m not", "platform": "stackexchange", "value": 0.0, "timestamp": "1780336826"}
+{"keyword": "Conditional sub-flows not respecting user attribute condition", "platform": "stackexchange", "value": 1.0, "timestamp": "1780339010"}
+{"keyword": "Excel for MacOS - How to trigger a VBA subroutine when a specific table (DB Query) executes?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780347033"}
+{"keyword": "Security implications of SQL Server ALTER ANY EVENT SESSION permission", "platform": "stackexchange", "value": 0.0, "timestamp": "1780343415"}
+{"keyword": "Spatial decomposition on non-uniform grid", "platform": "stackexchange", "value": 0.0, "timestamp": "1780343633"}
+{"keyword": "How can I save pdb files with biopandas?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780330544"}
+{"keyword": "How do you set up Neovim + LSP to read types info from multiple tsconfig files?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780340581"}
+{"keyword": "Why does `xcb_lookup_color()` fail where `XLookupColor()` succeeds?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780336882"}
+{"keyword": "Why doesn&#39;t color:inherit inside a ShadowRoot inherit the color from the root element?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780323289"}
+{"keyword": "How to specify an anchor target in Bootstrap 5 Dropdown?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780337891"}
+{"keyword": "misunderstanding of pointer-interconvertible definition in the standard", "platform": "stackexchange", "value": 0.0, "timestamp": "1780313997"}
+{"keyword": "importing 4 million rows of data from a python script gathering data from server shares", "platform": "stackexchange", "value": 1.0, "timestamp": "1780329440"}
+{"keyword": "Adding explicit constraints in C", "platform": "stackexchange", "value": 1.0, "timestamp": "1780336533"}
+{"keyword": "Order of evaluation in piped expressions", "platform": "stackexchange", "value": 1.0, "timestamp": "1780301488"}
+{"keyword": "Best way to store an array of integers in Core Data when querying is not required?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780339125"}
+{"keyword": "How to differentiate user accounts from linked accounts in Banno Consumer API /accounts endpoint?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780351434"}
+{"keyword": "X11 XInput2 XI_RawMotion moves at half speed when holding down a mouse button", "platform": "stackexchange", "value": 0.0, "timestamp": "1780354076"}
+{"keyword": "how to bypass security controls like an admin panel", "platform": "stackexchange", "value": 0.0, "timestamp": "1780341271"}
+{"keyword": "Passing value to a C function", "platform": "stackexchange", "value": 0.0, "timestamp": "1780343939"}
+{"keyword": "How can I avoid using LLMs as a software developer?", "platform": "stackexchange", "value": 39.0, "timestamp": "1780090787"}
+{"keyword": "Call graph generation", "platform": "stackexchange", "value": 0.0, "timestamp": "1780350424"}
+{"keyword": "c programming basic output not getting", "platform": "stackexchange", "value": 1.0, "timestamp": "1780316365"}
+{"keyword": "Show select-options and divs", "platform": "stackexchange", "value": 0.0, "timestamp": "1780334265"}
+{"keyword": "Visibility of JFrames", "platform": "stackexchange", "value": 0.0, "timestamp": "1780338755"}
+{"keyword": "Youtube think I&#39;m associated with many project but I&#39;m not", "platform": "stackexchange", "value": 0.0, "timestamp": "1780336826"}
+{"keyword": "Conditional sub-flows not respecting user attribute condition", "platform": "stackexchange", "value": 1.0, "timestamp": "1780339010"}
+{"keyword": "Excel for MacOS - How to trigger a VBA subroutine when a specific table (DB Query) executes?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780347033"}
+{"keyword": "Security implications of SQL Server ALTER ANY EVENT SESSION permission", "platform": "stackexchange", "value": 0.0, "timestamp": "1780343415"}
+{"keyword": "Spatial decomposition on non-uniform grid", "platform": "stackexchange", "value": 0.0, "timestamp": "1780343633"}
+{"keyword": "How can I save pdb files with biopandas?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780330544"}
+{"keyword": "How do you set up Neovim + LSP to read types info from multiple tsconfig files?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780340581"}
+{"keyword": "Why does `xcb_lookup_color()` fail where `XLookupColor()` succeeds?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780336882"}
+{"keyword": "Why doesn&#39;t color:inherit inside a ShadowRoot inherit the color from the root element?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780323289"}
+{"keyword": "How to specify an anchor target in Bootstrap 5 Dropdown?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780337891"}
+{"keyword": "misunderstanding of pointer-interconvertible definition in the standard", "platform": "stackexchange", "value": 0.0, "timestamp": "1780313997"}
+{"keyword": "importing 4 million rows of data from a python script gathering data from server shares", "platform": "stackexchange", "value": 1.0, "timestamp": "1780329440"}
+{"keyword": "Adding explicit constraints in C", "platform": "stackexchange", "value": 1.0, "timestamp": "1780336533"}
+{"keyword": "Order of evaluation in piped expressions", "platform": "stackexchange", "value": 1.0, "timestamp": "1780301488"}
+{"keyword": "Best way to store an array of integers in Core Data when querying is not required?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780339125"}
