@@ -54,3 +54,111 @@
 {"keyword": "🤔 If Data Survives in Deployments, Why Do We Need StatefulSets?", "platform": "devto", "value": 6.0, "timestamp": "2026-06-01T17:56:01Z"}
 {"keyword": "Is Zero Trust Enough for Agentic Systems?", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T13:45:15Z"}
 {"keyword": "Zeroing Out the Bill: The Developer’s Practical Guide to Eliminating Google Cloud (GCP) Idle Costs", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T07:20:06Z"}
+{"keyword": "Learning Lessons from Gaming", "platform": "devto", "value": 20.0, "timestamp": "2026-06-02T14:00:58Z"}
+{"keyword": "Top 7 Featured DEV Posts of the Week", "platform": "devto", "value": 26.0, "timestamp": "2026-06-02T18:32:50Z"}
+{"keyword": "How we turned the Replay keynote surprise into an open-source embedded playground", "platform": "devto", "value": 7.0, "timestamp": "2026-06-02T15:36:42Z"}
+{"keyword": "I Used My Last 7% of Copilot Tokens to Bring a 2014 WinForms Game Back to Life", "platform": "devto", "value": 15.0, "timestamp": "2026-06-02T07:06:53Z"}
+{"keyword": "How fast is LlamaStash? Overhead, throughput, and a fair comparison with Ollama and LM Studio", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T11:34:05Z"}
+{"keyword": "Introducing LlamaStash: a zero-overhead, terminal-native llama.cpp launcher", "platform": "devto", "value": 8.0, "timestamp": "2026-06-02T12:01:22Z"}
+{"keyword": "Gubernator [the kill ku8s]", "platform": "devto", "value": 7.0, "timestamp": "2026-06-02T12:55:56Z"}
+{"keyword": "I Thought AI Would Make Me Code Faster. Then I Spent 6 Hours Debugging One Line.", "platform": "devto", "value": 20.0, "timestamp": "2026-06-02T05:16:18Z"}
+{"keyword": "Send your first AI message in one API call", "platform": "devto", "value": 16.0, "timestamp": "2026-06-02T16:41:37Z"}
+{"keyword": "Sovereign Synapse: The Context-Cleaner", "platform": "devto", "value": 1.0, "timestamp": "2026-06-02T13:53:40Z"}
+{"keyword": "Google Is One Feature Away From Killing an Entire Startup Category", "platform": "devto", "value": 8.0, "timestamp": "2026-06-02T08:14:41Z"}
+{"keyword": "O Paradoxo dos 70/30: A aceleração da IA aliada à experiência humana", "platform": "devto", "value": 1.0, "timestamp": "2026-06-02T15:55:18Z"}
+{"keyword": "Surviving the eviction: How to build interrupt-resilient AI workloads on GKE", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T20:02:20Z"}
+{"keyword": "Git-regret 💀 — I Finally Finished the CLI That Reads Your Shame", "platform": "devto", "value": 23.0, "timestamp": "2026-06-02T08:31:21Z"}
+{"keyword": "peektea opens a second eye 👀 side-by-side file previews", "platform": "devto", "value": 11.0, "timestamp": "2026-06-02T19:31:31Z"}
+{"keyword": "Is Zero Trust Enough for Agentic Systems?", "platform": "devto", "value": 2.0, "timestamp": "2026-06-02T13:45:15Z"}
+{"keyword": "Content Virtualization using the HTML <template> Element", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T13:26:42Z"}
+{"keyword": "AI Native DevCon Day 1: Making AI Agents Ready for Enterprise", "platform": "devto", "value": 21.0, "timestamp": "2026-06-02T08:37:13Z"}
+{"keyword": "The #1 Developer Skill in the Agentic Era", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T23:12:42Z"}
+{"keyword": "I made a personalized AI web app with RAG", "platform": "devto", "value": 10.0, "timestamp": "2026-06-02T14:04:36Z"}
+{"keyword": "TypeScript Monorepo Magic: Organize, Build, and Ship Multi-Package Apps", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T12:16:54Z"}
+{"keyword": "React State Management: When to Use useState, Context, or Zustand", "platform": "devto", "value": 10.0, "timestamp": "2026-06-02T07:30:00Z"}
+{"keyword": "How to Set Up Per-Agent Billing for CrewAI Agents with Kong", "platform": "devto", "value": 13.0, "timestamp": "2026-06-02T17:04:33Z"}
+{"keyword": "Recently, for the nth time, I had to bulk-import records using Excel.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T14:23:09Z"}
+{"keyword": "Zeroing Out the Bill: The Developer’s Practical Guide to Eliminating Google Cloud (GCP) Idle Costs", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T07:20:06Z"}
+{"keyword": "Building a Decentralized Content Pipeline with Nostr & Astro", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T07:36:04Z"}
+{"keyword": "Why Build a Startup If Not for Money?", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T14:19:35Z"}
+{"keyword": "Learning Lessons from Gaming", "platform": "devto", "value": 20.0, "timestamp": "2026-06-02T14:00:58Z"}
+{"keyword": "Top 7 Featured DEV Posts of the Week", "platform": "devto", "value": 26.0, "timestamp": "2026-06-02T18:32:50Z"}
+{"keyword": "How we turned the Replay keynote surprise into an open-source embedded playground", "platform": "devto", "value": 7.0, "timestamp": "2026-06-02T15:36:42Z"}
+{"keyword": "I Used My Last 7% of Copilot Tokens to Bring a 2014 WinForms Game Back to Life", "platform": "devto", "value": 15.0, "timestamp": "2026-06-02T07:06:53Z"}
+{"keyword": "How fast is LlamaStash? Overhead, throughput, and a fair comparison with Ollama and LM Studio", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T11:34:05Z"}
+{"keyword": "Introducing LlamaStash: a zero-overhead, terminal-native llama.cpp launcher", "platform": "devto", "value": 8.0, "timestamp": "2026-06-02T12:01:22Z"}
+{"keyword": "Gubernator [the kill ku8s]", "platform": "devto", "value": 7.0, "timestamp": "2026-06-02T12:55:56Z"}
+{"keyword": "I Thought AI Would Make Me Code Faster. Then I Spent 6 Hours Debugging One Line.", "platform": "devto", "value": 20.0, "timestamp": "2026-06-02T05:16:18Z"}
+{"keyword": "Send your first AI message in one API call", "platform": "devto", "value": 16.0, "timestamp": "2026-06-02T16:41:37Z"}
+{"keyword": "Sovereign Synapse: The Context-Cleaner", "platform": "devto", "value": 1.0, "timestamp": "2026-06-02T13:53:40Z"}
+{"keyword": "Google Is One Feature Away From Killing an Entire Startup Category", "platform": "devto", "value": 8.0, "timestamp": "2026-06-02T08:14:41Z"}
+{"keyword": "O Paradoxo dos 70/30: A aceleração da IA aliada à experiência humana", "platform": "devto", "value": 1.0, "timestamp": "2026-06-02T15:55:18Z"}
+{"keyword": "Surviving the eviction: How to build interrupt-resilient AI workloads on GKE", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T20:02:20Z"}
+{"keyword": "Git-regret 💀 — I Finally Finished the CLI That Reads Your Shame", "platform": "devto", "value": 23.0, "timestamp": "2026-06-02T08:31:21Z"}
+{"keyword": "peektea opens a second eye 👀 side-by-side file previews", "platform": "devto", "value": 11.0, "timestamp": "2026-06-02T19:31:31Z"}
+{"keyword": "Is Zero Trust Enough for Agentic Systems?", "platform": "devto", "value": 2.0, "timestamp": "2026-06-02T13:45:15Z"}
+{"keyword": "Content Virtualization using the HTML <template> Element", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T13:26:42Z"}
+{"keyword": "AI Native DevCon Day 1: Making AI Agents Ready for Enterprise", "platform": "devto", "value": 21.0, "timestamp": "2026-06-02T08:37:13Z"}
+{"keyword": "The #1 Developer Skill in the Agentic Era", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T23:12:42Z"}
+{"keyword": "I made a personalized AI web app with RAG", "platform": "devto", "value": 10.0, "timestamp": "2026-06-02T14:04:36Z"}
+{"keyword": "TypeScript Monorepo Magic: Organize, Build, and Ship Multi-Package Apps", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T12:16:54Z"}
+{"keyword": "React State Management: When to Use useState, Context, or Zustand", "platform": "devto", "value": 10.0, "timestamp": "2026-06-02T07:30:00Z"}
+{"keyword": "How to Set Up Per-Agent Billing for CrewAI Agents with Kong", "platform": "devto", "value": 13.0, "timestamp": "2026-06-02T17:04:33Z"}
+{"keyword": "Recently, for the nth time, I had to bulk-import records using Excel.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T14:23:09Z"}
+{"keyword": "Zeroing Out the Bill: The Developer’s Practical Guide to Eliminating Google Cloud (GCP) Idle Costs", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T07:20:06Z"}
+{"keyword": "Building a Decentralized Content Pipeline with Nostr & Astro", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T07:36:04Z"}
+{"keyword": "Why Build a Startup If Not for Money?", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T14:19:35Z"}
+{"keyword": "Learning Lessons from Gaming", "platform": "devto", "value": 20.0, "timestamp": "2026-06-02T14:00:58Z"}
+{"keyword": "Top 7 Featured DEV Posts of the Week", "platform": "devto", "value": 26.0, "timestamp": "2026-06-02T18:32:50Z"}
+{"keyword": "How we turned the Replay keynote surprise into an open-source embedded playground", "platform": "devto", "value": 7.0, "timestamp": "2026-06-02T15:36:42Z"}
+{"keyword": "I Used My Last 7% of Copilot Tokens to Bring a 2014 WinForms Game Back to Life", "platform": "devto", "value": 15.0, "timestamp": "2026-06-02T07:06:53Z"}
+{"keyword": "How fast is LlamaStash? Overhead, throughput, and a fair comparison with Ollama and LM Studio", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T11:34:05Z"}
+{"keyword": "Introducing LlamaStash: a zero-overhead, terminal-native llama.cpp launcher", "platform": "devto", "value": 8.0, "timestamp": "2026-06-02T12:01:22Z"}
+{"keyword": "Gubernator [the kill ku8s]", "platform": "devto", "value": 7.0, "timestamp": "2026-06-02T12:55:56Z"}
+{"keyword": "I Thought AI Would Make Me Code Faster. Then I Spent 6 Hours Debugging One Line.", "platform": "devto", "value": 20.0, "timestamp": "2026-06-02T05:16:18Z"}
+{"keyword": "Send your first AI message in one API call", "platform": "devto", "value": 16.0, "timestamp": "2026-06-02T16:41:37Z"}
+{"keyword": "Sovereign Synapse: The Context-Cleaner", "platform": "devto", "value": 1.0, "timestamp": "2026-06-02T13:53:40Z"}
+{"keyword": "Google Is One Feature Away From Killing an Entire Startup Category", "platform": "devto", "value": 8.0, "timestamp": "2026-06-02T08:14:41Z"}
+{"keyword": "O Paradoxo dos 70/30: A aceleração da IA aliada à experiência humana", "platform": "devto", "value": 1.0, "timestamp": "2026-06-02T15:55:18Z"}
+{"keyword": "Surviving the eviction: How to build interrupt-resilient AI workloads on GKE", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T20:02:20Z"}
+{"keyword": "Git-regret 💀 — I Finally Finished the CLI That Reads Your Shame", "platform": "devto", "value": 23.0, "timestamp": "2026-06-02T08:31:21Z"}
+{"keyword": "peektea opens a second eye 👀 side-by-side file previews", "platform": "devto", "value": 11.0, "timestamp": "2026-06-02T19:31:31Z"}
+{"keyword": "Is Zero Trust Enough for Agentic Systems?", "platform": "devto", "value": 2.0, "timestamp": "2026-06-02T13:45:15Z"}
+{"keyword": "Content Virtualization using the HTML <template> Element", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T13:26:42Z"}
+{"keyword": "AI Native DevCon Day 1: Making AI Agents Ready for Enterprise", "platform": "devto", "value": 21.0, "timestamp": "2026-06-02T08:37:13Z"}
+{"keyword": "The #1 Developer Skill in the Agentic Era", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T23:12:42Z"}
+{"keyword": "I made a personalized AI web app with RAG", "platform": "devto", "value": 10.0, "timestamp": "2026-06-02T14:04:36Z"}
+{"keyword": "TypeScript Monorepo Magic: Organize, Build, and Ship Multi-Package Apps", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T12:16:54Z"}
+{"keyword": "React State Management: When to Use useState, Context, or Zustand", "platform": "devto", "value": 10.0, "timestamp": "2026-06-02T07:30:00Z"}
+{"keyword": "How to Set Up Per-Agent Billing for CrewAI Agents with Kong", "platform": "devto", "value": 13.0, "timestamp": "2026-06-02T17:04:33Z"}
+{"keyword": "Recently, for the nth time, I had to bulk-import records using Excel.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T14:23:09Z"}
+{"keyword": "Zeroing Out the Bill: The Developer’s Practical Guide to Eliminating Google Cloud (GCP) Idle Costs", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T07:20:06Z"}
+{"keyword": "Building a Decentralized Content Pipeline with Nostr & Astro", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T07:36:04Z"}
+{"keyword": "Why Build a Startup If Not for Money?", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T14:19:35Z"}
+{"keyword": "Learning Lessons from Gaming", "platform": "devto", "value": 20.0, "timestamp": "2026-06-02T14:00:58Z"}
+{"keyword": "Top 7 Featured DEV Posts of the Week", "platform": "devto", "value": 26.0, "timestamp": "2026-06-02T18:32:50Z"}
+{"keyword": "How we turned the Replay keynote surprise into an open-source embedded playground", "platform": "devto", "value": 7.0, "timestamp": "2026-06-02T15:36:42Z"}
+{"keyword": "I Used My Last 7% of Copilot Tokens to Bring a 2014 WinForms Game Back to Life", "platform": "devto", "value": 15.0, "timestamp": "2026-06-02T07:06:53Z"}
+{"keyword": "How fast is LlamaStash? Overhead, throughput, and a fair comparison with Ollama and LM Studio", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T11:34:05Z"}
+{"keyword": "Introducing LlamaStash: a zero-overhead, terminal-native llama.cpp launcher", "platform": "devto", "value": 8.0, "timestamp": "2026-06-02T12:01:22Z"}
+{"keyword": "Gubernator [the kill ku8s]", "platform": "devto", "value": 7.0, "timestamp": "2026-06-02T12:55:56Z"}
+{"keyword": "I Thought AI Would Make Me Code Faster. Then I Spent 6 Hours Debugging One Line.", "platform": "devto", "value": 20.0, "timestamp": "2026-06-02T05:16:18Z"}
+{"keyword": "Send your first AI message in one API call", "platform": "devto", "value": 16.0, "timestamp": "2026-06-02T16:41:37Z"}
+{"keyword": "Sovereign Synapse: The Context-Cleaner", "platform": "devto", "value": 1.0, "timestamp": "2026-06-02T13:53:40Z"}
+{"keyword": "Google Is One Feature Away From Killing an Entire Startup Category", "platform": "devto", "value": 8.0, "timestamp": "2026-06-02T08:14:41Z"}
+{"keyword": "O Paradoxo dos 70/30: A aceleração da IA aliada à experiência humana", "platform": "devto", "value": 1.0, "timestamp": "2026-06-02T15:55:18Z"}
+{"keyword": "Surviving the eviction: How to build interrupt-resilient AI workloads on GKE", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T20:02:20Z"}
+{"keyword": "Git-regret 💀 — I Finally Finished the CLI That Reads Your Shame", "platform": "devto", "value": 23.0, "timestamp": "2026-06-02T08:31:21Z"}
+{"keyword": "peektea opens a second eye 👀 side-by-side file previews", "platform": "devto", "value": 11.0, "timestamp": "2026-06-02T19:31:31Z"}
+{"keyword": "Is Zero Trust Enough for Agentic Systems?", "platform": "devto", "value": 2.0, "timestamp": "2026-06-02T13:45:15Z"}
+{"keyword": "Content Virtualization using the HTML <template> Element", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T13:26:42Z"}
+{"keyword": "AI Native DevCon Day 1: Making AI Agents Ready for Enterprise", "platform": "devto", "value": 21.0, "timestamp": "2026-06-02T08:37:13Z"}
+{"keyword": "The #1 Developer Skill in the Agentic Era", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T23:12:42Z"}
+{"keyword": "I made a personalized AI web app with RAG", "platform": "devto", "value": 10.0, "timestamp": "2026-06-02T14:04:36Z"}
+{"keyword": "TypeScript Monorepo Magic: Organize, Build, and Ship Multi-Package Apps", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T12:16:54Z"}
+{"keyword": "React State Management: When to Use useState, Context, or Zustand", "platform": "devto", "value": 10.0, "timestamp": "2026-06-02T07:30:00Z"}
+{"keyword": "How to Set Up Per-Agent Billing for CrewAI Agents with Kong", "platform": "devto", "value": 13.0, "timestamp": "2026-06-02T17:04:33Z"}
+{"keyword": "Recently, for the nth time, I had to bulk-import records using Excel.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-02T14:23:09Z"}
+{"keyword": "Zeroing Out the Bill: The Developer’s Practical Guide to Eliminating Google Cloud (GCP) Idle Costs", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T07:20:06Z"}
+{"keyword": "Building a Decentralized Content Pipeline with Nostr & Astro", "platform": "devto", "value": 6.0, "timestamp": "2026-06-02T07:36:04Z"}
+{"keyword": "Why Build a Startup If Not for Money?", "platform": "devto", "value": 5.0, "timestamp": "2026-06-02T14:19:35Z"}
