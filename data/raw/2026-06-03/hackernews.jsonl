@@ -56,3 +56,119 @@
 {"keyword": "How we index images for RAG", "platform": "hackernews", "value": 175.0, "timestamp": "1780416821"}
 {"keyword": "HP re-releases classic computer science calculator: The HP-16C", "platform": "hackernews", "value": 191.0, "timestamp": "1780426960"}
 {"keyword": "Words of Type", "platform": "hackernews", "value": 102.0, "timestamp": "1780252125"}
+{"keyword": "Elixir v1.20: Now a gradually typed language", "platform": "hackernews", "value": 457.0, "timestamp": "1780513346"}
+{"keyword": "Gemma 4 12B: A unified, encoder-free multimodal model", "platform": "hackernews", "value": 632.0, "timestamp": "1780502682"}
+{"keyword": "I was recently diagnosed with anti-NMDA receptor encephalitis", "platform": "hackernews", "value": 442.0, "timestamp": "1780495806"}
+{"keyword": "DaVinci Resolve 21", "platform": "hackernews", "value": 366.0, "timestamp": "1780496319"}
+{"keyword": "Artificial intelligence is not conscious – Ted Chiang", "platform": "hackernews", "value": 151.0, "timestamp": "1780509097"}
+{"keyword": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing", "platform": "hackernews", "value": 331.0, "timestamp": "1780489514"}
+{"keyword": "Ableton Extensions SDK", "platform": "hackernews", "value": 44.0, "timestamp": "1780519174"}
+{"keyword": "Gooey: A GPU-accelerated UI framework for Zig", "platform": "hackernews", "value": 125.0, "timestamp": "1780506747"}
+{"keyword": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it", "platform": "hackernews", "value": 628.0, "timestamp": "1780483980"}
+{"keyword": "A Man Who Reads Books for a Living (One Every Two Days)", "platform": "hackernews", "value": 54.0, "timestamp": "1780517313"}
+{"keyword": "ESP32-S31", "platform": "hackernews", "value": 238.0, "timestamp": "1780503025"}
+{"keyword": "A Post-Quantum Future for Let's Encrypt", "platform": "hackernews", "value": 211.0, "timestamp": "1780499169"}
+{"keyword": "Journey to JPEG XL: open-source experiments shaped the future of image coding", "platform": "hackernews", "value": 15.0, "timestamp": "1780523723"}
+{"keyword": "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)", "platform": "hackernews", "value": 37.0, "timestamp": "1780515817"}
+{"keyword": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)", "platform": "hackernews", "value": 21.0, "timestamp": "1780518730"}
+{"keyword": "Meteor Explodes over Massachusetts", "platform": "hackernews", "value": 13.0, "timestamp": "1780345884"}
+{"keyword": "Launch HN: Hyper (YC P26) – Company brain to power agentic development", "platform": "hackernews", "value": 47.0, "timestamp": "1780508393"}
+{"keyword": "Brume is a 24-voice multi-timbral desktop synth for the CM5", "platform": "hackernews", "value": 40.0, "timestamp": "1780515681"}
+{"keyword": "Embryos shape their limbs: a key discovery of \"genetic brakes\"", "platform": "hackernews", "value": 45.0, "timestamp": "1780509016"}
+{"keyword": "Stop Killing Games", "platform": "hackernews", "value": 173.0, "timestamp": "1780319811"}
+{"keyword": "Rootshell: A new E2EE email service hosted in Iceland", "platform": "hackernews", "value": 38.0, "timestamp": "1780513085"}
+{"keyword": "A Mathematician's Lament – Paul Lockhart (2002) [pdf]", "platform": "hackernews", "value": 13.0, "timestamp": "1780522330"}
+{"keyword": "Book Dedications", "platform": "hackernews", "value": 32.0, "timestamp": "1780360563"}
+{"keyword": "MacBook Neo is so popular that Apple doubled production", "platform": "hackernews", "value": 307.0, "timestamp": "1780504397"}
+{"keyword": "Mathematicians issue warning as AI rapidly gains ground", "platform": "hackernews", "value": 154.0, "timestamp": "1780481148"}
+{"keyword": "Meta workers can opt out of being tracked at work up to 30 min", "platform": "hackernews", "value": 661.0, "timestamp": "1780490527"}
+{"keyword": "PlayStation Architecture", "platform": "hackernews", "value": 245.0, "timestamp": "1780482265"}
+{"keyword": "New Texas Instruments 5532 chips are not the 5532s we’ve used for decades", "platform": "hackernews", "value": 81.0, "timestamp": "1780503908"}
+{"keyword": "Every Byte Matters", "platform": "hackernews", "value": 221.0, "timestamp": "1780484644"}
+{"keyword": "Elixir v1.20: Now a gradually typed language", "platform": "hackernews", "value": 457.0, "timestamp": "1780513346"}
+{"keyword": "Gemma 4 12B: A unified, encoder-free multimodal model", "platform": "hackernews", "value": 632.0, "timestamp": "1780502682"}
+{"keyword": "I was recently diagnosed with anti-NMDA receptor encephalitis", "platform": "hackernews", "value": 442.0, "timestamp": "1780495806"}
+{"keyword": "DaVinci Resolve 21", "platform": "hackernews", "value": 366.0, "timestamp": "1780496319"}
+{"keyword": "Artificial intelligence is not conscious – Ted Chiang", "platform": "hackernews", "value": 151.0, "timestamp": "1780509097"}
+{"keyword": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing", "platform": "hackernews", "value": 331.0, "timestamp": "1780489514"}
+{"keyword": "Ableton Extensions SDK", "platform": "hackernews", "value": 44.0, "timestamp": "1780519174"}
+{"keyword": "Gooey: A GPU-accelerated UI framework for Zig", "platform": "hackernews", "value": 125.0, "timestamp": "1780506747"}
+{"keyword": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it", "platform": "hackernews", "value": 628.0, "timestamp": "1780483980"}
+{"keyword": "A Man Who Reads Books for a Living (One Every Two Days)", "platform": "hackernews", "value": 54.0, "timestamp": "1780517313"}
+{"keyword": "ESP32-S31", "platform": "hackernews", "value": 238.0, "timestamp": "1780503025"}
+{"keyword": "A Post-Quantum Future for Let's Encrypt", "platform": "hackernews", "value": 211.0, "timestamp": "1780499169"}
+{"keyword": "Journey to JPEG XL: open-source experiments shaped the future of image coding", "platform": "hackernews", "value": 15.0, "timestamp": "1780523723"}
+{"keyword": "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)", "platform": "hackernews", "value": 37.0, "timestamp": "1780515817"}
+{"keyword": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)", "platform": "hackernews", "value": 21.0, "timestamp": "1780518730"}
+{"keyword": "Meteor Explodes over Massachusetts", "platform": "hackernews", "value": 13.0, "timestamp": "1780345884"}
+{"keyword": "Launch HN: Hyper (YC P26) – Company brain to power agentic development", "platform": "hackernews", "value": 47.0, "timestamp": "1780508393"}
+{"keyword": "Brume is a 24-voice multi-timbral desktop synth for the CM5", "platform": "hackernews", "value": 40.0, "timestamp": "1780515681"}
+{"keyword": "Embryos shape their limbs: a key discovery of \"genetic brakes\"", "platform": "hackernews", "value": 45.0, "timestamp": "1780509016"}
+{"keyword": "Stop Killing Games", "platform": "hackernews", "value": 173.0, "timestamp": "1780319811"}
+{"keyword": "Rootshell: A new E2EE email service hosted in Iceland", "platform": "hackernews", "value": 38.0, "timestamp": "1780513085"}
+{"keyword": "A Mathematician's Lament – Paul Lockhart (2002) [pdf]", "platform": "hackernews", "value": 13.0, "timestamp": "1780522330"}
+{"keyword": "Book Dedications", "platform": "hackernews", "value": 32.0, "timestamp": "1780360563"}
+{"keyword": "MacBook Neo is so popular that Apple doubled production", "platform": "hackernews", "value": 307.0, "timestamp": "1780504397"}
+{"keyword": "Mathematicians issue warning as AI rapidly gains ground", "platform": "hackernews", "value": 154.0, "timestamp": "1780481148"}
+{"keyword": "Meta workers can opt out of being tracked at work up to 30 min", "platform": "hackernews", "value": 661.0, "timestamp": "1780490527"}
+{"keyword": "PlayStation Architecture", "platform": "hackernews", "value": 245.0, "timestamp": "1780482265"}
+{"keyword": "New Texas Instruments 5532 chips are not the 5532s we’ve used for decades", "platform": "hackernews", "value": 81.0, "timestamp": "1780503908"}
+{"keyword": "Every Byte Matters", "platform": "hackernews", "value": 221.0, "timestamp": "1780484644"}
+{"keyword": "Elixir v1.20: Now a gradually typed language", "platform": "hackernews", "value": 460.0, "timestamp": "1780513346"}
+{"keyword": "Gemma 4 12B: A unified, encoder-free multimodal model", "platform": "hackernews", "value": 633.0, "timestamp": "1780502682"}
+{"keyword": "I was recently diagnosed with anti-NMDA receptor encephalitis", "platform": "hackernews", "value": 442.0, "timestamp": "1780495806"}
+{"keyword": "DaVinci Resolve 21", "platform": "hackernews", "value": 366.0, "timestamp": "1780496319"}
+{"keyword": "Artificial intelligence is not conscious – Ted Chiang", "platform": "hackernews", "value": 151.0, "timestamp": "1780509097"}
+{"keyword": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing", "platform": "hackernews", "value": 331.0, "timestamp": "1780489514"}
+{"keyword": "Ableton Extensions SDK", "platform": "hackernews", "value": 44.0, "timestamp": "1780519174"}
+{"keyword": "Gooey: A GPU-accelerated UI framework for Zig", "platform": "hackernews", "value": 125.0, "timestamp": "1780506747"}
+{"keyword": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it", "platform": "hackernews", "value": 628.0, "timestamp": "1780483980"}
+{"keyword": "A Man Who Reads Books for a Living (One Every Two Days)", "platform": "hackernews", "value": 55.0, "timestamp": "1780517313"}
+{"keyword": "ESP32-S31", "platform": "hackernews", "value": 238.0, "timestamp": "1780503025"}
+{"keyword": "A Post-Quantum Future for Let's Encrypt", "platform": "hackernews", "value": 211.0, "timestamp": "1780499169"}
+{"keyword": "Journey to JPEG XL: open-source experiments shaped the future of image coding", "platform": "hackernews", "value": 15.0, "timestamp": "1780523723"}
+{"keyword": "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)", "platform": "hackernews", "value": 37.0, "timestamp": "1780515817"}
+{"keyword": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)", "platform": "hackernews", "value": 21.0, "timestamp": "1780518730"}
+{"keyword": "Meteor Explodes over Massachusetts", "platform": "hackernews", "value": 13.0, "timestamp": "1780345884"}
+{"keyword": "Launch HN: Hyper (YC P26) – Company brain to power agentic development", "platform": "hackernews", "value": 47.0, "timestamp": "1780508393"}
+{"keyword": "Brume is a 24-voice multi-timbral desktop synth for the CM5", "platform": "hackernews", "value": 40.0, "timestamp": "1780515681"}
+{"keyword": "Embryos shape their limbs: a key discovery of \"genetic brakes\"", "platform": "hackernews", "value": 45.0, "timestamp": "1780509016"}
+{"keyword": "Stop Killing Games", "platform": "hackernews", "value": 173.0, "timestamp": "1780319811"}
+{"keyword": "Rootshell: A new E2EE email service hosted in Iceland", "platform": "hackernews", "value": 39.0, "timestamp": "1780513085"}
+{"keyword": "A Mathematician's Lament – Paul Lockhart (2002) [pdf]", "platform": "hackernews", "value": 13.0, "timestamp": "1780522330"}
+{"keyword": "Book Dedications", "platform": "hackernews", "value": 32.0, "timestamp": "1780360563"}
+{"keyword": "MacBook Neo is so popular that Apple doubled production", "platform": "hackernews", "value": 308.0, "timestamp": "1780504397"}
+{"keyword": "Mathematicians issue warning as AI rapidly gains ground", "platform": "hackernews", "value": 154.0, "timestamp": "1780481148"}
+{"keyword": "Meta workers can opt out of being tracked at work up to 30 min", "platform": "hackernews", "value": 661.0, "timestamp": "1780490527"}
+{"keyword": "PlayStation Architecture", "platform": "hackernews", "value": 245.0, "timestamp": "1780482265"}
+{"keyword": "New Texas Instruments 5532 chips are not the 5532s we’ve used for decades", "platform": "hackernews", "value": 81.0, "timestamp": "1780503908"}
+{"keyword": "Every Byte Matters", "platform": "hackernews", "value": 221.0, "timestamp": "1780484644"}
+{"keyword": "Elixir v1.20: Now a gradually typed language", "platform": "hackernews", "value": 460.0, "timestamp": "1780513346"}
+{"keyword": "Gemma 4 12B: A unified, encoder-free multimodal model", "platform": "hackernews", "value": 633.0, "timestamp": "1780502682"}
+{"keyword": "I was recently diagnosed with anti-NMDA receptor encephalitis", "platform": "hackernews", "value": 442.0, "timestamp": "1780495806"}
+{"keyword": "DaVinci Resolve 21", "platform": "hackernews", "value": 366.0, "timestamp": "1780496319"}
+{"keyword": "Artificial intelligence is not conscious – Ted Chiang", "platform": "hackernews", "value": 151.0, "timestamp": "1780509097"}
+{"keyword": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing", "platform": "hackernews", "value": 331.0, "timestamp": "1780489514"}
+{"keyword": "Ableton Extensions SDK", "platform": "hackernews", "value": 44.0, "timestamp": "1780519174"}
+{"keyword": "Gooey: A GPU-accelerated UI framework for Zig", "platform": "hackernews", "value": 125.0, "timestamp": "1780506747"}
+{"keyword": "Pwnd Blaster: Hacking your PC using your speaker without ever touching it", "platform": "hackernews", "value": 628.0, "timestamp": "1780483980"}
+{"keyword": "A Man Who Reads Books for a Living (One Every Two Days)", "platform": "hackernews", "value": 55.0, "timestamp": "1780517313"}
+{"keyword": "ESP32-S31", "platform": "hackernews", "value": 238.0, "timestamp": "1780503025"}
+{"keyword": "A Post-Quantum Future for Let's Encrypt", "platform": "hackernews", "value": 211.0, "timestamp": "1780499169"}
+{"keyword": "Journey to JPEG XL: open-source experiments shaped the future of image coding", "platform": "hackernews", "value": 15.0, "timestamp": "1780523723"}
+{"keyword": "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)", "platform": "hackernews", "value": 37.0, "timestamp": "1780515817"}
+{"keyword": "Show HN: Mnemo – local-first AI memory layer for any LLM (Rust, SQLite,petgraph)", "platform": "hackernews", "value": 21.0, "timestamp": "1780518730"}
+{"keyword": "Meteor Explodes over Massachusetts", "platform": "hackernews", "value": 13.0, "timestamp": "1780345884"}
+{"keyword": "Launch HN: Hyper (YC P26) – Company brain to power agentic development", "platform": "hackernews", "value": 47.0, "timestamp": "1780508393"}
+{"keyword": "Brume is a 24-voice multi-timbral desktop synth for the CM5", "platform": "hackernews", "value": 40.0, "timestamp": "1780515681"}
+{"keyword": "Embryos shape their limbs: a key discovery of \"genetic brakes\"", "platform": "hackernews", "value": 45.0, "timestamp": "1780509016"}
+{"keyword": "Stop Killing Games", "platform": "hackernews", "value": 173.0, "timestamp": "1780319811"}
+{"keyword": "Rootshell: A new E2EE email service hosted in Iceland", "platform": "hackernews", "value": 39.0, "timestamp": "1780513085"}
+{"keyword": "A Mathematician's Lament – Paul Lockhart (2002) [pdf]", "platform": "hackernews", "value": 13.0, "timestamp": "1780522330"}
+{"keyword": "Book Dedications", "platform": "hackernews", "value": 32.0, "timestamp": "1780360563"}
+{"keyword": "MacBook Neo is so popular that Apple doubled production", "platform": "hackernews", "value": 308.0, "timestamp": "1780504397"}
+{"keyword": "Mathematicians issue warning as AI rapidly gains ground", "platform": "hackernews", "value": 154.0, "timestamp": "1780481148"}
+{"keyword": "Meta workers can opt out of being tracked at work up to 30 min", "platform": "hackernews", "value": 661.0, "timestamp": "1780490527"}
+{"keyword": "PlayStation Architecture", "platform": "hackernews", "value": 245.0, "timestamp": "1780482265"}
+{"keyword": "New Texas Instruments 5532 chips are not the 5532s we’ve used for decades", "platform": "hackernews", "value": 81.0, "timestamp": "1780503908"}
+{"keyword": "Every Byte Matters", "platform": "hackernews", "value": 221.0, "timestamp": "1780484644"}
