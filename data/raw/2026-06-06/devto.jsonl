@@ -50,3 +50,107 @@
 {"keyword": "Catching the shortcuts AI coding agents take to look done", "platform": "devto", "value": 0.0, "timestamp": "2026-06-05T21:40:35Z"}
 {"keyword": "🪙 CoinFlow — I Built a Full-Stack Micro-Tasking Platform with GitHub Copilot.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-05T18:19:01Z"}
 {"keyword": "Three Commands to Make Claude Code Stop Guessing Your Infra", "platform": "devto", "value": 1.0, "timestamp": "2026-06-05T18:30:45Z"}
+{"keyword": "Two Doors Into the Same Room", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T01:07:50Z"}
+{"keyword": "peektea brews on WSL 👀🍵 (and installs in one line)", "platform": "devto", "value": 10.0, "timestamp": "2026-06-06T17:47:41Z"}
+{"keyword": "June 2026 Check In: A Progress Update on the Last 6 Months", "platform": "devto", "value": 1.0, "timestamp": "2026-06-05T22:52:57Z"}
+{"keyword": "I got tired of waiting for deploys, so I built a local Lambda runner", "platform": "devto", "value": 10.0, "timestamp": "2026-06-06T07:24:20Z"}
+{"keyword": "I tested whether a code health score actually predicts bugs. Here's the benchmark", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T07:57:41Z"}
+{"keyword": "MindPal: finishing the AI support app that remembers what matters", "platform": "devto", "value": 5.0, "timestamp": "2026-06-06T19:38:09Z"}
+{"keyword": "I built a free SQL practice game where you work at a fictional Singapore bank", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T03:02:22Z"}
+{"keyword": "I Opened My Old Repository Again After 315 Days", "platform": "devto", "value": 2.0, "timestamp": "2026-06-06T09:50:11Z"}
+{"keyword": "I built a Python AI agent and Pylance drove me to build a type checker and LSP", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T07:47:31Z"}
+{"keyword": "Your DNS check is lying to you", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T03:08:29Z"}
+{"keyword": "We built a coding harness that beats frontier models using open ones. It's in open beta.", "platform": "devto", "value": 7.0, "timestamp": "2026-06-06T21:42:46Z"}
+{"keyword": "We're still the only one to hit #1 on both LoCoMo and LongMemEval. Here is how to use it.", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T20:32:52Z"}
+{"keyword": "The Last Capacity Planning Sheet You'll Ever Need", "platform": "devto", "value": 5.0, "timestamp": "2026-06-06T17:37:21Z"}
+{"keyword": "Flappy Trump: Color Drain", "platform": "devto", "value": 6.0, "timestamp": "2026-06-06T16:33:36Z"}
+{"keyword": "AI Slop Is Becoming a Software Engineering Problem", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T19:20:21Z"}
+{"keyword": "Introducing aislop: the quality gate for AI-written code", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T19:14:46Z"}
+{"keyword": "Introducing aislop: The Quality Gate for AI-Written Code", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T19:58:48Z"}
+{"keyword": "Polyglot Monorepo Magic: TypeScript, Python, and Go in One Repo", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T07:22:00Z"}
+{"keyword": "We Built a Kubernetes Desktop App That Actually Replaces Your Entire Workflow — Podscape v4.0", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T14:33:24Z"}
+{"keyword": "How to Handle Modbus Bus Collisions When Multiple Python Scripts Poll the Same RS485 Sensor", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T14:02:32Z"}
+{"keyword": "Pidgin English Can Now Find Your Spare Parts. Here Is How I Built That.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T15:04:09Z"}
+{"keyword": "Road To KiwiEngine #11: Why I’m Building Sovereign AI Instead of Another AI Wrapper", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T15:30:00Z"}
+{"keyword": "I was rewriting the same database plumbing in every Electron app, so I built NookDB", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T13:12:47Z"}
+{"keyword": "room to breathe", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T13:36:30Z"}
+{"keyword": "KharchaAI", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T14:50:42Z"}
+{"keyword": "My Claude Code hook silently ate every Korean character, and it took me an hour to figure out why", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T03:48:06Z"}
+{"keyword": "Two Doors Into the Same Room", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T01:07:50Z"}
+{"keyword": "peektea brews on WSL 👀🍵 (and installs in one line)", "platform": "devto", "value": 10.0, "timestamp": "2026-06-06T17:47:41Z"}
+{"keyword": "June 2026 Check In: A Progress Update on the Last 6 Months", "platform": "devto", "value": 1.0, "timestamp": "2026-06-05T22:52:57Z"}
+{"keyword": "I got tired of waiting for deploys, so I built a local Lambda runner", "platform": "devto", "value": 10.0, "timestamp": "2026-06-06T07:24:20Z"}
+{"keyword": "I tested whether a code health score actually predicts bugs. Here's the benchmark", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T07:57:41Z"}
+{"keyword": "MindPal: finishing the AI support app that remembers what matters", "platform": "devto", "value": 5.0, "timestamp": "2026-06-06T19:38:09Z"}
+{"keyword": "I built a free SQL practice game where you work at a fictional Singapore bank", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T03:02:22Z"}
+{"keyword": "I Opened My Old Repository Again After 315 Days", "platform": "devto", "value": 2.0, "timestamp": "2026-06-06T09:50:11Z"}
+{"keyword": "I built a Python AI agent and Pylance drove me to build a type checker and LSP", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T07:47:31Z"}
+{"keyword": "Your DNS check is lying to you", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T03:08:29Z"}
+{"keyword": "We built a coding harness that beats frontier models using open ones. It's in open beta.", "platform": "devto", "value": 7.0, "timestamp": "2026-06-06T21:42:46Z"}
+{"keyword": "We're still the only one to hit #1 on both LoCoMo and LongMemEval. Here is how to use it.", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T20:32:52Z"}
+{"keyword": "The Last Capacity Planning Sheet You'll Ever Need", "platform": "devto", "value": 5.0, "timestamp": "2026-06-06T17:37:21Z"}
+{"keyword": "Flappy Trump: Color Drain", "platform": "devto", "value": 6.0, "timestamp": "2026-06-06T16:33:36Z"}
+{"keyword": "AI Slop Is Becoming a Software Engineering Problem", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T19:20:21Z"}
+{"keyword": "Introducing aislop: the quality gate for AI-written code", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T19:14:46Z"}
+{"keyword": "Introducing aislop: The Quality Gate for AI-Written Code", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T19:58:48Z"}
+{"keyword": "Polyglot Monorepo Magic: TypeScript, Python, and Go in One Repo", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T07:22:00Z"}
+{"keyword": "We Built a Kubernetes Desktop App That Actually Replaces Your Entire Workflow — Podscape v4.0", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T14:33:24Z"}
+{"keyword": "How to Handle Modbus Bus Collisions When Multiple Python Scripts Poll the Same RS485 Sensor", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T14:02:32Z"}
+{"keyword": "Pidgin English Can Now Find Your Spare Parts. Here Is How I Built That.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T15:04:09Z"}
+{"keyword": "Road To KiwiEngine #11: Why I’m Building Sovereign AI Instead of Another AI Wrapper", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T15:30:00Z"}
+{"keyword": "I was rewriting the same database plumbing in every Electron app, so I built NookDB", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T13:12:47Z"}
+{"keyword": "room to breathe", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T13:36:30Z"}
+{"keyword": "KharchaAI", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T14:50:42Z"}
+{"keyword": "My Claude Code hook silently ate every Korean character, and it took me an hour to figure out why", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T03:48:06Z"}
+{"keyword": "Two Doors Into the Same Room", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T01:07:50Z"}
+{"keyword": "peektea brews on WSL 👀🍵 (and installs in one line)", "platform": "devto", "value": 10.0, "timestamp": "2026-06-06T17:47:41Z"}
+{"keyword": "June 2026 Check In: A Progress Update on the Last 6 Months", "platform": "devto", "value": 1.0, "timestamp": "2026-06-05T22:52:57Z"}
+{"keyword": "I got tired of waiting for deploys, so I built a local Lambda runner", "platform": "devto", "value": 10.0, "timestamp": "2026-06-06T07:24:20Z"}
+{"keyword": "I tested whether a code health score actually predicts bugs. Here's the benchmark", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T07:57:41Z"}
+{"keyword": "MindPal: finishing the AI support app that remembers what matters", "platform": "devto", "value": 5.0, "timestamp": "2026-06-06T19:38:09Z"}
+{"keyword": "I built a free SQL practice game where you work at a fictional Singapore bank", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T03:02:22Z"}
+{"keyword": "I Opened My Old Repository Again After 315 Days", "platform": "devto", "value": 2.0, "timestamp": "2026-06-06T09:50:11Z"}
+{"keyword": "I built a Python AI agent and Pylance drove me to build a type checker and LSP", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T07:47:31Z"}
+{"keyword": "Your DNS check is lying to you", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T03:08:29Z"}
+{"keyword": "We built a coding harness that beats frontier models using open ones. It's in open beta.", "platform": "devto", "value": 7.0, "timestamp": "2026-06-06T21:42:46Z"}
+{"keyword": "We're still the only one to hit #1 on both LoCoMo and LongMemEval. Here is how to use it.", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T20:32:52Z"}
+{"keyword": "The Last Capacity Planning Sheet You'll Ever Need", "platform": "devto", "value": 5.0, "timestamp": "2026-06-06T17:37:21Z"}
+{"keyword": "Flappy Trump: Color Drain", "platform": "devto", "value": 6.0, "timestamp": "2026-06-06T16:33:36Z"}
+{"keyword": "AI Slop Is Becoming a Software Engineering Problem", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T19:20:21Z"}
+{"keyword": "Introducing aislop: the quality gate for AI-written code", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T19:14:46Z"}
+{"keyword": "Introducing aislop: The Quality Gate for AI-Written Code", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T19:58:48Z"}
+{"keyword": "Polyglot Monorepo Magic: TypeScript, Python, and Go in One Repo", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T07:22:00Z"}
+{"keyword": "We Built a Kubernetes Desktop App That Actually Replaces Your Entire Workflow — Podscape v4.0", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T14:33:24Z"}
+{"keyword": "How to Handle Modbus Bus Collisions When Multiple Python Scripts Poll the Same RS485 Sensor", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T14:02:32Z"}
+{"keyword": "Pidgin English Can Now Find Your Spare Parts. Here Is How I Built That.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T15:04:09Z"}
+{"keyword": "Road To KiwiEngine #11: Why I’m Building Sovereign AI Instead of Another AI Wrapper", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T15:30:00Z"}
+{"keyword": "I was rewriting the same database plumbing in every Electron app, so I built NookDB", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T13:12:47Z"}
+{"keyword": "room to breathe", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T13:36:30Z"}
+{"keyword": "KharchaAI", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T14:50:42Z"}
+{"keyword": "My Claude Code hook silently ate every Korean character, and it took me an hour to figure out why", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T03:48:06Z"}
+{"keyword": "Two Doors Into the Same Room", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T01:07:50Z"}
+{"keyword": "peektea brews on WSL 👀🍵 (and installs in one line)", "platform": "devto", "value": 10.0, "timestamp": "2026-06-06T17:47:41Z"}
+{"keyword": "June 2026 Check In: A Progress Update on the Last 6 Months", "platform": "devto", "value": 1.0, "timestamp": "2026-06-05T22:52:57Z"}
+{"keyword": "I got tired of waiting for deploys, so I built a local Lambda runner", "platform": "devto", "value": 10.0, "timestamp": "2026-06-06T07:24:20Z"}
+{"keyword": "I tested whether a code health score actually predicts bugs. Here's the benchmark", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T07:57:41Z"}
+{"keyword": "MindPal: finishing the AI support app that remembers what matters", "platform": "devto", "value": 5.0, "timestamp": "2026-06-06T19:38:09Z"}
+{"keyword": "I built a free SQL practice game where you work at a fictional Singapore bank", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T03:02:22Z"}
+{"keyword": "I Opened My Old Repository Again After 315 Days", "platform": "devto", "value": 2.0, "timestamp": "2026-06-06T09:50:11Z"}
+{"keyword": "I built a Python AI agent and Pylance drove me to build a type checker and LSP", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T07:47:31Z"}
+{"keyword": "Your DNS check is lying to you", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T03:08:29Z"}
+{"keyword": "We built a coding harness that beats frontier models using open ones. It's in open beta.", "platform": "devto", "value": 7.0, "timestamp": "2026-06-06T21:42:46Z"}
+{"keyword": "We're still the only one to hit #1 on both LoCoMo and LongMemEval. Here is how to use it.", "platform": "devto", "value": 4.0, "timestamp": "2026-06-06T20:32:52Z"}
+{"keyword": "The Last Capacity Planning Sheet You'll Ever Need", "platform": "devto", "value": 5.0, "timestamp": "2026-06-06T17:37:21Z"}
+{"keyword": "Flappy Trump: Color Drain", "platform": "devto", "value": 6.0, "timestamp": "2026-06-06T16:33:36Z"}
+{"keyword": "AI Slop Is Becoming a Software Engineering Problem", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T19:20:21Z"}
+{"keyword": "Introducing aislop: the quality gate for AI-written code", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T19:14:46Z"}
+{"keyword": "Introducing aislop: The Quality Gate for AI-Written Code", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T19:58:48Z"}
+{"keyword": "Polyglot Monorepo Magic: TypeScript, Python, and Go in One Repo", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T07:22:00Z"}
+{"keyword": "We Built a Kubernetes Desktop App That Actually Replaces Your Entire Workflow — Podscape v4.0", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T14:33:24Z"}
+{"keyword": "How to Handle Modbus Bus Collisions When Multiple Python Scripts Poll the Same RS485 Sensor", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T14:02:32Z"}
+{"keyword": "Pidgin English Can Now Find Your Spare Parts. Here Is How I Built That.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T15:04:09Z"}
+{"keyword": "Road To KiwiEngine #11: Why I’m Building Sovereign AI Instead of Another AI Wrapper", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T15:30:00Z"}
+{"keyword": "I was rewriting the same database plumbing in every Electron app, so I built NookDB", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T13:12:47Z"}
+{"keyword": "room to breathe", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T13:36:30Z"}
+{"keyword": "KharchaAI", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T14:50:42Z"}
+{"keyword": "My Claude Code hook silently ate every Korean character, and it took me an hour to figure out why", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T03:48:06Z"}

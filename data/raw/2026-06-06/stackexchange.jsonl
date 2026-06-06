@@ -18,3 +18,45 @@
 {"keyword": "In a php program, I include some echo &quot;javascript code...&quot; but it doesn&#39;t execute", "platform": "stackexchange", "value": 0.0, "timestamp": "1780711458"}
 {"keyword": "C# winforms TreeView.SelectedNode = null calling treeView1_AfterSelect", "platform": "stackexchange", "value": 2.0, "timestamp": "1780718597"}
 {"keyword": "Why do I get stray &#39;\\377&#39; when including &lt;iostream&gt;?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780710177"}
+{"keyword": "Unsupported expando type: class java.lang.Boolean", "platform": "stackexchange", "value": 0.0, "timestamp": "1780785258"}
+{"keyword": "How can I avoid using LLMs as a software developer?", "platform": "stackexchange", "value": 108.0, "timestamp": "1780090787"}
+{"keyword": "How do you use an abstract class", "platform": "stackexchange", "value": 0.0, "timestamp": "1780781283"}
+{"keyword": "How should I grab raw pixel data from a .png file (using Bash)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780780677"}
+{"keyword": "Fortran subroutine not returning the expected value", "platform": "stackexchange", "value": 0.0, "timestamp": "1780780918"}
+{"keyword": "Automatically enclosing sections of unrelated elements in &lt;div&gt; tags", "platform": "stackexchange", "value": 0.0, "timestamp": "1780777784"}
+{"keyword": "Why doesn&#39;t it use all available RAM?", "platform": "stackexchange", "value": 2.0, "timestamp": "1780773441"}
+{"keyword": "Started LeetCode late in career, any particular question for must practice", "platform": "stackexchange", "value": 0.0, "timestamp": "1780762787"}
+{"keyword": "I have issues jumping to my kernel in my bootloader", "platform": "stackexchange", "value": 1.0, "timestamp": "1780774264"}
+{"keyword": "I would appreciate some advice about types in Python", "platform": "stackexchange", "value": 0.0, "timestamp": "1780764334"}
+{"keyword": "How To Manage Infrastructure And Domain Layer Properly In Clean Architecture", "platform": "stackexchange", "value": 0.0, "timestamp": "1780774846"}
+{"keyword": "How do I generate random words from two different lists and combine them into one search?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780764926"}
+{"keyword": "Securely storing error messages displayed to the application user in a database", "platform": "stackexchange", "value": 1.0, "timestamp": "1780771090"}
+{"keyword": "Getting CLR Class Library to work with CLR Console App", "platform": "stackexchange", "value": 0.0, "timestamp": "1780762292"}
+{"keyword": "Asymptote draws ticks with commas instead of decimal points", "platform": "stackexchange", "value": 0.0, "timestamp": "1780764096"}
+{"keyword": "Wordpress / php / shortcode - remove hyphen from the output", "platform": "stackexchange", "value": 0.0, "timestamp": "1780768634"}
+{"keyword": "BeagleBone Black Rev D does not show up as Mass storage in Windows 11", "platform": "stackexchange", "value": 0.0, "timestamp": "1780764244"}
+{"keyword": "AIX 7.1 to 7.2 migration experience with WebSphere Application Server 7.0.0.23 running on Java 6", "platform": "stackexchange", "value": 0.0, "timestamp": "1780753195"}
+{"keyword": "How to find name matches exact, partial or no match from two list", "platform": "stackexchange", "value": 2.0, "timestamp": "1780731768"}
+{"keyword": "Deleting specific nushell history entries in an alias", "platform": "stackexchange", "value": 0.0, "timestamp": "1780755153"}
+{"keyword": "In C# 14 how to sort an array in reverse order?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780725820"}
+{"keyword": "Unsupported expando type: class java.lang.Boolean", "platform": "stackexchange", "value": 0.0, "timestamp": "1780785258"}
+{"keyword": "How can I avoid using LLMs as a software developer?", "platform": "stackexchange", "value": 108.0, "timestamp": "1780090787"}
+{"keyword": "How do you use an abstract class", "platform": "stackexchange", "value": 0.0, "timestamp": "1780781283"}
+{"keyword": "How should I grab raw pixel data from a .png file (using Bash)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780780677"}
+{"keyword": "Fortran subroutine not returning the expected value", "platform": "stackexchange", "value": 0.0, "timestamp": "1780780918"}
+{"keyword": "Automatically enclosing sections of unrelated elements in &lt;div&gt; tags", "platform": "stackexchange", "value": 0.0, "timestamp": "1780777784"}
+{"keyword": "Why doesn&#39;t it use all available RAM?", "platform": "stackexchange", "value": 2.0, "timestamp": "1780773441"}
+{"keyword": "Started LeetCode late in career, any particular question for must practice", "platform": "stackexchange", "value": 0.0, "timestamp": "1780762787"}
+{"keyword": "I have issues jumping to my kernel in my bootloader", "platform": "stackexchange", "value": 1.0, "timestamp": "1780774264"}
+{"keyword": "I would appreciate some advice about types in Python", "platform": "stackexchange", "value": 0.0, "timestamp": "1780764334"}
+{"keyword": "How To Manage Infrastructure And Domain Layer Properly In Clean Architecture", "platform": "stackexchange", "value": 0.0, "timestamp": "1780774846"}
+{"keyword": "How do I generate random words from two different lists and combine them into one search?", "platform": "stackexchange", "value": 0.0, "timestamp": "1780764926"}
+{"keyword": "Securely storing error messages displayed to the application user in a database", "platform": "stackexchange", "value": 1.0, "timestamp": "1780771090"}
+{"keyword": "Getting CLR Class Library to work with CLR Console App", "platform": "stackexchange", "value": 0.0, "timestamp": "1780762292"}
+{"keyword": "Asymptote draws ticks with commas instead of decimal points", "platform": "stackexchange", "value": 0.0, "timestamp": "1780764096"}
+{"keyword": "Wordpress / php / shortcode - remove hyphen from the output", "platform": "stackexchange", "value": 0.0, "timestamp": "1780768634"}
+{"keyword": "BeagleBone Black Rev D does not show up as Mass storage in Windows 11", "platform": "stackexchange", "value": 0.0, "timestamp": "1780764244"}
+{"keyword": "AIX 7.1 to 7.2 migration experience with WebSphere Application Server 7.0.0.23 running on Java 6", "platform": "stackexchange", "value": 0.0, "timestamp": "1780753195"}
+{"keyword": "How to find name matches exact, partial or no match from two list", "platform": "stackexchange", "value": 2.0, "timestamp": "1780731768"}
+{"keyword": "Deleting specific nushell history entries in an alias", "platform": "stackexchange", "value": 0.0, "timestamp": "1780755153"}
+{"keyword": "In C# 14 how to sort an array in reverse order?", "platform": "stackexchange", "value": 1.0, "timestamp": "1780725820"}
