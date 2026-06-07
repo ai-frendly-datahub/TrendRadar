@@ -48,3 +48,115 @@
 {"keyword": "Building a Self-Hosted Newsletter Setup with n8n & Gemini", "platform": "devto", "value": 1.0, "timestamp": "2026-06-06T11:12:16Z"}
 {"keyword": "Rust Was Crashing. Go Fixed It. Copilot Showed Me Why", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T17:36:45Z"}
 {"keyword": "The challenges of creating a semantic memory layer on Cloudflare Workers, D1, and Vectorize.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-06T11:23:52Z"}
+{"keyword": "Your app can save someone from having a panic attack (a real-life story)", "platform": "devto", "value": 7.0, "timestamp": "2026-06-07T18:18:18Z"}
+{"keyword": "I abandoned my campus app 3 years ago. The Finish-Up-A-Thon made me fix it", "platform": "devto", "value": 8.0, "timestamp": "2026-06-07T09:25:42Z"}
+{"keyword": "Termote - Remote Agentic Development Enviroment", "platform": "devto", "value": 12.0, "timestamp": "2026-06-07T11:45:14Z"}
+{"keyword": "JavaScript Proxy: One more way to use it I wish I’d known 3 years ago", "platform": "devto", "value": 12.0, "timestamp": "2026-06-07T19:29:52Z"}
+{"keyword": "Run Coding Agents on Local AI — Zero Cloud, Full Control", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T00:42:42Z"}
+{"keyword": "The Packet Format: 90 Bytes and One Cursed Byte", "platform": "devto", "value": 4.0, "timestamp": "2026-06-07T06:35:11Z"}
+{"keyword": "Claude Code is not a recursive agent. I read the source and checked.", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T11:19:36Z"}
+{"keyword": "Finishing What I Started: A Code Snippet Manager Built on GitHub Gists", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T00:11:09Z"}
+{"keyword": "Your Notes, Your Voice, Your Study Group. One App. How I Finally Finished It.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T21:27:04Z"}
+{"keyword": "I Shipped 12 BI Dashboards With 5 Different Tools. Here Is the Honest Comparison.", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T11:03:40Z"}
+{"keyword": "How to access AI from a blocked region? From 2022 to 2026, a Chinese developer's perspective", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T06:08:18Z"}
+{"keyword": "React useEffect with extra dependecies?", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T17:10:56Z"}
+{"keyword": "How to Auto-Sync Your Hashnode Blog to Dev.to Using GitHub Actions (2026 Guide)", "platform": "devto", "value": 5.0, "timestamp": "2026-06-07T12:22:46Z"}
+{"keyword": "Road To KiwiEngine #12: Why I Want To Build Hardware Again", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T16:00:00Z"}
+{"keyword": "Your Codebase Is a Mess Because Your Team Can't Agree on What a \"Customer\" Is", "platform": "devto", "value": 8.0, "timestamp": "2026-06-07T03:45:49Z"}
+{"keyword": "Extended RUM in DocumentDB extension for PostgreSQL: Efficient ESR (Equality, Sort, Range) Queries", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T15:37:15Z"}
+{"keyword": "How to send email from Cloudflare Workers, Deno, and Bun (Nodemailer won't)", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T08:22:48Z"}
+{"keyword": "Solstice Cipher: The Turing Test of Light and Shadow", "platform": "devto", "value": 5.0, "timestamp": "2026-06-07T20:06:01Z"}
+{"keyword": "I Generate Too Many UUIDs. So I Wrote a Faster One.", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T14:13:54Z"}
+{"keyword": "Orbit — From Abandoned Solo Tool to Full Team Platform with GitHub Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T13:54:05Z"}
+{"keyword": "Title: SecurAI Sentinel: The AI-Powered Ops Dashboard Bridging Intelligence and Orchestration", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T14:47:35Z"}
+{"keyword": "Visual Cue Tracker: Mapping My Values, One Week at a Time", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T00:15:05Z"}
+{"keyword": "Solstice — A Game About Holding the Light", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T11:50:45Z"}
+{"keyword": "Taming AI API Rate Limits with Asyncio Queues", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T10:02:16Z"}
+{"keyword": "I Audited an AI Chatbot's Sandbox Like a Black-Box Linux Machine", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T15:33:07Z"}
+{"keyword": "Raft, Quorum, and High Availability", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T13:01:59Z"}
+{"keyword": "Cifrasync", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T14:12:41Z"}
+{"keyword": "Consensus Protocols in Distributed Systems", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T08:54:46Z"}
+{"keyword": "Your app can save someone from having a panic attack (a real-life story)", "platform": "devto", "value": 7.0, "timestamp": "2026-06-07T18:18:18Z"}
+{"keyword": "I abandoned my campus app 3 years ago. The Finish-Up-A-Thon made me fix it", "platform": "devto", "value": 8.0, "timestamp": "2026-06-07T09:25:42Z"}
+{"keyword": "Termote - Remote Agentic Development Enviroment", "platform": "devto", "value": 12.0, "timestamp": "2026-06-07T11:45:14Z"}
+{"keyword": "JavaScript Proxy: One more way to use it I wish I’d known 3 years ago", "platform": "devto", "value": 12.0, "timestamp": "2026-06-07T19:29:52Z"}
+{"keyword": "Run Coding Agents on Local AI — Zero Cloud, Full Control", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T00:42:42Z"}
+{"keyword": "The Packet Format: 90 Bytes and One Cursed Byte", "platform": "devto", "value": 4.0, "timestamp": "2026-06-07T06:35:11Z"}
+{"keyword": "Claude Code is not a recursive agent. I read the source and checked.", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T11:19:36Z"}
+{"keyword": "Finishing What I Started: A Code Snippet Manager Built on GitHub Gists", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T00:11:09Z"}
+{"keyword": "Your Notes, Your Voice, Your Study Group. One App. How I Finally Finished It.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T21:27:04Z"}
+{"keyword": "I Shipped 12 BI Dashboards With 5 Different Tools. Here Is the Honest Comparison.", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T11:03:40Z"}
+{"keyword": "How to access AI from a blocked region? From 2022 to 2026, a Chinese developer's perspective", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T06:08:18Z"}
+{"keyword": "React useEffect with extra dependecies?", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T17:10:56Z"}
+{"keyword": "How to Auto-Sync Your Hashnode Blog to Dev.to Using GitHub Actions (2026 Guide)", "platform": "devto", "value": 5.0, "timestamp": "2026-06-07T12:22:46Z"}
+{"keyword": "Road To KiwiEngine #12: Why I Want To Build Hardware Again", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T16:00:00Z"}
+{"keyword": "Your Codebase Is a Mess Because Your Team Can't Agree on What a \"Customer\" Is", "platform": "devto", "value": 8.0, "timestamp": "2026-06-07T03:45:49Z"}
+{"keyword": "Extended RUM in DocumentDB extension for PostgreSQL: Efficient ESR (Equality, Sort, Range) Queries", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T15:37:15Z"}
+{"keyword": "How to send email from Cloudflare Workers, Deno, and Bun (Nodemailer won't)", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T08:22:48Z"}
+{"keyword": "Solstice Cipher: The Turing Test of Light and Shadow", "platform": "devto", "value": 5.0, "timestamp": "2026-06-07T20:06:01Z"}
+{"keyword": "I Generate Too Many UUIDs. So I Wrote a Faster One.", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T14:13:54Z"}
+{"keyword": "Orbit — From Abandoned Solo Tool to Full Team Platform with GitHub Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T13:54:05Z"}
+{"keyword": "Title: SecurAI Sentinel: The AI-Powered Ops Dashboard Bridging Intelligence and Orchestration", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T14:47:35Z"}
+{"keyword": "Visual Cue Tracker: Mapping My Values, One Week at a Time", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T00:15:05Z"}
+{"keyword": "Solstice — A Game About Holding the Light", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T11:50:45Z"}
+{"keyword": "Taming AI API Rate Limits with Asyncio Queues", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T10:02:16Z"}
+{"keyword": "I Audited an AI Chatbot's Sandbox Like a Black-Box Linux Machine", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T15:33:07Z"}
+{"keyword": "Raft, Quorum, and High Availability", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T13:01:59Z"}
+{"keyword": "Cifrasync", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T14:12:41Z"}
+{"keyword": "Consensus Protocols in Distributed Systems", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T08:54:46Z"}
+{"keyword": "Your app can save someone from having a panic attack (a real-life story)", "platform": "devto", "value": 7.0, "timestamp": "2026-06-07T18:18:18Z"}
+{"keyword": "I abandoned my campus app 3 years ago. The Finish-Up-A-Thon made me fix it", "platform": "devto", "value": 8.0, "timestamp": "2026-06-07T09:25:42Z"}
+{"keyword": "Termote - Remote Agentic Development Enviroment", "platform": "devto", "value": 12.0, "timestamp": "2026-06-07T11:45:14Z"}
+{"keyword": "JavaScript Proxy: One more way to use it I wish I’d known 3 years ago", "platform": "devto", "value": 12.0, "timestamp": "2026-06-07T19:29:52Z"}
+{"keyword": "Run Coding Agents on Local AI — Zero Cloud, Full Control", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T00:42:42Z"}
+{"keyword": "The Packet Format: 90 Bytes and One Cursed Byte", "platform": "devto", "value": 4.0, "timestamp": "2026-06-07T06:35:11Z"}
+{"keyword": "Claude Code is not a recursive agent. I read the source and checked.", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T11:19:36Z"}
+{"keyword": "Finishing What I Started: A Code Snippet Manager Built on GitHub Gists", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T00:11:09Z"}
+{"keyword": "Your Notes, Your Voice, Your Study Group. One App. How I Finally Finished It.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T21:27:04Z"}
+{"keyword": "I Shipped 12 BI Dashboards With 5 Different Tools. Here Is the Honest Comparison.", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T11:03:40Z"}
+{"keyword": "How to access AI from a blocked region? From 2022 to 2026, a Chinese developer's perspective", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T06:08:18Z"}
+{"keyword": "React useEffect with extra dependecies?", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T17:10:56Z"}
+{"keyword": "How to Auto-Sync Your Hashnode Blog to Dev.to Using GitHub Actions (2026 Guide)", "platform": "devto", "value": 5.0, "timestamp": "2026-06-07T12:22:46Z"}
+{"keyword": "Road To KiwiEngine #12: Why I Want To Build Hardware Again", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T16:00:00Z"}
+{"keyword": "Your Codebase Is a Mess Because Your Team Can't Agree on What a \"Customer\" Is", "platform": "devto", "value": 8.0, "timestamp": "2026-06-07T03:45:49Z"}
+{"keyword": "Extended RUM in DocumentDB extension for PostgreSQL: Efficient ESR (Equality, Sort, Range) Queries", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T15:37:15Z"}
+{"keyword": "How to send email from Cloudflare Workers, Deno, and Bun (Nodemailer won't)", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T08:22:48Z"}
+{"keyword": "Solstice Cipher: The Turing Test of Light and Shadow", "platform": "devto", "value": 5.0, "timestamp": "2026-06-07T20:06:01Z"}
+{"keyword": "I Generate Too Many UUIDs. So I Wrote a Faster One.", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T14:13:54Z"}
+{"keyword": "Orbit — From Abandoned Solo Tool to Full Team Platform with GitHub Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T13:54:05Z"}
+{"keyword": "Title: SecurAI Sentinel: The AI-Powered Ops Dashboard Bridging Intelligence and Orchestration", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T14:47:35Z"}
+{"keyword": "Visual Cue Tracker: Mapping My Values, One Week at a Time", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T00:15:05Z"}
+{"keyword": "Solstice — A Game About Holding the Light", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T11:50:45Z"}
+{"keyword": "Taming AI API Rate Limits with Asyncio Queues", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T10:02:16Z"}
+{"keyword": "I Audited an AI Chatbot's Sandbox Like a Black-Box Linux Machine", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T15:33:07Z"}
+{"keyword": "Raft, Quorum, and High Availability", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T13:01:59Z"}
+{"keyword": "Cifrasync", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T14:12:41Z"}
+{"keyword": "Consensus Protocols in Distributed Systems", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T08:54:46Z"}
+{"keyword": "Your app can save someone from having a panic attack (a real-life story)", "platform": "devto", "value": 7.0, "timestamp": "2026-06-07T18:18:18Z"}
+{"keyword": "I abandoned my campus app 3 years ago. The Finish-Up-A-Thon made me fix it", "platform": "devto", "value": 8.0, "timestamp": "2026-06-07T09:25:42Z"}
+{"keyword": "Termote - Remote Agentic Development Enviroment", "platform": "devto", "value": 12.0, "timestamp": "2026-06-07T11:45:14Z"}
+{"keyword": "JavaScript Proxy: One more way to use it I wish I’d known 3 years ago", "platform": "devto", "value": 12.0, "timestamp": "2026-06-07T19:29:52Z"}
+{"keyword": "Run Coding Agents on Local AI — Zero Cloud, Full Control", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T00:42:42Z"}
+{"keyword": "The Packet Format: 90 Bytes and One Cursed Byte", "platform": "devto", "value": 4.0, "timestamp": "2026-06-07T06:35:11Z"}
+{"keyword": "Claude Code is not a recursive agent. I read the source and checked.", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T11:19:36Z"}
+{"keyword": "Finishing What I Started: A Code Snippet Manager Built on GitHub Gists", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T00:11:09Z"}
+{"keyword": "Your Notes, Your Voice, Your Study Group. One App. How I Finally Finished It.", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T21:27:04Z"}
+{"keyword": "I Shipped 12 BI Dashboards With 5 Different Tools. Here Is the Honest Comparison.", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T11:03:40Z"}
+{"keyword": "How to access AI from a blocked region? From 2022 to 2026, a Chinese developer's perspective", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T06:08:18Z"}
+{"keyword": "React useEffect with extra dependecies?", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T17:10:56Z"}
+{"keyword": "How to Auto-Sync Your Hashnode Blog to Dev.to Using GitHub Actions (2026 Guide)", "platform": "devto", "value": 5.0, "timestamp": "2026-06-07T12:22:46Z"}
+{"keyword": "Road To KiwiEngine #12: Why I Want To Build Hardware Again", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T16:00:00Z"}
+{"keyword": "Your Codebase Is a Mess Because Your Team Can't Agree on What a \"Customer\" Is", "platform": "devto", "value": 8.0, "timestamp": "2026-06-07T03:45:49Z"}
+{"keyword": "Extended RUM in DocumentDB extension for PostgreSQL: Efficient ESR (Equality, Sort, Range) Queries", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T15:37:15Z"}
+{"keyword": "How to send email from Cloudflare Workers, Deno, and Bun (Nodemailer won't)", "platform": "devto", "value": 2.0, "timestamp": "2026-06-07T08:22:48Z"}
+{"keyword": "Solstice Cipher: The Turing Test of Light and Shadow", "platform": "devto", "value": 5.0, "timestamp": "2026-06-07T20:06:01Z"}
+{"keyword": "I Generate Too Many UUIDs. So I Wrote a Faster One.", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T14:13:54Z"}
+{"keyword": "Orbit — From Abandoned Solo Tool to Full Team Platform with GitHub Copilot", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T13:54:05Z"}
+{"keyword": "Title: SecurAI Sentinel: The AI-Powered Ops Dashboard Bridging Intelligence and Orchestration", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T14:47:35Z"}
+{"keyword": "Visual Cue Tracker: Mapping My Values, One Week at a Time", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T00:15:05Z"}
+{"keyword": "Solstice — A Game About Holding the Light", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T11:50:45Z"}
+{"keyword": "Taming AI API Rate Limits with Asyncio Queues", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T10:02:16Z"}
+{"keyword": "I Audited an AI Chatbot's Sandbox Like a Black-Box Linux Machine", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T15:33:07Z"}
+{"keyword": "Raft, Quorum, and High Availability", "platform": "devto", "value": 1.0, "timestamp": "2026-06-07T13:01:59Z"}
+{"keyword": "Cifrasync", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T14:12:41Z"}
+{"keyword": "Consensus Protocols in Distributed Systems", "platform": "devto", "value": 0.0, "timestamp": "2026-06-07T08:54:46Z"}
