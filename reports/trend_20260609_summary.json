@@ -6,6 +6,10 @@
   "matched_count": 150,
   "top_entities": [
     {
+      "name": "Seoul",
+      "count": 8
+    },
+    {
       "name": "OpenAI",
       "count": 8
     },
@@ -62,27 +66,23 @@
       "count": 8
     },
     {
-      "name": "Seoul",
-      "count": 8
-    },
-    {
       "name": "유튜버",
       "count": 1
     },
     {
-      "name": "인플루언서",
+      "name": "보이그룹",
       "count": 1
     },
     {
-      "name": "스포츠 선수",
+      "name": "걸그룹",
       "count": 1
     },
     {
-      "name": "정치인",
+      "name": "아이돌",
       "count": 1
     },
     {
-      "name": "가수",
+      "name": "K-POP",
       "count": 1
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 120,
     "google": 30
   },
-  "generated_at": "2026-06-09T21:33:51.215847+09:00"
+  "generated_at": "2026-06-09T23:16:31.626252+00:00"
 }
