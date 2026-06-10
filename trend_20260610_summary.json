@@ -6,6 +6,10 @@
   "matched_count": 165,
   "top_entities": [
     {
+      "name": "Seoul",
+      "count": 9
+    },
+    {
       "name": "OpenAI",
       "count": 9
     },
@@ -62,27 +66,23 @@
       "count": 9
     },
     {
-      "name": "Seoul",
-      "count": 9
+      "name": "유튜버",
+      "count": 1
     },
     {
       "name": "뉴진스",
       "count": 1
     },
     {
-      "name": "유튜버",
+      "name": "강남 아파트",
       "count": 1
     },
     {
-      "name": "걸그룹",
+      "name": "마포 매매",
       "count": 1
     },
     {
-      "name": "아이돌",
-      "count": 1
-    },
-    {
-      "name": "K-POP",
+      "name": "분양권",
       "count": 1
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 135,
     "google": 30
   },
-  "generated_at": "2026-06-10T21:53:51.723357+09:00"
+  "generated_at": "2026-06-10T23:24:12.377086+00:00"
 }
