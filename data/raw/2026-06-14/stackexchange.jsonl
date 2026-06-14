@@ -16,3 +16,39 @@
 {"keyword": "What is the difference between Rust memory safety and Ada type safety?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781400559"}
 {"keyword": "Why does my BigQuery query return NULL for AVG() when the column has values?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781397426"}
 {"keyword": "AWS Lightsail node.js blueprint + nginx conf file editing", "platform": "stackexchange", "value": 0.0, "timestamp": "1781400681"}
+{"keyword": "Health Connect rate-limit RemoteException on API 33 and below, even on the first call", "platform": "stackexchange", "value": 1.0, "timestamp": "1781470905"}
+{"keyword": "Setting prompt color based on last command status", "platform": "stackexchange", "value": 0.0, "timestamp": "1781472310"}
+{"keyword": "aaPanel url rewrite stopped working after updating panel", "platform": "stackexchange", "value": 0.0, "timestamp": "1781467591"}
+{"keyword": "How to embed a const char in a const string?", "platform": "stackexchange", "value": 3.0, "timestamp": "1781452031"}
+{"keyword": "Is there a way to give Device Owner Permission in app without running it in Kiosk Mode?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781460591"}
+{"keyword": "Building an LLM tool to validate Palo Alto Panorama firewall rule requests", "platform": "stackexchange", "value": 0.0, "timestamp": "1781458759"}
+{"keyword": "ARM GCC 16.1.0 - sub-optimal compiler behaviour for division by 7 etc?", "platform": "stackexchange", "value": 1.0, "timestamp": "1781457450"}
+{"keyword": "Cannot change orientation of triangle in ThreeJS", "platform": "stackexchange", "value": 0.0, "timestamp": "1781461205"}
+{"keyword": "Selenium and BeautifulSoup 4 combination broke .find_all, making variable undefined", "platform": "stackexchange", "value": 3.0, "timestamp": "1781453042"}
+{"keyword": "Reference vs Pointers", "platform": "stackexchange", "value": 1.0, "timestamp": "1781418523"}
+{"keyword": "Node.js 6 - fs.createReadStream - when file is in use", "platform": "stackexchange", "value": 0.0, "timestamp": "1781458615"}
+{"keyword": "Best Practice to implement a core library for different consumers", "platform": "stackexchange", "value": 0.0, "timestamp": "1781459461"}
+{"keyword": "Fitting an image inside CtkLabel", "platform": "stackexchange", "value": 0.0, "timestamp": "1781444402"}
+{"keyword": "Chromium application manifest error &quot;Icon ....svg failed to load&quot;", "platform": "stackexchange", "value": 0.0, "timestamp": "1781454654"}
+{"keyword": "How to install masm32?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781455132"}
+{"keyword": "Central Point Backup", "platform": "stackexchange", "value": 0.0, "timestamp": "1781442956"}
+{"keyword": "Best ways to concatinate strings in python", "platform": "stackexchange", "value": 0.0, "timestamp": "1781435825"}
+{"keyword": "How can I increase the limits of a Chrome Extension for large JSON datasets?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781455659"}
+{"keyword": "Health Connect rate-limit RemoteException on API 33 and below, even on the first call", "platform": "stackexchange", "value": 1.0, "timestamp": "1781470905"}
+{"keyword": "Setting prompt color based on last command status", "platform": "stackexchange", "value": 0.0, "timestamp": "1781472310"}
+{"keyword": "aaPanel url rewrite stopped working after updating panel", "platform": "stackexchange", "value": 0.0, "timestamp": "1781467591"}
+{"keyword": "How to embed a const char in a const string?", "platform": "stackexchange", "value": 3.0, "timestamp": "1781452031"}
+{"keyword": "Is there a way to give Device Owner Permission in app without running it in Kiosk Mode?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781460591"}
+{"keyword": "Building an LLM tool to validate Palo Alto Panorama firewall rule requests", "platform": "stackexchange", "value": 0.0, "timestamp": "1781458759"}
+{"keyword": "ARM GCC 16.1.0 - sub-optimal compiler behaviour for division by 7 etc?", "platform": "stackexchange", "value": 1.0, "timestamp": "1781457450"}
+{"keyword": "Cannot change orientation of triangle in ThreeJS", "platform": "stackexchange", "value": 0.0, "timestamp": "1781461205"}
+{"keyword": "Selenium and BeautifulSoup 4 combination broke .find_all, making variable undefined", "platform": "stackexchange", "value": 3.0, "timestamp": "1781453042"}
+{"keyword": "Reference vs Pointers", "platform": "stackexchange", "value": 1.0, "timestamp": "1781418523"}
+{"keyword": "Node.js 6 - fs.createReadStream - when file is in use", "platform": "stackexchange", "value": 0.0, "timestamp": "1781458615"}
+{"keyword": "Best Practice to implement a core library for different consumers", "platform": "stackexchange", "value": 0.0, "timestamp": "1781459461"}
+{"keyword": "Fitting an image inside CtkLabel", "platform": "stackexchange", "value": 0.0, "timestamp": "1781444402"}
+{"keyword": "Chromium application manifest error &quot;Icon ....svg failed to load&quot;", "platform": "stackexchange", "value": 0.0, "timestamp": "1781454654"}
+{"keyword": "How to install masm32?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781455132"}
+{"keyword": "Central Point Backup", "platform": "stackexchange", "value": 0.0, "timestamp": "1781442956"}
+{"keyword": "Best ways to concatinate strings in python", "platform": "stackexchange", "value": 0.0, "timestamp": "1781435825"}
+{"keyword": "How can I increase the limits of a Chrome Extension for large JSON datasets?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781455659"}
