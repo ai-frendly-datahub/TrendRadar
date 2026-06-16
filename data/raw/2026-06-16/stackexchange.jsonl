@@ -18,3 +18,49 @@
 {"keyword": "Goroutines leaking after context cancellation in fan-out/fan-in worker pool", "platform": "stackexchange", "value": 0.0, "timestamp": "1781605097"}
 {"keyword": "In Laravel, when should I use Controllers, Services, Actions, Repositories, Model?", "platform": "stackexchange", "value": 2.0, "timestamp": "1781608344"}
 {"keyword": "How can I avoid using LLMs as a software developer?", "platform": "stackexchange", "value": 116.0, "timestamp": "1780090787"}
+{"keyword": "C question. I am feeling exceptionally stupid tonight", "platform": "stackexchange", "value": 0.0, "timestamp": "1781651230"}
+{"keyword": "How to control the depth range of rectangle select with VisualizerWithVertexSelection in Open3D?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781647230"}
+{"keyword": "Big Query Cloud Billing / Account Takeover With Encryption Key", "platform": "stackexchange", "value": 0.0, "timestamp": "1781649252"}
+{"keyword": "SDL 3 GPU Texture is not transfering / renderring correctly", "platform": "stackexchange", "value": 1.0, "timestamp": "1781645037"}
+{"keyword": "How to implement atomic IO in your own DBMS?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781633108"}
+{"keyword": "Does exist a linux file system to dynamically fill a folder with some specific files of a disk?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781643390"}
+{"keyword": "Python imports same named file from incorrect directory", "platform": "stackexchange", "value": 0.0, "timestamp": "1781642768"}
+{"keyword": "Quirk to using Swift Sets with Hashable objects", "platform": "stackexchange", "value": 0.0, "timestamp": "1781640367"}
+{"keyword": "Does forwarding reference ensure guaranteed copy elision?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781619298"}
+{"keyword": "Best practices on enforcing WWW prefix or no prefix?", "platform": "stackexchange", "value": 1.0, "timestamp": "1781639693"}
+{"keyword": "Azimuth/Altitude incorrect when comparing to Stellarium/Heavens Above", "platform": "stackexchange", "value": 1.0, "timestamp": "1781626359"}
+{"keyword": "React component displays both minimized and expanded audio-player controls after the first click", "platform": "stackexchange", "value": 0.0, "timestamp": "1781641956"}
+{"keyword": "Oracle Cloud Infrastructure Free Tier", "platform": "stackexchange", "value": 0.0, "timestamp": "1781639138"}
+{"keyword": "Perl&#39;s Regexp::Common::balanced hangs on some strings", "platform": "stackexchange", "value": 0.0, "timestamp": "1781636658"}
+{"keyword": "&quot;Cannot set the Security Context&quot; console message", "platform": "stackexchange", "value": 0.0, "timestamp": "1781633484"}
+{"keyword": "MATLAB imwarp() &amp; Python cv2.warpAffine(). Matching Images but not equal grayscale values", "platform": "stackexchange", "value": 1.0, "timestamp": "1781643526"}
+{"keyword": "How can I avoid using LLMs as a software developer?", "platform": "stackexchange", "value": 116.0, "timestamp": "1780090787"}
+{"keyword": "How to correctly install numpy/scipy with openBLAS backend via conda?", "platform": "stackexchange", "value": 2.0, "timestamp": "1781639077"}
+{"keyword": "VS Code text randomly highlighted in grey, green, red, and other colors while editing code", "platform": "stackexchange", "value": 0.0, "timestamp": "1781638833"}
+{"keyword": "How can I make Django signals request-aware for audit logging", "platform": "stackexchange", "value": 1.0, "timestamp": "1781628957"}
+{"keyword": "How did you become good at programming? Also: any regrets?", "platform": "stackexchange", "value": 2.0, "timestamp": "1781612910"}
+{"keyword": "Unexpected duplicates after pd.pivot_table", "platform": "stackexchange", "value": 1.0, "timestamp": "1781634925"}
+{"keyword": "How to detect a specific sequence of string values within a Dataframe column", "platform": "stackexchange", "value": 0.0, "timestamp": "1781624780"}
+{"keyword": "C question. I am feeling exceptionally stupid tonight", "platform": "stackexchange", "value": 0.0, "timestamp": "1781651230"}
+{"keyword": "How to control the depth range of rectangle select with VisualizerWithVertexSelection in Open3D?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781647230"}
+{"keyword": "Big Query Cloud Billing / Account Takeover With Encryption Key", "platform": "stackexchange", "value": 0.0, "timestamp": "1781649252"}
+{"keyword": "SDL 3 GPU Texture is not transfering / renderring correctly", "platform": "stackexchange", "value": 1.0, "timestamp": "1781645037"}
+{"keyword": "How to implement atomic IO in your own DBMS?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781633108"}
+{"keyword": "Does exist a linux file system to dynamically fill a folder with some specific files of a disk?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781643390"}
+{"keyword": "Python imports same named file from incorrect directory", "platform": "stackexchange", "value": 0.0, "timestamp": "1781642768"}
+{"keyword": "Quirk to using Swift Sets with Hashable objects", "platform": "stackexchange", "value": 0.0, "timestamp": "1781640367"}
+{"keyword": "Does forwarding reference ensure guaranteed copy elision?", "platform": "stackexchange", "value": 0.0, "timestamp": "1781619298"}
+{"keyword": "Best practices on enforcing WWW prefix or no prefix?", "platform": "stackexchange", "value": 1.0, "timestamp": "1781639693"}
+{"keyword": "Azimuth/Altitude incorrect when comparing to Stellarium/Heavens Above", "platform": "stackexchange", "value": 1.0, "timestamp": "1781626359"}
+{"keyword": "React component displays both minimized and expanded audio-player controls after the first click", "platform": "stackexchange", "value": 0.0, "timestamp": "1781641956"}
+{"keyword": "Oracle Cloud Infrastructure Free Tier", "platform": "stackexchange", "value": 0.0, "timestamp": "1781639138"}
+{"keyword": "Perl&#39;s Regexp::Common::balanced hangs on some strings", "platform": "stackexchange", "value": 0.0, "timestamp": "1781636658"}
+{"keyword": "&quot;Cannot set the Security Context&quot; console message", "platform": "stackexchange", "value": 0.0, "timestamp": "1781633484"}
+{"keyword": "MATLAB imwarp() &amp; Python cv2.warpAffine(). Matching Images but not equal grayscale values", "platform": "stackexchange", "value": 1.0, "timestamp": "1781643526"}
+{"keyword": "How can I avoid using LLMs as a software developer?", "platform": "stackexchange", "value": 116.0, "timestamp": "1780090787"}
+{"keyword": "How to correctly install numpy/scipy with openBLAS backend via conda?", "platform": "stackexchange", "value": 2.0, "timestamp": "1781639077"}
+{"keyword": "VS Code text randomly highlighted in grey, green, red, and other colors while editing code", "platform": "stackexchange", "value": 0.0, "timestamp": "1781638833"}
+{"keyword": "How can I make Django signals request-aware for audit logging", "platform": "stackexchange", "value": 1.0, "timestamp": "1781628957"}
+{"keyword": "How did you become good at programming? Also: any regrets?", "platform": "stackexchange", "value": 2.0, "timestamp": "1781612910"}
+{"keyword": "Unexpected duplicates after pd.pivot_table", "platform": "stackexchange", "value": 1.0, "timestamp": "1781634925"}
+{"keyword": "How to detect a specific sequence of string values within a Dataframe column", "platform": "stackexchange", "value": 0.0, "timestamp": "1781624780"}

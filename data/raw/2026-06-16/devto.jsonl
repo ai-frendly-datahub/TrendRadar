@@ -56,3 +56,115 @@
 {"keyword": "The Playwright Playbook — Part 2: Network Interception — The Complete Guide", "platform": "devto", "value": 6.0, "timestamp": "2026-06-16T08:43:44Z"}
 {"keyword": "I run 17 side projects. I'm not a person.", "platform": "devto", "value": 5.0, "timestamp": "2026-06-16T13:41:51Z"}
 {"keyword": "Is Token Usage the New Lines of Code? How to Measure Developer Productivity in the AI Age", "platform": "devto", "value": 5.0, "timestamp": "2026-06-16T14:08:28Z"}
+{"keyword": "How We Saved Big and Simplified Our Image Pipeline: Adopting bunny.net on DEV", "platform": "devto", "value": 43.0, "timestamp": "2026-06-16T16:41:51Z"}
+{"keyword": "Top 7 Featured DEV Posts of the Week", "platform": "devto", "value": 46.0, "timestamp": "2026-06-16T14:26:21Z"}
+{"keyword": "I Got Flagged by Sloan. Sloan Is a Guy I Know.", "platform": "devto", "value": 36.0, "timestamp": "2026-06-16T13:45:03Z"}
+{"keyword": "Tailwind CSS4: Why Those Inline Styles Are Actually More Scalable - A Senior CSS Developer's Guide", "platform": "devto", "value": 25.0, "timestamp": "2026-06-16T05:09:55Z"}
+{"keyword": "I Asked AI to Write My Commit Messages It Was Embarrassing.", "platform": "devto", "value": 30.0, "timestamp": "2026-06-16T10:44:59Z"}
+{"keyword": "AWS Blocks: Full-Stack Building Blocks That Run Locally Without an AWS Account", "platform": "devto", "value": 8.0, "timestamp": "2026-06-16T21:08:56Z"}
+{"keyword": "Why the Fable 5 Crisis Proves Your AI Context Layer Can't Live Inside the Model", "platform": "devto", "value": 12.0, "timestamp": "2026-06-16T14:41:02Z"}
+{"keyword": "AI Isn't Something to Trust — It's Something to Design (Series Final)", "platform": "devto", "value": 20.0, "timestamp": "2026-06-16T00:02:03Z"}
+{"keyword": "When Your AI API Goes Down: A Real-World Fallback Strategy", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T01:01:21Z"}
+{"keyword": "TypeScript Patterns for Environment Variables", "platform": "devto", "value": 10.0, "timestamp": "2026-06-16T00:22:00Z"}
+{"keyword": "How My First Claude Code on AWS Bedrock Experiment Cost Me $8.43 in Just One Day", "platform": "devto", "value": 6.0, "timestamp": "2026-06-16T11:00:48Z"}
+{"keyword": "Why we built a desktop app on local Flask + browser UI instead of PyQt or Electron", "platform": "devto", "value": 8.0, "timestamp": "2026-06-16T00:39:16Z"}
+{"keyword": "We shipped our first Android app", "platform": "devto", "value": 0.0, "timestamp": "2026-06-15T23:37:57Z"}
+{"keyword": "The Modular Monolith: Laravel Edition", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T00:07:12Z"}
+{"keyword": "A Love Letter to Survivorship Bias in Tech", "platform": "devto", "value": 2.0, "timestamp": "2026-06-16T09:32:49Z"}
+{"keyword": "Expanding the Sovereign AI Stack: Moving the Specification from Gateway to Local Silicon", "platform": "devto", "value": 3.0, "timestamp": "2026-06-16T17:32:40Z"}
+{"keyword": "Livewire Polling, Events, and Lazy Loading: A Practical Guide to Real-Time UX Without WebSockets", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T01:00:11Z"}
+{"keyword": "A Company AI Flagged My Article As \"Low Quality.\" I Ran the Numbers. Then I Ran Again.", "platform": "devto", "value": 23.0, "timestamp": "2026-06-16T14:06:45Z"}
+{"keyword": "Deploying Immich, an Open-Source Alternative to Google Photos, on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:53:30Z"}
+{"keyword": "Deploying CapRover Self-Hosted PaaS for Docker Applications on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:50:21Z"}
+{"keyword": "Deploying Instant Open-Source Firebase Alternative on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:54:16Z"}
+{"keyword": "Deploying Authelia Open-Source Authentication and Authorization Gateway on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:49:01Z"}
+{"keyword": "Deploying Jina Serve Open-Source Neural Search and AI Serving Framework on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:55:00Z"}
+{"keyword": "Deploying Cal.com Open-Source Calendly Alternative on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:49:41Z"}
+{"keyword": "Your AI Provider Is a Single Point of Failure", "platform": "devto", "value": 3.0, "timestamp": "2026-06-16T14:25:48Z"}
+{"keyword": "AI Coding Tip 024 - Force a Criteria Check Before the Task Ends", "platform": "devto", "value": 2.0, "timestamp": "2026-06-16T11:00:00Z"}
+{"keyword": "I Coded Without AI for 30 Days. Here's What It Did to My Brain.", "platform": "devto", "value": 6.0, "timestamp": "2026-06-16T13:06:28Z"}
+{"keyword": "Giving your agents a terminal: a first look at the tabstack CLI", "platform": "devto", "value": 1.0, "timestamp": "2026-06-16T21:38:57Z"}
+{"keyword": "How We Saved Big and Simplified Our Image Pipeline: Adopting bunny.net on DEV", "platform": "devto", "value": 43.0, "timestamp": "2026-06-16T16:41:51Z"}
+{"keyword": "Top 7 Featured DEV Posts of the Week", "platform": "devto", "value": 46.0, "timestamp": "2026-06-16T14:26:21Z"}
+{"keyword": "I Got Flagged by Sloan. Sloan Is a Guy I Know.", "platform": "devto", "value": 36.0, "timestamp": "2026-06-16T13:45:03Z"}
+{"keyword": "Tailwind CSS4: Why Those Inline Styles Are Actually More Scalable - A Senior CSS Developer's Guide", "platform": "devto", "value": 25.0, "timestamp": "2026-06-16T05:09:55Z"}
+{"keyword": "I Asked AI to Write My Commit Messages It Was Embarrassing.", "platform": "devto", "value": 30.0, "timestamp": "2026-06-16T10:44:59Z"}
+{"keyword": "AWS Blocks: Full-Stack Building Blocks That Run Locally Without an AWS Account", "platform": "devto", "value": 8.0, "timestamp": "2026-06-16T21:08:56Z"}
+{"keyword": "Why the Fable 5 Crisis Proves Your AI Context Layer Can't Live Inside the Model", "platform": "devto", "value": 12.0, "timestamp": "2026-06-16T14:41:02Z"}
+{"keyword": "AI Isn't Something to Trust — It's Something to Design (Series Final)", "platform": "devto", "value": 20.0, "timestamp": "2026-06-16T00:02:03Z"}
+{"keyword": "When Your AI API Goes Down: A Real-World Fallback Strategy", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T01:01:21Z"}
+{"keyword": "TypeScript Patterns for Environment Variables", "platform": "devto", "value": 10.0, "timestamp": "2026-06-16T00:22:00Z"}
+{"keyword": "How My First Claude Code on AWS Bedrock Experiment Cost Me $8.43 in Just One Day", "platform": "devto", "value": 6.0, "timestamp": "2026-06-16T11:00:48Z"}
+{"keyword": "Why we built a desktop app on local Flask + browser UI instead of PyQt or Electron", "platform": "devto", "value": 8.0, "timestamp": "2026-06-16T00:39:16Z"}
+{"keyword": "We shipped our first Android app", "platform": "devto", "value": 0.0, "timestamp": "2026-06-15T23:37:57Z"}
+{"keyword": "The Modular Monolith: Laravel Edition", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T00:07:12Z"}
+{"keyword": "A Love Letter to Survivorship Bias in Tech", "platform": "devto", "value": 2.0, "timestamp": "2026-06-16T09:32:49Z"}
+{"keyword": "Expanding the Sovereign AI Stack: Moving the Specification from Gateway to Local Silicon", "platform": "devto", "value": 3.0, "timestamp": "2026-06-16T17:32:40Z"}
+{"keyword": "Livewire Polling, Events, and Lazy Loading: A Practical Guide to Real-Time UX Without WebSockets", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T01:00:11Z"}
+{"keyword": "A Company AI Flagged My Article As \"Low Quality.\" I Ran the Numbers. Then I Ran Again.", "platform": "devto", "value": 23.0, "timestamp": "2026-06-16T14:06:45Z"}
+{"keyword": "Deploying Immich, an Open-Source Alternative to Google Photos, on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:53:30Z"}
+{"keyword": "Deploying CapRover Self-Hosted PaaS for Docker Applications on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:50:21Z"}
+{"keyword": "Deploying Instant Open-Source Firebase Alternative on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:54:16Z"}
+{"keyword": "Deploying Authelia Open-Source Authentication and Authorization Gateway on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:49:01Z"}
+{"keyword": "Deploying Jina Serve Open-Source Neural Search and AI Serving Framework on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:55:00Z"}
+{"keyword": "Deploying Cal.com Open-Source Calendly Alternative on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:49:41Z"}
+{"keyword": "Your AI Provider Is a Single Point of Failure", "platform": "devto", "value": 3.0, "timestamp": "2026-06-16T14:25:48Z"}
+{"keyword": "AI Coding Tip 024 - Force a Criteria Check Before the Task Ends", "platform": "devto", "value": 2.0, "timestamp": "2026-06-16T11:00:00Z"}
+{"keyword": "I Coded Without AI for 30 Days. Here's What It Did to My Brain.", "platform": "devto", "value": 6.0, "timestamp": "2026-06-16T13:06:28Z"}
+{"keyword": "Giving your agents a terminal: a first look at the tabstack CLI", "platform": "devto", "value": 1.0, "timestamp": "2026-06-16T21:38:57Z"}
+{"keyword": "How We Saved Big and Simplified Our Image Pipeline: Adopting bunny.net on DEV", "platform": "devto", "value": 43.0, "timestamp": "2026-06-16T16:41:51Z"}
+{"keyword": "Top 7 Featured DEV Posts of the Week", "platform": "devto", "value": 46.0, "timestamp": "2026-06-16T14:26:21Z"}
+{"keyword": "I Got Flagged by Sloan. Sloan Is a Guy I Know.", "platform": "devto", "value": 36.0, "timestamp": "2026-06-16T13:45:03Z"}
+{"keyword": "Tailwind CSS4: Why Those Inline Styles Are Actually More Scalable - A Senior CSS Developer's Guide", "platform": "devto", "value": 25.0, "timestamp": "2026-06-16T05:09:55Z"}
+{"keyword": "I Asked AI to Write My Commit Messages It Was Embarrassing.", "platform": "devto", "value": 30.0, "timestamp": "2026-06-16T10:44:59Z"}
+{"keyword": "AWS Blocks: Full-Stack Building Blocks That Run Locally Without an AWS Account", "platform": "devto", "value": 8.0, "timestamp": "2026-06-16T21:08:56Z"}
+{"keyword": "Why the Fable 5 Crisis Proves Your AI Context Layer Can't Live Inside the Model", "platform": "devto", "value": 12.0, "timestamp": "2026-06-16T14:41:02Z"}
+{"keyword": "AI Isn't Something to Trust — It's Something to Design (Series Final)", "platform": "devto", "value": 20.0, "timestamp": "2026-06-16T00:02:03Z"}
+{"keyword": "When Your AI API Goes Down: A Real-World Fallback Strategy", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T01:01:21Z"}
+{"keyword": "TypeScript Patterns for Environment Variables", "platform": "devto", "value": 10.0, "timestamp": "2026-06-16T00:22:00Z"}
+{"keyword": "How My First Claude Code on AWS Bedrock Experiment Cost Me $8.43 in Just One Day", "platform": "devto", "value": 6.0, "timestamp": "2026-06-16T11:00:48Z"}
+{"keyword": "Why we built a desktop app on local Flask + browser UI instead of PyQt or Electron", "platform": "devto", "value": 8.0, "timestamp": "2026-06-16T00:39:16Z"}
+{"keyword": "We shipped our first Android app", "platform": "devto", "value": 0.0, "timestamp": "2026-06-15T23:37:57Z"}
+{"keyword": "The Modular Monolith: Laravel Edition", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T00:07:12Z"}
+{"keyword": "A Love Letter to Survivorship Bias in Tech", "platform": "devto", "value": 2.0, "timestamp": "2026-06-16T09:32:49Z"}
+{"keyword": "Expanding the Sovereign AI Stack: Moving the Specification from Gateway to Local Silicon", "platform": "devto", "value": 3.0, "timestamp": "2026-06-16T17:32:40Z"}
+{"keyword": "Livewire Polling, Events, and Lazy Loading: A Practical Guide to Real-Time UX Without WebSockets", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T01:00:11Z"}
+{"keyword": "A Company AI Flagged My Article As \"Low Quality.\" I Ran the Numbers. Then I Ran Again.", "platform": "devto", "value": 23.0, "timestamp": "2026-06-16T14:06:45Z"}
+{"keyword": "Deploying Immich, an Open-Source Alternative to Google Photos, on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:53:30Z"}
+{"keyword": "Deploying CapRover Self-Hosted PaaS for Docker Applications on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:50:21Z"}
+{"keyword": "Deploying Instant Open-Source Firebase Alternative on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:54:16Z"}
+{"keyword": "Deploying Authelia Open-Source Authentication and Authorization Gateway on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:49:01Z"}
+{"keyword": "Deploying Jina Serve Open-Source Neural Search and AI Serving Framework on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:55:00Z"}
+{"keyword": "Deploying Cal.com Open-Source Calendly Alternative on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:49:41Z"}
+{"keyword": "Your AI Provider Is a Single Point of Failure", "platform": "devto", "value": 3.0, "timestamp": "2026-06-16T14:25:48Z"}
+{"keyword": "AI Coding Tip 024 - Force a Criteria Check Before the Task Ends", "platform": "devto", "value": 2.0, "timestamp": "2026-06-16T11:00:00Z"}
+{"keyword": "I Coded Without AI for 30 Days. Here's What It Did to My Brain.", "platform": "devto", "value": 6.0, "timestamp": "2026-06-16T13:06:28Z"}
+{"keyword": "Giving your agents a terminal: a first look at the tabstack CLI", "platform": "devto", "value": 1.0, "timestamp": "2026-06-16T21:38:57Z"}
+{"keyword": "How We Saved Big and Simplified Our Image Pipeline: Adopting bunny.net on DEV", "platform": "devto", "value": 43.0, "timestamp": "2026-06-16T16:41:51Z"}
+{"keyword": "Top 7 Featured DEV Posts of the Week", "platform": "devto", "value": 46.0, "timestamp": "2026-06-16T14:26:21Z"}
+{"keyword": "I Got Flagged by Sloan. Sloan Is a Guy I Know.", "platform": "devto", "value": 36.0, "timestamp": "2026-06-16T13:45:03Z"}
+{"keyword": "Tailwind CSS4: Why Those Inline Styles Are Actually More Scalable - A Senior CSS Developer's Guide", "platform": "devto", "value": 25.0, "timestamp": "2026-06-16T05:09:55Z"}
+{"keyword": "I Asked AI to Write My Commit Messages It Was Embarrassing.", "platform": "devto", "value": 30.0, "timestamp": "2026-06-16T10:44:59Z"}
+{"keyword": "AWS Blocks: Full-Stack Building Blocks That Run Locally Without an AWS Account", "platform": "devto", "value": 8.0, "timestamp": "2026-06-16T21:08:56Z"}
+{"keyword": "Why the Fable 5 Crisis Proves Your AI Context Layer Can't Live Inside the Model", "platform": "devto", "value": 12.0, "timestamp": "2026-06-16T14:41:02Z"}
+{"keyword": "AI Isn't Something to Trust — It's Something to Design (Series Final)", "platform": "devto", "value": 20.0, "timestamp": "2026-06-16T00:02:03Z"}
+{"keyword": "When Your AI API Goes Down: A Real-World Fallback Strategy", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T01:01:21Z"}
+{"keyword": "TypeScript Patterns for Environment Variables", "platform": "devto", "value": 10.0, "timestamp": "2026-06-16T00:22:00Z"}
+{"keyword": "How My First Claude Code on AWS Bedrock Experiment Cost Me $8.43 in Just One Day", "platform": "devto", "value": 6.0, "timestamp": "2026-06-16T11:00:48Z"}
+{"keyword": "Why we built a desktop app on local Flask + browser UI instead of PyQt or Electron", "platform": "devto", "value": 8.0, "timestamp": "2026-06-16T00:39:16Z"}
+{"keyword": "We shipped our first Android app", "platform": "devto", "value": 0.0, "timestamp": "2026-06-15T23:37:57Z"}
+{"keyword": "The Modular Monolith: Laravel Edition", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T00:07:12Z"}
+{"keyword": "A Love Letter to Survivorship Bias in Tech", "platform": "devto", "value": 2.0, "timestamp": "2026-06-16T09:32:49Z"}
+{"keyword": "Expanding the Sovereign AI Stack: Moving the Specification from Gateway to Local Silicon", "platform": "devto", "value": 3.0, "timestamp": "2026-06-16T17:32:40Z"}
+{"keyword": "Livewire Polling, Events, and Lazy Loading: A Practical Guide to Real-Time UX Without WebSockets", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T01:00:11Z"}
+{"keyword": "A Company AI Flagged My Article As \"Low Quality.\" I Ran the Numbers. Then I Ran Again.", "platform": "devto", "value": 23.0, "timestamp": "2026-06-16T14:06:45Z"}
+{"keyword": "Deploying Immich, an Open-Source Alternative to Google Photos, on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:53:30Z"}
+{"keyword": "Deploying CapRover Self-Hosted PaaS for Docker Applications on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:50:21Z"}
+{"keyword": "Deploying Instant Open-Source Firebase Alternative on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:54:16Z"}
+{"keyword": "Deploying Authelia Open-Source Authentication and Authorization Gateway on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:49:01Z"}
+{"keyword": "Deploying Jina Serve Open-Source Neural Search and AI Serving Framework on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:55:00Z"}
+{"keyword": "Deploying Cal.com Open-Source Calendly Alternative on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-06-16T20:49:41Z"}
+{"keyword": "Your AI Provider Is a Single Point of Failure", "platform": "devto", "value": 3.0, "timestamp": "2026-06-16T14:25:48Z"}
+{"keyword": "AI Coding Tip 024 - Force a Criteria Check Before the Task Ends", "platform": "devto", "value": 2.0, "timestamp": "2026-06-16T11:00:00Z"}
+{"keyword": "I Coded Without AI for 30 Days. Here's What It Did to My Brain.", "platform": "devto", "value": 6.0, "timestamp": "2026-06-16T13:06:28Z"}
+{"keyword": "Giving your agents a terminal: a first look at the tabstack CLI", "platform": "devto", "value": 1.0, "timestamp": "2026-06-16T21:38:57Z"}
