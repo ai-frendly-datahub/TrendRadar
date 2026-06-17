@@ -6,6 +6,10 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "Seoul",
+      "count": 10
+    },
+    {
       "name": "OpenAI",
       "count": 10
     },
@@ -58,15 +62,11 @@
       "count": 10
     },
     {
-      "name": "Seoul",
-      "count": 10
-    },
-    {
       "name": "Electric vehicle",
       "count": 9
     },
     {
-      "name": "뉴진스",
+      "name": "강남 아파트",
       "count": 2
     },
     {
@@ -74,15 +74,15 @@
       "count": 2
     },
     {
-      "name": "블랙핑크",
+      "name": "걸그룹",
       "count": 2
     },
     {
-      "name": "BTS",
+      "name": "아이돌",
       "count": 2
     },
     {
-      "name": "음원차트",
+      "name": "K-POP",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 149,
     "google": 51
   },
-  "generated_at": "2026-06-17T22:39:48.681488+09:00"
+  "generated_at": "2026-06-17T23:21:40.436431+00:00"
 }
