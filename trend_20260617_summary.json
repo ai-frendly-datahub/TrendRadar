@@ -6,6 +6,42 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "OpenAI",
+      "count": 10
+    },
+    {
+      "name": "YouTube",
+      "count": 10
+    },
+    {
+      "name": "E-commerce",
+      "count": 10
+    },
+    {
+      "name": "Climate change",
+      "count": 10
+    },
+    {
+      "name": "Bitcoin",
+      "count": 10
+    },
+    {
+      "name": "Netflix",
+      "count": 10
+    },
+    {
+      "name": "Samsung",
+      "count": 10
+    },
+    {
+      "name": "World Wide Web",
+      "count": 10
+    },
+    {
+      "name": "K-pop",
+      "count": 10
+    },
+    {
       "name": "Machine learning",
       "count": 10
     },
@@ -26,47 +62,11 @@
       "count": 10
     },
     {
-      "name": "OpenAI",
-      "count": 9
-    },
-    {
-      "name": "YouTube",
-      "count": 9
-    },
-    {
-      "name": "E-commerce",
-      "count": 9
-    },
-    {
       "name": "Electric vehicle",
       "count": 9
     },
     {
-      "name": "Climate change",
-      "count": 9
-    },
-    {
-      "name": "Bitcoin",
-      "count": 9
-    },
-    {
-      "name": "Netflix",
-      "count": 9
-    },
-    {
-      "name": "Samsung",
-      "count": 9
-    },
-    {
-      "name": "World Wide Web",
-      "count": 9
-    },
-    {
-      "name": "K-pop",
-      "count": 9
-    },
-    {
-      "name": "강남 아파트",
+      "name": "뉴진스",
       "count": 2
     },
     {
@@ -74,21 +74,21 @@
       "count": 2
     },
     {
-      "name": "유튜버",
+      "name": "블랙핑크",
       "count": 2
     },
     {
-      "name": "인플루언서",
+      "name": "BTS",
       "count": 2
     },
     {
-      "name": "스포츠 선수",
+      "name": "음원차트",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 140,
-    "google": 60
+    "wikipedia": 149,
+    "google": 51
   },
-  "generated_at": "2026-06-17T00:08:30.689363+09:00"
+  "generated_at": "2026-06-17T22:39:48.681488+09:00"
 }
