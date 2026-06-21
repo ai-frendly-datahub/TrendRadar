@@ -7,35 +7,15 @@
   "top_entities": [
     {
       "name": "Seoul",
-      "count": 11
+      "count": 10
     },
     {
       "name": "South Korea",
-      "count": 11
+      "count": 10
     },
     {
-      "name": "Python (programming language)",
-      "count": 11
-    },
-    {
-      "name": "Climate change",
-      "count": 11
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 11
-    },
-    {
-      "name": "E-commerce",
-      "count": 11
-    },
-    {
-      "name": "YouTube",
-      "count": 11
-    },
-    {
-      "name": "OpenAI",
-      "count": 11
+      "name": "K-pop",
+      "count": 10
     },
     {
       "name": "World Wide Web",
@@ -46,35 +26,55 @@
       "count": 10
     },
     {
-      "name": "Netflix",
-      "count": 10
+      "name": "Python (programming language)",
+      "count": 9
     },
     {
       "name": "Artificial intelligence",
-      "count": 10
-    },
-    {
-      "name": "Bitcoin",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Machine learning",
-      "count": 10
+      "count": 9
     },
     {
-      "name": "K-pop",
-      "count": 10
+      "name": "Netflix",
+      "count": 9
     },
     {
-      "name": "걸그룹",
+      "name": "Bitcoin",
+      "count": 9
+    },
+    {
+      "name": "Climate change",
+      "count": 9
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 9
+    },
+    {
+      "name": "E-commerce",
+      "count": 9
+    },
+    {
+      "name": "YouTube",
+      "count": 9
+    },
+    {
+      "name": "OpenAI",
+      "count": 9
+    },
+    {
+      "name": "부동산 시장",
       "count": 2
     },
     {
-      "name": "보이그룹",
+      "name": "정치인",
       "count": 2
     },
     {
-      "name": "뉴진스",
+      "name": "재건축",
       "count": 2
     },
     {
@@ -82,13 +82,13 @@
       "count": 2
     },
     {
-      "name": "블랙핑크",
+      "name": "청약",
       "count": 2
     }
   ],
   "sources": {
-    "google": 42,
-    "wikipedia": 158
+    "google": 60,
+    "wikipedia": 140
   },
-  "generated_at": "2026-06-21T21:09:51.289261+09:00"
+  "generated_at": "2026-06-21T23:10:37.648026+00:00"
 }

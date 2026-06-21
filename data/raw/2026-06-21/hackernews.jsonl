@@ -58,3 +58,119 @@
 {"keyword": "Alice is impatient", "platform": "hackernews", "value": 106.0, "timestamp": "1781987574"}
 {"keyword": "Linux eliminates the strncpy API after six years of work, 360 patches", "platform": "hackernews", "value": 230.0, "timestamp": "1781989180"}
 {"keyword": "Project Fetch: Phase Two", "platform": "hackernews", "value": 64.0, "timestamp": "1782000025"}
+{"keyword": "Apertus – Open Foundation Model for Sovereign AI", "platform": "hackernews", "value": 96.0, "timestamp": "1782077383"}
+{"keyword": "Did my old job only exist because of fraud?", "platform": "hackernews", "value": 72.0, "timestamp": "1782078053"}
+{"keyword": "Everything Is Logarithms", "platform": "hackernews", "value": 63.0, "timestamp": "1782076232"}
+{"keyword": "JSON-LD Explained for Personal Websites", "platform": "hackernews", "value": 129.0, "timestamp": "1782067907"}
+{"keyword": "PowerFox Browser", "platform": "hackernews", "value": 33.0, "timestamp": "1782076993"}
+{"keyword": "Stop wasting tokens and re explaining your project between sessions", "platform": "hackernews", "value": 43.0, "timestamp": "1782075937"}
+{"keyword": "Prefer duplication over the wrong abstraction (2016)", "platform": "hackernews", "value": 401.0, "timestamp": "1782058103"}
+{"keyword": "Identity verification on Claude", "platform": "hackernews", "value": 491.0, "timestamp": "1782045853"}
+{"keyword": "Beyond All Reason (Free Total Annihilation Inspired RTS)", "platform": "hackernews", "value": 413.0, "timestamp": "1782041881"}
+{"keyword": "HPV jabs cut risk of dying from cervical cancer before 30 to almost zero", "platform": "hackernews", "value": 75.0, "timestamp": "1781743012"}
+{"keyword": "FDA advisors unanimously vote to approve Moderna's mRNA after agency drama", "platform": "hackernews", "value": 53.0, "timestamp": "1782077425"}
+{"keyword": "(How to Write a (Lisp) Interpreter (In Python)) (2010)", "platform": "hackernews", "value": 159.0, "timestamp": "1782056193"}
+{"keyword": "The minimum viable unit of saleable software", "platform": "hackernews", "value": 104.0, "timestamp": "1782060081"}
+{"keyword": "Ask for no, don't ask for yes (2022)", "platform": "hackernews", "value": 78.0, "timestamp": "1782073068"}
+{"keyword": "An Embedded Linux on a Single Floppy", "platform": "hackernews", "value": 50.0, "timestamp": "1781835016"}
+{"keyword": "Show HN: CleverCrow: give tokens to your favorite projects", "platform": "hackernews", "value": 27.0, "timestamp": "1782068767"}
+{"keyword": "Show HN: Teach your kids perfect pitch", "platform": "hackernews", "value": 29.0, "timestamp": "1782046188"}
+{"keyword": "Tell HN: Happy Fathers Day", "platform": "hackernews", "value": 216.0, "timestamp": "1782061226"}
+{"keyword": "Minecraft: Java Edition 26.2, the first version with Vulkan 1.2", "platform": "hackernews", "value": 24.0, "timestamp": "1781681609"}
+{"keyword": "Occupancy Math on the AMD MI355X: A From-First-Principles Guide", "platform": "hackernews", "value": 42.0, "timestamp": "1781706923"}
+{"keyword": "Cocktail Optimization, an Integer Programming Problem", "platform": "hackernews", "value": 25.0, "timestamp": "1781870396"}
+{"keyword": "Djevops: Self-Host Django Easily", "platform": "hackernews", "value": 20.0, "timestamp": "1781772468"}
+{"keyword": "15-minute at-home Lyme disease tick test", "platform": "hackernews", "value": 229.0, "timestamp": "1781785356"}
+{"keyword": "A 3D voxel game engine written in APL", "platform": "hackernews", "value": 144.0, "timestamp": "1782029094"}
+{"keyword": "Rent collections are down in New York – and no one's sure why", "platform": "hackernews", "value": 21.0, "timestamp": "1782078874"}
+{"keyword": "Developers don't understand CORS (2019)", "platform": "hackernews", "value": 352.0, "timestamp": "1782005740"}
+{"keyword": "Loupe – A iOS app that raises awareness about what native apps can see", "platform": "hackernews", "value": 508.0, "timestamp": "1781957303"}
+{"keyword": "Show HN: TownSquare, a tiny presence layer for websites", "platform": "hackernews", "value": 246.0, "timestamp": "1781956503"}
+{"keyword": "Running MicroVMs in Proxmox VE, the Easy Way", "platform": "hackernews", "value": 206.0, "timestamp": "1781881991"}
+{"keyword": "Apertus – Open Foundation Model for Sovereign AI", "platform": "hackernews", "value": 96.0, "timestamp": "1782077383"}
+{"keyword": "Did my old job only exist because of fraud?", "platform": "hackernews", "value": 72.0, "timestamp": "1782078053"}
+{"keyword": "Everything Is Logarithms", "platform": "hackernews", "value": 64.0, "timestamp": "1782076232"}
+{"keyword": "JSON-LD Explained for Personal Websites", "platform": "hackernews", "value": 129.0, "timestamp": "1782067907"}
+{"keyword": "PowerFox Browser", "platform": "hackernews", "value": 33.0, "timestamp": "1782076993"}
+{"keyword": "Stop wasting tokens and re explaining your project between sessions", "platform": "hackernews", "value": 43.0, "timestamp": "1782075937"}
+{"keyword": "Prefer duplication over the wrong abstraction (2016)", "platform": "hackernews", "value": 401.0, "timestamp": "1782058103"}
+{"keyword": "Identity verification on Claude", "platform": "hackernews", "value": 491.0, "timestamp": "1782045853"}
+{"keyword": "Beyond All Reason (Free Total Annihilation Inspired RTS)", "platform": "hackernews", "value": 413.0, "timestamp": "1782041881"}
+{"keyword": "HPV jabs cut risk of dying from cervical cancer before 30 to almost zero", "platform": "hackernews", "value": 75.0, "timestamp": "1781743012"}
+{"keyword": "(How to Write a (Lisp) Interpreter (In Python)) (2010)", "platform": "hackernews", "value": 159.0, "timestamp": "1782056193"}
+{"keyword": "FDA advisors unanimously vote to approve Moderna's mRNA after agency drama", "platform": "hackernews", "value": 53.0, "timestamp": "1782077425"}
+{"keyword": "The minimum viable unit of saleable software", "platform": "hackernews", "value": 104.0, "timestamp": "1782060081"}
+{"keyword": "Ask for no, don't ask for yes (2022)", "platform": "hackernews", "value": 78.0, "timestamp": "1782073068"}
+{"keyword": "An Embedded Linux on a Single Floppy", "platform": "hackernews", "value": 50.0, "timestamp": "1781835016"}
+{"keyword": "Show HN: CleverCrow: give tokens to your favorite projects", "platform": "hackernews", "value": 27.0, "timestamp": "1782068767"}
+{"keyword": "Show HN: Teach your kids perfect pitch", "platform": "hackernews", "value": 29.0, "timestamp": "1782046188"}
+{"keyword": "Tell HN: Happy Fathers Day", "platform": "hackernews", "value": 216.0, "timestamp": "1782061226"}
+{"keyword": "Minecraft: Java Edition 26.2, the first version with Vulkan 1.2", "platform": "hackernews", "value": 24.0, "timestamp": "1781681609"}
+{"keyword": "Occupancy Math on the AMD MI355X: A From-First-Principles Guide", "platform": "hackernews", "value": 42.0, "timestamp": "1781706923"}
+{"keyword": "Cocktail Optimization, an Integer Programming Problem", "platform": "hackernews", "value": 25.0, "timestamp": "1781870396"}
+{"keyword": "Djevops: Self-Host Django Easily", "platform": "hackernews", "value": 20.0, "timestamp": "1781772468"}
+{"keyword": "15-minute at-home Lyme disease tick test", "platform": "hackernews", "value": 229.0, "timestamp": "1781785356"}
+{"keyword": "A 3D voxel game engine written in APL", "platform": "hackernews", "value": 144.0, "timestamp": "1782029094"}
+{"keyword": "Rent collections are down in New York – and no one's sure why", "platform": "hackernews", "value": 21.0, "timestamp": "1782078874"}
+{"keyword": "Developers don't understand CORS (2019)", "platform": "hackernews", "value": 352.0, "timestamp": "1782005740"}
+{"keyword": "Loupe – A iOS app that raises awareness about what native apps can see", "platform": "hackernews", "value": 508.0, "timestamp": "1781957303"}
+{"keyword": "Show HN: TownSquare, a tiny presence layer for websites", "platform": "hackernews", "value": 246.0, "timestamp": "1781956503"}
+{"keyword": "Running MicroVMs in Proxmox VE, the Easy Way", "platform": "hackernews", "value": 206.0, "timestamp": "1781881991"}
+{"keyword": "Apertus – Open Foundation Model for Sovereign AI", "platform": "hackernews", "value": 96.0, "timestamp": "1782077383"}
+{"keyword": "Did my old job only exist because of fraud?", "platform": "hackernews", "value": 72.0, "timestamp": "1782078053"}
+{"keyword": "Everything Is Logarithms", "platform": "hackernews", "value": 64.0, "timestamp": "1782076232"}
+{"keyword": "JSON-LD Explained for Personal Websites", "platform": "hackernews", "value": 129.0, "timestamp": "1782067907"}
+{"keyword": "PowerFox Browser", "platform": "hackernews", "value": 33.0, "timestamp": "1782076993"}
+{"keyword": "Stop wasting tokens and re explaining your project between sessions", "platform": "hackernews", "value": 43.0, "timestamp": "1782075937"}
+{"keyword": "Prefer duplication over the wrong abstraction (2016)", "platform": "hackernews", "value": 401.0, "timestamp": "1782058103"}
+{"keyword": "Identity verification on Claude", "platform": "hackernews", "value": 491.0, "timestamp": "1782045853"}
+{"keyword": "Beyond All Reason (Free Total Annihilation Inspired RTS)", "platform": "hackernews", "value": 413.0, "timestamp": "1782041881"}
+{"keyword": "HPV jabs cut risk of dying from cervical cancer before 30 to almost zero", "platform": "hackernews", "value": 75.0, "timestamp": "1781743012"}
+{"keyword": "(How to Write a (Lisp) Interpreter (In Python)) (2010)", "platform": "hackernews", "value": 159.0, "timestamp": "1782056193"}
+{"keyword": "FDA advisors unanimously vote to approve Moderna's mRNA after agency drama", "platform": "hackernews", "value": 53.0, "timestamp": "1782077425"}
+{"keyword": "The minimum viable unit of saleable software", "platform": "hackernews", "value": 104.0, "timestamp": "1782060081"}
+{"keyword": "Ask for no, don't ask for yes (2022)", "platform": "hackernews", "value": 78.0, "timestamp": "1782073068"}
+{"keyword": "An Embedded Linux on a Single Floppy", "platform": "hackernews", "value": 50.0, "timestamp": "1781835016"}
+{"keyword": "Show HN: CleverCrow: give tokens to your favorite projects", "platform": "hackernews", "value": 27.0, "timestamp": "1782068767"}
+{"keyword": "Show HN: Teach your kids perfect pitch", "platform": "hackernews", "value": 29.0, "timestamp": "1782046188"}
+{"keyword": "Tell HN: Happy Fathers Day", "platform": "hackernews", "value": 216.0, "timestamp": "1782061226"}
+{"keyword": "Minecraft: Java Edition 26.2, the first version with Vulkan 1.2", "platform": "hackernews", "value": 24.0, "timestamp": "1781681609"}
+{"keyword": "Occupancy Math on the AMD MI355X: A From-First-Principles Guide", "platform": "hackernews", "value": 42.0, "timestamp": "1781706923"}
+{"keyword": "Cocktail Optimization, an Integer Programming Problem", "platform": "hackernews", "value": 25.0, "timestamp": "1781870396"}
+{"keyword": "Djevops: Self-Host Django Easily", "platform": "hackernews", "value": 20.0, "timestamp": "1781772468"}
+{"keyword": "15-minute at-home Lyme disease tick test", "platform": "hackernews", "value": 229.0, "timestamp": "1781785356"}
+{"keyword": "A 3D voxel game engine written in APL", "platform": "hackernews", "value": 144.0, "timestamp": "1782029094"}
+{"keyword": "Rent collections are down in New York – and no one's sure why", "platform": "hackernews", "value": 21.0, "timestamp": "1782078874"}
+{"keyword": "Developers don't understand CORS (2019)", "platform": "hackernews", "value": 352.0, "timestamp": "1782005740"}
+{"keyword": "Loupe – A iOS app that raises awareness about what native apps can see", "platform": "hackernews", "value": 508.0, "timestamp": "1781957303"}
+{"keyword": "Show HN: TownSquare, a tiny presence layer for websites", "platform": "hackernews", "value": 246.0, "timestamp": "1781956503"}
+{"keyword": "Running MicroVMs in Proxmox VE, the Easy Way", "platform": "hackernews", "value": 206.0, "timestamp": "1781881991"}
+{"keyword": "Apertus – Open Foundation Model for Sovereign AI", "platform": "hackernews", "value": 96.0, "timestamp": "1782077383"}
+{"keyword": "Did my old job only exist because of fraud?", "platform": "hackernews", "value": 72.0, "timestamp": "1782078053"}
+{"keyword": "Everything Is Logarithms", "platform": "hackernews", "value": 64.0, "timestamp": "1782076232"}
+{"keyword": "JSON-LD Explained for Personal Websites", "platform": "hackernews", "value": 129.0, "timestamp": "1782067907"}
+{"keyword": "PowerFox Browser", "platform": "hackernews", "value": 33.0, "timestamp": "1782076993"}
+{"keyword": "Stop wasting tokens and re explaining your project between sessions", "platform": "hackernews", "value": 43.0, "timestamp": "1782075937"}
+{"keyword": "Prefer duplication over the wrong abstraction (2016)", "platform": "hackernews", "value": 401.0, "timestamp": "1782058103"}
+{"keyword": "Identity verification on Claude", "platform": "hackernews", "value": 491.0, "timestamp": "1782045853"}
+{"keyword": "Beyond All Reason (Free Total Annihilation Inspired RTS)", "platform": "hackernews", "value": 413.0, "timestamp": "1782041881"}
+{"keyword": "HPV jabs cut risk of dying from cervical cancer before 30 to almost zero", "platform": "hackernews", "value": 75.0, "timestamp": "1781743012"}
+{"keyword": "(How to Write a (Lisp) Interpreter (In Python)) (2010)", "platform": "hackernews", "value": 159.0, "timestamp": "1782056193"}
+{"keyword": "FDA advisors unanimously vote to approve Moderna's mRNA after agency drama", "platform": "hackernews", "value": 53.0, "timestamp": "1782077425"}
+{"keyword": "The minimum viable unit of saleable software", "platform": "hackernews", "value": 104.0, "timestamp": "1782060081"}
+{"keyword": "Ask for no, don't ask for yes (2022)", "platform": "hackernews", "value": 78.0, "timestamp": "1782073068"}
+{"keyword": "An Embedded Linux on a Single Floppy", "platform": "hackernews", "value": 50.0, "timestamp": "1781835016"}
+{"keyword": "Show HN: CleverCrow: give tokens to your favorite projects", "platform": "hackernews", "value": 27.0, "timestamp": "1782068767"}
+{"keyword": "Show HN: Teach your kids perfect pitch", "platform": "hackernews", "value": 29.0, "timestamp": "1782046188"}
+{"keyword": "Tell HN: Happy Fathers Day", "platform": "hackernews", "value": 216.0, "timestamp": "1782061226"}
+{"keyword": "Minecraft: Java Edition 26.2, the first version with Vulkan 1.2", "platform": "hackernews", "value": 24.0, "timestamp": "1781681609"}
+{"keyword": "Occupancy Math on the AMD MI355X: A From-First-Principles Guide", "platform": "hackernews", "value": 42.0, "timestamp": "1781706923"}
+{"keyword": "Cocktail Optimization, an Integer Programming Problem", "platform": "hackernews", "value": 25.0, "timestamp": "1781870396"}
+{"keyword": "Djevops: Self-Host Django Easily", "platform": "hackernews", "value": 20.0, "timestamp": "1781772468"}
+{"keyword": "15-minute at-home Lyme disease tick test", "platform": "hackernews", "value": 229.0, "timestamp": "1781785356"}
+{"keyword": "A 3D voxel game engine written in APL", "platform": "hackernews", "value": 144.0, "timestamp": "1782029094"}
+{"keyword": "Rent collections are down in New York – and no one's sure why", "platform": "hackernews", "value": 21.0, "timestamp": "1782078874"}
+{"keyword": "Developers don't understand CORS (2019)", "platform": "hackernews", "value": 352.0, "timestamp": "1782005740"}
+{"keyword": "Loupe – A iOS app that raises awareness about what native apps can see", "platform": "hackernews", "value": 508.0, "timestamp": "1781957303"}
+{"keyword": "Show HN: TownSquare, a tiny presence layer for websites", "platform": "hackernews", "value": 246.0, "timestamp": "1781956503"}
+{"keyword": "Running MicroVMs in Proxmox VE, the Easy Way", "platform": "hackernews", "value": 206.0, "timestamp": "1781881991"}
