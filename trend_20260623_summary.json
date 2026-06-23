@@ -26,10 +26,6 @@
       "count": 10
     },
     {
-      "name": "OpenAI",
-      "count": 9
-    },
-    {
       "name": "K-pop",
       "count": 9
     },
@@ -66,23 +62,27 @@
       "count": 9
     },
     {
-      "name": "재건축",
-      "count": 2
-    },
-    {
-      "name": "강남 아파트",
-      "count": 2
+      "name": "OpenAI",
+      "count": 9
     },
     {
       "name": "뉴진스",
       "count": 2
     },
     {
-      "name": "송파 전세",
+      "name": "배우",
       "count": 2
     },
     {
       "name": "에스파",
+      "count": 2
+    },
+    {
+      "name": "재건축",
+      "count": 2
+    },
+    {
+      "name": "블랙핑크",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 140,
     "google": 60
   },
-  "generated_at": "2026-06-23T00:22:08.448498+09:00"
+  "generated_at": "2026-06-23T21:31:11.768220+09:00"
 }
