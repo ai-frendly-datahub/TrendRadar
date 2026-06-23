@@ -6,47 +6,35 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Seoul",
+      "name": "World Wide Web",
       "count": 10
     },
     {
-      "name": "South Korea",
+      "name": "Samsung",
       "count": 10
     },
     {
-      "name": "Python (programming language)",
+      "name": "Netflix",
+      "count": 10
+    },
+    {
+      "name": "Bitcoin",
+      "count": 10
+    },
+    {
+      "name": "Climate change",
       "count": 10
     },
     {
       "name": "Artificial intelligence",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Machine learning",
-      "count": 10
+      "count": 9
     },
     {
       "name": "K-pop",
-      "count": 9
-    },
-    {
-      "name": "World Wide Web",
-      "count": 9
-    },
-    {
-      "name": "Samsung",
-      "count": 9
-    },
-    {
-      "name": "Netflix",
-      "count": 9
-    },
-    {
-      "name": "Bitcoin",
-      "count": 9
-    },
-    {
-      "name": "Climate change",
       "count": 9
     },
     {
@@ -66,23 +54,35 @@
       "count": 9
     },
     {
-      "name": "뉴진스",
-      "count": 2
+      "name": "Seoul",
+      "count": 9
+    },
+    {
+      "name": "South Korea",
+      "count": 9
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 9
     },
     {
       "name": "배우",
       "count": 2
     },
     {
-      "name": "에스파",
+      "name": "인플루언서",
       "count": 2
     },
     {
-      "name": "재건축",
+      "name": "음악방송",
       "count": 2
     },
     {
-      "name": "블랙핑크",
+      "name": "스포츠 선수",
+      "count": 2
+    },
+    {
+      "name": "정치인",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 140,
     "google": 60
   },
-  "generated_at": "2026-06-23T21:31:11.768220+09:00"
+  "generated_at": "2026-06-23T23:07:42.013285+00:00"
 }
