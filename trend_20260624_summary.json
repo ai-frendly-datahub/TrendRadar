@@ -6,43 +6,7 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "World Wide Web",
-      "count": 10
-    },
-    {
-      "name": "Bitcoin",
-      "count": 10
-    },
-    {
-      "name": "K-pop",
-      "count": 10
-    },
-    {
-      "name": "YouTube",
-      "count": 10
-    },
-    {
-      "name": "Machine learning",
-      "count": 10
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 10
-    },
-    {
       "name": "E-commerce",
-      "count": 10
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 10
-    },
-    {
-      "name": "South Korea",
-      "count": 10
-    },
-    {
-      "name": "Seoul",
       "count": 10
     },
     {
@@ -50,7 +14,47 @@
       "count": 10
     },
     {
+      "name": "YouTube",
+      "count": 10
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 10
+    },
+    {
+      "name": "Seoul",
+      "count": 10
+    },
+    {
+      "name": "South Korea",
+      "count": 10
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 10
+    },
+    {
+      "name": "Machine learning",
+      "count": 10
+    },
+    {
+      "name": "K-pop",
+      "count": 10
+    },
+    {
+      "name": "World Wide Web",
+      "count": 10
+    },
+    {
+      "name": "Samsung",
+      "count": 10
+    },
+    {
       "name": "Netflix",
+      "count": 10
+    },
+    {
+      "name": "Bitcoin",
       "count": 10
     },
     {
@@ -62,27 +66,23 @@
       "count": 10
     },
     {
-      "name": "Samsung",
-      "count": 10
-    },
-    {
-      "name": "정치인",
-      "count": 2
-    },
-    {
-      "name": "가수",
-      "count": 2
-    },
-    {
       "name": "스포츠 선수",
       "count": 2
     },
     {
-      "name": "배우",
+      "name": "음악방송",
       "count": 2
     },
     {
-      "name": "인플루언서",
+      "name": "유명인",
+      "count": 2
+    },
+    {
+      "name": "유튜버",
+      "count": 2
+    },
+    {
+      "name": "연예인",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 150,
     "google": 50
   },
-  "generated_at": "2026-06-24T21:17:50.598875+09:00"
+  "generated_at": "2026-06-24T23:02:36.942599+00:00"
 }
