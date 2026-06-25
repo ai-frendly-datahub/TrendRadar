@@ -6,6 +6,26 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "Netflix",
+      "count": 11
+    },
+    {
+      "name": "OpenAI",
+      "count": 11
+    },
+    {
+      "name": "YouTube",
+      "count": 11
+    },
+    {
+      "name": "E-commerce",
+      "count": 11
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 11
+    },
+    {
       "name": "Climate change",
       "count": 11
     },
@@ -14,15 +34,15 @@
       "count": 11
     },
     {
-      "name": "Netflix",
-      "count": 11
-    },
-    {
       "name": "Samsung",
       "count": 11
     },
     {
       "name": "World Wide Web",
+      "count": 11
+    },
+    {
+      "name": "K-pop",
       "count": 11
     },
     {
@@ -46,49 +66,29 @@
       "count": 11
     },
     {
-      "name": "OpenAI",
-      "count": 10
-    },
-    {
-      "name": "YouTube",
-      "count": 10
-    },
-    {
-      "name": "E-commerce",
-      "count": 10
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 10
-    },
-    {
-      "name": "K-pop",
-      "count": 10
-    },
-    {
-      "name": "블랙핑크",
+      "name": "걸그룹",
       "count": 2
     },
     {
-      "name": "마포 매매",
+      "name": "아파트 매매",
       "count": 2
     },
     {
-      "name": "청약",
+      "name": "K-POP",
       "count": 2
     },
     {
-      "name": "BTS",
+      "name": "보이그룹",
       "count": 2
     },
     {
-      "name": "음원차트",
+      "name": "아이돌",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 160,
-    "google": 40
+    "wikipedia": 165,
+    "google": 35
   },
-  "generated_at": "2026-06-25T21:15:11.201061+09:00"
+  "generated_at": "2026-06-25T23:16:06.558334+00:00"
 }
