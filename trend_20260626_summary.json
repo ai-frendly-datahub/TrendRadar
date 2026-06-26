@@ -6,6 +6,14 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "K-pop",
+      "count": 11
+    },
+    {
+      "name": "Climate change",
+      "count": 11
+    },
+    {
       "name": "Seoul",
       "count": 11
     },
@@ -18,7 +26,11 @@
       "count": 11
     },
     {
-      "name": "K-pop",
+      "name": "Artificial intelligence",
+      "count": 11
+    },
+    {
+      "name": "Machine learning",
       "count": 11
     },
     {
@@ -38,10 +50,6 @@
       "count": 11
     },
     {
-      "name": "Climate change",
-      "count": 11
-    },
-    {
       "name": "Electric vehicle",
       "count": 11
     },
@@ -58,19 +66,7 @@
       "count": 11
     },
     {
-      "name": "Artificial intelligence",
-      "count": 10
-    },
-    {
-      "name": "Machine learning",
-      "count": 10
-    },
-    {
-      "name": "청약",
-      "count": 2
-    },
-    {
-      "name": "강남 아파트",
+      "name": "걸그룹",
       "count": 2
     },
     {
@@ -78,17 +74,21 @@
       "count": 2
     },
     {
-      "name": "K-POP",
+      "name": "아파트 매매",
       "count": 2
     },
     {
-      "name": "가수",
+      "name": "뉴진스",
+      "count": 2
+    },
+    {
+      "name": "분양권",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 163,
-    "google": 37
+    "wikipedia": 165,
+    "google": 35
   },
-  "generated_at": "2026-06-26T21:09:56.313216+09:00"
+  "generated_at": "2026-06-26T23:04:00.976636+00:00"
 }
