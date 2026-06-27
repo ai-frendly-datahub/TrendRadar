@@ -50,3 +50,111 @@
 {"keyword": "Color Palette", "platform": "devto", "value": 1.0, "timestamp": "2026-06-26T13:58:53Z"}
 {"keyword": "Instrument AI Agent Decision Tracing with OpenTelemetry", "platform": "devto", "value": 1.0, "timestamp": "2026-06-26T22:54:28Z"}
 {"keyword": "I Built an Interactive Kafka Playground (Partitions, Keys, Consumer Groups, Offsets)", "platform": "devto", "value": 1.0, "timestamp": "2026-06-26T20:46:58Z"}
+{"keyword": "Engineering a Brainrot art installation on an Orange Pi Zero 🍊", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T20:49:31Z"}
+{"keyword": "I Built a Serverless VPN on Lambda MicroVMs — 12 Builds, 5 Dead Ends, 1 Working Architecture", "platform": "devto", "value": 7.0, "timestamp": "2026-06-27T00:20:56Z"}
+{"keyword": "Adding io::ErrorKind::TooManyOpenFiles to Rust", "platform": "devto", "value": 5.0, "timestamp": "2026-06-27T17:56:58Z"}
+{"keyword": "How To Learn Go Fast: A Practical Roadmap For Senior Backend Developers", "platform": "devto", "value": 28.0, "timestamp": "2026-06-27T04:12:26Z"}
+{"keyword": "AI Didn't Invent Slop. It Only Made It Infinite.", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T00:01:32Z"}
+{"keyword": "What I Learned About PDAs in a Week of Building on Solana", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T16:37:12Z"}
+{"keyword": "Choreography of validation: how to make your auth form seamless and usable", "platform": "devto", "value": 5.0, "timestamp": "2026-06-27T13:24:59Z"}
+{"keyword": "How I auto-generate 800+ App Store screenshots across 39 languages and 3 devices", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T04:53:54Z"}
+{"keyword": "I Built a QR Code Generator in Pure Vanilla JS — No Libraries, No Server, 202 Tests", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T18:33:16Z"}
+{"keyword": "You Don't Use Linked Lists. But They're Running Half Your Software.", "platform": "devto", "value": 3.0, "timestamp": "2026-06-27T14:13:23Z"}
+{"keyword": "AI Helps Us Write Code Faster. So Why Aren’t Projects Moving Faster?", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T08:40:00Z"}
+{"keyword": "Resurrecting Kepler: Getting Modern LLMs Running on a GTX 770 (Kernel 7.x)", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T13:29:09Z"}
+{"keyword": "We Added a Cache; Three Days Later It Took the Database Down at Peak", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T01:39:38Z"}
+{"keyword": "One Bee Can't Make Honey: A Guide to Multi-Agent AI", "platform": "devto", "value": 11.0, "timestamp": "2026-06-27T18:11:45Z"}
+{"keyword": "Pipes e Redirecionamento no Linux: o que eu aprendi estudando o terminal no celular", "platform": "devto", "value": 18.0, "timestamp": "2026-06-26T23:37:57Z"}
+{"keyword": "The Future of SEO Has Nothing to Do With Search", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T16:00:00Z"}
+{"keyword": "How Small Can an Agent Model Get? The Nemotron Floor", "platform": "devto", "value": 17.0, "timestamp": "2026-06-27T06:21:19Z"}
+{"keyword": "Burnout Was Trying To Tell Me Something", "platform": "devto", "value": 8.0, "timestamp": "2026-06-27T12:53:07Z"}
+{"keyword": "I built CarvePHP: finding service boundaries in Laravel monoliths", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T18:00:52Z"}
+{"keyword": "I Got Tired of Rewriting AI API Wrappers, So I Built a Gateway", "platform": "devto", "value": 7.0, "timestamp": "2026-06-27T19:35:50Z"}
+{"keyword": "5 Things Your LLM Bill Is Hiding From You (And How to Find Them)", "platform": "devto", "value": 9.0, "timestamp": "2026-06-27T13:00:09Z"}
+{"keyword": "Self-Healing SEO: a website that fixes its own broken links and rankings", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T17:58:29Z"}
+{"keyword": "I Tested 5 Open-Source NotebookLM Alternatives — Here's What Actually Works", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T18:33:22Z"}
+{"keyword": "Debugging Mobile Drag & CSS Specificity in a Real-Time PDF Diff Tool", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T14:30:00Z"}
+{"keyword": "useMemo vs useCallback: I Built a Tool That Makes Referential Equality Visible", "platform": "devto", "value": 3.0, "timestamp": "2026-06-27T12:07:15Z"}
+{"keyword": "I open-sourced A full-stack, peer-to-peer coinflip betting game on Solana", "platform": "devto", "value": 16.0, "timestamp": "2026-06-27T15:35:31Z"}
+{"keyword": "The 60% Trap: Why E-Commerce Giants Are Laundering Discounts (And How to Protect Yourself)", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T17:02:04Z"}
+{"keyword": "Engineering a Brainrot art installation on an Orange Pi Zero 🍊", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T20:49:31Z"}
+{"keyword": "I Built a Serverless VPN on Lambda MicroVMs — 12 Builds, 5 Dead Ends, 1 Working Architecture", "platform": "devto", "value": 7.0, "timestamp": "2026-06-27T00:20:56Z"}
+{"keyword": "Adding io::ErrorKind::TooManyOpenFiles to Rust", "platform": "devto", "value": 5.0, "timestamp": "2026-06-27T17:56:58Z"}
+{"keyword": "How To Learn Go Fast: A Practical Roadmap For Senior Backend Developers", "platform": "devto", "value": 28.0, "timestamp": "2026-06-27T04:12:26Z"}
+{"keyword": "AI Didn't Invent Slop. It Only Made It Infinite.", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T00:01:32Z"}
+{"keyword": "What I Learned About PDAs in a Week of Building on Solana", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T16:37:12Z"}
+{"keyword": "Choreography of validation: how to make your auth form seamless and usable", "platform": "devto", "value": 5.0, "timestamp": "2026-06-27T13:24:59Z"}
+{"keyword": "How I auto-generate 800+ App Store screenshots across 39 languages and 3 devices", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T04:53:54Z"}
+{"keyword": "I Built a QR Code Generator in Pure Vanilla JS — No Libraries, No Server, 202 Tests", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T18:33:16Z"}
+{"keyword": "You Don't Use Linked Lists. But They're Running Half Your Software.", "platform": "devto", "value": 3.0, "timestamp": "2026-06-27T14:13:23Z"}
+{"keyword": "AI Helps Us Write Code Faster. So Why Aren’t Projects Moving Faster?", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T08:40:00Z"}
+{"keyword": "Resurrecting Kepler: Getting Modern LLMs Running on a GTX 770 (Kernel 7.x)", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T13:29:09Z"}
+{"keyword": "We Added a Cache; Three Days Later It Took the Database Down at Peak", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T01:39:38Z"}
+{"keyword": "One Bee Can't Make Honey: A Guide to Multi-Agent AI", "platform": "devto", "value": 11.0, "timestamp": "2026-06-27T18:11:45Z"}
+{"keyword": "Pipes e Redirecionamento no Linux: o que eu aprendi estudando o terminal no celular", "platform": "devto", "value": 18.0, "timestamp": "2026-06-26T23:37:57Z"}
+{"keyword": "The Future of SEO Has Nothing to Do With Search", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T16:00:00Z"}
+{"keyword": "How Small Can an Agent Model Get? The Nemotron Floor", "platform": "devto", "value": 17.0, "timestamp": "2026-06-27T06:21:19Z"}
+{"keyword": "Burnout Was Trying To Tell Me Something", "platform": "devto", "value": 8.0, "timestamp": "2026-06-27T12:53:07Z"}
+{"keyword": "I built CarvePHP: finding service boundaries in Laravel monoliths", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T18:00:52Z"}
+{"keyword": "I Got Tired of Rewriting AI API Wrappers, So I Built a Gateway", "platform": "devto", "value": 7.0, "timestamp": "2026-06-27T19:35:50Z"}
+{"keyword": "5 Things Your LLM Bill Is Hiding From You (And How to Find Them)", "platform": "devto", "value": 9.0, "timestamp": "2026-06-27T13:00:09Z"}
+{"keyword": "Self-Healing SEO: a website that fixes its own broken links and rankings", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T17:58:29Z"}
+{"keyword": "I Tested 5 Open-Source NotebookLM Alternatives — Here's What Actually Works", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T18:33:22Z"}
+{"keyword": "Debugging Mobile Drag & CSS Specificity in a Real-Time PDF Diff Tool", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T14:30:00Z"}
+{"keyword": "useMemo vs useCallback: I Built a Tool That Makes Referential Equality Visible", "platform": "devto", "value": 3.0, "timestamp": "2026-06-27T12:07:15Z"}
+{"keyword": "I open-sourced A full-stack, peer-to-peer coinflip betting game on Solana", "platform": "devto", "value": 16.0, "timestamp": "2026-06-27T15:35:31Z"}
+{"keyword": "The 60% Trap: Why E-Commerce Giants Are Laundering Discounts (And How to Protect Yourself)", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T17:02:04Z"}
+{"keyword": "Engineering a Brainrot art installation on an Orange Pi Zero 🍊", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T20:49:31Z"}
+{"keyword": "I Built a Serverless VPN on Lambda MicroVMs — 12 Builds, 5 Dead Ends, 1 Working Architecture", "platform": "devto", "value": 7.0, "timestamp": "2026-06-27T00:20:56Z"}
+{"keyword": "Adding io::ErrorKind::TooManyOpenFiles to Rust", "platform": "devto", "value": 5.0, "timestamp": "2026-06-27T17:56:58Z"}
+{"keyword": "How To Learn Go Fast: A Practical Roadmap For Senior Backend Developers", "platform": "devto", "value": 28.0, "timestamp": "2026-06-27T04:12:26Z"}
+{"keyword": "AI Didn't Invent Slop. It Only Made It Infinite.", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T00:01:32Z"}
+{"keyword": "What I Learned About PDAs in a Week of Building on Solana", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T16:37:12Z"}
+{"keyword": "Choreography of validation: how to make your auth form seamless and usable", "platform": "devto", "value": 5.0, "timestamp": "2026-06-27T13:24:59Z"}
+{"keyword": "How I auto-generate 800+ App Store screenshots across 39 languages and 3 devices", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T04:53:54Z"}
+{"keyword": "I Built a QR Code Generator in Pure Vanilla JS — No Libraries, No Server, 202 Tests", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T18:33:16Z"}
+{"keyword": "You Don't Use Linked Lists. But They're Running Half Your Software.", "platform": "devto", "value": 3.0, "timestamp": "2026-06-27T14:13:23Z"}
+{"keyword": "AI Helps Us Write Code Faster. So Why Aren’t Projects Moving Faster?", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T08:40:00Z"}
+{"keyword": "Resurrecting Kepler: Getting Modern LLMs Running on a GTX 770 (Kernel 7.x)", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T13:29:09Z"}
+{"keyword": "We Added a Cache; Three Days Later It Took the Database Down at Peak", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T01:39:38Z"}
+{"keyword": "One Bee Can't Make Honey: A Guide to Multi-Agent AI", "platform": "devto", "value": 11.0, "timestamp": "2026-06-27T18:11:45Z"}
+{"keyword": "Pipes e Redirecionamento no Linux: o que eu aprendi estudando o terminal no celular", "platform": "devto", "value": 18.0, "timestamp": "2026-06-26T23:37:57Z"}
+{"keyword": "The Future of SEO Has Nothing to Do With Search", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T16:00:00Z"}
+{"keyword": "How Small Can an Agent Model Get? The Nemotron Floor", "platform": "devto", "value": 17.0, "timestamp": "2026-06-27T06:21:19Z"}
+{"keyword": "Burnout Was Trying To Tell Me Something", "platform": "devto", "value": 8.0, "timestamp": "2026-06-27T12:53:07Z"}
+{"keyword": "I built CarvePHP: finding service boundaries in Laravel monoliths", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T18:00:52Z"}
+{"keyword": "I Got Tired of Rewriting AI API Wrappers, So I Built a Gateway", "platform": "devto", "value": 7.0, "timestamp": "2026-06-27T19:35:50Z"}
+{"keyword": "5 Things Your LLM Bill Is Hiding From You (And How to Find Them)", "platform": "devto", "value": 9.0, "timestamp": "2026-06-27T13:00:09Z"}
+{"keyword": "Self-Healing SEO: a website that fixes its own broken links and rankings", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T17:58:29Z"}
+{"keyword": "I Tested 5 Open-Source NotebookLM Alternatives — Here's What Actually Works", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T18:33:22Z"}
+{"keyword": "Debugging Mobile Drag & CSS Specificity in a Real-Time PDF Diff Tool", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T14:30:00Z"}
+{"keyword": "useMemo vs useCallback: I Built a Tool That Makes Referential Equality Visible", "platform": "devto", "value": 3.0, "timestamp": "2026-06-27T12:07:15Z"}
+{"keyword": "I open-sourced A full-stack, peer-to-peer coinflip betting game on Solana", "platform": "devto", "value": 16.0, "timestamp": "2026-06-27T15:35:31Z"}
+{"keyword": "The 60% Trap: Why E-Commerce Giants Are Laundering Discounts (And How to Protect Yourself)", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T17:02:04Z"}
+{"keyword": "Engineering a Brainrot art installation on an Orange Pi Zero 🍊", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T20:49:31Z"}
+{"keyword": "I Built a Serverless VPN on Lambda MicroVMs — 12 Builds, 5 Dead Ends, 1 Working Architecture", "platform": "devto", "value": 7.0, "timestamp": "2026-06-27T00:20:56Z"}
+{"keyword": "Adding io::ErrorKind::TooManyOpenFiles to Rust", "platform": "devto", "value": 5.0, "timestamp": "2026-06-27T17:56:58Z"}
+{"keyword": "How To Learn Go Fast: A Practical Roadmap For Senior Backend Developers", "platform": "devto", "value": 28.0, "timestamp": "2026-06-27T04:12:26Z"}
+{"keyword": "AI Didn't Invent Slop. It Only Made It Infinite.", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T00:01:32Z"}
+{"keyword": "What I Learned About PDAs in a Week of Building on Solana", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T16:37:12Z"}
+{"keyword": "Choreography of validation: how to make your auth form seamless and usable", "platform": "devto", "value": 5.0, "timestamp": "2026-06-27T13:24:59Z"}
+{"keyword": "How I auto-generate 800+ App Store screenshots across 39 languages and 3 devices", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T04:53:54Z"}
+{"keyword": "I Built a QR Code Generator in Pure Vanilla JS — No Libraries, No Server, 202 Tests", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T18:33:16Z"}
+{"keyword": "You Don't Use Linked Lists. But They're Running Half Your Software.", "platform": "devto", "value": 3.0, "timestamp": "2026-06-27T14:13:23Z"}
+{"keyword": "AI Helps Us Write Code Faster. So Why Aren’t Projects Moving Faster?", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T08:40:00Z"}
+{"keyword": "Resurrecting Kepler: Getting Modern LLMs Running on a GTX 770 (Kernel 7.x)", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T13:29:09Z"}
+{"keyword": "We Added a Cache; Three Days Later It Took the Database Down at Peak", "platform": "devto", "value": 0.0, "timestamp": "2026-06-27T01:39:38Z"}
+{"keyword": "One Bee Can't Make Honey: A Guide to Multi-Agent AI", "platform": "devto", "value": 11.0, "timestamp": "2026-06-27T18:11:45Z"}
+{"keyword": "Pipes e Redirecionamento no Linux: o que eu aprendi estudando o terminal no celular", "platform": "devto", "value": 18.0, "timestamp": "2026-06-26T23:37:57Z"}
+{"keyword": "The Future of SEO Has Nothing to Do With Search", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T16:00:00Z"}
+{"keyword": "How Small Can an Agent Model Get? The Nemotron Floor", "platform": "devto", "value": 17.0, "timestamp": "2026-06-27T06:21:19Z"}
+{"keyword": "Burnout Was Trying To Tell Me Something", "platform": "devto", "value": 8.0, "timestamp": "2026-06-27T12:53:07Z"}
+{"keyword": "I built CarvePHP: finding service boundaries in Laravel monoliths", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T18:00:52Z"}
+{"keyword": "I Got Tired of Rewriting AI API Wrappers, So I Built a Gateway", "platform": "devto", "value": 7.0, "timestamp": "2026-06-27T19:35:50Z"}
+{"keyword": "5 Things Your LLM Bill Is Hiding From You (And How to Find Them)", "platform": "devto", "value": 9.0, "timestamp": "2026-06-27T13:00:09Z"}
+{"keyword": "Self-Healing SEO: a website that fixes its own broken links and rankings", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T17:58:29Z"}
+{"keyword": "I Tested 5 Open-Source NotebookLM Alternatives — Here's What Actually Works", "platform": "devto", "value": 1.0, "timestamp": "2026-06-27T18:33:22Z"}
+{"keyword": "Debugging Mobile Drag & CSS Specificity in a Real-Time PDF Diff Tool", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T14:30:00Z"}
+{"keyword": "useMemo vs useCallback: I Built a Tool That Makes Referential Equality Visible", "platform": "devto", "value": 3.0, "timestamp": "2026-06-27T12:07:15Z"}
+{"keyword": "I open-sourced A full-stack, peer-to-peer coinflip betting game on Solana", "platform": "devto", "value": 16.0, "timestamp": "2026-06-27T15:35:31Z"}
+{"keyword": "The 60% Trap: Why E-Commerce Giants Are Laundering Discounts (And How to Protect Yourself)", "platform": "devto", "value": 2.0, "timestamp": "2026-06-27T17:02:04Z"}
