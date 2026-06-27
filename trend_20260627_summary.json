@@ -6,7 +6,7 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "K-pop",
+      "name": "Seoul",
       "count": 12
     },
     {
@@ -18,11 +18,11 @@
       "count": 12
     },
     {
-      "name": "South Korea",
+      "name": "Python (programming language)",
       "count": 12
     },
     {
-      "name": "Seoul",
+      "name": "South Korea",
       "count": 12
     },
     {
@@ -50,10 +50,6 @@
       "count": 11
     },
     {
-      "name": "Netflix",
-      "count": 11
-    },
-    {
       "name": "Samsung",
       "count": 11
     },
@@ -62,27 +58,31 @@
       "count": 11
     },
     {
-      "name": "Python (programming language)",
+      "name": "K-pop",
       "count": 11
     },
     {
-      "name": "서울 부동산",
+      "name": "Netflix",
+      "count": 11
+    },
+    {
+      "name": "유명인",
       "count": 1
     },
     {
-      "name": "음원차트",
+      "name": "청약",
+      "count": 1
+    },
+    {
+      "name": "강남 아파트",
+      "count": 1
+    },
+    {
+      "name": "멜론",
       "count": 1
     },
     {
       "name": "유튜버",
-      "count": 1
-    },
-    {
-      "name": "아이돌",
-      "count": 1
-    },
-    {
-      "name": "분양권",
       "count": 1
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 170,
     "google": 30
   },
-  "generated_at": "2026-06-27T20:26:30.546574+09:00"
+  "generated_at": "2026-06-27T23:00:24.534368+00:00"
 }
