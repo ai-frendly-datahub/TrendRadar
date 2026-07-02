@@ -1,9 +1,9 @@
 {
   "date": "2026-07-02",
   "category": "trend",
-  "article_count": 14,
+  "article_count": 15,
   "source_count": 1,
-  "matched_count": 14,
+  "matched_count": 15,
   "top_entities": [
     {
       "name": "Seoul",
@@ -58,12 +58,16 @@
       "count": 1
     },
     {
+      "name": "YouTube",
+      "count": 1
+    },
+    {
       "name": "OpenAI",
       "count": 1
     }
   ],
   "sources": {
-    "wikipedia": 14
+    "wikipedia": 15
   },
-  "generated_at": "2026-07-02T21:07:34.068717+09:00"
+  "generated_at": "2026-07-02T23:03:07.395714+00:00"
 }
