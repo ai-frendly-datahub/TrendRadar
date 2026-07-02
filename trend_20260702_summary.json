@@ -1,0 +1,69 @@
+{
+  "date": "2026-07-02",
+  "category": "trend",
+  "article_count": 14,
+  "source_count": 1,
+  "matched_count": 14,
+  "top_entities": [
+    {
+      "name": "Seoul",
+      "count": 1
+    },
+    {
+      "name": "South Korea",
+      "count": 1
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 1
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 1
+    },
+    {
+      "name": "Machine learning",
+      "count": 1
+    },
+    {
+      "name": "K-pop",
+      "count": 1
+    },
+    {
+      "name": "World Wide Web",
+      "count": 1
+    },
+    {
+      "name": "Samsung",
+      "count": 1
+    },
+    {
+      "name": "Netflix",
+      "count": 1
+    },
+    {
+      "name": "Bitcoin",
+      "count": 1
+    },
+    {
+      "name": "Climate change",
+      "count": 1
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 1
+    },
+    {
+      "name": "E-commerce",
+      "count": 1
+    },
+    {
+      "name": "OpenAI",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "wikipedia": 14
+  },
+  "generated_at": "2026-07-02T21:07:34.068717+09:00"
+}
