@@ -1,73 +1,73 @@
 {
   "date": "2026-07-03",
   "category": "trend",
-  "article_count": 15,
+  "article_count": 30,
   "source_count": 1,
-  "matched_count": 15,
+  "matched_count": 30,
   "top_entities": [
     {
+      "name": "OpenAI",
+      "count": 2
+    },
+    {
       "name": "Seoul",
-      "count": 1
-    },
-    {
-      "name": "South Korea",
-      "count": 1
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 1
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 1
-    },
-    {
-      "name": "Machine learning",
-      "count": 1
-    },
-    {
-      "name": "K-pop",
-      "count": 1
-    },
-    {
-      "name": "World Wide Web",
-      "count": 1
-    },
-    {
-      "name": "Samsung",
-      "count": 1
-    },
-    {
-      "name": "Netflix",
-      "count": 1
-    },
-    {
-      "name": "Bitcoin",
-      "count": 1
-    },
-    {
-      "name": "Climate change",
-      "count": 1
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 1
-    },
-    {
-      "name": "E-commerce",
-      "count": 1
+      "count": 2
     },
     {
       "name": "YouTube",
-      "count": 1
+      "count": 2
     },
     {
-      "name": "OpenAI",
-      "count": 1
+      "name": "E-commerce",
+      "count": 2
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 2
+    },
+    {
+      "name": "Climate change",
+      "count": 2
+    },
+    {
+      "name": "Bitcoin",
+      "count": 2
+    },
+    {
+      "name": "Samsung",
+      "count": 2
+    },
+    {
+      "name": "World Wide Web",
+      "count": 2
+    },
+    {
+      "name": "K-pop",
+      "count": 2
+    },
+    {
+      "name": "Machine learning",
+      "count": 2
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 2
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 2
+    },
+    {
+      "name": "South Korea",
+      "count": 2
+    },
+    {
+      "name": "Netflix",
+      "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 15
+    "wikipedia": 30
   },
-  "generated_at": "2026-07-03T21:07:28.476801+09:00"
+  "generated_at": "2026-07-03T23:00:08.576937+00:00"
 }

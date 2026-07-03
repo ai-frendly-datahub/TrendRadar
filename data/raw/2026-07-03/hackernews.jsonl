@@ -58,3 +58,119 @@
 {"keyword": "Great Salt Lake Tracker – Grow the Flow", "platform": "hackernews", "value": 108.0, "timestamp": "1783020835"}
 {"keyword": "Superpowers 6", "platform": "hackernews", "value": 162.0, "timestamp": "1782854912"}
 {"keyword": "A Special Wireless-Free Nikon Camera Is Publicly Available for the First Time", "platform": "hackernews", "value": 69.0, "timestamp": "1782349913"}
+{"keyword": "Espionage Against the European Parliament", "platform": "hackernews", "value": 202.0, "timestamp": "1783111106"}
+{"keyword": "SearXNG: A free internet metasearch engine", "platform": "hackernews", "value": 74.0, "timestamp": "1783109749"}
+{"keyword": "Africans Are Turning to Starlink", "platform": "hackernews", "value": 55.0, "timestamp": "1783112917"}
+{"keyword": "Jamesob's guide to running SOTA LLMs locally", "platform": "hackernews", "value": 244.0, "timestamp": "1783091023"}
+{"keyword": "Applied Category Theory Course (2018)", "platform": "hackernews", "value": 25.0, "timestamp": "1783111320"}
+{"keyword": "Kagi Changelog (July 2): Heads, tails, and an AI toggle", "platform": "hackernews", "value": 48.0, "timestamp": "1783109281"}
+{"keyword": "Elevating Privileges from Firefox to Android Root", "platform": "hackernews", "value": 6.0, "timestamp": "1783118362"}
+{"keyword": "FreeBSD ate my RAM", "platform": "hackernews", "value": 67.0, "timestamp": "1783105711"}
+{"keyword": "How Amsterdam invented the fire department", "platform": "hackernews", "value": 4.0, "timestamp": "1783118778"}
+{"keyword": "Factories are just rooms", "platform": "hackernews", "value": 171.0, "timestamp": "1783091623"}
+{"keyword": "Costco is the anti-Amazon", "platform": "hackernews", "value": 239.0, "timestamp": "1783091695"}
+{"keyword": "Software, from First Principles", "platform": "hackernews", "value": 8.0, "timestamp": "1783114135"}
+{"keyword": "Hunting a 16-year-old SQLite WAL bug with TLA+", "platform": "hackernews", "value": 155.0, "timestamp": "1782817658"}
+{"keyword": "New serious vulnerabilities spiked around release of Claude Mythos Preview", "platform": "hackernews", "value": 10.0, "timestamp": "1783113376"}
+{"keyword": "Goodbye, Forever, Probably", "platform": "hackernews", "value": 37.0, "timestamp": "1783114939"}
+{"keyword": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)", "platform": "hackernews", "value": 41.0, "timestamp": "1783097630"}
+{"keyword": "PostgreSQL and the OOM killer: Why we use strict memory overcommit", "platform": "hackernews", "value": 142.0, "timestamp": "1783083631"}
+{"keyword": "Wordgard: In-browser rich-text editor from the creator of ProseMirror", "platform": "hackernews", "value": 243.0, "timestamp": "1783068647"}
+{"keyword": "The Demoralization of the White-Collar Worker", "platform": "hackernews", "value": 27.0, "timestamp": "1783115584"}
+{"keyword": "Valve open-source the Steam Machine e-ink screen so you can make your own", "platform": "hackernews", "value": 515.0, "timestamp": "1783083709"}
+{"keyword": "A peek into Reddit's anti-spam internals", "platform": "hackernews", "value": 143.0, "timestamp": "1782573483"}
+{"keyword": "60% Fable cost cut by converting code to images and having the model OCR it", "platform": "hackernews", "value": 210.0, "timestamp": "1783093849"}
+{"keyword": "Show HN: ContextCodeCache in Rust", "platform": "hackernews", "value": 7.0, "timestamp": "1783112599"}
+{"keyword": "Holes", "platform": "hackernews", "value": 155.0, "timestamp": "1783101265"}
+{"keyword": "Half-Baked Product", "platform": "hackernews", "value": 1178.0, "timestamp": "1783067012"}
+{"keyword": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?", "platform": "hackernews", "value": 110.0, "timestamp": "1783059704"}
+{"keyword": "My dad helped build North America's oat supply chain: Can it be remade?", "platform": "hackernews", "value": 80.0, "timestamp": "1782828051"}
+{"keyword": "The Fall and Rise of Screwworm", "platform": "hackernews", "value": 129.0, "timestamp": "1783083527"}
+{"keyword": "Nerdle Review", "platform": "hackernews", "value": 5.0, "timestamp": "1782857689"}
+{"keyword": "Espionage Against the European Parliament", "platform": "hackernews", "value": 202.0, "timestamp": "1783111106"}
+{"keyword": "SearXNG: A free internet metasearch engine", "platform": "hackernews", "value": 74.0, "timestamp": "1783109749"}
+{"keyword": "Africans Are Turning to Starlink", "platform": "hackernews", "value": 55.0, "timestamp": "1783112917"}
+{"keyword": "Jamesob's guide to running SOTA LLMs locally", "platform": "hackernews", "value": 244.0, "timestamp": "1783091023"}
+{"keyword": "Applied Category Theory Course (2018)", "platform": "hackernews", "value": 25.0, "timestamp": "1783111320"}
+{"keyword": "Kagi Changelog (July 2): Heads, tails, and an AI toggle", "platform": "hackernews", "value": 48.0, "timestamp": "1783109281"}
+{"keyword": "Elevating Privileges from Firefox to Android Root", "platform": "hackernews", "value": 6.0, "timestamp": "1783118362"}
+{"keyword": "FreeBSD ate my RAM", "platform": "hackernews", "value": 67.0, "timestamp": "1783105711"}
+{"keyword": "How Amsterdam invented the fire department", "platform": "hackernews", "value": 4.0, "timestamp": "1783118778"}
+{"keyword": "Factories are just rooms", "platform": "hackernews", "value": 171.0, "timestamp": "1783091623"}
+{"keyword": "Costco is the anti-Amazon", "platform": "hackernews", "value": 239.0, "timestamp": "1783091695"}
+{"keyword": "Software, from First Principles", "platform": "hackernews", "value": 8.0, "timestamp": "1783114135"}
+{"keyword": "Hunting a 16-year-old SQLite WAL bug with TLA+", "platform": "hackernews", "value": 155.0, "timestamp": "1782817658"}
+{"keyword": "New serious vulnerabilities spiked around release of Claude Mythos Preview", "platform": "hackernews", "value": 10.0, "timestamp": "1783113376"}
+{"keyword": "Goodbye, Forever, Probably", "platform": "hackernews", "value": 37.0, "timestamp": "1783114939"}
+{"keyword": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)", "platform": "hackernews", "value": 41.0, "timestamp": "1783097630"}
+{"keyword": "PostgreSQL and the OOM killer: Why we use strict memory overcommit", "platform": "hackernews", "value": 142.0, "timestamp": "1783083631"}
+{"keyword": "Wordgard: In-browser rich-text editor from the creator of ProseMirror", "platform": "hackernews", "value": 243.0, "timestamp": "1783068647"}
+{"keyword": "The Demoralization of the White-Collar Worker", "platform": "hackernews", "value": 27.0, "timestamp": "1783115584"}
+{"keyword": "Valve open-source the Steam Machine e-ink screen so you can make your own", "platform": "hackernews", "value": 515.0, "timestamp": "1783083709"}
+{"keyword": "A peek into Reddit's anti-spam internals", "platform": "hackernews", "value": 143.0, "timestamp": "1782573483"}
+{"keyword": "60% Fable cost cut by converting code to images and having the model OCR it", "platform": "hackernews", "value": 210.0, "timestamp": "1783093849"}
+{"keyword": "Show HN: ContextCodeCache in Rust", "platform": "hackernews", "value": 7.0, "timestamp": "1783112599"}
+{"keyword": "Holes", "platform": "hackernews", "value": 155.0, "timestamp": "1783101265"}
+{"keyword": "Half-Baked Product", "platform": "hackernews", "value": 1178.0, "timestamp": "1783067012"}
+{"keyword": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?", "platform": "hackernews", "value": 110.0, "timestamp": "1783059704"}
+{"keyword": "My dad helped build North America's oat supply chain: Can it be remade?", "platform": "hackernews", "value": 80.0, "timestamp": "1782828051"}
+{"keyword": "The Fall and Rise of Screwworm", "platform": "hackernews", "value": 129.0, "timestamp": "1783083527"}
+{"keyword": "Nerdle Review", "platform": "hackernews", "value": 5.0, "timestamp": "1782857689"}
+{"keyword": "Espionage Against the European Parliament", "platform": "hackernews", "value": 203.0, "timestamp": "1783111106"}
+{"keyword": "SearXNG: A free internet metasearch engine", "platform": "hackernews", "value": 74.0, "timestamp": "1783109749"}
+{"keyword": "Africans Are Turning to Starlink", "platform": "hackernews", "value": 55.0, "timestamp": "1783112917"}
+{"keyword": "Jamesob's guide to running SOTA LLMs locally", "platform": "hackernews", "value": 244.0, "timestamp": "1783091023"}
+{"keyword": "Applied Category Theory Course (2018)", "platform": "hackernews", "value": 26.0, "timestamp": "1783111320"}
+{"keyword": "Kagi Changelog (July 2): Heads, tails, and an AI toggle", "platform": "hackernews", "value": 48.0, "timestamp": "1783109281"}
+{"keyword": "Elevating Privileges from Firefox to Android Root", "platform": "hackernews", "value": 6.0, "timestamp": "1783118362"}
+{"keyword": "FreeBSD ate my RAM", "platform": "hackernews", "value": 67.0, "timestamp": "1783105711"}
+{"keyword": "How Amsterdam invented the fire department", "platform": "hackernews", "value": 4.0, "timestamp": "1783118778"}
+{"keyword": "Factories are just rooms", "platform": "hackernews", "value": 171.0, "timestamp": "1783091623"}
+{"keyword": "Costco is the anti-Amazon", "platform": "hackernews", "value": 239.0, "timestamp": "1783091695"}
+{"keyword": "Software, from First Principles", "platform": "hackernews", "value": 9.0, "timestamp": "1783114135"}
+{"keyword": "Hunting a 16-year-old SQLite WAL bug with TLA+", "platform": "hackernews", "value": 155.0, "timestamp": "1782817658"}
+{"keyword": "New serious vulnerabilities spiked around release of Claude Mythos Preview", "platform": "hackernews", "value": 11.0, "timestamp": "1783113376"}
+{"keyword": "Goodbye, Forever, Probably", "platform": "hackernews", "value": 37.0, "timestamp": "1783114939"}
+{"keyword": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)", "platform": "hackernews", "value": 41.0, "timestamp": "1783097630"}
+{"keyword": "PostgreSQL and the OOM killer: Why we use strict memory overcommit", "platform": "hackernews", "value": 142.0, "timestamp": "1783083631"}
+{"keyword": "Wordgard: In-browser rich-text editor from the creator of ProseMirror", "platform": "hackernews", "value": 243.0, "timestamp": "1783068647"}
+{"keyword": "The Demoralization of the White-Collar Worker", "platform": "hackernews", "value": 27.0, "timestamp": "1783115584"}
+{"keyword": "Valve open-source the Steam Machine e-ink screen so you can make your own", "platform": "hackernews", "value": 515.0, "timestamp": "1783083709"}
+{"keyword": "A peek into Reddit's anti-spam internals", "platform": "hackernews", "value": 143.0, "timestamp": "1782573483"}
+{"keyword": "60% Fable cost cut by converting code to images and having the model OCR it", "platform": "hackernews", "value": 210.0, "timestamp": "1783093849"}
+{"keyword": "Show HN: ContextCodeCache in Rust", "platform": "hackernews", "value": 7.0, "timestamp": "1783112599"}
+{"keyword": "Holes", "platform": "hackernews", "value": 155.0, "timestamp": "1783101265"}
+{"keyword": "Half-Baked Product", "platform": "hackernews", "value": 1179.0, "timestamp": "1783067012"}
+{"keyword": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?", "platform": "hackernews", "value": 110.0, "timestamp": "1783059704"}
+{"keyword": "My dad helped build North America's oat supply chain: Can it be remade?", "platform": "hackernews", "value": 80.0, "timestamp": "1782828051"}
+{"keyword": "The Fall and Rise of Screwworm", "platform": "hackernews", "value": 130.0, "timestamp": "1783083527"}
+{"keyword": "Nerdle Review", "platform": "hackernews", "value": 5.0, "timestamp": "1782857689"}
+{"keyword": "Espionage Against the European Parliament", "platform": "hackernews", "value": 203.0, "timestamp": "1783111106"}
+{"keyword": "SearXNG: A free internet metasearch engine", "platform": "hackernews", "value": 74.0, "timestamp": "1783109749"}
+{"keyword": "Africans Are Turning to Starlink", "platform": "hackernews", "value": 55.0, "timestamp": "1783112917"}
+{"keyword": "Jamesob's guide to running SOTA LLMs locally", "platform": "hackernews", "value": 244.0, "timestamp": "1783091023"}
+{"keyword": "Applied Category Theory Course (2018)", "platform": "hackernews", "value": 26.0, "timestamp": "1783111320"}
+{"keyword": "Kagi Changelog (July 2): Heads, tails, and an AI toggle", "platform": "hackernews", "value": 48.0, "timestamp": "1783109281"}
+{"keyword": "Elevating Privileges from Firefox to Android Root", "platform": "hackernews", "value": 6.0, "timestamp": "1783118362"}
+{"keyword": "FreeBSD ate my RAM", "platform": "hackernews", "value": 67.0, "timestamp": "1783105711"}
+{"keyword": "How Amsterdam invented the fire department", "platform": "hackernews", "value": 4.0, "timestamp": "1783118778"}
+{"keyword": "Factories are just rooms", "platform": "hackernews", "value": 171.0, "timestamp": "1783091623"}
+{"keyword": "Costco is the anti-Amazon", "platform": "hackernews", "value": 239.0, "timestamp": "1783091695"}
+{"keyword": "Software, from First Principles", "platform": "hackernews", "value": 9.0, "timestamp": "1783114135"}
+{"keyword": "Hunting a 16-year-old SQLite WAL bug with TLA+", "platform": "hackernews", "value": 155.0, "timestamp": "1782817658"}
+{"keyword": "New serious vulnerabilities spiked around release of Claude Mythos Preview", "platform": "hackernews", "value": 11.0, "timestamp": "1783113376"}
+{"keyword": "Goodbye, Forever, Probably", "platform": "hackernews", "value": 37.0, "timestamp": "1783114939"}
+{"keyword": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)", "platform": "hackernews", "value": 41.0, "timestamp": "1783097630"}
+{"keyword": "PostgreSQL and the OOM killer: Why we use strict memory overcommit", "platform": "hackernews", "value": 142.0, "timestamp": "1783083631"}
+{"keyword": "Wordgard: In-browser rich-text editor from the creator of ProseMirror", "platform": "hackernews", "value": 243.0, "timestamp": "1783068647"}
+{"keyword": "The Demoralization of the White-Collar Worker", "platform": "hackernews", "value": 27.0, "timestamp": "1783115584"}
+{"keyword": "Valve open-source the Steam Machine e-ink screen so you can make your own", "platform": "hackernews", "value": 515.0, "timestamp": "1783083709"}
+{"keyword": "A peek into Reddit's anti-spam internals", "platform": "hackernews", "value": 143.0, "timestamp": "1782573483"}
+{"keyword": "60% Fable cost cut by converting code to images and having the model OCR it", "platform": "hackernews", "value": 210.0, "timestamp": "1783093849"}
+{"keyword": "Show HN: ContextCodeCache in Rust", "platform": "hackernews", "value": 7.0, "timestamp": "1783112599"}
+{"keyword": "Holes", "platform": "hackernews", "value": 155.0, "timestamp": "1783101265"}
+{"keyword": "Half-Baked Product", "platform": "hackernews", "value": 1179.0, "timestamp": "1783067012"}
+{"keyword": "Ask HN: Is anyone experimenting with different ways of using LLMs for coding?", "platform": "hackernews", "value": 110.0, "timestamp": "1783059704"}
+{"keyword": "My dad helped build North America's oat supply chain: Can it be remade?", "platform": "hackernews", "value": 80.0, "timestamp": "1782828051"}
+{"keyword": "The Fall and Rise of Screwworm", "platform": "hackernews", "value": 130.0, "timestamp": "1783083527"}
+{"keyword": "Nerdle Review", "platform": "hackernews", "value": 5.0, "timestamp": "1782857689"}
