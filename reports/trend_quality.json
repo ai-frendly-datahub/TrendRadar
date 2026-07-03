@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-02T23:03:17.395709+00:00",
-  "target_date": "2026-07-02",
+  "generated_at": "2026-07-03T12:07:27.514817+00:00",
+  "target_date": "2026-07-03",
   "repo": "TrendRadar",
   "summary": {
     "priority": "P1",
@@ -18,15 +18,15 @@
     "attention_signal_count": 15,
     "conversion_proxy_signal_count": 0,
     "community_signal_count": 0,
-    "fresh_signal_count": 15,
-    "stale_signal_count": 0,
+    "fresh_signal_count": 0,
+    "stale_signal_count": 15,
     "undated_signal_count": 0,
     "distinct_signal_channel_count": 1,
     "distinct_keyword_pack_event_count": 1,
     "unique_signal_key_count": 15,
     "signal_required_field_gap_count": 15,
     "score_axis_contamination_count": 0,
-    "daily_review_item_count": 16,
+    "daily_review_item_count": 31,
     "events_truncated": 0,
     "missing_required_components": []
   },
@@ -331,8 +331,8 @@
       "normalized_value": 100.0,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -363,8 +363,8 @@
       "normalized_value": 18.349,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -395,8 +395,8 @@
       "normalized_value": 15.32,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -427,8 +427,8 @@
       "normalized_value": 10.425,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -459,8 +459,8 @@
       "normalized_value": 10.257,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -491,8 +491,8 @@
       "normalized_value": 9.146,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -523,8 +523,8 @@
       "normalized_value": 6.41,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -555,8 +555,8 @@
       "normalized_value": 4.77,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -587,8 +587,8 @@
       "normalized_value": 4.255,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -619,8 +619,8 @@
       "normalized_value": 3.27,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -651,8 +651,8 @@
       "normalized_value": 3.233,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -683,8 +683,8 @@
       "normalized_value": 2.943,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -715,8 +715,8 @@
       "normalized_value": 1.984,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -747,8 +747,8 @@
       "normalized_value": 1.175,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -779,8 +779,8 @@
       "normalized_value": 0.649,
       "score_axis": "attention",
       "freshness_sla_days": 1,
-      "age_days": 1,
-      "freshness_status": "fresh",
+      "age_days": 2,
+      "freshness_status": "stale",
       "proxy_type": null,
       "community": null,
       "signal_value": null,
@@ -806,6 +806,15 @@
       ]
     },
     {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:youtube:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
+    },
+    {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:artificial-intelligence:2026-07-01",
@@ -815,6 +824,15 @@
       "required_field_gaps": [
         "source_url"
       ]
+    },
+    {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:artificial-intelligence:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
     },
     {
       "reason": "missing_required_fields",
@@ -828,6 +846,15 @@
       ]
     },
     {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:netflix:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
+    },
+    {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:openai:2026-07-01",
@@ -837,6 +864,15 @@
       "required_field_gaps": [
         "source_url"
       ]
+    },
+    {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:openai:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
     },
     {
       "reason": "missing_required_fields",
@@ -850,6 +886,15 @@
       ]
     },
     {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:south-korea:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
+    },
+    {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:world-wide-web:2026-07-01",
@@ -859,6 +904,15 @@
       "required_field_gaps": [
         "source_url"
       ]
+    },
+    {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:world-wide-web:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
     },
     {
       "reason": "missing_required_fields",
@@ -872,6 +926,15 @@
       ]
     },
     {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:python-programming-language:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
+    },
+    {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:climate-change:2026-07-01",
@@ -881,6 +944,15 @@
       "required_field_gaps": [
         "source_url"
       ]
+    },
+    {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:climate-change:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
     },
     {
       "reason": "missing_required_fields",
@@ -894,6 +966,15 @@
       ]
     },
     {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:bitcoin:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
+    },
+    {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-07-01",
@@ -903,6 +984,15 @@
       "required_field_gaps": [
         "source_url"
       ]
+    },
+    {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
     },
     {
       "reason": "missing_required_fields",
@@ -916,6 +1006,15 @@
       ]
     },
     {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:samsung:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
+    },
+    {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:machine-learning:2026-07-01",
@@ -925,6 +1024,15 @@
       "required_field_gaps": [
         "source_url"
       ]
+    },
+    {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:machine-learning:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
     },
     {
       "reason": "missing_required_fields",
@@ -938,6 +1046,15 @@
       ]
     },
     {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:k-pop:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
+    },
+    {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:e-commerce:2026-07-01",
@@ -949,6 +1066,15 @@
       ]
     },
     {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:e-commerce:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
+    },
+    {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:electric-vehicle:2026-07-01",
@@ -958,6 +1084,15 @@
       "required_field_gaps": [
         "source_url"
       ]
+    },
+    {
+      "reason": "stale_signal",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:electric-vehicle:2026-07-01",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "channel": "wikipedia",
+      "age_days": 2,
+      "freshness_sla_days": 1
     },
     {
       "reason": "conversion_proxy_no_observed_signal",
