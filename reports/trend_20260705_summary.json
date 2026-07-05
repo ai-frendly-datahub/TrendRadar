@@ -1,10 +1,18 @@
 {
   "date": "2026-07-05",
   "category": "trend",
-  "article_count": 89,
+  "article_count": 90,
   "source_count": 2,
-  "matched_count": 89,
+  "matched_count": 90,
   "top_entities": [
+    {
+      "name": "Seoul",
+      "count": 4
+    },
+    {
+      "name": "South Korea",
+      "count": 4
+    },
     {
       "name": "OpenAI",
       "count": 4
@@ -22,7 +30,11 @@
       "count": 4
     },
     {
-      "name": "Seoul",
+      "name": "Climate change",
+      "count": 4
+    },
+    {
+      "name": "Bitcoin",
       "count": 4
     },
     {
@@ -54,23 +66,11 @@
       "count": 4
     },
     {
-      "name": "South Korea",
-      "count": 4
-    },
-    {
-      "name": "Bitcoin",
-      "count": 4
-    },
-    {
-      "name": "Climate change",
-      "count": 3
-    },
-    {
       "name": "유튜버",
       "count": 1
     },
     {
-      "name": "강남 아파트",
+      "name": "전세 시세",
       "count": 1
     },
     {
@@ -88,7 +88,7 @@
   ],
   "sources": {
     "google": 30,
-    "wikipedia": 59
+    "wikipedia": 60
   },
-  "generated_at": "2026-07-05T20:28:41.904486+09:00"
+  "generated_at": "2026-07-05T22:59:34.152651+00:00"
 }
