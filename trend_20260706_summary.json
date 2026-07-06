@@ -1,12 +1,20 @@
 {
   "date": "2026-07-06",
   "category": "trend",
-  "article_count": 100,
+  "article_count": 104,
   "source_count": 2,
-  "matched_count": 100,
+  "matched_count": 104,
   "top_entities": [
     {
+      "name": "Climate change",
+      "count": 5
+    },
+    {
       "name": "OpenAI",
+      "count": 5
+    },
+    {
+      "name": "YouTube",
       "count": 5
     },
     {
@@ -18,11 +26,15 @@
       "count": 5
     },
     {
+      "name": "Netflix",
+      "count": 5
+    },
+    {
       "name": "Bitcoin",
       "count": 5
     },
     {
-      "name": "Netflix",
+      "name": "Samsung",
       "count": 5
     },
     {
@@ -38,11 +50,15 @@
       "count": 5
     },
     {
+      "name": "Python (programming language)",
+      "count": 5
+    },
+    {
       "name": "South Korea",
       "count": 5
     },
     {
-      "name": "YouTube",
+      "name": "Seoul",
       "count": 5
     },
     {
@@ -50,27 +66,7 @@
       "count": 4
     },
     {
-      "name": "Climate change",
-      "count": 4
-    },
-    {
-      "name": "Seoul",
-      "count": 4
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 4
-    },
-    {
-      "name": "Samsung",
-      "count": 4
-    },
-    {
-      "name": "재건축",
-      "count": 1
-    },
-    {
-      "name": "인플루언서",
+      "name": "유튜버",
       "count": 1
     },
     {
@@ -84,11 +80,15 @@
     {
       "name": "가수",
       "count": 1
+    },
+    {
+      "name": "배우",
+      "count": 1
     }
   ],
   "sources": {
-    "wikipedia": 70,
-    "google": 30
+    "google": 30,
+    "wikipedia": 74
   },
-  "generated_at": "2026-07-06T22:42:34.664029+09:00"
+  "generated_at": "2026-07-06T23:05:00.308698+00:00"
 }
