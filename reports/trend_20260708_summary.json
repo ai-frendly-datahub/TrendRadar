@@ -1,9 +1,9 @@
 {
   "date": "2026-07-08",
   "category": "trend",
-  "article_count": 133,
+  "article_count": 134,
   "source_count": 2,
-  "matched_count": 133,
+  "matched_count": 134,
   "top_entities": [
     {
       "name": "Seoul",
@@ -50,6 +50,10 @@
       "count": 7
     },
     {
+      "name": "E-commerce",
+      "count": 7
+    },
+    {
       "name": "YouTube",
       "count": 7
     },
@@ -59,10 +63,6 @@
     },
     {
       "name": "K-pop",
-      "count": 6
-    },
-    {
-      "name": "E-commerce",
       "count": 6
     },
     {
@@ -87,8 +87,8 @@
     }
   ],
   "sources": {
-    "wikipedia": 103,
+    "wikipedia": 104,
     "google": 30
   },
-  "generated_at": "2026-07-08T20:45:29.481682+09:00"
+  "generated_at": "2026-07-08T23:03:54.232177+00:00"
 }

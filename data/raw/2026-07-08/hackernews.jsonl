@@ -58,3 +58,123 @@
 {"keyword": "Why we built yet another Postgres connection pooler", "platform": "hackernews", "value": 202.0, "timestamp": "1783438609"}
 {"keyword": "Every new car sold in the European Union must include a driver monitoring camera", "platform": "hackernews", "value": 673.0, "timestamp": "1783457446"}
 {"keyword": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time", "platform": "hackernews", "value": 778.0, "timestamp": "1783427915"}
+{"keyword": "Separating signal from noise in coding evaluations", "platform": "hackernews", "value": 109.0, "timestamp": "1783544631"}
+{"keyword": "FAANG Simulator", "platform": "hackernews", "value": 147.0, "timestamp": "1783541142"}
+{"keyword": "Chatto is now open source", "platform": "hackernews", "value": 633.0, "timestamp": "1783523990"}
+{"keyword": "Grok 4.5", "platform": "hackernews", "value": 401.0, "timestamp": "1783533632"}
+{"keyword": "Decoding the obfuscated bash script on a Uniqlo t-shirt", "platform": "hackernews", "value": 1249.0, "timestamp": "1783500366"}
+{"keyword": "Mistral's Robostral Navigate: a state of the art robotics navigation model", "platform": "hackernews", "value": 382.0, "timestamp": "1783519757"}
+{"keyword": "Cloudflare Drop", "platform": "hackernews", "value": 149.0, "timestamp": "1783538306"}
+{"keyword": "Show HN: Microsoft releases Flint, a visualization language for AI agents", "platform": "hackernews", "value": 150.0, "timestamp": "1783532772"}
+{"keyword": "Turning a pile of documents into a searchable useable knowledge base", "platform": "hackernews", "value": 35.0, "timestamp": "1783543049"}
+{"keyword": "DKIM2 and DMARCbis Have Landed", "platform": "hackernews", "value": 44.0, "timestamp": "1783342977"}
+{"keyword": "GPT‑Live", "platform": "hackernews", "value": 548.0, "timestamp": "1783530199"}
+{"keyword": "A bug which affected only left handed users", "platform": "hackernews", "value": 65.0, "timestamp": "1783516805"}
+{"keyword": "Rewriting Bun in Rust", "platform": "hackernews", "value": 71.0, "timestamp": "1783547399"}
+{"keyword": "Show HN: Yamanote.fun – A complete soundscape for Tokyo's Yamanote line", "platform": "hackernews", "value": 11.0, "timestamp": "1783428466"}
+{"keyword": "OpenMandriva: Statement regarding attempted distribution sabotage", "platform": "hackernews", "value": 63.0, "timestamp": "1783534913"}
+{"keyword": "The classifiers Anthropic puts in front of Fable are too zealous", "platform": "hackernews", "value": 170.0, "timestamp": "1783543293"}
+{"keyword": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase", "platform": "hackernews", "value": 15.0, "timestamp": "1783541343"}
+{"keyword": "EU now one step away from reviving private message scanning rules", "platform": "hackernews", "value": 320.0, "timestamp": "1783529586"}
+{"keyword": "Cloudflare Meerkat - Globally distributed consensus", "platform": "hackernews", "value": 195.0, "timestamp": "1783516683"}
+{"keyword": "I Built a Telegram Client for Pi", "platform": "hackernews", "value": 39.0, "timestamp": "1783346794"}
+{"keyword": "OpenBSD has a use-after-free allowing local privilege escalation to root", "platform": "hackernews", "value": 237.0, "timestamp": "1783517092"}
+{"keyword": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence", "platform": "hackernews", "value": 239.0, "timestamp": "1783527576"}
+{"keyword": "Poison, redzones and shadows: inside KASAN", "platform": "hackernews", "value": 6.0, "timestamp": "1783368513"}
+{"keyword": "Open Source Barware: free, local-first bar inventory software (GPLv3)", "platform": "hackernews", "value": 4.0, "timestamp": "1783546987"}
+{"keyword": "Understanding B-Tree Indexes in PostgreSQL: A Comprehensive Guide– Part 1", "platform": "hackernews", "value": 35.0, "timestamp": "1783281358"}
+{"keyword": "TypeScript 7", "platform": "hackernews", "value": 414.0, "timestamp": "1783526795"}
+{"keyword": "EVE Online's Carbon engine is now open source: Fenris Creations explains why", "platform": "hackernews", "value": 369.0, "timestamp": "1783115167"}
+{"keyword": "Almost Always Unsigned", "platform": "hackernews", "value": 15.0, "timestamp": "1783539307"}
+{"keyword": "Show HN: Agent Draw: An agent draws while you talk, built on TLDraw", "platform": "hackernews", "value": 26.0, "timestamp": "1783349406"}
+{"keyword": "New Sweden: the US's long-lost 'secret' colony", "platform": "hackernews", "value": 12.0, "timestamp": "1783538778"}
+{"keyword": "Separating signal from noise in coding evaluations", "platform": "hackernews", "value": 109.0, "timestamp": "1783544631"}
+{"keyword": "FAANG Simulator", "platform": "hackernews", "value": 147.0, "timestamp": "1783541142"}
+{"keyword": "Chatto is now open source", "platform": "hackernews", "value": 633.0, "timestamp": "1783523990"}
+{"keyword": "Grok 4.5", "platform": "hackernews", "value": 401.0, "timestamp": "1783533632"}
+{"keyword": "Decoding the obfuscated bash script on a Uniqlo t-shirt", "platform": "hackernews", "value": 1249.0, "timestamp": "1783500366"}
+{"keyword": "Mistral's Robostral Navigate: a state of the art robotics navigation model", "platform": "hackernews", "value": 382.0, "timestamp": "1783519757"}
+{"keyword": "Cloudflare Drop", "platform": "hackernews", "value": 149.0, "timestamp": "1783538306"}
+{"keyword": "Show HN: Microsoft releases Flint, a visualization language for AI agents", "platform": "hackernews", "value": 150.0, "timestamp": "1783532772"}
+{"keyword": "Turning a pile of documents into a searchable useable knowledge base", "platform": "hackernews", "value": 35.0, "timestamp": "1783543049"}
+{"keyword": "DKIM2 and DMARCbis Have Landed", "platform": "hackernews", "value": 44.0, "timestamp": "1783342977"}
+{"keyword": "GPT‑Live", "platform": "hackernews", "value": 548.0, "timestamp": "1783530199"}
+{"keyword": "A bug which affected only left handed users", "platform": "hackernews", "value": 65.0, "timestamp": "1783516805"}
+{"keyword": "Rewriting Bun in Rust", "platform": "hackernews", "value": 71.0, "timestamp": "1783547399"}
+{"keyword": "Show HN: Yamanote.fun – A complete soundscape for Tokyo's Yamanote line", "platform": "hackernews", "value": 11.0, "timestamp": "1783428466"}
+{"keyword": "OpenMandriva: Statement regarding attempted distribution sabotage", "platform": "hackernews", "value": 63.0, "timestamp": "1783534913"}
+{"keyword": "The classifiers Anthropic puts in front of Fable are too zealous", "platform": "hackernews", "value": 170.0, "timestamp": "1783543293"}
+{"keyword": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase", "platform": "hackernews", "value": 15.0, "timestamp": "1783541343"}
+{"keyword": "EU now one step away from reviving private message scanning rules", "platform": "hackernews", "value": 320.0, "timestamp": "1783529586"}
+{"keyword": "Cloudflare Meerkat - Globally distributed consensus", "platform": "hackernews", "value": 195.0, "timestamp": "1783516683"}
+{"keyword": "I Built a Telegram Client for Pi", "platform": "hackernews", "value": 39.0, "timestamp": "1783346794"}
+{"keyword": "OpenBSD has a use-after-free allowing local privilege escalation to root", "platform": "hackernews", "value": 237.0, "timestamp": "1783517092"}
+{"keyword": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence", "platform": "hackernews", "value": 239.0, "timestamp": "1783527576"}
+{"keyword": "Poison, redzones and shadows: inside KASAN", "platform": "hackernews", "value": 6.0, "timestamp": "1783368513"}
+{"keyword": "Open Source Barware: free, local-first bar inventory software (GPLv3)", "platform": "hackernews", "value": 4.0, "timestamp": "1783546987"}
+{"keyword": "Understanding B-Tree Indexes in PostgreSQL: A Comprehensive Guide– Part 1", "platform": "hackernews", "value": 35.0, "timestamp": "1783281358"}
+{"keyword": "TypeScript 7", "platform": "hackernews", "value": 414.0, "timestamp": "1783526795"}
+{"keyword": "EVE Online's Carbon engine is now open source: Fenris Creations explains why", "platform": "hackernews", "value": 369.0, "timestamp": "1783115167"}
+{"keyword": "Almost Always Unsigned", "platform": "hackernews", "value": 15.0, "timestamp": "1783539307"}
+{"keyword": "Show HN: Agent Draw: An agent draws while you talk, built on TLDraw", "platform": "hackernews", "value": 26.0, "timestamp": "1783349406"}
+{"keyword": "New Sweden: the US's long-lost 'secret' colony", "platform": "hackernews", "value": 12.0, "timestamp": "1783538778"}
+{"keyword": "Separating signal from noise in coding evaluations", "platform": "hackernews", "value": 109.0, "timestamp": "1783544631"}
+{"keyword": "FAANG Simulator", "platform": "hackernews", "value": 147.0, "timestamp": "1783541142"}
+{"keyword": "Chatto is now open source", "platform": "hackernews", "value": 633.0, "timestamp": "1783523990"}
+{"keyword": "Grok 4.5", "platform": "hackernews", "value": 401.0, "timestamp": "1783533632"}
+{"keyword": "Decoding the obfuscated bash script on a Uniqlo t-shirt", "platform": "hackernews", "value": 1249.0, "timestamp": "1783500366"}
+{"keyword": "Mistral's Robostral Navigate: a state of the art robotics navigation model", "platform": "hackernews", "value": 382.0, "timestamp": "1783519757"}
+{"keyword": "Cloudflare Drop", "platform": "hackernews", "value": 149.0, "timestamp": "1783538306"}
+{"keyword": "Show HN: Microsoft releases Flint, a visualization language for AI agents", "platform": "hackernews", "value": 150.0, "timestamp": "1783532772"}
+{"keyword": "Turning a pile of documents into a searchable useable knowledge base", "platform": "hackernews", "value": 35.0, "timestamp": "1783543049"}
+{"keyword": "DKIM2 and DMARCbis Have Landed", "platform": "hackernews", "value": 44.0, "timestamp": "1783342977"}
+{"keyword": "GPT‑Live", "platform": "hackernews", "value": 548.0, "timestamp": "1783530199"}
+{"keyword": "A bug which affected only left handed users", "platform": "hackernews", "value": 65.0, "timestamp": "1783516805"}
+{"keyword": "Rewriting Bun in Rust", "platform": "hackernews", "value": 71.0, "timestamp": "1783547399"}
+{"keyword": "Show HN: Yamanote.fun – A complete soundscape for Tokyo's Yamanote line", "platform": "hackernews", "value": 11.0, "timestamp": "1783428466"}
+{"keyword": "OpenMandriva: Statement regarding attempted distribution sabotage", "platform": "hackernews", "value": 63.0, "timestamp": "1783534913"}
+{"keyword": "The classifiers Anthropic puts in front of Fable are too zealous", "platform": "hackernews", "value": 170.0, "timestamp": "1783543293"}
+{"keyword": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase", "platform": "hackernews", "value": 15.0, "timestamp": "1783541343"}
+{"keyword": "EU now one step away from reviving private message scanning rules", "platform": "hackernews", "value": 320.0, "timestamp": "1783529586"}
+{"keyword": "Cloudflare Meerkat - Globally distributed consensus", "platform": "hackernews", "value": 195.0, "timestamp": "1783516683"}
+{"keyword": "I Built a Telegram Client for Pi", "platform": "hackernews", "value": 39.0, "timestamp": "1783346794"}
+{"keyword": "OpenBSD has a use-after-free allowing local privilege escalation to root", "platform": "hackernews", "value": 237.0, "timestamp": "1783517092"}
+{"keyword": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence", "platform": "hackernews", "value": 239.0, "timestamp": "1783527576"}
+{"keyword": "Poison, redzones and shadows: inside KASAN", "platform": "hackernews", "value": 6.0, "timestamp": "1783368513"}
+{"keyword": "Open Source Barware: free, local-first bar inventory software (GPLv3)", "platform": "hackernews", "value": 4.0, "timestamp": "1783546987"}
+{"keyword": "Understanding B-Tree Indexes in PostgreSQL: A Comprehensive Guide– Part 1", "platform": "hackernews", "value": 35.0, "timestamp": "1783281358"}
+{"keyword": "TypeScript 7", "platform": "hackernews", "value": 414.0, "timestamp": "1783526795"}
+{"keyword": "EVE Online's Carbon engine is now open source: Fenris Creations explains why", "platform": "hackernews", "value": 369.0, "timestamp": "1783115167"}
+{"keyword": "Almost Always Unsigned", "platform": "hackernews", "value": 15.0, "timestamp": "1783539307"}
+{"keyword": "Show HN: Agent Draw: An agent draws while you talk, built on TLDraw", "platform": "hackernews", "value": 26.0, "timestamp": "1783349406"}
+{"keyword": "New Sweden: the US's long-lost 'secret' colony", "platform": "hackernews", "value": 12.0, "timestamp": "1783538778"}
+{"keyword": "Separating signal from noise in coding evaluations", "platform": "hackernews", "value": 109.0, "timestamp": "1783544631"}
+{"keyword": "FAANG Simulator", "platform": "hackernews", "value": 149.0, "timestamp": "1783541142"}
+{"keyword": "Chatto is now open source", "platform": "hackernews", "value": 635.0, "timestamp": "1783523990"}
+{"keyword": "Grok 4.5", "platform": "hackernews", "value": 401.0, "timestamp": "1783533632"}
+{"keyword": "Decoding the obfuscated bash script on a Uniqlo t-shirt", "platform": "hackernews", "value": 1249.0, "timestamp": "1783500366"}
+{"keyword": "Mistral's Robostral Navigate: a state of the art robotics navigation model", "platform": "hackernews", "value": 382.0, "timestamp": "1783519757"}
+{"keyword": "Cloudflare Drop", "platform": "hackernews", "value": 149.0, "timestamp": "1783538306"}
+{"keyword": "Show HN: Microsoft releases Flint, a visualization language for AI agents", "platform": "hackernews", "value": 150.0, "timestamp": "1783532772"}
+{"keyword": "Turning a pile of documents into a searchable useable knowledge base", "platform": "hackernews", "value": 35.0, "timestamp": "1783543049"}
+{"keyword": "DKIM2 and DMARCbis Have Landed", "platform": "hackernews", "value": 44.0, "timestamp": "1783342977"}
+{"keyword": "GPT‑Live", "platform": "hackernews", "value": 548.0, "timestamp": "1783530199"}
+{"keyword": "Rewriting Bun in Rust", "platform": "hackernews", "value": 72.0, "timestamp": "1783547399"}
+{"keyword": "A bug which affected only left handed users", "platform": "hackernews", "value": 65.0, "timestamp": "1783516805"}
+{"keyword": "Show HN: Yamanote.fun – A complete soundscape for Tokyo's Yamanote line", "platform": "hackernews", "value": 12.0, "timestamp": "1783428466"}
+{"keyword": "OpenMandriva: Statement regarding attempted distribution sabotage", "platform": "hackernews", "value": 63.0, "timestamp": "1783534913"}
+{"keyword": "The classifiers Anthropic puts in front of Fable are too zealous", "platform": "hackernews", "value": 170.0, "timestamp": "1783543293"}
+{"keyword": "Show HN: Onboard-CLI, a LLM powered and AST-based tool to visualize codebase", "platform": "hackernews", "value": 15.0, "timestamp": "1783541343"}
+{"keyword": "EU now one step away from reviving private message scanning rules", "platform": "hackernews", "value": 320.0, "timestamp": "1783529586"}
+{"keyword": "Cloudflare Meerkat - Globally distributed consensus", "platform": "hackernews", "value": 195.0, "timestamp": "1783516683"}
+{"keyword": "I Built a Telegram Client for Pi", "platform": "hackernews", "value": 39.0, "timestamp": "1783346794"}
+{"keyword": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence", "platform": "hackernews", "value": 239.0, "timestamp": "1783527576"}
+{"keyword": "OpenBSD has a use-after-free allowing local privilege escalation to root", "platform": "hackernews", "value": 237.0, "timestamp": "1783517092"}
+{"keyword": "Poison, redzones and shadows: inside KASAN", "platform": "hackernews", "value": 6.0, "timestamp": "1783368513"}
+{"keyword": "Open Source Barware: free, local-first bar inventory software (GPLv3)", "platform": "hackernews", "value": 4.0, "timestamp": "1783546987"}
+{"keyword": "Understanding B-Tree Indexes in PostgreSQL: A Comprehensive Guide– Part 1", "platform": "hackernews", "value": 35.0, "timestamp": "1783281358"}
+{"keyword": "TypeScript 7", "platform": "hackernews", "value": 414.0, "timestamp": "1783526795"}
+{"keyword": "EVE Online's Carbon engine is now open source: Fenris Creations explains why", "platform": "hackernews", "value": 369.0, "timestamp": "1783115167"}
+{"keyword": "Almost Always Unsigned", "platform": "hackernews", "value": 15.0, "timestamp": "1783539307"}
+{"keyword": "Show HN: Agent Draw: An agent draws while you talk, built on TLDraw", "platform": "hackernews", "value": 26.0, "timestamp": "1783349406"}
+{"keyword": "New Sweden: the US's long-lost 'secret' colony", "platform": "hackernews", "value": 12.0, "timestamp": "1783538778"}
