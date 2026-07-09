@@ -15,3 +15,23 @@
 {"keyword": "Can Microsoft Graph create online meetings using moderated meeting templates?", "platform": "stackexchange", "value": 0.0, "timestamp": "1783586969"}
 {"keyword": "Spring Boot 3 fails to find bean despite @Service annotation and correct package structure", "platform": "stackexchange", "value": 2.0, "timestamp": "1783568420"}
 {"keyword": "How to display the contents of a CSV file, with rows filtered by the value in the timestamp column", "platform": "stackexchange", "value": 0.0, "timestamp": "1783576281"}
+{"keyword": "Runing sh or bash script cmds from the botton to the top", "platform": "stackexchange", "value": 0.0, "timestamp": "1783636469"}
+{"keyword": "In a C++ class, how do I declare friendship with a templated function in another namespace?", "platform": "stackexchange", "value": 1.0, "timestamp": "1783628916"}
+{"keyword": "What is wrong with using `forward` without the `std::` qualifier?", "platform": "stackexchange", "value": 0.0, "timestamp": "1783629994"}
+{"keyword": "Artifacts after DCT Transformation", "platform": "stackexchange", "value": 1.0, "timestamp": "1783624702"}
+{"keyword": "How to match numbers AND the parentheses that surround them using regular expressions in pyspark", "platform": "stackexchange", "value": 0.0, "timestamp": "1783616584"}
+{"keyword": "geom_ribbon creating gaps / not filling-in all of area to be shaded?", "platform": "stackexchange", "value": 3.0, "timestamp": "1783611919"}
+{"keyword": "MemberNotNull doesn&#39;t work on static instantiator", "platform": "stackexchange", "value": 5.0, "timestamp": "1783582258"}
+{"keyword": "How to dynamically preserve JSON keys as CSV headers with MinIO select_object_content?", "platform": "stackexchange", "value": 0.0, "timestamp": "1783621657"}
+{"keyword": "why this code generates two destructor message, and why this happens without Constructing twice", "platform": "stackexchange", "value": 0.0, "timestamp": "1783582114"}
+{"keyword": "How do I copy an array N amount of times via formula, stacking it in the end of other", "platform": "stackexchange", "value": 0.0, "timestamp": "1783601247"}
+{"keyword": "Runing sh or bash script cmds from the botton to the top", "platform": "stackexchange", "value": 0.0, "timestamp": "1783636469"}
+{"keyword": "In a C++ class, how do I declare friendship with a templated function in another namespace?", "platform": "stackexchange", "value": 1.0, "timestamp": "1783628916"}
+{"keyword": "What is wrong with using `forward` without the `std::` qualifier?", "platform": "stackexchange", "value": 0.0, "timestamp": "1783629994"}
+{"keyword": "Artifacts after DCT Transformation", "platform": "stackexchange", "value": 1.0, "timestamp": "1783624702"}
+{"keyword": "How to match numbers AND the parentheses that surround them using regular expressions in pyspark", "platform": "stackexchange", "value": 0.0, "timestamp": "1783616584"}
+{"keyword": "geom_ribbon creating gaps / not filling-in all of area to be shaded?", "platform": "stackexchange", "value": 3.0, "timestamp": "1783611919"}
+{"keyword": "MemberNotNull doesn&#39;t work on static instantiator", "platform": "stackexchange", "value": 5.0, "timestamp": "1783582258"}
+{"keyword": "How to dynamically preserve JSON keys as CSV headers with MinIO select_object_content?", "platform": "stackexchange", "value": 0.0, "timestamp": "1783621657"}
+{"keyword": "why this code generates two destructor message, and why this happens without Constructing twice", "platform": "stackexchange", "value": 0.0, "timestamp": "1783582114"}
+{"keyword": "How do I copy an array N amount of times via formula, stacking it in the end of other", "platform": "stackexchange", "value": 0.0, "timestamp": "1783601247"}
