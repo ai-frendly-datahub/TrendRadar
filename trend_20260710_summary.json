@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-10",
+  "category": "trend",
+  "article_count": 164,
+  "source_count": 2,
+  "matched_count": 164,
+  "top_entities": [
+    {
+      "name": "Seoul",
+      "count": 9
+    },
+    {
+      "name": "South Korea",
+      "count": 9
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 9
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 9
+    },
+    {
+      "name": "Machine learning",
+      "count": 9
+    },
+    {
+      "name": "World Wide Web",
+      "count": 9
+    },
+    {
+      "name": "Samsung",
+      "count": 9
+    },
+    {
+      "name": "Netflix",
+      "count": 9
+    },
+    {
+      "name": "Bitcoin",
+      "count": 9
+    },
+    {
+      "name": "Climate change",
+      "count": 9
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 9
+    },
+    {
+      "name": "E-commerce",
+      "count": 9
+    },
+    {
+      "name": "YouTube",
+      "count": 9
+    },
+    {
+      "name": "OpenAI",
+      "count": 9
+    },
+    {
+      "name": "K-pop",
+      "count": 8
+    },
+    {
+      "name": "강남 아파트",
+      "count": 1
+    },
+    {
+      "name": "송파 전세",
+      "count": 1
+    },
+    {
+      "name": "마포 매매",
+      "count": 1
+    },
+    {
+      "name": "분양권",
+      "count": 1
+    },
+    {
+      "name": "서울 부동산",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "wikipedia": 134,
+    "google": 30
+  },
+  "generated_at": "2026-07-10T21:23:46.533565+09:00"
+}
