@@ -6,6 +6,14 @@
   "matched_count": 164,
   "top_entities": [
     {
+      "name": "Machine learning",
+      "count": 9
+    },
+    {
+      "name": "YouTube",
+      "count": 9
+    },
+    {
       "name": "Seoul",
       "count": 9
     },
@@ -19,10 +27,6 @@
     },
     {
       "name": "Artificial intelligence",
-      "count": 9
-    },
-    {
-      "name": "Machine learning",
       "count": 9
     },
     {
@@ -51,10 +55,6 @@
     },
     {
       "name": "E-commerce",
-      "count": 9
-    },
-    {
-      "name": "YouTube",
       "count": 9
     },
     {
@@ -90,5 +90,5 @@
     "wikipedia": 134,
     "google": 30
   },
-  "generated_at": "2026-07-10T21:23:46.533565+09:00"
+  "generated_at": "2026-07-10T22:58:08.887939+00:00"
 }
