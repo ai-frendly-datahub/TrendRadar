@@ -6,15 +6,11 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "South Korea",
+      "name": "Machine learning",
       "count": 10
     },
     {
       "name": "World Wide Web",
-      "count": 10
-    },
-    {
-      "name": "Machine learning",
       "count": 10
     },
     {
@@ -23,6 +19,10 @@
     },
     {
       "name": "Python (programming language)",
+      "count": 10
+    },
+    {
+      "name": "South Korea",
       "count": 10
     },
     {
@@ -46,10 +46,6 @@
       "count": 9
     },
     {
-      "name": "Climate change",
-      "count": 9
-    },
-    {
       "name": "Bitcoin",
       "count": 9
     },
@@ -63,6 +59,10 @@
     },
     {
       "name": "K-pop",
+      "count": 9
+    },
+    {
+      "name": "Climate change",
       "count": 9
     },
     {
@@ -90,5 +90,5 @@
     "google": 60,
     "wikipedia": 140
   },
-  "generated_at": "2026-07-12T20:09:11.162022+09:00"
+  "generated_at": "2026-07-12T22:44:15.633471+00:00"
 }
