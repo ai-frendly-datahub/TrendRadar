@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T11:24:13.645210+00:00",
+  "generated_at": "2026-07-14T22:55:45.629406+00:00",
   "target_date": "2026-07-14",
   "repo": "TrendRadar",
   "summary": {
@@ -6458,6 +6458,38 @@
     },
     {
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:youtube:2026-07-04",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "YouTube",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-07-04",
+      "raw_value": 40848.0,
+      "normalized_value": 65.629,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 10,
+      "freshness_status": "stale",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 65.629,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:netflix:2026-07-04",
       "keyword_set_name": "Wikipedia 참조 관심 트렌드",
       "keyword_pack_version": "2026.04",
@@ -6490,7 +6522,7 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:world-wide-web:2026-07-04",
+      "signal_key": "attention_signal:wikipedia:wikipedia:openai:2026-07-04",
       "keyword_set_name": "Wikipedia 참조 관심 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
@@ -6499,12 +6531,12 @@
       },
       "taxonomy_vertical": "reference_attention",
       "taxonomy_intent": "public_attention",
-      "keyword": "World Wide Web",
+      "keyword": "OpenAI",
       "channel": "wikipedia",
       "source": "wikipedia",
       "signal_date": "2026-07-04",
-      "raw_value": 4796.0,
-      "normalized_value": 7.706,
+      "raw_value": 4611.0,
+      "normalized_value": 7.408,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 10,
@@ -6512,7 +6544,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 7.706,
+      "attention_score": 7.408,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6586,38 +6618,6 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-07-04",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Seoul",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-07-04",
-      "raw_value": 1870.0,
-      "normalized_value": 3.004,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 10,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 3.004,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:climate-change:2026-07-04",
       "keyword_set_name": "Wikipedia 참조 관심 트렌드",
       "keyword_pack_version": "2026.04",
@@ -6650,7 +6650,7 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:machine-learning:2026-07-04",
+      "signal_key": "attention_signal:wikipedia:wikipedia:e-commerce:2026-07-04",
       "keyword_set_name": "Wikipedia 참조 관심 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
@@ -6659,12 +6659,12 @@
       },
       "taxonomy_vertical": "reference_attention",
       "taxonomy_intent": "public_attention",
-      "keyword": "Machine learning",
+      "keyword": "E-commerce",
       "channel": "wikipedia",
       "source": "wikipedia",
       "signal_date": "2026-07-04",
-      "raw_value": 1375.0,
-      "normalized_value": 2.209,
+      "raw_value": 630.0,
+      "normalized_value": 1.012,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 10,
@@ -6672,7 +6672,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.209,
+      "attention_score": 1.012,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6682,7 +6682,7 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:k-pop:2026-07-04",
+      "signal_key": "attention_signal:wikipedia:wikipedia:electric-vehicle:2026-07-04",
       "keyword_set_name": "Wikipedia 참조 관심 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
@@ -6691,12 +6691,12 @@
       },
       "taxonomy_vertical": "reference_attention",
       "taxonomy_intent": "public_attention",
-      "keyword": "K-pop",
+      "keyword": "Electric vehicle",
       "channel": "wikipedia",
       "source": "wikipedia",
       "signal_date": "2026-07-04",
-      "raw_value": 1336.0,
-      "normalized_value": 2.146,
+      "raw_value": 368.0,
+      "normalized_value": 0.591,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 10,
@@ -6704,7 +6704,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.146,
+      "attention_score": 0.591,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [

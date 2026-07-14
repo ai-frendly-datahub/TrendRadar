@@ -14,3 +14,31 @@
 {"keyword": "Remove multiple occurrences of similar lines except the last", "platform": "stackexchange", "value": 5.0, "timestamp": "1783971867"}
 {"keyword": "Is there any way to make Microsoft&#39;s swprintf implementation standards-conforming?", "platform": "stackexchange", "value": 3.0, "timestamp": "1783975404"}
 {"keyword": "How to remove contextmenu event without using getEventListeners() in bookmarklet?", "platform": "stackexchange", "value": 1.0, "timestamp": "1783993084"}
+{"keyword": "How to pass additional command line arguments when launching windows store apps from command line?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784066547"}
+{"keyword": "Why is vector&lt;int&gt; const not the same type as vector&lt;const int&gt; const?", "platform": "stackexchange", "value": 1.0, "timestamp": "1784065292"}
+{"keyword": "Add controlling properties to make drag and drop experience smoother", "platform": "stackexchange", "value": 0.0, "timestamp": "1784057753"}
+{"keyword": "Catch KeyboardInterrupt but not asyncio.CancelledError", "platform": "stackexchange", "value": 0.0, "timestamp": "1784059995"}
+{"keyword": "Collecting fill guides but not size guides using patchworks wrap_plots()", "platform": "stackexchange", "value": 1.0, "timestamp": "1784062528"}
+{"keyword": "Should I authenticate Blazor through an API?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784058915"}
+{"keyword": "problem with plpgsql trigger during update table with triggered column", "platform": "stackexchange", "value": 2.0, "timestamp": "1784045436"}
+{"keyword": "Why does useEffect show an old external store value after React Activity is shown again?", "platform": "stackexchange", "value": 1.0, "timestamp": "1784049717"}
+{"keyword": "Subfile WRITE fails with CPF5021 (status 9N / extended status 831D), even on a minimal test program", "platform": "stackexchange", "value": 0.0, "timestamp": "1784043049"}
+{"keyword": "Using Spyder without .py extension", "platform": "stackexchange", "value": 1.0, "timestamp": "1784046794"}
+{"keyword": "Faster way to kill the current process programmatically", "platform": "stackexchange", "value": 1.0, "timestamp": "1784041588"}
+{"keyword": "HLSL TraceRay always return no intersection", "platform": "stackexchange", "value": 0.0, "timestamp": "1784021590"}
+{"keyword": "How to use the &quot;JavaScript Express Application&quot; project type in Visual Studio 2026?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784033506"}
+{"keyword": "Angular pipe not reacting to observable/signal?", "platform": "stackexchange", "value": 2.0, "timestamp": "1784038266"}
+{"keyword": "How to pass additional command line arguments when launching windows store apps from command line?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784066547"}
+{"keyword": "Why is vector&lt;int&gt; const not the same type as vector&lt;const int&gt; const?", "platform": "stackexchange", "value": 1.0, "timestamp": "1784065292"}
+{"keyword": "Add controlling properties to make drag and drop experience smoother", "platform": "stackexchange", "value": 0.0, "timestamp": "1784057753"}
+{"keyword": "Catch KeyboardInterrupt but not asyncio.CancelledError", "platform": "stackexchange", "value": 0.0, "timestamp": "1784059995"}
+{"keyword": "Collecting fill guides but not size guides using patchworks wrap_plots()", "platform": "stackexchange", "value": 1.0, "timestamp": "1784062528"}
+{"keyword": "Should I authenticate Blazor through an API?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784058915"}
+{"keyword": "problem with plpgsql trigger during update table with triggered column", "platform": "stackexchange", "value": 2.0, "timestamp": "1784045436"}
+{"keyword": "Why does useEffect show an old external store value after React Activity is shown again?", "platform": "stackexchange", "value": 1.0, "timestamp": "1784049717"}
+{"keyword": "Subfile WRITE fails with CPF5021 (status 9N / extended status 831D), even on a minimal test program", "platform": "stackexchange", "value": 0.0, "timestamp": "1784043049"}
+{"keyword": "Using Spyder without .py extension", "platform": "stackexchange", "value": 1.0, "timestamp": "1784046794"}
+{"keyword": "Faster way to kill the current process programmatically", "platform": "stackexchange", "value": 1.0, "timestamp": "1784041588"}
+{"keyword": "HLSL TraceRay always return no intersection", "platform": "stackexchange", "value": 0.0, "timestamp": "1784021590"}
+{"keyword": "How to use the &quot;JavaScript Express Application&quot; project type in Visual Studio 2026?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784033506"}
+{"keyword": "Angular pipe not reacting to observable/signal?", "platform": "stackexchange", "value": 2.0, "timestamp": "1784038266"}

@@ -6,19 +6,15 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Machine learning",
+      "name": "OpenAI",
       "count": 10
     },
     {
-      "name": "Samsung",
+      "name": "E-commerce",
       "count": 10
     },
     {
-      "name": "Netflix",
-      "count": 10
-    },
-    {
-      "name": "Bitcoin",
+      "name": "Electric vehicle",
       "count": 10
     },
     {
@@ -26,7 +22,27 @@
       "count": 10
     },
     {
-      "name": "Electric vehicle",
+      "name": "Bitcoin",
+      "count": 10
+    },
+    {
+      "name": "Netflix",
+      "count": 10
+    },
+    {
+      "name": "Samsung",
+      "count": 10
+    },
+    {
+      "name": "YouTube",
+      "count": 10
+    },
+    {
+      "name": "Machine learning",
+      "count": 9
+    },
+    {
+      "name": "Artificial intelligence",
       "count": 9
     },
     {
@@ -38,35 +54,27 @@
       "count": 9
     },
     {
-      "name": "Artificial intelligence",
-      "count": 9
-    },
-    {
       "name": "K-pop",
-      "count": 9
-    },
-    {
-      "name": "OpenAI",
-      "count": 9
-    },
-    {
-      "name": "YouTube",
-      "count": 9
-    },
-    {
-      "name": "E-commerce",
-      "count": 9
-    },
-    {
-      "name": "Seoul",
-      "count": 9
+      "count": 8
     },
     {
       "name": "World Wide Web",
-      "count": 9
+      "count": 8
     },
     {
-      "name": "유튜버",
+      "name": "Seoul",
+      "count": 8
+    },
+    {
+      "name": "유명인",
+      "count": 2
+    },
+    {
+      "name": "가수",
+      "count": 2
+    },
+    {
+      "name": "에스파",
       "count": 2
     },
     {
@@ -74,15 +82,7 @@
       "count": 2
     },
     {
-      "name": "인플루언서",
-      "count": 2
-    },
-    {
-      "name": "K-POP",
-      "count": 2
-    },
-    {
-      "name": "스포츠 선수",
+      "name": "블랙핑크",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 140,
     "google": 60
   },
-  "generated_at": "2026-07-14T20:24:14.959428+09:00"
+  "generated_at": "2026-07-14T22:55:34.730378+00:00"
 }
