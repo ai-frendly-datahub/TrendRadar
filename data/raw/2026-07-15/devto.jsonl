@@ -54,3 +54,119 @@
 {"keyword": "How to Build a JavaScript Framework", "platform": "devto", "value": 2.0, "timestamp": "2026-07-14T15:16:59Z"}
 {"keyword": "We Open-Sourced 42 Construction Calculators — Here's Why", "platform": "devto", "value": 3.0, "timestamp": "2026-07-14T12:26:49Z"}
 {"keyword": "RepCN Repository builder open-source tool", "platform": "devto", "value": 6.0, "timestamp": "2026-07-14T16:17:26Z"}
+{"keyword": "The AI Jackpot: Why Prompting Feels Like Gambling", "platform": "devto", "value": 9.0, "timestamp": "2026-07-15T14:53:37Z"}
+{"keyword": "My benchmark's Python column was N/A for a year — CPython's 4300-digit limit, and eight other bugs", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T18:56:09Z"}
+{"keyword": "Why did my benchmark stop at N=22? A debugging story in nine bugs", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T18:56:45Z"}
+{"keyword": "/proc, pkexec, and 678 commits", "platform": "devto", "value": 14.0, "timestamp": "2026-07-15T18:12:51Z"}
+{"keyword": "Eighty Percent Done Is Not a Real Number", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T12:51:00Z"}
+{"keyword": "The SSE Fragmentation Catastrophe That Took Down CareerPilot AI", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T09:51:27Z"}
+{"keyword": "A Receipt Is Not Proof Forever. It Is a Promise to Reopen the Claim.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-14T23:34:29Z"}
+{"keyword": "I Pre-Registered a Hypothesis. 600 API Calls Later, the Data Killed It.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T11:29:25Z"}
+{"keyword": "I Built a Tool to Visualize DSA. Let’s Learn Together! (DSA View View 👀👀)", "platform": "devto", "value": 10.0, "timestamp": "2026-07-15T12:04:25Z"}
+{"keyword": "How We Cut Our Browser Video Renderer's Frame Time by 80%", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T01:22:58Z"}
+{"keyword": "AI Agent Cost Drift: 0.35%/day Is Invisible to Your Dashboard", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T00:47:52Z"}
+{"keyword": "nvm loses your global CLIs every time you switch. So I fixed it.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-14T23:51:10Z"}
+{"keyword": "Build One AI Tool Server, Call It From Three Different Agents (MCP Explained)", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T20:35:35Z"}
+{"keyword": "Building an AI Agent That Knows When Not to Guess (Qwen + MCP)", "platform": "devto", "value": 14.0, "timestamp": "2026-07-15T16:23:34Z"}
+{"keyword": "5 Trends That Defined AI Engineering at World’s Fair 2026", "platform": "devto", "value": 5.0, "timestamp": "2026-07-14T23:21:21Z"}
+{"keyword": "Type-safe LLM outputs with Zod: stop guessing what the model returns.", "platform": "devto", "value": 8.0, "timestamp": "2026-07-15T03:34:13Z"}
+{"keyword": "Stratagems #14: Leo Found an AI Leak. He Wasn't the First to Find It.", "platform": "devto", "value": 38.0, "timestamp": "2026-07-15T00:40:43Z"}
+{"keyword": "My Demo Script Found a Production Bug on Its First Run: A Tiny Post-Mortem", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T20:36:09Z"}
+{"keyword": "Teaching a Qwen agent to forget", "platform": "devto", "value": 4.0, "timestamp": "2026-07-15T12:57:56Z"}
+{"keyword": "How to evaluate a slide-change detector without fooling yourself", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T04:49:31Z"}
+{"keyword": "The Ghost in the Machine: Hunting a Memory Leak I Couldn't See the Source Of.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T08:09:42Z"}
+{"keyword": "uv is amazing and that's exactly what should scare Python devs", "platform": "devto", "value": 6.0, "timestamp": "2026-07-15T10:24:20Z"}
+{"keyword": "My Commit Message Generator Kept Signing Its Own Work. Telling It Not To Wasn't the Fix.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T12:35:39Z"}
+{"keyword": "Why `npm audit` Isn't Enough to Secure Your React or Next.js App", "platform": "devto", "value": 4.0, "timestamp": "2026-07-15T05:10:02Z"}
+{"keyword": "Proof-Adjusted Autonomy: The 90% Agent Is a 61.6% Agent", "platform": "devto", "value": 1.0, "timestamp": "2026-07-14T23:21:27Z"}
+{"keyword": "SchemaCrawler Scribe + Google OKF: AI-Ready Database Docs You Can Keep in Git", "platform": "devto", "value": 3.0, "timestamp": "2026-07-14T23:58:09Z"}
+{"keyword": "Fibers Plus the Polling API: What Async PHP Actually Looks Like Now", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T18:25:05Z"}
+{"keyword": "The Chatbot Was Easy. The Engineering Wasn't.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-15T14:42:57Z"}
+{"keyword": "Skip the Middleman: Connecting Your UI Directly to an AI Agent via WebSocket", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T15:37:00Z"}
+{"keyword": "The AI Jackpot: Why Prompting Feels Like Gambling", "platform": "devto", "value": 9.0, "timestamp": "2026-07-15T14:53:37Z"}
+{"keyword": "My benchmark's Python column was N/A for a year — CPython's 4300-digit limit, and eight other bugs", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T18:56:09Z"}
+{"keyword": "Why did my benchmark stop at N=22? A debugging story in nine bugs", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T18:56:45Z"}
+{"keyword": "/proc, pkexec, and 678 commits", "platform": "devto", "value": 14.0, "timestamp": "2026-07-15T18:12:51Z"}
+{"keyword": "Eighty Percent Done Is Not a Real Number", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T12:51:00Z"}
+{"keyword": "The SSE Fragmentation Catastrophe That Took Down CareerPilot AI", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T09:51:27Z"}
+{"keyword": "A Receipt Is Not Proof Forever. It Is a Promise to Reopen the Claim.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-14T23:34:29Z"}
+{"keyword": "I Pre-Registered a Hypothesis. 600 API Calls Later, the Data Killed It.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T11:29:25Z"}
+{"keyword": "I Built a Tool to Visualize DSA. Let’s Learn Together! (DSA View View 👀👀)", "platform": "devto", "value": 10.0, "timestamp": "2026-07-15T12:04:25Z"}
+{"keyword": "How We Cut Our Browser Video Renderer's Frame Time by 80%", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T01:22:58Z"}
+{"keyword": "AI Agent Cost Drift: 0.35%/day Is Invisible to Your Dashboard", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T00:47:52Z"}
+{"keyword": "nvm loses your global CLIs every time you switch. So I fixed it.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-14T23:51:10Z"}
+{"keyword": "Build One AI Tool Server, Call It From Three Different Agents (MCP Explained)", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T20:35:35Z"}
+{"keyword": "Building an AI Agent That Knows When Not to Guess (Qwen + MCP)", "platform": "devto", "value": 14.0, "timestamp": "2026-07-15T16:23:34Z"}
+{"keyword": "5 Trends That Defined AI Engineering at World’s Fair 2026", "platform": "devto", "value": 5.0, "timestamp": "2026-07-14T23:21:21Z"}
+{"keyword": "Type-safe LLM outputs with Zod: stop guessing what the model returns.", "platform": "devto", "value": 8.0, "timestamp": "2026-07-15T03:34:13Z"}
+{"keyword": "Stratagems #14: Leo Found an AI Leak. He Wasn't the First to Find It.", "platform": "devto", "value": 38.0, "timestamp": "2026-07-15T00:40:43Z"}
+{"keyword": "My Demo Script Found a Production Bug on Its First Run: A Tiny Post-Mortem", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T20:36:09Z"}
+{"keyword": "Teaching a Qwen agent to forget", "platform": "devto", "value": 4.0, "timestamp": "2026-07-15T12:57:56Z"}
+{"keyword": "How to evaluate a slide-change detector without fooling yourself", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T04:49:31Z"}
+{"keyword": "The Ghost in the Machine: Hunting a Memory Leak I Couldn't See the Source Of.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T08:09:42Z"}
+{"keyword": "uv is amazing and that's exactly what should scare Python devs", "platform": "devto", "value": 6.0, "timestamp": "2026-07-15T10:24:20Z"}
+{"keyword": "My Commit Message Generator Kept Signing Its Own Work. Telling It Not To Wasn't the Fix.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T12:35:39Z"}
+{"keyword": "Why `npm audit` Isn't Enough to Secure Your React or Next.js App", "platform": "devto", "value": 4.0, "timestamp": "2026-07-15T05:10:02Z"}
+{"keyword": "Proof-Adjusted Autonomy: The 90% Agent Is a 61.6% Agent", "platform": "devto", "value": 1.0, "timestamp": "2026-07-14T23:21:27Z"}
+{"keyword": "SchemaCrawler Scribe + Google OKF: AI-Ready Database Docs You Can Keep in Git", "platform": "devto", "value": 3.0, "timestamp": "2026-07-14T23:58:09Z"}
+{"keyword": "Fibers Plus the Polling API: What Async PHP Actually Looks Like Now", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T18:25:05Z"}
+{"keyword": "The Chatbot Was Easy. The Engineering Wasn't.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-15T14:42:57Z"}
+{"keyword": "Skip the Middleman: Connecting Your UI Directly to an AI Agent via WebSocket", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T15:37:00Z"}
+{"keyword": "The AI Jackpot: Why Prompting Feels Like Gambling", "platform": "devto", "value": 9.0, "timestamp": "2026-07-15T14:53:37Z"}
+{"keyword": "My benchmark's Python column was N/A for a year — CPython's 4300-digit limit, and eight other bugs", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T18:56:09Z"}
+{"keyword": "Why did my benchmark stop at N=22? A debugging story in nine bugs", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T18:56:45Z"}
+{"keyword": "/proc, pkexec, and 678 commits", "platform": "devto", "value": 14.0, "timestamp": "2026-07-15T18:12:51Z"}
+{"keyword": "Eighty Percent Done Is Not a Real Number", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T12:51:00Z"}
+{"keyword": "The SSE Fragmentation Catastrophe That Took Down CareerPilot AI", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T09:51:27Z"}
+{"keyword": "A Receipt Is Not Proof Forever. It Is a Promise to Reopen the Claim.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-14T23:34:29Z"}
+{"keyword": "I Pre-Registered a Hypothesis. 600 API Calls Later, the Data Killed It.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T11:29:25Z"}
+{"keyword": "I Built a Tool to Visualize DSA. Let’s Learn Together! (DSA View View 👀👀)", "platform": "devto", "value": 10.0, "timestamp": "2026-07-15T12:04:25Z"}
+{"keyword": "How We Cut Our Browser Video Renderer's Frame Time by 80%", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T01:22:58Z"}
+{"keyword": "AI Agent Cost Drift: 0.35%/day Is Invisible to Your Dashboard", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T00:47:52Z"}
+{"keyword": "nvm loses your global CLIs every time you switch. So I fixed it.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-14T23:51:10Z"}
+{"keyword": "Build One AI Tool Server, Call It From Three Different Agents (MCP Explained)", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T20:35:35Z"}
+{"keyword": "Building an AI Agent That Knows When Not to Guess (Qwen + MCP)", "platform": "devto", "value": 14.0, "timestamp": "2026-07-15T16:23:34Z"}
+{"keyword": "5 Trends That Defined AI Engineering at World’s Fair 2026", "platform": "devto", "value": 5.0, "timestamp": "2026-07-14T23:21:21Z"}
+{"keyword": "Type-safe LLM outputs with Zod: stop guessing what the model returns.", "platform": "devto", "value": 8.0, "timestamp": "2026-07-15T03:34:13Z"}
+{"keyword": "Stratagems #14: Leo Found an AI Leak. He Wasn't the First to Find It.", "platform": "devto", "value": 38.0, "timestamp": "2026-07-15T00:40:43Z"}
+{"keyword": "My Demo Script Found a Production Bug on Its First Run: A Tiny Post-Mortem", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T20:36:09Z"}
+{"keyword": "Teaching a Qwen agent to forget", "platform": "devto", "value": 4.0, "timestamp": "2026-07-15T12:57:56Z"}
+{"keyword": "How to evaluate a slide-change detector without fooling yourself", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T04:49:31Z"}
+{"keyword": "The Ghost in the Machine: Hunting a Memory Leak I Couldn't See the Source Of.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T08:09:42Z"}
+{"keyword": "uv is amazing and that's exactly what should scare Python devs", "platform": "devto", "value": 6.0, "timestamp": "2026-07-15T10:24:20Z"}
+{"keyword": "My Commit Message Generator Kept Signing Its Own Work. Telling It Not To Wasn't the Fix.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T12:35:39Z"}
+{"keyword": "Why `npm audit` Isn't Enough to Secure Your React or Next.js App", "platform": "devto", "value": 4.0, "timestamp": "2026-07-15T05:10:02Z"}
+{"keyword": "Proof-Adjusted Autonomy: The 90% Agent Is a 61.6% Agent", "platform": "devto", "value": 1.0, "timestamp": "2026-07-14T23:21:27Z"}
+{"keyword": "SchemaCrawler Scribe + Google OKF: AI-Ready Database Docs You Can Keep in Git", "platform": "devto", "value": 3.0, "timestamp": "2026-07-14T23:58:09Z"}
+{"keyword": "Fibers Plus the Polling API: What Async PHP Actually Looks Like Now", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T18:25:05Z"}
+{"keyword": "The Chatbot Was Easy. The Engineering Wasn't.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-15T14:42:57Z"}
+{"keyword": "Skip the Middleman: Connecting Your UI Directly to an AI Agent via WebSocket", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T15:37:00Z"}
+{"keyword": "The AI Jackpot: Why Prompting Feels Like Gambling", "platform": "devto", "value": 9.0, "timestamp": "2026-07-15T14:53:37Z"}
+{"keyword": "My benchmark's Python column was N/A for a year — CPython's 4300-digit limit, and eight other bugs", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T18:56:09Z"}
+{"keyword": "Why did my benchmark stop at N=22? A debugging story in nine bugs", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T18:56:45Z"}
+{"keyword": "/proc, pkexec, and 678 commits", "platform": "devto", "value": 14.0, "timestamp": "2026-07-15T18:12:51Z"}
+{"keyword": "Eighty Percent Done Is Not a Real Number", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T12:51:00Z"}
+{"keyword": "The SSE Fragmentation Catastrophe That Took Down CareerPilot AI", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T09:51:27Z"}
+{"keyword": "A Receipt Is Not Proof Forever. It Is a Promise to Reopen the Claim.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-14T23:34:29Z"}
+{"keyword": "I Pre-Registered a Hypothesis. 600 API Calls Later, the Data Killed It.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T11:29:25Z"}
+{"keyword": "I Built a Tool to Visualize DSA. Let’s Learn Together! (DSA View View 👀👀)", "platform": "devto", "value": 10.0, "timestamp": "2026-07-15T12:04:25Z"}
+{"keyword": "How We Cut Our Browser Video Renderer's Frame Time by 80%", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T01:22:58Z"}
+{"keyword": "AI Agent Cost Drift: 0.35%/day Is Invisible to Your Dashboard", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T00:47:52Z"}
+{"keyword": "nvm loses your global CLIs every time you switch. So I fixed it.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-14T23:51:10Z"}
+{"keyword": "Build One AI Tool Server, Call It From Three Different Agents (MCP Explained)", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T20:35:35Z"}
+{"keyword": "Building an AI Agent That Knows When Not to Guess (Qwen + MCP)", "platform": "devto", "value": 14.0, "timestamp": "2026-07-15T16:23:34Z"}
+{"keyword": "5 Trends That Defined AI Engineering at World’s Fair 2026", "platform": "devto", "value": 5.0, "timestamp": "2026-07-14T23:21:21Z"}
+{"keyword": "Type-safe LLM outputs with Zod: stop guessing what the model returns.", "platform": "devto", "value": 8.0, "timestamp": "2026-07-15T03:34:13Z"}
+{"keyword": "Stratagems #14: Leo Found an AI Leak. He Wasn't the First to Find It.", "platform": "devto", "value": 38.0, "timestamp": "2026-07-15T00:40:43Z"}
+{"keyword": "My Demo Script Found a Production Bug on Its First Run: A Tiny Post-Mortem", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T20:36:09Z"}
+{"keyword": "Teaching a Qwen agent to forget", "platform": "devto", "value": 4.0, "timestamp": "2026-07-15T12:57:56Z"}
+{"keyword": "How to evaluate a slide-change detector without fooling yourself", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T04:49:31Z"}
+{"keyword": "The Ghost in the Machine: Hunting a Memory Leak I Couldn't See the Source Of.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T08:09:42Z"}
+{"keyword": "uv is amazing and that's exactly what should scare Python devs", "platform": "devto", "value": 6.0, "timestamp": "2026-07-15T10:24:20Z"}
+{"keyword": "My Commit Message Generator Kept Signing Its Own Work. Telling It Not To Wasn't the Fix.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T12:35:39Z"}
+{"keyword": "Why `npm audit` Isn't Enough to Secure Your React or Next.js App", "platform": "devto", "value": 4.0, "timestamp": "2026-07-15T05:10:02Z"}
+{"keyword": "Proof-Adjusted Autonomy: The 90% Agent Is a 61.6% Agent", "platform": "devto", "value": 1.0, "timestamp": "2026-07-14T23:21:27Z"}
+{"keyword": "SchemaCrawler Scribe + Google OKF: AI-Ready Database Docs You Can Keep in Git", "platform": "devto", "value": 3.0, "timestamp": "2026-07-14T23:58:09Z"}
+{"keyword": "Fibers Plus the Polling API: What Async PHP Actually Looks Like Now", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T18:25:05Z"}
+{"keyword": "The Chatbot Was Easy. The Engineering Wasn't.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-15T14:42:57Z"}
+{"keyword": "Skip the Middleman: Connecting Your UI Directly to an AI Agent via WebSocket", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T15:37:00Z"}
