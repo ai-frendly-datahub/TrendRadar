@@ -6,10 +6,6 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Samsung",
-      "count": 10
-    },
-    {
       "name": "OpenAI",
       "count": 10
     },
@@ -22,23 +18,7 @@
       "count": 10
     },
     {
-      "name": "South Korea",
-      "count": 10
-    },
-    {
       "name": "Electric vehicle",
-      "count": 10
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 10
-    },
-    {
-      "name": "Climate change",
-      "count": 10
-    },
-    {
-      "name": "Artificial intelligence",
       "count": 10
     },
     {
@@ -46,19 +26,15 @@
       "count": 10
     },
     {
-      "name": "Netflix",
+      "name": "Samsung",
       "count": 10
     },
     {
-      "name": "Seoul",
-      "count": 9
+      "name": "Climate change",
+      "count": 10
     },
     {
-      "name": "K-pop",
-      "count": 9
-    },
-    {
-      "name": "World Wide Web",
+      "name": "South Korea",
       "count": 9
     },
     {
@@ -66,29 +42,53 @@
       "count": 9
     },
     {
-      "name": "유명인",
+      "name": "Artificial intelligence",
+      "count": 9
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 9
+    },
+    {
+      "name": "K-pop",
+      "count": 9
+    },
+    {
+      "name": "Netflix",
+      "count": 9
+    },
+    {
+      "name": "World Wide Web",
+      "count": 8
+    },
+    {
+      "name": "Seoul",
+      "count": 8
+    },
+    {
+      "name": "재건축",
       "count": 2
     },
     {
-      "name": "아이돌",
+      "name": "보이그룹",
       "count": 2
     },
     {
-      "name": "연예인",
+      "name": "인플루언서",
       "count": 2
     },
     {
-      "name": "걸그룹",
+      "name": "송파 전세",
       "count": 2
     },
     {
-      "name": "배우",
+      "name": "스포츠 선수",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 146,
-    "google": 54
+    "wikipedia": 140,
+    "google": 60
   },
-  "generated_at": "2026-07-15T20:27:24.906146+09:00"
+  "generated_at": "2026-07-15T22:57:24.125167+00:00"
 }
