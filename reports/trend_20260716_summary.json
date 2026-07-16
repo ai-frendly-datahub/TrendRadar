@@ -6,23 +6,7 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Samsung",
-      "count": 11
-    },
-    {
-      "name": "Bitcoin",
-      "count": 11
-    },
-    {
-      "name": "Climate change",
-      "count": 11
-    },
-    {
-      "name": "Netflix",
-      "count": 10
-    },
-    {
-      "name": "Electric vehicle",
+      "name": "OpenAI",
       "count": 10
     },
     {
@@ -30,27 +14,23 @@
       "count": 10
     },
     {
-      "name": "YouTube",
+      "name": "Electric vehicle",
       "count": 10
     },
     {
-      "name": "OpenAI",
+      "name": "Climate change",
       "count": 10
     },
     {
-      "name": "South Korea",
+      "name": "Bitcoin",
       "count": 10
     },
     {
-      "name": "Python (programming language)",
+      "name": "Netflix",
       "count": 10
     },
     {
-      "name": "Artificial intelligence",
-      "count": 10
-    },
-    {
-      "name": "Machine learning",
+      "name": "Samsung",
       "count": 10
     },
     {
@@ -58,37 +38,57 @@
       "count": 10
     },
     {
-      "name": "Seoul",
-      "count": 9
+      "name": "Machine learning",
+      "count": 10
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 10
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 10
+    },
+    {
+      "name": "South Korea",
+      "count": 10
+    },
+    {
+      "name": "YouTube",
+      "count": 10
     },
     {
       "name": "World Wide Web",
       "count": 9
     },
     {
-      "name": "유튜버",
+      "name": "Seoul",
+      "count": 9
+    },
+    {
+      "name": "서울 부동산",
       "count": 2
     },
     {
-      "name": "블랙핑크",
+      "name": "보이그룹",
       "count": 2
     },
     {
-      "name": "유명인",
+      "name": "분양권",
       "count": 2
     },
     {
-      "name": "마포 매매",
+      "name": "가수",
       "count": 2
     },
     {
-      "name": "부동산 시장",
+      "name": "배우",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 151,
-    "google": 49
+    "wikipedia": 148,
+    "google": 52
   },
-  "generated_at": "2026-07-16T20:30:31.734218+09:00"
+  "generated_at": "2026-07-16T22:55:39.569371+00:00"
 }
