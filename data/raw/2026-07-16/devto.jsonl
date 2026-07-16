@@ -1,0 +1,56 @@
+{"keyword": "Eighty Percent Done Is Not a Real Number", "platform": "devto", "value": 18.0, "timestamp": "2026-07-15T12:51:00Z"}
+{"keyword": "Why did my benchmark stop at N=22? A debugging story in nine bugs", "platform": "devto", "value": 12.0, "timestamp": "2026-07-15T18:56:45Z"}
+{"keyword": "My benchmark's Python column was N/A for a year — CPython's 4300-digit limit, and eight other bugs", "platform": "devto", "value": 7.0, "timestamp": "2026-07-15T18:56:09Z"}
+{"keyword": "/proc, pkexec, and 678 commits", "platform": "devto", "value": 20.0, "timestamp": "2026-07-15T18:12:51Z"}
+{"keyword": "I Built a Tool to Visualize DSA. Let’s Learn Together! (DSA View View 👀👀)", "platform": "devto", "value": 21.0, "timestamp": "2026-07-15T12:04:25Z"}
+{"keyword": "Smash Story: The Demo Script That Out-Debugged My Test Suite", "platform": "devto", "value": 7.0, "timestamp": "2026-07-15T23:58:42Z"}
+{"keyword": "Building an AI Agent That Knows When Not to Guess (Qwen + MCP)", "platform": "devto", "value": 23.0, "timestamp": "2026-07-15T16:23:34Z"}
+{"keyword": "Teaching a Qwen agent to forget", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T12:57:56Z"}
+{"keyword": "My Demo Script Found a Production Bug on Its First Run: A Tiny Post-Mortem", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T20:36:09Z"}
+{"keyword": "I fixed a smolagents bug that confused everyone who hit it (with Sentry watching the whole time)", "platform": "devto", "value": 7.0, "timestamp": "2026-07-16T05:31:48Z"}
+{"keyword": "I Pre-Registered a Hypothesis. 600 API Calls Later, the Data Killed It.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T11:29:25Z"}
+{"keyword": "We Planted 10 Vulnerabilities to Test Free Semgrep. It Reported 3.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-16T02:21:50Z"}
+{"keyword": "Build One AI Tool Server, Call It From Three Different Agents (MCP Explained)", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T20:35:35Z"}
+{"keyword": "Stratagems #15: Derek and Alex Shared One Server. ACL's AI Was Listening to Both.", "platform": "devto", "value": 43.0, "timestamp": "2026-07-16T00:22:34Z"}
+{"keyword": "I stopped trusting my own app's encryption, so I rebuilt it — ATLOCK v4 is Here.", "platform": "devto", "value": 16.0, "timestamp": "2026-07-16T07:04:47Z"}
+{"keyword": "I built 8 security layers for an MCP marketplace. Here's what each one actually catches.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-16T00:48:40Z"}
+{"keyword": "Fibers Plus the Polling API: What Async PHP Actually Looks Like Now", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T18:25:05Z"}
+{"keyword": "That Arrow in Every RAG Diagram Cost Us Three Weeks.", "platform": "devto", "value": 9.0, "timestamp": "2026-07-16T03:48:31Z"}
+{"keyword": "The Chatbot Was Easy. The Engineering Wasn't.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-15T14:42:57Z"}
+{"keyword": "My Commit Message Generator Kept Signing Its Own Work. Telling It Not To Wasn't the Fix.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T12:35:39Z"}
+{"keyword": "I audited my own AI-generated refactor and found 46 bugs. Here's what that taught me.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T20:21:07Z"}
+{"keyword": "BrowserAct vs Agent Browser: A Hands-On Stealth Execution Comparison", "platform": "devto", "value": 3.0, "timestamp": "2026-07-16T07:45:58Z"}
+{"keyword": "LLM Evals For Developer Tools: Useful, Correct, Safe", "platform": "devto", "value": 23.0, "timestamp": "2026-07-16T01:54:26Z"}
+{"keyword": "Skip the Middleman: Connecting Your UI Directly to an AI Agent via WebSocket", "platform": "devto", "value": 6.0, "timestamp": "2026-07-15T15:37:00Z"}
+{"keyword": "Not a New Deal", "platform": "devto", "value": 0.0, "timestamp": "2026-07-16T11:00:00Z"}
+{"keyword": "Post-Mortem: Building a Local MCP Server for Codebase Memory using Ollama and ChromaDB", "platform": "devto", "value": 7.0, "timestamp": "2026-07-15T23:46:16Z"}
+{"keyword": "citefid 0.1.0: verificar la fidelidad de citas en wikis OKF con NLI (AUC 0.7029 sobre código)", "platform": "devto", "value": 10.0, "timestamp": "2026-07-16T02:28:38Z"}
+{"keyword": "Your CSS Grid cards look misaligned. `subgrid` is the fix you didn't know existed.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-16T08:21:26Z"}
+{"keyword": "Eighty Percent Done Is Not a Real Number", "platform": "devto", "value": 18.0, "timestamp": "2026-07-15T12:51:00Z"}
+{"keyword": "Why did my benchmark stop at N=22? A debugging story in nine bugs", "platform": "devto", "value": 12.0, "timestamp": "2026-07-15T18:56:45Z"}
+{"keyword": "My benchmark's Python column was N/A for a year — CPython's 4300-digit limit, and eight other bugs", "platform": "devto", "value": 7.0, "timestamp": "2026-07-15T18:56:09Z"}
+{"keyword": "/proc, pkexec, and 678 commits", "platform": "devto", "value": 20.0, "timestamp": "2026-07-15T18:12:51Z"}
+{"keyword": "I Built a Tool to Visualize DSA. Let’s Learn Together! (DSA View View 👀👀)", "platform": "devto", "value": 21.0, "timestamp": "2026-07-15T12:04:25Z"}
+{"keyword": "Smash Story: The Demo Script That Out-Debugged My Test Suite", "platform": "devto", "value": 7.0, "timestamp": "2026-07-15T23:58:42Z"}
+{"keyword": "Building an AI Agent That Knows When Not to Guess (Qwen + MCP)", "platform": "devto", "value": 23.0, "timestamp": "2026-07-15T16:23:34Z"}
+{"keyword": "Teaching a Qwen agent to forget", "platform": "devto", "value": 5.0, "timestamp": "2026-07-15T12:57:56Z"}
+{"keyword": "My Demo Script Found a Production Bug on Its First Run: A Tiny Post-Mortem", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T20:36:09Z"}
+{"keyword": "I fixed a smolagents bug that confused everyone who hit it (with Sentry watching the whole time)", "platform": "devto", "value": 7.0, "timestamp": "2026-07-16T05:31:48Z"}
+{"keyword": "I Pre-Registered a Hypothesis. 600 API Calls Later, the Data Killed It.", "platform": "devto", "value": 3.0, "timestamp": "2026-07-15T11:29:25Z"}
+{"keyword": "We Planted 10 Vulnerabilities to Test Free Semgrep. It Reported 3.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-16T02:21:50Z"}
+{"keyword": "Build One AI Tool Server, Call It From Three Different Agents (MCP Explained)", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T20:35:35Z"}
+{"keyword": "Stratagems #15: Derek and Alex Shared One Server. ACL's AI Was Listening to Both.", "platform": "devto", "value": 43.0, "timestamp": "2026-07-16T00:22:34Z"}
+{"keyword": "I stopped trusting my own app's encryption, so I rebuilt it — ATLOCK v4 is Here.", "platform": "devto", "value": 16.0, "timestamp": "2026-07-16T07:04:47Z"}
+{"keyword": "I built 8 security layers for an MCP marketplace. Here's what each one actually catches.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-16T00:48:40Z"}
+{"keyword": "Fibers Plus the Polling API: What Async PHP Actually Looks Like Now", "platform": "devto", "value": 0.0, "timestamp": "2026-07-15T18:25:05Z"}
+{"keyword": "That Arrow in Every RAG Diagram Cost Us Three Weeks.", "platform": "devto", "value": 9.0, "timestamp": "2026-07-16T03:48:31Z"}
+{"keyword": "The Chatbot Was Easy. The Engineering Wasn't.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-15T14:42:57Z"}
+{"keyword": "My Commit Message Generator Kept Signing Its Own Work. Telling It Not To Wasn't the Fix.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-15T12:35:39Z"}
+{"keyword": "I audited my own AI-generated refactor and found 46 bugs. Here's what that taught me.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-15T20:21:07Z"}
+{"keyword": "BrowserAct vs Agent Browser: A Hands-On Stealth Execution Comparison", "platform": "devto", "value": 3.0, "timestamp": "2026-07-16T07:45:58Z"}
+{"keyword": "LLM Evals For Developer Tools: Useful, Correct, Safe", "platform": "devto", "value": 23.0, "timestamp": "2026-07-16T01:54:26Z"}
+{"keyword": "Skip the Middleman: Connecting Your UI Directly to an AI Agent via WebSocket", "platform": "devto", "value": 6.0, "timestamp": "2026-07-15T15:37:00Z"}
+{"keyword": "Not a New Deal", "platform": "devto", "value": 0.0, "timestamp": "2026-07-16T11:00:00Z"}
+{"keyword": "Post-Mortem: Building a Local MCP Server for Codebase Memory using Ollama and ChromaDB", "platform": "devto", "value": 7.0, "timestamp": "2026-07-15T23:46:16Z"}
+{"keyword": "citefid 0.1.0: verificar la fidelidad de citas en wikis OKF con NLI (AUC 0.7029 sobre código)", "platform": "devto", "value": 10.0, "timestamp": "2026-07-16T02:28:38Z"}
+{"keyword": "Your CSS Grid cards look misaligned. `subgrid` is the fix you didn't know existed.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-16T08:21:26Z"}
