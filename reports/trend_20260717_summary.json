@@ -6,51 +6,11 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "OpenAI",
-      "count": 11
-    },
-    {
-      "name": "YouTube",
-      "count": 11
-    },
-    {
-      "name": "E-commerce",
-      "count": 11
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 11
-    },
-    {
-      "name": "Climate change",
-      "count": 11
-    },
-    {
-      "name": "Bitcoin",
-      "count": 11
-    },
-    {
-      "name": "Netflix",
-      "count": 11
-    },
-    {
-      "name": "Samsung",
-      "count": 11
-    },
-    {
-      "name": "K-pop",
-      "count": 11
+      "name": "Artificial intelligence",
+      "count": 12
     },
     {
       "name": "Machine learning",
-      "count": 11
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 11
-    },
-    {
-      "name": "Python (programming language)",
       "count": 11
     },
     {
@@ -58,37 +18,77 @@
       "count": 11
     },
     {
-      "name": "World Wide Web",
-      "count": 10
+      "name": "Python (programming language)",
+      "count": 11
+    },
+    {
+      "name": "K-pop",
+      "count": 11
+    },
+    {
+      "name": "Samsung",
+      "count": 11
+    },
+    {
+      "name": "Netflix",
+      "count": 11
+    },
+    {
+      "name": "Bitcoin",
+      "count": 11
+    },
+    {
+      "name": "Climate change",
+      "count": 11
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 11
+    },
+    {
+      "name": "E-commerce",
+      "count": 11
+    },
+    {
+      "name": "YouTube",
+      "count": 11
+    },
+    {
+      "name": "OpenAI",
+      "count": 11
     },
     {
       "name": "Seoul",
       "count": 10
     },
     {
-      "name": "보이그룹",
+      "name": "World Wide Web",
+      "count": 10
+    },
+    {
+      "name": "재건축",
       "count": 2
     },
     {
-      "name": "송파 전세",
+      "name": "청약",
       "count": 2
     },
     {
-      "name": "BTS",
+      "name": "뉴진스",
       "count": 2
     },
     {
-      "name": "블랙핑크",
+      "name": "유명인",
       "count": 2
     },
     {
-      "name": "에스파",
+      "name": "연예인",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 163,
-    "google": 37
+    "wikipedia": 164,
+    "google": 36
   },
-  "generated_at": "2026-07-17T20:19:41.297376+09:00"
+  "generated_at": "2026-07-17T22:46:21.891028+00:00"
 }
