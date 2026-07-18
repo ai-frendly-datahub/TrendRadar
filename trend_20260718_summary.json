@@ -6,23 +6,43 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "Python (programming language)",
+      "count": 12
+    },
+    {
       "name": "OpenAI",
-      "count": 11
+      "count": 12
     },
     {
       "name": "YouTube",
-      "count": 11
+      "count": 12
     },
     {
       "name": "E-commerce",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Electric vehicle",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Climate change",
+      "count": 12
+    },
+    {
+      "name": "Machine learning",
+      "count": 11
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 11
+    },
+    {
+      "name": "South Korea",
+      "count": 11
+    },
+    {
+      "name": "Seoul",
       "count": 11
     },
     {
@@ -42,53 +62,33 @@
       "count": 11
     },
     {
-      "name": "Artificial intelligence",
-      "count": 11
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 11
-    },
-    {
-      "name": "South Korea",
-      "count": 11
-    },
-    {
-      "name": "Machine learning",
-      "count": 11
-    },
-    {
       "name": "World Wide Web",
       "count": 10
     },
     {
-      "name": "Seoul",
-      "count": 10
-    },
-    {
-      "name": "보이그룹",
-      "count": 2
-    },
-    {
-      "name": "송파 전세",
-      "count": 2
+      "name": "아이돌",
+      "count": 1
     },
     {
       "name": "BTS",
-      "count": 2
-    },
-    {
-      "name": "블랙핑크",
-      "count": 2
+      "count": 1
     },
     {
       "name": "에스파",
-      "count": 2
+      "count": 1
+    },
+    {
+      "name": "블랙핑크",
+      "count": 1
+    },
+    {
+      "name": "음원차트",
+      "count": 1
     }
   ],
   "sources": {
-    "wikipedia": 163,
-    "google": 37
+    "wikipedia": 170,
+    "google": 30
   },
-  "generated_at": "2026-07-18T19:59:10.461146+09:00"
+  "generated_at": "2026-07-18T22:45:55.957779+00:00"
 }
