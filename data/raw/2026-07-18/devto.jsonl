@@ -52,3 +52,107 @@
 {"keyword": "Nobody Taught You How to Use This Thing", "platform": "devto", "value": 0.0, "timestamp": "2026-07-17T14:16:24Z"}
 {"keyword": "Building a real-time browser MMORPG with Three.js, Rust/Wasm, and Durable Objects", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T01:49:57Z"}
 {"keyword": "Show DEV: I built a lightweight, extensible Web Page Builder using React 🚀", "platform": "devto", "value": 6.0, "timestamp": "2026-07-17T13:38:03Z"}
+{"keyword": "How We Beat HotSpot Performance (By Cheating, But Not Like That)", "platform": "devto", "value": 5.0, "timestamp": "2026-07-18T14:17:42Z"}
+{"keyword": "FLUX on a 4070 Graphics Card 🖼️", "platform": "devto", "value": 6.0, "timestamp": "2026-07-18T14:32:08Z"}
+{"keyword": "Why I built a SQL client when 10 already exist — then let AI agents into it", "platform": "devto", "value": 0.0, "timestamp": "2026-07-18T12:59:03Z"}
+{"keyword": "Every AI-built site looks the same, so I built a skill that locks taste before any code is written", "platform": "devto", "value": 16.0, "timestamp": "2026-07-18T00:40:32Z"}
+{"keyword": "AWS Weekend Agent Challenge: Daybreak", "platform": "devto", "value": 8.0, "timestamp": "2026-07-18T04:12:39Z"}
+{"keyword": "I was tired of studying security tools from static cheatsheets, so I built ShellStack", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T09:41:35Z"}
+{"keyword": "Apache Data Lakehouse Weekly: July 11 to July 18, 2026", "platform": "devto", "value": 0.0, "timestamp": "2026-07-18T16:44:27Z"}
+{"keyword": "How Being a Junior Developer Taught Me More About Myself Than About Code", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T12:55:34Z"}
+{"keyword": "I'm 13, Solo Founder & CEO of Akhouri Systems. No team, no backend, no funding — just a laptop.", "platform": "devto", "value": 10.0, "timestamp": "2026-07-18T07:20:02Z"}
+{"keyword": "400+ downloads, 0 revenue, and why that's actually fine for now", "platform": "devto", "value": 10.0, "timestamp": "2026-07-18T10:53:21Z"}
+{"keyword": "Building a real-time browser MMORPG with Three.js, Rust/Wasm, and Durable Objects", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T01:49:57Z"}
+{"keyword": "The Missing Row: Auto-Provisioning Derived Records Without the Race Condition", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T10:00:37Z"}
+{"keyword": "Your AI Gate Works Perfectly — Until You Switch Models", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T06:26:58Z"}
+{"keyword": "The Contours That Refused to Exist: A Three-Bug Pileup in a Flutter Noise Map", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T10:36:50Z"}
+{"keyword": "Your Calculator App Has a Units Problem", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T05:09:44Z"}
+{"keyword": "Your PDFs Are Eating Your LLM's Tokens for Breakfast", "platform": "devto", "value": 18.0, "timestamp": "2026-07-18T17:48:36Z"}
+{"keyword": "Introducing Schemd: a small text-to-SVG compiler for circuits and UML", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T01:55:03Z"}
+{"keyword": "Loops Are for Prototypes. Lifecycles Are for Production", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T05:47:12Z"}
+{"keyword": "Architecting lean LLM caching: how to drop a 20M-row table without losing your AI memory", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T13:28:25Z"}
+{"keyword": "Can a Semantic Cache Become Your Primary Retrieval Layer?", "platform": "devto", "value": 6.0, "timestamp": "2026-07-18T05:59:13Z"}
+{"keyword": "Why Records Are the Better Choice for Clean, Modern, and Principle-Driven .NET Development", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T10:48:20Z"}
+{"keyword": "I built a readability test for my own compression format. It scored 0/24.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T14:34:09Z"}
+{"keyword": "Clear the Lineup: Killing a Silent, Three-Cause Rendering Bug in a Flutter + Mapbox Noise Map", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T16:02:56Z"}
+{"keyword": "From Tool-Runner to Decision Engine: Upgrading an Autonomous Security Agent's Harness", "platform": "devto", "value": 7.0, "timestamp": "2026-07-18T15:28:12Z"}
+{"keyword": "Why I Built Opposition Into My AI Council", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T07:36:11Z"}
+{"keyword": "Building a signed handoff protocol for AI coding agents", "platform": "devto", "value": 1.0, "timestamp": "2026-07-17T22:53:07Z"}
+{"keyword": "How We Beat HotSpot Performance (By Cheating, But Not Like That)", "platform": "devto", "value": 5.0, "timestamp": "2026-07-18T14:17:42Z"}
+{"keyword": "FLUX on a 4070 Graphics Card 🖼️", "platform": "devto", "value": 6.0, "timestamp": "2026-07-18T14:32:08Z"}
+{"keyword": "Why I built a SQL client when 10 already exist — then let AI agents into it", "platform": "devto", "value": 0.0, "timestamp": "2026-07-18T12:59:03Z"}
+{"keyword": "Every AI-built site looks the same, so I built a skill that locks taste before any code is written", "platform": "devto", "value": 16.0, "timestamp": "2026-07-18T00:40:32Z"}
+{"keyword": "AWS Weekend Agent Challenge: Daybreak", "platform": "devto", "value": 8.0, "timestamp": "2026-07-18T04:12:39Z"}
+{"keyword": "I was tired of studying security tools from static cheatsheets, so I built ShellStack", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T09:41:35Z"}
+{"keyword": "Apache Data Lakehouse Weekly: July 11 to July 18, 2026", "platform": "devto", "value": 0.0, "timestamp": "2026-07-18T16:44:27Z"}
+{"keyword": "How Being a Junior Developer Taught Me More About Myself Than About Code", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T12:55:34Z"}
+{"keyword": "I'm 13, Solo Founder & CEO of Akhouri Systems. No team, no backend, no funding — just a laptop.", "platform": "devto", "value": 10.0, "timestamp": "2026-07-18T07:20:02Z"}
+{"keyword": "400+ downloads, 0 revenue, and why that's actually fine for now", "platform": "devto", "value": 10.0, "timestamp": "2026-07-18T10:53:21Z"}
+{"keyword": "Building a real-time browser MMORPG with Three.js, Rust/Wasm, and Durable Objects", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T01:49:57Z"}
+{"keyword": "The Missing Row: Auto-Provisioning Derived Records Without the Race Condition", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T10:00:37Z"}
+{"keyword": "Your AI Gate Works Perfectly — Until You Switch Models", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T06:26:58Z"}
+{"keyword": "The Contours That Refused to Exist: A Three-Bug Pileup in a Flutter Noise Map", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T10:36:50Z"}
+{"keyword": "Your Calculator App Has a Units Problem", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T05:09:44Z"}
+{"keyword": "Your PDFs Are Eating Your LLM's Tokens for Breakfast", "platform": "devto", "value": 18.0, "timestamp": "2026-07-18T17:48:36Z"}
+{"keyword": "Introducing Schemd: a small text-to-SVG compiler for circuits and UML", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T01:55:03Z"}
+{"keyword": "Loops Are for Prototypes. Lifecycles Are for Production", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T05:47:12Z"}
+{"keyword": "Architecting lean LLM caching: how to drop a 20M-row table without losing your AI memory", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T13:28:25Z"}
+{"keyword": "Can a Semantic Cache Become Your Primary Retrieval Layer?", "platform": "devto", "value": 6.0, "timestamp": "2026-07-18T05:59:13Z"}
+{"keyword": "Why Records Are the Better Choice for Clean, Modern, and Principle-Driven .NET Development", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T10:48:20Z"}
+{"keyword": "I built a readability test for my own compression format. It scored 0/24.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T14:34:09Z"}
+{"keyword": "Clear the Lineup: Killing a Silent, Three-Cause Rendering Bug in a Flutter + Mapbox Noise Map", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T16:02:56Z"}
+{"keyword": "From Tool-Runner to Decision Engine: Upgrading an Autonomous Security Agent's Harness", "platform": "devto", "value": 7.0, "timestamp": "2026-07-18T15:28:12Z"}
+{"keyword": "Why I Built Opposition Into My AI Council", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T07:36:11Z"}
+{"keyword": "Building a signed handoff protocol for AI coding agents", "platform": "devto", "value": 1.0, "timestamp": "2026-07-17T22:53:07Z"}
+{"keyword": "How We Beat HotSpot Performance (By Cheating, But Not Like That)", "platform": "devto", "value": 5.0, "timestamp": "2026-07-18T14:17:42Z"}
+{"keyword": "FLUX on a 4070 Graphics Card 🖼️", "platform": "devto", "value": 6.0, "timestamp": "2026-07-18T14:32:08Z"}
+{"keyword": "Why I built a SQL client when 10 already exist — then let AI agents into it", "platform": "devto", "value": 0.0, "timestamp": "2026-07-18T12:59:03Z"}
+{"keyword": "Every AI-built site looks the same, so I built a skill that locks taste before any code is written", "platform": "devto", "value": 16.0, "timestamp": "2026-07-18T00:40:32Z"}
+{"keyword": "AWS Weekend Agent Challenge: Daybreak", "platform": "devto", "value": 8.0, "timestamp": "2026-07-18T04:12:39Z"}
+{"keyword": "I was tired of studying security tools from static cheatsheets, so I built ShellStack", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T09:41:35Z"}
+{"keyword": "Apache Data Lakehouse Weekly: July 11 to July 18, 2026", "platform": "devto", "value": 0.0, "timestamp": "2026-07-18T16:44:27Z"}
+{"keyword": "How Being a Junior Developer Taught Me More About Myself Than About Code", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T12:55:34Z"}
+{"keyword": "I'm 13, Solo Founder & CEO of Akhouri Systems. No team, no backend, no funding — just a laptop.", "platform": "devto", "value": 10.0, "timestamp": "2026-07-18T07:20:02Z"}
+{"keyword": "400+ downloads, 0 revenue, and why that's actually fine for now", "platform": "devto", "value": 10.0, "timestamp": "2026-07-18T10:53:21Z"}
+{"keyword": "Building a real-time browser MMORPG with Three.js, Rust/Wasm, and Durable Objects", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T01:49:57Z"}
+{"keyword": "The Missing Row: Auto-Provisioning Derived Records Without the Race Condition", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T10:00:37Z"}
+{"keyword": "Your AI Gate Works Perfectly — Until You Switch Models", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T06:26:58Z"}
+{"keyword": "The Contours That Refused to Exist: A Three-Bug Pileup in a Flutter Noise Map", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T10:36:50Z"}
+{"keyword": "Your Calculator App Has a Units Problem", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T05:09:44Z"}
+{"keyword": "Your PDFs Are Eating Your LLM's Tokens for Breakfast", "platform": "devto", "value": 18.0, "timestamp": "2026-07-18T17:48:36Z"}
+{"keyword": "Introducing Schemd: a small text-to-SVG compiler for circuits and UML", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T01:55:03Z"}
+{"keyword": "Loops Are for Prototypes. Lifecycles Are for Production", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T05:47:12Z"}
+{"keyword": "Architecting lean LLM caching: how to drop a 20M-row table without losing your AI memory", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T13:28:25Z"}
+{"keyword": "Can a Semantic Cache Become Your Primary Retrieval Layer?", "platform": "devto", "value": 6.0, "timestamp": "2026-07-18T05:59:13Z"}
+{"keyword": "Why Records Are the Better Choice for Clean, Modern, and Principle-Driven .NET Development", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T10:48:20Z"}
+{"keyword": "I built a readability test for my own compression format. It scored 0/24.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T14:34:09Z"}
+{"keyword": "Clear the Lineup: Killing a Silent, Three-Cause Rendering Bug in a Flutter + Mapbox Noise Map", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T16:02:56Z"}
+{"keyword": "From Tool-Runner to Decision Engine: Upgrading an Autonomous Security Agent's Harness", "platform": "devto", "value": 7.0, "timestamp": "2026-07-18T15:28:12Z"}
+{"keyword": "Why I Built Opposition Into My AI Council", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T07:36:11Z"}
+{"keyword": "Building a signed handoff protocol for AI coding agents", "platform": "devto", "value": 1.0, "timestamp": "2026-07-17T22:53:07Z"}
+{"keyword": "How We Beat HotSpot Performance (By Cheating, But Not Like That)", "platform": "devto", "value": 5.0, "timestamp": "2026-07-18T14:17:42Z"}
+{"keyword": "FLUX on a 4070 Graphics Card 🖼️", "platform": "devto", "value": 6.0, "timestamp": "2026-07-18T14:32:08Z"}
+{"keyword": "Why I built a SQL client when 10 already exist — then let AI agents into it", "platform": "devto", "value": 0.0, "timestamp": "2026-07-18T12:59:03Z"}
+{"keyword": "Every AI-built site looks the same, so I built a skill that locks taste before any code is written", "platform": "devto", "value": 16.0, "timestamp": "2026-07-18T00:40:32Z"}
+{"keyword": "AWS Weekend Agent Challenge: Daybreak", "platform": "devto", "value": 8.0, "timestamp": "2026-07-18T04:12:39Z"}
+{"keyword": "I was tired of studying security tools from static cheatsheets, so I built ShellStack", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T09:41:35Z"}
+{"keyword": "Apache Data Lakehouse Weekly: July 11 to July 18, 2026", "platform": "devto", "value": 0.0, "timestamp": "2026-07-18T16:44:27Z"}
+{"keyword": "How Being a Junior Developer Taught Me More About Myself Than About Code", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T12:55:34Z"}
+{"keyword": "I'm 13, Solo Founder & CEO of Akhouri Systems. No team, no backend, no funding — just a laptop.", "platform": "devto", "value": 10.0, "timestamp": "2026-07-18T07:20:02Z"}
+{"keyword": "400+ downloads, 0 revenue, and why that's actually fine for now", "platform": "devto", "value": 10.0, "timestamp": "2026-07-18T10:53:21Z"}
+{"keyword": "Building a real-time browser MMORPG with Three.js, Rust/Wasm, and Durable Objects", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T01:49:57Z"}
+{"keyword": "The Missing Row: Auto-Provisioning Derived Records Without the Race Condition", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T10:00:37Z"}
+{"keyword": "Your AI Gate Works Perfectly — Until You Switch Models", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T06:26:58Z"}
+{"keyword": "The Contours That Refused to Exist: A Three-Bug Pileup in a Flutter Noise Map", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T10:36:50Z"}
+{"keyword": "Your Calculator App Has a Units Problem", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T05:09:44Z"}
+{"keyword": "Your PDFs Are Eating Your LLM's Tokens for Breakfast", "platform": "devto", "value": 18.0, "timestamp": "2026-07-18T17:48:36Z"}
+{"keyword": "Introducing Schemd: a small text-to-SVG compiler for circuits and UML", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T01:55:03Z"}
+{"keyword": "Loops Are for Prototypes. Lifecycles Are for Production", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T05:47:12Z"}
+{"keyword": "Architecting lean LLM caching: how to drop a 20M-row table without losing your AI memory", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T13:28:25Z"}
+{"keyword": "Can a Semantic Cache Become Your Primary Retrieval Layer?", "platform": "devto", "value": 6.0, "timestamp": "2026-07-18T05:59:13Z"}
+{"keyword": "Why Records Are the Better Choice for Clean, Modern, and Principle-Driven .NET Development", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T10:48:20Z"}
+{"keyword": "I built a readability test for my own compression format. It scored 0/24.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T14:34:09Z"}
+{"keyword": "Clear the Lineup: Killing a Silent, Three-Cause Rendering Bug in a Flutter + Mapbox Noise Map", "platform": "devto", "value": 2.0, "timestamp": "2026-07-18T16:02:56Z"}
+{"keyword": "From Tool-Runner to Decision Engine: Upgrading an Autonomous Security Agent's Harness", "platform": "devto", "value": 7.0, "timestamp": "2026-07-18T15:28:12Z"}
+{"keyword": "Why I Built Opposition Into My AI Council", "platform": "devto", "value": 1.0, "timestamp": "2026-07-18T07:36:11Z"}
+{"keyword": "Building a signed handoff protocol for AI coding agents", "platform": "devto", "value": 1.0, "timestamp": "2026-07-17T22:53:07Z"}
