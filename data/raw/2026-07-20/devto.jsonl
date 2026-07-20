@@ -1,0 +1,56 @@
+{"keyword": "the part of this year I don't put in the commit messages", "platform": "devto", "value": 11.0, "timestamp": "2026-07-20T10:22:22Z"}
+{"keyword": "The smolagents bug that made my agent retry the same valid code three times", "platform": "devto", "value": 11.0, "timestamp": "2026-07-20T07:19:13Z"}
+{"keyword": "Browser OS Redefined: The Desktop Metaphor Doesn't Quite Fit a 5\" Screen Browser", "platform": "devto", "value": 8.0, "timestamp": "2026-07-19T13:34:01Z"}
+{"keyword": "The Timeline Was Split, but the Audio Wasn't: Fixing Source Offsets in a Browser Video Editor", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T05:48:52Z"}
+{"keyword": "I Learned Go by Hacking Kubernetes RBAC Security (And Nearly Quit 5 Times)", "platform": "devto", "value": 9.0, "timestamp": "2026-07-19T22:03:03Z"}
+{"keyword": "I built a storefront that works with zero API keys, and it made the code better", "platform": "devto", "value": 8.0, "timestamp": "2026-07-19T15:33:42Z"}
+{"keyword": "We built an AI board of directors on Qwen. Then we asked it whether we should migrate to Qwen.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-20T03:31:58Z"}
+{"keyword": "The hard part of building a dubbing extension wasn't the AI. It was the video player.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-19T14:34:22Z"}
+{"keyword": "My RabbitMQ library looked production-ready. It couldn't survive a single reconnect.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-19T17:13:46Z"}
+{"keyword": "Google Trends will 429 you into the ground — here's how I got past it", "platform": "devto", "value": 1.0, "timestamp": "2026-07-19T16:18:34Z"}
+{"keyword": "Building SaarDB, Part 3: Compaction", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T04:25:08Z"}
+{"keyword": "Phase 4: Retrieval Quality & Grounded Answers", "platform": "devto", "value": 4.0, "timestamp": "2026-07-20T04:14:11Z"}
+{"keyword": "Marketing Pages Rot Silently. Mine Print an Expiry Date on Every Claim.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T04:43:26Z"}
+{"keyword": "The Rubric Line That Sent Me Down a Three-Layer Debugging Rabbit Hole", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T00:44:08Z"}
+{"keyword": "Swift Classes — Initializers and the super.init() Rule 🏗️", "platform": "devto", "value": 8.0, "timestamp": "2026-07-20T08:44:00Z"}
+{"keyword": "Streaming LLM responses in TypeScript: SSE, ReadableStream, and the React 19 useChat hook.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-20T06:48:18Z"}
+{"keyword": "The Certificate Wizard Is Now A Standalone App, And It Stopped Impersonating You", "platform": "devto", "value": 1.0, "timestamp": "2026-07-19T14:21:33Z"}
+{"keyword": "'Local' Solves Where Your Data Goes. It Doesn't Solve What Your Agent Does", "platform": "devto", "value": 4.0, "timestamp": "2026-07-20T11:19:35Z"}
+{"keyword": "Automate Spotify and YouTube Playlists - Chapter 1: Understanding The Plan, Setting Up Accounts", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T05:34:43Z"}
+{"keyword": "One Monorepo, Two Outputs: How I Eliminated Duplicate Starter Templates", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T09:53:00Z"}
+{"keyword": "The Fallback Password: Dissecting the Tenda Router Backdoor (CVE-2026-11405)", "platform": "devto", "value": 6.0, "timestamp": "2026-07-19T18:20:54Z"}
+{"keyword": "quantum-audit v0.2.3 — Hybrid Detection, Migration Guides, and 50+ Libraries", "platform": "devto", "value": 3.0, "timestamp": "2026-07-19T21:50:06Z"}
+{"keyword": "Your NAT gateway is a $30k landmine and nobody warns juniors", "platform": "devto", "value": 7.0, "timestamp": "2026-07-20T07:04:28Z"}
+{"keyword": "Cloudflare's \"Autoconfig\" Bot Quietly Broke My Static Site's Deploy — Here's What Happened", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T06:08:39Z"}
+{"keyword": "The LLM Response Looked Fine. My Parser Disagreed.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T06:22:53Z"}
+{"keyword": "PanelControl: a 65-file business app, in vanilla JavaScript with no framework", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T08:44:50Z"}
+{"keyword": "Stop parsing HTML to get product data — the JSON is already in the page", "platform": "devto", "value": 2.0, "timestamp": "2026-07-19T16:19:49Z"}
+{"keyword": "GitHub Changed Its OIDC Subject Claims — and Broke My AWS Deploys for New Repos", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T03:39:02Z"}
+{"keyword": "the part of this year I don't put in the commit messages", "platform": "devto", "value": 11.0, "timestamp": "2026-07-20T10:22:22Z"}
+{"keyword": "The smolagents bug that made my agent retry the same valid code three times", "platform": "devto", "value": 11.0, "timestamp": "2026-07-20T07:19:13Z"}
+{"keyword": "Browser OS Redefined: The Desktop Metaphor Doesn't Quite Fit a 5\" Screen Browser", "platform": "devto", "value": 8.0, "timestamp": "2026-07-19T13:34:01Z"}
+{"keyword": "The Timeline Was Split, but the Audio Wasn't: Fixing Source Offsets in a Browser Video Editor", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T05:48:52Z"}
+{"keyword": "I Learned Go by Hacking Kubernetes RBAC Security (And Nearly Quit 5 Times)", "platform": "devto", "value": 9.0, "timestamp": "2026-07-19T22:03:03Z"}
+{"keyword": "I built a storefront that works with zero API keys, and it made the code better", "platform": "devto", "value": 8.0, "timestamp": "2026-07-19T15:33:42Z"}
+{"keyword": "We built an AI board of directors on Qwen. Then we asked it whether we should migrate to Qwen.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-20T03:31:58Z"}
+{"keyword": "The hard part of building a dubbing extension wasn't the AI. It was the video player.", "platform": "devto", "value": 2.0, "timestamp": "2026-07-19T14:34:22Z"}
+{"keyword": "My RabbitMQ library looked production-ready. It couldn't survive a single reconnect.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-19T17:13:46Z"}
+{"keyword": "Google Trends will 429 you into the ground — here's how I got past it", "platform": "devto", "value": 1.0, "timestamp": "2026-07-19T16:18:34Z"}
+{"keyword": "Building SaarDB, Part 3: Compaction", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T04:25:08Z"}
+{"keyword": "Phase 4: Retrieval Quality & Grounded Answers", "platform": "devto", "value": 4.0, "timestamp": "2026-07-20T04:14:11Z"}
+{"keyword": "Marketing Pages Rot Silently. Mine Print an Expiry Date on Every Claim.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T04:43:26Z"}
+{"keyword": "The Rubric Line That Sent Me Down a Three-Layer Debugging Rabbit Hole", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T00:44:08Z"}
+{"keyword": "Swift Classes — Initializers and the super.init() Rule 🏗️", "platform": "devto", "value": 8.0, "timestamp": "2026-07-20T08:44:00Z"}
+{"keyword": "Streaming LLM responses in TypeScript: SSE, ReadableStream, and the React 19 useChat hook.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-20T06:48:18Z"}
+{"keyword": "The Certificate Wizard Is Now A Standalone App, And It Stopped Impersonating You", "platform": "devto", "value": 1.0, "timestamp": "2026-07-19T14:21:33Z"}
+{"keyword": "'Local' Solves Where Your Data Goes. It Doesn't Solve What Your Agent Does", "platform": "devto", "value": 4.0, "timestamp": "2026-07-20T11:19:35Z"}
+{"keyword": "Automate Spotify and YouTube Playlists - Chapter 1: Understanding The Plan, Setting Up Accounts", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T05:34:43Z"}
+{"keyword": "One Monorepo, Two Outputs: How I Eliminated Duplicate Starter Templates", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T09:53:00Z"}
+{"keyword": "The Fallback Password: Dissecting the Tenda Router Backdoor (CVE-2026-11405)", "platform": "devto", "value": 6.0, "timestamp": "2026-07-19T18:20:54Z"}
+{"keyword": "quantum-audit v0.2.3 — Hybrid Detection, Migration Guides, and 50+ Libraries", "platform": "devto", "value": 3.0, "timestamp": "2026-07-19T21:50:06Z"}
+{"keyword": "Your NAT gateway is a $30k landmine and nobody warns juniors", "platform": "devto", "value": 7.0, "timestamp": "2026-07-20T07:04:28Z"}
+{"keyword": "Cloudflare's \"Autoconfig\" Bot Quietly Broke My Static Site's Deploy — Here's What Happened", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T06:08:39Z"}
+{"keyword": "The LLM Response Looked Fine. My Parser Disagreed.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T06:22:53Z"}
+{"keyword": "PanelControl: a 65-file business app, in vanilla JavaScript with no framework", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T08:44:50Z"}
+{"keyword": "Stop parsing HTML to get product data — the JSON is already in the page", "platform": "devto", "value": 2.0, "timestamp": "2026-07-19T16:19:49Z"}
+{"keyword": "GitHub Changed Its OIDC Subject Claims — and Broke My AWS Deploys for New Repos", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T03:39:02Z"}
