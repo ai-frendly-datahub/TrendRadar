@@ -54,3 +54,111 @@
 {"keyword": "PanelControl: a 65-file business app, in vanilla JavaScript with no framework", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T08:44:50Z"}
 {"keyword": "Stop parsing HTML to get product data — the JSON is already in the page", "platform": "devto", "value": 2.0, "timestamp": "2026-07-19T16:19:49Z"}
 {"keyword": "GitHub Changed Its OIDC Subject Claims — and Broke My AWS Deploys for New Repos", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T03:39:02Z"}
+{"keyword": "Context Is King: Rethinking Domain Ownership, Product, and the \"Spec Phase\"", "platform": "devto", "value": 32.0, "timestamp": "2026-07-20T14:05:39Z"}
+{"keyword": "Choose your Burden", "platform": "devto", "value": 22.0, "timestamp": "2026-07-20T15:59:30Z"}
+{"keyword": "AI And Code Ownership: Who Is Responsible For Generated Code?", "platform": "devto", "value": 37.0, "timestamp": "2026-07-20T13:20:24Z"}
+{"keyword": "Gemma4 DevOps In Action", "platform": "devto", "value": 6.0, "timestamp": "2026-07-20T14:20:31Z"}
+{"keyword": "Theatre Kid to Developer Advocate, None of This Was Planned", "platform": "devto", "value": 9.0, "timestamp": "2026-07-20T16:26:42Z"}
+{"keyword": "What are your goals for the week? #188", "platform": "devto", "value": 27.0, "timestamp": "2026-07-20T14:13:41Z"}
+{"keyword": "the part of this year I don't put in the commit messages", "platform": "devto", "value": 25.0, "timestamp": "2026-07-20T10:22:22Z"}
+{"keyword": "The smolagents bug that made my agent retry the same valid code three times", "platform": "devto", "value": 16.0, "timestamp": "2026-07-20T07:19:13Z"}
+{"keyword": "Why I needed Durable Execution to read a toy manual", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T14:00:00Z"}
+{"keyword": "I built an AI dev harness that isn't allowed to trust itself", "platform": "devto", "value": 9.0, "timestamp": "2026-07-20T02:12:53Z"}
+{"keyword": "The Timeline Was Split, but the Audio Wasn't: Fixing Source Offsets in a Browser Video Editor", "platform": "devto", "value": 7.0, "timestamp": "2026-07-20T05:48:52Z"}
+{"keyword": "I Added Sentry to a WooCommerce Membership Site. It Caught a Real Bug Within the Hour.", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T13:16:19Z"}
+{"keyword": "AI Coding Agents Can Make Junior Developers Faster. Can They Still Make Them Better?", "platform": "devto", "value": 3.0, "timestamp": "2026-07-20T13:10:06Z"}
+{"keyword": "Phase 4: Retrieval Quality & Grounded Answers", "platform": "devto", "value": 6.0, "timestamp": "2026-07-20T04:14:11Z"}
+{"keyword": "We built an AI board of directors on Qwen. Then we asked it whether we should migrate to Qwen.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T03:31:58Z"}
+{"keyword": "The Rubric Line That Sent Me Down a Three-Layer Debugging Rabbit Hole", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T00:44:08Z"}
+{"keyword": "Building SaarDB, Part 3: Compaction", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T04:25:08Z"}
+{"keyword": "Marketing Pages Rot Silently. Mine Print an Expiry Date on Every Claim.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T04:43:26Z"}
+{"keyword": "Checkout TalknDo for the #devchallenge #weekendchallenge on the Solana track", "platform": "devto", "value": 3.0, "timestamp": "2026-07-20T10:46:03Z"}
+{"keyword": "Your 1:1s Have No Ticket, So They're the First to Go", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T14:14:01Z"}
+{"keyword": "🐘 TypeScript for PHP? Yes, that's possible. And it's not what you think", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T17:56:23Z"}
+{"keyword": "ReflectionCLI 2.0: a local-first thinking CLI for AI-assisted development", "platform": "devto", "value": 12.0, "timestamp": "2026-07-20T12:37:37Z"}
+{"keyword": "Ask me anything!", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T17:07:52Z"}
+{"keyword": "Loop Engineering: How To Stop The \"You're Absolutely Right\" Sycophancy", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T16:34:26Z"}
+{"keyword": "PanelControl: a 65-file business app, in vanilla JavaScript with no framework", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T08:44:50Z"}
+{"keyword": "Computers Finally Care About Code", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T17:00:53Z"}
+{"keyword": "'Local' Solves Where Your Data Goes. It Doesn't Solve What Your Agent Does", "platform": "devto", "value": 8.0, "timestamp": "2026-07-20T11:19:35Z"}
+{"keyword": "Context Is King: Rethinking Domain Ownership, Product, and the \"Spec Phase\"", "platform": "devto", "value": 32.0, "timestamp": "2026-07-20T14:05:39Z"}
+{"keyword": "Choose your Burden", "platform": "devto", "value": 22.0, "timestamp": "2026-07-20T15:59:30Z"}
+{"keyword": "AI And Code Ownership: Who Is Responsible For Generated Code?", "platform": "devto", "value": 37.0, "timestamp": "2026-07-20T13:20:24Z"}
+{"keyword": "Gemma4 DevOps In Action", "platform": "devto", "value": 6.0, "timestamp": "2026-07-20T14:20:31Z"}
+{"keyword": "Theatre Kid to Developer Advocate, None of This Was Planned", "platform": "devto", "value": 9.0, "timestamp": "2026-07-20T16:26:42Z"}
+{"keyword": "What are your goals for the week? #188", "platform": "devto", "value": 27.0, "timestamp": "2026-07-20T14:13:41Z"}
+{"keyword": "the part of this year I don't put in the commit messages", "platform": "devto", "value": 25.0, "timestamp": "2026-07-20T10:22:22Z"}
+{"keyword": "The smolagents bug that made my agent retry the same valid code three times", "platform": "devto", "value": 16.0, "timestamp": "2026-07-20T07:19:13Z"}
+{"keyword": "Why I needed Durable Execution to read a toy manual", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T14:00:00Z"}
+{"keyword": "I built an AI dev harness that isn't allowed to trust itself", "platform": "devto", "value": 9.0, "timestamp": "2026-07-20T02:12:53Z"}
+{"keyword": "The Timeline Was Split, but the Audio Wasn't: Fixing Source Offsets in a Browser Video Editor", "platform": "devto", "value": 7.0, "timestamp": "2026-07-20T05:48:52Z"}
+{"keyword": "I Added Sentry to a WooCommerce Membership Site. It Caught a Real Bug Within the Hour.", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T13:16:19Z"}
+{"keyword": "AI Coding Agents Can Make Junior Developers Faster. Can They Still Make Them Better?", "platform": "devto", "value": 3.0, "timestamp": "2026-07-20T13:10:06Z"}
+{"keyword": "Phase 4: Retrieval Quality & Grounded Answers", "platform": "devto", "value": 6.0, "timestamp": "2026-07-20T04:14:11Z"}
+{"keyword": "We built an AI board of directors on Qwen. Then we asked it whether we should migrate to Qwen.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T03:31:58Z"}
+{"keyword": "The Rubric Line That Sent Me Down a Three-Layer Debugging Rabbit Hole", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T00:44:08Z"}
+{"keyword": "Building SaarDB, Part 3: Compaction", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T04:25:08Z"}
+{"keyword": "Marketing Pages Rot Silently. Mine Print an Expiry Date on Every Claim.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T04:43:26Z"}
+{"keyword": "Checkout TalknDo for the #devchallenge #weekendchallenge on the Solana track", "platform": "devto", "value": 3.0, "timestamp": "2026-07-20T10:46:03Z"}
+{"keyword": "Your 1:1s Have No Ticket, So They're the First to Go", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T14:14:01Z"}
+{"keyword": "🐘 TypeScript for PHP? Yes, that's possible. And it's not what you think", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T17:56:23Z"}
+{"keyword": "ReflectionCLI 2.0: a local-first thinking CLI for AI-assisted development", "platform": "devto", "value": 12.0, "timestamp": "2026-07-20T12:37:37Z"}
+{"keyword": "Ask me anything!", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T17:07:52Z"}
+{"keyword": "Loop Engineering: How To Stop The \"You're Absolutely Right\" Sycophancy", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T16:34:26Z"}
+{"keyword": "PanelControl: a 65-file business app, in vanilla JavaScript with no framework", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T08:44:50Z"}
+{"keyword": "Computers Finally Care About Code", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T17:00:53Z"}
+{"keyword": "'Local' Solves Where Your Data Goes. It Doesn't Solve What Your Agent Does", "platform": "devto", "value": 8.0, "timestamp": "2026-07-20T11:19:35Z"}
+{"keyword": "Context Is King: Rethinking Domain Ownership, Product, and the \"Spec Phase\"", "platform": "devto", "value": 32.0, "timestamp": "2026-07-20T14:05:39Z"}
+{"keyword": "Choose your Burden", "platform": "devto", "value": 22.0, "timestamp": "2026-07-20T15:59:30Z"}
+{"keyword": "AI And Code Ownership: Who Is Responsible For Generated Code?", "platform": "devto", "value": 37.0, "timestamp": "2026-07-20T13:20:24Z"}
+{"keyword": "Gemma4 DevOps In Action", "platform": "devto", "value": 6.0, "timestamp": "2026-07-20T14:20:31Z"}
+{"keyword": "Theatre Kid to Developer Advocate, None of This Was Planned", "platform": "devto", "value": 9.0, "timestamp": "2026-07-20T16:26:42Z"}
+{"keyword": "What are your goals for the week? #188", "platform": "devto", "value": 27.0, "timestamp": "2026-07-20T14:13:41Z"}
+{"keyword": "the part of this year I don't put in the commit messages", "platform": "devto", "value": 25.0, "timestamp": "2026-07-20T10:22:22Z"}
+{"keyword": "The smolagents bug that made my agent retry the same valid code three times", "platform": "devto", "value": 16.0, "timestamp": "2026-07-20T07:19:13Z"}
+{"keyword": "Why I needed Durable Execution to read a toy manual", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T14:00:00Z"}
+{"keyword": "I built an AI dev harness that isn't allowed to trust itself", "platform": "devto", "value": 9.0, "timestamp": "2026-07-20T02:12:53Z"}
+{"keyword": "The Timeline Was Split, but the Audio Wasn't: Fixing Source Offsets in a Browser Video Editor", "platform": "devto", "value": 7.0, "timestamp": "2026-07-20T05:48:52Z"}
+{"keyword": "I Added Sentry to a WooCommerce Membership Site. It Caught a Real Bug Within the Hour.", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T13:16:19Z"}
+{"keyword": "AI Coding Agents Can Make Junior Developers Faster. Can They Still Make Them Better?", "platform": "devto", "value": 3.0, "timestamp": "2026-07-20T13:10:06Z"}
+{"keyword": "Phase 4: Retrieval Quality & Grounded Answers", "platform": "devto", "value": 6.0, "timestamp": "2026-07-20T04:14:11Z"}
+{"keyword": "We built an AI board of directors on Qwen. Then we asked it whether we should migrate to Qwen.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T03:31:58Z"}
+{"keyword": "The Rubric Line That Sent Me Down a Three-Layer Debugging Rabbit Hole", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T00:44:08Z"}
+{"keyword": "Building SaarDB, Part 3: Compaction", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T04:25:08Z"}
+{"keyword": "Marketing Pages Rot Silently. Mine Print an Expiry Date on Every Claim.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T04:43:26Z"}
+{"keyword": "Checkout TalknDo for the #devchallenge #weekendchallenge on the Solana track", "platform": "devto", "value": 3.0, "timestamp": "2026-07-20T10:46:03Z"}
+{"keyword": "Your 1:1s Have No Ticket, So They're the First to Go", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T14:14:01Z"}
+{"keyword": "🐘 TypeScript for PHP? Yes, that's possible. And it's not what you think", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T17:56:23Z"}
+{"keyword": "ReflectionCLI 2.0: a local-first thinking CLI for AI-assisted development", "platform": "devto", "value": 12.0, "timestamp": "2026-07-20T12:37:37Z"}
+{"keyword": "Ask me anything!", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T17:07:52Z"}
+{"keyword": "Loop Engineering: How To Stop The \"You're Absolutely Right\" Sycophancy", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T16:34:26Z"}
+{"keyword": "PanelControl: a 65-file business app, in vanilla JavaScript with no framework", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T08:44:50Z"}
+{"keyword": "Computers Finally Care About Code", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T17:00:53Z"}
+{"keyword": "'Local' Solves Where Your Data Goes. It Doesn't Solve What Your Agent Does", "platform": "devto", "value": 8.0, "timestamp": "2026-07-20T11:19:35Z"}
+{"keyword": "Context Is King: Rethinking Domain Ownership, Product, and the \"Spec Phase\"", "platform": "devto", "value": 32.0, "timestamp": "2026-07-20T14:05:39Z"}
+{"keyword": "Choose your Burden", "platform": "devto", "value": 22.0, "timestamp": "2026-07-20T15:59:30Z"}
+{"keyword": "AI And Code Ownership: Who Is Responsible For Generated Code?", "platform": "devto", "value": 37.0, "timestamp": "2026-07-20T13:20:24Z"}
+{"keyword": "Gemma4 DevOps In Action", "platform": "devto", "value": 6.0, "timestamp": "2026-07-20T14:20:31Z"}
+{"keyword": "Theatre Kid to Developer Advocate, None of This Was Planned", "platform": "devto", "value": 9.0, "timestamp": "2026-07-20T16:26:42Z"}
+{"keyword": "What are your goals for the week? #188", "platform": "devto", "value": 27.0, "timestamp": "2026-07-20T14:13:41Z"}
+{"keyword": "the part of this year I don't put in the commit messages", "platform": "devto", "value": 25.0, "timestamp": "2026-07-20T10:22:22Z"}
+{"keyword": "The smolagents bug that made my agent retry the same valid code three times", "platform": "devto", "value": 16.0, "timestamp": "2026-07-20T07:19:13Z"}
+{"keyword": "Why I needed Durable Execution to read a toy manual", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T14:00:00Z"}
+{"keyword": "I built an AI dev harness that isn't allowed to trust itself", "platform": "devto", "value": 9.0, "timestamp": "2026-07-20T02:12:53Z"}
+{"keyword": "The Timeline Was Split, but the Audio Wasn't: Fixing Source Offsets in a Browser Video Editor", "platform": "devto", "value": 7.0, "timestamp": "2026-07-20T05:48:52Z"}
+{"keyword": "I Added Sentry to a WooCommerce Membership Site. It Caught a Real Bug Within the Hour.", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T13:16:19Z"}
+{"keyword": "AI Coding Agents Can Make Junior Developers Faster. Can They Still Make Them Better?", "platform": "devto", "value": 3.0, "timestamp": "2026-07-20T13:10:06Z"}
+{"keyword": "Phase 4: Retrieval Quality & Grounded Answers", "platform": "devto", "value": 6.0, "timestamp": "2026-07-20T04:14:11Z"}
+{"keyword": "We built an AI board of directors on Qwen. Then we asked it whether we should migrate to Qwen.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T03:31:58Z"}
+{"keyword": "The Rubric Line That Sent Me Down a Three-Layer Debugging Rabbit Hole", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T00:44:08Z"}
+{"keyword": "Building SaarDB, Part 3: Compaction", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T04:25:08Z"}
+{"keyword": "Marketing Pages Rot Silently. Mine Print an Expiry Date on Every Claim.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T04:43:26Z"}
+{"keyword": "Checkout TalknDo for the #devchallenge #weekendchallenge on the Solana track", "platform": "devto", "value": 3.0, "timestamp": "2026-07-20T10:46:03Z"}
+{"keyword": "Your 1:1s Have No Ticket, So They're the First to Go", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T14:14:01Z"}
+{"keyword": "🐘 TypeScript for PHP? Yes, that's possible. And it's not what you think", "platform": "devto", "value": 2.0, "timestamp": "2026-07-20T17:56:23Z"}
+{"keyword": "ReflectionCLI 2.0: a local-first thinking CLI for AI-assisted development", "platform": "devto", "value": 12.0, "timestamp": "2026-07-20T12:37:37Z"}
+{"keyword": "Ask me anything!", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T17:07:52Z"}
+{"keyword": "Loop Engineering: How To Stop The \"You're Absolutely Right\" Sycophancy", "platform": "devto", "value": 1.0, "timestamp": "2026-07-20T16:34:26Z"}
+{"keyword": "PanelControl: a 65-file business app, in vanilla JavaScript with no framework", "platform": "devto", "value": 5.0, "timestamp": "2026-07-20T08:44:50Z"}
+{"keyword": "Computers Finally Care About Code", "platform": "devto", "value": 0.0, "timestamp": "2026-07-20T17:00:53Z"}
+{"keyword": "'Local' Solves Where Your Data Goes. It Doesn't Solve What Your Agent Does", "platform": "devto", "value": 8.0, "timestamp": "2026-07-20T11:19:35Z"}
