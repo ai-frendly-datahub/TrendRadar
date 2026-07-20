@@ -10,6 +10,14 @@
       "count": 10
     },
     {
+      "name": "Samsung",
+      "count": 10
+    },
+    {
+      "name": "Netflix",
+      "count": 10
+    },
+    {
       "name": "Python (programming language)",
       "count": 10
     },
@@ -22,23 +30,15 @@
       "count": 10
     },
     {
-      "name": "Samsung",
-      "count": 10
+      "name": "YouTube",
+      "count": 9
     },
     {
-      "name": "Netflix",
-      "count": 10
+      "name": "Electric vehicle",
+      "count": 9
     },
     {
       "name": "E-commerce",
-      "count": 9
-    },
-    {
-      "name": "World Wide Web",
-      "count": 9
-    },
-    {
-      "name": "Bitcoin",
       "count": 9
     },
     {
@@ -50,15 +50,15 @@
       "count": 9
     },
     {
-      "name": "Electric vehicle",
-      "count": 9
-    },
-    {
-      "name": "YouTube",
-      "count": 9
-    },
-    {
       "name": "OpenAI",
+      "count": 9
+    },
+    {
+      "name": "Bitcoin",
+      "count": 9
+    },
+    {
+      "name": "World Wide Web",
       "count": 9
     },
     {
@@ -66,15 +66,11 @@
       "count": 8
     },
     {
+      "name": "정치인",
+      "count": 2
+    },
+    {
       "name": "뉴진스",
-      "count": 2
-    },
-    {
-      "name": "아이돌",
-      "count": 2
-    },
-    {
-      "name": "걸그룹",
       "count": 2
     },
     {
@@ -82,13 +78,17 @@
       "count": 2
     },
     {
-      "name": "보이그룹",
+      "name": "아이돌",
+      "count": 2
+    },
+    {
+      "name": "가수",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 140,
-    "google": 60
+    "google": 60,
+    "wikipedia": 140
   },
-  "generated_at": "2026-07-20T21:14:27.146967+09:00"
+  "generated_at": "2026-07-20T22:57:45.847623+00:00"
 }
