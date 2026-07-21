@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko" data-visual-system="radar-unified-v2" data-visual-surface="report" data-visual-page="spike-report">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css">
+    <title>TrendRadar 급상승 리포트 - 2026-07-21</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        .alert-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .section-title {
+            font-size: 1.5em;
+            color: #667eea;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .section-title .icon {
+            font-size: 1.3em;
+            margin-right: 10px;
+        }
+        .spike-card {
+            background: #f8f9fa;
+            border-left: 5px solid #f5576c;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .spike-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .keyword-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .spike-stats {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 8px 0;
+        }
+        .stat {
+            background: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        .score-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        .gap-card {
+            background: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .insight {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .no-data {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+            font-size: 1.1em;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        :root {
+            --radar-bg:#11100f;
+            --radar-bg2:#171613;
+            --radar-panel:#1d211f;
+            --radar-panel2:rgba(244, 242, 234, .06);
+            --radar-line:rgba(215, 201, 123, .22);
+            --radar-text:#f4f2ea;
+            --radar-muted:rgba(244, 242, 234, .68);
+            --radar-brand:#37d7bd;
+            --radar-accent:#f2c14e;
+            --radar-danger:#ef6351;
+        }
+        body {
+            font-family: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(180deg, var(--radar-bg), var(--radar-bg2) 55%, #0e0d0b);
+            color: var(--radar-text);
+        }
+        .container {
+            background: var(--radar-panel);
+            border: 1px solid var(--radar-line);
+            border-radius: 8px;
+            box-shadow: 0 14px 42px rgba(0,0,0,0.28);
+        }
+        h1 {
+            color: var(--radar-text);
+            border-bottom-color: var(--radar-brand);
+        }
+        .alert-box {
+            background: linear-gradient(135deg, rgba(239,99,81,.28), rgba(242,193,78,.20));
+            border: 1px solid rgba(239,99,81,.32);
+            border-radius: 8px;
+            color: var(--radar-text);
+        }
+        .section-title {
+            color: var(--radar-brand);
+        }
+        .spike-card {
+            background: var(--radar-panel2);
+            border-left-color: var(--radar-danger);
+            border-radius: 8px;
+        }
+        .keyword-name {
+            color: var(--radar-text);
+        }
+        .stat {
+            background: rgba(244, 242, 234, .08);
+            border-radius: 8px;
+        }
+        .score-badge {
+            background: linear-gradient(135deg, rgba(55,215,189,.24), rgba(242,193,78,.18));
+            color: var(--radar-text);
+            border-radius: 8px;
+        }
+        .gap-card {
+            background: var(--radar-panel2);
+            border-left-color: var(--radar-brand);
+            border-radius: 8px;
+        }
+        .insight {
+            background: rgba(242,193,78,.12);
+            border-left-color: var(--radar-accent);
+        }
+        .no-data,
+        .footer {
+            color: var(--radar-muted);
+        }
+        .footer {
+            border-top-color: var(--radar-line);
+        }
+        p[style*="color: #666"] {
+            color: var(--radar-muted) !important;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 TrendRadar 급상승 리포트</h1>
+        <p style="color: #666; font-size: 1.1em;">리포트 날짜: 2026-07-21</p>
+
+        
+        <div class="alert-box">
+            🔥 총 1개의 급상승 신호가 감지되었습니다!
+        </div>
+        
+
+        <!-- 급상승 키워드 (Surge) -->
+        <div class="section">
+            <div class="section-title">
+                <span class="icon">📈</span>
+                <span>급상승 키워드 (Surge)</span>
+            </div>
+            <p style="color: #666;">최근 7일 평균이 직전 30일 평균 대비 크게 증가한 키워드</p>
+
+            
+                
+                <div class="spike-card">
+                    <div class="keyword-name">유튜버</div>
+                    <div class="spike-stats">
+                        <span class="stat">📊 현재: 100.0</span>
+                        <span class="stat">📉 기준: 39.0</span>
+                        <span class="stat">🚀 증가율: 2.56x</span>
+                        <span class="stat">📡 소스: google</span>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <span class="score-badge">⭐ 급상승 점수: 73.5/100</span>
+                    </div>
+                </div>
+                
+            
+        </div>
+
+        <!-- 신규 등장 키워드 (Emerging) -->
+        <div class="section">
+            <div class="section-title">
+                <span class="icon">🌟</span>
+                <span>신규 등장 키워드 (Emerging)</span>
+            </div>
+            <p style="color: #666;">과거에는 낮았지만 최근 갑자기 나타난 키워드</p>
+
+            
+                <div class="no-data">신규 등장 키워드가 없습니다.</div>
+            
+        </div>
+
+        <!-- 바이럴 키워드 (Viral) -->
+        <div class="section">
+            <div class="section-title">
+                <span class="icon">💥</span>
+                <span>바이럴 키워드 (Viral)</span>
+            </div>
+            <p style="color: #666;">짧은 기간 동안 폭발적으로 증가하는 키워드</p>
+
+            
+                <div class="no-data">바이럴 키워드가 없습니다.</div>
+            
+        </div>
+
+        <!-- 채널 간 격차 -->
+        
+
+        <div class="footer">
+            <p>Generated by TrendRadar Spike Detector</p>
+            <p>데이터 기간: 최근 7일 vs 직전 30일</p>
+        </div>
+    </div>
+</body>
+</html>
