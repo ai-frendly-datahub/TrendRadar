@@ -58,31 +58,31 @@
       "count": 9
     },
     {
-      "name": "Seoul",
-      "count": 8
-    },
-    {
       "name": "World Wide Web",
       "count": 8
     },
     {
-      "name": "송파 전세",
+      "name": "Seoul",
+      "count": 8
+    },
+    {
+      "name": "음악방송",
       "count": 2
     },
     {
-      "name": "정치인",
-      "count": 2
-    },
-    {
-      "name": "뉴진스",
-      "count": 2
-    },
-    {
-      "name": "전세 시세",
+      "name": "청약",
       "count": 2
     },
     {
       "name": "강남 아파트",
+      "count": 2
+    },
+    {
+      "name": "멜론",
+      "count": 2
+    },
+    {
+      "name": "음원차트",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 140,
     "google": 60
   },
-  "generated_at": "2026-07-21T20:45:18.469162+09:00"
+  "generated_at": "2026-07-21T22:53:43.656908+00:00"
 }
