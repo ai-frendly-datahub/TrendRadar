@@ -56,3 +56,119 @@
 {"keyword": "We benchmarked an AI agent on 52 broken clusters: kubectl vs a Kubernetes MCP server", "platform": "devto", "value": 6.0, "timestamp": "2026-07-21T09:52:24Z"}
 {"keyword": "4 Open-Source AI Tools, 1 MCP Server — What I Built and What I Learned", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T05:45:09Z"}
 {"keyword": "Why Google Translate Crashes Your React App (and How to Fix It)", "platform": "devto", "value": 0.0, "timestamp": "2026-07-21T07:29:56Z"}
+{"keyword": "You can build it. Should you?", "platform": "devto", "value": 10.0, "timestamp": "2026-07-21T15:40:00Z"}
+{"keyword": "tpu-management: a Claude Code skill for running Gemma 4 on Cloud TPUs", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T00:10:45Z"}
+{"keyword": "Gemma 4 E2B on a Single TPU v6e Chip: A Serving Deep Dive", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T03:48:40Z"}
+{"keyword": "The Optimistic UI Race Condition That Only Showed Up on the Fifth Click", "platform": "devto", "value": 18.0, "timestamp": "2026-07-21T10:24:35Z"}
+{"keyword": "🐘 TypeScript for PHP? YES, that's possible! And it's not what you think...", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T12:57:51Z"}
+{"keyword": "How AI changed the way I pick frameworks, and the two places React survived", "platform": "devto", "value": 6.0, "timestamp": "2026-07-21T00:51:32Z"}
+{"keyword": "Snowflake Cortex, Explained Like an AI That Lives Next to Your Data", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T10:54:29Z"}
+{"keyword": "Open AI Build Week: Foundation First, Software Second", "platform": "devto", "value": 10.0, "timestamp": "2026-07-21T04:34:11Z"}
+{"keyword": "4 Open-Source AI Tools, 1 MCP Server — What I Built and What I Learned", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T05:45:09Z"}
+{"keyword": "A bug in Qwen3-TTS taught me voice is biometric", "platform": "devto", "value": 14.0, "timestamp": "2026-07-21T09:01:28Z"}
+{"keyword": "RAG isn't an AI problem. It's a data engineering problem wearing an AI hat.", "platform": "devto", "value": 13.0, "timestamp": "2026-07-21T11:22:54Z"}
+{"keyword": "The smolagents sandbox broke 'a, *b = list', one of Python's most common lines", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T05:46:04Z"}
+{"keyword": "Stop Letting AI Write Security Bugs: Introducing \"hallint\"", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T08:40:47Z"}
+{"keyword": "Nothing Crashed. Nothing Errored. My CPU Sat at 390% for an Hour.", "platform": "devto", "value": 12.0, "timestamp": "2026-07-21T12:00:00Z"}
+{"keyword": "I built 118+ device tests that run entirely in your browser — no server, no uploads", "platform": "devto", "value": 4.0, "timestamp": "2026-07-21T06:21:25Z"}
+{"keyword": "You're rethrowing errors and losing context. `Error.cause` fixes that.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T08:36:01Z"}
+{"keyword": "Show DEV: I built a free macOS app to control Spotify Web player directly from the Notch", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T17:04:19Z"}
+{"keyword": "Spring Deep Dive: Transactions", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T10:31:49Z"}
+{"keyword": "Your Clock Can Go Backward—Use the Right One for Durations", "platform": "devto", "value": 3.0, "timestamp": "2026-07-21T12:39:14Z"}
+{"keyword": "How I pulled data out of a cross-origin iframe I couldn't touch", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T14:16:54Z"}
+{"keyword": "Why Google Translate Crashes Your React App (and How to Fix It)", "platform": "devto", "value": 6.0, "timestamp": "2026-07-21T07:29:56Z"}
+{"keyword": "Autonomy Is the Bug: Why Self-Driving Agents Hallucinate When the Model Barely Does", "platform": "devto", "value": 4.0, "timestamp": "2026-07-21T16:23:46Z"}
+{"keyword": "We benchmarked an AI agent on 52 broken clusters: kubectl vs a Kubernetes MCP server", "platform": "devto", "value": 11.0, "timestamp": "2026-07-21T09:52:24Z"}
+{"keyword": "Give Your Coding Agent a Deterministic Vulnerability Oracle", "platform": "devto", "value": 1.0, "timestamp": "2026-07-21T15:04:00Z"}
+{"keyword": "Preventing Focus Loss From Launching a Charged Jump in a Three.js Arcade Game", "platform": "devto", "value": 2.0, "timestamp": "2026-07-21T09:58:56Z"}
+{"keyword": "Nobody Ever Calculated the ROI of Email", "platform": "devto", "value": 2.0, "timestamp": "2026-07-21T18:12:51Z"}
+{"keyword": "Five Comments That Redesigned My LLM Verification Pipeline", "platform": "devto", "value": 3.0, "timestamp": "2026-07-21T06:33:26Z"}
+{"keyword": "Introducing Agent-Up: run multiple agent-built versions of your web app at once", "platform": "devto", "value": 1.0, "timestamp": "2026-07-21T17:28:32Z"}
+{"keyword": "🚀 Rizzzler Just Got Even Better!", "platform": "devto", "value": 13.0, "timestamp": "2026-07-21T03:43:54Z"}
+{"keyword": "You can build it. Should you?", "platform": "devto", "value": 10.0, "timestamp": "2026-07-21T15:40:00Z"}
+{"keyword": "tpu-management: a Claude Code skill for running Gemma 4 on Cloud TPUs", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T00:10:45Z"}
+{"keyword": "Gemma 4 E2B on a Single TPU v6e Chip: A Serving Deep Dive", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T03:48:40Z"}
+{"keyword": "The Optimistic UI Race Condition That Only Showed Up on the Fifth Click", "platform": "devto", "value": 18.0, "timestamp": "2026-07-21T10:24:35Z"}
+{"keyword": "🐘 TypeScript for PHP? YES, that's possible! And it's not what you think...", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T12:57:51Z"}
+{"keyword": "How AI changed the way I pick frameworks, and the two places React survived", "platform": "devto", "value": 6.0, "timestamp": "2026-07-21T00:51:32Z"}
+{"keyword": "Snowflake Cortex, Explained Like an AI That Lives Next to Your Data", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T10:54:29Z"}
+{"keyword": "Open AI Build Week: Foundation First, Software Second", "platform": "devto", "value": 10.0, "timestamp": "2026-07-21T04:34:11Z"}
+{"keyword": "4 Open-Source AI Tools, 1 MCP Server — What I Built and What I Learned", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T05:45:09Z"}
+{"keyword": "A bug in Qwen3-TTS taught me voice is biometric", "platform": "devto", "value": 14.0, "timestamp": "2026-07-21T09:01:28Z"}
+{"keyword": "RAG isn't an AI problem. It's a data engineering problem wearing an AI hat.", "platform": "devto", "value": 13.0, "timestamp": "2026-07-21T11:22:54Z"}
+{"keyword": "The smolagents sandbox broke 'a, *b = list', one of Python's most common lines", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T05:46:04Z"}
+{"keyword": "Stop Letting AI Write Security Bugs: Introducing \"hallint\"", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T08:40:47Z"}
+{"keyword": "Nothing Crashed. Nothing Errored. My CPU Sat at 390% for an Hour.", "platform": "devto", "value": 12.0, "timestamp": "2026-07-21T12:00:00Z"}
+{"keyword": "I built 118+ device tests that run entirely in your browser — no server, no uploads", "platform": "devto", "value": 4.0, "timestamp": "2026-07-21T06:21:25Z"}
+{"keyword": "You're rethrowing errors and losing context. `Error.cause` fixes that.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T08:36:01Z"}
+{"keyword": "Show DEV: I built a free macOS app to control Spotify Web player directly from the Notch", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T17:04:19Z"}
+{"keyword": "Spring Deep Dive: Transactions", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T10:31:49Z"}
+{"keyword": "Your Clock Can Go Backward—Use the Right One for Durations", "platform": "devto", "value": 3.0, "timestamp": "2026-07-21T12:39:14Z"}
+{"keyword": "How I pulled data out of a cross-origin iframe I couldn't touch", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T14:16:54Z"}
+{"keyword": "Why Google Translate Crashes Your React App (and How to Fix It)", "platform": "devto", "value": 6.0, "timestamp": "2026-07-21T07:29:56Z"}
+{"keyword": "Autonomy Is the Bug: Why Self-Driving Agents Hallucinate When the Model Barely Does", "platform": "devto", "value": 4.0, "timestamp": "2026-07-21T16:23:46Z"}
+{"keyword": "We benchmarked an AI agent on 52 broken clusters: kubectl vs a Kubernetes MCP server", "platform": "devto", "value": 11.0, "timestamp": "2026-07-21T09:52:24Z"}
+{"keyword": "Give Your Coding Agent a Deterministic Vulnerability Oracle", "platform": "devto", "value": 1.0, "timestamp": "2026-07-21T15:04:00Z"}
+{"keyword": "Preventing Focus Loss From Launching a Charged Jump in a Three.js Arcade Game", "platform": "devto", "value": 2.0, "timestamp": "2026-07-21T09:58:56Z"}
+{"keyword": "Nobody Ever Calculated the ROI of Email", "platform": "devto", "value": 2.0, "timestamp": "2026-07-21T18:12:51Z"}
+{"keyword": "Five Comments That Redesigned My LLM Verification Pipeline", "platform": "devto", "value": 3.0, "timestamp": "2026-07-21T06:33:26Z"}
+{"keyword": "Introducing Agent-Up: run multiple agent-built versions of your web app at once", "platform": "devto", "value": 1.0, "timestamp": "2026-07-21T17:28:32Z"}
+{"keyword": "🚀 Rizzzler Just Got Even Better!", "platform": "devto", "value": 13.0, "timestamp": "2026-07-21T03:43:54Z"}
+{"keyword": "You can build it. Should you?", "platform": "devto", "value": 10.0, "timestamp": "2026-07-21T15:40:00Z"}
+{"keyword": "tpu-management: a Claude Code skill for running Gemma 4 on Cloud TPUs", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T00:10:45Z"}
+{"keyword": "Gemma 4 E2B on a Single TPU v6e Chip: A Serving Deep Dive", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T03:48:40Z"}
+{"keyword": "The Optimistic UI Race Condition That Only Showed Up on the Fifth Click", "platform": "devto", "value": 18.0, "timestamp": "2026-07-21T10:24:35Z"}
+{"keyword": "🐘 TypeScript for PHP? YES, that's possible! And it's not what you think...", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T12:57:51Z"}
+{"keyword": "How AI changed the way I pick frameworks, and the two places React survived", "platform": "devto", "value": 6.0, "timestamp": "2026-07-21T00:51:32Z"}
+{"keyword": "Snowflake Cortex, Explained Like an AI That Lives Next to Your Data", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T10:54:29Z"}
+{"keyword": "Open AI Build Week: Foundation First, Software Second", "platform": "devto", "value": 10.0, "timestamp": "2026-07-21T04:34:11Z"}
+{"keyword": "4 Open-Source AI Tools, 1 MCP Server — What I Built and What I Learned", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T05:45:09Z"}
+{"keyword": "A bug in Qwen3-TTS taught me voice is biometric", "platform": "devto", "value": 14.0, "timestamp": "2026-07-21T09:01:28Z"}
+{"keyword": "RAG isn't an AI problem. It's a data engineering problem wearing an AI hat.", "platform": "devto", "value": 13.0, "timestamp": "2026-07-21T11:22:54Z"}
+{"keyword": "The smolagents sandbox broke 'a, *b = list', one of Python's most common lines", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T05:46:04Z"}
+{"keyword": "Stop Letting AI Write Security Bugs: Introducing \"hallint\"", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T08:40:47Z"}
+{"keyword": "Nothing Crashed. Nothing Errored. My CPU Sat at 390% for an Hour.", "platform": "devto", "value": 12.0, "timestamp": "2026-07-21T12:00:00Z"}
+{"keyword": "I built 118+ device tests that run entirely in your browser — no server, no uploads", "platform": "devto", "value": 4.0, "timestamp": "2026-07-21T06:21:25Z"}
+{"keyword": "You're rethrowing errors and losing context. `Error.cause` fixes that.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T08:36:01Z"}
+{"keyword": "Show DEV: I built a free macOS app to control Spotify Web player directly from the Notch", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T17:04:19Z"}
+{"keyword": "Spring Deep Dive: Transactions", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T10:31:49Z"}
+{"keyword": "Your Clock Can Go Backward—Use the Right One for Durations", "platform": "devto", "value": 3.0, "timestamp": "2026-07-21T12:39:14Z"}
+{"keyword": "How I pulled data out of a cross-origin iframe I couldn't touch", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T14:16:54Z"}
+{"keyword": "Why Google Translate Crashes Your React App (and How to Fix It)", "platform": "devto", "value": 6.0, "timestamp": "2026-07-21T07:29:56Z"}
+{"keyword": "Autonomy Is the Bug: Why Self-Driving Agents Hallucinate When the Model Barely Does", "platform": "devto", "value": 4.0, "timestamp": "2026-07-21T16:23:46Z"}
+{"keyword": "We benchmarked an AI agent on 52 broken clusters: kubectl vs a Kubernetes MCP server", "platform": "devto", "value": 11.0, "timestamp": "2026-07-21T09:52:24Z"}
+{"keyword": "Give Your Coding Agent a Deterministic Vulnerability Oracle", "platform": "devto", "value": 1.0, "timestamp": "2026-07-21T15:04:00Z"}
+{"keyword": "Preventing Focus Loss From Launching a Charged Jump in a Three.js Arcade Game", "platform": "devto", "value": 2.0, "timestamp": "2026-07-21T09:58:56Z"}
+{"keyword": "Nobody Ever Calculated the ROI of Email", "platform": "devto", "value": 2.0, "timestamp": "2026-07-21T18:12:51Z"}
+{"keyword": "Five Comments That Redesigned My LLM Verification Pipeline", "platform": "devto", "value": 3.0, "timestamp": "2026-07-21T06:33:26Z"}
+{"keyword": "Introducing Agent-Up: run multiple agent-built versions of your web app at once", "platform": "devto", "value": 1.0, "timestamp": "2026-07-21T17:28:32Z"}
+{"keyword": "🚀 Rizzzler Just Got Even Better!", "platform": "devto", "value": 13.0, "timestamp": "2026-07-21T03:43:54Z"}
+{"keyword": "You can build it. Should you?", "platform": "devto", "value": 10.0, "timestamp": "2026-07-21T15:40:00Z"}
+{"keyword": "tpu-management: a Claude Code skill for running Gemma 4 on Cloud TPUs", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T00:10:45Z"}
+{"keyword": "Gemma 4 E2B on a Single TPU v6e Chip: A Serving Deep Dive", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T03:48:40Z"}
+{"keyword": "The Optimistic UI Race Condition That Only Showed Up on the Fifth Click", "platform": "devto", "value": 18.0, "timestamp": "2026-07-21T10:24:35Z"}
+{"keyword": "🐘 TypeScript for PHP? YES, that's possible! And it's not what you think...", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T12:57:51Z"}
+{"keyword": "How AI changed the way I pick frameworks, and the two places React survived", "platform": "devto", "value": 6.0, "timestamp": "2026-07-21T00:51:32Z"}
+{"keyword": "Snowflake Cortex, Explained Like an AI That Lives Next to Your Data", "platform": "devto", "value": 7.0, "timestamp": "2026-07-21T10:54:29Z"}
+{"keyword": "Open AI Build Week: Foundation First, Software Second", "platform": "devto", "value": 10.0, "timestamp": "2026-07-21T04:34:11Z"}
+{"keyword": "4 Open-Source AI Tools, 1 MCP Server — What I Built and What I Learned", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T05:45:09Z"}
+{"keyword": "A bug in Qwen3-TTS taught me voice is biometric", "platform": "devto", "value": 14.0, "timestamp": "2026-07-21T09:01:28Z"}
+{"keyword": "RAG isn't an AI problem. It's a data engineering problem wearing an AI hat.", "platform": "devto", "value": 13.0, "timestamp": "2026-07-21T11:22:54Z"}
+{"keyword": "The smolagents sandbox broke 'a, *b = list', one of Python's most common lines", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T05:46:04Z"}
+{"keyword": "Stop Letting AI Write Security Bugs: Introducing \"hallint\"", "platform": "devto", "value": 8.0, "timestamp": "2026-07-21T08:40:47Z"}
+{"keyword": "Nothing Crashed. Nothing Errored. My CPU Sat at 390% for an Hour.", "platform": "devto", "value": 12.0, "timestamp": "2026-07-21T12:00:00Z"}
+{"keyword": "I built 118+ device tests that run entirely in your browser — no server, no uploads", "platform": "devto", "value": 4.0, "timestamp": "2026-07-21T06:21:25Z"}
+{"keyword": "You're rethrowing errors and losing context. `Error.cause` fixes that.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T08:36:01Z"}
+{"keyword": "Show DEV: I built a free macOS app to control Spotify Web player directly from the Notch", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T17:04:19Z"}
+{"keyword": "Spring Deep Dive: Transactions", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T10:31:49Z"}
+{"keyword": "Your Clock Can Go Backward—Use the Right One for Durations", "platform": "devto", "value": 3.0, "timestamp": "2026-07-21T12:39:14Z"}
+{"keyword": "How I pulled data out of a cross-origin iframe I couldn't touch", "platform": "devto", "value": 5.0, "timestamp": "2026-07-21T14:16:54Z"}
+{"keyword": "Why Google Translate Crashes Your React App (and How to Fix It)", "platform": "devto", "value": 6.0, "timestamp": "2026-07-21T07:29:56Z"}
+{"keyword": "Autonomy Is the Bug: Why Self-Driving Agents Hallucinate When the Model Barely Does", "platform": "devto", "value": 4.0, "timestamp": "2026-07-21T16:23:46Z"}
+{"keyword": "We benchmarked an AI agent on 52 broken clusters: kubectl vs a Kubernetes MCP server", "platform": "devto", "value": 11.0, "timestamp": "2026-07-21T09:52:24Z"}
+{"keyword": "Give Your Coding Agent a Deterministic Vulnerability Oracle", "platform": "devto", "value": 1.0, "timestamp": "2026-07-21T15:04:00Z"}
+{"keyword": "Preventing Focus Loss From Launching a Charged Jump in a Three.js Arcade Game", "platform": "devto", "value": 2.0, "timestamp": "2026-07-21T09:58:56Z"}
+{"keyword": "Nobody Ever Calculated the ROI of Email", "platform": "devto", "value": 2.0, "timestamp": "2026-07-21T18:12:51Z"}
+{"keyword": "Five Comments That Redesigned My LLM Verification Pipeline", "platform": "devto", "value": 3.0, "timestamp": "2026-07-21T06:33:26Z"}
+{"keyword": "Introducing Agent-Up: run multiple agent-built versions of your web app at once", "platform": "devto", "value": 1.0, "timestamp": "2026-07-21T17:28:32Z"}
+{"keyword": "🚀 Rizzzler Just Got Even Better!", "platform": "devto", "value": 13.0, "timestamp": "2026-07-21T03:43:54Z"}

@@ -10,3 +10,31 @@
 {"keyword": "Best practice for pull-data cache invalidation in a push-exec / pull-data node graph scheduler (C#)", "platform": "stackexchange", "value": 0.0, "timestamp": "1784616703"}
 {"keyword": "Bootstrap modal doesn&#39;t open when using AJAX to load content", "platform": "stackexchange", "value": 1.0, "timestamp": "1784611833"}
 {"keyword": "How to efficiently handle deep pagination and sorting for 12.5 million records?", "platform": "stackexchange", "value": 1.0, "timestamp": "1784605751"}
+{"keyword": "For loop is happening instantly", "platform": "stackexchange", "value": 0.0, "timestamp": "1784672301"}
+{"keyword": "How can a method concisely accept a vector of a polymorphic type populated with temporaries?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784668687"}
+{"keyword": "Why does asyncio deadlock without raising an exception?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784669992"}
+{"keyword": "Apache Camel Transaction Rollback Not Working When JMS Reply Queue Fails", "platform": "stackexchange", "value": 0.0, "timestamp": "1784664253"}
+{"keyword": "How to unnest a list-column as new rows in pre-existing columns?", "platform": "stackexchange", "value": 4.0, "timestamp": "1784642658"}
+{"keyword": "Entity Framework Core self referencing many-to-many relationship", "platform": "stackexchange", "value": 0.0, "timestamp": "1784659987"}
+{"keyword": "watchOS complications never update on their own, only refresh when the Watch app is opened", "platform": "stackexchange", "value": 0.0, "timestamp": "1784662359"}
+{"keyword": "Hardware interrupts not working in protected mode", "platform": "stackexchange", "value": 3.0, "timestamp": "1784654947"}
+{"keyword": "Subclassing ndb&#39;s Property classes such that static type checking works", "platform": "stackexchange", "value": 1.0, "timestamp": "1784659829"}
+{"keyword": "Which PATH variable do I need to specify in execve() in order to launch my program?", "platform": "stackexchange", "value": 2.0, "timestamp": "1784635461"}
+{"keyword": "Multiple arguments in the __section__ attribute", "platform": "stackexchange", "value": 1.0, "timestamp": "1784648644"}
+{"keyword": "How to recover a node-oracledb Thin pool after an RDS Oracle restart without restarting Node.js?", "platform": "stackexchange", "value": 1.0, "timestamp": "1784655105"}
+{"keyword": "Is the postfix expression `f` sequenced before the function call expression `f()`?", "platform": "stackexchange", "value": 2.0, "timestamp": "1784633814"}
+{"keyword": "Check if matrix contains only specific values in numpy", "platform": "stackexchange", "value": 2.0, "timestamp": "1784641769"}
+{"keyword": "For loop is happening instantly", "platform": "stackexchange", "value": 0.0, "timestamp": "1784672301"}
+{"keyword": "How can a method concisely accept a vector of a polymorphic type populated with temporaries?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784668687"}
+{"keyword": "Why does asyncio deadlock without raising an exception?", "platform": "stackexchange", "value": 0.0, "timestamp": "1784669992"}
+{"keyword": "Apache Camel Transaction Rollback Not Working When JMS Reply Queue Fails", "platform": "stackexchange", "value": 0.0, "timestamp": "1784664253"}
+{"keyword": "How to unnest a list-column as new rows in pre-existing columns?", "platform": "stackexchange", "value": 4.0, "timestamp": "1784642658"}
+{"keyword": "Entity Framework Core self referencing many-to-many relationship", "platform": "stackexchange", "value": 0.0, "timestamp": "1784659987"}
+{"keyword": "watchOS complications never update on their own, only refresh when the Watch app is opened", "platform": "stackexchange", "value": 0.0, "timestamp": "1784662359"}
+{"keyword": "Hardware interrupts not working in protected mode", "platform": "stackexchange", "value": 3.0, "timestamp": "1784654947"}
+{"keyword": "Subclassing ndb&#39;s Property classes such that static type checking works", "platform": "stackexchange", "value": 1.0, "timestamp": "1784659829"}
+{"keyword": "Which PATH variable do I need to specify in execve() in order to launch my program?", "platform": "stackexchange", "value": 2.0, "timestamp": "1784635461"}
+{"keyword": "Multiple arguments in the __section__ attribute", "platform": "stackexchange", "value": 1.0, "timestamp": "1784648644"}
+{"keyword": "How to recover a node-oracledb Thin pool after an RDS Oracle restart without restarting Node.js?", "platform": "stackexchange", "value": 1.0, "timestamp": "1784655105"}
+{"keyword": "Is the postfix expression `f` sequenced before the function call expression `f()`?", "platform": "stackexchange", "value": 2.0, "timestamp": "1784633814"}
+{"keyword": "Check if matrix contains only specific values in numpy", "platform": "stackexchange", "value": 2.0, "timestamp": "1784641769"}
