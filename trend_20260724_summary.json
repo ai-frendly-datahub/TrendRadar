@@ -6,35 +6,7 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "OpenAI",
-      "count": 11
-    },
-    {
-      "name": "YouTube",
-      "count": 11
-    },
-    {
-      "name": "E-commerce",
-      "count": 11
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 11
-    },
-    {
-      "name": "Climate change",
-      "count": 11
-    },
-    {
       "name": "Bitcoin",
-      "count": 11
-    },
-    {
-      "name": "Netflix",
-      "count": 11
-    },
-    {
-      "name": "Samsung",
       "count": 11
     },
     {
@@ -58,19 +30,47 @@
       "count": 11
     },
     {
-      "name": "World Wide Web",
-      "count": 10
+      "name": "Netflix",
+      "count": 11
+    },
+    {
+      "name": "Samsung",
+      "count": 11
+    },
+    {
+      "name": "Climate change",
+      "count": 11
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 11
+    },
+    {
+      "name": "E-commerce",
+      "count": 11
+    },
+    {
+      "name": "YouTube",
+      "count": 11
+    },
+    {
+      "name": "OpenAI",
+      "count": 11
     },
     {
       "name": "Seoul",
       "count": 10
     },
     {
-      "name": "멜론",
+      "name": "World Wide Web",
+      "count": 10
+    },
+    {
+      "name": "스포츠 선수",
       "count": 2
     },
     {
-      "name": "음악방송",
+      "name": "유튜버",
       "count": 2
     },
     {
@@ -78,11 +78,11 @@
       "count": 2
     },
     {
-      "name": "부동산 시장",
+      "name": "음악방송",
       "count": 2
     },
     {
-      "name": "K-POP",
+      "name": "멜론",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 163,
     "google": 37
   },
-  "generated_at": "2026-07-24T20:39:27.283657+09:00"
+  "generated_at": "2026-07-24T22:59:25.772713+00:00"
 }
