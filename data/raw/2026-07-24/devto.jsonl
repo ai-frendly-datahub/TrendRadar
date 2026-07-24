@@ -52,3 +52,107 @@
 {"keyword": "The DevOps Team That Never Sleeps", "platform": "devto", "value": 2.0, "timestamp": "2026-07-23T13:00:00Z"}
 {"keyword": "Picking the Latest Kubernetes Release on AKS Without Shooting Yourself in the Foot", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T07:41:22Z"}
 {"keyword": "I spent a week proving a feature couldn't be built. That was the win.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-23T12:27:09Z"}
+{"keyword": "🐍 Snake - rendered with 576 browser windows [warning - this WILL hurt your eyes...and PC!]", "platform": "devto", "value": 41.0, "timestamp": "2026-07-23T22:44:58Z"}
+{"keyword": "6 Open Source Tools That Give You the Web Back", "platform": "devto", "value": 24.0, "timestamp": "2026-07-24T12:39:50Z"}
+{"keyword": "The World's Oldest Communication Protocol Is Music", "platform": "devto", "value": 18.0, "timestamp": "2026-07-24T03:52:53Z"}
+{"keyword": "Teaching Codex to Paint: A Stateful Image-Editing Skill Built on Gemini's Interactions API and MCP", "platform": "devto", "value": 11.0, "timestamp": "2026-07-23T23:57:31Z"}
+{"keyword": "Own Your Pixels: Native Fidelity on Your Schedule", "platform": "devto", "value": 5.0, "timestamp": "2026-07-24T15:28:07Z"}
+{"keyword": "Hetzner Inference: First Look", "platform": "devto", "value": 12.0, "timestamp": "2026-07-24T09:19:14Z"}
+{"keyword": "Começando com Redes: Camadas de uma conexão TCP/IP", "platform": "devto", "value": 45.0, "timestamp": "2026-07-24T12:37:44Z"}
+{"keyword": "I turned a photo of my handwriting into a real font, then open-sourced the whole pipeline", "platform": "devto", "value": 9.0, "timestamp": "2026-07-24T07:54:20Z"}
+{"keyword": "Just for Fun: Fear and Loathing in the Age of Coding Agents", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T08:51:12Z"}
+{"keyword": "The Person Who Fixed the Bugs Just Vanished", "platform": "devto", "value": 41.0, "timestamp": "2026-07-24T08:02:58Z"}
+{"keyword": "The Six Flavors of Dependency Injection in Flutter", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T18:11:07Z"}
+{"keyword": "Claude Lawfare", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T17:45:39Z"}
+{"keyword": "The Case of the Disappearing Free Trial", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T14:18:17Z"}
+{"keyword": "You still write `finally { resource.close() }`. The `using` keyword does it automatically.", "platform": "devto", "value": 8.0, "timestamp": "2026-07-24T08:33:28Z"}
+{"keyword": "AMD Advancing AI 2026: Software, Hardware & Framework, Unified", "platform": "devto", "value": 8.0, "timestamp": "2026-07-23T22:46:16Z"}
+{"keyword": "My AI pentest agent reported 23 root shells. It had actually popped zero.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-23T22:35:58Z"}
+{"keyword": "MIT Hackathon Puzzle That Turned Into a Data Science Project", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T00:04:11Z"}
+{"keyword": "Apache Airflow, Explained Like You've Never Seen a Pipeline Before 🔥🚀", "platform": "devto", "value": 10.0, "timestamp": "2026-07-24T02:15:03Z"}
+{"keyword": "Context Compression: Making AI Agents Forget Without Losing the Plot", "platform": "devto", "value": 15.0, "timestamp": "2026-07-24T20:09:52Z"}
+{"keyword": "PostgreSQL Said No to Query Hints for 20 Years. Postgres 19 Ships Them.", "platform": "devto", "value": 6.0, "timestamp": "2026-07-24T14:15:08Z"}
+{"keyword": "Deploying CockroachDB on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:15:31Z"}
+{"keyword": "Deploying Gateway API with TLS Encryption on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:12:45Z"}
+{"keyword": "Deploying Kubernetes Dashboard and Managing Cluster Resources", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:19:09Z"}
+{"keyword": "'World Models' Will Be the Next Buzzword. The Man Saying That Just Raised $1B to Build One", "platform": "devto", "value": 11.0, "timestamp": "2026-07-24T12:10:03Z"}
+{"keyword": "Every AI Commit Is Someone's Future Legacy Code", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T13:18:45Z"}
+{"keyword": "I Built a Canny Alternative — Then Realized the Feedback Board Was the Easy Part", "platform": "devto", "value": 12.0, "timestamp": "2026-07-24T11:44:49Z"}
+{"keyword": "🐍 Snake - rendered with 576 browser windows [warning - this WILL hurt your eyes...and PC!]", "platform": "devto", "value": 41.0, "timestamp": "2026-07-23T22:44:58Z"}
+{"keyword": "6 Open Source Tools That Give You the Web Back", "platform": "devto", "value": 24.0, "timestamp": "2026-07-24T12:39:50Z"}
+{"keyword": "The World's Oldest Communication Protocol Is Music", "platform": "devto", "value": 18.0, "timestamp": "2026-07-24T03:52:53Z"}
+{"keyword": "Teaching Codex to Paint: A Stateful Image-Editing Skill Built on Gemini's Interactions API and MCP", "platform": "devto", "value": 11.0, "timestamp": "2026-07-23T23:57:31Z"}
+{"keyword": "Own Your Pixels: Native Fidelity on Your Schedule", "platform": "devto", "value": 5.0, "timestamp": "2026-07-24T15:28:07Z"}
+{"keyword": "Hetzner Inference: First Look", "platform": "devto", "value": 12.0, "timestamp": "2026-07-24T09:19:14Z"}
+{"keyword": "Começando com Redes: Camadas de uma conexão TCP/IP", "platform": "devto", "value": 45.0, "timestamp": "2026-07-24T12:37:44Z"}
+{"keyword": "I turned a photo of my handwriting into a real font, then open-sourced the whole pipeline", "platform": "devto", "value": 9.0, "timestamp": "2026-07-24T07:54:20Z"}
+{"keyword": "Just for Fun: Fear and Loathing in the Age of Coding Agents", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T08:51:12Z"}
+{"keyword": "The Person Who Fixed the Bugs Just Vanished", "platform": "devto", "value": 41.0, "timestamp": "2026-07-24T08:02:58Z"}
+{"keyword": "The Six Flavors of Dependency Injection in Flutter", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T18:11:07Z"}
+{"keyword": "Claude Lawfare", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T17:45:39Z"}
+{"keyword": "The Case of the Disappearing Free Trial", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T14:18:17Z"}
+{"keyword": "You still write `finally { resource.close() }`. The `using` keyword does it automatically.", "platform": "devto", "value": 8.0, "timestamp": "2026-07-24T08:33:28Z"}
+{"keyword": "AMD Advancing AI 2026: Software, Hardware & Framework, Unified", "platform": "devto", "value": 8.0, "timestamp": "2026-07-23T22:46:16Z"}
+{"keyword": "My AI pentest agent reported 23 root shells. It had actually popped zero.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-23T22:35:58Z"}
+{"keyword": "MIT Hackathon Puzzle That Turned Into a Data Science Project", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T00:04:11Z"}
+{"keyword": "Apache Airflow, Explained Like You've Never Seen a Pipeline Before 🔥🚀", "platform": "devto", "value": 10.0, "timestamp": "2026-07-24T02:15:03Z"}
+{"keyword": "Context Compression: Making AI Agents Forget Without Losing the Plot", "platform": "devto", "value": 15.0, "timestamp": "2026-07-24T20:09:52Z"}
+{"keyword": "PostgreSQL Said No to Query Hints for 20 Years. Postgres 19 Ships Them.", "platform": "devto", "value": 6.0, "timestamp": "2026-07-24T14:15:08Z"}
+{"keyword": "Deploying CockroachDB on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:15:31Z"}
+{"keyword": "Deploying Gateway API with TLS Encryption on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:12:45Z"}
+{"keyword": "Deploying Kubernetes Dashboard and Managing Cluster Resources", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:19:09Z"}
+{"keyword": "'World Models' Will Be the Next Buzzword. The Man Saying That Just Raised $1B to Build One", "platform": "devto", "value": 11.0, "timestamp": "2026-07-24T12:10:03Z"}
+{"keyword": "Every AI Commit Is Someone's Future Legacy Code", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T13:18:45Z"}
+{"keyword": "I Built a Canny Alternative — Then Realized the Feedback Board Was the Easy Part", "platform": "devto", "value": 12.0, "timestamp": "2026-07-24T11:44:49Z"}
+{"keyword": "🐍 Snake - rendered with 576 browser windows [warning - this WILL hurt your eyes...and PC!]", "platform": "devto", "value": 41.0, "timestamp": "2026-07-23T22:44:58Z"}
+{"keyword": "6 Open Source Tools That Give You the Web Back", "platform": "devto", "value": 24.0, "timestamp": "2026-07-24T12:39:50Z"}
+{"keyword": "The World's Oldest Communication Protocol Is Music", "platform": "devto", "value": 18.0, "timestamp": "2026-07-24T03:52:53Z"}
+{"keyword": "Teaching Codex to Paint: A Stateful Image-Editing Skill Built on Gemini's Interactions API and MCP", "platform": "devto", "value": 11.0, "timestamp": "2026-07-23T23:57:31Z"}
+{"keyword": "Own Your Pixels: Native Fidelity on Your Schedule", "platform": "devto", "value": 5.0, "timestamp": "2026-07-24T15:28:07Z"}
+{"keyword": "Hetzner Inference: First Look", "platform": "devto", "value": 12.0, "timestamp": "2026-07-24T09:19:14Z"}
+{"keyword": "Começando com Redes: Camadas de uma conexão TCP/IP", "platform": "devto", "value": 45.0, "timestamp": "2026-07-24T12:37:44Z"}
+{"keyword": "I turned a photo of my handwriting into a real font, then open-sourced the whole pipeline", "platform": "devto", "value": 9.0, "timestamp": "2026-07-24T07:54:20Z"}
+{"keyword": "Just for Fun: Fear and Loathing in the Age of Coding Agents", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T08:51:12Z"}
+{"keyword": "The Person Who Fixed the Bugs Just Vanished", "platform": "devto", "value": 41.0, "timestamp": "2026-07-24T08:02:58Z"}
+{"keyword": "The Six Flavors of Dependency Injection in Flutter", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T18:11:07Z"}
+{"keyword": "Claude Lawfare", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T17:45:39Z"}
+{"keyword": "The Case of the Disappearing Free Trial", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T14:18:17Z"}
+{"keyword": "You still write `finally { resource.close() }`. The `using` keyword does it automatically.", "platform": "devto", "value": 8.0, "timestamp": "2026-07-24T08:33:28Z"}
+{"keyword": "AMD Advancing AI 2026: Software, Hardware & Framework, Unified", "platform": "devto", "value": 8.0, "timestamp": "2026-07-23T22:46:16Z"}
+{"keyword": "My AI pentest agent reported 23 root shells. It had actually popped zero.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-23T22:35:58Z"}
+{"keyword": "MIT Hackathon Puzzle That Turned Into a Data Science Project", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T00:04:11Z"}
+{"keyword": "Apache Airflow, Explained Like You've Never Seen a Pipeline Before 🔥🚀", "platform": "devto", "value": 10.0, "timestamp": "2026-07-24T02:15:03Z"}
+{"keyword": "Context Compression: Making AI Agents Forget Without Losing the Plot", "platform": "devto", "value": 15.0, "timestamp": "2026-07-24T20:09:52Z"}
+{"keyword": "PostgreSQL Said No to Query Hints for 20 Years. Postgres 19 Ships Them.", "platform": "devto", "value": 6.0, "timestamp": "2026-07-24T14:15:08Z"}
+{"keyword": "Deploying CockroachDB on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:15:31Z"}
+{"keyword": "Deploying Gateway API with TLS Encryption on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:12:45Z"}
+{"keyword": "Deploying Kubernetes Dashboard and Managing Cluster Resources", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:19:09Z"}
+{"keyword": "'World Models' Will Be the Next Buzzword. The Man Saying That Just Raised $1B to Build One", "platform": "devto", "value": 11.0, "timestamp": "2026-07-24T12:10:03Z"}
+{"keyword": "Every AI Commit Is Someone's Future Legacy Code", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T13:18:45Z"}
+{"keyword": "I Built a Canny Alternative — Then Realized the Feedback Board Was the Easy Part", "platform": "devto", "value": 12.0, "timestamp": "2026-07-24T11:44:49Z"}
+{"keyword": "🐍 Snake - rendered with 576 browser windows [warning - this WILL hurt your eyes...and PC!]", "platform": "devto", "value": 41.0, "timestamp": "2026-07-23T22:44:58Z"}
+{"keyword": "6 Open Source Tools That Give You the Web Back", "platform": "devto", "value": 24.0, "timestamp": "2026-07-24T12:39:50Z"}
+{"keyword": "The World's Oldest Communication Protocol Is Music", "platform": "devto", "value": 18.0, "timestamp": "2026-07-24T03:52:53Z"}
+{"keyword": "Teaching Codex to Paint: A Stateful Image-Editing Skill Built on Gemini's Interactions API and MCP", "platform": "devto", "value": 11.0, "timestamp": "2026-07-23T23:57:31Z"}
+{"keyword": "Own Your Pixels: Native Fidelity on Your Schedule", "platform": "devto", "value": 5.0, "timestamp": "2026-07-24T15:28:07Z"}
+{"keyword": "Hetzner Inference: First Look", "platform": "devto", "value": 12.0, "timestamp": "2026-07-24T09:19:14Z"}
+{"keyword": "Começando com Redes: Camadas de uma conexão TCP/IP", "platform": "devto", "value": 45.0, "timestamp": "2026-07-24T12:37:44Z"}
+{"keyword": "I turned a photo of my handwriting into a real font, then open-sourced the whole pipeline", "platform": "devto", "value": 9.0, "timestamp": "2026-07-24T07:54:20Z"}
+{"keyword": "Just for Fun: Fear and Loathing in the Age of Coding Agents", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T08:51:12Z"}
+{"keyword": "The Person Who Fixed the Bugs Just Vanished", "platform": "devto", "value": 41.0, "timestamp": "2026-07-24T08:02:58Z"}
+{"keyword": "The Six Flavors of Dependency Injection in Flutter", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T18:11:07Z"}
+{"keyword": "Claude Lawfare", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T17:45:39Z"}
+{"keyword": "The Case of the Disappearing Free Trial", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T14:18:17Z"}
+{"keyword": "You still write `finally { resource.close() }`. The `using` keyword does it automatically.", "platform": "devto", "value": 8.0, "timestamp": "2026-07-24T08:33:28Z"}
+{"keyword": "AMD Advancing AI 2026: Software, Hardware & Framework, Unified", "platform": "devto", "value": 8.0, "timestamp": "2026-07-23T22:46:16Z"}
+{"keyword": "My AI pentest agent reported 23 root shells. It had actually popped zero.", "platform": "devto", "value": 11.0, "timestamp": "2026-07-23T22:35:58Z"}
+{"keyword": "MIT Hackathon Puzzle That Turned Into a Data Science Project", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T00:04:11Z"}
+{"keyword": "Apache Airflow, Explained Like You've Never Seen a Pipeline Before 🔥🚀", "platform": "devto", "value": 10.0, "timestamp": "2026-07-24T02:15:03Z"}
+{"keyword": "Context Compression: Making AI Agents Forget Without Losing the Plot", "platform": "devto", "value": 15.0, "timestamp": "2026-07-24T20:09:52Z"}
+{"keyword": "PostgreSQL Said No to Query Hints for 20 Years. Postgres 19 Ships Them.", "platform": "devto", "value": 6.0, "timestamp": "2026-07-24T14:15:08Z"}
+{"keyword": "Deploying CockroachDB on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:15:31Z"}
+{"keyword": "Deploying Gateway API with TLS Encryption on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:12:45Z"}
+{"keyword": "Deploying Kubernetes Dashboard and Managing Cluster Resources", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T14:19:09Z"}
+{"keyword": "'World Models' Will Be the Next Buzzword. The Man Saying That Just Raised $1B to Build One", "platform": "devto", "value": 11.0, "timestamp": "2026-07-24T12:10:03Z"}
+{"keyword": "Every AI Commit Is Someone's Future Legacy Code", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T13:18:45Z"}
+{"keyword": "I Built a Canny Alternative — Then Realized the Feedback Board Was the Easy Part", "platform": "devto", "value": 12.0, "timestamp": "2026-07-24T11:44:49Z"}
