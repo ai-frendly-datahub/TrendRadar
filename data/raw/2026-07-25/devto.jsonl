@@ -50,3 +50,103 @@
 {"keyword": "Had a great time answering all your questions! Let me know if I should another AMA soon!", "platform": "devto", "value": 0.0, "timestamp": "2026-07-24T15:41:40Z"}
 {"keyword": "Sinch from the Command Line: Numbers, Calls, Messages, Logs", "platform": "devto", "value": 4.0, "timestamp": "2026-07-24T14:01:52Z"}
 {"keyword": "Arrays Explained from Memory to Big O (With Real Benchmarks)", "platform": "devto", "value": 1.0, "timestamp": "2026-07-24T12:08:55Z"}
+{"keyword": "The Crash That Only Happened Sometimes — A SwiftUI Bug", "platform": "devto", "value": 21.0, "timestamp": "2026-07-25T07:45:27Z"}
+{"keyword": "I'm a Dev Who Barely Knows the Kernel. Here's How I'm Learning How to Track a Packet with pwru", "platform": "devto", "value": 24.0, "timestamp": "2026-07-25T13:01:01Z"}
+{"keyword": "🐈‍⬛Check Out Catbot's New Leg!", "platform": "devto", "value": 9.0, "timestamp": "2026-07-25T01:40:56Z"}
+{"keyword": "389 Tests Passed. NIST Still Caught the Bug.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-25T06:17:51Z"}
+{"keyword": "Bare Metal and Neural Nets: Crafting a Purpose-Driven AI Cyberdeck", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T14:32:28Z"}
+{"keyword": "I Run Bare-Metal Kubernetes on $200 of Scrap Hardware (And Why I Burned 3 SD Cards Learning)", "platform": "devto", "value": 8.0, "timestamp": "2026-07-25T17:55:01Z"}
+{"keyword": "When SearchValues<T> Actually Pays Off", "platform": "devto", "value": 6.0, "timestamp": "2026-07-25T16:50:16Z"}
+{"keyword": "How to structure CLAUDE.md, Skills and Agents", "platform": "devto", "value": 7.0, "timestamp": "2026-07-25T09:00:00Z"}
+{"keyword": "Building a real-time Crystal app with Kemal — where privacy is a server invariant", "platform": "devto", "value": 3.0, "timestamp": "2026-07-25T11:39:52Z"}
+{"keyword": "Two coding agents editing the same issue, no merge conflict. Here is how git refs make that work", "platform": "devto", "value": 4.0, "timestamp": "2026-07-25T15:24:15Z"}
+{"keyword": "How Unreal Engine Works: Not an API, but Engineering Thinking", "platform": "devto", "value": 6.0, "timestamp": "2026-07-25T11:01:53Z"}
+{"keyword": "One Cache Miss, Fifty Database Calls", "platform": "devto", "value": 10.0, "timestamp": "2026-07-25T19:21:07Z"}
+{"keyword": "Automatic Page Layout Is a Search Problem", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T08:11:24Z"}
+{"keyword": "AppFunctions, revisited", "platform": "devto", "value": 0.0, "timestamp": "2026-07-25T11:36:27Z"}
+{"keyword": "Bumping to TypeScript 7? Catch what tsgo breaks in your repo before CI does", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T11:32:40Z"}
+{"keyword": "How I Built a Full RPG Game in TypeScript — Zero Images, Pure Canvas 2D", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T03:55:39Z"}
+{"keyword": "I Fabricated a Claim About LLM Judges. Then I Ran the Apology Experiment.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T10:24:25Z"}
+{"keyword": "Five percentage-change bugs I've shipped to production", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:01:47Z"}
+{"keyword": "A Typosquat Package Almost Got My Keys: Dissecting the Attack Safely", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T15:12:20Z"}
+{"keyword": "Voice Cloning: Sample Quality Beats Sample Length, and Prosody Beats Both", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:11:43Z"}
+{"keyword": "📐 Mathematics for AI — Foundation Course", "platform": "devto", "value": 9.0, "timestamp": "2026-07-25T09:06:54Z"}
+{"keyword": "Serving a Large Art Set to a UI That Shows One Image", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:10:10Z"}
+{"keyword": "How I compile React-shaped TSX without React or hydration", "platform": "devto", "value": 3.0, "timestamp": "2026-07-25T12:23:04Z"}
+{"keyword": "I scanned 1,775 websites for GDPR consent leaks", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T11:14:50Z"}
+{"keyword": "Orchestrating Slow, Unreliable Async Jobs Across Multiple Providers", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:08:56Z"}
+{"keyword": "The Crash That Only Happened Sometimes — A SwiftUI Bug", "platform": "devto", "value": 21.0, "timestamp": "2026-07-25T07:45:27Z"}
+{"keyword": "I'm a Dev Who Barely Knows the Kernel. Here's How I'm Learning How to Track a Packet with pwru", "platform": "devto", "value": 24.0, "timestamp": "2026-07-25T13:01:01Z"}
+{"keyword": "🐈‍⬛Check Out Catbot's New Leg!", "platform": "devto", "value": 9.0, "timestamp": "2026-07-25T01:40:56Z"}
+{"keyword": "389 Tests Passed. NIST Still Caught the Bug.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-25T06:17:51Z"}
+{"keyword": "Bare Metal and Neural Nets: Crafting a Purpose-Driven AI Cyberdeck", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T14:32:28Z"}
+{"keyword": "I Run Bare-Metal Kubernetes on $200 of Scrap Hardware (And Why I Burned 3 SD Cards Learning)", "platform": "devto", "value": 8.0, "timestamp": "2026-07-25T17:55:01Z"}
+{"keyword": "When SearchValues<T> Actually Pays Off", "platform": "devto", "value": 6.0, "timestamp": "2026-07-25T16:50:16Z"}
+{"keyword": "How to structure CLAUDE.md, Skills and Agents", "platform": "devto", "value": 7.0, "timestamp": "2026-07-25T09:00:00Z"}
+{"keyword": "Building a real-time Crystal app with Kemal — where privacy is a server invariant", "platform": "devto", "value": 3.0, "timestamp": "2026-07-25T11:39:52Z"}
+{"keyword": "Two coding agents editing the same issue, no merge conflict. Here is how git refs make that work", "platform": "devto", "value": 4.0, "timestamp": "2026-07-25T15:24:15Z"}
+{"keyword": "How Unreal Engine Works: Not an API, but Engineering Thinking", "platform": "devto", "value": 6.0, "timestamp": "2026-07-25T11:01:53Z"}
+{"keyword": "One Cache Miss, Fifty Database Calls", "platform": "devto", "value": 10.0, "timestamp": "2026-07-25T19:21:07Z"}
+{"keyword": "Automatic Page Layout Is a Search Problem", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T08:11:24Z"}
+{"keyword": "AppFunctions, revisited", "platform": "devto", "value": 0.0, "timestamp": "2026-07-25T11:36:27Z"}
+{"keyword": "Bumping to TypeScript 7? Catch what tsgo breaks in your repo before CI does", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T11:32:40Z"}
+{"keyword": "How I Built a Full RPG Game in TypeScript — Zero Images, Pure Canvas 2D", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T03:55:39Z"}
+{"keyword": "I Fabricated a Claim About LLM Judges. Then I Ran the Apology Experiment.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T10:24:25Z"}
+{"keyword": "Five percentage-change bugs I've shipped to production", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:01:47Z"}
+{"keyword": "A Typosquat Package Almost Got My Keys: Dissecting the Attack Safely", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T15:12:20Z"}
+{"keyword": "Voice Cloning: Sample Quality Beats Sample Length, and Prosody Beats Both", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:11:43Z"}
+{"keyword": "📐 Mathematics for AI — Foundation Course", "platform": "devto", "value": 9.0, "timestamp": "2026-07-25T09:06:54Z"}
+{"keyword": "Serving a Large Art Set to a UI That Shows One Image", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:10:10Z"}
+{"keyword": "How I compile React-shaped TSX without React or hydration", "platform": "devto", "value": 3.0, "timestamp": "2026-07-25T12:23:04Z"}
+{"keyword": "I scanned 1,775 websites for GDPR consent leaks", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T11:14:50Z"}
+{"keyword": "Orchestrating Slow, Unreliable Async Jobs Across Multiple Providers", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:08:56Z"}
+{"keyword": "The Crash That Only Happened Sometimes — A SwiftUI Bug", "platform": "devto", "value": 21.0, "timestamp": "2026-07-25T07:45:27Z"}
+{"keyword": "I'm a Dev Who Barely Knows the Kernel. Here's How I'm Learning How to Track a Packet with pwru", "platform": "devto", "value": 24.0, "timestamp": "2026-07-25T13:01:01Z"}
+{"keyword": "🐈‍⬛Check Out Catbot's New Leg!", "platform": "devto", "value": 9.0, "timestamp": "2026-07-25T01:40:56Z"}
+{"keyword": "389 Tests Passed. NIST Still Caught the Bug.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-25T06:17:51Z"}
+{"keyword": "Bare Metal and Neural Nets: Crafting a Purpose-Driven AI Cyberdeck", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T14:32:28Z"}
+{"keyword": "I Run Bare-Metal Kubernetes on $200 of Scrap Hardware (And Why I Burned 3 SD Cards Learning)", "platform": "devto", "value": 8.0, "timestamp": "2026-07-25T17:55:01Z"}
+{"keyword": "When SearchValues<T> Actually Pays Off", "platform": "devto", "value": 6.0, "timestamp": "2026-07-25T16:50:16Z"}
+{"keyword": "How to structure CLAUDE.md, Skills and Agents", "platform": "devto", "value": 7.0, "timestamp": "2026-07-25T09:00:00Z"}
+{"keyword": "Building a real-time Crystal app with Kemal — where privacy is a server invariant", "platform": "devto", "value": 3.0, "timestamp": "2026-07-25T11:39:52Z"}
+{"keyword": "Two coding agents editing the same issue, no merge conflict. Here is how git refs make that work", "platform": "devto", "value": 4.0, "timestamp": "2026-07-25T15:24:15Z"}
+{"keyword": "How Unreal Engine Works: Not an API, but Engineering Thinking", "platform": "devto", "value": 6.0, "timestamp": "2026-07-25T11:01:53Z"}
+{"keyword": "One Cache Miss, Fifty Database Calls", "platform": "devto", "value": 10.0, "timestamp": "2026-07-25T19:21:07Z"}
+{"keyword": "Automatic Page Layout Is a Search Problem", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T08:11:24Z"}
+{"keyword": "AppFunctions, revisited", "platform": "devto", "value": 0.0, "timestamp": "2026-07-25T11:36:27Z"}
+{"keyword": "Bumping to TypeScript 7? Catch what tsgo breaks in your repo before CI does", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T11:32:40Z"}
+{"keyword": "How I Built a Full RPG Game in TypeScript — Zero Images, Pure Canvas 2D", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T03:55:39Z"}
+{"keyword": "I Fabricated a Claim About LLM Judges. Then I Ran the Apology Experiment.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T10:24:25Z"}
+{"keyword": "Five percentage-change bugs I've shipped to production", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:01:47Z"}
+{"keyword": "A Typosquat Package Almost Got My Keys: Dissecting the Attack Safely", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T15:12:20Z"}
+{"keyword": "Voice Cloning: Sample Quality Beats Sample Length, and Prosody Beats Both", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:11:43Z"}
+{"keyword": "📐 Mathematics for AI — Foundation Course", "platform": "devto", "value": 9.0, "timestamp": "2026-07-25T09:06:54Z"}
+{"keyword": "Serving a Large Art Set to a UI That Shows One Image", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:10:10Z"}
+{"keyword": "How I compile React-shaped TSX without React or hydration", "platform": "devto", "value": 3.0, "timestamp": "2026-07-25T12:23:04Z"}
+{"keyword": "I scanned 1,775 websites for GDPR consent leaks", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T11:14:50Z"}
+{"keyword": "Orchestrating Slow, Unreliable Async Jobs Across Multiple Providers", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:08:56Z"}
+{"keyword": "The Crash That Only Happened Sometimes — A SwiftUI Bug", "platform": "devto", "value": 21.0, "timestamp": "2026-07-25T07:45:27Z"}
+{"keyword": "I'm a Dev Who Barely Knows the Kernel. Here's How I'm Learning How to Track a Packet with pwru", "platform": "devto", "value": 24.0, "timestamp": "2026-07-25T13:01:01Z"}
+{"keyword": "🐈‍⬛Check Out Catbot's New Leg!", "platform": "devto", "value": 9.0, "timestamp": "2026-07-25T01:40:56Z"}
+{"keyword": "389 Tests Passed. NIST Still Caught the Bug.", "platform": "devto", "value": 4.0, "timestamp": "2026-07-25T06:17:51Z"}
+{"keyword": "Bare Metal and Neural Nets: Crafting a Purpose-Driven AI Cyberdeck", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T14:32:28Z"}
+{"keyword": "I Run Bare-Metal Kubernetes on $200 of Scrap Hardware (And Why I Burned 3 SD Cards Learning)", "platform": "devto", "value": 8.0, "timestamp": "2026-07-25T17:55:01Z"}
+{"keyword": "When SearchValues<T> Actually Pays Off", "platform": "devto", "value": 6.0, "timestamp": "2026-07-25T16:50:16Z"}
+{"keyword": "How to structure CLAUDE.md, Skills and Agents", "platform": "devto", "value": 7.0, "timestamp": "2026-07-25T09:00:00Z"}
+{"keyword": "Building a real-time Crystal app with Kemal — where privacy is a server invariant", "platform": "devto", "value": 3.0, "timestamp": "2026-07-25T11:39:52Z"}
+{"keyword": "Two coding agents editing the same issue, no merge conflict. Here is how git refs make that work", "platform": "devto", "value": 4.0, "timestamp": "2026-07-25T15:24:15Z"}
+{"keyword": "How Unreal Engine Works: Not an API, but Engineering Thinking", "platform": "devto", "value": 6.0, "timestamp": "2026-07-25T11:01:53Z"}
+{"keyword": "One Cache Miss, Fifty Database Calls", "platform": "devto", "value": 10.0, "timestamp": "2026-07-25T19:21:07Z"}
+{"keyword": "Automatic Page Layout Is a Search Problem", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T08:11:24Z"}
+{"keyword": "AppFunctions, revisited", "platform": "devto", "value": 0.0, "timestamp": "2026-07-25T11:36:27Z"}
+{"keyword": "Bumping to TypeScript 7? Catch what tsgo breaks in your repo before CI does", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T11:32:40Z"}
+{"keyword": "How I Built a Full RPG Game in TypeScript — Zero Images, Pure Canvas 2D", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T03:55:39Z"}
+{"keyword": "I Fabricated a Claim About LLM Judges. Then I Ran the Apology Experiment.", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T10:24:25Z"}
+{"keyword": "Five percentage-change bugs I've shipped to production", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:01:47Z"}
+{"keyword": "A Typosquat Package Almost Got My Keys: Dissecting the Attack Safely", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T15:12:20Z"}
+{"keyword": "Voice Cloning: Sample Quality Beats Sample Length, and Prosody Beats Both", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:11:43Z"}
+{"keyword": "📐 Mathematics for AI — Foundation Course", "platform": "devto", "value": 9.0, "timestamp": "2026-07-25T09:06:54Z"}
+{"keyword": "Serving a Large Art Set to a UI That Shows One Image", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:10:10Z"}
+{"keyword": "How I compile React-shaped TSX without React or hydration", "platform": "devto", "value": 3.0, "timestamp": "2026-07-25T12:23:04Z"}
+{"keyword": "I scanned 1,775 websites for GDPR consent leaks", "platform": "devto", "value": 2.0, "timestamp": "2026-07-25T11:14:50Z"}
+{"keyword": "Orchestrating Slow, Unreliable Async Jobs Across Multiple Providers", "platform": "devto", "value": 1.0, "timestamp": "2026-07-25T08:08:56Z"}
