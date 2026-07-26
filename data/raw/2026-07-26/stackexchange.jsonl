@@ -11,3 +11,35 @@
 {"keyword": "Error from lintReportDebug: Error: Call requires permission which may be rejected by user:", "platform": "stackexchange", "value": 0.0, "timestamp": "1785020574"}
 {"keyword": "Qt QCheckBox indicator checkmark not visible with custom stylesheet", "platform": "stackexchange", "value": 2.0, "timestamp": "1784979645"}
 {"keyword": "Make Automation - Gemini Connection", "platform": "stackexchange", "value": 0.0, "timestamp": "1785022043"}
+{"keyword": "Threads in C programming language", "platform": "stackexchange", "value": 0.0, "timestamp": "1785099372"}
+{"keyword": "Can the JS code event listener &quot;know&quot; the event target within an openshadow DOM node?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785094702"}
+{"keyword": "Why was move_ptr renamed to unique_ptr?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785097589"}
+{"keyword": "Wrong manual caching of recursion", "platform": "stackexchange", "value": 0.0, "timestamp": "1785099081"}
+{"keyword": "SVG - Adding Hyperlink with Query String", "platform": "stackexchange", "value": 0.0, "timestamp": "1785095818"}
+{"keyword": "Lua IRC bot: bot does not start and no output", "platform": "stackexchange", "value": 0.0, "timestamp": "1785091615"}
+{"keyword": "Creating Table : Relation does not exist", "platform": "stackexchange", "value": 0.0, "timestamp": "1785092289"}
+{"keyword": "Segmentation fault backtrace does not refer to any piece of client code", "platform": "stackexchange", "value": 0.0, "timestamp": "1785092357"}
+{"keyword": "Maven build errors for Java app referencing org.controlsfx", "platform": "stackexchange", "value": 1.0, "timestamp": "1785079381"}
+{"keyword": "keycloak.adapters.saml.jakarta.servlet.SamlFilter error after moving from jboss-eap-7 to boss-eap-8", "platform": "stackexchange", "value": 0.0, "timestamp": "1785089903"}
+{"keyword": "Why does variable from is pattern compile under .NET Standard 2.1, but fail with CS0165 on .NET 10?", "platform": "stackexchange", "value": 1.0, "timestamp": "1785085690"}
+{"keyword": "How to change the default jdk in Netbeans 30", "platform": "stackexchange", "value": 0.0, "timestamp": "1785081134"}
+{"keyword": "Compilation errors trying to read sparse dgCMatrix as Eigen sparse matrix", "platform": "stackexchange", "value": 1.0, "timestamp": "1785078869"}
+{"keyword": "STM32 to ESP32 over UART: ESP32 only receives garbage data", "platform": "stackexchange", "value": 0.0, "timestamp": "1785084418"}
+{"keyword": "Does lock blocking make a ModifiedDate watermark sync safe?", "platform": "stackexchange", "value": 1.0, "timestamp": "1785059217"}
+{"keyword": "MediaWiki doesn&#39;t see extensions, but php does. (XAMPP)", "platform": "stackexchange", "value": 0.0, "timestamp": "1785081183"}
+{"keyword": "Threads in C programming language", "platform": "stackexchange", "value": 0.0, "timestamp": "1785099372"}
+{"keyword": "Can the JS code event listener &quot;know&quot; the event target within an openshadow DOM node?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785094702"}
+{"keyword": "Why was move_ptr renamed to unique_ptr?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785097589"}
+{"keyword": "Wrong manual caching of recursion", "platform": "stackexchange", "value": 0.0, "timestamp": "1785099081"}
+{"keyword": "SVG - Adding Hyperlink with Query String", "platform": "stackexchange", "value": 0.0, "timestamp": "1785095818"}
+{"keyword": "Lua IRC bot: bot does not start and no output", "platform": "stackexchange", "value": 0.0, "timestamp": "1785091615"}
+{"keyword": "Creating Table : Relation does not exist", "platform": "stackexchange", "value": 0.0, "timestamp": "1785092289"}
+{"keyword": "Segmentation fault backtrace does not refer to any piece of client code", "platform": "stackexchange", "value": 0.0, "timestamp": "1785092357"}
+{"keyword": "Maven build errors for Java app referencing org.controlsfx", "platform": "stackexchange", "value": 1.0, "timestamp": "1785079381"}
+{"keyword": "keycloak.adapters.saml.jakarta.servlet.SamlFilter error after moving from jboss-eap-7 to boss-eap-8", "platform": "stackexchange", "value": 0.0, "timestamp": "1785089903"}
+{"keyword": "Why does variable from is pattern compile under .NET Standard 2.1, but fail with CS0165 on .NET 10?", "platform": "stackexchange", "value": 1.0, "timestamp": "1785085690"}
+{"keyword": "How to change the default jdk in Netbeans 30", "platform": "stackexchange", "value": 0.0, "timestamp": "1785081134"}
+{"keyword": "Compilation errors trying to read sparse dgCMatrix as Eigen sparse matrix", "platform": "stackexchange", "value": 1.0, "timestamp": "1785078869"}
+{"keyword": "STM32 to ESP32 over UART: ESP32 only receives garbage data", "platform": "stackexchange", "value": 0.0, "timestamp": "1785084418"}
+{"keyword": "Does lock blocking make a ModifiedDate watermark sync safe?", "platform": "stackexchange", "value": 1.0, "timestamp": "1785059217"}
+{"keyword": "MediaWiki doesn&#39;t see extensions, but php does. (XAMPP)", "platform": "stackexchange", "value": 0.0, "timestamp": "1785081183"}
