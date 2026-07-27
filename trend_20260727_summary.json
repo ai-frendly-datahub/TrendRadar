@@ -10,11 +10,7 @@
       "count": 10
     },
     {
-      "name": "Climate change",
-      "count": 10
-    },
-    {
-      "name": "Electric vehicle",
+      "name": "YouTube",
       "count": 10
     },
     {
@@ -22,7 +18,11 @@
       "count": 10
     },
     {
-      "name": "YouTube",
+      "name": "Electric vehicle",
+      "count": 10
+    },
+    {
+      "name": "Climate change",
       "count": 10
     },
     {
@@ -30,31 +30,7 @@
       "count": 9
     },
     {
-      "name": "Seoul",
-      "count": 9
-    },
-    {
-      "name": "South Korea",
-      "count": 9
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 9
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 9
-    },
-    {
-      "name": "Machine learning",
-      "count": 9
-    },
-    {
-      "name": "K-pop",
-      "count": 9
-    },
-    {
-      "name": "World Wide Web",
+      "name": "Netflix",
       "count": 9
     },
     {
@@ -62,15 +38,43 @@
       "count": 9
     },
     {
-      "name": "Netflix",
+      "name": "World Wide Web",
       "count": 9
     },
     {
-      "name": "K-POP",
+      "name": "K-pop",
+      "count": 9
+    },
+    {
+      "name": "Machine learning",
+      "count": 9
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 9
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 9
+    },
+    {
+      "name": "South Korea",
+      "count": 9
+    },
+    {
+      "name": "Seoul",
+      "count": 9
+    },
+    {
+      "name": "재건축",
       "count": 2
     },
     {
-      "name": "정치인",
+      "name": "아파트 매매",
+      "count": 2
+    },
+    {
+      "name": "유명인",
       "count": 2
     },
     {
@@ -78,17 +82,13 @@
       "count": 2
     },
     {
-      "name": "걸그룹",
-      "count": 2
-    },
-    {
-      "name": "보이그룹",
+      "name": "음악방송",
       "count": 2
     }
   ],
   "sources": {
-    "google": 60,
-    "wikipedia": 140
+    "wikipedia": 140,
+    "google": 60
   },
-  "generated_at": "2026-07-27T21:54:36.994284+09:00"
+  "generated_at": "2026-07-27T22:58:48.032078+00:00"
 }
