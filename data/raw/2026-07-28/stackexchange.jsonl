@@ -13,3 +13,31 @@
 {"keyword": "How to distribute a C++ dynamic library which uses C++ modules (no header files)", "platform": "stackexchange", "value": 5.0, "timestamp": "1785163663"}
 {"keyword": "How to serialize/deserialize a sealed class in Dart to/from JSON", "platform": "stackexchange", "value": 0.0, "timestamp": "1785169368"}
 {"keyword": "Can a shadow DOM host node be selected based on being a descendant of a node in the light DOM?", "platform": "stackexchange", "value": 1.0, "timestamp": "1785124731"}
+{"keyword": "WebGPU C++ Bind Group type mismatch error, despite types being identical", "platform": "stackexchange", "value": 0.0, "timestamp": "1785276884"}
+{"keyword": "Scrolling error when programming the CRTC on EGA/VGA adapters", "platform": "stackexchange", "value": 0.0, "timestamp": "1785276758"}
+{"keyword": "MD4 Implementation not giving the correct hash output", "platform": "stackexchange", "value": 0.0, "timestamp": "1785271421"}
+{"keyword": "Winsock UDP sendto returning error 10040 (WSAEMSGSIZE)", "platform": "stackexchange", "value": 0.0, "timestamp": "1785275409"}
+{"keyword": "How to add OpenFreeMap base tiles to leaflet", "platform": "stackexchange", "value": 2.0, "timestamp": "1785267822"}
+{"keyword": "How to generate a stream of random booleans (or 2-valued enums)", "platform": "stackexchange", "value": 0.0, "timestamp": "1785271550"}
+{"keyword": "How to fix &#39;antiforgery token could not be decrypted&#39; error after IIS session has expired?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785265712"}
+{"keyword": "gRPC HTTP/2 server reset the stream HTTP 1.1 required", "platform": "stackexchange", "value": 1.0, "timestamp": "1785265245"}
+{"keyword": "How to get a flyout panel working on a row-click?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785267628"}
+{"keyword": "How to have ARRAYFORMULA, LET, and IF work together?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785258254"}
+{"keyword": "How is the user.config path hash (_Url_[hash]) calculated in .NET 10?", "platform": "stackexchange", "value": 1.0, "timestamp": "1785263323"}
+{"keyword": "PodGroup vs Multi Container Pod", "platform": "stackexchange", "value": 0.0, "timestamp": "1785261982"}
+{"keyword": "DescTools::Gini with confidence interval gives an error about missing weights", "platform": "stackexchange", "value": 1.0, "timestamp": "1785251732"}
+{"keyword": "Exposed: No transaction in context", "platform": "stackexchange", "value": 0.0, "timestamp": "1785259771"}
+{"keyword": "WebGPU C++ Bind Group type mismatch error, despite types being identical", "platform": "stackexchange", "value": 0.0, "timestamp": "1785276884"}
+{"keyword": "Scrolling error when programming the CRTC on EGA/VGA adapters", "platform": "stackexchange", "value": 0.0, "timestamp": "1785276758"}
+{"keyword": "MD4 Implementation not giving the correct hash output", "platform": "stackexchange", "value": 0.0, "timestamp": "1785271421"}
+{"keyword": "Winsock UDP sendto returning error 10040 (WSAEMSGSIZE)", "platform": "stackexchange", "value": 0.0, "timestamp": "1785275409"}
+{"keyword": "How to add OpenFreeMap base tiles to leaflet", "platform": "stackexchange", "value": 2.0, "timestamp": "1785267822"}
+{"keyword": "How to generate a stream of random booleans (or 2-valued enums)", "platform": "stackexchange", "value": 0.0, "timestamp": "1785271550"}
+{"keyword": "How to fix &#39;antiforgery token could not be decrypted&#39; error after IIS session has expired?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785265712"}
+{"keyword": "gRPC HTTP/2 server reset the stream HTTP 1.1 required", "platform": "stackexchange", "value": 1.0, "timestamp": "1785265245"}
+{"keyword": "How to get a flyout panel working on a row-click?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785267628"}
+{"keyword": "How to have ARRAYFORMULA, LET, and IF work together?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785258254"}
+{"keyword": "How is the user.config path hash (_Url_[hash]) calculated in .NET 10?", "platform": "stackexchange", "value": 1.0, "timestamp": "1785263323"}
+{"keyword": "PodGroup vs Multi Container Pod", "platform": "stackexchange", "value": 0.0, "timestamp": "1785261982"}
+{"keyword": "DescTools::Gini with confidence interval gives an error about missing weights", "platform": "stackexchange", "value": 1.0, "timestamp": "1785251732"}
+{"keyword": "Exposed: No transaction in context", "platform": "stackexchange", "value": 0.0, "timestamp": "1785259771"}

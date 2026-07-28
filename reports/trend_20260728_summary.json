@@ -6,7 +6,11 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "OpenAI",
+      "name": "Bitcoin",
+      "count": 10
+    },
+    {
+      "name": "Machine learning",
       "count": 10
     },
     {
@@ -14,11 +18,7 @@
       "count": 10
     },
     {
-      "name": "E-commerce",
-      "count": 10
-    },
-    {
-      "name": "Electric vehicle",
+      "name": "OpenAI",
       "count": 10
     },
     {
@@ -26,39 +26,7 @@
       "count": 10
     },
     {
-      "name": "Bitcoin",
-      "count": 9
-    },
-    {
       "name": "Netflix",
-      "count": 9
-    },
-    {
-      "name": "Samsung",
-      "count": 9
-    },
-    {
-      "name": "World Wide Web",
-      "count": 9
-    },
-    {
-      "name": "K-pop",
-      "count": 9
-    },
-    {
-      "name": "Machine learning",
-      "count": 9
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 9
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 9
-    },
-    {
-      "name": "South Korea",
       "count": 9
     },
     {
@@ -66,11 +34,47 @@
       "count": 9
     },
     {
-      "name": "재건축",
+      "name": "South Korea",
+      "count": 9
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 9
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 9
+    },
+    {
+      "name": "E-commerce",
+      "count": 9
+    },
+    {
+      "name": "K-pop",
+      "count": 9
+    },
+    {
+      "name": "World Wide Web",
+      "count": 9
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 9
+    },
+    {
+      "name": "Samsung",
+      "count": 9
+    },
+    {
+      "name": "멜론",
       "count": 2
     },
     {
-      "name": "아파트 매매",
+      "name": "음악방송",
+      "count": 2
+    },
+    {
+      "name": "걸그룹",
       "count": 2
     },
     {
@@ -78,11 +82,7 @@
       "count": 2
     },
     {
-      "name": "강남 아파트",
-      "count": 2
-    },
-    {
-      "name": "음악방송",
+      "name": "보이그룹",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 140,
     "google": 60
   },
-  "generated_at": "2026-07-28T20:55:08.961918+09:00"
+  "generated_at": "2026-07-28T22:56:07.435661+00:00"
 }
