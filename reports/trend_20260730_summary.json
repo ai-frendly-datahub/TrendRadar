@@ -6,35 +6,11 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Bitcoin",
-      "count": 11
-    },
-    {
-      "name": "Climate change",
-      "count": 11
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 11
-    },
-    {
-      "name": "YouTube",
+      "name": "Machine learning",
       "count": 11
     },
     {
       "name": "Seoul",
-      "count": 11
-    },
-    {
-      "name": "K-pop",
-      "count": 11
-    },
-    {
-      "name": "OpenAI",
-      "count": 11
-    },
-    {
-      "name": "E-commerce",
       "count": 10
     },
     {
@@ -50,11 +26,7 @@
       "count": 10
     },
     {
-      "name": "Machine learning",
-      "count": 10
-    },
-    {
-      "name": "World Wide Web",
+      "name": "K-pop",
       "count": 10
     },
     {
@@ -66,11 +38,35 @@
       "count": 10
     },
     {
-      "name": "서울 부동산",
-      "count": 2
+      "name": "Bitcoin",
+      "count": 10
     },
     {
-      "name": "가수",
+      "name": "Climate change",
+      "count": 10
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 10
+    },
+    {
+      "name": "E-commerce",
+      "count": 10
+    },
+    {
+      "name": "YouTube",
+      "count": 10
+    },
+    {
+      "name": "OpenAI",
+      "count": 10
+    },
+    {
+      "name": "World Wide Web",
+      "count": 10
+    },
+    {
+      "name": "케이팝",
       "count": 2
     },
     {
@@ -78,17 +74,21 @@
       "count": 2
     },
     {
-      "name": "정치인",
+      "name": "마포 매매",
       "count": 2
     },
     {
-      "name": "재건축",
+      "name": "K-POP",
+      "count": 2
+    },
+    {
+      "name": "분양권",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 157,
-    "google": 43
+    "wikipedia": 151,
+    "google": 49
   },
-  "generated_at": "2026-07-30T20:49:02.871774+09:00"
+  "generated_at": "2026-07-30T23:03:30.276028+00:00"
 }
