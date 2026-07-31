@@ -56,3 +56,111 @@
 {"keyword": "How to Build an Embedded Linux Lab From Scratch", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T02:22:38Z"}
 {"keyword": "The token compressor that made my bill go up — and the proof it had to", "platform": "devto", "value": 2.0, "timestamp": "2026-07-30T21:21:42Z"}
 {"keyword": "What Learning Without AI Taught the Last Pre-AI Generation", "platform": "devto", "value": 1.0, "timestamp": "2026-07-30T20:23:31Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 33.0, "timestamp": "2026-07-31T04:00:00Z"}
+{"keyword": "Your RAG copilot can't count — stop letting it try", "platform": "devto", "value": 6.0, "timestamp": "2026-07-31T11:00:29Z"}
+{"keyword": "ratatop day 3: disks, statvfs, and my first unsafe block", "platform": "devto", "value": 25.0, "timestamp": "2026-07-31T10:17:57Z"}
+{"keyword": "Fixing Exact Package Search Relevance in npmx", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T10:27:09Z"}
+{"keyword": "Hardening an AI coding agent: the failures, and the code that fixed them", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T11:33:04Z"}
+{"keyword": "Collaborative Filtering: How Computers Find Your Next Favourite Thing", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T18:01:28Z"}
+{"keyword": "How I Put My Agent in CI to Automate Release Notes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T19:00:39Z"}
+{"keyword": "Claude Code + OpenRouter: The Setup Guide That Actually Explains Things", "platform": "devto", "value": 16.0, "timestamp": "2026-07-31T15:27:57Z"}
+{"keyword": "AI-Assisted Engineering: Faster to Build Isn't Cheaper to Own", "platform": "devto", "value": 9.0, "timestamp": "2026-07-31T06:59:10Z"}
+{"keyword": "The WebP Migration That Wasn't About WebP", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T10:58:28Z"}
+{"keyword": "Six Cross-Cloud A2A Paths, One Benchmark: How AWS, Azure, and GCP Agents Actually Work Together", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:43:12Z"}
+{"keyword": "Microsoft Foundry as the Master Cloud, Google ADK as the Client: Cross-Cloud A2A v1.0", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:44:54Z"}
+{"keyword": "Google ADK as the Master Agent, Calling Amazon Bedrock over A2A", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:42:40Z"}
+{"keyword": "Your Redis Leaderboard Is Probably Breaking Ties Wrong", "platform": "devto", "value": 7.0, "timestamp": "2026-07-31T06:41:29Z"}
+{"keyword": "Knowledge Got Cheap. The Joins Between It Didn't.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T07:37:02Z"}
+{"keyword": "Your link checker thinks deleted Telegram bots are alive", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T00:11:51Z"}
+{"keyword": "When Script Kiddies Send You \"APT\" Phishing: A Red Team Post-Mortem", "platform": "devto", "value": 7.0, "timestamp": "2026-07-31T12:45:58Z"}
+{"keyword": "Azure Foundry as Master, Bedrock as Remote: Cross Cloud A2A", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:44:17Z"}
+{"keyword": "Six Cross-Cloud A2A Paths, One Benchmark: How AWS, Azure, and GCP Agents Actually Work Together", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T17:41:53Z"}
+{"keyword": "Google ADK Cross Cloud to Amazon Bedrock over A2A", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T17:40:29Z"}
+{"keyword": "Deploying Laravel with Nginx on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:35:52Z"}
+{"keyword": "Deploying a PostgreSQL Cluster with Patroni and HAProxy on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:36:33Z"}
+{"keyword": "TypeScript `readonly` Arrays and Tuples: When Immutability Saves You and When It Fights You", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T14:55:33Z"}
+{"keyword": "Deploying ImgProxy – Process, Resize, Convert Images on the Fly", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:41:20Z"}
+{"keyword": "100 Days of Solana is a wrap!", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T10:33:05Z"}
+{"keyword": "Stateless MCP for Beginners", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T18:34:13Z"}
+{"keyword": "Nine Red Tests and No Way to Tell Which Ones Matter", "platform": "devto", "value": 12.0, "timestamp": "2026-07-31T13:31:13Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 33.0, "timestamp": "2026-07-31T04:00:00Z"}
+{"keyword": "Your RAG copilot can't count — stop letting it try", "platform": "devto", "value": 6.0, "timestamp": "2026-07-31T11:00:29Z"}
+{"keyword": "ratatop day 3: disks, statvfs, and my first unsafe block", "platform": "devto", "value": 25.0, "timestamp": "2026-07-31T10:17:57Z"}
+{"keyword": "Fixing Exact Package Search Relevance in npmx", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T10:27:09Z"}
+{"keyword": "Hardening an AI coding agent: the failures, and the code that fixed them", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T11:33:04Z"}
+{"keyword": "Collaborative Filtering: How Computers Find Your Next Favourite Thing", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T18:01:28Z"}
+{"keyword": "How I Put My Agent in CI to Automate Release Notes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T19:00:39Z"}
+{"keyword": "Claude Code + OpenRouter: The Setup Guide That Actually Explains Things", "platform": "devto", "value": 16.0, "timestamp": "2026-07-31T15:27:57Z"}
+{"keyword": "AI-Assisted Engineering: Faster to Build Isn't Cheaper to Own", "platform": "devto", "value": 9.0, "timestamp": "2026-07-31T06:59:10Z"}
+{"keyword": "The WebP Migration That Wasn't About WebP", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T10:58:28Z"}
+{"keyword": "Six Cross-Cloud A2A Paths, One Benchmark: How AWS, Azure, and GCP Agents Actually Work Together", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:43:12Z"}
+{"keyword": "Microsoft Foundry as the Master Cloud, Google ADK as the Client: Cross-Cloud A2A v1.0", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:44:54Z"}
+{"keyword": "Google ADK as the Master Agent, Calling Amazon Bedrock over A2A", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:42:40Z"}
+{"keyword": "Your Redis Leaderboard Is Probably Breaking Ties Wrong", "platform": "devto", "value": 7.0, "timestamp": "2026-07-31T06:41:29Z"}
+{"keyword": "Knowledge Got Cheap. The Joins Between It Didn't.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T07:37:02Z"}
+{"keyword": "Your link checker thinks deleted Telegram bots are alive", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T00:11:51Z"}
+{"keyword": "When Script Kiddies Send You \"APT\" Phishing: A Red Team Post-Mortem", "platform": "devto", "value": 7.0, "timestamp": "2026-07-31T12:45:58Z"}
+{"keyword": "Azure Foundry as Master, Bedrock as Remote: Cross Cloud A2A", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:44:17Z"}
+{"keyword": "Six Cross-Cloud A2A Paths, One Benchmark: How AWS, Azure, and GCP Agents Actually Work Together", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T17:41:53Z"}
+{"keyword": "Google ADK Cross Cloud to Amazon Bedrock over A2A", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T17:40:29Z"}
+{"keyword": "Deploying Laravel with Nginx on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:35:52Z"}
+{"keyword": "Deploying a PostgreSQL Cluster with Patroni and HAProxy on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:36:33Z"}
+{"keyword": "TypeScript `readonly` Arrays and Tuples: When Immutability Saves You and When It Fights You", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T14:55:33Z"}
+{"keyword": "Deploying ImgProxy – Process, Resize, Convert Images on the Fly", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:41:20Z"}
+{"keyword": "100 Days of Solana is a wrap!", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T10:33:05Z"}
+{"keyword": "Stateless MCP for Beginners", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T18:34:13Z"}
+{"keyword": "Nine Red Tests and No Way to Tell Which Ones Matter", "platform": "devto", "value": 12.0, "timestamp": "2026-07-31T13:31:13Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 33.0, "timestamp": "2026-07-31T04:00:00Z"}
+{"keyword": "Your RAG copilot can't count — stop letting it try", "platform": "devto", "value": 6.0, "timestamp": "2026-07-31T11:00:29Z"}
+{"keyword": "ratatop day 3: disks, statvfs, and my first unsafe block", "platform": "devto", "value": 25.0, "timestamp": "2026-07-31T10:17:57Z"}
+{"keyword": "Fixing Exact Package Search Relevance in npmx", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T10:27:09Z"}
+{"keyword": "Hardening an AI coding agent: the failures, and the code that fixed them", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T11:33:04Z"}
+{"keyword": "Collaborative Filtering: How Computers Find Your Next Favourite Thing", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T18:01:28Z"}
+{"keyword": "How I Put My Agent in CI to Automate Release Notes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T19:00:39Z"}
+{"keyword": "Claude Code + OpenRouter: The Setup Guide That Actually Explains Things", "platform": "devto", "value": 16.0, "timestamp": "2026-07-31T15:27:57Z"}
+{"keyword": "AI-Assisted Engineering: Faster to Build Isn't Cheaper to Own", "platform": "devto", "value": 9.0, "timestamp": "2026-07-31T06:59:10Z"}
+{"keyword": "The WebP Migration That Wasn't About WebP", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T10:58:28Z"}
+{"keyword": "Six Cross-Cloud A2A Paths, One Benchmark: How AWS, Azure, and GCP Agents Actually Work Together", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:43:12Z"}
+{"keyword": "Microsoft Foundry as the Master Cloud, Google ADK as the Client: Cross-Cloud A2A v1.0", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:44:54Z"}
+{"keyword": "Google ADK as the Master Agent, Calling Amazon Bedrock over A2A", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:42:40Z"}
+{"keyword": "Your Redis Leaderboard Is Probably Breaking Ties Wrong", "platform": "devto", "value": 7.0, "timestamp": "2026-07-31T06:41:29Z"}
+{"keyword": "Knowledge Got Cheap. The Joins Between It Didn't.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T07:37:02Z"}
+{"keyword": "Your link checker thinks deleted Telegram bots are alive", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T00:11:51Z"}
+{"keyword": "When Script Kiddies Send You \"APT\" Phishing: A Red Team Post-Mortem", "platform": "devto", "value": 7.0, "timestamp": "2026-07-31T12:45:58Z"}
+{"keyword": "Azure Foundry as Master, Bedrock as Remote: Cross Cloud A2A", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:44:17Z"}
+{"keyword": "Six Cross-Cloud A2A Paths, One Benchmark: How AWS, Azure, and GCP Agents Actually Work Together", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T17:41:53Z"}
+{"keyword": "Google ADK Cross Cloud to Amazon Bedrock over A2A", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T17:40:29Z"}
+{"keyword": "Deploying Laravel with Nginx on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:35:52Z"}
+{"keyword": "Deploying a PostgreSQL Cluster with Patroni and HAProxy on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:36:33Z"}
+{"keyword": "TypeScript `readonly` Arrays and Tuples: When Immutability Saves You and When It Fights You", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T14:55:33Z"}
+{"keyword": "Deploying ImgProxy – Process, Resize, Convert Images on the Fly", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:41:20Z"}
+{"keyword": "100 Days of Solana is a wrap!", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T10:33:05Z"}
+{"keyword": "Stateless MCP for Beginners", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T18:34:13Z"}
+{"keyword": "Nine Red Tests and No Way to Tell Which Ones Matter", "platform": "devto", "value": 12.0, "timestamp": "2026-07-31T13:31:13Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 33.0, "timestamp": "2026-07-31T04:00:00Z"}
+{"keyword": "Your RAG copilot can't count — stop letting it try", "platform": "devto", "value": 6.0, "timestamp": "2026-07-31T11:00:29Z"}
+{"keyword": "ratatop day 3: disks, statvfs, and my first unsafe block", "platform": "devto", "value": 25.0, "timestamp": "2026-07-31T10:17:57Z"}
+{"keyword": "Fixing Exact Package Search Relevance in npmx", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T10:27:09Z"}
+{"keyword": "Hardening an AI coding agent: the failures, and the code that fixed them", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T11:33:04Z"}
+{"keyword": "Collaborative Filtering: How Computers Find Your Next Favourite Thing", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T18:01:28Z"}
+{"keyword": "How I Put My Agent in CI to Automate Release Notes", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T19:00:39Z"}
+{"keyword": "Claude Code + OpenRouter: The Setup Guide That Actually Explains Things", "platform": "devto", "value": 16.0, "timestamp": "2026-07-31T15:27:57Z"}
+{"keyword": "AI-Assisted Engineering: Faster to Build Isn't Cheaper to Own", "platform": "devto", "value": 9.0, "timestamp": "2026-07-31T06:59:10Z"}
+{"keyword": "The WebP Migration That Wasn't About WebP", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T10:58:28Z"}
+{"keyword": "Six Cross-Cloud A2A Paths, One Benchmark: How AWS, Azure, and GCP Agents Actually Work Together", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:43:12Z"}
+{"keyword": "Microsoft Foundry as the Master Cloud, Google ADK as the Client: Cross-Cloud A2A v1.0", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:44:54Z"}
+{"keyword": "Google ADK as the Master Agent, Calling Amazon Bedrock over A2A", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:42:40Z"}
+{"keyword": "Your Redis Leaderboard Is Probably Breaking Ties Wrong", "platform": "devto", "value": 7.0, "timestamp": "2026-07-31T06:41:29Z"}
+{"keyword": "Knowledge Got Cheap. The Joins Between It Didn't.", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T07:37:02Z"}
+{"keyword": "Your link checker thinks deleted Telegram bots are alive", "platform": "devto", "value": 4.0, "timestamp": "2026-07-31T00:11:51Z"}
+{"keyword": "When Script Kiddies Send You \"APT\" Phishing: A Red Team Post-Mortem", "platform": "devto", "value": 7.0, "timestamp": "2026-07-31T12:45:58Z"}
+{"keyword": "Azure Foundry as Master, Bedrock as Remote: Cross Cloud A2A", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T17:44:17Z"}
+{"keyword": "Six Cross-Cloud A2A Paths, One Benchmark: How AWS, Azure, and GCP Agents Actually Work Together", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T17:41:53Z"}
+{"keyword": "Google ADK Cross Cloud to Amazon Bedrock over A2A", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T17:40:29Z"}
+{"keyword": "Deploying Laravel with Nginx on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:35:52Z"}
+{"keyword": "Deploying a PostgreSQL Cluster with Patroni and HAProxy on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:36:33Z"}
+{"keyword": "TypeScript `readonly` Arrays and Tuples: When Immutability Saves You and When It Fights You", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T14:55:33Z"}
+{"keyword": "Deploying ImgProxy – Process, Resize, Convert Images on the Fly", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T12:41:20Z"}
+{"keyword": "100 Days of Solana is a wrap!", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T10:33:05Z"}
+{"keyword": "Stateless MCP for Beginners", "platform": "devto", "value": 0.0, "timestamp": "2026-07-31T18:34:13Z"}
+{"keyword": "Nine Red Tests and No Way to Tell Which Ones Matter", "platform": "devto", "value": 12.0, "timestamp": "2026-07-31T13:31:13Z"}

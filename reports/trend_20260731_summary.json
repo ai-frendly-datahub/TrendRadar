@@ -6,19 +6,11 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Bitcoin",
+      "name": "E-commerce",
       "count": 12
     },
     {
       "name": "Seoul",
-      "count": 12
-    },
-    {
-      "name": "Machine learning",
-      "count": 12
-    },
-    {
-      "name": "Climate change",
       "count": 11
     },
     {
@@ -26,15 +18,7 @@
       "count": 11
     },
     {
-      "name": "Electric vehicle",
-      "count": 11
-    },
-    {
       "name": "Python (programming language)",
-      "count": 11
-    },
-    {
-      "name": "E-commerce",
       "count": 11
     },
     {
@@ -42,11 +26,7 @@
       "count": 11
     },
     {
-      "name": "YouTube",
-      "count": 11
-    },
-    {
-      "name": "OpenAI",
+      "name": "Machine learning",
       "count": 11
     },
     {
@@ -66,29 +46,49 @@
       "count": 11
     },
     {
-      "name": "아이돌",
+      "name": "Bitcoin",
+      "count": 11
+    },
+    {
+      "name": "Climate change",
+      "count": 11
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 11
+    },
+    {
+      "name": "YouTube",
+      "count": 11
+    },
+    {
+      "name": "OpenAI",
+      "count": 11
+    },
+    {
+      "name": "마포 매매",
       "count": 2
     },
     {
-      "name": "BTS",
+      "name": "재건축",
       "count": 2
-    },
-    {
-      "name": "음악방송",
-      "count": 1
     },
     {
       "name": "가수",
-      "count": 1
+      "count": 2
     },
     {
-      "name": "송파 전세",
+      "name": "정치인",
+      "count": 2
+    },
+    {
+      "name": "보이그룹",
       "count": 1
     }
   ],
   "sources": {
-    "wikipedia": 168,
-    "google": 32
+    "wikipedia": 166,
+    "google": 34
   },
-  "generated_at": "2026-07-31T20:55:52.899230+09:00"
+  "generated_at": "2026-07-31T22:57:45.843054+00:00"
 }
