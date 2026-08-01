@@ -54,3 +54,119 @@
 {"keyword": "Pascal Programming", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T08:04:47Z"}
 {"keyword": "Deploying code-server for VS Code on Ubuntu 24.04", "platform": "devto", "value": 6.0, "timestamp": "2026-07-31T12:40:36Z"}
 {"keyword": "From Source Code to Execution: The Mental Model Behind Compilers and Interpreters", "platform": "devto", "value": 5.0, "timestamp": "2026-07-31T22:47:07Z"}
+{"keyword": "Introducing DevPub - Open Source Dev.to CLI Tool", "platform": "devto", "value": 14.0, "timestamp": "2026-08-01T12:10:00Z"}
+{"keyword": "Catbot: Custom Grammar Problem Fixed", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T16:03:02Z"}
+{"keyword": "CyberPanel's SSL Auto-Renewal Can Silently Fail — Here's the Fix", "platform": "devto", "value": 25.0, "timestamp": "2026-08-01T02:44:11Z"}
+{"keyword": "ratatop: the network box, and why your ISP lies with units", "platform": "devto", "value": 13.0, "timestamp": "2026-08-01T16:48:16Z"}
+{"keyword": "I Learned Go in 3 Weeks. Yesterday, My Code Merged into k9s.", "platform": "devto", "value": 21.0, "timestamp": "2026-08-01T10:07:53Z"}
+{"keyword": "Poutine: the true food of the gods", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T23:35:32Z"}
+{"keyword": "Gravy Boat — a landing page with a CSS poutine you can drown in!", "platform": "devto", "value": 6.0, "timestamp": "2026-07-31T23:27:10Z"}
+{"keyword": "Pascal Programming", "platform": "devto", "value": 4.0, "timestamp": "2026-08-01T08:04:47Z"}
+{"keyword": "Why Agent Evaluation Is Harder Than Model Evaluation", "platform": "devto", "value": 10.0, "timestamp": "2026-08-01T01:48:05Z"}
+{"keyword": "Dev log #14 Hardening the DHT against Eclipse attacks and the endless battle with flaky p2p tests", "platform": "devto", "value": 9.0, "timestamp": "2026-08-01T04:20:17Z"}
+{"keyword": "Faster PRs, Weaker Instincts: The Judgment Problem in AI-Assisted Engineering", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T01:27:07Z"}
+{"keyword": "My Shell Scripts Speak C# Now", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T09:22:49Z"}
+{"keyword": "The Comfort Atlas: What Does Home Taste Like?", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T21:19:16Z"}
+{"keyword": "Correlated Subqueries Explained: From Confusing to Intuitive", "platform": "devto", "value": 5.0, "timestamp": "2026-08-01T11:16:22Z"}
+{"keyword": "I stopped reviewing my own code. Here's what had to be true first.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T06:38:10Z"}
+{"keyword": "Brownfield System Design Interviews: How to Answer Migration and Legacy Questions", "platform": "devto", "value": 9.0, "timestamp": "2026-08-01T14:25:38Z"}
+{"keyword": "EventBridge Scheduler DLQ'd My Successful Invokes", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T18:00:00Z"}
+{"keyword": "Upgrade .NET 8 to .NET 10 Without Breaking Your API Contract", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T03:04:43Z"}
+{"keyword": "JOLLOF, A Love Letter. One Pot, Zero Photographs, All CSS", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T19:47:23Z"}
+{"keyword": "The Shape of Failure: Before You Blame the AI", "platform": "devto", "value": 0.0, "timestamp": "2026-08-01T21:12:51Z"}
+{"keyword": "Setup Husky, EsLint and Prettier in React + Vite Projects", "platform": "devto", "value": 5.0, "timestamp": "2026-08-01T10:27:47Z"}
+{"keyword": "var, let, const — and why JavaScript changed its mind", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T19:16:19Z"}
+{"keyword": "How to Learn Linux in 2026 (Hands-On, Free, No Experience Needed)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T03:05:10Z"}
+{"keyword": "I wanted to run my own AI. My laptop says not yet", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T09:52:25Z"}
+{"keyword": "Kmemo 2.0 is out, and the two gaps I admitted to in the first post are closed", "platform": "devto", "value": 4.0, "timestamp": "2026-08-01T11:27:36Z"}
+{"keyword": "MCP new specs in Practice: Testing the Stateless Revolution on AWS AgentCore Gateway", "platform": "devto", "value": 3.0, "timestamp": "2026-08-01T02:32:21Z"}
+{"keyword": "You've been wrapping `new URL()` in try/catch. `URL.parse()` does it natively.", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T08:27:13Z"}
+{"keyword": "How Frontend Developers Can Easily Deploy a Project on VPS (Beginner Friendly)", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T05:25:35Z"}
+{"keyword": "I Made Grok 4.5 My Default Coding Model for One Client Week", "platform": "devto", "value": 0.0, "timestamp": "2026-08-01T14:46:32Z"}
+{"keyword": "Introducing DevPub - Open Source Dev.to CLI Tool", "platform": "devto", "value": 14.0, "timestamp": "2026-08-01T12:10:00Z"}
+{"keyword": "Catbot: Custom Grammar Problem Fixed", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T16:03:02Z"}
+{"keyword": "CyberPanel's SSL Auto-Renewal Can Silently Fail — Here's the Fix", "platform": "devto", "value": 25.0, "timestamp": "2026-08-01T02:44:11Z"}
+{"keyword": "ratatop: the network box, and why your ISP lies with units", "platform": "devto", "value": 13.0, "timestamp": "2026-08-01T16:48:16Z"}
+{"keyword": "I Learned Go in 3 Weeks. Yesterday, My Code Merged into k9s.", "platform": "devto", "value": 21.0, "timestamp": "2026-08-01T10:07:53Z"}
+{"keyword": "Poutine: the true food of the gods", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T23:35:32Z"}
+{"keyword": "Gravy Boat — a landing page with a CSS poutine you can drown in!", "platform": "devto", "value": 6.0, "timestamp": "2026-07-31T23:27:10Z"}
+{"keyword": "Pascal Programming", "platform": "devto", "value": 4.0, "timestamp": "2026-08-01T08:04:47Z"}
+{"keyword": "Why Agent Evaluation Is Harder Than Model Evaluation", "platform": "devto", "value": 10.0, "timestamp": "2026-08-01T01:48:05Z"}
+{"keyword": "Dev log #14 Hardening the DHT against Eclipse attacks and the endless battle with flaky p2p tests", "platform": "devto", "value": 9.0, "timestamp": "2026-08-01T04:20:17Z"}
+{"keyword": "Faster PRs, Weaker Instincts: The Judgment Problem in AI-Assisted Engineering", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T01:27:07Z"}
+{"keyword": "My Shell Scripts Speak C# Now", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T09:22:49Z"}
+{"keyword": "The Comfort Atlas: What Does Home Taste Like?", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T21:19:16Z"}
+{"keyword": "Correlated Subqueries Explained: From Confusing to Intuitive", "platform": "devto", "value": 5.0, "timestamp": "2026-08-01T11:16:22Z"}
+{"keyword": "I stopped reviewing my own code. Here's what had to be true first.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T06:38:10Z"}
+{"keyword": "Brownfield System Design Interviews: How to Answer Migration and Legacy Questions", "platform": "devto", "value": 9.0, "timestamp": "2026-08-01T14:25:38Z"}
+{"keyword": "EventBridge Scheduler DLQ'd My Successful Invokes", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T18:00:00Z"}
+{"keyword": "Upgrade .NET 8 to .NET 10 Without Breaking Your API Contract", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T03:04:43Z"}
+{"keyword": "JOLLOF, A Love Letter. One Pot, Zero Photographs, All CSS", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T19:47:23Z"}
+{"keyword": "The Shape of Failure: Before You Blame the AI", "platform": "devto", "value": 0.0, "timestamp": "2026-08-01T21:12:51Z"}
+{"keyword": "Setup Husky, EsLint and Prettier in React + Vite Projects", "platform": "devto", "value": 5.0, "timestamp": "2026-08-01T10:27:47Z"}
+{"keyword": "var, let, const — and why JavaScript changed its mind", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T19:16:19Z"}
+{"keyword": "How to Learn Linux in 2026 (Hands-On, Free, No Experience Needed)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T03:05:10Z"}
+{"keyword": "I wanted to run my own AI. My laptop says not yet", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T09:52:25Z"}
+{"keyword": "Kmemo 2.0 is out, and the two gaps I admitted to in the first post are closed", "platform": "devto", "value": 4.0, "timestamp": "2026-08-01T11:27:36Z"}
+{"keyword": "MCP new specs in Practice: Testing the Stateless Revolution on AWS AgentCore Gateway", "platform": "devto", "value": 3.0, "timestamp": "2026-08-01T02:32:21Z"}
+{"keyword": "You've been wrapping `new URL()` in try/catch. `URL.parse()` does it natively.", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T08:27:13Z"}
+{"keyword": "How Frontend Developers Can Easily Deploy a Project on VPS (Beginner Friendly)", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T05:25:35Z"}
+{"keyword": "I Made Grok 4.5 My Default Coding Model for One Client Week", "platform": "devto", "value": 0.0, "timestamp": "2026-08-01T14:46:32Z"}
+{"keyword": "Introducing DevPub - Open Source Dev.to CLI Tool", "platform": "devto", "value": 14.0, "timestamp": "2026-08-01T12:10:00Z"}
+{"keyword": "Catbot: Custom Grammar Problem Fixed", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T16:03:02Z"}
+{"keyword": "CyberPanel's SSL Auto-Renewal Can Silently Fail — Here's the Fix", "platform": "devto", "value": 25.0, "timestamp": "2026-08-01T02:44:11Z"}
+{"keyword": "ratatop: the network box, and why your ISP lies with units", "platform": "devto", "value": 13.0, "timestamp": "2026-08-01T16:48:16Z"}
+{"keyword": "I Learned Go in 3 Weeks. Yesterday, My Code Merged into k9s.", "platform": "devto", "value": 21.0, "timestamp": "2026-08-01T10:07:53Z"}
+{"keyword": "Poutine: the true food of the gods", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T23:35:32Z"}
+{"keyword": "Gravy Boat — a landing page with a CSS poutine you can drown in!", "platform": "devto", "value": 6.0, "timestamp": "2026-07-31T23:27:10Z"}
+{"keyword": "Pascal Programming", "platform": "devto", "value": 4.0, "timestamp": "2026-08-01T08:04:47Z"}
+{"keyword": "Why Agent Evaluation Is Harder Than Model Evaluation", "platform": "devto", "value": 10.0, "timestamp": "2026-08-01T01:48:05Z"}
+{"keyword": "Dev log #14 Hardening the DHT against Eclipse attacks and the endless battle with flaky p2p tests", "platform": "devto", "value": 9.0, "timestamp": "2026-08-01T04:20:17Z"}
+{"keyword": "Faster PRs, Weaker Instincts: The Judgment Problem in AI-Assisted Engineering", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T01:27:07Z"}
+{"keyword": "My Shell Scripts Speak C# Now", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T09:22:49Z"}
+{"keyword": "The Comfort Atlas: What Does Home Taste Like?", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T21:19:16Z"}
+{"keyword": "Correlated Subqueries Explained: From Confusing to Intuitive", "platform": "devto", "value": 5.0, "timestamp": "2026-08-01T11:16:22Z"}
+{"keyword": "I stopped reviewing my own code. Here's what had to be true first.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T06:38:10Z"}
+{"keyword": "Brownfield System Design Interviews: How to Answer Migration and Legacy Questions", "platform": "devto", "value": 9.0, "timestamp": "2026-08-01T14:25:38Z"}
+{"keyword": "EventBridge Scheduler DLQ'd My Successful Invokes", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T18:00:00Z"}
+{"keyword": "Upgrade .NET 8 to .NET 10 Without Breaking Your API Contract", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T03:04:43Z"}
+{"keyword": "JOLLOF, A Love Letter. One Pot, Zero Photographs, All CSS", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T19:47:23Z"}
+{"keyword": "The Shape of Failure: Before You Blame the AI", "platform": "devto", "value": 0.0, "timestamp": "2026-08-01T21:12:51Z"}
+{"keyword": "Setup Husky, EsLint and Prettier in React + Vite Projects", "platform": "devto", "value": 5.0, "timestamp": "2026-08-01T10:27:47Z"}
+{"keyword": "var, let, const — and why JavaScript changed its mind", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T19:16:19Z"}
+{"keyword": "How to Learn Linux in 2026 (Hands-On, Free, No Experience Needed)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T03:05:10Z"}
+{"keyword": "I wanted to run my own AI. My laptop says not yet", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T09:52:25Z"}
+{"keyword": "Kmemo 2.0 is out, and the two gaps I admitted to in the first post are closed", "platform": "devto", "value": 4.0, "timestamp": "2026-08-01T11:27:36Z"}
+{"keyword": "MCP new specs in Practice: Testing the Stateless Revolution on AWS AgentCore Gateway", "platform": "devto", "value": 3.0, "timestamp": "2026-08-01T02:32:21Z"}
+{"keyword": "You've been wrapping `new URL()` in try/catch. `URL.parse()` does it natively.", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T08:27:13Z"}
+{"keyword": "How Frontend Developers Can Easily Deploy a Project on VPS (Beginner Friendly)", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T05:25:35Z"}
+{"keyword": "I Made Grok 4.5 My Default Coding Model for One Client Week", "platform": "devto", "value": 0.0, "timestamp": "2026-08-01T14:46:32Z"}
+{"keyword": "Introducing DevPub - Open Source Dev.to CLI Tool", "platform": "devto", "value": 14.0, "timestamp": "2026-08-01T12:10:00Z"}
+{"keyword": "Catbot: Custom Grammar Problem Fixed", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T16:03:02Z"}
+{"keyword": "CyberPanel's SSL Auto-Renewal Can Silently Fail — Here's the Fix", "platform": "devto", "value": 25.0, "timestamp": "2026-08-01T02:44:11Z"}
+{"keyword": "ratatop: the network box, and why your ISP lies with units", "platform": "devto", "value": 13.0, "timestamp": "2026-08-01T16:48:16Z"}
+{"keyword": "I Learned Go in 3 Weeks. Yesterday, My Code Merged into k9s.", "platform": "devto", "value": 21.0, "timestamp": "2026-08-01T10:07:53Z"}
+{"keyword": "Poutine: the true food of the gods", "platform": "devto", "value": 1.0, "timestamp": "2026-07-31T23:35:32Z"}
+{"keyword": "Gravy Boat — a landing page with a CSS poutine you can drown in!", "platform": "devto", "value": 6.0, "timestamp": "2026-07-31T23:27:10Z"}
+{"keyword": "Pascal Programming", "platform": "devto", "value": 4.0, "timestamp": "2026-08-01T08:04:47Z"}
+{"keyword": "Why Agent Evaluation Is Harder Than Model Evaluation", "platform": "devto", "value": 10.0, "timestamp": "2026-08-01T01:48:05Z"}
+{"keyword": "Dev log #14 Hardening the DHT against Eclipse attacks and the endless battle with flaky p2p tests", "platform": "devto", "value": 9.0, "timestamp": "2026-08-01T04:20:17Z"}
+{"keyword": "Faster PRs, Weaker Instincts: The Judgment Problem in AI-Assisted Engineering", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T01:27:07Z"}
+{"keyword": "My Shell Scripts Speak C# Now", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T09:22:49Z"}
+{"keyword": "The Comfort Atlas: What Does Home Taste Like?", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T21:19:16Z"}
+{"keyword": "Correlated Subqueries Explained: From Confusing to Intuitive", "platform": "devto", "value": 5.0, "timestamp": "2026-08-01T11:16:22Z"}
+{"keyword": "I stopped reviewing my own code. Here's what had to be true first.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T06:38:10Z"}
+{"keyword": "Brownfield System Design Interviews: How to Answer Migration and Legacy Questions", "platform": "devto", "value": 9.0, "timestamp": "2026-08-01T14:25:38Z"}
+{"keyword": "EventBridge Scheduler DLQ'd My Successful Invokes", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T18:00:00Z"}
+{"keyword": "Upgrade .NET 8 to .NET 10 Without Breaking Your API Contract", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T03:04:43Z"}
+{"keyword": "JOLLOF, A Love Letter. One Pot, Zero Photographs, All CSS", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T19:47:23Z"}
+{"keyword": "The Shape of Failure: Before You Blame the AI", "platform": "devto", "value": 0.0, "timestamp": "2026-08-01T21:12:51Z"}
+{"keyword": "Setup Husky, EsLint and Prettier in React + Vite Projects", "platform": "devto", "value": 5.0, "timestamp": "2026-08-01T10:27:47Z"}
+{"keyword": "var, let, const — and why JavaScript changed its mind", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T19:16:19Z"}
+{"keyword": "How to Learn Linux in 2026 (Hands-On, Free, No Experience Needed)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-01T03:05:10Z"}
+{"keyword": "I wanted to run my own AI. My laptop says not yet", "platform": "devto", "value": 2.0, "timestamp": "2026-08-01T09:52:25Z"}
+{"keyword": "Kmemo 2.0 is out, and the two gaps I admitted to in the first post are closed", "platform": "devto", "value": 4.0, "timestamp": "2026-08-01T11:27:36Z"}
+{"keyword": "MCP new specs in Practice: Testing the Stateless Revolution on AWS AgentCore Gateway", "platform": "devto", "value": 3.0, "timestamp": "2026-08-01T02:32:21Z"}
+{"keyword": "You've been wrapping `new URL()` in try/catch. `URL.parse()` does it natively.", "platform": "devto", "value": 7.0, "timestamp": "2026-08-01T08:27:13Z"}
+{"keyword": "How Frontend Developers Can Easily Deploy a Project on VPS (Beginner Friendly)", "platform": "devto", "value": 6.0, "timestamp": "2026-08-01T05:25:35Z"}
+{"keyword": "I Made Grok 4.5 My Default Coding Model for One Client Week", "platform": "devto", "value": 0.0, "timestamp": "2026-08-01T14:46:32Z"}
