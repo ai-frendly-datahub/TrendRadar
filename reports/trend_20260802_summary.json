@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-02",
+  "category": "trend",
+  "article_count": 45,
+  "source_count": 2,
+  "matched_count": 45,
+  "top_entities": [
+    {
+      "name": "유튜버",
+      "count": 1
+    },
+    {
+      "name": "보이그룹",
+      "count": 1
+    },
+    {
+      "name": "인플루언서",
+      "count": 1
+    },
+    {
+      "name": "스포츠 선수",
+      "count": 1
+    },
+    {
+      "name": "정치인",
+      "count": 1
+    },
+    {
+      "name": "가수",
+      "count": 1
+    },
+    {
+      "name": "배우",
+      "count": 1
+    },
+    {
+      "name": "연예인",
+      "count": 1
+    },
+    {
+      "name": "유명인",
+      "count": 1
+    },
+    {
+      "name": "음악방송",
+      "count": 1
+    },
+    {
+      "name": "멜론",
+      "count": 1
+    },
+    {
+      "name": "BTS",
+      "count": 1
+    },
+    {
+      "name": "블랙핑크",
+      "count": 1
+    },
+    {
+      "name": "에스파",
+      "count": 1
+    },
+    {
+      "name": "뉴진스",
+      "count": 1
+    },
+    {
+      "name": "강남 아파트",
+      "count": 1
+    },
+    {
+      "name": "송파 전세",
+      "count": 1
+    },
+    {
+      "name": "마포 매매",
+      "count": 1
+    },
+    {
+      "name": "분양권",
+      "count": 1
+    },
+    {
+      "name": "서울 부동산",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "google": 30,
+    "wikipedia": 15
+  },
+  "generated_at": "2026-08-02T20:14:41.684391+09:00"
+}
