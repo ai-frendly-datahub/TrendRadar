@@ -10,7 +10,7 @@
       "count": 2
     },
     {
-      "name": "South Korea",
+      "name": "Seoul",
       "count": 2
     },
     {
@@ -42,10 +42,6 @@
       "count": 2
     },
     {
-      "name": "World Wide Web",
-      "count": 2
-    },
-    {
       "name": "K-pop",
       "count": 2
     },
@@ -62,7 +58,11 @@
       "count": 2
     },
     {
-      "name": "Seoul",
+      "name": "South Korea",
+      "count": 2
+    },
+    {
+      "name": "World Wide Web",
       "count": 2
     },
     {
@@ -90,5 +90,5 @@
     "wikipedia": 30,
     "google": 30
   },
-  "generated_at": "2026-08-03T21:53:36.805393+09:00"
+  "generated_at": "2026-08-03T22:57:25.981800+00:00"
 }
