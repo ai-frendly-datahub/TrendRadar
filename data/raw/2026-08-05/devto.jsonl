@@ -54,3 +54,119 @@
 {"keyword": "GPU-Accelerating MSCRED with CUDA, im2col, GEMM, and a Custom PyTorch Extension", "platform": "devto", "value": 2.0, "timestamp": "2026-08-05T09:00:08Z"}
 {"keyword": "CSS Doesn't Throw: One Mistyped Comment Closer Silently Ate 15 Lines of My Stylesheet", "platform": "devto", "value": 0.0, "timestamp": "2026-08-05T00:00:06Z"}
 {"keyword": "React useMeasure Hook: Measure DOM Elements with ResizeObserver (2026)", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T02:53:06Z"}
+{"keyword": "How I Smashed a Bug in a Shared Authentication Library", "platform": "devto", "value": 46.0, "timestamp": "2026-08-05T06:58:57Z"}
+{"keyword": "General Challenge Updates Moving Forward", "platform": "devto", "value": 11.0, "timestamp": "2026-08-05T19:27:14Z"}
+{"keyword": "Swift Protocols — The Art of Making Promises 🤝", "platform": "devto", "value": 16.0, "timestamp": "2026-08-05T08:58:40Z"}
+{"keyword": "Serving Gemma 4 2B on a Single TPU v5e Chip with MCP and Antigravity CLI", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T14:56:26Z"}
+{"keyword": "Git Diff for Human Reasoning", "platform": "devto", "value": 9.0, "timestamp": "2026-08-04T22:23:27Z"}
+{"keyword": "Exploring Form Management Patterns in Flutter with BlocSignal", "platform": "devto", "value": 6.0, "timestamp": "2026-08-04T23:10:31Z"}
+{"keyword": "Introducing Kiro Crew: AWS's Open-Source AI Agent Orchestrator", "platform": "devto", "value": 13.0, "timestamp": "2026-08-05T13:51:22Z"}
+{"keyword": "Are we the abstraction? AI and the future of software engineering", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T14:00:00Z"}
+{"keyword": "How I Stopped 429 Retries from Duplicating Successful Batch Jobs", "platform": "devto", "value": 2.0, "timestamp": "2026-08-05T05:45:28Z"}
+{"keyword": "ঘরের থালি: CSS Art Feast of Peshawari Meat, Beef Curry & Chicken Biryani", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T11:03:34Z"}
+{"keyword": "This Bug Has Never Fired in Production. I Fixed It Anyway", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T10:23:33Z"}
+{"keyword": "Ramen After Dark — A Steaming Comfort-Food Scene Drawn Entirely in CSS", "platform": "devto", "value": 5.0, "timestamp": "2026-08-05T05:58:03Z"}
+{"keyword": "Why I stopped writing audio preprocessing scripts and built a tool instead", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T05:22:15Z"}
+{"keyword": "The Taste of Home — Recreating Congolese Comfort Food with Pure HTML & CSS", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T10:04:23Z"}
+{"keyword": "How vLLM Actually Manages KV Cache (vs the Toy Version I Built)", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T08:34:48Z"}
+{"keyword": "Who Is the Author? AI-Generated Code and PCI DSS Code Review", "platform": "devto", "value": 0.0, "timestamp": "2026-08-05T13:00:00Z"}
+{"keyword": "Episode 6 — Watching Something You Can't See", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T03:40:11Z"}
+{"keyword": "Reasoning Effort Is Not a Quality Setting", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T13:25:25Z"}
+{"keyword": "Why My React Native ScrollView Would Not Scroll Inside a Share Preview Modal", "platform": "devto", "value": 2.0, "timestamp": "2026-08-05T05:46:25Z"}
+{"keyword": "The Review Tax: Why 81% of Developers Are Buried in AI Code Review", "platform": "devto", "value": 25.0, "timestamp": "2026-08-05T10:00:19Z"}
+{"keyword": "Enterprise MCP Gateway with Built-In Security: OAuth 2.0, RBAC, and Tool Access Control", "platform": "devto", "value": 21.0, "timestamp": "2026-08-05T19:41:55Z"}
+{"keyword": "Compact Strings Cut Character Storage in Half", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T15:10:15Z"}
+{"keyword": "Resize One Image into 6 Social Media Formats Automatically Using Cloudinary Claimable Clouds", "platform": "devto", "value": 0.0, "timestamp": "2026-08-05T21:30:34Z"}
+{"keyword": "Docker Security Dispatch — Issue 5: AI Security, Hugging Face Incident, and Agent Baseline 📡", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T08:00:00Z"}
+{"keyword": "GPU-Accelerating MSCRED with CUDA, im2col, GEMM, and a Custom PyTorch Extension", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T09:00:08Z"}
+{"keyword": "React useMeasure Hook: Measure DOM Elements with ResizeObserver (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-05T02:53:06Z"}
+{"keyword": "The Boss in the Code", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T11:00:00Z"}
+{"keyword": "How a self-taught dev gets merged PRs into real open-source projects", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T07:49:50Z"}
+{"keyword": "Beyond the Mean: An Engineer's Guide to Making Decisions with Statistical Inference", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T16:04:23Z"}
+{"keyword": "How I Smashed a Bug in a Shared Authentication Library", "platform": "devto", "value": 46.0, "timestamp": "2026-08-05T06:58:57Z"}
+{"keyword": "General Challenge Updates Moving Forward", "platform": "devto", "value": 11.0, "timestamp": "2026-08-05T19:27:14Z"}
+{"keyword": "Swift Protocols — The Art of Making Promises 🤝", "platform": "devto", "value": 16.0, "timestamp": "2026-08-05T08:58:40Z"}
+{"keyword": "Serving Gemma 4 2B on a Single TPU v5e Chip with MCP and Antigravity CLI", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T14:56:26Z"}
+{"keyword": "Git Diff for Human Reasoning", "platform": "devto", "value": 9.0, "timestamp": "2026-08-04T22:23:27Z"}
+{"keyword": "Exploring Form Management Patterns in Flutter with BlocSignal", "platform": "devto", "value": 6.0, "timestamp": "2026-08-04T23:10:31Z"}
+{"keyword": "Introducing Kiro Crew: AWS's Open-Source AI Agent Orchestrator", "platform": "devto", "value": 13.0, "timestamp": "2026-08-05T13:51:22Z"}
+{"keyword": "Are we the abstraction? AI and the future of software engineering", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T14:00:00Z"}
+{"keyword": "How I Stopped 429 Retries from Duplicating Successful Batch Jobs", "platform": "devto", "value": 2.0, "timestamp": "2026-08-05T05:45:28Z"}
+{"keyword": "ঘরের থালি: CSS Art Feast of Peshawari Meat, Beef Curry & Chicken Biryani", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T11:03:34Z"}
+{"keyword": "This Bug Has Never Fired in Production. I Fixed It Anyway", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T10:23:33Z"}
+{"keyword": "Ramen After Dark — A Steaming Comfort-Food Scene Drawn Entirely in CSS", "platform": "devto", "value": 5.0, "timestamp": "2026-08-05T05:58:03Z"}
+{"keyword": "Why I stopped writing audio preprocessing scripts and built a tool instead", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T05:22:15Z"}
+{"keyword": "The Taste of Home — Recreating Congolese Comfort Food with Pure HTML & CSS", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T10:04:23Z"}
+{"keyword": "How vLLM Actually Manages KV Cache (vs the Toy Version I Built)", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T08:34:48Z"}
+{"keyword": "Who Is the Author? AI-Generated Code and PCI DSS Code Review", "platform": "devto", "value": 0.0, "timestamp": "2026-08-05T13:00:00Z"}
+{"keyword": "Episode 6 — Watching Something You Can't See", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T03:40:11Z"}
+{"keyword": "Reasoning Effort Is Not a Quality Setting", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T13:25:25Z"}
+{"keyword": "Why My React Native ScrollView Would Not Scroll Inside a Share Preview Modal", "platform": "devto", "value": 2.0, "timestamp": "2026-08-05T05:46:25Z"}
+{"keyword": "The Review Tax: Why 81% of Developers Are Buried in AI Code Review", "platform": "devto", "value": 25.0, "timestamp": "2026-08-05T10:00:19Z"}
+{"keyword": "Enterprise MCP Gateway with Built-In Security: OAuth 2.0, RBAC, and Tool Access Control", "platform": "devto", "value": 21.0, "timestamp": "2026-08-05T19:41:55Z"}
+{"keyword": "Compact Strings Cut Character Storage in Half", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T15:10:15Z"}
+{"keyword": "Resize One Image into 6 Social Media Formats Automatically Using Cloudinary Claimable Clouds", "platform": "devto", "value": 0.0, "timestamp": "2026-08-05T21:30:34Z"}
+{"keyword": "Docker Security Dispatch — Issue 5: AI Security, Hugging Face Incident, and Agent Baseline 📡", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T08:00:00Z"}
+{"keyword": "GPU-Accelerating MSCRED with CUDA, im2col, GEMM, and a Custom PyTorch Extension", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T09:00:08Z"}
+{"keyword": "React useMeasure Hook: Measure DOM Elements with ResizeObserver (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-05T02:53:06Z"}
+{"keyword": "The Boss in the Code", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T11:00:00Z"}
+{"keyword": "How a self-taught dev gets merged PRs into real open-source projects", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T07:49:50Z"}
+{"keyword": "Beyond the Mean: An Engineer's Guide to Making Decisions with Statistical Inference", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T16:04:23Z"}
+{"keyword": "How I Smashed a Bug in a Shared Authentication Library", "platform": "devto", "value": 46.0, "timestamp": "2026-08-05T06:58:57Z"}
+{"keyword": "General Challenge Updates Moving Forward", "platform": "devto", "value": 11.0, "timestamp": "2026-08-05T19:27:14Z"}
+{"keyword": "Swift Protocols — The Art of Making Promises 🤝", "platform": "devto", "value": 16.0, "timestamp": "2026-08-05T08:58:40Z"}
+{"keyword": "Serving Gemma 4 2B on a Single TPU v5e Chip with MCP and Antigravity CLI", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T14:56:26Z"}
+{"keyword": "Git Diff for Human Reasoning", "platform": "devto", "value": 9.0, "timestamp": "2026-08-04T22:23:27Z"}
+{"keyword": "Exploring Form Management Patterns in Flutter with BlocSignal", "platform": "devto", "value": 6.0, "timestamp": "2026-08-04T23:10:31Z"}
+{"keyword": "Introducing Kiro Crew: AWS's Open-Source AI Agent Orchestrator", "platform": "devto", "value": 13.0, "timestamp": "2026-08-05T13:51:22Z"}
+{"keyword": "Are we the abstraction? AI and the future of software engineering", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T14:00:00Z"}
+{"keyword": "How I Stopped 429 Retries from Duplicating Successful Batch Jobs", "platform": "devto", "value": 2.0, "timestamp": "2026-08-05T05:45:28Z"}
+{"keyword": "ঘরের থালি: CSS Art Feast of Peshawari Meat, Beef Curry & Chicken Biryani", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T11:03:34Z"}
+{"keyword": "This Bug Has Never Fired in Production. I Fixed It Anyway", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T10:23:33Z"}
+{"keyword": "Ramen After Dark — A Steaming Comfort-Food Scene Drawn Entirely in CSS", "platform": "devto", "value": 5.0, "timestamp": "2026-08-05T05:58:03Z"}
+{"keyword": "Why I stopped writing audio preprocessing scripts and built a tool instead", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T05:22:15Z"}
+{"keyword": "The Taste of Home — Recreating Congolese Comfort Food with Pure HTML & CSS", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T10:04:23Z"}
+{"keyword": "How vLLM Actually Manages KV Cache (vs the Toy Version I Built)", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T08:34:48Z"}
+{"keyword": "Who Is the Author? AI-Generated Code and PCI DSS Code Review", "platform": "devto", "value": 0.0, "timestamp": "2026-08-05T13:00:00Z"}
+{"keyword": "Episode 6 — Watching Something You Can't See", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T03:40:11Z"}
+{"keyword": "Reasoning Effort Is Not a Quality Setting", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T13:25:25Z"}
+{"keyword": "Why My React Native ScrollView Would Not Scroll Inside a Share Preview Modal", "platform": "devto", "value": 2.0, "timestamp": "2026-08-05T05:46:25Z"}
+{"keyword": "The Review Tax: Why 81% of Developers Are Buried in AI Code Review", "platform": "devto", "value": 25.0, "timestamp": "2026-08-05T10:00:19Z"}
+{"keyword": "Enterprise MCP Gateway with Built-In Security: OAuth 2.0, RBAC, and Tool Access Control", "platform": "devto", "value": 21.0, "timestamp": "2026-08-05T19:41:55Z"}
+{"keyword": "Compact Strings Cut Character Storage in Half", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T15:10:15Z"}
+{"keyword": "Resize One Image into 6 Social Media Formats Automatically Using Cloudinary Claimable Clouds", "platform": "devto", "value": 0.0, "timestamp": "2026-08-05T21:30:34Z"}
+{"keyword": "Docker Security Dispatch — Issue 5: AI Security, Hugging Face Incident, and Agent Baseline 📡", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T08:00:00Z"}
+{"keyword": "GPU-Accelerating MSCRED with CUDA, im2col, GEMM, and a Custom PyTorch Extension", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T09:00:08Z"}
+{"keyword": "React useMeasure Hook: Measure DOM Elements with ResizeObserver (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-05T02:53:06Z"}
+{"keyword": "The Boss in the Code", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T11:00:00Z"}
+{"keyword": "How a self-taught dev gets merged PRs into real open-source projects", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T07:49:50Z"}
+{"keyword": "Beyond the Mean: An Engineer's Guide to Making Decisions with Statistical Inference", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T16:04:23Z"}
+{"keyword": "How I Smashed a Bug in a Shared Authentication Library", "platform": "devto", "value": 46.0, "timestamp": "2026-08-05T06:58:57Z"}
+{"keyword": "General Challenge Updates Moving Forward", "platform": "devto", "value": 11.0, "timestamp": "2026-08-05T19:27:14Z"}
+{"keyword": "Swift Protocols — The Art of Making Promises 🤝", "platform": "devto", "value": 16.0, "timestamp": "2026-08-05T08:58:40Z"}
+{"keyword": "Serving Gemma 4 2B on a Single TPU v5e Chip with MCP and Antigravity CLI", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T14:56:26Z"}
+{"keyword": "Git Diff for Human Reasoning", "platform": "devto", "value": 9.0, "timestamp": "2026-08-04T22:23:27Z"}
+{"keyword": "Exploring Form Management Patterns in Flutter with BlocSignal", "platform": "devto", "value": 6.0, "timestamp": "2026-08-04T23:10:31Z"}
+{"keyword": "Introducing Kiro Crew: AWS's Open-Source AI Agent Orchestrator", "platform": "devto", "value": 13.0, "timestamp": "2026-08-05T13:51:22Z"}
+{"keyword": "Are we the abstraction? AI and the future of software engineering", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T14:00:00Z"}
+{"keyword": "How I Stopped 429 Retries from Duplicating Successful Batch Jobs", "platform": "devto", "value": 2.0, "timestamp": "2026-08-05T05:45:28Z"}
+{"keyword": "ঘরের থালি: CSS Art Feast of Peshawari Meat, Beef Curry & Chicken Biryani", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T11:03:34Z"}
+{"keyword": "This Bug Has Never Fired in Production. I Fixed It Anyway", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T10:23:33Z"}
+{"keyword": "Ramen After Dark — A Steaming Comfort-Food Scene Drawn Entirely in CSS", "platform": "devto", "value": 5.0, "timestamp": "2026-08-05T05:58:03Z"}
+{"keyword": "Why I stopped writing audio preprocessing scripts and built a tool instead", "platform": "devto", "value": 4.0, "timestamp": "2026-08-05T05:22:15Z"}
+{"keyword": "The Taste of Home — Recreating Congolese Comfort Food with Pure HTML & CSS", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T10:04:23Z"}
+{"keyword": "How vLLM Actually Manages KV Cache (vs the Toy Version I Built)", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T08:34:48Z"}
+{"keyword": "Who Is the Author? AI-Generated Code and PCI DSS Code Review", "platform": "devto", "value": 0.0, "timestamp": "2026-08-05T13:00:00Z"}
+{"keyword": "Episode 6 — Watching Something You Can't See", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T03:40:11Z"}
+{"keyword": "Reasoning Effort Is Not a Quality Setting", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T13:25:25Z"}
+{"keyword": "Why My React Native ScrollView Would Not Scroll Inside a Share Preview Modal", "platform": "devto", "value": 2.0, "timestamp": "2026-08-05T05:46:25Z"}
+{"keyword": "The Review Tax: Why 81% of Developers Are Buried in AI Code Review", "platform": "devto", "value": 25.0, "timestamp": "2026-08-05T10:00:19Z"}
+{"keyword": "Enterprise MCP Gateway with Built-In Security: OAuth 2.0, RBAC, and Tool Access Control", "platform": "devto", "value": 21.0, "timestamp": "2026-08-05T19:41:55Z"}
+{"keyword": "Compact Strings Cut Character Storage in Half", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T15:10:15Z"}
+{"keyword": "Resize One Image into 6 Social Media Formats Automatically Using Cloudinary Claimable Clouds", "platform": "devto", "value": 0.0, "timestamp": "2026-08-05T21:30:34Z"}
+{"keyword": "Docker Security Dispatch — Issue 5: AI Security, Hugging Face Incident, and Agent Baseline 📡", "platform": "devto", "value": 6.0, "timestamp": "2026-08-05T08:00:00Z"}
+{"keyword": "GPU-Accelerating MSCRED with CUDA, im2col, GEMM, and a Custom PyTorch Extension", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T09:00:08Z"}
+{"keyword": "React useMeasure Hook: Measure DOM Elements with ResizeObserver (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-05T02:53:06Z"}
+{"keyword": "The Boss in the Code", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T11:00:00Z"}
+{"keyword": "How a self-taught dev gets merged PRs into real open-source projects", "platform": "devto", "value": 3.0, "timestamp": "2026-08-05T07:49:50Z"}
+{"keyword": "Beyond the Mean: An Engineer's Guide to Making Decisions with Statistical Inference", "platform": "devto", "value": 1.0, "timestamp": "2026-08-05T16:04:23Z"}

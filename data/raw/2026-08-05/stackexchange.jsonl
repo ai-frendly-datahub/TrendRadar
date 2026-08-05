@@ -12,3 +12,31 @@
 {"keyword": "I need the path of the file that is invoking the launch of my Python application", "platform": "stackexchange", "value": 0.0, "timestamp": "1785908895"}
 {"keyword": "Why is only one of my tasks being cancelled in my python asyncio program?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785877206"}
 {"keyword": "Selecting non blank data in aggregation query", "platform": "stackexchange", "value": 1.0, "timestamp": "1785861375"}
+{"keyword": "SQL Server database stuck restoring when restored with mssql_python", "platform": "stackexchange", "value": 0.0, "timestamp": "1785961173"}
+{"keyword": "How does CSS render different parts of text in a single &lt;div&gt; differently?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785964294"}
+{"keyword": "Power Automate &#39;Create a Teams Meeting&#39; not handling timezones correctly", "platform": "stackexchange", "value": 0.0, "timestamp": "1785964884"}
+{"keyword": "Why does the memory allocation in this program stay consistently high?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785962792"}
+{"keyword": "Duplicated code-gen on clang for non-defaulted destructor in templated class with shared_ptr", "platform": "stackexchange", "value": 0.0, "timestamp": "1785961093"}
+{"keyword": "How to determine number of characters consumed by vsscanf without modifying the format string?", "platform": "stackexchange", "value": 3.0, "timestamp": "1785944852"}
+{"keyword": "How to validate a field without storing it", "platform": "stackexchange", "value": 0.0, "timestamp": "1785953570"}
+{"keyword": "How can I pause a &#39;repeating forever&#39; animation in Reality Composer Pro 2?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785957820"}
+{"keyword": "VSCode extension development: custom themecolor in webview CSS", "platform": "stackexchange", "value": 0.0, "timestamp": "1785949889"}
+{"keyword": "SslHandshakeException using Mailkit and private relay", "platform": "stackexchange", "value": 0.0, "timestamp": "1785937664"}
+{"keyword": "Can the markdown preview toolbar be disabled?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785922023"}
+{"keyword": "SOPS AWS Cross-Account acccess via STS Assume Role", "platform": "stackexchange", "value": 0.0, "timestamp": "1785946299"}
+{"keyword": "How to build a shared lock using Atomics", "platform": "stackexchange", "value": 1.0, "timestamp": "1785940095"}
+{"keyword": "Why does Flutter cold start take significantly longer on Impeller/OpenGL ES than Impeller/Vulkan?", "platform": "stackexchange", "value": 1.0, "timestamp": "1785939163"}
+{"keyword": "SQL Server database stuck restoring when restored with mssql_python", "platform": "stackexchange", "value": 0.0, "timestamp": "1785961173"}
+{"keyword": "How does CSS render different parts of text in a single &lt;div&gt; differently?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785964294"}
+{"keyword": "Power Automate &#39;Create a Teams Meeting&#39; not handling timezones correctly", "platform": "stackexchange", "value": 0.0, "timestamp": "1785964884"}
+{"keyword": "Why does the memory allocation in this program stay consistently high?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785962792"}
+{"keyword": "Duplicated code-gen on clang for non-defaulted destructor in templated class with shared_ptr", "platform": "stackexchange", "value": 0.0, "timestamp": "1785961093"}
+{"keyword": "How to determine number of characters consumed by vsscanf without modifying the format string?", "platform": "stackexchange", "value": 3.0, "timestamp": "1785944852"}
+{"keyword": "How to validate a field without storing it", "platform": "stackexchange", "value": 0.0, "timestamp": "1785953570"}
+{"keyword": "How can I pause a &#39;repeating forever&#39; animation in Reality Composer Pro 2?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785957820"}
+{"keyword": "VSCode extension development: custom themecolor in webview CSS", "platform": "stackexchange", "value": 0.0, "timestamp": "1785949889"}
+{"keyword": "SslHandshakeException using Mailkit and private relay", "platform": "stackexchange", "value": 0.0, "timestamp": "1785937664"}
+{"keyword": "Can the markdown preview toolbar be disabled?", "platform": "stackexchange", "value": 0.0, "timestamp": "1785922023"}
+{"keyword": "SOPS AWS Cross-Account acccess via STS Assume Role", "platform": "stackexchange", "value": 0.0, "timestamp": "1785946299"}
+{"keyword": "How to build a shared lock using Atomics", "platform": "stackexchange", "value": 1.0, "timestamp": "1785940095"}
+{"keyword": "Why does Flutter cold start take significantly longer on Impeller/OpenGL ES than Impeller/Vulkan?", "platform": "stackexchange", "value": 1.0, "timestamp": "1785939163"}

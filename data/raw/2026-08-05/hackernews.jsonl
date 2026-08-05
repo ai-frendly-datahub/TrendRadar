@@ -58,3 +58,123 @@
 {"keyword": "Waymo in Dallas", "platform": "hackernews", "value": 302.0, "timestamp": "1785868181"}
 {"keyword": "Godox Transparent Viewfinder Camera C100", "platform": "hackernews", "value": 49.0, "timestamp": "1785763974"}
 {"keyword": "Xbox goes down. You can't play games you own on disc", "platform": "hackernews", "value": 669.0, "timestamp": "1785844862"}
+{"keyword": "Zed DeltaDB", "platform": "hackernews", "value": 241.0, "timestamp": "1785955974"}
+{"keyword": "Discovery Loop", "platform": "hackernews", "value": 503.0, "timestamp": "1785946784"}
+{"keyword": "I'm switching my phone from Android to Linux", "platform": "hackernews", "value": 132.0, "timestamp": "1785959413"}
+{"keyword": "The Title Cards in Blade Runner Are Fucking Amazing", "platform": "hackernews", "value": 54.0, "timestamp": "1785965363"}
+{"keyword": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs", "platform": "hackernews", "value": 382.0, "timestamp": "1785945931"}
+{"keyword": "Nvidia's Vera Whitepaper Has a Thread Loose", "platform": "hackernews", "value": 37.0, "timestamp": "1785965085"}
+{"keyword": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models", "platform": "hackernews", "value": 170.0, "timestamp": "1785953936"}
+{"keyword": "Atlassian Rovo Exfiltrates Data, Bypassing Controls", "platform": "hackernews", "value": 134.0, "timestamp": "1785950605"}
+{"keyword": "Prime Agent: A self-improving RLM agent", "platform": "hackernews", "value": 50.0, "timestamp": "1785964317"}
+{"keyword": "Muse Code and Muse Spark 1.2", "platform": "hackernews", "value": 126.0, "timestamp": "1785957352"}
+{"keyword": "GNU Hurd News 2026-Q2", "platform": "hackernews", "value": 104.0, "timestamp": "1785689852"}
+{"keyword": "Exact, parallel 2D Delaunay triangulation for int32 coordinates", "platform": "hackernews", "value": 8.0, "timestamp": "1785516303"}
+{"keyword": "Celld: Self-hosted, distributed Durable Objects", "platform": "hackernews", "value": 115.0, "timestamp": "1785948606"}
+{"keyword": "Goodhart's Law Comes for Every Benchmark You Trust", "platform": "hackernews", "value": 42.0, "timestamp": "1785521688"}
+{"keyword": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod", "platform": "hackernews", "value": 34.0, "timestamp": "1785948435"}
+{"keyword": "Online Friends Are Real Friends", "platform": "hackernews", "value": 50.0, "timestamp": "1785514075"}
+{"keyword": "The Valley of Webhooks", "platform": "hackernews", "value": 136.0, "timestamp": "1785943326"}
+{"keyword": "What happens if you put work into the second dimension?", "platform": "hackernews", "value": 34.0, "timestamp": "1785955171"}
+{"keyword": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery", "platform": "hackernews", "value": 198.0, "timestamp": "1785959246"}
+{"keyword": "Sula: A Gemini protocol server written in Scryer Prolog", "platform": "hackernews", "value": 32.0, "timestamp": "1785955978"}
+{"keyword": "The Entropy of a Markov Chain", "platform": "hackernews", "value": 95.0, "timestamp": "1785938410"}
+{"keyword": "Discovery of a multicomponent alloy forged by the Hiroshima atomic blast", "platform": "hackernews", "value": 97.0, "timestamp": "1785442183"}
+{"keyword": "Cloudflare OS: an open platform for agents, apps, and work", "platform": "hackernews", "value": 432.0, "timestamp": "1785938333"}
+{"keyword": "Phishers are hijacking legitimate cloud infrastructure", "platform": "hackernews", "value": 37.0, "timestamp": "1785950425"}
+{"keyword": "Building an Advanced Agentic Harness", "platform": "hackernews", "value": 96.0, "timestamp": "1785938052"}
+{"keyword": "Rubin Observatory's first LSST Camera release: 500k galaxies in the COSMOS field", "platform": "hackernews", "value": 81.0, "timestamp": "1785938650"}
+{"keyword": "Aristotle quotes on virtue, knowledge, and happiness", "platform": "hackernews", "value": 145.0, "timestamp": "1785938799"}
+{"keyword": "Painting with Gaussians", "platform": "hackernews", "value": 86.0, "timestamp": "1785936872"}
+{"keyword": "Stop sending me your errors", "platform": "hackernews", "value": 36.0, "timestamp": "1785947730"}
+{"keyword": "Position: LLMs Can't Jump", "platform": "hackernews", "value": 226.0, "timestamp": "1785927697"}
+{"keyword": "Zed DeltaDB", "platform": "hackernews", "value": 241.0, "timestamp": "1785955974"}
+{"keyword": "Discovery Loop", "platform": "hackernews", "value": 503.0, "timestamp": "1785946784"}
+{"keyword": "I'm switching my phone from Android to Linux", "platform": "hackernews", "value": 132.0, "timestamp": "1785959413"}
+{"keyword": "The Title Cards in Blade Runner Are Fucking Amazing", "platform": "hackernews", "value": 54.0, "timestamp": "1785965363"}
+{"keyword": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs", "platform": "hackernews", "value": 382.0, "timestamp": "1785945931"}
+{"keyword": "Nvidia's Vera Whitepaper Has a Thread Loose", "platform": "hackernews", "value": 37.0, "timestamp": "1785965085"}
+{"keyword": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models", "platform": "hackernews", "value": 170.0, "timestamp": "1785953936"}
+{"keyword": "Atlassian Rovo Exfiltrates Data, Bypassing Controls", "platform": "hackernews", "value": 134.0, "timestamp": "1785950605"}
+{"keyword": "Prime Agent: A self-improving RLM agent", "platform": "hackernews", "value": 50.0, "timestamp": "1785964317"}
+{"keyword": "Muse Code and Muse Spark 1.2", "platform": "hackernews", "value": 126.0, "timestamp": "1785957352"}
+{"keyword": "GNU Hurd News 2026-Q2", "platform": "hackernews", "value": 104.0, "timestamp": "1785689852"}
+{"keyword": "Exact, parallel 2D Delaunay triangulation for int32 coordinates", "platform": "hackernews", "value": 8.0, "timestamp": "1785516303"}
+{"keyword": "Celld: Self-hosted, distributed Durable Objects", "platform": "hackernews", "value": 115.0, "timestamp": "1785948606"}
+{"keyword": "Goodhart's Law Comes for Every Benchmark You Trust", "platform": "hackernews", "value": 42.0, "timestamp": "1785521688"}
+{"keyword": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod", "platform": "hackernews", "value": 34.0, "timestamp": "1785948435"}
+{"keyword": "Online Friends Are Real Friends", "platform": "hackernews", "value": 50.0, "timestamp": "1785514075"}
+{"keyword": "The Valley of Webhooks", "platform": "hackernews", "value": 136.0, "timestamp": "1785943326"}
+{"keyword": "What happens if you put work into the second dimension?", "platform": "hackernews", "value": 34.0, "timestamp": "1785955171"}
+{"keyword": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery", "platform": "hackernews", "value": 198.0, "timestamp": "1785959246"}
+{"keyword": "Sula: A Gemini protocol server written in Scryer Prolog", "platform": "hackernews", "value": 32.0, "timestamp": "1785955978"}
+{"keyword": "The Entropy of a Markov Chain", "platform": "hackernews", "value": 95.0, "timestamp": "1785938410"}
+{"keyword": "Discovery of a multicomponent alloy forged by the Hiroshima atomic blast", "platform": "hackernews", "value": 97.0, "timestamp": "1785442183"}
+{"keyword": "Cloudflare OS: an open platform for agents, apps, and work", "platform": "hackernews", "value": 432.0, "timestamp": "1785938333"}
+{"keyword": "Phishers are hijacking legitimate cloud infrastructure", "platform": "hackernews", "value": 37.0, "timestamp": "1785950425"}
+{"keyword": "Building an Advanced Agentic Harness", "platform": "hackernews", "value": 96.0, "timestamp": "1785938052"}
+{"keyword": "Rubin Observatory's first LSST Camera release: 500k galaxies in the COSMOS field", "platform": "hackernews", "value": 81.0, "timestamp": "1785938650"}
+{"keyword": "Aristotle quotes on virtue, knowledge, and happiness", "platform": "hackernews", "value": 145.0, "timestamp": "1785938799"}
+{"keyword": "Painting with Gaussians", "platform": "hackernews", "value": 86.0, "timestamp": "1785936872"}
+{"keyword": "Stop sending me your errors", "platform": "hackernews", "value": 36.0, "timestamp": "1785947730"}
+{"keyword": "Position: LLMs Can't Jump", "platform": "hackernews", "value": 226.0, "timestamp": "1785927697"}
+{"keyword": "Zed DeltaDB", "platform": "hackernews", "value": 241.0, "timestamp": "1785955974"}
+{"keyword": "Discovery Loop", "platform": "hackernews", "value": 503.0, "timestamp": "1785946784"}
+{"keyword": "I'm switching my phone from Android to Linux", "platform": "hackernews", "value": 132.0, "timestamp": "1785959413"}
+{"keyword": "The Title Cards in Blade Runner Are Fucking Amazing", "platform": "hackernews", "value": 54.0, "timestamp": "1785965363"}
+{"keyword": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs", "platform": "hackernews", "value": 382.0, "timestamp": "1785945931"}
+{"keyword": "Nvidia's Vera Whitepaper Has a Thread Loose", "platform": "hackernews", "value": 37.0, "timestamp": "1785965085"}
+{"keyword": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models", "platform": "hackernews", "value": 170.0, "timestamp": "1785953936"}
+{"keyword": "Atlassian Rovo Exfiltrates Data, Bypassing Controls", "platform": "hackernews", "value": 134.0, "timestamp": "1785950605"}
+{"keyword": "Prime Agent: A self-improving RLM agent", "platform": "hackernews", "value": 50.0, "timestamp": "1785964317"}
+{"keyword": "Muse Code and Muse Spark 1.2", "platform": "hackernews", "value": 126.0, "timestamp": "1785957352"}
+{"keyword": "GNU Hurd News 2026-Q2", "platform": "hackernews", "value": 104.0, "timestamp": "1785689852"}
+{"keyword": "Exact, parallel 2D Delaunay triangulation for int32 coordinates", "platform": "hackernews", "value": 8.0, "timestamp": "1785516303"}
+{"keyword": "Celld: Self-hosted, distributed Durable Objects", "platform": "hackernews", "value": 115.0, "timestamp": "1785948606"}
+{"keyword": "Goodhart's Law Comes for Every Benchmark You Trust", "platform": "hackernews", "value": 42.0, "timestamp": "1785521688"}
+{"keyword": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod", "platform": "hackernews", "value": 34.0, "timestamp": "1785948435"}
+{"keyword": "Online Friends Are Real Friends", "platform": "hackernews", "value": 50.0, "timestamp": "1785514075"}
+{"keyword": "The Valley of Webhooks", "platform": "hackernews", "value": 136.0, "timestamp": "1785943326"}
+{"keyword": "What happens if you put work into the second dimension?", "platform": "hackernews", "value": 34.0, "timestamp": "1785955171"}
+{"keyword": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery", "platform": "hackernews", "value": 198.0, "timestamp": "1785959246"}
+{"keyword": "Sula: A Gemini protocol server written in Scryer Prolog", "platform": "hackernews", "value": 32.0, "timestamp": "1785955978"}
+{"keyword": "The Entropy of a Markov Chain", "platform": "hackernews", "value": 95.0, "timestamp": "1785938410"}
+{"keyword": "Discovery of a multicomponent alloy forged by the Hiroshima atomic blast", "platform": "hackernews", "value": 97.0, "timestamp": "1785442183"}
+{"keyword": "Cloudflare OS: an open platform for agents, apps, and work", "platform": "hackernews", "value": 432.0, "timestamp": "1785938333"}
+{"keyword": "Phishers are hijacking legitimate cloud infrastructure", "platform": "hackernews", "value": 37.0, "timestamp": "1785950425"}
+{"keyword": "Building an Advanced Agentic Harness", "platform": "hackernews", "value": 96.0, "timestamp": "1785938052"}
+{"keyword": "Rubin Observatory's first LSST Camera release: 500k galaxies in the COSMOS field", "platform": "hackernews", "value": 81.0, "timestamp": "1785938650"}
+{"keyword": "Aristotle quotes on virtue, knowledge, and happiness", "platform": "hackernews", "value": 145.0, "timestamp": "1785938799"}
+{"keyword": "Painting with Gaussians", "platform": "hackernews", "value": 86.0, "timestamp": "1785936872"}
+{"keyword": "Stop sending me your errors", "platform": "hackernews", "value": 36.0, "timestamp": "1785947730"}
+{"keyword": "Position: LLMs Can't Jump", "platform": "hackernews", "value": 226.0, "timestamp": "1785927697"}
+{"keyword": "Zed DeltaDB", "platform": "hackernews", "value": 241.0, "timestamp": "1785955974"}
+{"keyword": "Discovery Loop", "platform": "hackernews", "value": 503.0, "timestamp": "1785946784"}
+{"keyword": "I'm switching my phone from Android to Linux", "platform": "hackernews", "value": 132.0, "timestamp": "1785959413"}
+{"keyword": "The Title Cards in Blade Runner Are Fucking Amazing", "platform": "hackernews", "value": 54.0, "timestamp": "1785965363"}
+{"keyword": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs", "platform": "hackernews", "value": 382.0, "timestamp": "1785945931"}
+{"keyword": "Nvidia's Vera Whitepaper Has a Thread Loose", "platform": "hackernews", "value": 37.0, "timestamp": "1785965085"}
+{"keyword": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models", "platform": "hackernews", "value": 170.0, "timestamp": "1785953936"}
+{"keyword": "Atlassian Rovo Exfiltrates Data, Bypassing Controls", "platform": "hackernews", "value": 134.0, "timestamp": "1785950605"}
+{"keyword": "Prime Agent: A self-improving RLM agent", "platform": "hackernews", "value": 50.0, "timestamp": "1785964317"}
+{"keyword": "Muse Code and Muse Spark 1.2", "platform": "hackernews", "value": 126.0, "timestamp": "1785957352"}
+{"keyword": "GNU Hurd News 2026-Q2", "platform": "hackernews", "value": 104.0, "timestamp": "1785689852"}
+{"keyword": "Exact, parallel 2D Delaunay triangulation for int32 coordinates", "platform": "hackernews", "value": 8.0, "timestamp": "1785516303"}
+{"keyword": "Celld: Self-hosted, distributed Durable Objects", "platform": "hackernews", "value": 115.0, "timestamp": "1785948606"}
+{"keyword": "Goodhart's Law Comes for Every Benchmark You Trust", "platform": "hackernews", "value": 42.0, "timestamp": "1785521688"}
+{"keyword": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod", "platform": "hackernews", "value": 34.0, "timestamp": "1785948435"}
+{"keyword": "Online Friends Are Real Friends", "platform": "hackernews", "value": 50.0, "timestamp": "1785514075"}
+{"keyword": "The Valley of Webhooks", "platform": "hackernews", "value": 136.0, "timestamp": "1785943326"}
+{"keyword": "What happens if you put work into the second dimension?", "platform": "hackernews", "value": 34.0, "timestamp": "1785955171"}
+{"keyword": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery", "platform": "hackernews", "value": 198.0, "timestamp": "1785959246"}
+{"keyword": "Sula: A Gemini protocol server written in Scryer Prolog", "platform": "hackernews", "value": 32.0, "timestamp": "1785955978"}
+{"keyword": "The Entropy of a Markov Chain", "platform": "hackernews", "value": 95.0, "timestamp": "1785938410"}
+{"keyword": "Discovery of a multicomponent alloy forged by the Hiroshima atomic blast", "platform": "hackernews", "value": 97.0, "timestamp": "1785442183"}
+{"keyword": "Cloudflare OS: an open platform for agents, apps, and work", "platform": "hackernews", "value": 432.0, "timestamp": "1785938333"}
+{"keyword": "Phishers are hijacking legitimate cloud infrastructure", "platform": "hackernews", "value": 37.0, "timestamp": "1785950425"}
+{"keyword": "Building an Advanced Agentic Harness", "platform": "hackernews", "value": 96.0, "timestamp": "1785938052"}
+{"keyword": "Rubin Observatory's first LSST Camera release: 500k galaxies in the COSMOS field", "platform": "hackernews", "value": 81.0, "timestamp": "1785938650"}
+{"keyword": "Aristotle quotes on virtue, knowledge, and happiness", "platform": "hackernews", "value": 145.0, "timestamp": "1785938799"}
+{"keyword": "Painting with Gaussians", "platform": "hackernews", "value": 86.0, "timestamp": "1785936872"}
+{"keyword": "Stop sending me your errors", "platform": "hackernews", "value": 36.0, "timestamp": "1785947730"}
+{"keyword": "Position: LLMs Can't Jump", "platform": "hackernews", "value": 226.0, "timestamp": "1785927697"}
