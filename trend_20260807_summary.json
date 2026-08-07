@@ -1,40 +1,60 @@
 {
   "date": "2026-08-07",
   "category": "trend",
-  "article_count": 102,
+  "article_count": 115,
   "source_count": 2,
-  "matched_count": 102,
+  "matched_count": 115,
   "top_entities": [
     {
       "name": "OpenAI",
-      "count": 5
+      "count": 6
     },
     {
-      "name": "YouTube",
-      "count": 5
+      "name": "South Korea",
+      "count": 6
     },
     {
       "name": "E-commerce",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Electric vehicle",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Bitcoin",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Netflix",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Samsung",
-      "count": 5
+      "count": 6
+    },
+    {
+      "name": "YouTube",
+      "count": 6
+    },
+    {
+      "name": "Seoul",
+      "count": 6
     },
     {
       "name": "Machine learning",
+      "count": 6
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 6
+    },
+    {
+      "name": "K-pop",
+      "count": 5
+    },
+    {
+      "name": "World Wide Web",
       "count": 5
     },
     {
@@ -42,53 +62,33 @@
       "count": 5
     },
     {
-      "name": "Python (programming language)",
-      "count": 5
-    },
-    {
-      "name": "South Korea",
-      "count": 5
-    },
-    {
-      "name": "Seoul",
-      "count": 5
-    },
-    {
       "name": "Climate change",
       "count": 4
     },
     {
-      "name": "World Wide Web",
-      "count": 4
-    },
-    {
-      "name": "K-pop",
-      "count": 4
-    },
-    {
-      "name": "연예인",
-      "count": 1
-    },
-    {
-      "name": "K-POP",
-      "count": 1
-    },
-    {
-      "name": "가수",
-      "count": 1
-    },
-    {
-      "name": "케이팝",
-      "count": 1
-    },
-    {
       "name": "유튜버",
+      "count": 1
+    },
+    {
+      "name": "보이그룹",
+      "count": 1
+    },
+    {
+      "name": "인플루언서",
+      "count": 1
+    },
+    {
+      "name": "스포츠 선수",
+      "count": 1
+    },
+    {
+      "name": "정치인",
       "count": 1
     }
   ],
   "sources": {
-    "wikipedia": 72,
+    "wikipedia": 85,
     "google": 30
   },
-  "generated_at": "2026-08-07T01:29:42.072962+00:00"
+  "generated_at": "2026-08-07T19:49:32.867200+09:00"
 }
