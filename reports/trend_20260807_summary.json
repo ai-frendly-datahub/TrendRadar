@@ -1,20 +1,12 @@
 {
   "date": "2026-08-07",
   "category": "trend",
-  "article_count": 115,
+  "article_count": 116,
   "source_count": 2,
-  "matched_count": 115,
+  "matched_count": 116,
   "top_entities": [
     {
       "name": "OpenAI",
-      "count": 6
-    },
-    {
-      "name": "South Korea",
-      "count": 6
-    },
-    {
-      "name": "E-commerce",
       "count": 6
     },
     {
@@ -34,15 +26,7 @@
       "count": 6
     },
     {
-      "name": "YouTube",
-      "count": 6
-    },
-    {
-      "name": "Seoul",
-      "count": 6
-    },
-    {
-      "name": "Machine learning",
+      "name": "E-commerce",
       "count": 6
     },
     {
@@ -50,20 +34,36 @@
       "count": 6
     },
     {
-      "name": "K-pop",
-      "count": 5
+      "name": "South Korea",
+      "count": 6
+    },
+    {
+      "name": "Seoul",
+      "count": 6
+    },
+    {
+      "name": "YouTube",
+      "count": 6
+    },
+    {
+      "name": "Machine learning",
+      "count": 6
     },
     {
       "name": "World Wide Web",
       "count": 5
     },
     {
-      "name": "Artificial intelligence",
+      "name": "Climate change",
       "count": 5
     },
     {
-      "name": "Climate change",
-      "count": 4
+      "name": "K-pop",
+      "count": 5
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 5
     },
     {
       "name": "유튜버",
@@ -87,8 +87,8 @@
     }
   ],
   "sources": {
-    "wikipedia": 85,
+    "wikipedia": 86,
     "google": 30
   },
-  "generated_at": "2026-08-07T19:49:32.867200+09:00"
+  "generated_at": "2026-08-07T22:32:22.127820+00:00"
 }
