@@ -30,3 +30,22 @@
 {"keyword": "DXC is demanding a [raypayload] attribute in the shader, but gives an error if I insert it", "platform": "stackexchange", "value": 0.0, "timestamp": "1786043144"}
 {"keyword": "Query about unique pointers in C++", "platform": "stackexchange", "value": 3.0, "timestamp": "1786000059"}
 {"keyword": "SQL Server 2022 setup fails with &quot;Value cannot be null", "platform": "stackexchange", "value": 0.0, "timestamp": "1786030226"}
+{"keyword": "ASP.NET Core MVC displays bool as text not checkbox", "platform": "stackexchange", "value": 0.0, "timestamp": "1786095091"}
+{"keyword": "Use AFL++ fuzzing on an embedded software working on serial port inputs", "platform": "stackexchange", "value": 0.0, "timestamp": "1786092987"}
+{"keyword": "Why does A BETWEEN B AND B in a JOIN produce a different plan than A = B?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786093206"}
+{"keyword": "Visual studio 2026 iOS Simulator do not showing", "platform": "stackexchange", "value": 0.0, "timestamp": "1786095253"}
+{"keyword": "How to prevent iframe from blocking parent scrolling", "platform": "stackexchange", "value": 0.0, "timestamp": "1786095118"}
+{"keyword": "Should I use signal and slot before or after the http request via QNetworkAccessManager?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786084910"}
+{"keyword": "How do I get the platform of an OpenCL context, which wasn&#39;t specified on creation?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786090776"}
+{"keyword": "Bluetooth Permission handling in iOS", "platform": "stackexchange", "value": 0.0, "timestamp": "1786091965"}
+{"keyword": "How to reliably receive rich event metadata and cropped event images from multi-vendor IP cameras?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786087674"}
+{"keyword": "Remove const or get a non-const object", "platform": "stackexchange", "value": 0.0, "timestamp": "1786084277"}
+{"keyword": "BLE requestConnectionPriority(HIGH) only helps one of two GATT links", "platform": "stackexchange", "value": 0.0, "timestamp": "1786086330"}
+{"keyword": "Why is CompileFlags from .clangd file not applied to my VS Code build task?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786085108"}
+{"keyword": "How to dynamically enable/disable HTTP proxy configuration based on a YAML property?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786089684"}
+{"keyword": "Informix/GBase8s JDBC driver converts certain special symbols to question marks", "platform": "stackexchange", "value": 0.0, "timestamp": "1786083451"}
+{"keyword": "Logic behind sizeof() for 2D arrays in C", "platform": "stackexchange", "value": 4.0, "timestamp": "1786027767"}
+{"keyword": "ListView.ScrollIntoView for Random access data virtualization", "platform": "stackexchange", "value": 0.0, "timestamp": "1786079743"}
+{"keyword": "duckdb and callr causing Invalid Error: IO Error on Macos", "platform": "stackexchange", "value": 0.0, "timestamp": "1786081828"}
+{"keyword": "VisualStudio.Extensibility toolbar", "platform": "stackexchange", "value": 0.0, "timestamp": "1786074601"}
+{"keyword": "Reverse authentication by password for the root user of MariaDB to do admin tasks via phpMyAdmin", "platform": "stackexchange", "value": 0.0, "timestamp": "1786064059"}
