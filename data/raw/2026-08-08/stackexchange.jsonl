@@ -8,3 +8,33 @@
 {"keyword": "self.setCentralWidget() places my widget in top left not center", "platform": "stackexchange", "value": 1.0, "timestamp": "1786148216"}
 {"keyword": "How can I create a reusable SVG icon component in Angular?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786112715"}
 {"keyword": "Should I be calling DisableNetwork before the OS loses connectivity?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786107064"}
+{"keyword": "Langchain-community is deprecated or sunset, how to adjust to this?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786224863"}
+{"keyword": "How do I disable the default iOS form styling in place of my CSS?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786216441"}
+{"keyword": "Port Busy When uploading Sketch to Arduino Uno R3 on Mac", "platform": "stackexchange", "value": 0.0, "timestamp": "1786215202"}
+{"keyword": "Why does std::vector sometimes reallocate even when I know how many elements I’ll add?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786218565"}
+{"keyword": "Store long-lived password securely in PBEKeySpec or a Key Store", "platform": "stackexchange", "value": 0.0, "timestamp": "1786207709"}
+{"keyword": "Why is IN(s) much slower than alternatives, especially index(s)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786218088"}
+{"keyword": "How can I restrict a method to only classes implementing a specific interface in Java?", "platform": "stackexchange", "value": 3.0, "timestamp": "1786196018"}
+{"keyword": "Using std::valarray, access elements by their index value with the end function", "platform": "stackexchange", "value": 1.0, "timestamp": "1786211387"}
+{"keyword": "SpringBoot init fails with jasypt password configured as env variable", "platform": "stackexchange", "value": 0.0, "timestamp": "1786217800"}
+{"keyword": "How to indicate &quot;everyone&quot; in a Github CODEOWNERS file?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786210486"}
+{"keyword": "Clang accepts explicit call to overloaded conversion function while GCC and MSVC rejects", "platform": "stackexchange", "value": 0.0, "timestamp": "1786211909"}
+{"keyword": "Is this C macro for I/O error handling with a hidden return a reasonable practice?", "platform": "stackexchange", "value": 1.0, "timestamp": "1786205967"}
+{"keyword": "cmake error `No integer type of size 8 was found.` when trying to compile `sundials`", "platform": "stackexchange", "value": 2.0, "timestamp": "1786177176"}
+{"keyword": "Make buttons disappear from MS Word Insert Table drop-down menu", "platform": "stackexchange", "value": 0.0, "timestamp": "1786193282"}
+{"keyword": "Logic behind sizeof() for 2D arrays in C", "platform": "stackexchange", "value": 5.0, "timestamp": "1786027767"}
+{"keyword": "Langchain-community is deprecated or sunset, how to adjust to this?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786224863"}
+{"keyword": "How do I disable the default iOS form styling in place of my CSS?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786216441"}
+{"keyword": "Port Busy When uploading Sketch to Arduino Uno R3 on Mac", "platform": "stackexchange", "value": 0.0, "timestamp": "1786215202"}
+{"keyword": "Why does std::vector sometimes reallocate even when I know how many elements I’ll add?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786218565"}
+{"keyword": "Store long-lived password securely in PBEKeySpec or a Key Store", "platform": "stackexchange", "value": 0.0, "timestamp": "1786207709"}
+{"keyword": "Why is IN(s) much slower than alternatives, especially index(s)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786218088"}
+{"keyword": "How can I restrict a method to only classes implementing a specific interface in Java?", "platform": "stackexchange", "value": 3.0, "timestamp": "1786196018"}
+{"keyword": "Using std::valarray, access elements by their index value with the end function", "platform": "stackexchange", "value": 1.0, "timestamp": "1786211387"}
+{"keyword": "SpringBoot init fails with jasypt password configured as env variable", "platform": "stackexchange", "value": 0.0, "timestamp": "1786217800"}
+{"keyword": "How to indicate &quot;everyone&quot; in a Github CODEOWNERS file?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786210486"}
+{"keyword": "Clang accepts explicit call to overloaded conversion function while GCC and MSVC rejects", "platform": "stackexchange", "value": 0.0, "timestamp": "1786211909"}
+{"keyword": "Is this C macro for I/O error handling with a hidden return a reasonable practice?", "platform": "stackexchange", "value": 1.0, "timestamp": "1786205967"}
+{"keyword": "cmake error `No integer type of size 8 was found.` when trying to compile `sundials`", "platform": "stackexchange", "value": 2.0, "timestamp": "1786177176"}
+{"keyword": "Make buttons disappear from MS Word Insert Table drop-down menu", "platform": "stackexchange", "value": 0.0, "timestamp": "1786193282"}
+{"keyword": "Logic behind sizeof() for 2D arrays in C", "platform": "stackexchange", "value": 5.0, "timestamp": "1786027767"}

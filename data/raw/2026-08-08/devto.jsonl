@@ -58,3 +58,119 @@
 {"keyword": "I Kept Retrying a Local Model Into the Right Shape. Turns Out I Didn't Have To Retry At All.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-07T12:28:55Z"}
 {"keyword": "I built a protocol so AI agents can't just say 'trust me'", "platform": "devto", "value": 0.0, "timestamp": "2026-08-07T14:03:53Z"}
 {"keyword": "Keep the Context Map. Replace the Aggregates.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-07T22:04:46Z"}
+{"keyword": "Into the void", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T02:23:26Z"}
+{"keyword": "Swift Protocols — Opaque Return Types and the Mystery of `some` 🔮", "platform": "devto", "value": 12.0, "timestamp": "2026-08-08T06:35:44Z"}
+{"keyword": "I Know the Recipe. I Miss the Winter Kitchen.", "platform": "devto", "value": 16.0, "timestamp": "2026-08-08T17:16:03Z"}
+{"keyword": "I Explained My Code While Writing It on Camera. Here’s What Surprised Me", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T02:13:53Z"}
+{"keyword": "I Put a Canary Token in My Resume and Caught a Company Stalking Me", "platform": "devto", "value": 5.0, "timestamp": "2026-08-07T23:28:39Z"}
+{"keyword": "Frontend system design interviews are weird. Here’s how I now approach functional requirements.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T16:40:25Z"}
+{"keyword": "Who Named This ReAct? I'd Like to Speak to the Manager.", "platform": "devto", "value": 10.0, "timestamp": "2026-08-08T05:00:13Z"}
+{"keyword": "Everything Was Working. AWS Wanted $1,665/Month More.", "platform": "devto", "value": 4.0, "timestamp": "2026-08-08T10:24:18Z"}
+{"keyword": "Week 9: Verifying the Token", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T02:19:37Z"}
+{"keyword": "AI Won't Kill Your AI Won't Kill Your Motivation. But Mediocrity Might.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T03:49:34Z"}
+{"keyword": "The Gate Only Logged When It Fired. I Replayed 116,022 Candidate Stop Points to Find the Rest.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T09:00:05Z"}
+{"keyword": "I find reading hard, so I built a text-to-speech reader for Android — here's how", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T12:08:45Z"}
+{"keyword": "Our Token Counter Took 26 Seconds on a Single Prompt", "platform": "devto", "value": 0.0, "timestamp": "2026-08-07T23:37:36Z"}
+{"keyword": "Perfect Instrumentation Won't Save an Underpowered Experiment", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T00:00:06Z"}
+{"keyword": "Teaching Your AI Web Design Some Actual Taste", "platform": "devto", "value": 6.0, "timestamp": "2026-08-08T17:30:42Z"}
+{"keyword": "Building an AI-native Second Brain with Multi-RAG, Knowledge Graphs, and MCP", "platform": "devto", "value": 9.0, "timestamp": "2026-08-08T02:38:21Z"}
+{"keyword": "Smashing the \"Blind Spot\" Bug: How We Integrated Sentry to Catch Regressions in Real-Time", "platform": "devto", "value": 4.0, "timestamp": "2026-08-08T20:38:12Z"}
+{"keyword": "EffCSS hydration: server work, client trust, zero waste", "platform": "devto", "value": 3.0, "timestamp": "2026-08-08T10:27:17Z"}
+{"keyword": "How to Build AI Evals for Tool-Calling Agents", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T18:55:47Z"}
+{"keyword": "# Why I’m Rewriting a PHP Extension in C23, Not C++", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T15:28:31Z"}
+{"keyword": "Every web rich-text editor is missing a ruler", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T16:34:49Z"}
+{"keyword": "The star rating your iframe added to your page", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T16:44:22Z"}
+{"keyword": "How I Used Claude Code to Hunt Down a Memory Leak That Took Down Prod", "platform": "devto", "value": 2.0, "timestamp": "2026-08-08T14:33:02Z"}
+{"keyword": "Stale infrastructure context is worse than none", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T15:06:55Z"}
+{"keyword": "Silent AI Code Bugs: Passing Reviews, Failing in Production", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T04:30:07Z"}
+{"keyword": "Model Routing Made My AI Agents Cheaper. It Didn't Make Them Easier to Trust.", "platform": "devto", "value": 7.0, "timestamp": "2026-08-08T13:53:18Z"}
+{"keyword": "I built an embeddable screen-time calculator that doesn't phone home", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T15:35:05Z"}
+{"keyword": "innerHTML Has Five Doors. Most Reviews Only Watch One.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T08:19:02Z"}
+{"keyword": "My port passes 710 out of 710. Here is everything that number does not tell you.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T08:32:38Z"}
+{"keyword": "Into the void", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T02:23:26Z"}
+{"keyword": "Swift Protocols — Opaque Return Types and the Mystery of `some` 🔮", "platform": "devto", "value": 12.0, "timestamp": "2026-08-08T06:35:44Z"}
+{"keyword": "I Know the Recipe. I Miss the Winter Kitchen.", "platform": "devto", "value": 16.0, "timestamp": "2026-08-08T17:16:03Z"}
+{"keyword": "I Explained My Code While Writing It on Camera. Here’s What Surprised Me", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T02:13:53Z"}
+{"keyword": "I Put a Canary Token in My Resume and Caught a Company Stalking Me", "platform": "devto", "value": 5.0, "timestamp": "2026-08-07T23:28:39Z"}
+{"keyword": "Frontend system design interviews are weird. Here’s how I now approach functional requirements.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T16:40:25Z"}
+{"keyword": "Who Named This ReAct? I'd Like to Speak to the Manager.", "platform": "devto", "value": 10.0, "timestamp": "2026-08-08T05:00:13Z"}
+{"keyword": "Everything Was Working. AWS Wanted $1,665/Month More.", "platform": "devto", "value": 4.0, "timestamp": "2026-08-08T10:24:18Z"}
+{"keyword": "Week 9: Verifying the Token", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T02:19:37Z"}
+{"keyword": "AI Won't Kill Your AI Won't Kill Your Motivation. But Mediocrity Might.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T03:49:34Z"}
+{"keyword": "The Gate Only Logged When It Fired. I Replayed 116,022 Candidate Stop Points to Find the Rest.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T09:00:05Z"}
+{"keyword": "I find reading hard, so I built a text-to-speech reader for Android — here's how", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T12:08:45Z"}
+{"keyword": "Our Token Counter Took 26 Seconds on a Single Prompt", "platform": "devto", "value": 0.0, "timestamp": "2026-08-07T23:37:36Z"}
+{"keyword": "Perfect Instrumentation Won't Save an Underpowered Experiment", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T00:00:06Z"}
+{"keyword": "Teaching Your AI Web Design Some Actual Taste", "platform": "devto", "value": 6.0, "timestamp": "2026-08-08T17:30:42Z"}
+{"keyword": "Building an AI-native Second Brain with Multi-RAG, Knowledge Graphs, and MCP", "platform": "devto", "value": 9.0, "timestamp": "2026-08-08T02:38:21Z"}
+{"keyword": "Smashing the \"Blind Spot\" Bug: How We Integrated Sentry to Catch Regressions in Real-Time", "platform": "devto", "value": 4.0, "timestamp": "2026-08-08T20:38:12Z"}
+{"keyword": "EffCSS hydration: server work, client trust, zero waste", "platform": "devto", "value": 3.0, "timestamp": "2026-08-08T10:27:17Z"}
+{"keyword": "How to Build AI Evals for Tool-Calling Agents", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T18:55:47Z"}
+{"keyword": "# Why I’m Rewriting a PHP Extension in C23, Not C++", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T15:28:31Z"}
+{"keyword": "Every web rich-text editor is missing a ruler", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T16:34:49Z"}
+{"keyword": "The star rating your iframe added to your page", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T16:44:22Z"}
+{"keyword": "How I Used Claude Code to Hunt Down a Memory Leak That Took Down Prod", "platform": "devto", "value": 2.0, "timestamp": "2026-08-08T14:33:02Z"}
+{"keyword": "Stale infrastructure context is worse than none", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T15:06:55Z"}
+{"keyword": "Silent AI Code Bugs: Passing Reviews, Failing in Production", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T04:30:07Z"}
+{"keyword": "Model Routing Made My AI Agents Cheaper. It Didn't Make Them Easier to Trust.", "platform": "devto", "value": 7.0, "timestamp": "2026-08-08T13:53:18Z"}
+{"keyword": "I built an embeddable screen-time calculator that doesn't phone home", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T15:35:05Z"}
+{"keyword": "innerHTML Has Five Doors. Most Reviews Only Watch One.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T08:19:02Z"}
+{"keyword": "My port passes 710 out of 710. Here is everything that number does not tell you.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T08:32:38Z"}
+{"keyword": "Into the void", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T02:23:26Z"}
+{"keyword": "Swift Protocols — Opaque Return Types and the Mystery of `some` 🔮", "platform": "devto", "value": 12.0, "timestamp": "2026-08-08T06:35:44Z"}
+{"keyword": "I Know the Recipe. I Miss the Winter Kitchen.", "platform": "devto", "value": 16.0, "timestamp": "2026-08-08T17:16:03Z"}
+{"keyword": "I Explained My Code While Writing It on Camera. Here’s What Surprised Me", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T02:13:53Z"}
+{"keyword": "I Put a Canary Token in My Resume and Caught a Company Stalking Me", "platform": "devto", "value": 5.0, "timestamp": "2026-08-07T23:28:39Z"}
+{"keyword": "Frontend system design interviews are weird. Here’s how I now approach functional requirements.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T16:40:25Z"}
+{"keyword": "Who Named This ReAct? I'd Like to Speak to the Manager.", "platform": "devto", "value": 10.0, "timestamp": "2026-08-08T05:00:13Z"}
+{"keyword": "Everything Was Working. AWS Wanted $1,665/Month More.", "platform": "devto", "value": 4.0, "timestamp": "2026-08-08T10:24:18Z"}
+{"keyword": "Week 9: Verifying the Token", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T02:19:37Z"}
+{"keyword": "AI Won't Kill Your AI Won't Kill Your Motivation. But Mediocrity Might.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T03:49:34Z"}
+{"keyword": "The Gate Only Logged When It Fired. I Replayed 116,022 Candidate Stop Points to Find the Rest.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T09:00:05Z"}
+{"keyword": "I find reading hard, so I built a text-to-speech reader for Android — here's how", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T12:08:45Z"}
+{"keyword": "Our Token Counter Took 26 Seconds on a Single Prompt", "platform": "devto", "value": 0.0, "timestamp": "2026-08-07T23:37:36Z"}
+{"keyword": "Perfect Instrumentation Won't Save an Underpowered Experiment", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T00:00:06Z"}
+{"keyword": "Teaching Your AI Web Design Some Actual Taste", "platform": "devto", "value": 6.0, "timestamp": "2026-08-08T17:30:42Z"}
+{"keyword": "Building an AI-native Second Brain with Multi-RAG, Knowledge Graphs, and MCP", "platform": "devto", "value": 9.0, "timestamp": "2026-08-08T02:38:21Z"}
+{"keyword": "Smashing the \"Blind Spot\" Bug: How We Integrated Sentry to Catch Regressions in Real-Time", "platform": "devto", "value": 4.0, "timestamp": "2026-08-08T20:38:12Z"}
+{"keyword": "EffCSS hydration: server work, client trust, zero waste", "platform": "devto", "value": 3.0, "timestamp": "2026-08-08T10:27:17Z"}
+{"keyword": "How to Build AI Evals for Tool-Calling Agents", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T18:55:47Z"}
+{"keyword": "# Why I’m Rewriting a PHP Extension in C23, Not C++", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T15:28:31Z"}
+{"keyword": "Every web rich-text editor is missing a ruler", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T16:34:49Z"}
+{"keyword": "The star rating your iframe added to your page", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T16:44:22Z"}
+{"keyword": "How I Used Claude Code to Hunt Down a Memory Leak That Took Down Prod", "platform": "devto", "value": 2.0, "timestamp": "2026-08-08T14:33:02Z"}
+{"keyword": "Stale infrastructure context is worse than none", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T15:06:55Z"}
+{"keyword": "Silent AI Code Bugs: Passing Reviews, Failing in Production", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T04:30:07Z"}
+{"keyword": "Model Routing Made My AI Agents Cheaper. It Didn't Make Them Easier to Trust.", "platform": "devto", "value": 7.0, "timestamp": "2026-08-08T13:53:18Z"}
+{"keyword": "I built an embeddable screen-time calculator that doesn't phone home", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T15:35:05Z"}
+{"keyword": "innerHTML Has Five Doors. Most Reviews Only Watch One.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T08:19:02Z"}
+{"keyword": "My port passes 710 out of 710. Here is everything that number does not tell you.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T08:32:38Z"}
+{"keyword": "Into the void", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T02:23:26Z"}
+{"keyword": "Swift Protocols — Opaque Return Types and the Mystery of `some` 🔮", "platform": "devto", "value": 12.0, "timestamp": "2026-08-08T06:35:44Z"}
+{"keyword": "I Know the Recipe. I Miss the Winter Kitchen.", "platform": "devto", "value": 16.0, "timestamp": "2026-08-08T17:16:03Z"}
+{"keyword": "I Explained My Code While Writing It on Camera. Here’s What Surprised Me", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T02:13:53Z"}
+{"keyword": "I Put a Canary Token in My Resume and Caught a Company Stalking Me", "platform": "devto", "value": 5.0, "timestamp": "2026-08-07T23:28:39Z"}
+{"keyword": "Frontend system design interviews are weird. Here’s how I now approach functional requirements.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-08T16:40:25Z"}
+{"keyword": "Who Named This ReAct? I'd Like to Speak to the Manager.", "platform": "devto", "value": 10.0, "timestamp": "2026-08-08T05:00:13Z"}
+{"keyword": "Everything Was Working. AWS Wanted $1,665/Month More.", "platform": "devto", "value": 4.0, "timestamp": "2026-08-08T10:24:18Z"}
+{"keyword": "Week 9: Verifying the Token", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T02:19:37Z"}
+{"keyword": "AI Won't Kill Your AI Won't Kill Your Motivation. But Mediocrity Might.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T03:49:34Z"}
+{"keyword": "The Gate Only Logged When It Fired. I Replayed 116,022 Candidate Stop Points to Find the Rest.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T09:00:05Z"}
+{"keyword": "I find reading hard, so I built a text-to-speech reader for Android — here's how", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T12:08:45Z"}
+{"keyword": "Our Token Counter Took 26 Seconds on a Single Prompt", "platform": "devto", "value": 0.0, "timestamp": "2026-08-07T23:37:36Z"}
+{"keyword": "Perfect Instrumentation Won't Save an Underpowered Experiment", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T00:00:06Z"}
+{"keyword": "Teaching Your AI Web Design Some Actual Taste", "platform": "devto", "value": 6.0, "timestamp": "2026-08-08T17:30:42Z"}
+{"keyword": "Building an AI-native Second Brain with Multi-RAG, Knowledge Graphs, and MCP", "platform": "devto", "value": 9.0, "timestamp": "2026-08-08T02:38:21Z"}
+{"keyword": "Smashing the \"Blind Spot\" Bug: How We Integrated Sentry to Catch Regressions in Real-Time", "platform": "devto", "value": 4.0, "timestamp": "2026-08-08T20:38:12Z"}
+{"keyword": "EffCSS hydration: server work, client trust, zero waste", "platform": "devto", "value": 3.0, "timestamp": "2026-08-08T10:27:17Z"}
+{"keyword": "How to Build AI Evals for Tool-Calling Agents", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T18:55:47Z"}
+{"keyword": "# Why I’m Rewriting a PHP Extension in C23, Not C++", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T15:28:31Z"}
+{"keyword": "Every web rich-text editor is missing a ruler", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T16:34:49Z"}
+{"keyword": "The star rating your iframe added to your page", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T16:44:22Z"}
+{"keyword": "How I Used Claude Code to Hunt Down a Memory Leak That Took Down Prod", "platform": "devto", "value": 2.0, "timestamp": "2026-08-08T14:33:02Z"}
+{"keyword": "Stale infrastructure context is worse than none", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T15:06:55Z"}
+{"keyword": "Silent AI Code Bugs: Passing Reviews, Failing in Production", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T04:30:07Z"}
+{"keyword": "Model Routing Made My AI Agents Cheaper. It Didn't Make Them Easier to Trust.", "platform": "devto", "value": 7.0, "timestamp": "2026-08-08T13:53:18Z"}
+{"keyword": "I built an embeddable screen-time calculator that doesn't phone home", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T15:35:05Z"}
+{"keyword": "innerHTML Has Five Doors. Most Reviews Only Watch One.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T08:19:02Z"}
+{"keyword": "My port passes 710 out of 710. Here is everything that number does not tell you.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T08:32:38Z"}
