@@ -58,3 +58,123 @@
 {"keyword": "The star rating your iframe added to your page", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T16:44:22Z"}
 {"keyword": "Stale infrastructure context is worse than none", "platform": "devto", "value": 1.0, "timestamp": "2026-08-08T15:06:55Z"}
 {"keyword": "I built a Korean fire-noodle stall in pure CSS — and you can eat it", "platform": "devto", "value": 0.0, "timestamp": "2026-08-08T18:30:40Z"}
+{"keyword": "Stop using the localStorage hack to sync browser tabs. BroadcastChannel does it natively.", "platform": "devto", "value": 24.0, "timestamp": "2026-08-09T07:02:41Z"}
+{"keyword": "🛻CSS Art: Smoothie Food Truck", "platform": "devto", "value": 9.0, "timestamp": "2026-08-09T13:23:55Z"}
+{"keyword": "I measured his app with his own code. He measured my claim with his own corpus.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:34:47Z"}
+{"keyword": "Which parts of this are real? Should be a question with an answer", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:37:12Z"}
+{"keyword": "🏦 Vaya: an AI loan advisor that asks whether you can still afford to live", "platform": "devto", "value": 12.0, "timestamp": "2026-08-09T14:51:26Z"}
+{"keyword": "Surviving the AI Bubble With Two Pieces of Junk From Amazon", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T03:44:18Z"}
+{"keyword": "Backend Engineer (Me) Ships a Browser Game With One Unintentional System Requirement: My Monitor", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T19:42:53Z"}
+{"keyword": "Rasa Kenangan — Immersive Scroll Narrative Landing Page", "platform": "devto", "value": 12.0, "timestamp": "2026-08-09T17:07:10Z"}
+{"keyword": "Restate's Single Binary vs Temporal's Cluster: When the Lighter Engine Wins", "platform": "devto", "value": 48.0, "timestamp": "2026-08-09T19:05:41Z"}
+{"keyword": "I Built Scenario Packs for Agent Regression Testing. The Integration, Not the Judge, Broke Me.", "platform": "devto", "value": 9.0, "timestamp": "2026-08-08T23:27:37Z"}
+{"keyword": "My Self-Evolving AI Agent Kept Passing Its Own Tests. The Code Had Never Run", "platform": "devto", "value": 2.0, "timestamp": "2026-08-09T08:35:36Z"}
+{"keyword": "GitHub doesn't retry webhooks. So I gave my tunnel a database.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-09T19:42:34Z"}
+{"keyword": "Cpynet a pastebin you talk to with curl, that forgets everything you send it", "platform": "devto", "value": 3.0, "timestamp": "2026-08-09T18:21:49Z"}
+{"keyword": "Fable 5 Plays Pokémon Sapphire Vision-Only: Notes on a 2,000-Decision Run", "platform": "devto", "value": 3.0, "timestamp": "2026-08-08T23:17:59Z"}
+{"keyword": "I built RepoTrek: a terminal-first GitHub source browser in Rust", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T03:05:58Z"}
+{"keyword": "What I learned building a long-lived AI agent (the boring version)", "platform": "devto", "value": 9.0, "timestamp": "2026-08-09T13:40:04Z"}
+{"keyword": "Testing HL7-to-FHIR Pipelines Without a Hospital: Mocking HAPI FHIR with respx", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T04:42:58Z"}
+{"keyword": "Self-hosting a lite agent backend on one TPU: Gemma 4 E2B + vLLM on a v5e-1", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T22:14:30Z"}
+{"keyword": "Build a Dart ADK Agent and MCP Server", "platform": "devto", "value": 3.0, "timestamp": "2026-08-09T17:03:45Z"}
+{"keyword": "Exploring Sentry: Reducing Load Time 🐢", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T14:44:41Z"}
+{"keyword": "Rust Borrow Checker 2.0 is Finally Here", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T07:57:10Z"}
+{"keyword": "I Built an AI Mock Interview Coach That Doesn't Fake Praise (Next.js + NVIDIA NIM)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T10:03:12Z"}
+{"keyword": "Your agent loop is teaching the model to cheat", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:43:54Z"}
+{"keyword": "Where Does RAG Actually Cost You Money? (Episode 6)", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T14:29:18Z"}
+{"keyword": "MCP Went Stateless: What the 2026-07-28 Spec Actually Changes", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T14:01:44Z"}
+{"keyword": "The Metaverse Failed. Augmented Reality Didn't.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T16:27:02Z"}
+{"keyword": "On-Device AI and MCP on Every Port", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T13:43:42Z"}
+{"keyword": "Sunday roundup: six posts from a week in voice AI", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T19:13:01Z"}
+{"keyword": "What AI Agents Still Cannot Replace About Senior Developers", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T04:30:33Z"}
+{"keyword": "The Hutter Prize measures intelligence better than any OpenAI benchmark", "platform": "devto", "value": 2.0, "timestamp": "2026-08-09T10:27:59Z"}
+{"keyword": "Stop using the localStorage hack to sync browser tabs. BroadcastChannel does it natively.", "platform": "devto", "value": 24.0, "timestamp": "2026-08-09T07:02:41Z"}
+{"keyword": "🛻CSS Art: Smoothie Food Truck", "platform": "devto", "value": 9.0, "timestamp": "2026-08-09T13:23:55Z"}
+{"keyword": "I measured his app with his own code. He measured my claim with his own corpus.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:34:47Z"}
+{"keyword": "Which parts of this are real? Should be a question with an answer", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:37:12Z"}
+{"keyword": "🏦 Vaya: an AI loan advisor that asks whether you can still afford to live", "platform": "devto", "value": 12.0, "timestamp": "2026-08-09T14:51:26Z"}
+{"keyword": "Surviving the AI Bubble With Two Pieces of Junk From Amazon", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T03:44:18Z"}
+{"keyword": "Backend Engineer (Me) Ships a Browser Game With One Unintentional System Requirement: My Monitor", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T19:42:53Z"}
+{"keyword": "Rasa Kenangan — Immersive Scroll Narrative Landing Page", "platform": "devto", "value": 12.0, "timestamp": "2026-08-09T17:07:10Z"}
+{"keyword": "Restate's Single Binary vs Temporal's Cluster: When the Lighter Engine Wins", "platform": "devto", "value": 48.0, "timestamp": "2026-08-09T19:05:41Z"}
+{"keyword": "I Built Scenario Packs for Agent Regression Testing. The Integration, Not the Judge, Broke Me.", "platform": "devto", "value": 9.0, "timestamp": "2026-08-08T23:27:37Z"}
+{"keyword": "My Self-Evolving AI Agent Kept Passing Its Own Tests. The Code Had Never Run", "platform": "devto", "value": 2.0, "timestamp": "2026-08-09T08:35:36Z"}
+{"keyword": "GitHub doesn't retry webhooks. So I gave my tunnel a database.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-09T19:42:34Z"}
+{"keyword": "Cpynet a pastebin you talk to with curl, that forgets everything you send it", "platform": "devto", "value": 3.0, "timestamp": "2026-08-09T18:21:49Z"}
+{"keyword": "Fable 5 Plays Pokémon Sapphire Vision-Only: Notes on a 2,000-Decision Run", "platform": "devto", "value": 3.0, "timestamp": "2026-08-08T23:17:59Z"}
+{"keyword": "I built RepoTrek: a terminal-first GitHub source browser in Rust", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T03:05:58Z"}
+{"keyword": "What I learned building a long-lived AI agent (the boring version)", "platform": "devto", "value": 9.0, "timestamp": "2026-08-09T13:40:04Z"}
+{"keyword": "Testing HL7-to-FHIR Pipelines Without a Hospital: Mocking HAPI FHIR with respx", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T04:42:58Z"}
+{"keyword": "Self-hosting a lite agent backend on one TPU: Gemma 4 E2B + vLLM on a v5e-1", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T22:14:30Z"}
+{"keyword": "Build a Dart ADK Agent and MCP Server", "platform": "devto", "value": 3.0, "timestamp": "2026-08-09T17:03:45Z"}
+{"keyword": "Exploring Sentry: Reducing Load Time 🐢", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T14:44:41Z"}
+{"keyword": "Rust Borrow Checker 2.0 is Finally Here", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T07:57:10Z"}
+{"keyword": "I Built an AI Mock Interview Coach That Doesn't Fake Praise (Next.js + NVIDIA NIM)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T10:03:12Z"}
+{"keyword": "Your agent loop is teaching the model to cheat", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:43:54Z"}
+{"keyword": "Where Does RAG Actually Cost You Money? (Episode 6)", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T14:29:18Z"}
+{"keyword": "MCP Went Stateless: What the 2026-07-28 Spec Actually Changes", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T14:01:44Z"}
+{"keyword": "The Metaverse Failed. Augmented Reality Didn't.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T16:27:02Z"}
+{"keyword": "On-Device AI and MCP on Every Port", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T13:43:42Z"}
+{"keyword": "Sunday roundup: six posts from a week in voice AI", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T19:13:01Z"}
+{"keyword": "What AI Agents Still Cannot Replace About Senior Developers", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T04:30:33Z"}
+{"keyword": "The Hutter Prize measures intelligence better than any OpenAI benchmark", "platform": "devto", "value": 2.0, "timestamp": "2026-08-09T10:27:59Z"}
+{"keyword": "Stop using the localStorage hack to sync browser tabs. BroadcastChannel does it natively.", "platform": "devto", "value": 24.0, "timestamp": "2026-08-09T07:02:41Z"}
+{"keyword": "🛻CSS Art: Smoothie Food Truck", "platform": "devto", "value": 9.0, "timestamp": "2026-08-09T13:23:55Z"}
+{"keyword": "I measured his app with his own code. He measured my claim with his own corpus.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:34:47Z"}
+{"keyword": "Which parts of this are real? Should be a question with an answer", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:37:12Z"}
+{"keyword": "🏦 Vaya: an AI loan advisor that asks whether you can still afford to live", "platform": "devto", "value": 12.0, "timestamp": "2026-08-09T14:51:26Z"}
+{"keyword": "Surviving the AI Bubble With Two Pieces of Junk From Amazon", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T03:44:18Z"}
+{"keyword": "Backend Engineer (Me) Ships a Browser Game With One Unintentional System Requirement: My Monitor", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T19:42:53Z"}
+{"keyword": "Rasa Kenangan — Immersive Scroll Narrative Landing Page", "platform": "devto", "value": 12.0, "timestamp": "2026-08-09T17:07:10Z"}
+{"keyword": "Restate's Single Binary vs Temporal's Cluster: When the Lighter Engine Wins", "platform": "devto", "value": 48.0, "timestamp": "2026-08-09T19:05:41Z"}
+{"keyword": "I Built Scenario Packs for Agent Regression Testing. The Integration, Not the Judge, Broke Me.", "platform": "devto", "value": 9.0, "timestamp": "2026-08-08T23:27:37Z"}
+{"keyword": "My Self-Evolving AI Agent Kept Passing Its Own Tests. The Code Had Never Run", "platform": "devto", "value": 2.0, "timestamp": "2026-08-09T08:35:36Z"}
+{"keyword": "GitHub doesn't retry webhooks. So I gave my tunnel a database.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-09T19:42:34Z"}
+{"keyword": "Cpynet a pastebin you talk to with curl, that forgets everything you send it", "platform": "devto", "value": 3.0, "timestamp": "2026-08-09T18:21:49Z"}
+{"keyword": "Fable 5 Plays Pokémon Sapphire Vision-Only: Notes on a 2,000-Decision Run", "platform": "devto", "value": 3.0, "timestamp": "2026-08-08T23:17:59Z"}
+{"keyword": "I built RepoTrek: a terminal-first GitHub source browser in Rust", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T03:05:58Z"}
+{"keyword": "What I learned building a long-lived AI agent (the boring version)", "platform": "devto", "value": 9.0, "timestamp": "2026-08-09T13:40:04Z"}
+{"keyword": "Testing HL7-to-FHIR Pipelines Without a Hospital: Mocking HAPI FHIR with respx", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T04:42:58Z"}
+{"keyword": "Self-hosting a lite agent backend on one TPU: Gemma 4 E2B + vLLM on a v5e-1", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T22:14:30Z"}
+{"keyword": "Build a Dart ADK Agent and MCP Server", "platform": "devto", "value": 3.0, "timestamp": "2026-08-09T17:03:45Z"}
+{"keyword": "Exploring Sentry: Reducing Load Time 🐢", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T14:44:41Z"}
+{"keyword": "Rust Borrow Checker 2.0 is Finally Here", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T07:57:10Z"}
+{"keyword": "I Built an AI Mock Interview Coach That Doesn't Fake Praise (Next.js + NVIDIA NIM)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T10:03:12Z"}
+{"keyword": "Your agent loop is teaching the model to cheat", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:43:54Z"}
+{"keyword": "Where Does RAG Actually Cost You Money? (Episode 6)", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T14:29:18Z"}
+{"keyword": "MCP Went Stateless: What the 2026-07-28 Spec Actually Changes", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T14:01:44Z"}
+{"keyword": "The Metaverse Failed. Augmented Reality Didn't.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T16:27:02Z"}
+{"keyword": "On-Device AI and MCP on Every Port", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T13:43:42Z"}
+{"keyword": "Sunday roundup: six posts from a week in voice AI", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T19:13:01Z"}
+{"keyword": "What AI Agents Still Cannot Replace About Senior Developers", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T04:30:33Z"}
+{"keyword": "The Hutter Prize measures intelligence better than any OpenAI benchmark", "platform": "devto", "value": 2.0, "timestamp": "2026-08-09T10:27:59Z"}
+{"keyword": "Stop using the localStorage hack to sync browser tabs. BroadcastChannel does it natively.", "platform": "devto", "value": 24.0, "timestamp": "2026-08-09T07:02:41Z"}
+{"keyword": "🛻CSS Art: Smoothie Food Truck", "platform": "devto", "value": 9.0, "timestamp": "2026-08-09T13:23:55Z"}
+{"keyword": "I measured his app with his own code. He measured my claim with his own corpus.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:34:47Z"}
+{"keyword": "Which parts of this are real? Should be a question with an answer", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:37:12Z"}
+{"keyword": "🏦 Vaya: an AI loan advisor that asks whether you can still afford to live", "platform": "devto", "value": 12.0, "timestamp": "2026-08-09T14:51:26Z"}
+{"keyword": "Surviving the AI Bubble With Two Pieces of Junk From Amazon", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T03:44:18Z"}
+{"keyword": "Backend Engineer (Me) Ships a Browser Game With One Unintentional System Requirement: My Monitor", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T19:42:53Z"}
+{"keyword": "Rasa Kenangan — Immersive Scroll Narrative Landing Page", "platform": "devto", "value": 12.0, "timestamp": "2026-08-09T17:07:10Z"}
+{"keyword": "Restate's Single Binary vs Temporal's Cluster: When the Lighter Engine Wins", "platform": "devto", "value": 48.0, "timestamp": "2026-08-09T19:05:41Z"}
+{"keyword": "I Built Scenario Packs for Agent Regression Testing. The Integration, Not the Judge, Broke Me.", "platform": "devto", "value": 9.0, "timestamp": "2026-08-08T23:27:37Z"}
+{"keyword": "My Self-Evolving AI Agent Kept Passing Its Own Tests. The Code Had Never Run", "platform": "devto", "value": 2.0, "timestamp": "2026-08-09T08:35:36Z"}
+{"keyword": "GitHub doesn't retry webhooks. So I gave my tunnel a database.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-09T19:42:34Z"}
+{"keyword": "Cpynet a pastebin you talk to with curl, that forgets everything you send it", "platform": "devto", "value": 3.0, "timestamp": "2026-08-09T18:21:49Z"}
+{"keyword": "Fable 5 Plays Pokémon Sapphire Vision-Only: Notes on a 2,000-Decision Run", "platform": "devto", "value": 3.0, "timestamp": "2026-08-08T23:17:59Z"}
+{"keyword": "I built RepoTrek: a terminal-first GitHub source browser in Rust", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T03:05:58Z"}
+{"keyword": "What I learned building a long-lived AI agent (the boring version)", "platform": "devto", "value": 9.0, "timestamp": "2026-08-09T13:40:04Z"}
+{"keyword": "Testing HL7-to-FHIR Pipelines Without a Hospital: Mocking HAPI FHIR with respx", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T04:42:58Z"}
+{"keyword": "Self-hosting a lite agent backend on one TPU: Gemma 4 E2B + vLLM on a v5e-1", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T22:14:30Z"}
+{"keyword": "Build a Dart ADK Agent and MCP Server", "platform": "devto", "value": 3.0, "timestamp": "2026-08-09T17:03:45Z"}
+{"keyword": "Exploring Sentry: Reducing Load Time 🐢", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T14:44:41Z"}
+{"keyword": "Rust Borrow Checker 2.0 is Finally Here", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T07:57:10Z"}
+{"keyword": "I Built an AI Mock Interview Coach That Doesn't Fake Praise (Next.js + NVIDIA NIM)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T10:03:12Z"}
+{"keyword": "Your agent loop is teaching the model to cheat", "platform": "devto", "value": 1.0, "timestamp": "2026-08-09T01:43:54Z"}
+{"keyword": "Where Does RAG Actually Cost You Money? (Episode 6)", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T14:29:18Z"}
+{"keyword": "MCP Went Stateless: What the 2026-07-28 Spec Actually Changes", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T14:01:44Z"}
+{"keyword": "The Metaverse Failed. Augmented Reality Didn't.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T16:27:02Z"}
+{"keyword": "On-Device AI and MCP on Every Port", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T13:43:42Z"}
+{"keyword": "Sunday roundup: six posts from a week in voice AI", "platform": "devto", "value": 5.0, "timestamp": "2026-08-09T19:13:01Z"}
+{"keyword": "What AI Agents Still Cannot Replace About Senior Developers", "platform": "devto", "value": 0.0, "timestamp": "2026-08-09T04:30:33Z"}
+{"keyword": "The Hutter Prize measures intelligence better than any OpenAI benchmark", "platform": "devto", "value": 2.0, "timestamp": "2026-08-09T10:27:59Z"}
