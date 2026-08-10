@@ -1,28 +1,24 @@
 {
   "date": "2026-08-10",
   "category": "trend",
-  "article_count": 188,
+  "article_count": 191,
   "source_count": 2,
-  "matched_count": 188,
+  "matched_count": 191,
   "top_entities": [
-    {
-      "name": "E-commerce",
-      "count": 9
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 9
-    },
-    {
-      "name": "Bitcoin",
-      "count": 9
-    },
     {
       "name": "Netflix",
       "count": 9
     },
     {
-      "name": "Samsung",
+      "name": "Seoul",
+      "count": 9
+    },
+    {
+      "name": "South Korea",
+      "count": 9
+    },
+    {
+      "name": "Python (programming language)",
       "count": 9
     },
     {
@@ -30,7 +26,15 @@
       "count": 9
     },
     {
-      "name": "Python (programming language)",
+      "name": "Bitcoin",
+      "count": 9
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 9
+    },
+    {
+      "name": "E-commerce",
       "count": 9
     },
     {
@@ -42,11 +46,15 @@
       "count": 9
     },
     {
-      "name": "South Korea",
+      "name": "Samsung",
       "count": 9
     },
     {
-      "name": "Climate change",
+      "name": "Artificial intelligence",
+      "count": 8
+    },
+    {
+      "name": "K-pop",
       "count": 8
     },
     {
@@ -54,27 +62,15 @@
       "count": 8
     },
     {
-      "name": "Seoul",
+      "name": "Climate change",
       "count": 8
     },
     {
-      "name": "Artificial intelligence",
-      "count": 7
-    },
-    {
-      "name": "K-pop",
-      "count": 7
-    },
-    {
-      "name": "걸그룹",
-      "count": 2
-    },
-    {
-      "name": "재건축",
-      "count": 2
-    },
-    {
       "name": "유튜버",
+      "count": 2
+    },
+    {
+      "name": "부동산 시장",
       "count": 2
     },
     {
@@ -84,11 +80,15 @@
     {
       "name": "스포츠 선수",
       "count": 2
+    },
+    {
+      "name": "정치인",
+      "count": 2
     }
   ],
   "sources": {
     "google": 60,
-    "wikipedia": 128
+    "wikipedia": 131
   },
-  "generated_at": "2026-08-10T20:04:35.239604+09:00"
+  "generated_at": "2026-08-10T22:34:31.924550+00:00"
 }
