@@ -56,3 +56,119 @@
 {"keyword": "We hit 99.95% on the LoCoMo memory benchmark. Here's the catch, and why it still matters.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T02:12:30Z"}
 {"keyword": "I hand-built four things my tooling already shipped. The command I never ran was `catalog`.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-11T13:25:55Z"}
 {"keyword": "I Built a Team of AI Agents to Find Startup Opportunities", "platform": "devto", "value": 5.0, "timestamp": "2026-08-11T18:37:09Z"}
+{"keyword": "Bug Smash: restoring dropped Gemini chat config in Sentry's JavaScript SDK", "platform": "devto", "value": 17.0, "timestamp": "2026-08-12T05:30:27Z"}
+{"keyword": "I Built a Notebook for Sharing Notes That Doesn't Ask You to Sign Up First", "platform": "devto", "value": 14.0, "timestamp": "2026-08-12T15:53:06Z"}
+{"keyword": "The Next Evolution of Software Developers", "platform": "devto", "value": 16.0, "timestamp": "2026-08-12T14:36:41Z"}
+{"keyword": "Latency vs. Tokens: What I Learned Optimizing an Agent with Gemma (and What Didn't Work)", "platform": "devto", "value": 10.0, "timestamp": "2026-08-12T03:32:11Z"}
+{"keyword": "Managed Inference on Google Cloud: Pairing the Gemini Enterprise Agent Platform with Cloud Run", "platform": "devto", "value": 13.0, "timestamp": "2026-08-12T15:45:27Z"}
+{"keyword": "Stop Pretending To Do Domain-Driven Design", "platform": "devto", "value": 2.0, "timestamp": "2026-08-12T19:20:00Z"}
+{"keyword": "Two AI agents checked the same script for a safety guard. One found it, one didn't. Both were right.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T02:47:45Z"}
+{"keyword": "React 19's useFormStatus Fixed My Prop Drilling. Then It Sat There Returning False", "platform": "devto", "value": 11.0, "timestamp": "2026-08-12T12:04:31Z"}
+{"keyword": "is-kit Reached 50 Stars ⭐ Here’s How We Use It in Production", "platform": "devto", "value": 23.0, "timestamp": "2026-08-12T13:16:48Z"}
+{"keyword": "When Data Centres Move In", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T11:00:00Z"}
+{"keyword": "I Chased a Data Bug for an Afternoon. It Was Never About the Data.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-12T11:11:24Z"}
+{"keyword": "MCP Configuration for Looker with Codex", "platform": "devto", "value": 1.0, "timestamp": "2026-08-12T17:06:10Z"}
+{"keyword": "Stop the event loop stall: a Sentry Python SDK fix for slow local-variable capture", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T06:11:42Z"}
+{"keyword": "Installing Couchbase Database on Ubuntu 22.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:24:37Z"}
+{"keyword": "Deploying Activepieces – Open-Source Business Automation Platform", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:19:02Z"}
+{"keyword": "Agent Plugins Package Capabilities. IRC-A Asks: Who Authorizes Them at Runtime?", "platform": "devto", "value": 8.0, "timestamp": "2026-08-12T13:46:36Z"}
+{"keyword": "I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.", "platform": "devto", "value": 19.0, "timestamp": "2026-08-12T10:00:00Z"}
+{"keyword": "AI Coding Tip 031 - Stop Over-Prompting Reasoning Models", "platform": "devto", "value": 1.0, "timestamp": "2026-08-12T11:00:00Z"}
+{"keyword": "OpenClaw vs Hermes Agent: The Cage Match for Your Digital Soul", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T16:53:48Z"}
+{"keyword": "ChatGPT Citations Cluster Near the Top of Pages, Raising Governance Questions", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T21:15:30Z"}
+{"keyword": "Deploying DeepSeek V3 (LLM) Using SGLang", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:25:11Z"}
+{"keyword": "OpenAI Says Verified Defenders Get More Access. I'm Going to Test That.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-12T01:02:07Z"}
+{"keyword": "Deploying Planka – Open-Source Project Management Tool", "platform": "devto", "value": 6.0, "timestamp": "2026-08-12T16:16:11Z"}
+{"keyword": "Installing R and RStudio Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:26:33Z"}
+{"keyword": "Installing and Setting Up Pritunl VPN Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:25:50Z"}
+{"keyword": "My memory auditor said half my agent's facts were dead. Three were.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-12T16:21:30Z"}
+{"keyword": "I Built a RAG App on My Laptop Without Paying OpenAI a Single Rupee Here's How", "platform": "devto", "value": 12.0, "timestamp": "2026-08-12T14:41:33Z"}
+{"keyword": "Meteor pluggable DDP transport: meet uWebSockets.js", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T17:14:29Z"}
+{"keyword": "I Built a Concurrent Resource Scheduler in Go with Sharded Priority Heaps", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T15:53:56Z"}
+{"keyword": "Bug Smash: restoring dropped Gemini chat config in Sentry's JavaScript SDK", "platform": "devto", "value": 17.0, "timestamp": "2026-08-12T05:30:27Z"}
+{"keyword": "I Built a Notebook for Sharing Notes That Doesn't Ask You to Sign Up First", "platform": "devto", "value": 14.0, "timestamp": "2026-08-12T15:53:06Z"}
+{"keyword": "The Next Evolution of Software Developers", "platform": "devto", "value": 16.0, "timestamp": "2026-08-12T14:36:41Z"}
+{"keyword": "Latency vs. Tokens: What I Learned Optimizing an Agent with Gemma (and What Didn't Work)", "platform": "devto", "value": 10.0, "timestamp": "2026-08-12T03:32:11Z"}
+{"keyword": "Managed Inference on Google Cloud: Pairing the Gemini Enterprise Agent Platform with Cloud Run", "platform": "devto", "value": 13.0, "timestamp": "2026-08-12T15:45:27Z"}
+{"keyword": "Stop Pretending To Do Domain-Driven Design", "platform": "devto", "value": 2.0, "timestamp": "2026-08-12T19:20:00Z"}
+{"keyword": "Two AI agents checked the same script for a safety guard. One found it, one didn't. Both were right.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T02:47:45Z"}
+{"keyword": "React 19's useFormStatus Fixed My Prop Drilling. Then It Sat There Returning False", "platform": "devto", "value": 11.0, "timestamp": "2026-08-12T12:04:31Z"}
+{"keyword": "is-kit Reached 50 Stars ⭐ Here’s How We Use It in Production", "platform": "devto", "value": 23.0, "timestamp": "2026-08-12T13:16:48Z"}
+{"keyword": "When Data Centres Move In", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T11:00:00Z"}
+{"keyword": "I Chased a Data Bug for an Afternoon. It Was Never About the Data.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-12T11:11:24Z"}
+{"keyword": "MCP Configuration for Looker with Codex", "platform": "devto", "value": 1.0, "timestamp": "2026-08-12T17:06:10Z"}
+{"keyword": "Stop the event loop stall: a Sentry Python SDK fix for slow local-variable capture", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T06:11:42Z"}
+{"keyword": "Installing Couchbase Database on Ubuntu 22.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:24:37Z"}
+{"keyword": "Deploying Activepieces – Open-Source Business Automation Platform", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:19:02Z"}
+{"keyword": "Agent Plugins Package Capabilities. IRC-A Asks: Who Authorizes Them at Runtime?", "platform": "devto", "value": 8.0, "timestamp": "2026-08-12T13:46:36Z"}
+{"keyword": "I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.", "platform": "devto", "value": 19.0, "timestamp": "2026-08-12T10:00:00Z"}
+{"keyword": "AI Coding Tip 031 - Stop Over-Prompting Reasoning Models", "platform": "devto", "value": 1.0, "timestamp": "2026-08-12T11:00:00Z"}
+{"keyword": "OpenClaw vs Hermes Agent: The Cage Match for Your Digital Soul", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T16:53:48Z"}
+{"keyword": "ChatGPT Citations Cluster Near the Top of Pages, Raising Governance Questions", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T21:15:30Z"}
+{"keyword": "Deploying DeepSeek V3 (LLM) Using SGLang", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:25:11Z"}
+{"keyword": "OpenAI Says Verified Defenders Get More Access. I'm Going to Test That.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-12T01:02:07Z"}
+{"keyword": "Deploying Planka – Open-Source Project Management Tool", "platform": "devto", "value": 6.0, "timestamp": "2026-08-12T16:16:11Z"}
+{"keyword": "Installing R and RStudio Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:26:33Z"}
+{"keyword": "Installing and Setting Up Pritunl VPN Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:25:50Z"}
+{"keyword": "My memory auditor said half my agent's facts were dead. Three were.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-12T16:21:30Z"}
+{"keyword": "I Built a RAG App on My Laptop Without Paying OpenAI a Single Rupee Here's How", "platform": "devto", "value": 12.0, "timestamp": "2026-08-12T14:41:33Z"}
+{"keyword": "Meteor pluggable DDP transport: meet uWebSockets.js", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T17:14:29Z"}
+{"keyword": "I Built a Concurrent Resource Scheduler in Go with Sharded Priority Heaps", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T15:53:56Z"}
+{"keyword": "Bug Smash: restoring dropped Gemini chat config in Sentry's JavaScript SDK", "platform": "devto", "value": 17.0, "timestamp": "2026-08-12T05:30:27Z"}
+{"keyword": "I Built a Notebook for Sharing Notes That Doesn't Ask You to Sign Up First", "platform": "devto", "value": 14.0, "timestamp": "2026-08-12T15:53:06Z"}
+{"keyword": "The Next Evolution of Software Developers", "platform": "devto", "value": 16.0, "timestamp": "2026-08-12T14:36:41Z"}
+{"keyword": "Latency vs. Tokens: What I Learned Optimizing an Agent with Gemma (and What Didn't Work)", "platform": "devto", "value": 10.0, "timestamp": "2026-08-12T03:32:11Z"}
+{"keyword": "Managed Inference on Google Cloud: Pairing the Gemini Enterprise Agent Platform with Cloud Run", "platform": "devto", "value": 13.0, "timestamp": "2026-08-12T15:45:27Z"}
+{"keyword": "Stop Pretending To Do Domain-Driven Design", "platform": "devto", "value": 2.0, "timestamp": "2026-08-12T19:20:00Z"}
+{"keyword": "Two AI agents checked the same script for a safety guard. One found it, one didn't. Both were right.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T02:47:45Z"}
+{"keyword": "React 19's useFormStatus Fixed My Prop Drilling. Then It Sat There Returning False", "platform": "devto", "value": 11.0, "timestamp": "2026-08-12T12:04:31Z"}
+{"keyword": "is-kit Reached 50 Stars ⭐ Here’s How We Use It in Production", "platform": "devto", "value": 23.0, "timestamp": "2026-08-12T13:16:48Z"}
+{"keyword": "When Data Centres Move In", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T11:00:00Z"}
+{"keyword": "I Chased a Data Bug for an Afternoon. It Was Never About the Data.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-12T11:11:24Z"}
+{"keyword": "MCP Configuration for Looker with Codex", "platform": "devto", "value": 1.0, "timestamp": "2026-08-12T17:06:10Z"}
+{"keyword": "Stop the event loop stall: a Sentry Python SDK fix for slow local-variable capture", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T06:11:42Z"}
+{"keyword": "Installing Couchbase Database on Ubuntu 22.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:24:37Z"}
+{"keyword": "Deploying Activepieces – Open-Source Business Automation Platform", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:19:02Z"}
+{"keyword": "Agent Plugins Package Capabilities. IRC-A Asks: Who Authorizes Them at Runtime?", "platform": "devto", "value": 8.0, "timestamp": "2026-08-12T13:46:36Z"}
+{"keyword": "I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.", "platform": "devto", "value": 19.0, "timestamp": "2026-08-12T10:00:00Z"}
+{"keyword": "AI Coding Tip 031 - Stop Over-Prompting Reasoning Models", "platform": "devto", "value": 1.0, "timestamp": "2026-08-12T11:00:00Z"}
+{"keyword": "OpenClaw vs Hermes Agent: The Cage Match for Your Digital Soul", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T16:53:48Z"}
+{"keyword": "ChatGPT Citations Cluster Near the Top of Pages, Raising Governance Questions", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T21:15:30Z"}
+{"keyword": "Deploying DeepSeek V3 (LLM) Using SGLang", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:25:11Z"}
+{"keyword": "OpenAI Says Verified Defenders Get More Access. I'm Going to Test That.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-12T01:02:07Z"}
+{"keyword": "Deploying Planka – Open-Source Project Management Tool", "platform": "devto", "value": 6.0, "timestamp": "2026-08-12T16:16:11Z"}
+{"keyword": "Installing R and RStudio Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:26:33Z"}
+{"keyword": "Installing and Setting Up Pritunl VPN Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:25:50Z"}
+{"keyword": "My memory auditor said half my agent's facts were dead. Three were.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-12T16:21:30Z"}
+{"keyword": "I Built a RAG App on My Laptop Without Paying OpenAI a Single Rupee Here's How", "platform": "devto", "value": 12.0, "timestamp": "2026-08-12T14:41:33Z"}
+{"keyword": "Meteor pluggable DDP transport: meet uWebSockets.js", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T17:14:29Z"}
+{"keyword": "I Built a Concurrent Resource Scheduler in Go with Sharded Priority Heaps", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T15:53:56Z"}
+{"keyword": "Bug Smash: restoring dropped Gemini chat config in Sentry's JavaScript SDK", "platform": "devto", "value": 17.0, "timestamp": "2026-08-12T05:30:27Z"}
+{"keyword": "I Built a Notebook for Sharing Notes That Doesn't Ask You to Sign Up First", "platform": "devto", "value": 14.0, "timestamp": "2026-08-12T15:53:06Z"}
+{"keyword": "The Next Evolution of Software Developers", "platform": "devto", "value": 16.0, "timestamp": "2026-08-12T14:36:41Z"}
+{"keyword": "Latency vs. Tokens: What I Learned Optimizing an Agent with Gemma (and What Didn't Work)", "platform": "devto", "value": 10.0, "timestamp": "2026-08-12T03:32:11Z"}
+{"keyword": "Managed Inference on Google Cloud: Pairing the Gemini Enterprise Agent Platform with Cloud Run", "platform": "devto", "value": 13.0, "timestamp": "2026-08-12T15:45:27Z"}
+{"keyword": "Stop Pretending To Do Domain-Driven Design", "platform": "devto", "value": 2.0, "timestamp": "2026-08-12T19:20:00Z"}
+{"keyword": "Two AI agents checked the same script for a safety guard. One found it, one didn't. Both were right.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T02:47:45Z"}
+{"keyword": "React 19's useFormStatus Fixed My Prop Drilling. Then It Sat There Returning False", "platform": "devto", "value": 11.0, "timestamp": "2026-08-12T12:04:31Z"}
+{"keyword": "is-kit Reached 50 Stars ⭐ Here’s How We Use It in Production", "platform": "devto", "value": 23.0, "timestamp": "2026-08-12T13:16:48Z"}
+{"keyword": "When Data Centres Move In", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T11:00:00Z"}
+{"keyword": "I Chased a Data Bug for an Afternoon. It Was Never About the Data.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-12T11:11:24Z"}
+{"keyword": "MCP Configuration for Looker with Codex", "platform": "devto", "value": 1.0, "timestamp": "2026-08-12T17:06:10Z"}
+{"keyword": "Stop the event loop stall: a Sentry Python SDK fix for slow local-variable capture", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T06:11:42Z"}
+{"keyword": "Installing Couchbase Database on Ubuntu 22.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:24:37Z"}
+{"keyword": "Deploying Activepieces – Open-Source Business Automation Platform", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:19:02Z"}
+{"keyword": "Agent Plugins Package Capabilities. IRC-A Asks: Who Authorizes Them at Runtime?", "platform": "devto", "value": 8.0, "timestamp": "2026-08-12T13:46:36Z"}
+{"keyword": "I Automated My Entire GitOps Security Stack. The First Thing It Blocked Was My Own Salary.", "platform": "devto", "value": 19.0, "timestamp": "2026-08-12T10:00:00Z"}
+{"keyword": "AI Coding Tip 031 - Stop Over-Prompting Reasoning Models", "platform": "devto", "value": 1.0, "timestamp": "2026-08-12T11:00:00Z"}
+{"keyword": "OpenClaw vs Hermes Agent: The Cage Match for Your Digital Soul", "platform": "devto", "value": 3.0, "timestamp": "2026-08-12T16:53:48Z"}
+{"keyword": "ChatGPT Citations Cluster Near the Top of Pages, Raising Governance Questions", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T21:15:30Z"}
+{"keyword": "Deploying DeepSeek V3 (LLM) Using SGLang", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:25:11Z"}
+{"keyword": "OpenAI Says Verified Defenders Get More Access. I'm Going to Test That.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-12T01:02:07Z"}
+{"keyword": "Deploying Planka – Open-Source Project Management Tool", "platform": "devto", "value": 6.0, "timestamp": "2026-08-12T16:16:11Z"}
+{"keyword": "Installing R and RStudio Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:26:33Z"}
+{"keyword": "Installing and Setting Up Pritunl VPN Server on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T16:25:50Z"}
+{"keyword": "My memory auditor said half my agent's facts were dead. Three were.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-12T16:21:30Z"}
+{"keyword": "I Built a RAG App on My Laptop Without Paying OpenAI a Single Rupee Here's How", "platform": "devto", "value": 12.0, "timestamp": "2026-08-12T14:41:33Z"}
+{"keyword": "Meteor pluggable DDP transport: meet uWebSockets.js", "platform": "devto", "value": 0.0, "timestamp": "2026-08-12T17:14:29Z"}
+{"keyword": "I Built a Concurrent Resource Scheduler in Go with Sharded Priority Heaps", "platform": "devto", "value": 5.0, "timestamp": "2026-08-12T15:53:56Z"}
