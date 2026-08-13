@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-13",
+  "category": "trend",
+  "article_count": 200,
+  "source_count": 2,
+  "matched_count": 200,
+  "top_entities": [
+    {
+      "name": "Seoul",
+      "count": 10
+    },
+    {
+      "name": "South Korea",
+      "count": 10
+    },
+    {
+      "name": "Machine learning",
+      "count": 10
+    },
+    {
+      "name": "Netflix",
+      "count": 10
+    },
+    {
+      "name": "Bitcoin",
+      "count": 10
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 10
+    },
+    {
+      "name": "E-commerce",
+      "count": 10
+    },
+    {
+      "name": "YouTube",
+      "count": 10
+    },
+    {
+      "name": "OpenAI",
+      "count": 10
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 9
+    },
+    {
+      "name": "K-pop",
+      "count": 9
+    },
+    {
+      "name": "Climate change",
+      "count": 9
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 9
+    },
+    {
+      "name": "Samsung",
+      "count": 9
+    },
+    {
+      "name": "World Wide Web",
+      "count": 8
+    },
+    {
+      "name": "배우",
+      "count": 2
+    },
+    {
+      "name": "음악방송",
+      "count": 2
+    },
+    {
+      "name": "보이그룹",
+      "count": 2
+    },
+    {
+      "name": "뉴진스",
+      "count": 2
+    },
+    {
+      "name": "에스파",
+      "count": 2
+    }
+  ],
+  "sources": {
+    "wikipedia": 143,
+    "google": 57
+  },
+  "generated_at": "2026-08-13T19:59:02.862849+09:00"
+}
