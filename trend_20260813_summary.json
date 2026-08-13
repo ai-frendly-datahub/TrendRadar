@@ -6,6 +6,10 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "OpenAI",
+      "count": 10
+    },
+    {
       "name": "Seoul",
       "count": 10
     },
@@ -14,7 +18,15 @@
       "count": 10
     },
     {
+      "name": "Python (programming language)",
+      "count": 10
+    },
+    {
       "name": "Machine learning",
+      "count": 10
+    },
+    {
+      "name": "Samsung",
       "count": 10
     },
     {
@@ -38,10 +50,6 @@
       "count": 10
     },
     {
-      "name": "OpenAI",
-      "count": 10
-    },
-    {
       "name": "Artificial intelligence",
       "count": 9
     },
@@ -50,45 +58,37 @@
       "count": 9
     },
     {
+      "name": "World Wide Web",
+      "count": 9
+    },
+    {
       "name": "Climate change",
       "count": 9
     },
     {
-      "name": "Python (programming language)",
-      "count": 9
-    },
-    {
-      "name": "Samsung",
-      "count": 9
-    },
-    {
-      "name": "World Wide Web",
-      "count": 8
-    },
-    {
-      "name": "배우",
+      "name": "부동산 시장",
       "count": 2
     },
     {
-      "name": "음악방송",
+      "name": "송파 전세",
       "count": 2
     },
     {
-      "name": "보이그룹",
+      "name": "재건축",
       "count": 2
     },
     {
-      "name": "뉴진스",
+      "name": "유명인",
       "count": 2
     },
     {
-      "name": "에스파",
+      "name": "청약",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 143,
-    "google": 57
+    "wikipedia": 146,
+    "google": 54
   },
-  "generated_at": "2026-08-13T19:59:02.862849+09:00"
+  "generated_at": "2026-08-13T22:37:55.725623+00:00"
 }
