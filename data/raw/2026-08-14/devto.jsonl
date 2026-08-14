@@ -56,3 +56,111 @@
 {"keyword": "Your Bulk Insert Isn't Slow. Waiting for the Database Is.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-13T19:05:11Z"}
 {"keyword": "An empty result is not an all clear", "platform": "devto", "value": 1.0, "timestamp": "2026-08-13T17:04:57Z"}
 {"keyword": "What a write to an indexed DynamoDB table costs", "platform": "devto", "value": 0.0, "timestamp": "2026-08-13T16:07:04Z"}
+{"keyword": "What was your win this week??", "platform": "devto", "value": 37.0, "timestamp": "2026-08-14T13:00:00Z"}
+{"keyword": "Dart 3.13 Primary Constructors + BlocSignal: Boilerplate-Free Reactive Architecture", "platform": "devto", "value": 11.0, "timestamp": "2026-08-14T02:57:56Z"}
+{"keyword": "I Built an AI Liar's Dice Opponent That Remembers How You Play", "platform": "devto", "value": 4.0, "timestamp": "2026-08-14T10:20:05Z"}
+{"keyword": "Looker's Native MCP Server with Claude Code", "platform": "devto", "value": 7.0, "timestamp": "2026-08-14T14:00:55Z"}
+{"keyword": "Durable Memory: Why Vector Databases Aren't Enough", "platform": "devto", "value": 14.0, "timestamp": "2026-08-13T23:46:00Z"}
+{"keyword": "[Dev Log][Python] Create short videos from photos and clips with Gemini 3.7 Flash: ReelCraft", "platform": "devto", "value": 8.0, "timestamp": "2026-08-14T16:55:48Z"}
+{"keyword": "59% of Dogs Are Obese and Their Owners Don't Know. So I Built an AI That Tells Them.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-14T18:36:28Z"}
+{"keyword": "I Built a Puerto Rican Mountain Kitchen. The Only Image Is the Favicon.", "platform": "devto", "value": 18.0, "timestamp": "2026-08-14T04:18:52Z"}
+{"keyword": "Opus 5: How to Fix Verbose Output", "platform": "devto", "value": 3.0, "timestamp": "2026-08-14T18:17:39Z"}
+{"keyword": "The Bug That Threw No Errors: How a Repeat-Trial Guard Silently Killed Our Free Trial Funnel", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T12:06:09Z"}
+{"keyword": "Your Coding Agent Probably Doesn’t Need a Memory SaaS", "platform": "devto", "value": 3.0, "timestamp": "2026-08-14T11:20:47Z"}
+{"keyword": "Your eval suite passes. I built the tool that checks whether it checks anything.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T10:54:00Z"}
+{"keyword": "Stealing Reasoning Traces from LLM APIs: How It Works and What to Audit", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T07:42:38Z"}
+{"keyword": "The Color Math Was Never the Slow Part", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T18:17:42Z"}
+{"keyword": "I turned my portfolio into an MCP server (and I'm not a programmer)", "platform": "devto", "value": 7.0, "timestamp": "2026-08-14T13:14:02Z"}
+{"keyword": "The Key's Owner Wasn't the Spender", "platform": "devto", "value": 2.0, "timestamp": "2026-08-14T09:00:08Z"}
+{"keyword": "Serving Gemma4 with Rust on vLLM 🦀", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T20:43:34Z"}
+{"keyword": "Installing Rust for vLLM on Graviton: a G5g walk-through 🦀", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T20:37:16Z"}
+{"keyword": "App Shield: Your Server Should Not Trust the App Calling It", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T14:11:17Z"}
+{"keyword": "How to Enable Entire", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T22:17:46Z"}
+{"keyword": "Nobody audits their OpenAI invoice", "platform": "devto", "value": 6.0, "timestamp": "2026-08-14T01:56:01Z"}
+{"keyword": "Here's what being a street-smart coder means", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T16:43:04Z"}
+{"keyword": "React useFocus Hook: Track & Control Element Focus State (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-14T04:01:41Z"}
+{"keyword": "Woof Are You, Really? A Dog Personality Quiz Built in a Weekend", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T19:14:03Z"}
+{"keyword": "Postgres LISTEN/NOTIFY in Production: Safe Reconnects & SSE", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T07:24:09Z"}
+{"keyword": "DriftGate(): Not just a weekend challenge", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T21:59:23Z"}
+{"keyword": "Two npm worms shipped with valid provenance this year", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T17:16:36Z"}
+{"keyword": "What was your win this week??", "platform": "devto", "value": 37.0, "timestamp": "2026-08-14T13:00:00Z"}
+{"keyword": "Dart 3.13 Primary Constructors + BlocSignal: Boilerplate-Free Reactive Architecture", "platform": "devto", "value": 11.0, "timestamp": "2026-08-14T02:57:56Z"}
+{"keyword": "I Built an AI Liar's Dice Opponent That Remembers How You Play", "platform": "devto", "value": 4.0, "timestamp": "2026-08-14T10:20:05Z"}
+{"keyword": "Looker's Native MCP Server with Claude Code", "platform": "devto", "value": 7.0, "timestamp": "2026-08-14T14:00:55Z"}
+{"keyword": "Durable Memory: Why Vector Databases Aren't Enough", "platform": "devto", "value": 14.0, "timestamp": "2026-08-13T23:46:00Z"}
+{"keyword": "[Dev Log][Python] Create short videos from photos and clips with Gemini 3.7 Flash: ReelCraft", "platform": "devto", "value": 8.0, "timestamp": "2026-08-14T16:55:48Z"}
+{"keyword": "59% of Dogs Are Obese and Their Owners Don't Know. So I Built an AI That Tells Them.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-14T18:36:28Z"}
+{"keyword": "I Built a Puerto Rican Mountain Kitchen. The Only Image Is the Favicon.", "platform": "devto", "value": 18.0, "timestamp": "2026-08-14T04:18:52Z"}
+{"keyword": "Opus 5: How to Fix Verbose Output", "platform": "devto", "value": 3.0, "timestamp": "2026-08-14T18:17:39Z"}
+{"keyword": "The Bug That Threw No Errors: How a Repeat-Trial Guard Silently Killed Our Free Trial Funnel", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T12:06:09Z"}
+{"keyword": "Your Coding Agent Probably Doesn’t Need a Memory SaaS", "platform": "devto", "value": 3.0, "timestamp": "2026-08-14T11:20:47Z"}
+{"keyword": "Your eval suite passes. I built the tool that checks whether it checks anything.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T10:54:00Z"}
+{"keyword": "Stealing Reasoning Traces from LLM APIs: How It Works and What to Audit", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T07:42:38Z"}
+{"keyword": "The Color Math Was Never the Slow Part", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T18:17:42Z"}
+{"keyword": "I turned my portfolio into an MCP server (and I'm not a programmer)", "platform": "devto", "value": 7.0, "timestamp": "2026-08-14T13:14:02Z"}
+{"keyword": "The Key's Owner Wasn't the Spender", "platform": "devto", "value": 2.0, "timestamp": "2026-08-14T09:00:08Z"}
+{"keyword": "Serving Gemma4 with Rust on vLLM 🦀", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T20:43:34Z"}
+{"keyword": "Installing Rust for vLLM on Graviton: a G5g walk-through 🦀", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T20:37:16Z"}
+{"keyword": "App Shield: Your Server Should Not Trust the App Calling It", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T14:11:17Z"}
+{"keyword": "How to Enable Entire", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T22:17:46Z"}
+{"keyword": "Nobody audits their OpenAI invoice", "platform": "devto", "value": 6.0, "timestamp": "2026-08-14T01:56:01Z"}
+{"keyword": "Here's what being a street-smart coder means", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T16:43:04Z"}
+{"keyword": "React useFocus Hook: Track & Control Element Focus State (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-14T04:01:41Z"}
+{"keyword": "Woof Are You, Really? A Dog Personality Quiz Built in a Weekend", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T19:14:03Z"}
+{"keyword": "Postgres LISTEN/NOTIFY in Production: Safe Reconnects & SSE", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T07:24:09Z"}
+{"keyword": "DriftGate(): Not just a weekend challenge", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T21:59:23Z"}
+{"keyword": "Two npm worms shipped with valid provenance this year", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T17:16:36Z"}
+{"keyword": "What was your win this week??", "platform": "devto", "value": 37.0, "timestamp": "2026-08-14T13:00:00Z"}
+{"keyword": "Dart 3.13 Primary Constructors + BlocSignal: Boilerplate-Free Reactive Architecture", "platform": "devto", "value": 11.0, "timestamp": "2026-08-14T02:57:56Z"}
+{"keyword": "I Built an AI Liar's Dice Opponent That Remembers How You Play", "platform": "devto", "value": 4.0, "timestamp": "2026-08-14T10:20:05Z"}
+{"keyword": "Looker's Native MCP Server with Claude Code", "platform": "devto", "value": 7.0, "timestamp": "2026-08-14T14:00:55Z"}
+{"keyword": "Durable Memory: Why Vector Databases Aren't Enough", "platform": "devto", "value": 14.0, "timestamp": "2026-08-13T23:46:00Z"}
+{"keyword": "[Dev Log][Python] Create short videos from photos and clips with Gemini 3.7 Flash: ReelCraft", "platform": "devto", "value": 8.0, "timestamp": "2026-08-14T16:55:48Z"}
+{"keyword": "59% of Dogs Are Obese and Their Owners Don't Know. So I Built an AI That Tells Them.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-14T18:36:28Z"}
+{"keyword": "I Built a Puerto Rican Mountain Kitchen. The Only Image Is the Favicon.", "platform": "devto", "value": 18.0, "timestamp": "2026-08-14T04:18:52Z"}
+{"keyword": "Opus 5: How to Fix Verbose Output", "platform": "devto", "value": 3.0, "timestamp": "2026-08-14T18:17:39Z"}
+{"keyword": "The Bug That Threw No Errors: How a Repeat-Trial Guard Silently Killed Our Free Trial Funnel", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T12:06:09Z"}
+{"keyword": "Your Coding Agent Probably Doesn’t Need a Memory SaaS", "platform": "devto", "value": 3.0, "timestamp": "2026-08-14T11:20:47Z"}
+{"keyword": "Your eval suite passes. I built the tool that checks whether it checks anything.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T10:54:00Z"}
+{"keyword": "Stealing Reasoning Traces from LLM APIs: How It Works and What to Audit", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T07:42:38Z"}
+{"keyword": "The Color Math Was Never the Slow Part", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T18:17:42Z"}
+{"keyword": "I turned my portfolio into an MCP server (and I'm not a programmer)", "platform": "devto", "value": 7.0, "timestamp": "2026-08-14T13:14:02Z"}
+{"keyword": "The Key's Owner Wasn't the Spender", "platform": "devto", "value": 2.0, "timestamp": "2026-08-14T09:00:08Z"}
+{"keyword": "Serving Gemma4 with Rust on vLLM 🦀", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T20:43:34Z"}
+{"keyword": "Installing Rust for vLLM on Graviton: a G5g walk-through 🦀", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T20:37:16Z"}
+{"keyword": "App Shield: Your Server Should Not Trust the App Calling It", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T14:11:17Z"}
+{"keyword": "How to Enable Entire", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T22:17:46Z"}
+{"keyword": "Nobody audits their OpenAI invoice", "platform": "devto", "value": 6.0, "timestamp": "2026-08-14T01:56:01Z"}
+{"keyword": "Here's what being a street-smart coder means", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T16:43:04Z"}
+{"keyword": "React useFocus Hook: Track & Control Element Focus State (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-14T04:01:41Z"}
+{"keyword": "Woof Are You, Really? A Dog Personality Quiz Built in a Weekend", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T19:14:03Z"}
+{"keyword": "Postgres LISTEN/NOTIFY in Production: Safe Reconnects & SSE", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T07:24:09Z"}
+{"keyword": "DriftGate(): Not just a weekend challenge", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T21:59:23Z"}
+{"keyword": "Two npm worms shipped with valid provenance this year", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T17:16:36Z"}
+{"keyword": "What was your win this week??", "platform": "devto", "value": 37.0, "timestamp": "2026-08-14T13:00:00Z"}
+{"keyword": "Dart 3.13 Primary Constructors + BlocSignal: Boilerplate-Free Reactive Architecture", "platform": "devto", "value": 11.0, "timestamp": "2026-08-14T02:57:56Z"}
+{"keyword": "I Built an AI Liar's Dice Opponent That Remembers How You Play", "platform": "devto", "value": 4.0, "timestamp": "2026-08-14T10:20:05Z"}
+{"keyword": "Looker's Native MCP Server with Claude Code", "platform": "devto", "value": 7.0, "timestamp": "2026-08-14T14:00:55Z"}
+{"keyword": "Durable Memory: Why Vector Databases Aren't Enough", "platform": "devto", "value": 14.0, "timestamp": "2026-08-13T23:46:00Z"}
+{"keyword": "[Dev Log][Python] Create short videos from photos and clips with Gemini 3.7 Flash: ReelCraft", "platform": "devto", "value": 8.0, "timestamp": "2026-08-14T16:55:48Z"}
+{"keyword": "59% of Dogs Are Obese and Their Owners Don't Know. So I Built an AI That Tells Them.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-14T18:36:28Z"}
+{"keyword": "I Built a Puerto Rican Mountain Kitchen. The Only Image Is the Favicon.", "platform": "devto", "value": 18.0, "timestamp": "2026-08-14T04:18:52Z"}
+{"keyword": "Opus 5: How to Fix Verbose Output", "platform": "devto", "value": 3.0, "timestamp": "2026-08-14T18:17:39Z"}
+{"keyword": "The Bug That Threw No Errors: How a Repeat-Trial Guard Silently Killed Our Free Trial Funnel", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T12:06:09Z"}
+{"keyword": "Your Coding Agent Probably Doesn’t Need a Memory SaaS", "platform": "devto", "value": 3.0, "timestamp": "2026-08-14T11:20:47Z"}
+{"keyword": "Your eval suite passes. I built the tool that checks whether it checks anything.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T10:54:00Z"}
+{"keyword": "Stealing Reasoning Traces from LLM APIs: How It Works and What to Audit", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T07:42:38Z"}
+{"keyword": "The Color Math Was Never the Slow Part", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T18:17:42Z"}
+{"keyword": "I turned my portfolio into an MCP server (and I'm not a programmer)", "platform": "devto", "value": 7.0, "timestamp": "2026-08-14T13:14:02Z"}
+{"keyword": "The Key's Owner Wasn't the Spender", "platform": "devto", "value": 2.0, "timestamp": "2026-08-14T09:00:08Z"}
+{"keyword": "Serving Gemma4 with Rust on vLLM 🦀", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T20:43:34Z"}
+{"keyword": "Installing Rust for vLLM on Graviton: a G5g walk-through 🦀", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T20:37:16Z"}
+{"keyword": "App Shield: Your Server Should Not Trust the App Calling It", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T14:11:17Z"}
+{"keyword": "How to Enable Entire", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T22:17:46Z"}
+{"keyword": "Nobody audits their OpenAI invoice", "platform": "devto", "value": 6.0, "timestamp": "2026-08-14T01:56:01Z"}
+{"keyword": "Here's what being a street-smart coder means", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T16:43:04Z"}
+{"keyword": "React useFocus Hook: Track & Control Element Focus State (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-14T04:01:41Z"}
+{"keyword": "Woof Are You, Really? A Dog Personality Quiz Built in a Weekend", "platform": "devto", "value": 0.0, "timestamp": "2026-08-14T19:14:03Z"}
+{"keyword": "Postgres LISTEN/NOTIFY in Production: Safe Reconnects & SSE", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T07:24:09Z"}
+{"keyword": "DriftGate(): Not just a weekend challenge", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T21:59:23Z"}
+{"keyword": "Two npm worms shipped with valid provenance this year", "platform": "devto", "value": 1.0, "timestamp": "2026-08-14T17:16:36Z"}
