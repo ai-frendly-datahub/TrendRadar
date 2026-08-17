@@ -13,3 +13,26 @@
 {"keyword": "BACnet/IP device discovery fails inside Kubernetes pod", "platform": "stackexchange", "value": 0.0, "timestamp": "1786945081"}
 {"keyword": "The event loop, call stack, and setTimeout of 0 or some small value", "platform": "stackexchange", "value": 1.0, "timestamp": "1786943030"}
 {"keyword": "How to Create Tableau-Like Parameters in Apache Superset?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786945683"}
+{"keyword": "Getting &quot;Unable to read beyond the end of the stream.&quot; Error", "platform": "stackexchange", "value": 0.0, "timestamp": "1787001215"}
+{"keyword": "Query filters are duplicating SQL", "platform": "stackexchange", "value": 0.0, "timestamp": "1786980674"}
+{"keyword": "How to left join tableB to tableA and save changes to table B", "platform": "stackexchange", "value": 0.0, "timestamp": "1786991245"}
+{"keyword": "Detect whether PowerShell scripts can be executed from Windows Batch", "platform": "stackexchange", "value": 1.0, "timestamp": "1786981578"}
+{"keyword": "EdgeBrowserControl firing events too often?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786983970"}
+{"keyword": "How do I receive packets in batches using ASIO?", "platform": "stackexchange", "value": 1.0, "timestamp": "1786989453"}
+{"keyword": "Git clone over SSH hangs in WSL2 at expecting SSH2_MSG_KEX_ECDH_REPLY", "platform": "stackexchange", "value": 1.0, "timestamp": "1786982821"}
+{"keyword": "The Dir() function vs. referencing another VBA project", "platform": "stackexchange", "value": 0.0, "timestamp": "1786986716"}
+{"keyword": "Exclusive load and store instructions require enabled caches on real hardware (Cortex-A53)", "platform": "stackexchange", "value": 1.0, "timestamp": "1786968726"}
+{"keyword": "How can I return a FLOAT_VECTOR field when using order_by_fields in MilvusClient.query()?", "platform": "stackexchange", "value": 1.0, "timestamp": "1786964737"}
+{"keyword": "dotnet build fails with NodeFailedToLaunchException", "platform": "stackexchange", "value": 0.0, "timestamp": "1786977968"}
+{"keyword": "When using reverse p/invoke to marshal string, does it have a memory leak？", "platform": "stackexchange", "value": 1.0, "timestamp": "1786957196"}
+{"keyword": "Getting &quot;Unable to read beyond the end of the stream.&quot; Error", "platform": "stackexchange", "value": 0.0, "timestamp": "1787001215"}
+{"keyword": "Query filters are duplicating SQL", "platform": "stackexchange", "value": 0.0, "timestamp": "1786980674"}
+{"keyword": "How to left join tableB to tableA and save changes to table B", "platform": "stackexchange", "value": 0.0, "timestamp": "1786991245"}
+{"keyword": "Detect whether PowerShell scripts can be executed from Windows Batch", "platform": "stackexchange", "value": 1.0, "timestamp": "1786981578"}
+{"keyword": "EdgeBrowserControl firing events too often?", "platform": "stackexchange", "value": 0.0, "timestamp": "1786983970"}
+{"keyword": "How do I receive packets in batches using ASIO?", "platform": "stackexchange", "value": 1.0, "timestamp": "1786989453"}
+{"keyword": "Git clone over SSH hangs in WSL2 at expecting SSH2_MSG_KEX_ECDH_REPLY", "platform": "stackexchange", "value": 1.0, "timestamp": "1786982821"}
+{"keyword": "The Dir() function vs. referencing another VBA project", "platform": "stackexchange", "value": 0.0, "timestamp": "1786986716"}
+{"keyword": "Exclusive load and store instructions require enabled caches on real hardware (Cortex-A53)", "platform": "stackexchange", "value": 1.0, "timestamp": "1786968726"}
+{"keyword": "How can I return a FLOAT_VECTOR field when using order_by_fields in MilvusClient.query()?", "platform": "stackexchange", "value": 1.0, "timestamp": "1786964737"}
+{"keyword": "dotnet build fails with NodeFailedToLaunchException", "platform": "stackexchange", "value": 0.0, "timestamp": "1786977968"}
