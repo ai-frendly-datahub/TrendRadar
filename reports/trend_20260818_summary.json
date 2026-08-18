@@ -26,6 +26,10 @@
       "count": 10
     },
     {
+      "name": "Seoul",
+      "count": 9
+    },
+    {
       "name": "OpenAI",
       "count": 9
     },
@@ -62,27 +66,23 @@
       "count": 9
     },
     {
-      "name": "Seoul",
-      "count": 9
+      "name": "유튜버",
+      "count": 2
     },
     {
       "name": "강남 아파트",
       "count": 2
     },
     {
-      "name": "블랙핑크",
+      "name": "송파 전세",
       "count": 2
     },
     {
-      "name": "BTS",
+      "name": "마포 매매",
       "count": 2
     },
     {
-      "name": "음원차트",
-      "count": 2
-    },
-    {
-      "name": "멜론",
+      "name": "분양권",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 140,
     "google": 60
   },
-  "generated_at": "2026-08-18T19:23:28.584524+09:00"
+  "generated_at": "2026-08-18T22:19:49.497450+00:00"
 }
