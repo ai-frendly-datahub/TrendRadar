@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-18",
+  "category": "trend",
+  "article_count": 200,
+  "source_count": 2,
+  "matched_count": 200,
+  "top_entities": [
+    {
+      "name": "Electric vehicle",
+      "count": 10
+    },
+    {
+      "name": "Climate change",
+      "count": 10
+    },
+    {
+      "name": "Bitcoin",
+      "count": 10
+    },
+    {
+      "name": "Netflix",
+      "count": 10
+    },
+    {
+      "name": "K-pop",
+      "count": 10
+    },
+    {
+      "name": "OpenAI",
+      "count": 9
+    },
+    {
+      "name": "YouTube",
+      "count": 9
+    },
+    {
+      "name": "E-commerce",
+      "count": 9
+    },
+    {
+      "name": "Samsung",
+      "count": 9
+    },
+    {
+      "name": "World Wide Web",
+      "count": 9
+    },
+    {
+      "name": "Machine learning",
+      "count": 9
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 9
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 9
+    },
+    {
+      "name": "South Korea",
+      "count": 9
+    },
+    {
+      "name": "Seoul",
+      "count": 9
+    },
+    {
+      "name": "강남 아파트",
+      "count": 2
+    },
+    {
+      "name": "블랙핑크",
+      "count": 2
+    },
+    {
+      "name": "BTS",
+      "count": 2
+    },
+    {
+      "name": "음원차트",
+      "count": 2
+    },
+    {
+      "name": "멜론",
+      "count": 2
+    }
+  ],
+  "sources": {
+    "wikipedia": 140,
+    "google": 60
+  },
+  "generated_at": "2026-08-18T19:23:28.584524+09:00"
+}
