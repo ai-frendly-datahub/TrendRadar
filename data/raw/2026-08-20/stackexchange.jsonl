@@ -10,3 +10,27 @@
 {"keyword": "Using a UserAnnotation() under a segmented Picker() loses first click", "platform": "stackexchange", "value": 0.0, "timestamp": "1787189750"}
 {"keyword": "Why does my dialog box pop up again when I click NEXT?", "platform": "stackexchange", "value": 1.0, "timestamp": "1787163258"}
 {"keyword": "Europe/Warsaw shifts an offset-less winter timestamp back one hour in Apache IoTDB", "platform": "stackexchange", "value": 1.0, "timestamp": "1787190816"}
+{"keyword": "Why is my coroutine wrapper working when I use it as a decorator but not when I use it as a wrapper?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787247120"}
+{"keyword": "Updating one of Python&#39;s previous versions to its latest version for bug fixes", "platform": "stackexchange", "value": 0.0, "timestamp": "1787244307"}
+{"keyword": "Flex items do not wrap around floated elements", "platform": "stackexchange", "value": 0.0, "timestamp": "1787248218"}
+{"keyword": "How to store command output without truncation", "platform": "stackexchange", "value": 2.0, "timestamp": "1787230834"}
+{"keyword": "Dynamic Data Masking doesn&#39;t work with UNION", "platform": "stackexchange", "value": 1.0, "timestamp": "1787226021"}
+{"keyword": "Cannot find -lglfw3 using Makefile", "platform": "stackexchange", "value": 0.0, "timestamp": "1787247612"}
+{"keyword": "Is there an easy way to identify methods marked as async that do not perform any await calls?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787247948"}
+{"keyword": "How do I get a core connector worker to output the workers account name?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787251254"}
+{"keyword": "How to create independent 2D and 3D scenes side by side in Manim?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787247117"}
+{"keyword": "FileNotFound exception in Java/Clojure interop", "platform": "stackexchange", "value": 0.0, "timestamp": "1787237143"}
+{"keyword": "How to set JDK character coding to ANSI?", "platform": "stackexchange", "value": 1.0, "timestamp": "1787215713"}
+{"keyword": "Problems in rendering gif created with ffmpeg", "platform": "stackexchange", "value": 0.0, "timestamp": "1787228099"}
+{"keyword": "Why is my coroutine wrapper working when I use it as a decorator but not when I use it as a wrapper?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787247120"}
+{"keyword": "Updating one of Python&#39;s previous versions to its latest version for bug fixes", "platform": "stackexchange", "value": 0.0, "timestamp": "1787244307"}
+{"keyword": "Flex items do not wrap around floated elements", "platform": "stackexchange", "value": 0.0, "timestamp": "1787248218"}
+{"keyword": "How to store command output without truncation", "platform": "stackexchange", "value": 2.0, "timestamp": "1787230834"}
+{"keyword": "Dynamic Data Masking doesn&#39;t work with UNION", "platform": "stackexchange", "value": 1.0, "timestamp": "1787226021"}
+{"keyword": "Cannot find -lglfw3 using Makefile", "platform": "stackexchange", "value": 0.0, "timestamp": "1787247612"}
+{"keyword": "Is there an easy way to identify methods marked as async that do not perform any await calls?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787247948"}
+{"keyword": "How do I get a core connector worker to output the workers account name?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787251254"}
+{"keyword": "How to create independent 2D and 3D scenes side by side in Manim?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787247117"}
+{"keyword": "FileNotFound exception in Java/Clojure interop", "platform": "stackexchange", "value": 0.0, "timestamp": "1787237143"}
+{"keyword": "How to set JDK character coding to ANSI?", "platform": "stackexchange", "value": 1.0, "timestamp": "1787215713"}
+{"keyword": "Problems in rendering gif created with ffmpeg", "platform": "stackexchange", "value": 0.0, "timestamp": "1787228099"}
