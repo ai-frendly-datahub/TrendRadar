@@ -58,3 +58,119 @@
 {"keyword": "Seed: Minimal, self-modifying agent harness", "platform": "hackernews", "value": 23.0, "timestamp": "1787289650"}
 {"keyword": "SpacetimeDB: a short technical review", "platform": "hackernews", "value": 98.0, "timestamp": "1787253593"}
 {"keyword": "Codex on AWS bedrock bug causing 10x charges", "platform": "hackernews", "value": 133.0, "timestamp": "1787282263"}
+{"keyword": "Kobo can run apps now", "platform": "hackernews", "value": 341.0, "timestamp": "1787329525"}
+{"keyword": "Felony Bench", "platform": "hackernews", "value": 407.0, "timestamp": "1787325424"}
+{"keyword": "Felony charges for citizen deleting phone data at US Border", "platform": "hackernews", "value": 358.0, "timestamp": "1787314213"}
+{"keyword": "Scientists release biggest 2D map of the universe", "platform": "hackernews", "value": 101.0, "timestamp": "1787337394"}
+{"keyword": "Kagi added a setting for removing paywalled links from search results", "platform": "hackernews", "value": 923.0, "timestamp": "1787320597"}
+{"keyword": "AI boosted homework scores, then exam scores dropped: study", "platform": "hackernews", "value": 185.0, "timestamp": "1787120011"}
+{"keyword": "I accidentally logged hundreds of thousands of phone calls to military bases", "platform": "hackernews", "value": 380.0, "timestamp": "1787317888"}
+{"keyword": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders", "platform": "hackernews", "value": 37.0, "timestamp": "1787338108"}
+{"keyword": "DeepSeek-v4-flash-vision-exp", "platform": "hackernews", "value": 431.0, "timestamp": "1787308436"}
+{"keyword": "People of ACM – Russ Cox", "platform": "hackernews", "value": 67.0, "timestamp": "1786950735"}
+{"keyword": "I ran Photoshop on a £0.60 computer chip", "platform": "hackernews", "value": 93.0, "timestamp": "1787325467"}
+{"keyword": "How we made a text-to-speech model respond in sub-50 ms", "platform": "hackernews", "value": 78.0, "timestamp": "1787327470"}
+{"keyword": "A look under our trunk: what's in our compute", "platform": "hackernews", "value": 69.0, "timestamp": "1787235225"}
+{"keyword": "What happens when a GPU reads memory", "platform": "hackernews", "value": 82.0, "timestamp": "1787329002"}
+{"keyword": "Tumble Forth – from assembly to OS with C compiler", "platform": "hackernews", "value": 32.0, "timestamp": "1787338792"}
+{"keyword": "Claudette: Make Claude stop talking like a BuzzFeed article", "platform": "hackernews", "value": 148.0, "timestamp": "1787322712"}
+{"keyword": "Building an (almost) fully self-hosted, sandboxed, agentic software factory", "platform": "hackernews", "value": 67.0, "timestamp": "1787329672"}
+{"keyword": "The Size of the World Wide Web", "platform": "hackernews", "value": 19.0, "timestamp": "1786983763"}
+{"keyword": "Using an old Android phone as a music player", "platform": "hackernews", "value": 28.0, "timestamp": "1786981215"}
+{"keyword": "Quick impressions: A week of using Codex more than Claude", "platform": "hackernews", "value": 60.0, "timestamp": "1787341908"}
+{"keyword": "I'm becoming AI-blind", "platform": "hackernews", "value": 202.0, "timestamp": "1787312885"}
+{"keyword": "Decayfmt – a file format that corrupts itself a little every time you open it", "platform": "hackernews", "value": 43.0, "timestamp": "1787328590"}
+{"keyword": "The coolest anti-surveillance tools at Defcon [video]", "platform": "hackernews", "value": 120.0, "timestamp": "1787064559"}
+{"keyword": "AI companies destroy physical books – let's scan rare books before it's too late", "platform": "hackernews", "value": 478.0, "timestamp": "1787279867"}
+{"keyword": "Remotely Unlocking Electric Scooters", "platform": "hackernews", "value": 5.0, "timestamp": "1787347927"}
+{"keyword": "Kodak's \"pre-invented\" lunar orbiter camera; or, the fate of SAMOS readout", "platform": "hackernews", "value": 47.0, "timestamp": "1787320373"}
+{"keyword": "Quantifying the honey bee dance floor", "platform": "hackernews", "value": 23.0, "timestamp": "1786672907"}
+{"keyword": "Show HN: Shoehorn – Quantize any model down to run on your machine", "platform": "hackernews", "value": 67.0, "timestamp": "1787063360"}
+{"keyword": "The road to ACID transactions in Cassandra 6", "platform": "hackernews", "value": 56.0, "timestamp": "1787314099"}
+{"keyword": "Kobo can run apps now", "platform": "hackernews", "value": 341.0, "timestamp": "1787329525"}
+{"keyword": "Felony Bench", "platform": "hackernews", "value": 407.0, "timestamp": "1787325424"}
+{"keyword": "Felony charges for citizen deleting phone data at US Border", "platform": "hackernews", "value": 358.0, "timestamp": "1787314213"}
+{"keyword": "Scientists release biggest 2D map of the universe", "platform": "hackernews", "value": 101.0, "timestamp": "1787337394"}
+{"keyword": "Kagi added a setting for removing paywalled links from search results", "platform": "hackernews", "value": 923.0, "timestamp": "1787320597"}
+{"keyword": "AI boosted homework scores, then exam scores dropped: study", "platform": "hackernews", "value": 185.0, "timestamp": "1787120011"}
+{"keyword": "I accidentally logged hundreds of thousands of phone calls to military bases", "platform": "hackernews", "value": 380.0, "timestamp": "1787317888"}
+{"keyword": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders", "platform": "hackernews", "value": 37.0, "timestamp": "1787338108"}
+{"keyword": "DeepSeek-v4-flash-vision-exp", "platform": "hackernews", "value": 431.0, "timestamp": "1787308436"}
+{"keyword": "People of ACM – Russ Cox", "platform": "hackernews", "value": 67.0, "timestamp": "1786950735"}
+{"keyword": "I ran Photoshop on a £0.60 computer chip", "platform": "hackernews", "value": 93.0, "timestamp": "1787325467"}
+{"keyword": "How we made a text-to-speech model respond in sub-50 ms", "platform": "hackernews", "value": 78.0, "timestamp": "1787327470"}
+{"keyword": "A look under our trunk: what's in our compute", "platform": "hackernews", "value": 69.0, "timestamp": "1787235225"}
+{"keyword": "What happens when a GPU reads memory", "platform": "hackernews", "value": 82.0, "timestamp": "1787329002"}
+{"keyword": "Tumble Forth – from assembly to OS with C compiler", "platform": "hackernews", "value": 32.0, "timestamp": "1787338792"}
+{"keyword": "Claudette: Make Claude stop talking like a BuzzFeed article", "platform": "hackernews", "value": 148.0, "timestamp": "1787322712"}
+{"keyword": "Building an (almost) fully self-hosted, sandboxed, agentic software factory", "platform": "hackernews", "value": 67.0, "timestamp": "1787329672"}
+{"keyword": "The Size of the World Wide Web", "platform": "hackernews", "value": 19.0, "timestamp": "1786983763"}
+{"keyword": "Using an old Android phone as a music player", "platform": "hackernews", "value": 28.0, "timestamp": "1786981215"}
+{"keyword": "Quick impressions: A week of using Codex more than Claude", "platform": "hackernews", "value": 60.0, "timestamp": "1787341908"}
+{"keyword": "I'm becoming AI-blind", "platform": "hackernews", "value": 202.0, "timestamp": "1787312885"}
+{"keyword": "Decayfmt – a file format that corrupts itself a little every time you open it", "platform": "hackernews", "value": 43.0, "timestamp": "1787328590"}
+{"keyword": "The coolest anti-surveillance tools at Defcon [video]", "platform": "hackernews", "value": 120.0, "timestamp": "1787064559"}
+{"keyword": "AI companies destroy physical books – let's scan rare books before it's too late", "platform": "hackernews", "value": 478.0, "timestamp": "1787279867"}
+{"keyword": "Remotely Unlocking Electric Scooters", "platform": "hackernews", "value": 5.0, "timestamp": "1787347927"}
+{"keyword": "Kodak's \"pre-invented\" lunar orbiter camera; or, the fate of SAMOS readout", "platform": "hackernews", "value": 47.0, "timestamp": "1787320373"}
+{"keyword": "Quantifying the honey bee dance floor", "platform": "hackernews", "value": 23.0, "timestamp": "1786672907"}
+{"keyword": "Show HN: Shoehorn – Quantize any model down to run on your machine", "platform": "hackernews", "value": 67.0, "timestamp": "1787063360"}
+{"keyword": "The road to ACID transactions in Cassandra 6", "platform": "hackernews", "value": 56.0, "timestamp": "1787314099"}
+{"keyword": "Kobo can run apps now", "platform": "hackernews", "value": 341.0, "timestamp": "1787329525"}
+{"keyword": "Felony Bench", "platform": "hackernews", "value": 407.0, "timestamp": "1787325424"}
+{"keyword": "Felony charges for citizen deleting phone data at US Border", "platform": "hackernews", "value": 358.0, "timestamp": "1787314213"}
+{"keyword": "Scientists release biggest 2D map of the universe", "platform": "hackernews", "value": 101.0, "timestamp": "1787337394"}
+{"keyword": "Kagi added a setting for removing paywalled links from search results", "platform": "hackernews", "value": 923.0, "timestamp": "1787320597"}
+{"keyword": "AI boosted homework scores, then exam scores dropped: study", "platform": "hackernews", "value": 185.0, "timestamp": "1787120011"}
+{"keyword": "I accidentally logged hundreds of thousands of phone calls to military bases", "platform": "hackernews", "value": 380.0, "timestamp": "1787317888"}
+{"keyword": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders", "platform": "hackernews", "value": 37.0, "timestamp": "1787338108"}
+{"keyword": "DeepSeek-v4-flash-vision-exp", "platform": "hackernews", "value": 431.0, "timestamp": "1787308436"}
+{"keyword": "People of ACM – Russ Cox", "platform": "hackernews", "value": 67.0, "timestamp": "1786950735"}
+{"keyword": "I ran Photoshop on a £0.60 computer chip", "platform": "hackernews", "value": 93.0, "timestamp": "1787325467"}
+{"keyword": "How we made a text-to-speech model respond in sub-50 ms", "platform": "hackernews", "value": 78.0, "timestamp": "1787327470"}
+{"keyword": "A look under our trunk: what's in our compute", "platform": "hackernews", "value": 69.0, "timestamp": "1787235225"}
+{"keyword": "What happens when a GPU reads memory", "platform": "hackernews", "value": 82.0, "timestamp": "1787329002"}
+{"keyword": "Tumble Forth – from assembly to OS with C compiler", "platform": "hackernews", "value": 32.0, "timestamp": "1787338792"}
+{"keyword": "Claudette: Make Claude stop talking like a BuzzFeed article", "platform": "hackernews", "value": 148.0, "timestamp": "1787322712"}
+{"keyword": "Building an (almost) fully self-hosted, sandboxed, agentic software factory", "platform": "hackernews", "value": 67.0, "timestamp": "1787329672"}
+{"keyword": "The Size of the World Wide Web", "platform": "hackernews", "value": 19.0, "timestamp": "1786983763"}
+{"keyword": "Using an old Android phone as a music player", "platform": "hackernews", "value": 28.0, "timestamp": "1786981215"}
+{"keyword": "Quick impressions: A week of using Codex more than Claude", "platform": "hackernews", "value": 60.0, "timestamp": "1787341908"}
+{"keyword": "I'm becoming AI-blind", "platform": "hackernews", "value": 202.0, "timestamp": "1787312885"}
+{"keyword": "Decayfmt – a file format that corrupts itself a little every time you open it", "platform": "hackernews", "value": 43.0, "timestamp": "1787328590"}
+{"keyword": "The coolest anti-surveillance tools at Defcon [video]", "platform": "hackernews", "value": 120.0, "timestamp": "1787064559"}
+{"keyword": "AI companies destroy physical books – let's scan rare books before it's too late", "platform": "hackernews", "value": 478.0, "timestamp": "1787279867"}
+{"keyword": "Remotely Unlocking Electric Scooters", "platform": "hackernews", "value": 5.0, "timestamp": "1787347927"}
+{"keyword": "Kodak's \"pre-invented\" lunar orbiter camera; or, the fate of SAMOS readout", "platform": "hackernews", "value": 47.0, "timestamp": "1787320373"}
+{"keyword": "Quantifying the honey bee dance floor", "platform": "hackernews", "value": 23.0, "timestamp": "1786672907"}
+{"keyword": "Show HN: Shoehorn – Quantize any model down to run on your machine", "platform": "hackernews", "value": 67.0, "timestamp": "1787063360"}
+{"keyword": "The road to ACID transactions in Cassandra 6", "platform": "hackernews", "value": 56.0, "timestamp": "1787314099"}
+{"keyword": "Kobo can run apps now", "platform": "hackernews", "value": 341.0, "timestamp": "1787329525"}
+{"keyword": "Felony Bench", "platform": "hackernews", "value": 407.0, "timestamp": "1787325424"}
+{"keyword": "Felony charges for citizen deleting phone data at US Border", "platform": "hackernews", "value": 358.0, "timestamp": "1787314213"}
+{"keyword": "Scientists release biggest 2D map of the universe", "platform": "hackernews", "value": 101.0, "timestamp": "1787337394"}
+{"keyword": "Kagi added a setting for removing paywalled links from search results", "platform": "hackernews", "value": 923.0, "timestamp": "1787320597"}
+{"keyword": "AI boosted homework scores, then exam scores dropped: study", "platform": "hackernews", "value": 185.0, "timestamp": "1787120011"}
+{"keyword": "I accidentally logged hundreds of thousands of phone calls to military bases", "platform": "hackernews", "value": 380.0, "timestamp": "1787317888"}
+{"keyword": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders", "platform": "hackernews", "value": 37.0, "timestamp": "1787338108"}
+{"keyword": "DeepSeek-v4-flash-vision-exp", "platform": "hackernews", "value": 431.0, "timestamp": "1787308436"}
+{"keyword": "People of ACM – Russ Cox", "platform": "hackernews", "value": 67.0, "timestamp": "1786950735"}
+{"keyword": "I ran Photoshop on a £0.60 computer chip", "platform": "hackernews", "value": 93.0, "timestamp": "1787325467"}
+{"keyword": "How we made a text-to-speech model respond in sub-50 ms", "platform": "hackernews", "value": 78.0, "timestamp": "1787327470"}
+{"keyword": "A look under our trunk: what's in our compute", "platform": "hackernews", "value": 69.0, "timestamp": "1787235225"}
+{"keyword": "What happens when a GPU reads memory", "platform": "hackernews", "value": 82.0, "timestamp": "1787329002"}
+{"keyword": "Tumble Forth – from assembly to OS with C compiler", "platform": "hackernews", "value": 32.0, "timestamp": "1787338792"}
+{"keyword": "Claudette: Make Claude stop talking like a BuzzFeed article", "platform": "hackernews", "value": 148.0, "timestamp": "1787322712"}
+{"keyword": "Building an (almost) fully self-hosted, sandboxed, agentic software factory", "platform": "hackernews", "value": 67.0, "timestamp": "1787329672"}
+{"keyword": "The Size of the World Wide Web", "platform": "hackernews", "value": 19.0, "timestamp": "1786983763"}
+{"keyword": "Using an old Android phone as a music player", "platform": "hackernews", "value": 28.0, "timestamp": "1786981215"}
+{"keyword": "Quick impressions: A week of using Codex more than Claude", "platform": "hackernews", "value": 60.0, "timestamp": "1787341908"}
+{"keyword": "I'm becoming AI-blind", "platform": "hackernews", "value": 202.0, "timestamp": "1787312885"}
+{"keyword": "Decayfmt – a file format that corrupts itself a little every time you open it", "platform": "hackernews", "value": 43.0, "timestamp": "1787328590"}
+{"keyword": "The coolest anti-surveillance tools at Defcon [video]", "platform": "hackernews", "value": 120.0, "timestamp": "1787064559"}
+{"keyword": "AI companies destroy physical books – let's scan rare books before it's too late", "platform": "hackernews", "value": 478.0, "timestamp": "1787279867"}
+{"keyword": "Remotely Unlocking Electric Scooters", "platform": "hackernews", "value": 5.0, "timestamp": "1787347927"}
+{"keyword": "Kodak's \"pre-invented\" lunar orbiter camera; or, the fate of SAMOS readout", "platform": "hackernews", "value": 47.0, "timestamp": "1787320373"}
+{"keyword": "Quantifying the honey bee dance floor", "platform": "hackernews", "value": 23.0, "timestamp": "1786672907"}
+{"keyword": "Show HN: Shoehorn – Quantize any model down to run on your machine", "platform": "hackernews", "value": 67.0, "timestamp": "1787063360"}
+{"keyword": "The road to ACID transactions in Cassandra 6", "platform": "hackernews", "value": 56.0, "timestamp": "1787314099"}
