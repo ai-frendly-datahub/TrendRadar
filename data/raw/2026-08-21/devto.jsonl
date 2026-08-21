@@ -1,0 +1,58 @@
+{"keyword": "The Reasoning Ledger: Remembering Decisions, Not Just Data", "platform": "devto", "value": 16.0, "timestamp": "2026-08-20T14:03:00Z"}
+{"keyword": "What was your win this week?!", "platform": "devto", "value": 6.0, "timestamp": "2026-08-21T04:00:00Z"}
+{"keyword": "A missing exchange rate is not an exchange rate of 1", "platform": "devto", "value": 4.0, "timestamp": "2026-08-20T12:56:18Z"}
+{"keyword": "The test was green. Every real connection would have failed.", "platform": "devto", "value": 18.0, "timestamp": "2026-08-20T18:54:53Z"}
+{"keyword": "Breaking the Multimodal Barrier: Exploring Gemini Omni and My Time with GDG Calabar", "platform": "devto", "value": 5.0, "timestamp": "2026-08-20T11:13:12Z"}
+{"keyword": "Your agent isn't reckless. It just can't see the blast radius.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-20T18:29:21Z"}
+{"keyword": "One rented /24 could eclipse a Kademlia node. Now it takes ten.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-20T18:56:59Z"}
+{"keyword": "The /sdp endpoint that trusted its callers: fixing a memory-amplification DoS in py-libp2p", "platform": "devto", "value": 12.0, "timestamp": "2026-08-20T18:56:05Z"}
+{"keyword": "What Is a Vulnerability, Really? Source, Sink, and Taint", "platform": "devto", "value": 13.0, "timestamp": "2026-08-20T20:22:58Z"}
+{"keyword": "AI Reviewing AI Is Not Review", "platform": "devto", "value": 6.0, "timestamp": "2026-08-20T15:23:03Z"}
+{"keyword": "Clean code isn't what I thought it was", "platform": "devto", "value": 0.0, "timestamp": "2026-08-20T20:42:46Z"}
+{"keyword": "The $11k cloud bill was mostly the tools you added to watch the cloud bill", "platform": "devto", "value": 4.0, "timestamp": "2026-08-20T10:38:23Z"}
+{"keyword": "A benchmark is only as good as the model you use to grade it", "platform": "devto", "value": 1.0, "timestamp": "2026-08-20T12:25:39Z"}
+{"keyword": "Making a screenshot PDF searchable — no OCR, because we rendered the page", "platform": "devto", "value": 3.0, "timestamp": "2026-08-20T12:44:24Z"}
+{"keyword": "We tested \"tokenize before you compress\" against 452 configurations, and it mostly held up", "platform": "devto", "value": 0.0, "timestamp": "2026-08-21T01:37:16Z"}
+{"keyword": "AI Killed Git Commits: So I Stopped Publishing Them", "platform": "devto", "value": 2.0, "timestamp": "2026-08-20T18:18:56Z"}
+{"keyword": "What I Get to Forget About Riverpod Now That I Have BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-08-21T01:00:50Z"}
+{"keyword": "Your Memory API Is Lying to Your Agent", "platform": "devto", "value": 3.0, "timestamp": "2026-08-20T22:33:17Z"}
+{"keyword": "23 TypeScript Tools for Making Software Explicit in the AI Era", "platform": "devto", "value": 0.0, "timestamp": "2026-08-21T08:53:59Z"}
+{"keyword": "I Ran 157 Agent Plans Against a Real LLM. The Problem Wasn't Execution. It Was Planning.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-21T01:53:43Z"}
+{"keyword": "MCP C# SDK Array Tool Outputs: Stop Looking for a `result` Wrapper", "platform": "devto", "value": 5.0, "timestamp": "2026-08-21T01:23:31Z"}
+{"keyword": "The Modal Was Open. So Was Everything Behind It.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-21T06:54:16Z"}
+{"keyword": "React useTimeout Hook: Declarative setTimeout with Cleanup (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-21T02:41:25Z"}
+{"keyword": "Advanced GPU Optimization: How to tech an LLM with CUDA and ROCm? - Part 4", "platform": "devto", "value": 6.0, "timestamp": "2026-08-21T06:57:27Z"}
+{"keyword": "Reliable Form Submissions: Dirty State, Fingerprints, and Idempotency", "platform": "devto", "value": 1.0, "timestamp": "2026-08-21T07:07:30Z"}
+{"keyword": "MCP Just Went Stateless and \"Broke\" Half the Ecosystem: Here Is My Fix", "platform": "devto", "value": 1.0, "timestamp": "2026-08-20T13:30:00Z"}
+{"keyword": "The Criteria pattern in NestJS: what a client may ask for is a file, not a signature", "platform": "devto", "value": 3.0, "timestamp": "2026-08-21T03:10:36Z"}
+{"keyword": "The lighthouse that leaked WebGL memory every time you changed the theme", "platform": "devto", "value": 1.0, "timestamp": "2026-08-20T11:48:36Z"}
+{"keyword": "Four words of Python killed every sentence after first", "platform": "devto", "value": 0.0, "timestamp": "2026-08-21T01:54:55Z"}
+{"keyword": "The Reasoning Ledger: Remembering Decisions, Not Just Data", "platform": "devto", "value": 16.0, "timestamp": "2026-08-20T14:03:00Z"}
+{"keyword": "What was your win this week?!", "platform": "devto", "value": 6.0, "timestamp": "2026-08-21T04:00:00Z"}
+{"keyword": "A missing exchange rate is not an exchange rate of 1", "platform": "devto", "value": 4.0, "timestamp": "2026-08-20T12:56:18Z"}
+{"keyword": "The test was green. Every real connection would have failed.", "platform": "devto", "value": 18.0, "timestamp": "2026-08-20T18:54:53Z"}
+{"keyword": "Breaking the Multimodal Barrier: Exploring Gemini Omni and My Time with GDG Calabar", "platform": "devto", "value": 5.0, "timestamp": "2026-08-20T11:13:12Z"}
+{"keyword": "Your agent isn't reckless. It just can't see the blast radius.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-20T18:29:21Z"}
+{"keyword": "One rented /24 could eclipse a Kademlia node. Now it takes ten.", "platform": "devto", "value": 12.0, "timestamp": "2026-08-20T18:56:59Z"}
+{"keyword": "The /sdp endpoint that trusted its callers: fixing a memory-amplification DoS in py-libp2p", "platform": "devto", "value": 12.0, "timestamp": "2026-08-20T18:56:05Z"}
+{"keyword": "What Is a Vulnerability, Really? Source, Sink, and Taint", "platform": "devto", "value": 13.0, "timestamp": "2026-08-20T20:22:58Z"}
+{"keyword": "AI Reviewing AI Is Not Review", "platform": "devto", "value": 6.0, "timestamp": "2026-08-20T15:23:03Z"}
+{"keyword": "Clean code isn't what I thought it was", "platform": "devto", "value": 0.0, "timestamp": "2026-08-20T20:42:46Z"}
+{"keyword": "The $11k cloud bill was mostly the tools you added to watch the cloud bill", "platform": "devto", "value": 4.0, "timestamp": "2026-08-20T10:38:23Z"}
+{"keyword": "A benchmark is only as good as the model you use to grade it", "platform": "devto", "value": 1.0, "timestamp": "2026-08-20T12:25:39Z"}
+{"keyword": "Making a screenshot PDF searchable — no OCR, because we rendered the page", "platform": "devto", "value": 3.0, "timestamp": "2026-08-20T12:44:24Z"}
+{"keyword": "We tested \"tokenize before you compress\" against 452 configurations, and it mostly held up", "platform": "devto", "value": 0.0, "timestamp": "2026-08-21T01:37:16Z"}
+{"keyword": "AI Killed Git Commits: So I Stopped Publishing Them", "platform": "devto", "value": 2.0, "timestamp": "2026-08-20T18:18:56Z"}
+{"keyword": "What I Get to Forget About Riverpod Now That I Have BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-08-21T01:00:50Z"}
+{"keyword": "Your Memory API Is Lying to Your Agent", "platform": "devto", "value": 3.0, "timestamp": "2026-08-20T22:33:17Z"}
+{"keyword": "23 TypeScript Tools for Making Software Explicit in the AI Era", "platform": "devto", "value": 0.0, "timestamp": "2026-08-21T08:53:59Z"}
+{"keyword": "I Ran 157 Agent Plans Against a Real LLM. The Problem Wasn't Execution. It Was Planning.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-21T01:53:43Z"}
+{"keyword": "MCP C# SDK Array Tool Outputs: Stop Looking for a `result` Wrapper", "platform": "devto", "value": 5.0, "timestamp": "2026-08-21T01:23:31Z"}
+{"keyword": "The Modal Was Open. So Was Everything Behind It.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-21T06:54:16Z"}
+{"keyword": "React useTimeout Hook: Declarative setTimeout with Cleanup (2026)", "platform": "devto", "value": 8.0, "timestamp": "2026-08-21T02:41:25Z"}
+{"keyword": "Advanced GPU Optimization: How to tech an LLM with CUDA and ROCm? - Part 4", "platform": "devto", "value": 6.0, "timestamp": "2026-08-21T06:57:27Z"}
+{"keyword": "Reliable Form Submissions: Dirty State, Fingerprints, and Idempotency", "platform": "devto", "value": 1.0, "timestamp": "2026-08-21T07:07:30Z"}
+{"keyword": "MCP Just Went Stateless and \"Broke\" Half the Ecosystem: Here Is My Fix", "platform": "devto", "value": 1.0, "timestamp": "2026-08-20T13:30:00Z"}
+{"keyword": "The Criteria pattern in NestJS: what a client may ask for is a file, not a signature", "platform": "devto", "value": 3.0, "timestamp": "2026-08-21T03:10:36Z"}
+{"keyword": "The lighthouse that leaked WebGL memory every time you changed the theme", "platform": "devto", "value": 1.0, "timestamp": "2026-08-20T11:48:36Z"}
+{"keyword": "Four words of Python killed every sentence after first", "platform": "devto", "value": 0.0, "timestamp": "2026-08-21T01:54:55Z"}
