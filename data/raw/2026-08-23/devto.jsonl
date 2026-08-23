@@ -54,3 +54,115 @@
 {"keyword": "The multilingual bugs that never throw: hreflang, JSON-LD and a site in 12 languages", "platform": "devto", "value": 1.0, "timestamp": "2026-08-22T12:47:29Z"}
 {"keyword": "AI 리포트 수치 검증기 - 자기정합 검사만으론 못 잡는 오류들", "platform": "devto", "value": 0.0, "timestamp": "2026-08-22T12:12:17Z"}
 {"keyword": "Your django-haystack Whoosh backend breaks on Python 3.13 — here's the one-line fix", "platform": "devto", "value": 1.0, "timestamp": "2026-08-22T12:25:09Z"}
+{"keyword": "Making webpack's Docs Update Themselves | GSoC 2026, wrapped", "platform": "devto", "value": 23.0, "timestamp": "2026-08-23T12:36:05Z"}
+{"keyword": "I wrote the privacy rule, enforced it, commented it, and shipped the leak anyway", "platform": "devto", "value": 10.0, "timestamp": "2026-08-23T00:18:38Z"}
+{"keyword": "Eleven tables, zero indices, and the observability I added afterwards found three more bugs", "platform": "devto", "value": 8.0, "timestamp": "2026-08-23T00:08:10Z"}
+{"keyword": "I installed a crash reporter and it crashed my app 100% of the time", "platform": "devto", "value": 8.0, "timestamp": "2026-08-23T00:11:01Z"}
+{"keyword": "My performance optimization silently disabled the feature the app exists for", "platform": "devto", "value": 7.0, "timestamp": "2026-08-23T00:14:15Z"}
+{"keyword": "The People Building AI Are the Worst at Predicting It", "platform": "devto", "value": 4.0, "timestamp": "2026-08-22T23:22:06Z"}
+{"keyword": "Why editing one word in a PDF is so much harder than it looks", "platform": "devto", "value": 3.0, "timestamp": "2026-08-23T08:32:23Z"}
+{"keyword": "How I recorded my first product demo in 54 seconds (OBS, ffmpeg, openai.fm)", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T04:59:37Z"}
+{"keyword": "The Bug That Looked Fine to Every Visitor and Lied to Every Crawler", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T08:10:17Z"}
+{"keyword": "Someone forked my React component instead of opening an issue", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T00:18:36Z"}
+{"keyword": "I Was Learning PyTorch, Then I Accidentally Started Building My Own AI Training Framework", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T10:48:35Z"}
+{"keyword": "Open Knowledge Format vs RAG: Why Your Agent Should Read a Wiki", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T02:47:11Z"}
+{"keyword": "Mix and Match: One Agent, Three Clouds, One Protocol", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T20:12:24Z"}
+{"keyword": "When a Safety Reviewer Rejected Everything and Still Passed Its Test", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T07:50:12Z"}
+{"keyword": "Your Amazon scraper is returning mixed currencies and won't tell you", "platform": "devto", "value": 6.0, "timestamp": "2026-08-23T05:31:13Z"}
+{"keyword": "Mix and Match: Serving an ADK Agent to AWS and Azure", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T20:09:04Z"}
+{"keyword": "Mix and Match: Serving a Bedrock Agent to Google and Azure", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T19:33:14Z"}
+{"keyword": ".NET 10 NU1015: Fix PackageReference Without Version Restore Failures", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T21:00:04Z"}
+{"keyword": "Stop Searching for Jobs All Day: Build a Job-Search System That Actually Works in 2026", "platform": "devto", "value": 9.0, "timestamp": "2026-08-23T11:29:16Z"}
+{"keyword": "I Built an AI Agent Fleet That Fights Your Insurance Company for You", "platform": "devto", "value": 2.0, "timestamp": "2026-08-23T17:39:02Z"}
+{"keyword": "I Benchmarked 10 MCP Servers — One of Them Burns 47K Tokens Just to Say Hello", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T09:06:08Z"}
+{"keyword": "An unlikely experiment", "platform": "devto", "value": 3.0, "timestamp": "2026-08-22T23:13:55Z"}
+{"keyword": "When Python is Too Slow", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T12:17:08Z"}
+{"keyword": "Week 10 of #100DaysOfCode: Exploring Microservices and Modern Architecture", "platform": "devto", "value": 10.0, "timestamp": "2026-08-23T16:27:11Z"}
+{"keyword": "\"0 matches\" looked like \"all clean\": the PowerShell filter that couldn't fail loudly", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T20:38:16Z"}
+{"keyword": "We fixed the eval platform we're competing on: a TypeError that crashed three benchmark pipelines", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T20:45:02Z"}
+{"keyword": "The HTTP 429 That Turned Seven Minutes Into Zero Work", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T07:53:42Z"}
+{"keyword": "I built a robot that applies for jobs. The hard part was proving it worked.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T20:38:11Z"}
+{"keyword": "Making webpack's Docs Update Themselves | GSoC 2026, wrapped", "platform": "devto", "value": 23.0, "timestamp": "2026-08-23T12:36:05Z"}
+{"keyword": "I wrote the privacy rule, enforced it, commented it, and shipped the leak anyway", "platform": "devto", "value": 10.0, "timestamp": "2026-08-23T00:18:38Z"}
+{"keyword": "Eleven tables, zero indices, and the observability I added afterwards found three more bugs", "platform": "devto", "value": 8.0, "timestamp": "2026-08-23T00:08:10Z"}
+{"keyword": "I installed a crash reporter and it crashed my app 100% of the time", "platform": "devto", "value": 8.0, "timestamp": "2026-08-23T00:11:01Z"}
+{"keyword": "My performance optimization silently disabled the feature the app exists for", "platform": "devto", "value": 7.0, "timestamp": "2026-08-23T00:14:15Z"}
+{"keyword": "The People Building AI Are the Worst at Predicting It", "platform": "devto", "value": 4.0, "timestamp": "2026-08-22T23:22:06Z"}
+{"keyword": "Why editing one word in a PDF is so much harder than it looks", "platform": "devto", "value": 3.0, "timestamp": "2026-08-23T08:32:23Z"}
+{"keyword": "How I recorded my first product demo in 54 seconds (OBS, ffmpeg, openai.fm)", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T04:59:37Z"}
+{"keyword": "The Bug That Looked Fine to Every Visitor and Lied to Every Crawler", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T08:10:17Z"}
+{"keyword": "Someone forked my React component instead of opening an issue", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T00:18:36Z"}
+{"keyword": "I Was Learning PyTorch, Then I Accidentally Started Building My Own AI Training Framework", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T10:48:35Z"}
+{"keyword": "Open Knowledge Format vs RAG: Why Your Agent Should Read a Wiki", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T02:47:11Z"}
+{"keyword": "Mix and Match: One Agent, Three Clouds, One Protocol", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T20:12:24Z"}
+{"keyword": "When a Safety Reviewer Rejected Everything and Still Passed Its Test", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T07:50:12Z"}
+{"keyword": "Your Amazon scraper is returning mixed currencies and won't tell you", "platform": "devto", "value": 6.0, "timestamp": "2026-08-23T05:31:13Z"}
+{"keyword": "Mix and Match: Serving an ADK Agent to AWS and Azure", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T20:09:04Z"}
+{"keyword": "Mix and Match: Serving a Bedrock Agent to Google and Azure", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T19:33:14Z"}
+{"keyword": ".NET 10 NU1015: Fix PackageReference Without Version Restore Failures", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T21:00:04Z"}
+{"keyword": "Stop Searching for Jobs All Day: Build a Job-Search System That Actually Works in 2026", "platform": "devto", "value": 9.0, "timestamp": "2026-08-23T11:29:16Z"}
+{"keyword": "I Built an AI Agent Fleet That Fights Your Insurance Company for You", "platform": "devto", "value": 2.0, "timestamp": "2026-08-23T17:39:02Z"}
+{"keyword": "I Benchmarked 10 MCP Servers — One of Them Burns 47K Tokens Just to Say Hello", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T09:06:08Z"}
+{"keyword": "An unlikely experiment", "platform": "devto", "value": 3.0, "timestamp": "2026-08-22T23:13:55Z"}
+{"keyword": "When Python is Too Slow", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T12:17:08Z"}
+{"keyword": "Week 10 of #100DaysOfCode: Exploring Microservices and Modern Architecture", "platform": "devto", "value": 10.0, "timestamp": "2026-08-23T16:27:11Z"}
+{"keyword": "\"0 matches\" looked like \"all clean\": the PowerShell filter that couldn't fail loudly", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T20:38:16Z"}
+{"keyword": "We fixed the eval platform we're competing on: a TypeError that crashed three benchmark pipelines", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T20:45:02Z"}
+{"keyword": "The HTTP 429 That Turned Seven Minutes Into Zero Work", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T07:53:42Z"}
+{"keyword": "I built a robot that applies for jobs. The hard part was proving it worked.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T20:38:11Z"}
+{"keyword": "Making webpack's Docs Update Themselves | GSoC 2026, wrapped", "platform": "devto", "value": 23.0, "timestamp": "2026-08-23T12:36:05Z"}
+{"keyword": "I wrote the privacy rule, enforced it, commented it, and shipped the leak anyway", "platform": "devto", "value": 10.0, "timestamp": "2026-08-23T00:18:38Z"}
+{"keyword": "Eleven tables, zero indices, and the observability I added afterwards found three more bugs", "platform": "devto", "value": 8.0, "timestamp": "2026-08-23T00:08:10Z"}
+{"keyword": "I installed a crash reporter and it crashed my app 100% of the time", "platform": "devto", "value": 8.0, "timestamp": "2026-08-23T00:11:01Z"}
+{"keyword": "My performance optimization silently disabled the feature the app exists for", "platform": "devto", "value": 7.0, "timestamp": "2026-08-23T00:14:15Z"}
+{"keyword": "The People Building AI Are the Worst at Predicting It", "platform": "devto", "value": 4.0, "timestamp": "2026-08-22T23:22:06Z"}
+{"keyword": "Why editing one word in a PDF is so much harder than it looks", "platform": "devto", "value": 3.0, "timestamp": "2026-08-23T08:32:23Z"}
+{"keyword": "How I recorded my first product demo in 54 seconds (OBS, ffmpeg, openai.fm)", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T04:59:37Z"}
+{"keyword": "The Bug That Looked Fine to Every Visitor and Lied to Every Crawler", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T08:10:17Z"}
+{"keyword": "Someone forked my React component instead of opening an issue", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T00:18:36Z"}
+{"keyword": "I Was Learning PyTorch, Then I Accidentally Started Building My Own AI Training Framework", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T10:48:35Z"}
+{"keyword": "Open Knowledge Format vs RAG: Why Your Agent Should Read a Wiki", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T02:47:11Z"}
+{"keyword": "Mix and Match: One Agent, Three Clouds, One Protocol", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T20:12:24Z"}
+{"keyword": "When a Safety Reviewer Rejected Everything and Still Passed Its Test", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T07:50:12Z"}
+{"keyword": "Your Amazon scraper is returning mixed currencies and won't tell you", "platform": "devto", "value": 6.0, "timestamp": "2026-08-23T05:31:13Z"}
+{"keyword": "Mix and Match: Serving an ADK Agent to AWS and Azure", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T20:09:04Z"}
+{"keyword": "Mix and Match: Serving a Bedrock Agent to Google and Azure", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T19:33:14Z"}
+{"keyword": ".NET 10 NU1015: Fix PackageReference Without Version Restore Failures", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T21:00:04Z"}
+{"keyword": "Stop Searching for Jobs All Day: Build a Job-Search System That Actually Works in 2026", "platform": "devto", "value": 9.0, "timestamp": "2026-08-23T11:29:16Z"}
+{"keyword": "I Built an AI Agent Fleet That Fights Your Insurance Company for You", "platform": "devto", "value": 2.0, "timestamp": "2026-08-23T17:39:02Z"}
+{"keyword": "I Benchmarked 10 MCP Servers — One of Them Burns 47K Tokens Just to Say Hello", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T09:06:08Z"}
+{"keyword": "An unlikely experiment", "platform": "devto", "value": 3.0, "timestamp": "2026-08-22T23:13:55Z"}
+{"keyword": "When Python is Too Slow", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T12:17:08Z"}
+{"keyword": "Week 10 of #100DaysOfCode: Exploring Microservices and Modern Architecture", "platform": "devto", "value": 10.0, "timestamp": "2026-08-23T16:27:11Z"}
+{"keyword": "\"0 matches\" looked like \"all clean\": the PowerShell filter that couldn't fail loudly", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T20:38:16Z"}
+{"keyword": "We fixed the eval platform we're competing on: a TypeError that crashed three benchmark pipelines", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T20:45:02Z"}
+{"keyword": "The HTTP 429 That Turned Seven Minutes Into Zero Work", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T07:53:42Z"}
+{"keyword": "I built a robot that applies for jobs. The hard part was proving it worked.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T20:38:11Z"}
+{"keyword": "Making webpack's Docs Update Themselves | GSoC 2026, wrapped", "platform": "devto", "value": 23.0, "timestamp": "2026-08-23T12:36:05Z"}
+{"keyword": "I wrote the privacy rule, enforced it, commented it, and shipped the leak anyway", "platform": "devto", "value": 10.0, "timestamp": "2026-08-23T00:18:38Z"}
+{"keyword": "Eleven tables, zero indices, and the observability I added afterwards found three more bugs", "platform": "devto", "value": 8.0, "timestamp": "2026-08-23T00:08:10Z"}
+{"keyword": "I installed a crash reporter and it crashed my app 100% of the time", "platform": "devto", "value": 8.0, "timestamp": "2026-08-23T00:11:01Z"}
+{"keyword": "My performance optimization silently disabled the feature the app exists for", "platform": "devto", "value": 7.0, "timestamp": "2026-08-23T00:14:15Z"}
+{"keyword": "The People Building AI Are the Worst at Predicting It", "platform": "devto", "value": 4.0, "timestamp": "2026-08-22T23:22:06Z"}
+{"keyword": "Why editing one word in a PDF is so much harder than it looks", "platform": "devto", "value": 3.0, "timestamp": "2026-08-23T08:32:23Z"}
+{"keyword": "How I recorded my first product demo in 54 seconds (OBS, ffmpeg, openai.fm)", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T04:59:37Z"}
+{"keyword": "The Bug That Looked Fine to Every Visitor and Lied to Every Crawler", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T08:10:17Z"}
+{"keyword": "Someone forked my React component instead of opening an issue", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T00:18:36Z"}
+{"keyword": "I Was Learning PyTorch, Then I Accidentally Started Building My Own AI Training Framework", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T10:48:35Z"}
+{"keyword": "Open Knowledge Format vs RAG: Why Your Agent Should Read a Wiki", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T02:47:11Z"}
+{"keyword": "Mix and Match: One Agent, Three Clouds, One Protocol", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T20:12:24Z"}
+{"keyword": "When a Safety Reviewer Rejected Everything and Still Passed Its Test", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T07:50:12Z"}
+{"keyword": "Your Amazon scraper is returning mixed currencies and won't tell you", "platform": "devto", "value": 6.0, "timestamp": "2026-08-23T05:31:13Z"}
+{"keyword": "Mix and Match: Serving an ADK Agent to AWS and Azure", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T20:09:04Z"}
+{"keyword": "Mix and Match: Serving a Bedrock Agent to Google and Azure", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T19:33:14Z"}
+{"keyword": ".NET 10 NU1015: Fix PackageReference Without Version Restore Failures", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T21:00:04Z"}
+{"keyword": "Stop Searching for Jobs All Day: Build a Job-Search System That Actually Works in 2026", "platform": "devto", "value": 9.0, "timestamp": "2026-08-23T11:29:16Z"}
+{"keyword": "I Built an AI Agent Fleet That Fights Your Insurance Company for You", "platform": "devto", "value": 2.0, "timestamp": "2026-08-23T17:39:02Z"}
+{"keyword": "I Benchmarked 10 MCP Servers — One of Them Burns 47K Tokens Just to Say Hello", "platform": "devto", "value": 1.0, "timestamp": "2026-08-23T09:06:08Z"}
+{"keyword": "An unlikely experiment", "platform": "devto", "value": 3.0, "timestamp": "2026-08-22T23:13:55Z"}
+{"keyword": "When Python is Too Slow", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T12:17:08Z"}
+{"keyword": "Week 10 of #100DaysOfCode: Exploring Microservices and Modern Architecture", "platform": "devto", "value": 10.0, "timestamp": "2026-08-23T16:27:11Z"}
+{"keyword": "\"0 matches\" looked like \"all clean\": the PowerShell filter that couldn't fail loudly", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T20:38:16Z"}
+{"keyword": "We fixed the eval platform we're competing on: a TypeError that crashed three benchmark pipelines", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T20:45:02Z"}
+{"keyword": "The HTTP 429 That Turned Seven Minutes Into Zero Work", "platform": "devto", "value": 0.0, "timestamp": "2026-08-23T07:53:42Z"}
+{"keyword": "I built a robot that applies for jobs. The hard part was proving it worked.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-23T20:38:11Z"}
