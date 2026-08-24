@@ -56,3 +56,119 @@
 {"keyword": "THE SERVER HAD THE DATA. BUT NOT THE KEY.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-24T06:51:37Z"}
 {"keyword": "It Passed Every Test. That's Why It Can't Ship Yet.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-24T00:32:20Z"}
 {"keyword": "Node.js interview deep dive: what they are really testing", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T06:19:00Z"}
+{"keyword": "I Used React DataGrid to Build a Real Space Mission Explorer", "platform": "devto", "value": 26.0, "timestamp": "2026-08-24T09:09:25Z"}
+{"keyword": "I Won a Writing Challenge That I Almost Didn't Publish!", "platform": "devto", "value": 12.0, "timestamp": "2026-08-24T17:24:53Z"}
+{"keyword": "I Almost Shipped a RAG Assistant That Lied About APIs That Don't Exist", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T12:17:58Z"}
+{"keyword": "The Model Scored 30%. The Harness Scored 100%. Which One Did You Benchmark?", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T13:38:40Z"}
+{"keyword": "I Built an AWS DevOps AI Agent Using Kiro Crew + MCP", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T11:30:54Z"}
+{"keyword": "The Tests Passed. The Contract Was Wrong.", "platform": "devto", "value": 19.0, "timestamp": "2026-08-24T04:24:57Z"}
+{"keyword": "7 Signs You're Over-Engineering Your AI App (and How to Stop)", "platform": "devto", "value": 19.0, "timestamp": "2026-08-24T03:24:26Z"}
+{"keyword": "Why my biggest embarrassment was also one of my greatest learning experiences in Programming!", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T06:29:53Z"}
+{"keyword": "How I Actually Code with Claude Code: My Real Workflow on a Real Project", "platform": "devto", "value": 17.0, "timestamp": "2026-08-24T04:02:37Z"}
+{"keyword": "AI, Fairy's, and Agile", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T06:07:45Z"}
+{"keyword": "I Built a Real-World Customer Payment Analysis Tool in Python", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:29:52Z"}
+{"keyword": "Why I Couldn't Access My Own Site (But My Phone Could): A Cloudways Auto-Ban Story", "platform": "devto", "value": 0.0, "timestamp": "2026-08-24T13:12:24Z"}
+{"keyword": "When AI Agents Meet Zero Trust: Building NEXUS on Istio Service Mesh", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:35:58Z"}
+{"keyword": "False Green: My Incident Agent Said “Healthy” Without Live Evidence", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T04:08:29Z"}
+{"keyword": "I Audited 50,669 n8n Runs. 85% of Failures Alerted Nobody.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T05:40:54Z"}
+{"keyword": "Build a Mini Engineering Graph With TypeScript and GitHub", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T04:37:07Z"}
+{"keyword": "Auto Subtitles Are Drafts: Why 99% Accuracy Isn’t the Finish Line", "platform": "devto", "value": 3.0, "timestamp": "2026-08-24T09:22:05Z"}
+{"keyword": "I Ran 170 Agent Goals for $0.49. The Field Test Found 10 Issues That Unit Tests Never Would.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-24T07:05:47Z"}
+{"keyword": "Vue Reactivity Explained: ref vs reactive (+ Cheat Sheet)", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T13:57:36Z"}
+{"keyword": "The CSS Selector Built to Lose Every Fight", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T07:06:36Z"}
+{"keyword": "JavaScript Proxy and Reflect: The Complete Guide", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T07:06:37Z"}
+{"keyword": "DeviceCheck and App Attest: Stopping Fraud in iOS Apps", "platform": "devto", "value": 6.0, "timestamp": "2026-08-24T10:57:39Z"}
+{"keyword": "Porting a 20-Year-Old Game to Mobile: Lessons from RuneScape", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T11:16:46Z"}
+{"keyword": "MCP Pagination Empty `nextCursor`: Don't Stop After Page One", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T19:51:37Z"}
+{"keyword": "React 19 Compiler: The End of Manual Memoization?", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T03:00:46Z"}
+{"keyword": "The honest boundary of argument-space verification — and what the Evidence Locker adds", "platform": "devto", "value": 4.0, "timestamp": "2026-08-24T08:32:27Z"}
+{"keyword": "Next.js Partial Prefetching: One Shell Per Route, Not One Per Link", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:06:05Z"}
+{"keyword": "Browser OCR got a lot better once I stopped feeding Tesseract the raw image", "platform": "devto", "value": 6.0, "timestamp": "2026-08-24T13:00:01Z"}
+{"keyword": "Trademarx - A free public API for Indian Trademarks", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T13:00:43Z"}
+{"keyword": "I Used React DataGrid to Build a Real Space Mission Explorer", "platform": "devto", "value": 26.0, "timestamp": "2026-08-24T09:09:25Z"}
+{"keyword": "I Won a Writing Challenge That I Almost Didn't Publish!", "platform": "devto", "value": 12.0, "timestamp": "2026-08-24T17:24:53Z"}
+{"keyword": "I Almost Shipped a RAG Assistant That Lied About APIs That Don't Exist", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T12:17:58Z"}
+{"keyword": "The Model Scored 30%. The Harness Scored 100%. Which One Did You Benchmark?", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T13:38:40Z"}
+{"keyword": "I Built an AWS DevOps AI Agent Using Kiro Crew + MCP", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T11:30:54Z"}
+{"keyword": "The Tests Passed. The Contract Was Wrong.", "platform": "devto", "value": 19.0, "timestamp": "2026-08-24T04:24:57Z"}
+{"keyword": "7 Signs You're Over-Engineering Your AI App (and How to Stop)", "platform": "devto", "value": 19.0, "timestamp": "2026-08-24T03:24:26Z"}
+{"keyword": "Why my biggest embarrassment was also one of my greatest learning experiences in Programming!", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T06:29:53Z"}
+{"keyword": "How I Actually Code with Claude Code: My Real Workflow on a Real Project", "platform": "devto", "value": 17.0, "timestamp": "2026-08-24T04:02:37Z"}
+{"keyword": "AI, Fairy's, and Agile", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T06:07:45Z"}
+{"keyword": "I Built a Real-World Customer Payment Analysis Tool in Python", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:29:52Z"}
+{"keyword": "Why I Couldn't Access My Own Site (But My Phone Could): A Cloudways Auto-Ban Story", "platform": "devto", "value": 0.0, "timestamp": "2026-08-24T13:12:24Z"}
+{"keyword": "When AI Agents Meet Zero Trust: Building NEXUS on Istio Service Mesh", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:35:58Z"}
+{"keyword": "False Green: My Incident Agent Said “Healthy” Without Live Evidence", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T04:08:29Z"}
+{"keyword": "I Audited 50,669 n8n Runs. 85% of Failures Alerted Nobody.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T05:40:54Z"}
+{"keyword": "Build a Mini Engineering Graph With TypeScript and GitHub", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T04:37:07Z"}
+{"keyword": "Auto Subtitles Are Drafts: Why 99% Accuracy Isn’t the Finish Line", "platform": "devto", "value": 3.0, "timestamp": "2026-08-24T09:22:05Z"}
+{"keyword": "I Ran 170 Agent Goals for $0.49. The Field Test Found 10 Issues That Unit Tests Never Would.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-24T07:05:47Z"}
+{"keyword": "Vue Reactivity Explained: ref vs reactive (+ Cheat Sheet)", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T13:57:36Z"}
+{"keyword": "The CSS Selector Built to Lose Every Fight", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T07:06:36Z"}
+{"keyword": "JavaScript Proxy and Reflect: The Complete Guide", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T07:06:37Z"}
+{"keyword": "DeviceCheck and App Attest: Stopping Fraud in iOS Apps", "platform": "devto", "value": 6.0, "timestamp": "2026-08-24T10:57:39Z"}
+{"keyword": "Porting a 20-Year-Old Game to Mobile: Lessons from RuneScape", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T11:16:46Z"}
+{"keyword": "MCP Pagination Empty `nextCursor`: Don't Stop After Page One", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T19:51:37Z"}
+{"keyword": "React 19 Compiler: The End of Manual Memoization?", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T03:00:46Z"}
+{"keyword": "The honest boundary of argument-space verification — and what the Evidence Locker adds", "platform": "devto", "value": 4.0, "timestamp": "2026-08-24T08:32:27Z"}
+{"keyword": "Next.js Partial Prefetching: One Shell Per Route, Not One Per Link", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:06:05Z"}
+{"keyword": "Browser OCR got a lot better once I stopped feeding Tesseract the raw image", "platform": "devto", "value": 6.0, "timestamp": "2026-08-24T13:00:01Z"}
+{"keyword": "Trademarx - A free public API for Indian Trademarks", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T13:00:43Z"}
+{"keyword": "I Used React DataGrid to Build a Real Space Mission Explorer", "platform": "devto", "value": 26.0, "timestamp": "2026-08-24T09:09:25Z"}
+{"keyword": "I Won a Writing Challenge That I Almost Didn't Publish!", "platform": "devto", "value": 12.0, "timestamp": "2026-08-24T17:24:53Z"}
+{"keyword": "I Almost Shipped a RAG Assistant That Lied About APIs That Don't Exist", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T12:17:58Z"}
+{"keyword": "The Model Scored 30%. The Harness Scored 100%. Which One Did You Benchmark?", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T13:38:40Z"}
+{"keyword": "I Built an AWS DevOps AI Agent Using Kiro Crew + MCP", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T11:30:54Z"}
+{"keyword": "The Tests Passed. The Contract Was Wrong.", "platform": "devto", "value": 19.0, "timestamp": "2026-08-24T04:24:57Z"}
+{"keyword": "7 Signs You're Over-Engineering Your AI App (and How to Stop)", "platform": "devto", "value": 19.0, "timestamp": "2026-08-24T03:24:26Z"}
+{"keyword": "Why my biggest embarrassment was also one of my greatest learning experiences in Programming!", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T06:29:53Z"}
+{"keyword": "How I Actually Code with Claude Code: My Real Workflow on a Real Project", "platform": "devto", "value": 17.0, "timestamp": "2026-08-24T04:02:37Z"}
+{"keyword": "AI, Fairy's, and Agile", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T06:07:45Z"}
+{"keyword": "I Built a Real-World Customer Payment Analysis Tool in Python", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:29:52Z"}
+{"keyword": "Why I Couldn't Access My Own Site (But My Phone Could): A Cloudways Auto-Ban Story", "platform": "devto", "value": 0.0, "timestamp": "2026-08-24T13:12:24Z"}
+{"keyword": "When AI Agents Meet Zero Trust: Building NEXUS on Istio Service Mesh", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:35:58Z"}
+{"keyword": "False Green: My Incident Agent Said “Healthy” Without Live Evidence", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T04:08:29Z"}
+{"keyword": "I Audited 50,669 n8n Runs. 85% of Failures Alerted Nobody.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T05:40:54Z"}
+{"keyword": "Build a Mini Engineering Graph With TypeScript and GitHub", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T04:37:07Z"}
+{"keyword": "Auto Subtitles Are Drafts: Why 99% Accuracy Isn’t the Finish Line", "platform": "devto", "value": 3.0, "timestamp": "2026-08-24T09:22:05Z"}
+{"keyword": "I Ran 170 Agent Goals for $0.49. The Field Test Found 10 Issues That Unit Tests Never Would.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-24T07:05:47Z"}
+{"keyword": "Vue Reactivity Explained: ref vs reactive (+ Cheat Sheet)", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T13:57:36Z"}
+{"keyword": "The CSS Selector Built to Lose Every Fight", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T07:06:36Z"}
+{"keyword": "JavaScript Proxy and Reflect: The Complete Guide", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T07:06:37Z"}
+{"keyword": "DeviceCheck and App Attest: Stopping Fraud in iOS Apps", "platform": "devto", "value": 6.0, "timestamp": "2026-08-24T10:57:39Z"}
+{"keyword": "Porting a 20-Year-Old Game to Mobile: Lessons from RuneScape", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T11:16:46Z"}
+{"keyword": "MCP Pagination Empty `nextCursor`: Don't Stop After Page One", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T19:51:37Z"}
+{"keyword": "React 19 Compiler: The End of Manual Memoization?", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T03:00:46Z"}
+{"keyword": "The honest boundary of argument-space verification — and what the Evidence Locker adds", "platform": "devto", "value": 4.0, "timestamp": "2026-08-24T08:32:27Z"}
+{"keyword": "Next.js Partial Prefetching: One Shell Per Route, Not One Per Link", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:06:05Z"}
+{"keyword": "Browser OCR got a lot better once I stopped feeding Tesseract the raw image", "platform": "devto", "value": 6.0, "timestamp": "2026-08-24T13:00:01Z"}
+{"keyword": "Trademarx - A free public API for Indian Trademarks", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T13:00:43Z"}
+{"keyword": "I Used React DataGrid to Build a Real Space Mission Explorer", "platform": "devto", "value": 26.0, "timestamp": "2026-08-24T09:09:25Z"}
+{"keyword": "I Won a Writing Challenge That I Almost Didn't Publish!", "platform": "devto", "value": 12.0, "timestamp": "2026-08-24T17:24:53Z"}
+{"keyword": "I Almost Shipped a RAG Assistant That Lied About APIs That Don't Exist", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T12:17:58Z"}
+{"keyword": "The Model Scored 30%. The Harness Scored 100%. Which One Did You Benchmark?", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T13:38:40Z"}
+{"keyword": "I Built an AWS DevOps AI Agent Using Kiro Crew + MCP", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T11:30:54Z"}
+{"keyword": "The Tests Passed. The Contract Was Wrong.", "platform": "devto", "value": 19.0, "timestamp": "2026-08-24T04:24:57Z"}
+{"keyword": "7 Signs You're Over-Engineering Your AI App (and How to Stop)", "platform": "devto", "value": 19.0, "timestamp": "2026-08-24T03:24:26Z"}
+{"keyword": "Why my biggest embarrassment was also one of my greatest learning experiences in Programming!", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T06:29:53Z"}
+{"keyword": "How I Actually Code with Claude Code: My Real Workflow on a Real Project", "platform": "devto", "value": 17.0, "timestamp": "2026-08-24T04:02:37Z"}
+{"keyword": "AI, Fairy's, and Agile", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T06:07:45Z"}
+{"keyword": "I Built a Real-World Customer Payment Analysis Tool in Python", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:29:52Z"}
+{"keyword": "Why I Couldn't Access My Own Site (But My Phone Could): A Cloudways Auto-Ban Story", "platform": "devto", "value": 0.0, "timestamp": "2026-08-24T13:12:24Z"}
+{"keyword": "When AI Agents Meet Zero Trust: Building NEXUS on Istio Service Mesh", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:35:58Z"}
+{"keyword": "False Green: My Incident Agent Said “Healthy” Without Live Evidence", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T04:08:29Z"}
+{"keyword": "I Audited 50,669 n8n Runs. 85% of Failures Alerted Nobody.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T05:40:54Z"}
+{"keyword": "Build a Mini Engineering Graph With TypeScript and GitHub", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T04:37:07Z"}
+{"keyword": "Auto Subtitles Are Drafts: Why 99% Accuracy Isn’t the Finish Line", "platform": "devto", "value": 3.0, "timestamp": "2026-08-24T09:22:05Z"}
+{"keyword": "I Ran 170 Agent Goals for $0.49. The Field Test Found 10 Issues That Unit Tests Never Would.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-24T07:05:47Z"}
+{"keyword": "Vue Reactivity Explained: ref vs reactive (+ Cheat Sheet)", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T13:57:36Z"}
+{"keyword": "The CSS Selector Built to Lose Every Fight", "platform": "devto", "value": 9.0, "timestamp": "2026-08-24T07:06:36Z"}
+{"keyword": "JavaScript Proxy and Reflect: The Complete Guide", "platform": "devto", "value": 7.0, "timestamp": "2026-08-24T07:06:37Z"}
+{"keyword": "DeviceCheck and App Attest: Stopping Fraud in iOS Apps", "platform": "devto", "value": 6.0, "timestamp": "2026-08-24T10:57:39Z"}
+{"keyword": "Porting a 20-Year-Old Game to Mobile: Lessons from RuneScape", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T11:16:46Z"}
+{"keyword": "MCP Pagination Empty `nextCursor`: Don't Stop After Page One", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T19:51:37Z"}
+{"keyword": "React 19 Compiler: The End of Manual Memoization?", "platform": "devto", "value": 5.0, "timestamp": "2026-08-24T03:00:46Z"}
+{"keyword": "The honest boundary of argument-space verification — and what the Evidence Locker adds", "platform": "devto", "value": 4.0, "timestamp": "2026-08-24T08:32:27Z"}
+{"keyword": "Next.js Partial Prefetching: One Shell Per Route, Not One Per Link", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T08:06:05Z"}
+{"keyword": "Browser OCR got a lot better once I stopped feeding Tesseract the raw image", "platform": "devto", "value": 6.0, "timestamp": "2026-08-24T13:00:01Z"}
+{"keyword": "Trademarx - A free public API for Indian Trademarks", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T13:00:43Z"}
