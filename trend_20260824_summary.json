@@ -6,6 +6,10 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "Samsung",
+      "count": 10
+    },
+    {
       "name": "Netflix",
       "count": 10
     },
@@ -19,10 +23,6 @@
     },
     {
       "name": "Electric vehicle",
-      "count": 10
-    },
-    {
-      "name": "E-commerce",
       "count": 10
     },
     {
@@ -50,7 +50,11 @@
       "count": 9
     },
     {
-      "name": "Samsung",
+      "name": "World Wide Web",
+      "count": 9
+    },
+    {
+      "name": "E-commerce",
       "count": 9
     },
     {
@@ -62,11 +66,7 @@
       "count": 9
     },
     {
-      "name": "World Wide Web",
-      "count": 9
-    },
-    {
-      "name": "청약",
+      "name": "부동산 시장",
       "count": 2
     },
     {
@@ -74,21 +74,21 @@
       "count": 2
     },
     {
-      "name": "블랙핑크",
+      "name": "재건축",
       "count": 2
     },
     {
-      "name": "BTS",
+      "name": "연예인",
       "count": 2
     },
     {
-      "name": "음원차트",
+      "name": "청약",
       "count": 2
     }
   ],
   "sources": {
-    "wikipedia": 140,
-    "google": 60
+    "google": 60,
+    "wikipedia": 140
   },
-  "generated_at": "2026-08-24T19:33:53.085546+09:00"
+  "generated_at": "2026-08-24T22:22:26.811804+00:00"
 }
