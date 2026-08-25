@@ -15,3 +15,29 @@
 {"keyword": "Can&#39;t Call Action method using JavaScript,the request is not even reaching the Action method", "platform": "stackexchange", "value": 2.0, "timestamp": "1787581092"}
 {"keyword": "The scrollbar shows up on the div, but it refuses to scroll", "platform": "stackexchange", "value": 0.0, "timestamp": "1787607411"}
 {"keyword": "Strange SSAO &quot;cloning&quot; artifacts", "platform": "stackexchange", "value": 1.0, "timestamp": "1787606275"}
+{"keyword": "Why does case_when() in R work for one option with true and not work with another option?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787690492"}
+{"keyword": "How Can I Exclude Holidays Using My Custom Holiday Table Into my SQL Code that Excludes Weekends", "platform": "stackexchange", "value": 0.0, "timestamp": "1787687734"}
+{"keyword": "Django Channels redis.exceptions.TimeoutError: Timeout reading from 127.0.0.1:6379", "platform": "stackexchange", "value": 2.0, "timestamp": "1787686237"}
+{"keyword": "How to use Hibernate StatelessSession with open-in-view", "platform": "stackexchange", "value": 0.0, "timestamp": "1787683701"}
+{"keyword": "How to extend class based off of template parameters?", "platform": "stackexchange", "value": 2.0, "timestamp": "1787645087"}
+{"keyword": "How to populate the foreign key value manually, or let SQL Server do it automatically?", "platform": "stackexchange", "value": 1.0, "timestamp": "1787667160"}
+{"keyword": "Closing the Popup in WPF", "platform": "stackexchange", "value": 0.0, "timestamp": "1787679745"}
+{"keyword": "Ring coupler issue in Python", "platform": "stackexchange", "value": 1.0, "timestamp": "1787659567"}
+{"keyword": "How to recover salesforce cdc data?", "platform": "stackexchange", "value": 3.0, "timestamp": "1787665893"}
+{"keyword": "Reading &quot;WHO_AM_I&quot; register in MPU6050 issue", "platform": "stackexchange", "value": 0.0, "timestamp": "1787673517"}
+{"keyword": "nanoff --version says You must install or update .NET to run this application", "platform": "stackexchange", "value": 0.0, "timestamp": "1787675749"}
+{"keyword": "Fix the aspect ratio of the components of a JTextPane", "platform": "stackexchange", "value": 0.0, "timestamp": "1787664242"}
+{"keyword": "PyCharm Ctrl+F / Find in current file does nothing, while Find in Files works", "platform": "stackexchange", "value": 0.0, "timestamp": "1787651283"}
+{"keyword": "Why does case_when() in R work for one option with true and not work with another option?", "platform": "stackexchange", "value": 0.0, "timestamp": "1787690492"}
+{"keyword": "How Can I Exclude Holidays Using My Custom Holiday Table Into my SQL Code that Excludes Weekends", "platform": "stackexchange", "value": 0.0, "timestamp": "1787687734"}
+{"keyword": "Django Channels redis.exceptions.TimeoutError: Timeout reading from 127.0.0.1:6379", "platform": "stackexchange", "value": 2.0, "timestamp": "1787686237"}
+{"keyword": "How to use Hibernate StatelessSession with open-in-view", "platform": "stackexchange", "value": 0.0, "timestamp": "1787683701"}
+{"keyword": "How to extend class based off of template parameters?", "platform": "stackexchange", "value": 2.0, "timestamp": "1787645087"}
+{"keyword": "How to populate the foreign key value manually, or let SQL Server do it automatically?", "platform": "stackexchange", "value": 1.0, "timestamp": "1787667160"}
+{"keyword": "Closing the Popup in WPF", "platform": "stackexchange", "value": 0.0, "timestamp": "1787679745"}
+{"keyword": "Ring coupler issue in Python", "platform": "stackexchange", "value": 1.0, "timestamp": "1787659567"}
+{"keyword": "How to recover salesforce cdc data?", "platform": "stackexchange", "value": 3.0, "timestamp": "1787665893"}
+{"keyword": "Reading &quot;WHO_AM_I&quot; register in MPU6050 issue", "platform": "stackexchange", "value": 0.0, "timestamp": "1787673517"}
+{"keyword": "nanoff --version says You must install or update .NET to run this application", "platform": "stackexchange", "value": 0.0, "timestamp": "1787675749"}
+{"keyword": "Fix the aspect ratio of the components of a JTextPane", "platform": "stackexchange", "value": 0.0, "timestamp": "1787664242"}
+{"keyword": "PyCharm Ctrl+F / Find in current file does nothing, while Find in Files works", "platform": "stackexchange", "value": 0.0, "timestamp": "1787651283"}

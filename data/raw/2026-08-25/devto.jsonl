@@ -56,3 +56,115 @@
 {"keyword": "SSL Certificate Problem: Unable to Get Local Issuer Certificate", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T16:38:30Z"}
 {"keyword": "SSL Certificate Name Mismatch: NET::ERR_CERT_COMMON_NAME_INVALID", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T17:56:38Z"}
 {"keyword": "Your retry logic is correct and does nothing", "platform": "devto", "value": 2.0, "timestamp": "2026-08-24T18:12:14Z"}
+{"keyword": "AI promoted every developer to reviewer. Nobody tested the reviewer.", "platform": "devto", "value": 38.0, "timestamp": "2026-08-24T23:23:06Z"}
+{"keyword": "What Do You Do While AI Codes?", "platform": "devto", "value": 17.0, "timestamp": "2026-08-25T13:36:11Z"}
+{"keyword": "comiCSS #255: Yellow", "platform": "devto", "value": 10.0, "timestamp": "2026-08-24T23:10:34Z"}
+{"keyword": "A Wider Computer, Not a Bigger One: Modeling AI Inference Across Millions of Homes", "platform": "devto", "value": 12.0, "timestamp": "2026-08-25T05:59:43Z"}
+{"keyword": "Your Job Ends at 5. Your Developer Brain Doesn't.", "platform": "devto", "value": 23.0, "timestamp": "2026-08-25T13:10:21Z"}
+{"keyword": "Chat history is a second read path into your RAG data — gate the replay like the search", "platform": "devto", "value": 11.0, "timestamp": "2026-08-25T11:47:43Z"}
+{"keyword": "The Retrieval Checklist I Wish I'd Had Before Shipping RAG", "platform": "devto", "value": 25.0, "timestamp": "2026-08-25T04:02:30Z"}
+{"keyword": "I Tried to Prompt-Inject My Own Agent Engine. It Didn't Work. Here's Why.", "platform": "devto", "value": 30.0, "timestamp": "2026-08-25T00:15:18Z"}
+{"keyword": "The Vulnerable Moment", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T11:00:00Z"}
+{"keyword": "Nobody tells you the question window is closing", "platform": "devto", "value": 9.0, "timestamp": "2026-08-25T08:53:57Z"}
+{"keyword": "The M5 Ultra Mac Studio: I Did the Math So You Don't Have To", "platform": "devto", "value": 8.0, "timestamp": "2026-08-25T14:40:11Z"}
+{"keyword": "Half the Requests Wearing ChatGPT's Name Were Scanning Us for Secrets", "platform": "devto", "value": 4.0, "timestamp": "2026-08-25T11:53:00Z"}
+{"keyword": "'m 12. My referral system slept for 3 days — here's the SQL trigger that woke it up", "platform": "devto", "value": 6.0, "timestamp": "2026-08-25T13:17:52Z"}
+{"keyword": "## I'm 12. People say I'm \"making it.\" Honestly, I feel like I'm dancing on a weak staircase.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T14:30:06Z"}
+{"keyword": "Your AI Agent Shouldn't Be Allowed to Write Whatever It Wants", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T19:11:50Z"}
+{"keyword": "Write-Side Custody: Trust Begins Before Memory", "platform": "devto", "value": 7.0, "timestamp": "2026-08-25T13:30:00Z"}
+{"keyword": "AI Coding Tip 033 - Protect Yourself Against AI Cheating", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T12:14:44Z"}
+{"keyword": "What a 12-Year AWS Engineer Expects to Get Wrong About Google Cloud", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T08:03:20Z"}
+{"keyword": "I built agent-inspect to debug TypeScript AI agent trajectories", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T17:12:09Z"}
+{"keyword": "Software Development After AI", "platform": "devto", "value": 2.0, "timestamp": "2026-08-25T14:53:28Z"}
+{"keyword": "Beyond Vibe Coding: A Quick Field Guide to Agentic Engineering", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T19:36:20Z"}
+{"keyword": "Inside Raft - The State, the RPCs, and the Rules That Make It Safe", "platform": "devto", "value": 4.0, "timestamp": "2026-08-25T17:15:36Z"}
+{"keyword": "A generic fine-tuning playbook, written after doing it wrong several times", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T23:29:00Z"}
+{"keyword": "Your AI Agent Has No Identity: The Missing Security Layer in Enterprise Agentic AI", "platform": "devto", "value": 2.0, "timestamp": "2026-08-25T08:03:01Z"}
+{"keyword": "Every AI email tool has the same bug. It is not a bug in the model.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-25T17:45:39Z"}
+{"keyword": "Your AI Coding Agent Doesn't Have a Junior-Developer Problem. It Has an Amnesia Problem.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-25T09:32:45Z"}
+{"keyword": "Stop asking your AI agent to follow rules. Enforce them.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-25T15:25:37Z"}
+{"keyword": "The Future 🤔: What If Time Travel Is a Computed Possibility Rather Than Physical Transportation?", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T15:55:21Z"}
+{"keyword": "AI promoted every developer to reviewer. Nobody tested the reviewer.", "platform": "devto", "value": 38.0, "timestamp": "2026-08-24T23:23:06Z"}
+{"keyword": "What Do You Do While AI Codes?", "platform": "devto", "value": 17.0, "timestamp": "2026-08-25T13:36:11Z"}
+{"keyword": "comiCSS #255: Yellow", "platform": "devto", "value": 10.0, "timestamp": "2026-08-24T23:10:34Z"}
+{"keyword": "A Wider Computer, Not a Bigger One: Modeling AI Inference Across Millions of Homes", "platform": "devto", "value": 12.0, "timestamp": "2026-08-25T05:59:43Z"}
+{"keyword": "Your Job Ends at 5. Your Developer Brain Doesn't.", "platform": "devto", "value": 23.0, "timestamp": "2026-08-25T13:10:21Z"}
+{"keyword": "Chat history is a second read path into your RAG data — gate the replay like the search", "platform": "devto", "value": 11.0, "timestamp": "2026-08-25T11:47:43Z"}
+{"keyword": "The Retrieval Checklist I Wish I'd Had Before Shipping RAG", "platform": "devto", "value": 25.0, "timestamp": "2026-08-25T04:02:30Z"}
+{"keyword": "I Tried to Prompt-Inject My Own Agent Engine. It Didn't Work. Here's Why.", "platform": "devto", "value": 30.0, "timestamp": "2026-08-25T00:15:18Z"}
+{"keyword": "The Vulnerable Moment", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T11:00:00Z"}
+{"keyword": "Nobody tells you the question window is closing", "platform": "devto", "value": 9.0, "timestamp": "2026-08-25T08:53:57Z"}
+{"keyword": "The M5 Ultra Mac Studio: I Did the Math So You Don't Have To", "platform": "devto", "value": 8.0, "timestamp": "2026-08-25T14:40:11Z"}
+{"keyword": "Half the Requests Wearing ChatGPT's Name Were Scanning Us for Secrets", "platform": "devto", "value": 4.0, "timestamp": "2026-08-25T11:53:00Z"}
+{"keyword": "'m 12. My referral system slept for 3 days — here's the SQL trigger that woke it up", "platform": "devto", "value": 6.0, "timestamp": "2026-08-25T13:17:52Z"}
+{"keyword": "## I'm 12. People say I'm \"making it.\" Honestly, I feel like I'm dancing on a weak staircase.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T14:30:06Z"}
+{"keyword": "Your AI Agent Shouldn't Be Allowed to Write Whatever It Wants", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T19:11:50Z"}
+{"keyword": "Write-Side Custody: Trust Begins Before Memory", "platform": "devto", "value": 7.0, "timestamp": "2026-08-25T13:30:00Z"}
+{"keyword": "AI Coding Tip 033 - Protect Yourself Against AI Cheating", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T12:14:44Z"}
+{"keyword": "What a 12-Year AWS Engineer Expects to Get Wrong About Google Cloud", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T08:03:20Z"}
+{"keyword": "I built agent-inspect to debug TypeScript AI agent trajectories", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T17:12:09Z"}
+{"keyword": "Software Development After AI", "platform": "devto", "value": 2.0, "timestamp": "2026-08-25T14:53:28Z"}
+{"keyword": "Beyond Vibe Coding: A Quick Field Guide to Agentic Engineering", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T19:36:20Z"}
+{"keyword": "Inside Raft - The State, the RPCs, and the Rules That Make It Safe", "platform": "devto", "value": 4.0, "timestamp": "2026-08-25T17:15:36Z"}
+{"keyword": "A generic fine-tuning playbook, written after doing it wrong several times", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T23:29:00Z"}
+{"keyword": "Your AI Agent Has No Identity: The Missing Security Layer in Enterprise Agentic AI", "platform": "devto", "value": 2.0, "timestamp": "2026-08-25T08:03:01Z"}
+{"keyword": "Every AI email tool has the same bug. It is not a bug in the model.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-25T17:45:39Z"}
+{"keyword": "Your AI Coding Agent Doesn't Have a Junior-Developer Problem. It Has an Amnesia Problem.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-25T09:32:45Z"}
+{"keyword": "Stop asking your AI agent to follow rules. Enforce them.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-25T15:25:37Z"}
+{"keyword": "The Future 🤔: What If Time Travel Is a Computed Possibility Rather Than Physical Transportation?", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T15:55:21Z"}
+{"keyword": "AI promoted every developer to reviewer. Nobody tested the reviewer.", "platform": "devto", "value": 38.0, "timestamp": "2026-08-24T23:23:06Z"}
+{"keyword": "What Do You Do While AI Codes?", "platform": "devto", "value": 17.0, "timestamp": "2026-08-25T13:36:11Z"}
+{"keyword": "comiCSS #255: Yellow", "platform": "devto", "value": 10.0, "timestamp": "2026-08-24T23:10:34Z"}
+{"keyword": "A Wider Computer, Not a Bigger One: Modeling AI Inference Across Millions of Homes", "platform": "devto", "value": 12.0, "timestamp": "2026-08-25T05:59:43Z"}
+{"keyword": "Your Job Ends at 5. Your Developer Brain Doesn't.", "platform": "devto", "value": 23.0, "timestamp": "2026-08-25T13:10:21Z"}
+{"keyword": "Chat history is a second read path into your RAG data — gate the replay like the search", "platform": "devto", "value": 11.0, "timestamp": "2026-08-25T11:47:43Z"}
+{"keyword": "The Retrieval Checklist I Wish I'd Had Before Shipping RAG", "platform": "devto", "value": 25.0, "timestamp": "2026-08-25T04:02:30Z"}
+{"keyword": "I Tried to Prompt-Inject My Own Agent Engine. It Didn't Work. Here's Why.", "platform": "devto", "value": 30.0, "timestamp": "2026-08-25T00:15:18Z"}
+{"keyword": "The Vulnerable Moment", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T11:00:00Z"}
+{"keyword": "Nobody tells you the question window is closing", "platform": "devto", "value": 9.0, "timestamp": "2026-08-25T08:53:57Z"}
+{"keyword": "The M5 Ultra Mac Studio: I Did the Math So You Don't Have To", "platform": "devto", "value": 8.0, "timestamp": "2026-08-25T14:40:11Z"}
+{"keyword": "Half the Requests Wearing ChatGPT's Name Were Scanning Us for Secrets", "platform": "devto", "value": 4.0, "timestamp": "2026-08-25T11:53:00Z"}
+{"keyword": "'m 12. My referral system slept for 3 days — here's the SQL trigger that woke it up", "platform": "devto", "value": 6.0, "timestamp": "2026-08-25T13:17:52Z"}
+{"keyword": "## I'm 12. People say I'm \"making it.\" Honestly, I feel like I'm dancing on a weak staircase.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T14:30:06Z"}
+{"keyword": "Your AI Agent Shouldn't Be Allowed to Write Whatever It Wants", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T19:11:50Z"}
+{"keyword": "Write-Side Custody: Trust Begins Before Memory", "platform": "devto", "value": 7.0, "timestamp": "2026-08-25T13:30:00Z"}
+{"keyword": "AI Coding Tip 033 - Protect Yourself Against AI Cheating", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T12:14:44Z"}
+{"keyword": "What a 12-Year AWS Engineer Expects to Get Wrong About Google Cloud", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T08:03:20Z"}
+{"keyword": "I built agent-inspect to debug TypeScript AI agent trajectories", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T17:12:09Z"}
+{"keyword": "Software Development After AI", "platform": "devto", "value": 2.0, "timestamp": "2026-08-25T14:53:28Z"}
+{"keyword": "Beyond Vibe Coding: A Quick Field Guide to Agentic Engineering", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T19:36:20Z"}
+{"keyword": "Inside Raft - The State, the RPCs, and the Rules That Make It Safe", "platform": "devto", "value": 4.0, "timestamp": "2026-08-25T17:15:36Z"}
+{"keyword": "A generic fine-tuning playbook, written after doing it wrong several times", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T23:29:00Z"}
+{"keyword": "Your AI Agent Has No Identity: The Missing Security Layer in Enterprise Agentic AI", "platform": "devto", "value": 2.0, "timestamp": "2026-08-25T08:03:01Z"}
+{"keyword": "Every AI email tool has the same bug. It is not a bug in the model.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-25T17:45:39Z"}
+{"keyword": "Your AI Coding Agent Doesn't Have a Junior-Developer Problem. It Has an Amnesia Problem.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-25T09:32:45Z"}
+{"keyword": "Stop asking your AI agent to follow rules. Enforce them.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-25T15:25:37Z"}
+{"keyword": "The Future 🤔: What If Time Travel Is a Computed Possibility Rather Than Physical Transportation?", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T15:55:21Z"}
+{"keyword": "AI promoted every developer to reviewer. Nobody tested the reviewer.", "platform": "devto", "value": 38.0, "timestamp": "2026-08-24T23:23:06Z"}
+{"keyword": "What Do You Do While AI Codes?", "platform": "devto", "value": 17.0, "timestamp": "2026-08-25T13:36:11Z"}
+{"keyword": "comiCSS #255: Yellow", "platform": "devto", "value": 10.0, "timestamp": "2026-08-24T23:10:34Z"}
+{"keyword": "A Wider Computer, Not a Bigger One: Modeling AI Inference Across Millions of Homes", "platform": "devto", "value": 12.0, "timestamp": "2026-08-25T05:59:43Z"}
+{"keyword": "Your Job Ends at 5. Your Developer Brain Doesn't.", "platform": "devto", "value": 23.0, "timestamp": "2026-08-25T13:10:21Z"}
+{"keyword": "Chat history is a second read path into your RAG data — gate the replay like the search", "platform": "devto", "value": 11.0, "timestamp": "2026-08-25T11:47:43Z"}
+{"keyword": "The Retrieval Checklist I Wish I'd Had Before Shipping RAG", "platform": "devto", "value": 25.0, "timestamp": "2026-08-25T04:02:30Z"}
+{"keyword": "I Tried to Prompt-Inject My Own Agent Engine. It Didn't Work. Here's Why.", "platform": "devto", "value": 30.0, "timestamp": "2026-08-25T00:15:18Z"}
+{"keyword": "The Vulnerable Moment", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T11:00:00Z"}
+{"keyword": "Nobody tells you the question window is closing", "platform": "devto", "value": 9.0, "timestamp": "2026-08-25T08:53:57Z"}
+{"keyword": "The M5 Ultra Mac Studio: I Did the Math So You Don't Have To", "platform": "devto", "value": 8.0, "timestamp": "2026-08-25T14:40:11Z"}
+{"keyword": "Half the Requests Wearing ChatGPT's Name Were Scanning Us for Secrets", "platform": "devto", "value": 4.0, "timestamp": "2026-08-25T11:53:00Z"}
+{"keyword": "'m 12. My referral system slept for 3 days — here's the SQL trigger that woke it up", "platform": "devto", "value": 6.0, "timestamp": "2026-08-25T13:17:52Z"}
+{"keyword": "## I'm 12. People say I'm \"making it.\" Honestly, I feel like I'm dancing on a weak staircase.", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T14:30:06Z"}
+{"keyword": "Your AI Agent Shouldn't Be Allowed to Write Whatever It Wants", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T19:11:50Z"}
+{"keyword": "Write-Side Custody: Trust Begins Before Memory", "platform": "devto", "value": 7.0, "timestamp": "2026-08-25T13:30:00Z"}
+{"keyword": "AI Coding Tip 033 - Protect Yourself Against AI Cheating", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T12:14:44Z"}
+{"keyword": "What a 12-Year AWS Engineer Expects to Get Wrong About Google Cloud", "platform": "devto", "value": 1.0, "timestamp": "2026-08-25T08:03:20Z"}
+{"keyword": "I built agent-inspect to debug TypeScript AI agent trajectories", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T17:12:09Z"}
+{"keyword": "Software Development After AI", "platform": "devto", "value": 2.0, "timestamp": "2026-08-25T14:53:28Z"}
+{"keyword": "Beyond Vibe Coding: A Quick Field Guide to Agentic Engineering", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T19:36:20Z"}
+{"keyword": "Inside Raft - The State, the RPCs, and the Rules That Make It Safe", "platform": "devto", "value": 4.0, "timestamp": "2026-08-25T17:15:36Z"}
+{"keyword": "A generic fine-tuning playbook, written after doing it wrong several times", "platform": "devto", "value": 1.0, "timestamp": "2026-08-24T23:29:00Z"}
+{"keyword": "Your AI Agent Has No Identity: The Missing Security Layer in Enterprise Agentic AI", "platform": "devto", "value": 2.0, "timestamp": "2026-08-25T08:03:01Z"}
+{"keyword": "Every AI email tool has the same bug. It is not a bug in the model.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-25T17:45:39Z"}
+{"keyword": "Your AI Coding Agent Doesn't Have a Junior-Developer Problem. It Has an Amnesia Problem.", "platform": "devto", "value": 3.0, "timestamp": "2026-08-25T09:32:45Z"}
+{"keyword": "Stop asking your AI agent to follow rules. Enforce them.", "platform": "devto", "value": 0.0, "timestamp": "2026-08-25T15:25:37Z"}
+{"keyword": "The Future 🤔: What If Time Travel Is a Computed Possibility Rather Than Physical Transportation?", "platform": "devto", "value": 5.0, "timestamp": "2026-08-25T15:55:21Z"}
