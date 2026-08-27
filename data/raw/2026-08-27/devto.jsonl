@@ -106,3 +106,55 @@
 {"keyword": "Why We Stopped Using LLM Agents to Control LLM Agents (Deterministic Multi-Agent FSM)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-26T20:20:06Z"}
 {"keyword": "Installing Nagios on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-08-26T17:33:30Z"}
 {"keyword": "Mem0 vs Zep vs LangChain Memory vs Letta: Which One Actually Remembers?", "platform": "devto", "value": 1.0, "timestamp": "2026-08-26T20:03:18Z"}
+{"keyword": "The agent posted successfully. To the wrong account.", "platform": "devto", "value": 16.0, "timestamp": "2026-08-27T08:31:54Z"}
+{"keyword": "Stratagems #25: Derek Changed the Delay. The AI Didn't Flinch.", "platform": "devto", "value": 39.0, "timestamp": "2026-08-27T07:19:37Z"}
+{"keyword": "Nobody Argued For Your Stack", "platform": "devto", "value": 2.0, "timestamp": "2026-08-27T18:34:44Z"}
+{"keyword": "Velocidade de entrega e custo de manutenção pós IA", "platform": "devto", "value": 45.0, "timestamp": "2026-08-27T13:58:08Z"}
+{"keyword": "Vector Search Is Still the Memory Layer Agents Actually Need", "platform": "devto", "value": 5.0, "timestamp": "2026-08-27T07:37:45Z"}
+{"keyword": "Your AI Has a Reviewer. Has Anyone Ever Seen It Say No?", "platform": "devto", "value": 12.0, "timestamp": "2026-08-27T04:25:16Z"}
+{"keyword": "Future AWS Agent Engineer? I Didn't Write the Code. Does It Count?", "platform": "devto", "value": 8.0, "timestamp": "2026-08-27T03:42:52Z"}
+{"keyword": "NexPath Review: The Prompt Quality Layer for Cursor, Windsurf and Claude Code", "platform": "devto", "value": 41.0, "timestamp": "2026-08-27T13:21:53Z"}
+{"keyword": "A Reader Audited My OSS Release in Public. He Found the Contradictions I Missed.", "platform": "devto", "value": 15.0, "timestamp": "2026-08-27T05:48:16Z"}
+{"keyword": "I'm 12. A senior dev broke my app. Then he became User #001", "platform": "devto", "value": 8.0, "timestamp": "2026-08-27T15:04:47Z"}
+{"keyword": ".NET 10 ActivitySamplingResult PropagationData: Why Recorded Turns False", "platform": "devto", "value": 10.0, "timestamp": "2026-08-27T16:21:09Z"}
+{"keyword": "Why We Stopped Using LLM Agents to Control LLM Agents (Deterministic Multi-Agent FSM)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-26T20:20:06Z"}
+{"keyword": "Mem0 vs Zep vs LangChain Memory vs Letta: Which One Actually Remembers?", "platform": "devto", "value": 1.0, "timestamp": "2026-08-26T20:03:18Z"}
+{"keyword": "The Negative Control That Tested The Wrong Field", "platform": "devto", "value": 1.0, "timestamp": "2026-08-27T00:00:05Z"}
+{"keyword": "Two-step control plane upgrades in GKE: How minor version rollbacks work under the hood", "platform": "devto", "value": 0.0, "timestamp": "2026-08-27T17:56:45Z"}
+{"keyword": "I Spawned 1000000 Goroutines. Here's Where 13 GB of RAM Went.", "platform": "devto", "value": 23.0, "timestamp": "2026-08-27T03:21:04Z"}
+{"keyword": "RFLCT: Bringing Runtime Type Metadata to TypeScript 7", "platform": "devto", "value": 2.0, "timestamp": "2026-08-27T00:11:08Z"}
+{"keyword": "Opus 5: How to Review Generated Code", "platform": "devto", "value": 4.0, "timestamp": "2026-08-27T15:56:58Z"}
+{"keyword": "Top 7 APIs for SaaS Development in 2026 (I’d Actually Use These)", "platform": "devto", "value": 13.0, "timestamp": "2026-08-27T17:39:32Z"}
+{"keyword": "I Told the AI \"A Scanner Flagged This\" — and It Agreed With Everything", "platform": "devto", "value": 8.0, "timestamp": "2026-08-27T11:26:31Z"}
+{"keyword": "Fast CLI static site generator I've been working on", "platform": "devto", "value": 6.0, "timestamp": "2026-08-27T18:55:29Z"}
+{"keyword": "Anthropic Opens MHS Research Preview for Unified AI Control of Lab Hardware", "platform": "devto", "value": 0.0, "timestamp": "2026-08-27T20:00:30Z"}
+{"keyword": "You're truncating bios with `.slice()`. `Intl.Segmenter` knows where the emoji actually end.", "platform": "devto", "value": 8.0, "timestamp": "2026-08-27T17:30:57Z"}
+{"keyword": "Anthropic MHS Brings AI Agents to Biotech Labs and Quantum Hardware", "platform": "devto", "value": 0.0, "timestamp": "2026-08-27T19:45:30Z"}
+{"keyword": "Migrate from SchemaSpy to SchemaCrawler Without Rewriting Your Runbooks", "platform": "devto", "value": 3.0, "timestamp": "2026-08-26T23:10:12Z"}
+{"keyword": "Most AI Second Opinions Are Fake. I Built a Two-LLM Review Engine to Prove It.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-27T13:35:48Z"}
+{"keyword": "The agent posted successfully. To the wrong account.", "platform": "devto", "value": 16.0, "timestamp": "2026-08-27T08:31:54Z"}
+{"keyword": "Stratagems #25: Derek Changed the Delay. The AI Didn't Flinch.", "platform": "devto", "value": 39.0, "timestamp": "2026-08-27T07:19:37Z"}
+{"keyword": "Nobody Argued For Your Stack", "platform": "devto", "value": 2.0, "timestamp": "2026-08-27T18:34:44Z"}
+{"keyword": "Velocidade de entrega e custo de manutenção pós IA", "platform": "devto", "value": 45.0, "timestamp": "2026-08-27T13:58:08Z"}
+{"keyword": "Vector Search Is Still the Memory Layer Agents Actually Need", "platform": "devto", "value": 5.0, "timestamp": "2026-08-27T07:37:45Z"}
+{"keyword": "Your AI Has a Reviewer. Has Anyone Ever Seen It Say No?", "platform": "devto", "value": 12.0, "timestamp": "2026-08-27T04:25:16Z"}
+{"keyword": "Future AWS Agent Engineer? I Didn't Write the Code. Does It Count?", "platform": "devto", "value": 8.0, "timestamp": "2026-08-27T03:42:52Z"}
+{"keyword": "NexPath Review: The Prompt Quality Layer for Cursor, Windsurf and Claude Code", "platform": "devto", "value": 41.0, "timestamp": "2026-08-27T13:21:53Z"}
+{"keyword": "A Reader Audited My OSS Release in Public. He Found the Contradictions I Missed.", "platform": "devto", "value": 15.0, "timestamp": "2026-08-27T05:48:16Z"}
+{"keyword": "I'm 12. A senior dev broke my app. Then he became User #001", "platform": "devto", "value": 8.0, "timestamp": "2026-08-27T15:04:47Z"}
+{"keyword": ".NET 10 ActivitySamplingResult PropagationData: Why Recorded Turns False", "platform": "devto", "value": 10.0, "timestamp": "2026-08-27T16:21:09Z"}
+{"keyword": "Why We Stopped Using LLM Agents to Control LLM Agents (Deterministic Multi-Agent FSM)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-26T20:20:06Z"}
+{"keyword": "Mem0 vs Zep vs LangChain Memory vs Letta: Which One Actually Remembers?", "platform": "devto", "value": 1.0, "timestamp": "2026-08-26T20:03:18Z"}
+{"keyword": "The Negative Control That Tested The Wrong Field", "platform": "devto", "value": 1.0, "timestamp": "2026-08-27T00:00:05Z"}
+{"keyword": "Two-step control plane upgrades in GKE: How minor version rollbacks work under the hood", "platform": "devto", "value": 0.0, "timestamp": "2026-08-27T17:56:45Z"}
+{"keyword": "I Spawned 1000000 Goroutines. Here's Where 13 GB of RAM Went.", "platform": "devto", "value": 23.0, "timestamp": "2026-08-27T03:21:04Z"}
+{"keyword": "RFLCT: Bringing Runtime Type Metadata to TypeScript 7", "platform": "devto", "value": 2.0, "timestamp": "2026-08-27T00:11:08Z"}
+{"keyword": "Opus 5: How to Review Generated Code", "platform": "devto", "value": 4.0, "timestamp": "2026-08-27T15:56:58Z"}
+{"keyword": "Top 7 APIs for SaaS Development in 2026 (I’d Actually Use These)", "platform": "devto", "value": 13.0, "timestamp": "2026-08-27T17:39:32Z"}
+{"keyword": "I Told the AI \"A Scanner Flagged This\" — and It Agreed With Everything", "platform": "devto", "value": 8.0, "timestamp": "2026-08-27T11:26:31Z"}
+{"keyword": "Fast CLI static site generator I've been working on", "platform": "devto", "value": 6.0, "timestamp": "2026-08-27T18:55:29Z"}
+{"keyword": "Anthropic Opens MHS Research Preview for Unified AI Control of Lab Hardware", "platform": "devto", "value": 0.0, "timestamp": "2026-08-27T20:00:30Z"}
+{"keyword": "You're truncating bios with `.slice()`. `Intl.Segmenter` knows where the emoji actually end.", "platform": "devto", "value": 8.0, "timestamp": "2026-08-27T17:30:57Z"}
+{"keyword": "Anthropic MHS Brings AI Agents to Biotech Labs and Quantum Hardware", "platform": "devto", "value": 0.0, "timestamp": "2026-08-27T19:45:30Z"}
+{"keyword": "Migrate from SchemaSpy to SchemaCrawler Without Rewriting Your Runbooks", "platform": "devto", "value": 3.0, "timestamp": "2026-08-26T23:10:12Z"}
+{"keyword": "Most AI Second Opinions Are Fake. I Built a Two-LLM Review Engine to Prove It.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-27T13:35:48Z"}
