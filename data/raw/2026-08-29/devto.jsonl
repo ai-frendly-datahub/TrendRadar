@@ -110,3 +110,59 @@
 {"keyword": "Three model calls, and none of them reads a price", "platform": "devto", "value": 1.0, "timestamp": "2026-08-28T08:40:22Z"}
 {"keyword": "Your agent didn't fail. You closed the lid", "platform": "devto", "value": 1.0, "timestamp": "2026-08-28T22:33:41Z"}
 {"keyword": "Docker Demystified: The Ultimate Guide to Containers and Architecture", "platform": "devto", "value": 6.0, "timestamp": "2026-08-28T17:08:18Z"}
+{"keyword": "16 Posts, Started Commenting, then got the Shield", "platform": "devto", "value": 25.0, "timestamp": "2026-08-28T20:53:31Z"}
+{"keyword": "Amazon AI Blocked My Kindle Book. I Asked What Went Wrong. Then They Approved It.", "platform": "devto", "value": 45.0, "timestamp": "2026-08-28T16:50:00Z"}
+{"keyword": "The Matrix Wasn't A Battery Farm. It Was A GPU Cluster Made Of Human Brains.", "platform": "devto", "value": 24.0, "timestamp": "2026-08-28T15:25:20Z"}
+{"keyword": "Gemma 4 in Pure JAX: What Ports from TPU to GPU, and What Doesn't", "platform": "devto", "value": 1.0, "timestamp": "2026-08-29T00:39:38Z"}
+{"keyword": "What Happens After You Win a DEV Challenge? A Complete Guide to Getting Paid", "platform": "devto", "value": 29.0, "timestamp": "2026-08-29T07:03:14Z"}
+{"keyword": "Developers that brand AI as slop will be left behind", "platform": "devto", "value": 8.0, "timestamp": "2026-08-28T14:33:08Z"}
+{"keyword": "Most AI Second Opinions Are Theater. I Built a System That Actually Fights Back.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-28T17:16:00Z"}
+{"keyword": "How an Employee Hierarchy Helped Me Understand Recursive CTEs", "platform": "devto", "value": 6.0, "timestamp": "2026-08-28T16:45:24Z"}
+{"keyword": "I failed a \"design a document editor\" interview, so I built one", "platform": "devto", "value": 10.0, "timestamp": "2026-08-29T08:56:29Z"}
+{"keyword": "Your agent didn't fail. You closed the lid", "platform": "devto", "value": 1.0, "timestamp": "2026-08-28T22:33:41Z"}
+{"keyword": "From “Can I Do This?” to Becoming Part of the Team: Lessons From My Apprenticeship at ISRO", "platform": "devto", "value": 2.0, "timestamp": "2026-08-29T07:49:58Z"}
+{"keyword": "NestJS Request Lifecycle Explained (with Cheat Sheet)", "platform": "devto", "value": 19.0, "timestamp": "2026-08-28T17:01:40Z"}
+{"keyword": "The Best Model Pair in My Field Test Was Also the Least Trustworthy", "platform": "devto", "value": 12.0, "timestamp": "2026-08-29T10:37:16Z"}
+{"keyword": "How Chargebacks Work: Understanding the Card Payment Dispute Flow", "platform": "devto", "value": 5.0, "timestamp": "2026-08-29T11:00:00Z"}
+{"keyword": "Claude API Workspace Verification: Catch Misrouted Requests Before Attribution", "platform": "devto", "value": 5.0, "timestamp": "2026-08-28T15:35:07Z"}
+{"keyword": "React Re-render vs Remount: What Actually Triggers Each", "platform": "devto", "value": 6.0, "timestamp": "2026-08-29T12:32:40Z"}
+{"keyword": "The outline: none Debate Has Been Over Since 2020", "platform": "devto", "value": 6.0, "timestamp": "2026-08-29T12:32:08Z"}
+{"keyword": "Form-Associated Custom Elements: Web Components That Belong in a Form", "platform": "devto", "value": 1.0, "timestamp": "2026-08-29T08:06:24Z"}
+{"keyword": "The Most Important AI Agent Design Choice: Don’t Let the Model Be the Final Authority", "platform": "devto", "value": 0.0, "timestamp": "2026-08-29T09:09:55Z"}
+{"keyword": "How to Read and Write NFC Tags Directly in the Browser with the Web NFC API", "platform": "devto", "value": 5.0, "timestamp": "2026-08-29T07:47:51Z"}
+{"keyword": "I Googled Myself for 20 Minutes and Found My Home Address, My Mom's Maiden Name, and My Dog", "platform": "devto", "value": 7.0, "timestamp": "2026-08-29T11:56:02Z"}
+{"keyword": "A hash-based CSP has no room for a syntax highlighter", "platform": "devto", "value": 5.0, "timestamp": "2026-08-28T19:17:38Z"}
+{"keyword": "Your Tests Were Green Because the Gate Was Never Wired In", "platform": "devto", "value": 1.0, "timestamp": "2026-08-29T09:00:03Z"}
+{"keyword": "Your agent's logs are testimony, not evidence", "platform": "devto", "value": 6.0, "timestamp": "2026-08-28T15:23:07Z"}
+{"keyword": "Why Budget Alerts Never Stop Runaway LLM Spend", "platform": "devto", "value": 0.0, "timestamp": "2026-08-29T07:48:08Z"}
+{"keyword": "Read-Point Planning: Your Backlog Is a Cache of Beliefs", "platform": "devto", "value": 0.0, "timestamp": "2026-08-28T22:43:46Z"}
+{"keyword": "Understanding Kubernetes: A Beginner's Guide to Container Orchestration", "platform": "devto", "value": 5.0, "timestamp": "2026-08-28T19:15:50Z"}
+{"keyword": "WebSocket Engineering — Part 1: The Connection Is the Easy Part", "platform": "devto", "value": 8.0, "timestamp": "2026-08-28T15:47:39Z"}
+{"keyword": "16 Posts, Started Commenting, then got the Shield", "platform": "devto", "value": 25.0, "timestamp": "2026-08-28T20:53:31Z"}
+{"keyword": "Amazon AI Blocked My Kindle Book. I Asked What Went Wrong. Then They Approved It.", "platform": "devto", "value": 45.0, "timestamp": "2026-08-28T16:50:00Z"}
+{"keyword": "The Matrix Wasn't A Battery Farm. It Was A GPU Cluster Made Of Human Brains.", "platform": "devto", "value": 24.0, "timestamp": "2026-08-28T15:25:20Z"}
+{"keyword": "Gemma 4 in Pure JAX: What Ports from TPU to GPU, and What Doesn't", "platform": "devto", "value": 1.0, "timestamp": "2026-08-29T00:39:38Z"}
+{"keyword": "What Happens After You Win a DEV Challenge? A Complete Guide to Getting Paid", "platform": "devto", "value": 29.0, "timestamp": "2026-08-29T07:03:14Z"}
+{"keyword": "Developers that brand AI as slop will be left behind", "platform": "devto", "value": 8.0, "timestamp": "2026-08-28T14:33:08Z"}
+{"keyword": "Most AI Second Opinions Are Theater. I Built a System That Actually Fights Back.", "platform": "devto", "value": 11.0, "timestamp": "2026-08-28T17:16:00Z"}
+{"keyword": "How an Employee Hierarchy Helped Me Understand Recursive CTEs", "platform": "devto", "value": 6.0, "timestamp": "2026-08-28T16:45:24Z"}
+{"keyword": "I failed a \"design a document editor\" interview, so I built one", "platform": "devto", "value": 10.0, "timestamp": "2026-08-29T08:56:29Z"}
+{"keyword": "Your agent didn't fail. You closed the lid", "platform": "devto", "value": 1.0, "timestamp": "2026-08-28T22:33:41Z"}
+{"keyword": "From “Can I Do This?” to Becoming Part of the Team: Lessons From My Apprenticeship at ISRO", "platform": "devto", "value": 2.0, "timestamp": "2026-08-29T07:49:58Z"}
+{"keyword": "NestJS Request Lifecycle Explained (with Cheat Sheet)", "platform": "devto", "value": 19.0, "timestamp": "2026-08-28T17:01:40Z"}
+{"keyword": "The Best Model Pair in My Field Test Was Also the Least Trustworthy", "platform": "devto", "value": 12.0, "timestamp": "2026-08-29T10:37:16Z"}
+{"keyword": "How Chargebacks Work: Understanding the Card Payment Dispute Flow", "platform": "devto", "value": 5.0, "timestamp": "2026-08-29T11:00:00Z"}
+{"keyword": "Claude API Workspace Verification: Catch Misrouted Requests Before Attribution", "platform": "devto", "value": 5.0, "timestamp": "2026-08-28T15:35:07Z"}
+{"keyword": "React Re-render vs Remount: What Actually Triggers Each", "platform": "devto", "value": 6.0, "timestamp": "2026-08-29T12:32:40Z"}
+{"keyword": "The outline: none Debate Has Been Over Since 2020", "platform": "devto", "value": 6.0, "timestamp": "2026-08-29T12:32:08Z"}
+{"keyword": "Form-Associated Custom Elements: Web Components That Belong in a Form", "platform": "devto", "value": 1.0, "timestamp": "2026-08-29T08:06:24Z"}
+{"keyword": "The Most Important AI Agent Design Choice: Don’t Let the Model Be the Final Authority", "platform": "devto", "value": 0.0, "timestamp": "2026-08-29T09:09:55Z"}
+{"keyword": "How to Read and Write NFC Tags Directly in the Browser with the Web NFC API", "platform": "devto", "value": 5.0, "timestamp": "2026-08-29T07:47:51Z"}
+{"keyword": "I Googled Myself for 20 Minutes and Found My Home Address, My Mom's Maiden Name, and My Dog", "platform": "devto", "value": 7.0, "timestamp": "2026-08-29T11:56:02Z"}
+{"keyword": "A hash-based CSP has no room for a syntax highlighter", "platform": "devto", "value": 5.0, "timestamp": "2026-08-28T19:17:38Z"}
+{"keyword": "Your Tests Were Green Because the Gate Was Never Wired In", "platform": "devto", "value": 1.0, "timestamp": "2026-08-29T09:00:03Z"}
+{"keyword": "Your agent's logs are testimony, not evidence", "platform": "devto", "value": 6.0, "timestamp": "2026-08-28T15:23:07Z"}
+{"keyword": "Why Budget Alerts Never Stop Runaway LLM Spend", "platform": "devto", "value": 0.0, "timestamp": "2026-08-29T07:48:08Z"}
+{"keyword": "Read-Point Planning: Your Backlog Is a Cache of Beliefs", "platform": "devto", "value": 0.0, "timestamp": "2026-08-28T22:43:46Z"}
+{"keyword": "Understanding Kubernetes: A Beginner's Guide to Container Orchestration", "platform": "devto", "value": 5.0, "timestamp": "2026-08-28T19:15:50Z"}
+{"keyword": "WebSocket Engineering — Part 1: The Connection Is the Easy Part", "platform": "devto", "value": 8.0, "timestamp": "2026-08-28T15:47:39Z"}
