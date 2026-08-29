@@ -6,16 +6,44 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "Seoul",
+      "count": 12
+    },
+    {
+      "name": "South Korea",
+      "count": 12
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 12
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 12
+    },
+    {
+      "name": "Machine learning",
+      "count": 12
+    },
+    {
       "name": "K-pop",
       "count": 12
     },
     {
-      "name": "World Wide Web",
-      "count": 12
+      "name": "Samsung",
+      "count": 11
     },
     {
-      "name": "Samsung",
-      "count": 12
+      "name": "Netflix",
+      "count": 11
+    },
+    {
+      "name": "Bitcoin",
+      "count": 11
+    },
+    {
+      "name": "Climate change",
+      "count": 11
     },
     {
       "name": "Electric vehicle",
@@ -34,61 +62,33 @@
       "count": 11
     },
     {
-      "name": "Seoul",
-      "count": 11
+      "name": "World Wide Web",
+      "count": 10
     },
     {
-      "name": "South Korea",
-      "count": 11
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 11
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 11
-    },
-    {
-      "name": "Machine learning",
-      "count": 11
-    },
-    {
-      "name": "Netflix",
-      "count": 11
-    },
-    {
-      "name": "Bitcoin",
-      "count": 11
-    },
-    {
-      "name": "Climate change",
-      "count": 11
-    },
-    {
-      "name": "정치인",
-      "count": 2
-    },
-    {
-      "name": "스포츠 선수",
-      "count": 2
-    },
-    {
-      "name": "아파트 매매",
+      "name": "분양권",
       "count": 1
     },
     {
-      "name": "에스파",
+      "name": "유명인",
       "count": 1
     },
     {
-      "name": "음악방송",
+      "name": "유튜버",
+      "count": 1
+    },
+    {
+      "name": "강남 아파트",
+      "count": 1
+    },
+    {
+      "name": "걸그룹",
       "count": 1
     }
   ],
   "sources": {
-    "wikipedia": 168,
-    "google": 32
+    "wikipedia": 170,
+    "google": 30
   },
-  "generated_at": "2026-08-29T06:05:12.989860+09:00"
+  "generated_at": "2026-08-29T03:29:02.954907+00:00"
 }
