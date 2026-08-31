@@ -1,0 +1,112 @@
+{"keyword": "Native CORS support on GKE Gateway: Offloading cross-origin policy management to infrastructure", "platform": "devto", "value": 15.0, "timestamp": "2026-08-30T19:09:03Z"}
+{"keyword": "Overcoming Dart's Single Inheritance Wall: Composable CubitSignalMixin & BlocSignalMixin in Flutter", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T16:46:00Z"}
+{"keyword": "Git Said It Succeeded. The State Said Otherwise.", "platform": "devto", "value": 20.0, "timestamp": "2026-08-30T01:44:59Z"}
+{"keyword": "Delta encoding multiplayer game state", "platform": "devto", "value": 12.0, "timestamp": "2026-08-30T09:49:49Z"}
+{"keyword": "Bugs Are Innocent Until Reproduced: Building Verdict, an Evidence-First Agent Harness", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T04:43:06Z"}
+{"keyword": "Tell Me About You", "platform": "devto", "value": 14.0, "timestamp": "2026-08-30T19:05:28Z"}
+{"keyword": "My Commit Said \"Stop Trusting the Receipt.\" That Is the Commit Where the Trusting Started.", "platform": "devto", "value": 15.0, "timestamp": "2026-08-30T07:04:02Z"}
+{"keyword": "The undo has to exist before the write does", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T03:32:25Z"}
+{"keyword": "Why asking for help feels harder than solving the problem yourself", "platform": "devto", "value": 2.0, "timestamp": "2026-08-30T13:43:47Z"}
+{"keyword": "I built a job-risk checker that never calls an LLM — it reads your GitHub instead", "platform": "devto", "value": 4.0, "timestamp": "2026-08-30T10:36:19Z"}
+{"keyword": "Four reviewers told me the one thing I couldn't fix by myself", "platform": "devto", "value": 3.0, "timestamp": "2026-08-30T01:51:03Z"}
+{"keyword": "Five bugs in my LLM app that never threw an error", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T02:31:58Z"}
+{"keyword": "I Added a Fourth Model Mid-Run. It Changed What My Field Test Could Prove.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-30T18:52:24Z"}
+{"keyword": "Hijri Dates in Indonesia Were a Pain to Get Right. Not Anymore.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-30T11:20:06Z"}
+{"keyword": "I built a free API for Pakistani mutual fund NAVs (because MUFAP's own one doesn't work)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T11:02:52Z"}
+{"keyword": "Every typing site makes you type prose. I built one that makes you type code.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T05:50:08Z"}
+{"keyword": "Running Coding Agents in Parallel with Git Worktrees", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T21:29:33Z"}
+{"keyword": "My Claude Code config costs 9,857 tokens before I type anything", "platform": "devto", "value": 3.0, "timestamp": "2026-08-30T01:08:07Z"}
+{"keyword": "The baseline that quietly stopped meaning anything (and closed real trades)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T06:51:28Z"}
+{"keyword": "CPU, GPU, TPU, NPU, DPU, QPU: six chips, one question", "platform": "devto", "value": 10.0, "timestamp": "2026-08-30T17:47:30Z"}
+{"keyword": "Production Flutter Networking Without the Boilerplate: Reactive Repositories with BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-08-30T21:04:04Z"}
+{"keyword": "Your MCP Server Says It Is Read-Only. Who Checked?", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T04:43:19Z"}
+{"keyword": "From Figma to the browser: building a shared mental model", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T10:58:03Z"}
+{"keyword": "JavaScript Find in Page: DOM Text Above the Codename One Canvas", "platform": "devto", "value": 0.0, "timestamp": "2026-08-30T17:26:42Z"}
+{"keyword": "Nuxt useState vs ref(): Why Server State Leaks Across Users", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T11:37:10Z"}
+{"keyword": "Why I Built VertiWiki: A Zero-Backend, Single-File Markdown Wiki Engine", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T09:17:52Z"}
+{"keyword": "OpenAI Responses API `user` Migration: Split Safety from Prompt Caching", "platform": "devto", "value": 5.0, "timestamp": "2026-08-30T16:15:42Z"}
+{"keyword": "Stop Over-Engineering: Why Your Side Project Doesn’t Need Microservices, Docker, and Kubernetes", "platform": "devto", "value": 6.0, "timestamp": "2026-08-30T14:59:22Z"}
+{"keyword": "Native CORS support on GKE Gateway: Offloading cross-origin policy management to infrastructure", "platform": "devto", "value": 15.0, "timestamp": "2026-08-30T19:09:03Z"}
+{"keyword": "Overcoming Dart's Single Inheritance Wall: Composable CubitSignalMixin & BlocSignalMixin in Flutter", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T16:46:00Z"}
+{"keyword": "Git Said It Succeeded. The State Said Otherwise.", "platform": "devto", "value": 20.0, "timestamp": "2026-08-30T01:44:59Z"}
+{"keyword": "Delta encoding multiplayer game state", "platform": "devto", "value": 12.0, "timestamp": "2026-08-30T09:49:49Z"}
+{"keyword": "Bugs Are Innocent Until Reproduced: Building Verdict, an Evidence-First Agent Harness", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T04:43:06Z"}
+{"keyword": "Tell Me About You", "platform": "devto", "value": 14.0, "timestamp": "2026-08-30T19:05:28Z"}
+{"keyword": "My Commit Said \"Stop Trusting the Receipt.\" That Is the Commit Where the Trusting Started.", "platform": "devto", "value": 15.0, "timestamp": "2026-08-30T07:04:02Z"}
+{"keyword": "The undo has to exist before the write does", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T03:32:25Z"}
+{"keyword": "Why asking for help feels harder than solving the problem yourself", "platform": "devto", "value": 2.0, "timestamp": "2026-08-30T13:43:47Z"}
+{"keyword": "I built a job-risk checker that never calls an LLM — it reads your GitHub instead", "platform": "devto", "value": 4.0, "timestamp": "2026-08-30T10:36:19Z"}
+{"keyword": "Four reviewers told me the one thing I couldn't fix by myself", "platform": "devto", "value": 3.0, "timestamp": "2026-08-30T01:51:03Z"}
+{"keyword": "Five bugs in my LLM app that never threw an error", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T02:31:58Z"}
+{"keyword": "I Added a Fourth Model Mid-Run. It Changed What My Field Test Could Prove.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-30T18:52:24Z"}
+{"keyword": "Hijri Dates in Indonesia Were a Pain to Get Right. Not Anymore.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-30T11:20:06Z"}
+{"keyword": "I built a free API for Pakistani mutual fund NAVs (because MUFAP's own one doesn't work)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T11:02:52Z"}
+{"keyword": "Every typing site makes you type prose. I built one that makes you type code.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T05:50:08Z"}
+{"keyword": "Running Coding Agents in Parallel with Git Worktrees", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T21:29:33Z"}
+{"keyword": "My Claude Code config costs 9,857 tokens before I type anything", "platform": "devto", "value": 3.0, "timestamp": "2026-08-30T01:08:07Z"}
+{"keyword": "The baseline that quietly stopped meaning anything (and closed real trades)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T06:51:28Z"}
+{"keyword": "CPU, GPU, TPU, NPU, DPU, QPU: six chips, one question", "platform": "devto", "value": 10.0, "timestamp": "2026-08-30T17:47:30Z"}
+{"keyword": "Production Flutter Networking Without the Boilerplate: Reactive Repositories with BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-08-30T21:04:04Z"}
+{"keyword": "Your MCP Server Says It Is Read-Only. Who Checked?", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T04:43:19Z"}
+{"keyword": "From Figma to the browser: building a shared mental model", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T10:58:03Z"}
+{"keyword": "JavaScript Find in Page: DOM Text Above the Codename One Canvas", "platform": "devto", "value": 0.0, "timestamp": "2026-08-30T17:26:42Z"}
+{"keyword": "Nuxt useState vs ref(): Why Server State Leaks Across Users", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T11:37:10Z"}
+{"keyword": "Why I Built VertiWiki: A Zero-Backend, Single-File Markdown Wiki Engine", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T09:17:52Z"}
+{"keyword": "OpenAI Responses API `user` Migration: Split Safety from Prompt Caching", "platform": "devto", "value": 5.0, "timestamp": "2026-08-30T16:15:42Z"}
+{"keyword": "Stop Over-Engineering: Why Your Side Project Doesn’t Need Microservices, Docker, and Kubernetes", "platform": "devto", "value": 6.0, "timestamp": "2026-08-30T14:59:22Z"}
+{"keyword": "Native CORS support on GKE Gateway: Offloading cross-origin policy management to infrastructure", "platform": "devto", "value": 15.0, "timestamp": "2026-08-30T19:09:03Z"}
+{"keyword": "Overcoming Dart's Single Inheritance Wall: Composable CubitSignalMixin & BlocSignalMixin in Flutter", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T16:46:00Z"}
+{"keyword": "Git Said It Succeeded. The State Said Otherwise.", "platform": "devto", "value": 20.0, "timestamp": "2026-08-30T01:44:59Z"}
+{"keyword": "Delta encoding multiplayer game state", "platform": "devto", "value": 12.0, "timestamp": "2026-08-30T09:49:49Z"}
+{"keyword": "Bugs Are Innocent Until Reproduced: Building Verdict, an Evidence-First Agent Harness", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T04:43:06Z"}
+{"keyword": "Tell Me About You", "platform": "devto", "value": 14.0, "timestamp": "2026-08-30T19:05:28Z"}
+{"keyword": "My Commit Said \"Stop Trusting the Receipt.\" That Is the Commit Where the Trusting Started.", "platform": "devto", "value": 15.0, "timestamp": "2026-08-30T07:04:02Z"}
+{"keyword": "The undo has to exist before the write does", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T03:32:25Z"}
+{"keyword": "Why asking for help feels harder than solving the problem yourself", "platform": "devto", "value": 2.0, "timestamp": "2026-08-30T13:43:47Z"}
+{"keyword": "I built a job-risk checker that never calls an LLM — it reads your GitHub instead", "platform": "devto", "value": 4.0, "timestamp": "2026-08-30T10:36:19Z"}
+{"keyword": "Four reviewers told me the one thing I couldn't fix by myself", "platform": "devto", "value": 3.0, "timestamp": "2026-08-30T01:51:03Z"}
+{"keyword": "Five bugs in my LLM app that never threw an error", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T02:31:58Z"}
+{"keyword": "I Added a Fourth Model Mid-Run. It Changed What My Field Test Could Prove.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-30T18:52:24Z"}
+{"keyword": "Hijri Dates in Indonesia Were a Pain to Get Right. Not Anymore.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-30T11:20:06Z"}
+{"keyword": "I built a free API for Pakistani mutual fund NAVs (because MUFAP's own one doesn't work)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T11:02:52Z"}
+{"keyword": "Every typing site makes you type prose. I built one that makes you type code.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T05:50:08Z"}
+{"keyword": "Running Coding Agents in Parallel with Git Worktrees", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T21:29:33Z"}
+{"keyword": "My Claude Code config costs 9,857 tokens before I type anything", "platform": "devto", "value": 3.0, "timestamp": "2026-08-30T01:08:07Z"}
+{"keyword": "The baseline that quietly stopped meaning anything (and closed real trades)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T06:51:28Z"}
+{"keyword": "CPU, GPU, TPU, NPU, DPU, QPU: six chips, one question", "platform": "devto", "value": 10.0, "timestamp": "2026-08-30T17:47:30Z"}
+{"keyword": "Production Flutter Networking Without the Boilerplate: Reactive Repositories with BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-08-30T21:04:04Z"}
+{"keyword": "Your MCP Server Says It Is Read-Only. Who Checked?", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T04:43:19Z"}
+{"keyword": "From Figma to the browser: building a shared mental model", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T10:58:03Z"}
+{"keyword": "JavaScript Find in Page: DOM Text Above the Codename One Canvas", "platform": "devto", "value": 0.0, "timestamp": "2026-08-30T17:26:42Z"}
+{"keyword": "Nuxt useState vs ref(): Why Server State Leaks Across Users", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T11:37:10Z"}
+{"keyword": "Why I Built VertiWiki: A Zero-Backend, Single-File Markdown Wiki Engine", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T09:17:52Z"}
+{"keyword": "OpenAI Responses API `user` Migration: Split Safety from Prompt Caching", "platform": "devto", "value": 5.0, "timestamp": "2026-08-30T16:15:42Z"}
+{"keyword": "Stop Over-Engineering: Why Your Side Project Doesn’t Need Microservices, Docker, and Kubernetes", "platform": "devto", "value": 6.0, "timestamp": "2026-08-30T14:59:22Z"}
+{"keyword": "Native CORS support on GKE Gateway: Offloading cross-origin policy management to infrastructure", "platform": "devto", "value": 15.0, "timestamp": "2026-08-30T19:09:03Z"}
+{"keyword": "Overcoming Dart's Single Inheritance Wall: Composable CubitSignalMixin & BlocSignalMixin in Flutter", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T16:46:00Z"}
+{"keyword": "Git Said It Succeeded. The State Said Otherwise.", "platform": "devto", "value": 20.0, "timestamp": "2026-08-30T01:44:59Z"}
+{"keyword": "Delta encoding multiplayer game state", "platform": "devto", "value": 12.0, "timestamp": "2026-08-30T09:49:49Z"}
+{"keyword": "Bugs Are Innocent Until Reproduced: Building Verdict, an Evidence-First Agent Harness", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T04:43:06Z"}
+{"keyword": "Tell Me About You", "platform": "devto", "value": 14.0, "timestamp": "2026-08-30T19:05:28Z"}
+{"keyword": "My Commit Said \"Stop Trusting the Receipt.\" That Is the Commit Where the Trusting Started.", "platform": "devto", "value": 15.0, "timestamp": "2026-08-30T07:04:02Z"}
+{"keyword": "The undo has to exist before the write does", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T03:32:25Z"}
+{"keyword": "Why asking for help feels harder than solving the problem yourself", "platform": "devto", "value": 2.0, "timestamp": "2026-08-30T13:43:47Z"}
+{"keyword": "I built a job-risk checker that never calls an LLM — it reads your GitHub instead", "platform": "devto", "value": 4.0, "timestamp": "2026-08-30T10:36:19Z"}
+{"keyword": "Four reviewers told me the one thing I couldn't fix by myself", "platform": "devto", "value": 3.0, "timestamp": "2026-08-30T01:51:03Z"}
+{"keyword": "Five bugs in my LLM app that never threw an error", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T02:31:58Z"}
+{"keyword": "I Added a Fourth Model Mid-Run. It Changed What My Field Test Could Prove.", "platform": "devto", "value": 6.0, "timestamp": "2026-08-30T18:52:24Z"}
+{"keyword": "Hijri Dates in Indonesia Were a Pain to Get Right. Not Anymore.", "platform": "devto", "value": 2.0, "timestamp": "2026-08-30T11:20:06Z"}
+{"keyword": "I built a free API for Pakistani mutual fund NAVs (because MUFAP's own one doesn't work)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T11:02:52Z"}
+{"keyword": "Every typing site makes you type prose. I built one that makes you type code.", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T05:50:08Z"}
+{"keyword": "Running Coding Agents in Parallel with Git Worktrees", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T21:29:33Z"}
+{"keyword": "My Claude Code config costs 9,857 tokens before I type anything", "platform": "devto", "value": 3.0, "timestamp": "2026-08-30T01:08:07Z"}
+{"keyword": "The baseline that quietly stopped meaning anything (and closed real trades)", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T06:51:28Z"}
+{"keyword": "CPU, GPU, TPU, NPU, DPU, QPU: six chips, one question", "platform": "devto", "value": 10.0, "timestamp": "2026-08-30T17:47:30Z"}
+{"keyword": "Production Flutter Networking Without the Boilerplate: Reactive Repositories with BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-08-30T21:04:04Z"}
+{"keyword": "Your MCP Server Says It Is Read-Only. Who Checked?", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T04:43:19Z"}
+{"keyword": "From Figma to the browser: building a shared mental model", "platform": "devto", "value": 7.0, "timestamp": "2026-08-30T10:58:03Z"}
+{"keyword": "JavaScript Find in Page: DOM Text Above the Codename One Canvas", "platform": "devto", "value": 0.0, "timestamp": "2026-08-30T17:26:42Z"}
+{"keyword": "Nuxt useState vs ref(): Why Server State Leaks Across Users", "platform": "devto", "value": 8.0, "timestamp": "2026-08-30T11:37:10Z"}
+{"keyword": "Why I Built VertiWiki: A Zero-Backend, Single-File Markdown Wiki Engine", "platform": "devto", "value": 1.0, "timestamp": "2026-08-30T09:17:52Z"}
+{"keyword": "OpenAI Responses API `user` Migration: Split Safety from Prompt Caching", "platform": "devto", "value": 5.0, "timestamp": "2026-08-30T16:15:42Z"}
+{"keyword": "Stop Over-Engineering: Why Your Side Project Doesn’t Need Microservices, Docker, and Kubernetes", "platform": "devto", "value": 6.0, "timestamp": "2026-08-30T14:59:22Z"}
