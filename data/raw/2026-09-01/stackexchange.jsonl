@@ -38,3 +38,21 @@
 {"keyword": "GStreamer later version seems to mis-identify the prepare-window-handle message", "platform": "stackexchange", "value": 0.0, "timestamp": "1788247968"}
 {"keyword": "Stateful vs sliding-window RNN for forecasting", "platform": "stackexchange", "value": 0.0, "timestamp": "1788255176"}
 {"keyword": "How to change Metadata in MediaStore Audio files / contentResolver.update always returns 0 updated", "platform": "stackexchange", "value": 1.0, "timestamp": "1788255667"}
+{"keyword": "How can an MCP client commit to GitHub without a long-lived PAT?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788301000"}
+{"keyword": "VS reports MAUI app deployment errors in Debug mode", "platform": "stackexchange", "value": 0.0, "timestamp": "1788298599"}
+{"keyword": "Figuring out which SBT subproject logged or output a particular statement to the console", "platform": "stackexchange", "value": 0.0, "timestamp": "1788297665"}
+{"keyword": "Generate a custom integer sequence for type parameter offsets", "platform": "stackexchange", "value": 2.0, "timestamp": "1788279780"}
+{"keyword": "Visual Studio Code ignores snippets stored in ~/.config/Code/User/snippets/", "platform": "stackexchange", "value": 1.0, "timestamp": "1788284894"}
+{"keyword": "Lua Relational Operators with multiple condition", "platform": "stackexchange", "value": 2.0, "timestamp": "1788278898"}
+{"keyword": "How to show status of multiple stopwatches in Android notifications", "platform": "stackexchange", "value": 1.0, "timestamp": "1788283596"}
+{"keyword": "Android Virtual Device Creation - API 37.2 system image not showing", "platform": "stackexchange", "value": 1.0, "timestamp": "1788282284"}
+{"keyword": "dplyr::pick behaving differently than the deprecated dplyr::cur_data for list columns", "platform": "stackexchange", "value": 2.0, "timestamp": "1788257108"}
+{"keyword": "How can an MCP client commit to GitHub without a long-lived PAT?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788301000"}
+{"keyword": "VS reports MAUI app deployment errors in Debug mode", "platform": "stackexchange", "value": 0.0, "timestamp": "1788298599"}
+{"keyword": "Figuring out which SBT subproject logged or output a particular statement to the console", "platform": "stackexchange", "value": 0.0, "timestamp": "1788297665"}
+{"keyword": "Generate a custom integer sequence for type parameter offsets", "platform": "stackexchange", "value": 2.0, "timestamp": "1788279780"}
+{"keyword": "Visual Studio Code ignores snippets stored in ~/.config/Code/User/snippets/", "platform": "stackexchange", "value": 1.0, "timestamp": "1788284894"}
+{"keyword": "Lua Relational Operators with multiple condition", "platform": "stackexchange", "value": 2.0, "timestamp": "1788278898"}
+{"keyword": "How to show status of multiple stopwatches in Android notifications", "platform": "stackexchange", "value": 1.0, "timestamp": "1788283596"}
+{"keyword": "Android Virtual Device Creation - API 37.2 system image not showing", "platform": "stackexchange", "value": 1.0, "timestamp": "1788282284"}
+{"keyword": "dplyr::pick behaving differently than the deprecated dplyr::cur_data for list columns", "platform": "stackexchange", "value": 2.0, "timestamp": "1788257108"}
