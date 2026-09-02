@@ -1,0 +1,58 @@
+{"keyword": "What happens to technical debt when AI makes code cheap?", "platform": "devto", "value": 19.0, "timestamp": "2026-09-01T14:01:00Z"}
+{"keyword": "Streamline Publishing with a Claude Code Skill", "platform": "devto", "value": 9.0, "timestamp": "2026-09-01T14:37:08Z"}
+{"keyword": "I raced six models against each other on DigitalOcean Inference. The cheapest one won.", "platform": "devto", "value": 8.0, "timestamp": "2026-09-01T15:10:34Z"}
+{"keyword": "How the internet actually works, and why nobody is in charge of it", "platform": "devto", "value": 23.0, "timestamp": "2026-09-01T18:46:58Z"}
+{"keyword": "Three Gemma 4 Deployments on One T4G for Under $3: What the Runtime Changes, and What It Doesn't", "platform": "devto", "value": 0.0, "timestamp": "2026-09-01T18:25:48Z"}
+{"keyword": "The job description already changed. We're not coders anymore, but couriers.", "platform": "devto", "value": 3.0, "timestamp": "2026-09-01T14:07:17Z"}
+{"keyword": "I tested Claude Code's memory against mine. They are not doing the same job.", "platform": "devto", "value": 8.0, "timestamp": "2026-09-01T20:40:47Z"}
+{"keyword": "I Built an AI That Rewrites Its Own Prompts — Its Safety Gate Rejected Every Single Edit", "platform": "devto", "value": 18.0, "timestamp": "2026-09-01T17:50:00Z"}
+{"keyword": "I Built a Browser-Based Tool That Turns Photos Into Cross-Stitch Patterns", "platform": "devto", "value": 2.0, "timestamp": "2026-09-01T17:11:41Z"}
+{"keyword": "7 of My 8 Claude Code Agents Had Zero Calls in 30 Days: Finding Dead Agents Automatically", "platform": "devto", "value": 4.0, "timestamp": "2026-09-02T00:00:04Z"}
+{"keyword": "Execution Trees, Not More Logs: A Better Debugging Model for AI Agents", "platform": "devto", "value": 7.0, "timestamp": "2026-09-02T04:46:27Z"}
+{"keyword": "I Built a Link-in-Bio Platform… Then I Asked: “Why Would Anyone Come Back?”", "platform": "devto", "value": 13.0, "timestamp": "2026-09-02T03:23:40Z"}
+{"keyword": "I Gave Claude Code a Brain. Then I Measured What It Costs to Ask for One.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-01T15:57:06Z"}
+{"keyword": "You're not quiet in meetings, you're editing", "platform": "devto", "value": 6.0, "timestamp": "2026-09-02T10:58:22Z"}
+{"keyword": "The blast radius rule for AI coding", "platform": "devto", "value": 1.0, "timestamp": "2026-09-01T22:34:35Z"}
+{"keyword": "Your automation is not logged out: a missing `--cdp` flag started a second Chrome", "platform": "devto", "value": 1.0, "timestamp": "2026-09-02T00:08:08Z"}
+{"keyword": "I Replaced 200 Lines of Code With One AI Agent — Here's What Broke", "platform": "devto", "value": 6.0, "timestamp": "2026-09-02T05:18:33Z"}
+{"keyword": "I Found 3 Security Vulnerabilities in My Own AI Agent's Tool Access", "platform": "devto", "value": 3.0, "timestamp": "2026-09-02T13:19:03Z"}
+{"keyword": "The Stack Nobody Picks Might Be the One That Picks You", "platform": "devto", "value": 27.0, "timestamp": "2026-09-01T14:02:25Z"}
+{"keyword": "Learn SQL by Typing It: Three Browser Database Terminals Compared", "platform": "devto", "value": 10.0, "timestamp": "2026-09-02T13:51:59Z"}
+{"keyword": "Go Is Not Just for CLIs. It Runs the Cloud Native Control Plane", "platform": "devto", "value": 6.0, "timestamp": "2026-09-02T10:00:00Z"}
+{"keyword": "Best AI Gateways with Built-In Observability & Governance (2026)", "platform": "devto", "value": 11.0, "timestamp": "2026-09-02T06:00:00Z"}
+{"keyword": ".NET 10 InlineArray Explicit Size: Fix TypeLoadException with a Wrapper", "platform": "devto", "value": 5.0, "timestamp": "2026-09-02T02:49:54Z"}
+{"keyword": "I Let an LLM Rewrite Its Own Prompt. The Real Win Was the Gate That Rejected It.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-02T09:10:25Z"}
+{"keyword": ".NET 10 LDAP VlvRequestControl Validation: Stop Sending Replacement Bytes", "platform": "devto", "value": 5.0, "timestamp": "2026-09-01T17:59:10Z"}
+{"keyword": "My Agent Found Real Improvements. The Statistics Still Killed the Promotion.", "platform": "devto", "value": 6.0, "timestamp": "2026-09-02T09:34:17Z"}
+{"keyword": "Shadow DOM Needed JavaScript to Exist. Now It Doesn't.", "platform": "devto", "value": 5.0, "timestamp": "2026-09-02T10:57:52Z"}
+{"keyword": "Mozaik Hackathon 2026: Compete for $1,000 in Cash Prizes", "platform": "devto", "value": 3.0, "timestamp": "2026-09-01T15:11:18Z"}
+{"keyword": "Software Factories: Why Every Engineering Blog Is Suddenly Talking About Them", "platform": "devto", "value": 5.0, "timestamp": "2026-09-02T05:54:06Z"}
+{"keyword": "What happens to technical debt when AI makes code cheap?", "platform": "devto", "value": 19.0, "timestamp": "2026-09-01T14:01:00Z"}
+{"keyword": "Streamline Publishing with a Claude Code Skill", "platform": "devto", "value": 9.0, "timestamp": "2026-09-01T14:37:08Z"}
+{"keyword": "I raced six models against each other on DigitalOcean Inference. The cheapest one won.", "platform": "devto", "value": 8.0, "timestamp": "2026-09-01T15:10:34Z"}
+{"keyword": "How the internet actually works, and why nobody is in charge of it", "platform": "devto", "value": 23.0, "timestamp": "2026-09-01T18:46:58Z"}
+{"keyword": "Three Gemma 4 Deployments on One T4G for Under $3: What the Runtime Changes, and What It Doesn't", "platform": "devto", "value": 0.0, "timestamp": "2026-09-01T18:25:48Z"}
+{"keyword": "The job description already changed. We're not coders anymore, but couriers.", "platform": "devto", "value": 3.0, "timestamp": "2026-09-01T14:07:17Z"}
+{"keyword": "I tested Claude Code's memory against mine. They are not doing the same job.", "platform": "devto", "value": 8.0, "timestamp": "2026-09-01T20:40:47Z"}
+{"keyword": "I Built an AI That Rewrites Its Own Prompts — Its Safety Gate Rejected Every Single Edit", "platform": "devto", "value": 18.0, "timestamp": "2026-09-01T17:50:00Z"}
+{"keyword": "I Built a Browser-Based Tool That Turns Photos Into Cross-Stitch Patterns", "platform": "devto", "value": 2.0, "timestamp": "2026-09-01T17:11:41Z"}
+{"keyword": "7 of My 8 Claude Code Agents Had Zero Calls in 30 Days: Finding Dead Agents Automatically", "platform": "devto", "value": 4.0, "timestamp": "2026-09-02T00:00:04Z"}
+{"keyword": "Execution Trees, Not More Logs: A Better Debugging Model for AI Agents", "platform": "devto", "value": 7.0, "timestamp": "2026-09-02T04:46:27Z"}
+{"keyword": "I Built a Link-in-Bio Platform… Then I Asked: “Why Would Anyone Come Back?”", "platform": "devto", "value": 13.0, "timestamp": "2026-09-02T03:23:40Z"}
+{"keyword": "I Gave Claude Code a Brain. Then I Measured What It Costs to Ask for One.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-01T15:57:06Z"}
+{"keyword": "You're not quiet in meetings, you're editing", "platform": "devto", "value": 6.0, "timestamp": "2026-09-02T10:58:22Z"}
+{"keyword": "The blast radius rule for AI coding", "platform": "devto", "value": 1.0, "timestamp": "2026-09-01T22:34:35Z"}
+{"keyword": "Your automation is not logged out: a missing `--cdp` flag started a second Chrome", "platform": "devto", "value": 1.0, "timestamp": "2026-09-02T00:08:08Z"}
+{"keyword": "I Replaced 200 Lines of Code With One AI Agent — Here's What Broke", "platform": "devto", "value": 6.0, "timestamp": "2026-09-02T05:18:33Z"}
+{"keyword": "I Found 3 Security Vulnerabilities in My Own AI Agent's Tool Access", "platform": "devto", "value": 3.0, "timestamp": "2026-09-02T13:19:03Z"}
+{"keyword": "The Stack Nobody Picks Might Be the One That Picks You", "platform": "devto", "value": 27.0, "timestamp": "2026-09-01T14:02:25Z"}
+{"keyword": "Learn SQL by Typing It: Three Browser Database Terminals Compared", "platform": "devto", "value": 10.0, "timestamp": "2026-09-02T13:51:59Z"}
+{"keyword": "Go Is Not Just for CLIs. It Runs the Cloud Native Control Plane", "platform": "devto", "value": 6.0, "timestamp": "2026-09-02T10:00:00Z"}
+{"keyword": "Best AI Gateways with Built-In Observability & Governance (2026)", "platform": "devto", "value": 11.0, "timestamp": "2026-09-02T06:00:00Z"}
+{"keyword": ".NET 10 InlineArray Explicit Size: Fix TypeLoadException with a Wrapper", "platform": "devto", "value": 5.0, "timestamp": "2026-09-02T02:49:54Z"}
+{"keyword": "I Let an LLM Rewrite Its Own Prompt. The Real Win Was the Gate That Rejected It.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-02T09:10:25Z"}
+{"keyword": ".NET 10 LDAP VlvRequestControl Validation: Stop Sending Replacement Bytes", "platform": "devto", "value": 5.0, "timestamp": "2026-09-01T17:59:10Z"}
+{"keyword": "My Agent Found Real Improvements. The Statistics Still Killed the Promotion.", "platform": "devto", "value": 6.0, "timestamp": "2026-09-02T09:34:17Z"}
+{"keyword": "Shadow DOM Needed JavaScript to Exist. Now It Doesn't.", "platform": "devto", "value": 5.0, "timestamp": "2026-09-02T10:57:52Z"}
+{"keyword": "Mozaik Hackathon 2026: Compete for $1,000 in Cash Prizes", "platform": "devto", "value": 3.0, "timestamp": "2026-09-01T15:11:18Z"}
+{"keyword": "Software Factories: Why Every Engineering Blog Is Suddenly Talking About Them", "platform": "devto", "value": 5.0, "timestamp": "2026-09-02T05:54:06Z"}
