@@ -54,3 +54,119 @@
 {"keyword": "OpenAI Responses API previous_response_id Instructions: Repeat Policy on Every Turn", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T02:30:51Z"}
 {"keyword": "From Local Traces to Production Observability for Google AI Agents", "platform": "devto", "value": 4.0, "timestamp": "2026-09-02T13:54:54Z"}
 {"keyword": "5 Places a Real-Time Camera Filter Drops Frames", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T11:42:31Z"}
+{"keyword": "20 Agentic AI Terms Every Developer Should Know (Explained Simply)", "platform": "devto", "value": 73.0, "timestamp": "2026-09-03T06:44:57Z"}
+{"keyword": "My Thermostat Was Speaking an Industrial Protocol. Just Not to Me.", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T15:32:52Z"}
+{"keyword": "I Built My First AWS Agent Workflow, and the Hardest Part Was Getting It to Stop Assuming Things", "platform": "devto", "value": 41.0, "timestamp": "2026-09-03T15:24:18Z"}
+{"keyword": "AI-assisted genealogy", "platform": "devto", "value": 14.0, "timestamp": "2026-09-03T09:02:00Z"}
+{"keyword": "The extraction returned zero memories, and nothing screamed", "platform": "devto", "value": 10.0, "timestamp": "2026-09-03T03:43:27Z"}
+{"keyword": "My Dev.to CLI Got Its First Community PR. Image Uploads From Terminal.", "platform": "devto", "value": 19.0, "timestamp": "2026-09-03T11:36:02Z"}
+{"keyword": "Taming Flutter Infinite Scroll: Why 3 Lines of async* Missed the Point, and How BlocSignal Fixes It", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T12:47:27Z"}
+{"keyword": "Four Ways Your Background Job Disappears (And How to Stop Each One)", "platform": "devto", "value": 22.0, "timestamp": "2026-09-03T12:10:26Z"}
+{"keyword": "Forensic Receipts: From Trusted to Proven", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T13:14:00Z"}
+{"keyword": "What I learned building a native console for two competing coding agents", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T15:47:18Z"}
+{"keyword": "Memory Is Not Talent: Talent Is Pattern Recognition and Connection", "platform": "devto", "value": 12.0, "timestamp": "2026-09-03T10:20:22Z"}
+{"keyword": "Your First Multi-agent system: A Beginner's Guide to Building an AI Trend finder with ADK", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T15:53:27Z"}
+{"keyword": "Is This Really Required? Meet gh stack", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T20:08:55Z"}
+{"keyword": "Claude Code journal plugin: Notion session summaries at a glance", "platform": "devto", "value": 10.0, "timestamp": "2026-09-02T23:11:24Z"}
+{"keyword": "ChromeOS Lookalikes, Two Ways: One With Drivers, One Without", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T15:18:58Z"}
+{"keyword": "I Ran git reset --hard in the Wrong Window", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T03:38:02Z"}
+{"keyword": "BattleBots, but the robot is your agent harness", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T04:32:52Z"}
+{"keyword": "How to Become a 10x Engineer and Stay Safe in the Age of AI Layoffs", "platform": "devto", "value": 8.0, "timestamp": "2026-09-03T12:25:15Z"}
+{"keyword": "Vesper Design Diaries: Building a Production-Grade KMP App on a Bootstrap Budget", "platform": "devto", "value": 0.0, "timestamp": "2026-09-03T16:25:06Z"}
+{"keyword": "My Go tests never executed a line of the JavaScript they were testing", "platform": "devto", "value": 8.0, "timestamp": "2026-09-03T14:40:42Z"}
+{"keyword": "I Tried 4 Models to Save My Self-Improving Agent. All 4 Failed.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-03T02:05:41Z"}
+{"keyword": "I build a tool that says don't trust self-report. Then I trusted mine seven times in one day", "platform": "devto", "value": 9.0, "timestamp": "2026-09-03T12:03:26Z"}
+{"keyword": "Running a Local LLM on an Older Computer: A Simple Home Lab Guide", "platform": "devto", "value": 3.0, "timestamp": "2026-09-03T18:11:59Z"}
+{"keyword": "Three gotchas installing a plugin into someone else's agent", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T01:37:39Z"}
+{"keyword": "My editor's background linter filled the one drive I had left, 341GB at a time", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T01:37:29Z"}
+{"keyword": "I made a habit tracker where you can filter and sort by anything", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T18:15:34Z"}
+{"keyword": "Nomad vs Kubernetes: When You Don't Need the Cluster", "platform": "devto", "value": 7.0, "timestamp": "2026-09-03T11:47:34Z"}
+{"keyword": "Installing Apache Airflow on Ubuntu 24.04", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T17:09:02Z"}
+{"keyword": "Installing FreeRADIUS with PostgreSQL", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T17:18:02Z"}
+{"keyword": "20 Agentic AI Terms Every Developer Should Know (Explained Simply)", "platform": "devto", "value": 73.0, "timestamp": "2026-09-03T06:44:57Z"}
+{"keyword": "My Thermostat Was Speaking an Industrial Protocol. Just Not to Me.", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T15:32:52Z"}
+{"keyword": "I Built My First AWS Agent Workflow, and the Hardest Part Was Getting It to Stop Assuming Things", "platform": "devto", "value": 41.0, "timestamp": "2026-09-03T15:24:18Z"}
+{"keyword": "AI-assisted genealogy", "platform": "devto", "value": 14.0, "timestamp": "2026-09-03T09:02:00Z"}
+{"keyword": "The extraction returned zero memories, and nothing screamed", "platform": "devto", "value": 10.0, "timestamp": "2026-09-03T03:43:27Z"}
+{"keyword": "My Dev.to CLI Got Its First Community PR. Image Uploads From Terminal.", "platform": "devto", "value": 19.0, "timestamp": "2026-09-03T11:36:02Z"}
+{"keyword": "Taming Flutter Infinite Scroll: Why 3 Lines of async* Missed the Point, and How BlocSignal Fixes It", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T12:47:27Z"}
+{"keyword": "Four Ways Your Background Job Disappears (And How to Stop Each One)", "platform": "devto", "value": 22.0, "timestamp": "2026-09-03T12:10:26Z"}
+{"keyword": "Forensic Receipts: From Trusted to Proven", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T13:14:00Z"}
+{"keyword": "What I learned building a native console for two competing coding agents", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T15:47:18Z"}
+{"keyword": "Memory Is Not Talent: Talent Is Pattern Recognition and Connection", "platform": "devto", "value": 12.0, "timestamp": "2026-09-03T10:20:22Z"}
+{"keyword": "Your First Multi-agent system: A Beginner's Guide to Building an AI Trend finder with ADK", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T15:53:27Z"}
+{"keyword": "Is This Really Required? Meet gh stack", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T20:08:55Z"}
+{"keyword": "Claude Code journal plugin: Notion session summaries at a glance", "platform": "devto", "value": 10.0, "timestamp": "2026-09-02T23:11:24Z"}
+{"keyword": "ChromeOS Lookalikes, Two Ways: One With Drivers, One Without", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T15:18:58Z"}
+{"keyword": "I Ran git reset --hard in the Wrong Window", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T03:38:02Z"}
+{"keyword": "BattleBots, but the robot is your agent harness", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T04:32:52Z"}
+{"keyword": "How to Become a 10x Engineer and Stay Safe in the Age of AI Layoffs", "platform": "devto", "value": 8.0, "timestamp": "2026-09-03T12:25:15Z"}
+{"keyword": "Vesper Design Diaries: Building a Production-Grade KMP App on a Bootstrap Budget", "platform": "devto", "value": 0.0, "timestamp": "2026-09-03T16:25:06Z"}
+{"keyword": "My Go tests never executed a line of the JavaScript they were testing", "platform": "devto", "value": 8.0, "timestamp": "2026-09-03T14:40:42Z"}
+{"keyword": "I Tried 4 Models to Save My Self-Improving Agent. All 4 Failed.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-03T02:05:41Z"}
+{"keyword": "I build a tool that says don't trust self-report. Then I trusted mine seven times in one day", "platform": "devto", "value": 9.0, "timestamp": "2026-09-03T12:03:26Z"}
+{"keyword": "Running a Local LLM on an Older Computer: A Simple Home Lab Guide", "platform": "devto", "value": 3.0, "timestamp": "2026-09-03T18:11:59Z"}
+{"keyword": "Three gotchas installing a plugin into someone else's agent", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T01:37:39Z"}
+{"keyword": "My editor's background linter filled the one drive I had left, 341GB at a time", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T01:37:29Z"}
+{"keyword": "I made a habit tracker where you can filter and sort by anything", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T18:15:34Z"}
+{"keyword": "Nomad vs Kubernetes: When You Don't Need the Cluster", "platform": "devto", "value": 7.0, "timestamp": "2026-09-03T11:47:34Z"}
+{"keyword": "Installing Apache Airflow on Ubuntu 24.04", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T17:09:02Z"}
+{"keyword": "Installing FreeRADIUS with PostgreSQL", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T17:18:02Z"}
+{"keyword": "20 Agentic AI Terms Every Developer Should Know (Explained Simply)", "platform": "devto", "value": 73.0, "timestamp": "2026-09-03T06:44:57Z"}
+{"keyword": "My Thermostat Was Speaking an Industrial Protocol. Just Not to Me.", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T15:32:52Z"}
+{"keyword": "I Built My First AWS Agent Workflow, and the Hardest Part Was Getting It to Stop Assuming Things", "platform": "devto", "value": 41.0, "timestamp": "2026-09-03T15:24:18Z"}
+{"keyword": "AI-assisted genealogy", "platform": "devto", "value": 14.0, "timestamp": "2026-09-03T09:02:00Z"}
+{"keyword": "The extraction returned zero memories, and nothing screamed", "platform": "devto", "value": 10.0, "timestamp": "2026-09-03T03:43:27Z"}
+{"keyword": "My Dev.to CLI Got Its First Community PR. Image Uploads From Terminal.", "platform": "devto", "value": 19.0, "timestamp": "2026-09-03T11:36:02Z"}
+{"keyword": "Taming Flutter Infinite Scroll: Why 3 Lines of async* Missed the Point, and How BlocSignal Fixes It", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T12:47:27Z"}
+{"keyword": "Four Ways Your Background Job Disappears (And How to Stop Each One)", "platform": "devto", "value": 22.0, "timestamp": "2026-09-03T12:10:26Z"}
+{"keyword": "Forensic Receipts: From Trusted to Proven", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T13:14:00Z"}
+{"keyword": "What I learned building a native console for two competing coding agents", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T15:47:18Z"}
+{"keyword": "Memory Is Not Talent: Talent Is Pattern Recognition and Connection", "platform": "devto", "value": 12.0, "timestamp": "2026-09-03T10:20:22Z"}
+{"keyword": "Your First Multi-agent system: A Beginner's Guide to Building an AI Trend finder with ADK", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T15:53:27Z"}
+{"keyword": "Is This Really Required? Meet gh stack", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T20:08:55Z"}
+{"keyword": "Claude Code journal plugin: Notion session summaries at a glance", "platform": "devto", "value": 10.0, "timestamp": "2026-09-02T23:11:24Z"}
+{"keyword": "ChromeOS Lookalikes, Two Ways: One With Drivers, One Without", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T15:18:58Z"}
+{"keyword": "I Ran git reset --hard in the Wrong Window", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T03:38:02Z"}
+{"keyword": "BattleBots, but the robot is your agent harness", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T04:32:52Z"}
+{"keyword": "How to Become a 10x Engineer and Stay Safe in the Age of AI Layoffs", "platform": "devto", "value": 8.0, "timestamp": "2026-09-03T12:25:15Z"}
+{"keyword": "Vesper Design Diaries: Building a Production-Grade KMP App on a Bootstrap Budget", "platform": "devto", "value": 0.0, "timestamp": "2026-09-03T16:25:06Z"}
+{"keyword": "My Go tests never executed a line of the JavaScript they were testing", "platform": "devto", "value": 8.0, "timestamp": "2026-09-03T14:40:42Z"}
+{"keyword": "I Tried 4 Models to Save My Self-Improving Agent. All 4 Failed.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-03T02:05:41Z"}
+{"keyword": "I build a tool that says don't trust self-report. Then I trusted mine seven times in one day", "platform": "devto", "value": 9.0, "timestamp": "2026-09-03T12:03:26Z"}
+{"keyword": "Running a Local LLM on an Older Computer: A Simple Home Lab Guide", "platform": "devto", "value": 3.0, "timestamp": "2026-09-03T18:11:59Z"}
+{"keyword": "Three gotchas installing a plugin into someone else's agent", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T01:37:39Z"}
+{"keyword": "My editor's background linter filled the one drive I had left, 341GB at a time", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T01:37:29Z"}
+{"keyword": "I made a habit tracker where you can filter and sort by anything", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T18:15:34Z"}
+{"keyword": "Nomad vs Kubernetes: When You Don't Need the Cluster", "platform": "devto", "value": 7.0, "timestamp": "2026-09-03T11:47:34Z"}
+{"keyword": "Installing Apache Airflow on Ubuntu 24.04", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T17:09:02Z"}
+{"keyword": "Installing FreeRADIUS with PostgreSQL", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T17:18:02Z"}
+{"keyword": "20 Agentic AI Terms Every Developer Should Know (Explained Simply)", "platform": "devto", "value": 73.0, "timestamp": "2026-09-03T06:44:57Z"}
+{"keyword": "My Thermostat Was Speaking an Industrial Protocol. Just Not to Me.", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T15:32:52Z"}
+{"keyword": "I Built My First AWS Agent Workflow, and the Hardest Part Was Getting It to Stop Assuming Things", "platform": "devto", "value": 41.0, "timestamp": "2026-09-03T15:24:18Z"}
+{"keyword": "AI-assisted genealogy", "platform": "devto", "value": 14.0, "timestamp": "2026-09-03T09:02:00Z"}
+{"keyword": "The extraction returned zero memories, and nothing screamed", "platform": "devto", "value": 10.0, "timestamp": "2026-09-03T03:43:27Z"}
+{"keyword": "My Dev.to CLI Got Its First Community PR. Image Uploads From Terminal.", "platform": "devto", "value": 19.0, "timestamp": "2026-09-03T11:36:02Z"}
+{"keyword": "Taming Flutter Infinite Scroll: Why 3 Lines of async* Missed the Point, and How BlocSignal Fixes It", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T12:47:27Z"}
+{"keyword": "Four Ways Your Background Job Disappears (And How to Stop Each One)", "platform": "devto", "value": 22.0, "timestamp": "2026-09-03T12:10:26Z"}
+{"keyword": "Forensic Receipts: From Trusted to Proven", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T13:14:00Z"}
+{"keyword": "What I learned building a native console for two competing coding agents", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T15:47:18Z"}
+{"keyword": "Memory Is Not Talent: Talent Is Pattern Recognition and Connection", "platform": "devto", "value": 12.0, "timestamp": "2026-09-03T10:20:22Z"}
+{"keyword": "Your First Multi-agent system: A Beginner's Guide to Building an AI Trend finder with ADK", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T15:53:27Z"}
+{"keyword": "Is This Really Required? Meet gh stack", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T20:08:55Z"}
+{"keyword": "Claude Code journal plugin: Notion session summaries at a glance", "platform": "devto", "value": 10.0, "timestamp": "2026-09-02T23:11:24Z"}
+{"keyword": "ChromeOS Lookalikes, Two Ways: One With Drivers, One Without", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T15:18:58Z"}
+{"keyword": "I Ran git reset --hard in the Wrong Window", "platform": "devto", "value": 11.0, "timestamp": "2026-09-03T03:38:02Z"}
+{"keyword": "BattleBots, but the robot is your agent harness", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T04:32:52Z"}
+{"keyword": "How to Become a 10x Engineer and Stay Safe in the Age of AI Layoffs", "platform": "devto", "value": 8.0, "timestamp": "2026-09-03T12:25:15Z"}
+{"keyword": "Vesper Design Diaries: Building a Production-Grade KMP App on a Bootstrap Budget", "platform": "devto", "value": 0.0, "timestamp": "2026-09-03T16:25:06Z"}
+{"keyword": "My Go tests never executed a line of the JavaScript they were testing", "platform": "devto", "value": 8.0, "timestamp": "2026-09-03T14:40:42Z"}
+{"keyword": "I Tried 4 Models to Save My Self-Improving Agent. All 4 Failed.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-03T02:05:41Z"}
+{"keyword": "I build a tool that says don't trust self-report. Then I trusted mine seven times in one day", "platform": "devto", "value": 9.0, "timestamp": "2026-09-03T12:03:26Z"}
+{"keyword": "Running a Local LLM on an Older Computer: A Simple Home Lab Guide", "platform": "devto", "value": 3.0, "timestamp": "2026-09-03T18:11:59Z"}
+{"keyword": "Three gotchas installing a plugin into someone else's agent", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T01:37:39Z"}
+{"keyword": "My editor's background linter filled the one drive I had left, 341GB at a time", "platform": "devto", "value": 5.0, "timestamp": "2026-09-03T01:37:29Z"}
+{"keyword": "I made a habit tracker where you can filter and sort by anything", "platform": "devto", "value": 4.0, "timestamp": "2026-09-03T18:15:34Z"}
+{"keyword": "Nomad vs Kubernetes: When You Don't Need the Cluster", "platform": "devto", "value": 7.0, "timestamp": "2026-09-03T11:47:34Z"}
+{"keyword": "Installing Apache Airflow on Ubuntu 24.04", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T17:09:02Z"}
+{"keyword": "Installing FreeRADIUS with PostgreSQL", "platform": "devto", "value": 6.0, "timestamp": "2026-09-03T17:18:02Z"}
