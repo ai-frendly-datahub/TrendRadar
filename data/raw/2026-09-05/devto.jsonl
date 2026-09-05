@@ -54,3 +54,111 @@
 {"keyword": "10 Vue Performance Mistakes That Only Show Up at Scale", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T08:55:12Z"}
 {"keyword": "I Built a Database in Rust With Zero Dependencies (and What the Standard Library Quietly Gave Me)", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T06:11:16Z"}
 {"keyword": "React Compiler 1.0: What useMemo You Can Delete", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T10:17:49Z"}
+{"keyword": "I built PadForward because sometimes you just need a pad", "platform": "devto", "value": 10.0, "timestamp": "2026-09-05T13:39:59Z"}
+{"keyword": "I Watched Our Interns Play Valorant for Three Hours. Put Your Rank on the Resume.", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T13:49:09Z"}
+{"keyword": "🚨📢Launching Docgrity 🚀: Documentation integrity for you, your team, and your agent friends. 🤖", "platform": "devto", "value": 9.0, "timestamp": "2026-09-05T04:55:38Z"}
+{"keyword": "Put App Documents in the System File Browser", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T16:02:40Z"}
+{"keyword": "Beyond Clean Architecture: The Iceberg Pattern for Real-Time Flutter Apps with BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T02:42:20Z"}
+{"keyword": "Generosity Is a Default Setting", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T22:04:33Z"}
+{"keyword": "I'm 12. My Code Jam got zero submissions. So I built a platform for it.", "platform": "devto", "value": 14.0, "timestamp": "2026-09-05T01:50:31Z"}
+{"keyword": "I Built a Database in Rust With Zero Dependencies (and What the Standard Library Quietly Gave Me)", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T06:11:16Z"}
+{"keyword": "Pass It On: give someone an answer they can pass on", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T18:00:09Z"}
+{"keyword": "Why Most AI Agents Fail in Production", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T08:18:53Z"}
+{"keyword": "The Dealership Charges $180/hr for This, I Do It With an ESP32", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T13:35:06Z"}
+{"keyword": "Can Your AI Use What It Remembers?", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T14:09:59Z"}
+{"keyword": "Tree of Thoughts and MCTS for LLMs: What Happens When You Stop Making the Model Guess Once", "platform": "devto", "value": 7.0, "timestamp": "2026-09-05T18:01:00Z"}
+{"keyword": "The OpenClaw Setup Nobody Talks About: Local, Offline, and Actually Private", "platform": "devto", "value": 2.0, "timestamp": "2026-09-05T13:29:51Z"}
+{"keyword": "Dealing with sensitive permissions on Android", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T09:22:30Z"}
+{"keyword": "How We Doubled Our Cache Hit Rate When Pre-Warming Wasn’t Enough", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T01:27:00Z"}
+{"keyword": "React Compiler 1.0: What useMemo You Can Delete", "platform": "devto", "value": 8.0, "timestamp": "2026-09-05T10:17:49Z"}
+{"keyword": "RAG Solved the Wrong Problem: What Actually Makes AI Applications Reliable?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:13:02Z"}
+{"keyword": "Deploy to EC2 from GitHub Actions without opening port 22", "platform": "devto", "value": 4.0, "timestamp": "2026-09-05T11:02:47Z"}
+{"keyword": "From API to AI Agent: Turning a Laravel Backend Into a Tool-Using System", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:27:08Z"}
+{"keyword": "Why Most AI Agents Fail Long Before the Model Does", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:20:01Z"}
+{"keyword": "My MCP Security Scanner Missed 2026's Worst MCP RCE: Here Is the One-Rule Fix", "platform": "devto", "value": 1.0, "timestamp": "2026-09-05T12:41:04Z"}
+{"keyword": "When an AI Agent Makes a Mistake in Production, Which Layer Should Stop It?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:28:36Z"}
+{"keyword": "We Replaced 3 Microservices With One Postgres Table", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T08:17:59Z"}
+{"keyword": "Deploying an Agent Substrate Actor After ActorTemplate Left Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T16:22:48Z"}
+{"keyword": "LendingChain: Reimagining Global Generosity with Zero-Interest Solana Micro-Loans", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T10:41:36Z"}
+{"keyword": "Building Production-Ready AI Agents in Laravel", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T08:25:38Z"}
+{"keyword": "I built PadForward because sometimes you just need a pad", "platform": "devto", "value": 10.0, "timestamp": "2026-09-05T13:39:59Z"}
+{"keyword": "I Watched Our Interns Play Valorant for Three Hours. Put Your Rank on the Resume.", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T13:49:09Z"}
+{"keyword": "🚨📢Launching Docgrity 🚀: Documentation integrity for you, your team, and your agent friends. 🤖", "platform": "devto", "value": 9.0, "timestamp": "2026-09-05T04:55:38Z"}
+{"keyword": "Put App Documents in the System File Browser", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T16:02:40Z"}
+{"keyword": "Beyond Clean Architecture: The Iceberg Pattern for Real-Time Flutter Apps with BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T02:42:20Z"}
+{"keyword": "Generosity Is a Default Setting", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T22:04:33Z"}
+{"keyword": "I'm 12. My Code Jam got zero submissions. So I built a platform for it.", "platform": "devto", "value": 14.0, "timestamp": "2026-09-05T01:50:31Z"}
+{"keyword": "I Built a Database in Rust With Zero Dependencies (and What the Standard Library Quietly Gave Me)", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T06:11:16Z"}
+{"keyword": "Pass It On: give someone an answer they can pass on", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T18:00:09Z"}
+{"keyword": "Why Most AI Agents Fail in Production", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T08:18:53Z"}
+{"keyword": "The Dealership Charges $180/hr for This, I Do It With an ESP32", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T13:35:06Z"}
+{"keyword": "Can Your AI Use What It Remembers?", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T14:09:59Z"}
+{"keyword": "Tree of Thoughts and MCTS for LLMs: What Happens When You Stop Making the Model Guess Once", "platform": "devto", "value": 7.0, "timestamp": "2026-09-05T18:01:00Z"}
+{"keyword": "The OpenClaw Setup Nobody Talks About: Local, Offline, and Actually Private", "platform": "devto", "value": 2.0, "timestamp": "2026-09-05T13:29:51Z"}
+{"keyword": "Dealing with sensitive permissions on Android", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T09:22:30Z"}
+{"keyword": "How We Doubled Our Cache Hit Rate When Pre-Warming Wasn’t Enough", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T01:27:00Z"}
+{"keyword": "React Compiler 1.0: What useMemo You Can Delete", "platform": "devto", "value": 8.0, "timestamp": "2026-09-05T10:17:49Z"}
+{"keyword": "RAG Solved the Wrong Problem: What Actually Makes AI Applications Reliable?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:13:02Z"}
+{"keyword": "Deploy to EC2 from GitHub Actions without opening port 22", "platform": "devto", "value": 4.0, "timestamp": "2026-09-05T11:02:47Z"}
+{"keyword": "From API to AI Agent: Turning a Laravel Backend Into a Tool-Using System", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:27:08Z"}
+{"keyword": "Why Most AI Agents Fail Long Before the Model Does", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:20:01Z"}
+{"keyword": "My MCP Security Scanner Missed 2026's Worst MCP RCE: Here Is the One-Rule Fix", "platform": "devto", "value": 1.0, "timestamp": "2026-09-05T12:41:04Z"}
+{"keyword": "When an AI Agent Makes a Mistake in Production, Which Layer Should Stop It?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:28:36Z"}
+{"keyword": "We Replaced 3 Microservices With One Postgres Table", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T08:17:59Z"}
+{"keyword": "Deploying an Agent Substrate Actor After ActorTemplate Left Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T16:22:48Z"}
+{"keyword": "LendingChain: Reimagining Global Generosity with Zero-Interest Solana Micro-Loans", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T10:41:36Z"}
+{"keyword": "Building Production-Ready AI Agents in Laravel", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T08:25:38Z"}
+{"keyword": "I built PadForward because sometimes you just need a pad", "platform": "devto", "value": 10.0, "timestamp": "2026-09-05T13:39:59Z"}
+{"keyword": "I Watched Our Interns Play Valorant for Three Hours. Put Your Rank on the Resume.", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T13:49:09Z"}
+{"keyword": "🚨📢Launching Docgrity 🚀: Documentation integrity for you, your team, and your agent friends. 🤖", "platform": "devto", "value": 9.0, "timestamp": "2026-09-05T04:55:38Z"}
+{"keyword": "Put App Documents in the System File Browser", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T16:02:40Z"}
+{"keyword": "Beyond Clean Architecture: The Iceberg Pattern for Real-Time Flutter Apps with BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T02:42:20Z"}
+{"keyword": "Generosity Is a Default Setting", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T22:04:33Z"}
+{"keyword": "I'm 12. My Code Jam got zero submissions. So I built a platform for it.", "platform": "devto", "value": 14.0, "timestamp": "2026-09-05T01:50:31Z"}
+{"keyword": "I Built a Database in Rust With Zero Dependencies (and What the Standard Library Quietly Gave Me)", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T06:11:16Z"}
+{"keyword": "Pass It On: give someone an answer they can pass on", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T18:00:09Z"}
+{"keyword": "Why Most AI Agents Fail in Production", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T08:18:53Z"}
+{"keyword": "The Dealership Charges $180/hr for This, I Do It With an ESP32", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T13:35:06Z"}
+{"keyword": "Can Your AI Use What It Remembers?", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T14:09:59Z"}
+{"keyword": "Tree of Thoughts and MCTS for LLMs: What Happens When You Stop Making the Model Guess Once", "platform": "devto", "value": 7.0, "timestamp": "2026-09-05T18:01:00Z"}
+{"keyword": "The OpenClaw Setup Nobody Talks About: Local, Offline, and Actually Private", "platform": "devto", "value": 2.0, "timestamp": "2026-09-05T13:29:51Z"}
+{"keyword": "Dealing with sensitive permissions on Android", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T09:22:30Z"}
+{"keyword": "How We Doubled Our Cache Hit Rate When Pre-Warming Wasn’t Enough", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T01:27:00Z"}
+{"keyword": "React Compiler 1.0: What useMemo You Can Delete", "platform": "devto", "value": 8.0, "timestamp": "2026-09-05T10:17:49Z"}
+{"keyword": "RAG Solved the Wrong Problem: What Actually Makes AI Applications Reliable?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:13:02Z"}
+{"keyword": "Deploy to EC2 from GitHub Actions without opening port 22", "platform": "devto", "value": 4.0, "timestamp": "2026-09-05T11:02:47Z"}
+{"keyword": "From API to AI Agent: Turning a Laravel Backend Into a Tool-Using System", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:27:08Z"}
+{"keyword": "Why Most AI Agents Fail Long Before the Model Does", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:20:01Z"}
+{"keyword": "My MCP Security Scanner Missed 2026's Worst MCP RCE: Here Is the One-Rule Fix", "platform": "devto", "value": 1.0, "timestamp": "2026-09-05T12:41:04Z"}
+{"keyword": "When an AI Agent Makes a Mistake in Production, Which Layer Should Stop It?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:28:36Z"}
+{"keyword": "We Replaced 3 Microservices With One Postgres Table", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T08:17:59Z"}
+{"keyword": "Deploying an Agent Substrate Actor After ActorTemplate Left Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T16:22:48Z"}
+{"keyword": "LendingChain: Reimagining Global Generosity with Zero-Interest Solana Micro-Loans", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T10:41:36Z"}
+{"keyword": "Building Production-Ready AI Agents in Laravel", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T08:25:38Z"}
+{"keyword": "I built PadForward because sometimes you just need a pad", "platform": "devto", "value": 10.0, "timestamp": "2026-09-05T13:39:59Z"}
+{"keyword": "I Watched Our Interns Play Valorant for Three Hours. Put Your Rank on the Resume.", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T13:49:09Z"}
+{"keyword": "🚨📢Launching Docgrity 🚀: Documentation integrity for you, your team, and your agent friends. 🤖", "platform": "devto", "value": 9.0, "timestamp": "2026-09-05T04:55:38Z"}
+{"keyword": "Put App Documents in the System File Browser", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T16:02:40Z"}
+{"keyword": "Beyond Clean Architecture: The Iceberg Pattern for Real-Time Flutter Apps with BlocSignal", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T02:42:20Z"}
+{"keyword": "Generosity Is a Default Setting", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T22:04:33Z"}
+{"keyword": "I'm 12. My Code Jam got zero submissions. So I built a platform for it.", "platform": "devto", "value": 14.0, "timestamp": "2026-09-05T01:50:31Z"}
+{"keyword": "I Built a Database in Rust With Zero Dependencies (and What the Standard Library Quietly Gave Me)", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T06:11:16Z"}
+{"keyword": "Pass It On: give someone an answer they can pass on", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T18:00:09Z"}
+{"keyword": "Why Most AI Agents Fail in Production", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T08:18:53Z"}
+{"keyword": "The Dealership Charges $180/hr for This, I Do It With an ESP32", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T13:35:06Z"}
+{"keyword": "Can Your AI Use What It Remembers?", "platform": "devto", "value": 3.0, "timestamp": "2026-09-05T14:09:59Z"}
+{"keyword": "Tree of Thoughts and MCTS for LLMs: What Happens When You Stop Making the Model Guess Once", "platform": "devto", "value": 7.0, "timestamp": "2026-09-05T18:01:00Z"}
+{"keyword": "The OpenClaw Setup Nobody Talks About: Local, Offline, and Actually Private", "platform": "devto", "value": 2.0, "timestamp": "2026-09-05T13:29:51Z"}
+{"keyword": "Dealing with sensitive permissions on Android", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T09:22:30Z"}
+{"keyword": "How We Doubled Our Cache Hit Rate When Pre-Warming Wasn’t Enough", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T01:27:00Z"}
+{"keyword": "React Compiler 1.0: What useMemo You Can Delete", "platform": "devto", "value": 8.0, "timestamp": "2026-09-05T10:17:49Z"}
+{"keyword": "RAG Solved the Wrong Problem: What Actually Makes AI Applications Reliable?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:13:02Z"}
+{"keyword": "Deploy to EC2 from GitHub Actions without opening port 22", "platform": "devto", "value": 4.0, "timestamp": "2026-09-05T11:02:47Z"}
+{"keyword": "From API to AI Agent: Turning a Laravel Backend Into a Tool-Using System", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:27:08Z"}
+{"keyword": "Why Most AI Agents Fail Long Before the Model Does", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:20:01Z"}
+{"keyword": "My MCP Security Scanner Missed 2026's Worst MCP RCE: Here Is the One-Rule Fix", "platform": "devto", "value": 1.0, "timestamp": "2026-09-05T12:41:04Z"}
+{"keyword": "When an AI Agent Makes a Mistake in Production, Which Layer Should Stop It?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T15:28:36Z"}
+{"keyword": "We Replaced 3 Microservices With One Postgres Table", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T08:17:59Z"}
+{"keyword": "Deploying an Agent Substrate Actor After ActorTemplate Left Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-05T16:22:48Z"}
+{"keyword": "LendingChain: Reimagining Global Generosity with Zero-Interest Solana Micro-Loans", "platform": "devto", "value": 6.0, "timestamp": "2026-09-05T10:41:36Z"}
+{"keyword": "Building Production-Ready AI Agents in Laravel", "platform": "devto", "value": 5.0, "timestamp": "2026-09-05T08:25:38Z"}
