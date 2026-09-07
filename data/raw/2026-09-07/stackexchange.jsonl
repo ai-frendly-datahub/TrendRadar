@@ -8,3 +8,29 @@
 {"keyword": "ODR with one static function and one non-static", "platform": "stackexchange", "value": 1.0, "timestamp": "1788767688"}
 {"keyword": "Pivot function: can func parameter accept multiple aggregations like sum and count?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788769751"}
 {"keyword": "Get the playPause function to switch icons in the browser", "platform": "stackexchange", "value": 0.0, "timestamp": "1788748549"}
+{"keyword": "Why does clang use fsub.4s for a single scalar subtraction? How can I prevent this?", "platform": "stackexchange", "value": 1.0, "timestamp": "1788816529"}
+{"keyword": "Accessing struct members via pointer is not constant expression?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788794535"}
+{"keyword": "Is :customer_id really all I need to securely isolate client data in CustomerDashboard.io?", "platform": "stackexchange", "value": 1.0, "timestamp": "1788806235"}
+{"keyword": "How to display the time of a stopwatch in GODOT 4.7", "platform": "stackexchange", "value": 0.0, "timestamp": "1788814663"}
+{"keyword": "Documentation of pandas DataFrame.replace with series as input", "platform": "stackexchange", "value": 0.0, "timestamp": "1788811232"}
+{"keyword": "C17 vs C23: () function pointer error - Is this the correct fix?", "platform": "stackexchange", "value": 1.0, "timestamp": "1788799446"}
+{"keyword": "Is there a way to make scipy.optimize.minimize(method=&#39;trust-constr&#39;) accurate?", "platform": "stackexchange", "value": 1.0, "timestamp": "1788788528"}
+{"keyword": "Type hint a default return type used unless more specific overload exists", "platform": "stackexchange", "value": 3.0, "timestamp": "1788793131"}
+{"keyword": "Availability via DQL Metrics VS Availability via Data Explorer", "platform": "stackexchange", "value": 0.0, "timestamp": "1788802777"}
+{"keyword": "Tilde in CSS link has stopped resolving", "platform": "stackexchange", "value": 0.0, "timestamp": "1788789615"}
+{"keyword": "eclipse jsf content-assist works on h:commandButton but not p:commandButton", "platform": "stackexchange", "value": 0.0, "timestamp": "1788800581"}
+{"keyword": "Is there any formal way to distinguish which store operation the current load synchronizes with?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788747735"}
+{"keyword": "ODR with one static function and one non-static", "platform": "stackexchange", "value": 3.0, "timestamp": "1788767688"}
+{"keyword": "Why does clang use fsub.4s for a single scalar subtraction? How can I prevent this?", "platform": "stackexchange", "value": 1.0, "timestamp": "1788816529"}
+{"keyword": "Accessing struct members via pointer is not constant expression?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788794535"}
+{"keyword": "Is :customer_id really all I need to securely isolate client data in CustomerDashboard.io?", "platform": "stackexchange", "value": 1.0, "timestamp": "1788806235"}
+{"keyword": "How to display the time of a stopwatch in GODOT 4.7", "platform": "stackexchange", "value": 0.0, "timestamp": "1788814663"}
+{"keyword": "Documentation of pandas DataFrame.replace with series as input", "platform": "stackexchange", "value": 0.0, "timestamp": "1788811232"}
+{"keyword": "C17 vs C23: () function pointer error - Is this the correct fix?", "platform": "stackexchange", "value": 1.0, "timestamp": "1788799446"}
+{"keyword": "Is there a way to make scipy.optimize.minimize(method=&#39;trust-constr&#39;) accurate?", "platform": "stackexchange", "value": 1.0, "timestamp": "1788788528"}
+{"keyword": "Type hint a default return type used unless more specific overload exists", "platform": "stackexchange", "value": 3.0, "timestamp": "1788793131"}
+{"keyword": "Availability via DQL Metrics VS Availability via Data Explorer", "platform": "stackexchange", "value": 0.0, "timestamp": "1788802777"}
+{"keyword": "Tilde in CSS link has stopped resolving", "platform": "stackexchange", "value": 0.0, "timestamp": "1788789615"}
+{"keyword": "eclipse jsf content-assist works on h:commandButton but not p:commandButton", "platform": "stackexchange", "value": 0.0, "timestamp": "1788800581"}
+{"keyword": "Is there any formal way to distinguish which store operation the current load synchronizes with?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788747735"}
+{"keyword": "ODR with one static function and one non-static", "platform": "stackexchange", "value": 3.0, "timestamp": "1788767688"}
