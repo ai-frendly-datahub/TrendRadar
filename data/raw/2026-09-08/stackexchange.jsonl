@@ -10,3 +10,29 @@
 {"keyword": "Accessing struct members via pointer is not constant expression?", "platform": "stackexchange", "value": 2.0, "timestamp": "1788794535"}
 {"keyword": "Find changes to a specific line, but not when it was added", "platform": "stackexchange", "value": 1.0, "timestamp": "1788848805"}
 {"keyword": "Setting Proxy Registry value via on PowerShell via a GPO", "platform": "stackexchange", "value": 1.0, "timestamp": "1788850978"}
+{"keyword": "Having trouble setting up a dockerfile", "platform": "stackexchange", "value": 0.0, "timestamp": "1788908855"}
+{"keyword": "Compiler complaining about non-copy-assingnable type despite a condition ensuring it is", "platform": "stackexchange", "value": 0.0, "timestamp": "1788908661"}
+{"keyword": "Use CSS to hide/show arbitrary elements via data attributes?", "platform": "stackexchange", "value": 3.0, "timestamp": "1788903460"}
+{"keyword": "WebViewer2 won&#39;t show web reports to simultaneous users", "platform": "stackexchange", "value": 0.0, "timestamp": "1788906115"}
+{"keyword": "An unexpected error with number 1000 has occurred: Not authenticated: NotSignedIn", "platform": "stackexchange", "value": 0.0, "timestamp": "1788905369"}
+{"keyword": "Add a named element conditionally in a list", "platform": "stackexchange", "value": 4.0, "timestamp": "1788895075"}
+{"keyword": "Full documentation for the &#39;PS1&#39; syntax used in &#39;adb shell&#39;", "platform": "stackexchange", "value": 2.0, "timestamp": "1788899976"}
+{"keyword": "How do I automatically approve &quot;low risk&quot; Github Copilot commands in VS Code?", "platform": "stackexchange", "value": 2.0, "timestamp": "1788891843"}
+{"keyword": "How to update a SwiftUI View generated from a subclass", "platform": "stackexchange", "value": 2.0, "timestamp": "1788892118"}
+{"keyword": "How to handle invalid non-integer input in C using scanf return value and input buffer cleanup?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788880644"}
+{"keyword": "localStorage data is removed when opening a Bootstrap modal", "platform": "stackexchange", "value": 1.0, "timestamp": "1788885446"}
+{"keyword": "How to solve rotl/rcpp &quot;package or namespace load failed for &#39;rotl&#39;&quot; error?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788889412"}
+{"keyword": "How do C++26 hives maintain valid iterators when their underlying items are erased?", "platform": "stackexchange", "value": 9.0, "timestamp": "1788848848"}
+{"keyword": "Having trouble setting up a dockerfile", "platform": "stackexchange", "value": 0.0, "timestamp": "1788908855"}
+{"keyword": "Compiler complaining about non-copy-assingnable type despite a condition ensuring it is", "platform": "stackexchange", "value": 0.0, "timestamp": "1788908661"}
+{"keyword": "Use CSS to hide/show arbitrary elements via data attributes?", "platform": "stackexchange", "value": 3.0, "timestamp": "1788903460"}
+{"keyword": "WebViewer2 won&#39;t show web reports to simultaneous users", "platform": "stackexchange", "value": 0.0, "timestamp": "1788906115"}
+{"keyword": "An unexpected error with number 1000 has occurred: Not authenticated: NotSignedIn", "platform": "stackexchange", "value": 0.0, "timestamp": "1788905369"}
+{"keyword": "Add a named element conditionally in a list", "platform": "stackexchange", "value": 4.0, "timestamp": "1788895075"}
+{"keyword": "Full documentation for the &#39;PS1&#39; syntax used in &#39;adb shell&#39;", "platform": "stackexchange", "value": 2.0, "timestamp": "1788899976"}
+{"keyword": "How do I automatically approve &quot;low risk&quot; Github Copilot commands in VS Code?", "platform": "stackexchange", "value": 2.0, "timestamp": "1788891843"}
+{"keyword": "How to update a SwiftUI View generated from a subclass", "platform": "stackexchange", "value": 2.0, "timestamp": "1788892118"}
+{"keyword": "How to handle invalid non-integer input in C using scanf return value and input buffer cleanup?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788880644"}
+{"keyword": "localStorage data is removed when opening a Bootstrap modal", "platform": "stackexchange", "value": 1.0, "timestamp": "1788885446"}
+{"keyword": "How to solve rotl/rcpp &quot;package or namespace load failed for &#39;rotl&#39;&quot; error?", "platform": "stackexchange", "value": 0.0, "timestamp": "1788889412"}
+{"keyword": "How do C++26 hives maintain valid iterators when their underlying items are erased?", "platform": "stackexchange", "value": 9.0, "timestamp": "1788848848"}
