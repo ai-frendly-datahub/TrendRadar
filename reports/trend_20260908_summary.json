@@ -1,94 +1,94 @@
 {
   "date": "2026-09-08",
   "category": "trend",
-  "article_count": 120,
+  "article_count": 135,
   "source_count": 2,
-  "matched_count": 120,
+  "matched_count": 135,
   "top_entities": [
     {
-      "name": "Climate change",
-      "count": 6
-    },
-    {
-      "name": "OpenAI",
-      "count": 6
-    },
-    {
-      "name": "YouTube",
-      "count": 6
-    },
-    {
-      "name": "E-commerce",
-      "count": 6
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 6
-    },
-    {
       "name": "Seoul",
-      "count": 6
-    },
-    {
-      "name": "Bitcoin",
-      "count": 6
-    },
-    {
-      "name": "Netflix",
-      "count": 6
-    },
-    {
-      "name": "Samsung",
-      "count": 6
-    },
-    {
-      "name": "World Wide Web",
-      "count": 6
-    },
-    {
-      "name": "K-pop",
-      "count": 6
-    },
-    {
-      "name": "Machine learning",
-      "count": 6
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 6
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 6
+      "count": 7
     },
     {
       "name": "South Korea",
-      "count": 6
+      "count": 7
     },
     {
-      "name": "유튜버",
+      "name": "Python (programming language)",
+      "count": 7
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 7
+    },
+    {
+      "name": "Machine learning",
+      "count": 7
+    },
+    {
+      "name": "K-pop",
+      "count": 7
+    },
+    {
+      "name": "World Wide Web",
+      "count": 7
+    },
+    {
+      "name": "Samsung",
+      "count": 7
+    },
+    {
+      "name": "Netflix",
+      "count": 7
+    },
+    {
+      "name": "Bitcoin",
+      "count": 7
+    },
+    {
+      "name": "Climate change",
+      "count": 7
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 7
+    },
+    {
+      "name": "E-commerce",
+      "count": 7
+    },
+    {
+      "name": "YouTube",
+      "count": 7
+    },
+    {
+      "name": "OpenAI",
+      "count": 7
+    },
+    {
+      "name": "강남 아파트",
       "count": 1
     },
     {
-      "name": "스포츠 선수",
+      "name": "송파 전세",
       "count": 1
     },
     {
-      "name": "정치인",
+      "name": "마포 매매",
       "count": 1
     },
     {
-      "name": "가수",
+      "name": "분양권",
       "count": 1
     },
     {
-      "name": "배우",
+      "name": "서울 부동산",
       "count": 1
     }
   ],
   "sources": {
-    "google": 30,
-    "wikipedia": 90
+    "wikipedia": 105,
+    "google": 30
   },
-  "generated_at": "2026-09-08T00:29:31.436088+09:00"
+  "generated_at": "2026-09-08T23:05:31.170982+09:00"
 }
