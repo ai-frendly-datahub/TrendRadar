@@ -52,3 +52,111 @@
 {"keyword": "Those Share Buttons Are Guessing What's On My Phone", "platform": "devto", "value": 7.0, "timestamp": "2026-09-09T11:00:51Z"}
 {"keyword": "Your Audit Log Agrees With Itself. That's the Problem.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-09T10:15:14Z"}
 {"keyword": "Day 37: The Role Is Not What You Attach, and the Bucket Is Not the Objects", "platform": "devto", "value": 9.0, "timestamp": "2026-09-08T17:00:00Z"}
+{"keyword": "I let AI write 100% of my code for 30 days. Here's what broke.", "platform": "devto", "value": 20.0, "timestamp": "2026-09-09T09:08:18Z"}
+{"keyword": "My OSS Projects: AngleSharp", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T13:30:00Z"}
+{"keyword": "4 pitfalls of loop engineering (and how to fix them)", "platform": "devto", "value": 6.0, "timestamp": "2026-09-09T17:37:13Z"}
+{"keyword": "The Verification Bottleneck in AI-Generated Software", "platform": "devto", "value": 17.0, "timestamp": "2026-09-09T14:32:00Z"}
+{"keyword": "I Hid a Rule in CLAUDE.md. Only One Reviewer Could Prove It Read It.", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T14:40:04Z"}
+{"keyword": "Four Debian 13 Boxes, One Brief: 1,923 Packages on Metal, 328 in the Cloud", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T20:59:07Z"}
+{"keyword": "The Modern Pitch for BlocSignal: Why Engineering Leads Are Moving to Reactive Primitives", "platform": "devto", "value": 6.0, "timestamp": "2026-09-09T20:19:53Z"}
+{"keyword": "AI psychosis might be a result of subscription fatigue", "platform": "devto", "value": 17.0, "timestamp": "2026-09-09T13:06:37Z"}
+{"keyword": "I let a model suggest Postgres indexes, then made the database mark its work", "platform": "devto", "value": 14.0, "timestamp": "2026-09-09T07:04:10Z"}
+{"keyword": "Scoping Permissions with RBAC and Data Access Control at the AI Gateway", "platform": "devto", "value": 19.0, "timestamp": "2026-09-09T01:44:34Z"}
+{"keyword": "nginx silently rejects the new HTTP QUERY method", "platform": "devto", "value": 10.0, "timestamp": "2026-09-09T21:11:00Z"}
+{"keyword": "I Tested generateStaticParams in Next.js Cache Components. My Layout Broke Twice", "platform": "devto", "value": 8.0, "timestamp": "2026-09-09T12:22:33Z"}
+{"keyword": "Your Crossplane may be sleeping", "platform": "devto", "value": 1.0, "timestamp": "2026-09-09T09:42:41Z"}
+{"keyword": "How Google Stores a Planet: The GFS, Explained", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:32:43Z"}
+{"keyword": "Postgres 19's REPACK rewrites a bloated table without locking out your writers", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T10:27:00Z"}
+{"keyword": "DeepSeek Harness (DSH) vs Pi Agent: Everything you need to know", "platform": "devto", "value": 4.0, "timestamp": "2026-09-09T12:45:00Z"}
+{"keyword": "Four Debian 13 Boxes, One Brief: 1,923 Packages on Metal, 328 in the Cloud", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T20:59:14Z"}
+{"keyword": "Installing Jenkins on Rocky Linux 9", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:01:34Z"}
+{"keyword": "Installing OpenVPN on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:04:09Z"}
+{"keyword": "Installing WordPress on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:03:43Z"}
+{"keyword": "Setting Up Argo CD on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:02:46Z"}
+{"keyword": "Backing Up and Restoring PostgreSQL Databases Using pg_dump and pg_restore", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T22:59:42Z"}
+{"keyword": "Installing Flask on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:00:19Z"}
+{"keyword": "Automating CI/CD Pipelines for Cypress Testing with GitHub Actions", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T22:58:56Z"}
+{"keyword": "Deploying a Matrix Synapse Chat Server with Element on Ubuntu 22.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:00:43Z"}
+{"keyword": "n8n + RAG + MCP: Designing an AI Workflow That Knows Where Its Knowledge Comes From", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:47:42Z"}
+{"keyword": "Your RAG Retrieved the Right Document — So Why Was the Answer Wrong?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:16:41Z"}
+{"keyword": "I let AI write 100% of my code for 30 days. Here's what broke.", "platform": "devto", "value": 20.0, "timestamp": "2026-09-09T09:08:18Z"}
+{"keyword": "My OSS Projects: AngleSharp", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T13:30:00Z"}
+{"keyword": "4 pitfalls of loop engineering (and how to fix them)", "platform": "devto", "value": 6.0, "timestamp": "2026-09-09T17:37:13Z"}
+{"keyword": "The Verification Bottleneck in AI-Generated Software", "platform": "devto", "value": 17.0, "timestamp": "2026-09-09T14:32:00Z"}
+{"keyword": "I Hid a Rule in CLAUDE.md. Only One Reviewer Could Prove It Read It.", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T14:40:04Z"}
+{"keyword": "Four Debian 13 Boxes, One Brief: 1,923 Packages on Metal, 328 in the Cloud", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T20:59:07Z"}
+{"keyword": "The Modern Pitch for BlocSignal: Why Engineering Leads Are Moving to Reactive Primitives", "platform": "devto", "value": 6.0, "timestamp": "2026-09-09T20:19:53Z"}
+{"keyword": "AI psychosis might be a result of subscription fatigue", "platform": "devto", "value": 17.0, "timestamp": "2026-09-09T13:06:37Z"}
+{"keyword": "I let a model suggest Postgres indexes, then made the database mark its work", "platform": "devto", "value": 14.0, "timestamp": "2026-09-09T07:04:10Z"}
+{"keyword": "Scoping Permissions with RBAC and Data Access Control at the AI Gateway", "platform": "devto", "value": 19.0, "timestamp": "2026-09-09T01:44:34Z"}
+{"keyword": "nginx silently rejects the new HTTP QUERY method", "platform": "devto", "value": 10.0, "timestamp": "2026-09-09T21:11:00Z"}
+{"keyword": "I Tested generateStaticParams in Next.js Cache Components. My Layout Broke Twice", "platform": "devto", "value": 8.0, "timestamp": "2026-09-09T12:22:33Z"}
+{"keyword": "Your Crossplane may be sleeping", "platform": "devto", "value": 1.0, "timestamp": "2026-09-09T09:42:41Z"}
+{"keyword": "How Google Stores a Planet: The GFS, Explained", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:32:43Z"}
+{"keyword": "Postgres 19's REPACK rewrites a bloated table without locking out your writers", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T10:27:00Z"}
+{"keyword": "DeepSeek Harness (DSH) vs Pi Agent: Everything you need to know", "platform": "devto", "value": 4.0, "timestamp": "2026-09-09T12:45:00Z"}
+{"keyword": "Four Debian 13 Boxes, One Brief: 1,923 Packages on Metal, 328 in the Cloud", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T20:59:14Z"}
+{"keyword": "Installing Jenkins on Rocky Linux 9", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:01:34Z"}
+{"keyword": "Installing OpenVPN on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:04:09Z"}
+{"keyword": "Installing WordPress on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:03:43Z"}
+{"keyword": "Setting Up Argo CD on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:02:46Z"}
+{"keyword": "Backing Up and Restoring PostgreSQL Databases Using pg_dump and pg_restore", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T22:59:42Z"}
+{"keyword": "Installing Flask on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:00:19Z"}
+{"keyword": "Automating CI/CD Pipelines for Cypress Testing with GitHub Actions", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T22:58:56Z"}
+{"keyword": "Deploying a Matrix Synapse Chat Server with Element on Ubuntu 22.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:00:43Z"}
+{"keyword": "n8n + RAG + MCP: Designing an AI Workflow That Knows Where Its Knowledge Comes From", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:47:42Z"}
+{"keyword": "Your RAG Retrieved the Right Document — So Why Was the Answer Wrong?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:16:41Z"}
+{"keyword": "I let AI write 100% of my code for 30 days. Here's what broke.", "platform": "devto", "value": 20.0, "timestamp": "2026-09-09T09:08:18Z"}
+{"keyword": "My OSS Projects: AngleSharp", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T13:30:00Z"}
+{"keyword": "4 pitfalls of loop engineering (and how to fix them)", "platform": "devto", "value": 6.0, "timestamp": "2026-09-09T17:37:13Z"}
+{"keyword": "The Verification Bottleneck in AI-Generated Software", "platform": "devto", "value": 17.0, "timestamp": "2026-09-09T14:32:00Z"}
+{"keyword": "I Hid a Rule in CLAUDE.md. Only One Reviewer Could Prove It Read It.", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T14:40:04Z"}
+{"keyword": "Four Debian 13 Boxes, One Brief: 1,923 Packages on Metal, 328 in the Cloud", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T20:59:07Z"}
+{"keyword": "The Modern Pitch for BlocSignal: Why Engineering Leads Are Moving to Reactive Primitives", "platform": "devto", "value": 6.0, "timestamp": "2026-09-09T20:19:53Z"}
+{"keyword": "AI psychosis might be a result of subscription fatigue", "platform": "devto", "value": 17.0, "timestamp": "2026-09-09T13:06:37Z"}
+{"keyword": "I let a model suggest Postgres indexes, then made the database mark its work", "platform": "devto", "value": 14.0, "timestamp": "2026-09-09T07:04:10Z"}
+{"keyword": "Scoping Permissions with RBAC and Data Access Control at the AI Gateway", "platform": "devto", "value": 19.0, "timestamp": "2026-09-09T01:44:34Z"}
+{"keyword": "nginx silently rejects the new HTTP QUERY method", "platform": "devto", "value": 10.0, "timestamp": "2026-09-09T21:11:00Z"}
+{"keyword": "I Tested generateStaticParams in Next.js Cache Components. My Layout Broke Twice", "platform": "devto", "value": 8.0, "timestamp": "2026-09-09T12:22:33Z"}
+{"keyword": "Your Crossplane may be sleeping", "platform": "devto", "value": 1.0, "timestamp": "2026-09-09T09:42:41Z"}
+{"keyword": "How Google Stores a Planet: The GFS, Explained", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:32:43Z"}
+{"keyword": "Postgres 19's REPACK rewrites a bloated table without locking out your writers", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T10:27:00Z"}
+{"keyword": "DeepSeek Harness (DSH) vs Pi Agent: Everything you need to know", "platform": "devto", "value": 4.0, "timestamp": "2026-09-09T12:45:00Z"}
+{"keyword": "Four Debian 13 Boxes, One Brief: 1,923 Packages on Metal, 328 in the Cloud", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T20:59:14Z"}
+{"keyword": "Installing Jenkins on Rocky Linux 9", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:01:34Z"}
+{"keyword": "Installing OpenVPN on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:04:09Z"}
+{"keyword": "Installing WordPress on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:03:43Z"}
+{"keyword": "Setting Up Argo CD on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:02:46Z"}
+{"keyword": "Backing Up and Restoring PostgreSQL Databases Using pg_dump and pg_restore", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T22:59:42Z"}
+{"keyword": "Installing Flask on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:00:19Z"}
+{"keyword": "Automating CI/CD Pipelines for Cypress Testing with GitHub Actions", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T22:58:56Z"}
+{"keyword": "Deploying a Matrix Synapse Chat Server with Element on Ubuntu 22.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:00:43Z"}
+{"keyword": "n8n + RAG + MCP: Designing an AI Workflow That Knows Where Its Knowledge Comes From", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:47:42Z"}
+{"keyword": "Your RAG Retrieved the Right Document — So Why Was the Answer Wrong?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:16:41Z"}
+{"keyword": "I let AI write 100% of my code for 30 days. Here's what broke.", "platform": "devto", "value": 20.0, "timestamp": "2026-09-09T09:08:18Z"}
+{"keyword": "My OSS Projects: AngleSharp", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T13:30:00Z"}
+{"keyword": "4 pitfalls of loop engineering (and how to fix them)", "platform": "devto", "value": 6.0, "timestamp": "2026-09-09T17:37:13Z"}
+{"keyword": "The Verification Bottleneck in AI-Generated Software", "platform": "devto", "value": 17.0, "timestamp": "2026-09-09T14:32:00Z"}
+{"keyword": "I Hid a Rule in CLAUDE.md. Only One Reviewer Could Prove It Read It.", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T14:40:04Z"}
+{"keyword": "Four Debian 13 Boxes, One Brief: 1,923 Packages on Metal, 328 in the Cloud", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T20:59:07Z"}
+{"keyword": "The Modern Pitch for BlocSignal: Why Engineering Leads Are Moving to Reactive Primitives", "platform": "devto", "value": 6.0, "timestamp": "2026-09-09T20:19:53Z"}
+{"keyword": "AI psychosis might be a result of subscription fatigue", "platform": "devto", "value": 17.0, "timestamp": "2026-09-09T13:06:37Z"}
+{"keyword": "I let a model suggest Postgres indexes, then made the database mark its work", "platform": "devto", "value": 14.0, "timestamp": "2026-09-09T07:04:10Z"}
+{"keyword": "Scoping Permissions with RBAC and Data Access Control at the AI Gateway", "platform": "devto", "value": 19.0, "timestamp": "2026-09-09T01:44:34Z"}
+{"keyword": "nginx silently rejects the new HTTP QUERY method", "platform": "devto", "value": 10.0, "timestamp": "2026-09-09T21:11:00Z"}
+{"keyword": "I Tested generateStaticParams in Next.js Cache Components. My Layout Broke Twice", "platform": "devto", "value": 8.0, "timestamp": "2026-09-09T12:22:33Z"}
+{"keyword": "Your Crossplane may be sleeping", "platform": "devto", "value": 1.0, "timestamp": "2026-09-09T09:42:41Z"}
+{"keyword": "How Google Stores a Planet: The GFS, Explained", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:32:43Z"}
+{"keyword": "Postgres 19's REPACK rewrites a bloated table without locking out your writers", "platform": "devto", "value": 12.0, "timestamp": "2026-09-09T10:27:00Z"}
+{"keyword": "DeepSeek Harness (DSH) vs Pi Agent: Everything you need to know", "platform": "devto", "value": 4.0, "timestamp": "2026-09-09T12:45:00Z"}
+{"keyword": "Four Debian 13 Boxes, One Brief: 1,923 Packages on Metal, 328 in the Cloud", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T20:59:14Z"}
+{"keyword": "Installing Jenkins on Rocky Linux 9", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:01:34Z"}
+{"keyword": "Installing OpenVPN on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:04:09Z"}
+{"keyword": "Installing WordPress on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:03:43Z"}
+{"keyword": "Setting Up Argo CD on Kubernetes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:02:46Z"}
+{"keyword": "Backing Up and Restoring PostgreSQL Databases Using pg_dump and pg_restore", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T22:59:42Z"}
+{"keyword": "Installing Flask on Ubuntu 24.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:00:19Z"}
+{"keyword": "Automating CI/CD Pipelines for Cypress Testing with GitHub Actions", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T22:58:56Z"}
+{"keyword": "Deploying a Matrix Synapse Chat Server with Element on Ubuntu 22.04", "platform": "devto", "value": 0.0, "timestamp": "2026-09-09T23:00:43Z"}
+{"keyword": "n8n + RAG + MCP: Designing an AI Workflow That Knows Where Its Knowledge Comes From", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:47:42Z"}
+{"keyword": "Your RAG Retrieved the Right Document — So Why Was the Answer Wrong?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-09T17:16:41Z"}
