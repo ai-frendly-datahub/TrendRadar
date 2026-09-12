@@ -10,3 +10,27 @@
 {"keyword": "Expanding class members following open/closed principles", "platform": "stackexchange", "value": 2.0, "timestamp": "1789152498"}
 {"keyword": "Does @NullMarked package imply non-nullablity on a field level?", "platform": "stackexchange", "value": 4.0, "timestamp": "1789133488"}
 {"keyword": "Why does subprocess.run(cmd, shell=True) with shlex.quote() break on Windows?", "platform": "stackexchange", "value": 3.0, "timestamp": "1789121618"}
+{"keyword": "TextBox is not editable inside ListViewItem ControlTemplate in WPF", "platform": "stackexchange", "value": 0.0, "timestamp": "1789246173"}
+{"keyword": "T.R.S.(Translation, Rotation, Scale) to transformation matrix", "platform": "stackexchange", "value": 0.0, "timestamp": "1789234280"}
+{"keyword": "Fisher&#39;s exact test p-value", "platform": "stackexchange", "value": 0.0, "timestamp": "1789238605"}
+{"keyword": "How to set variable type to an instance property of CGRect?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789225719"}
+{"keyword": "mysql2 takes 1700ms after MariaDB finishes to return 27k rows. is there a faster way?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789227624"}
+{"keyword": "Why does std::jthread throw in its destructor after coroutine_handle::resume()?", "platform": "stackexchange", "value": 1.0, "timestamp": "1789219642"}
+{"keyword": "How does OAuth2AuthorizedClientManager handle concurrent token refresh in Spring Security?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789228713"}
+{"keyword": "How do I add the time to the date value I get from a cell?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789214073"}
+{"keyword": "`scanf` doesn&#39;t return `EOF` until Ctrl-Z plus Return is pressed thrice consecutively?", "platform": "stackexchange", "value": 3.0, "timestamp": "1789209955"}
+{"keyword": "cant set a malloc to a property of a struct pointer of an array of malloced pointers", "platform": "stackexchange", "value": 1.0, "timestamp": "1789214081"}
+{"keyword": "ShareLink has an issue with saving a CSV file on a device", "platform": "stackexchange", "value": 0.0, "timestamp": "1789199416"}
+{"keyword": "Pass input from a component A to component B without adding B to A", "platform": "stackexchange", "value": 0.0, "timestamp": "1789210216"}
+{"keyword": "TextBox is not editable inside ListViewItem ControlTemplate in WPF", "platform": "stackexchange", "value": 0.0, "timestamp": "1789246173"}
+{"keyword": "T.R.S.(Translation, Rotation, Scale) to transformation matrix", "platform": "stackexchange", "value": 0.0, "timestamp": "1789234280"}
+{"keyword": "Fisher&#39;s exact test p-value", "platform": "stackexchange", "value": 0.0, "timestamp": "1789238605"}
+{"keyword": "How to set variable type to an instance property of CGRect?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789225719"}
+{"keyword": "mysql2 takes 1700ms after MariaDB finishes to return 27k rows. is there a faster way?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789227624"}
+{"keyword": "Why does std::jthread throw in its destructor after coroutine_handle::resume()?", "platform": "stackexchange", "value": 1.0, "timestamp": "1789219642"}
+{"keyword": "How does OAuth2AuthorizedClientManager handle concurrent token refresh in Spring Security?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789228713"}
+{"keyword": "How do I add the time to the date value I get from a cell?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789214073"}
+{"keyword": "`scanf` doesn&#39;t return `EOF` until Ctrl-Z plus Return is pressed thrice consecutively?", "platform": "stackexchange", "value": 3.0, "timestamp": "1789209955"}
+{"keyword": "cant set a malloc to a property of a struct pointer of an array of malloced pointers", "platform": "stackexchange", "value": 1.0, "timestamp": "1789214081"}
+{"keyword": "ShareLink has an issue with saving a CSV file on a device", "platform": "stackexchange", "value": 0.0, "timestamp": "1789199416"}
+{"keyword": "Pass input from a component A to component B without adding B to A", "platform": "stackexchange", "value": 0.0, "timestamp": "1789210216"}
