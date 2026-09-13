@@ -58,3 +58,123 @@
 {"keyword": "AI models don't kill people – people kill people", "platform": "hackernews", "value": 3.0, "timestamp": "1789306414"}
 {"keyword": "We must pace the frontier", "platform": "hackernews", "value": 692.0, "timestamp": "1789222249"}
 {"keyword": "Nvidia dismisses \"circular financing\", says every $1 it invests brings back $100", "platform": "hackernews", "value": 107.0, "timestamp": "1789295358"}
+{"keyword": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher", "platform": "hackernews", "value": 326.0, "timestamp": "1789333573"}
+{"keyword": "The Contagion of Fear", "platform": "hackernews", "value": 66.0, "timestamp": "1789339098"}
+{"keyword": "Why is Google still serving dodgy ads?", "platform": "hackernews", "value": 496.0, "timestamp": "1789321064"}
+{"keyword": "Julia 1.13 Highlights", "platform": "hackernews", "value": 129.0, "timestamp": "1789043245"}
+{"keyword": "Astra and Fable still hack on simple variants of alignment evals from 2025", "platform": "hackernews", "value": 350.0, "timestamp": "1789309716"}
+{"keyword": "Registration without a phone number on Signal will use zero-knowledge proofs", "platform": "hackernews", "value": 20.0, "timestamp": "1789336024"}
+{"keyword": "Flawed Routers Flood University of Wisconsin Internet Time Server (2003)", "platform": "hackernews", "value": 41.0, "timestamp": "1789331598"}
+{"keyword": "Data collected by cars and sold to third parties", "platform": "hackernews", "value": 264.0, "timestamp": "1789307108"}
+{"keyword": "Due to concerns about malicious applications, GPT2 will not be released (2019)", "platform": "hackernews", "value": 30.0, "timestamp": "1789341077"}
+{"keyword": "JetKVM Mini", "platform": "hackernews", "value": 517.0, "timestamp": "1789285786"}
+{"keyword": "Making Startups Powerful", "platform": "hackernews", "value": 143.0, "timestamp": "1789308593"}
+{"keyword": "Reverse engineering my e-scooter and rewriting the firmware in Rust", "platform": "hackernews", "value": 347.0, "timestamp": "1789011124"}
+{"keyword": "Why is the x86 undefined instruction called ud2? Why 2?", "platform": "hackernews", "value": 186.0, "timestamp": "1789302615"}
+{"keyword": "CUDA for AMD on Windows", "platform": "hackernews", "value": 129.0, "timestamp": "1789309513"}
+{"keyword": "Why are AI agents lying, cheating and coordinating?", "platform": "hackernews", "value": 580.0, "timestamp": "1789262551"}
+{"keyword": "The GDR and Vietnam: From Fake Coffee to Coffee Empire", "platform": "hackernews", "value": 9.0, "timestamp": "1789069153"}
+{"keyword": "Sean Carroll explains the biggest ideas in the universe – Full Interview [video] (2025)", "platform": "hackernews", "value": 69.0, "timestamp": "1789083132"}
+{"keyword": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace", "platform": "hackernews", "value": 45.0, "timestamp": "1789098342"}
+{"keyword": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)", "platform": "hackernews", "value": 246.0, "timestamp": "1789330125"}
+{"keyword": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too", "platform": "hackernews", "value": 324.0, "timestamp": "1789314278"}
+{"keyword": "Why is privacy so hard?", "platform": "hackernews", "value": 8.0, "timestamp": "1789334023"}
+{"keyword": "Bad Code Is Kudzu", "platform": "hackernews", "value": 30.0, "timestamp": "1789045379"}
+{"keyword": "Device Drivers lab exercise – COSC562", "platform": "hackernews", "value": 26.0, "timestamp": "1789321310"}
+{"keyword": "Libraries Run Rust Inside Python (With PyO3)", "platform": "hackernews", "value": 53.0, "timestamp": "1789313045"}
+{"keyword": "Cpak – OCI application package format for Linux desktops, servers and devices", "platform": "hackernews", "value": 45.0, "timestamp": "1789311776"}
+{"keyword": "I'm being cyberattacked by Tesla, Inc", "platform": "hackernews", "value": 386.0, "timestamp": "1789322589"}
+{"keyword": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet", "platform": "hackernews", "value": 109.0, "timestamp": "1789300912"}
+{"keyword": "Make your first edit to OpenStreetMap", "platform": "hackernews", "value": 594.0, "timestamp": "1789230308"}
+{"keyword": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio", "platform": "hackernews", "value": 63.0, "timestamp": "1789256611"}
+{"keyword": "Alan's Random Insult Generator (1999)", "platform": "hackernews", "value": 65.0, "timestamp": "1789140893"}
+{"keyword": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher", "platform": "hackernews", "value": 326.0, "timestamp": "1789333573"}
+{"keyword": "The Contagion of Fear", "platform": "hackernews", "value": 66.0, "timestamp": "1789339098"}
+{"keyword": "Why is Google still serving dodgy ads?", "platform": "hackernews", "value": 496.0, "timestamp": "1789321064"}
+{"keyword": "Julia 1.13 Highlights", "platform": "hackernews", "value": 129.0, "timestamp": "1789043245"}
+{"keyword": "Astra and Fable still hack on simple variants of alignment evals from 2025", "platform": "hackernews", "value": 350.0, "timestamp": "1789309716"}
+{"keyword": "Registration without a phone number on Signal will use zero-knowledge proofs", "platform": "hackernews", "value": 20.0, "timestamp": "1789336024"}
+{"keyword": "Flawed Routers Flood University of Wisconsin Internet Time Server (2003)", "platform": "hackernews", "value": 41.0, "timestamp": "1789331598"}
+{"keyword": "Data collected by cars and sold to third parties", "platform": "hackernews", "value": 264.0, "timestamp": "1789307108"}
+{"keyword": "Due to concerns about malicious applications, GPT2 will not be released (2019)", "platform": "hackernews", "value": 30.0, "timestamp": "1789341077"}
+{"keyword": "JetKVM Mini", "platform": "hackernews", "value": 517.0, "timestamp": "1789285786"}
+{"keyword": "Making Startups Powerful", "platform": "hackernews", "value": 143.0, "timestamp": "1789308593"}
+{"keyword": "Reverse engineering my e-scooter and rewriting the firmware in Rust", "platform": "hackernews", "value": 347.0, "timestamp": "1789011124"}
+{"keyword": "Why is the x86 undefined instruction called ud2? Why 2?", "platform": "hackernews", "value": 186.0, "timestamp": "1789302615"}
+{"keyword": "CUDA for AMD on Windows", "platform": "hackernews", "value": 129.0, "timestamp": "1789309513"}
+{"keyword": "Why are AI agents lying, cheating and coordinating?", "platform": "hackernews", "value": 580.0, "timestamp": "1789262551"}
+{"keyword": "The GDR and Vietnam: From Fake Coffee to Coffee Empire", "platform": "hackernews", "value": 9.0, "timestamp": "1789069153"}
+{"keyword": "Sean Carroll explains the biggest ideas in the universe – Full Interview [video] (2025)", "platform": "hackernews", "value": 69.0, "timestamp": "1789083132"}
+{"keyword": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace", "platform": "hackernews", "value": 45.0, "timestamp": "1789098342"}
+{"keyword": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)", "platform": "hackernews", "value": 246.0, "timestamp": "1789330125"}
+{"keyword": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too", "platform": "hackernews", "value": 324.0, "timestamp": "1789314278"}
+{"keyword": "Why is privacy so hard?", "platform": "hackernews", "value": 8.0, "timestamp": "1789334023"}
+{"keyword": "Bad Code Is Kudzu", "platform": "hackernews", "value": 30.0, "timestamp": "1789045379"}
+{"keyword": "Device Drivers lab exercise – COSC562", "platform": "hackernews", "value": 26.0, "timestamp": "1789321310"}
+{"keyword": "Libraries Run Rust Inside Python (With PyO3)", "platform": "hackernews", "value": 53.0, "timestamp": "1789313045"}
+{"keyword": "Cpak – OCI application package format for Linux desktops, servers and devices", "platform": "hackernews", "value": 45.0, "timestamp": "1789311776"}
+{"keyword": "I'm being cyberattacked by Tesla, Inc", "platform": "hackernews", "value": 386.0, "timestamp": "1789322589"}
+{"keyword": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet", "platform": "hackernews", "value": 109.0, "timestamp": "1789300912"}
+{"keyword": "Make your first edit to OpenStreetMap", "platform": "hackernews", "value": 594.0, "timestamp": "1789230308"}
+{"keyword": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio", "platform": "hackernews", "value": 63.0, "timestamp": "1789256611"}
+{"keyword": "Alan's Random Insult Generator (1999)", "platform": "hackernews", "value": 65.0, "timestamp": "1789140893"}
+{"keyword": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher", "platform": "hackernews", "value": 326.0, "timestamp": "1789333573"}
+{"keyword": "The Contagion of Fear", "platform": "hackernews", "value": 66.0, "timestamp": "1789339098"}
+{"keyword": "Why is Google still serving dodgy ads?", "platform": "hackernews", "value": 496.0, "timestamp": "1789321064"}
+{"keyword": "Julia 1.13 Highlights", "platform": "hackernews", "value": 129.0, "timestamp": "1789043245"}
+{"keyword": "Astra and Fable still hack on simple variants of alignment evals from 2025", "platform": "hackernews", "value": 350.0, "timestamp": "1789309716"}
+{"keyword": "Registration without a phone number on Signal will use zero-knowledge proofs", "platform": "hackernews", "value": 20.0, "timestamp": "1789336024"}
+{"keyword": "Flawed Routers Flood University of Wisconsin Internet Time Server (2003)", "platform": "hackernews", "value": 41.0, "timestamp": "1789331598"}
+{"keyword": "Data collected by cars and sold to third parties", "platform": "hackernews", "value": 265.0, "timestamp": "1789307108"}
+{"keyword": "Due to concerns about malicious applications, GPT2 will not be released (2019)", "platform": "hackernews", "value": 30.0, "timestamp": "1789341077"}
+{"keyword": "JetKVM Mini", "platform": "hackernews", "value": 517.0, "timestamp": "1789285786"}
+{"keyword": "Making Startups Powerful", "platform": "hackernews", "value": 144.0, "timestamp": "1789308593"}
+{"keyword": "Reverse engineering my e-scooter and rewriting the firmware in Rust", "platform": "hackernews", "value": 347.0, "timestamp": "1789011124"}
+{"keyword": "Why is the x86 undefined instruction called ud2? Why 2?", "platform": "hackernews", "value": 186.0, "timestamp": "1789302615"}
+{"keyword": "The GDR and Vietnam: From Fake Coffee to Coffee Empire", "platform": "hackernews", "value": 10.0, "timestamp": "1789069153"}
+{"keyword": "CUDA for AMD on Windows", "platform": "hackernews", "value": 129.0, "timestamp": "1789309513"}
+{"keyword": "Why are AI agents lying, cheating and coordinating?", "platform": "hackernews", "value": 580.0, "timestamp": "1789262551"}
+{"keyword": "Sean Carroll explains the biggest ideas in the universe – Full Interview [video] (2025)", "platform": "hackernews", "value": 69.0, "timestamp": "1789083132"}
+{"keyword": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace", "platform": "hackernews", "value": 45.0, "timestamp": "1789098342"}
+{"keyword": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)", "platform": "hackernews", "value": 246.0, "timestamp": "1789330125"}
+{"keyword": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too", "platform": "hackernews", "value": 325.0, "timestamp": "1789314278"}
+{"keyword": "Why is privacy so hard?", "platform": "hackernews", "value": 8.0, "timestamp": "1789334023"}
+{"keyword": "Bad Code Is Kudzu", "platform": "hackernews", "value": 30.0, "timestamp": "1789045379"}
+{"keyword": "Device Drivers lab exercise – COSC562", "platform": "hackernews", "value": 26.0, "timestamp": "1789321310"}
+{"keyword": "Libraries Run Rust Inside Python (With PyO3)", "platform": "hackernews", "value": 53.0, "timestamp": "1789313045"}
+{"keyword": "Cpak – OCI application package format for Linux desktops, servers and devices", "platform": "hackernews", "value": 45.0, "timestamp": "1789311776"}
+{"keyword": "I'm being cyberattacked by Tesla, Inc", "platform": "hackernews", "value": 386.0, "timestamp": "1789322589"}
+{"keyword": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet", "platform": "hackernews", "value": 109.0, "timestamp": "1789300912"}
+{"keyword": "Make your first edit to OpenStreetMap", "platform": "hackernews", "value": 594.0, "timestamp": "1789230308"}
+{"keyword": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio", "platform": "hackernews", "value": 63.0, "timestamp": "1789256611"}
+{"keyword": "Alan's Random Insult Generator (1999)", "platform": "hackernews", "value": 65.0, "timestamp": "1789140893"}
+{"keyword": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher", "platform": "hackernews", "value": 326.0, "timestamp": "1789333573"}
+{"keyword": "The Contagion of Fear", "platform": "hackernews", "value": 66.0, "timestamp": "1789339098"}
+{"keyword": "Why is Google still serving dodgy ads?", "platform": "hackernews", "value": 496.0, "timestamp": "1789321064"}
+{"keyword": "Julia 1.13 Highlights", "platform": "hackernews", "value": 129.0, "timestamp": "1789043245"}
+{"keyword": "Astra and Fable still hack on simple variants of alignment evals from 2025", "platform": "hackernews", "value": 350.0, "timestamp": "1789309716"}
+{"keyword": "Registration without a phone number on Signal will use zero-knowledge proofs", "platform": "hackernews", "value": 20.0, "timestamp": "1789336024"}
+{"keyword": "Flawed Routers Flood University of Wisconsin Internet Time Server (2003)", "platform": "hackernews", "value": 41.0, "timestamp": "1789331598"}
+{"keyword": "Data collected by cars and sold to third parties", "platform": "hackernews", "value": 265.0, "timestamp": "1789307108"}
+{"keyword": "Due to concerns about malicious applications, GPT2 will not be released (2019)", "platform": "hackernews", "value": 30.0, "timestamp": "1789341077"}
+{"keyword": "JetKVM Mini", "platform": "hackernews", "value": 517.0, "timestamp": "1789285786"}
+{"keyword": "Making Startups Powerful", "platform": "hackernews", "value": 144.0, "timestamp": "1789308593"}
+{"keyword": "Reverse engineering my e-scooter and rewriting the firmware in Rust", "platform": "hackernews", "value": 347.0, "timestamp": "1789011124"}
+{"keyword": "Why is the x86 undefined instruction called ud2? Why 2?", "platform": "hackernews", "value": 186.0, "timestamp": "1789302615"}
+{"keyword": "The GDR and Vietnam: From Fake Coffee to Coffee Empire", "platform": "hackernews", "value": 10.0, "timestamp": "1789069153"}
+{"keyword": "CUDA for AMD on Windows", "platform": "hackernews", "value": 129.0, "timestamp": "1789309513"}
+{"keyword": "Why are AI agents lying, cheating and coordinating?", "platform": "hackernews", "value": 580.0, "timestamp": "1789262551"}
+{"keyword": "Sean Carroll explains the biggest ideas in the universe – Full Interview [video] (2025)", "platform": "hackernews", "value": 69.0, "timestamp": "1789083132"}
+{"keyword": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace", "platform": "hackernews", "value": 45.0, "timestamp": "1789098342"}
+{"keyword": "Mark Zuckerberg: \"Cambridge Analytica\" (2017)", "platform": "hackernews", "value": 246.0, "timestamp": "1789330125"}
+{"keyword": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too", "platform": "hackernews", "value": 325.0, "timestamp": "1789314278"}
+{"keyword": "Why is privacy so hard?", "platform": "hackernews", "value": 8.0, "timestamp": "1789334023"}
+{"keyword": "Bad Code Is Kudzu", "platform": "hackernews", "value": 30.0, "timestamp": "1789045379"}
+{"keyword": "Device Drivers lab exercise – COSC562", "platform": "hackernews", "value": 26.0, "timestamp": "1789321310"}
+{"keyword": "Libraries Run Rust Inside Python (With PyO3)", "platform": "hackernews", "value": 53.0, "timestamp": "1789313045"}
+{"keyword": "Cpak – OCI application package format for Linux desktops, servers and devices", "platform": "hackernews", "value": 45.0, "timestamp": "1789311776"}
+{"keyword": "I'm being cyberattacked by Tesla, Inc", "platform": "hackernews", "value": 386.0, "timestamp": "1789322589"}
+{"keyword": "'Fingerprints' inside the Sun could reveal if it once swallowed a planet", "platform": "hackernews", "value": 109.0, "timestamp": "1789300912"}
+{"keyword": "Make your first edit to OpenStreetMap", "platform": "hackernews", "value": 594.0, "timestamp": "1789230308"}
+{"keyword": "TailTalk: A modern async user space AppleTalk stack with Rust and Tokio", "platform": "hackernews", "value": 63.0, "timestamp": "1789256611"}
+{"keyword": "Alan's Random Insult Generator (1999)", "platform": "hackernews", "value": 65.0, "timestamp": "1789140893"}
