@@ -6,11 +6,15 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Samsung",
+      "name": "Bitcoin",
       "count": 10
     },
     {
-      "name": "Artificial intelligence",
+      "name": "Netflix",
+      "count": 10
+    },
+    {
+      "name": "Python (programming language)",
       "count": 10
     },
     {
@@ -18,12 +22,16 @@
       "count": 10
     },
     {
-      "name": "YouTube",
+      "name": "Seoul",
       "count": 10
     },
     {
       "name": "OpenAI",
-      "count": 10
+      "count": 9
+    },
+    {
+      "name": "YouTube",
+      "count": 9
     },
     {
       "name": "E-commerce",
@@ -38,11 +46,7 @@
       "count": 9
     },
     {
-      "name": "Bitcoin",
-      "count": 9
-    },
-    {
-      "name": "Netflix",
+      "name": "Samsung",
       "count": 9
     },
     {
@@ -58,37 +62,33 @@
       "count": 9
     },
     {
-      "name": "Python (programming language)",
+      "name": "Artificial intelligence",
       "count": 9
     },
     {
-      "name": "Seoul",
-      "count": 9
-    },
-    {
-      "name": "BTS",
+      "name": "강남 아파트",
       "count": 2
     },
     {
-      "name": "유명인",
+      "name": "인플루언서",
       "count": 2
     },
     {
-      "name": "에스파",
+      "name": "스포츠 선수",
       "count": 2
     },
     {
-      "name": "뉴진스",
+      "name": "정치인",
       "count": 2
     },
     {
-      "name": "보이그룹",
+      "name": "가수",
       "count": 2
     }
   ],
   "sources": {
-    "google": 60,
-    "wikipedia": 140
+    "wikipedia": 140,
+    "google": 60
   },
-  "generated_at": "2026-09-15T00:15:13.236452+00:00"
+  "generated_at": "2026-09-15T23:37:37.641815+09:00"
 }
