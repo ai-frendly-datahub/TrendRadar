@@ -114,3 +114,61 @@
 {"keyword": "Installing Ruby on Ubuntu 24.04", "platform": "devto", "value": 5.0, "timestamp": "2026-09-16T17:12:37Z"}
 {"keyword": "Temp Squads: How to Organize Ephemeral and Mixed Teams for Hyper-Performance with AI.", "platform": "devto", "value": 8.0, "timestamp": "2026-09-16T17:16:20Z"}
 {"keyword": "Pacing the frontier does not watch the agents", "platform": "devto", "value": 7.0, "timestamp": "2026-09-16T09:51:44Z"}
+{"keyword": "How AI Actually Calls an API? Tool Calling Explained from Scratch", "platform": "devto", "value": 15.0, "timestamp": "2026-09-16T21:28:40Z"}
+{"keyword": "Progressive Disclosure: What, Where, When, and Why", "platform": "devto", "value": 9.0, "timestamp": "2026-09-16T18:01:55Z"}
+{"keyword": "A 4 GB Laptop GPU Beats a 12-Core CPU by 4.3x on Gemma 4", "platform": "devto", "value": 6.0, "timestamp": "2026-09-16T20:03:02Z"}
+{"keyword": "An MI300X Over MCP: What the Matrix Cores Execute, and What They Don't", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T02:43:18Z"}
+{"keyword": "Git Bisect for Your Data", "platform": "devto", "value": 13.0, "timestamp": "2026-09-17T14:00:00Z"}
+{"keyword": "How to Lead DevRel in the AI Era: Stop Playing It Safe", "platform": "devto", "value": 0.0, "timestamp": "2026-09-16T22:00:19Z"}
+{"keyword": "My First AI Judge Interview: What Could Possibly Go Wrong?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T02:22:25Z"}
+{"keyword": "Show a model your old code and it writes your old bugs: 32 runs, 0% reuse", "platform": "devto", "value": 12.0, "timestamp": "2026-09-17T06:47:00Z"}
+{"keyword": "World geography gotchas", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T09:02:00Z"}
+{"keyword": "I Let AI Plan 170 Changes. It Made the Same 3 Mistakes Every Time.", "platform": "devto", "value": 9.0, "timestamp": "2026-09-17T03:59:17Z"}
+{"keyword": "I'm 12. I asked for a co-founder. 24 hours later, we launched a holding company.", "platform": "devto", "value": 29.0, "timestamp": "2026-09-16T16:13:49Z"}
+{"keyword": "The Code I Couldn't Leave Alone", "platform": "devto", "value": 13.0, "timestamp": "2026-09-17T12:20:21Z"}
+{"keyword": "Pick One Contact Without Asking for the Address Book", "platform": "devto", "value": 0.0, "timestamp": "2026-09-16T17:39:18Z"}
+{"keyword": "API Performance Testing: How to Design Realistic Tests", "platform": "devto", "value": 25.0, "timestamp": "2026-09-17T06:56:32Z"}
+{"keyword": "Stop Debouncing Resize. The Browser Already Watches It.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T11:19:53Z"}
+{"keyword": "AI agents introduced several new layers to the development stack. You are probably missing this one.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T01:39:19Z"}
+{"keyword": "Why we stopped using one Elasticsearch index per tenant and built our own", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T08:13:38Z"}
+{"keyword": "A Million Go Map Entries Take 38MB, Not 16MB", "platform": "devto", "value": 16.0, "timestamp": "2026-09-16T14:47:35Z"}
+{"keyword": "Learn Programming by Building Real Projects With Hyperskill", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T09:07:26Z"}
+{"keyword": "Deno 2.6's minimum dependency age flag ignores year and month durations", "platform": "devto", "value": 11.0, "timestamp": "2026-09-17T08:00:00Z"}
+{"keyword": "Paid to Disappear", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T11:00:00Z"}
+{"keyword": "Temp Squads: How to Organize Ephemeral and Mixed Teams for Hyper-Performance with AI.", "platform": "devto", "value": 14.0, "timestamp": "2026-09-16T17:16:20Z"}
+{"keyword": "Deploying a real-time voice agent with AgentCore Runtime and Amplify Gen 2", "platform": "devto", "value": 4.0, "timestamp": "2026-09-16T20:58:25Z"}
+{"keyword": "I had a model translate my locale file. The bug it introduced was correct Japanese.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T10:22:00Z"}
+{"keyword": "[Boost]", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T07:01:35Z"}
+{"keyword": "My Benchmark Judged Five Models Against a Threshold Built for Three", "platform": "devto", "value": 2.0, "timestamp": "2026-09-17T08:25:12Z"}
+{"keyword": "Give Your Coding Agent Eyes: Debug Cypress Through a Live Browser Session", "platform": "devto", "value": 4.0, "timestamp": "2026-09-16T17:31:00Z"}
+{"keyword": "What If Your Terminal Had an Infinite Canvas? Meet Fuse.", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T02:09:44Z"}
+{"keyword": "Twelve Checks That Could Not Fail", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T10:55:05Z"}
+{"keyword": "How AI Actually Calls an API? Tool Calling Explained from Scratch", "platform": "devto", "value": 15.0, "timestamp": "2026-09-16T21:28:40Z"}
+{"keyword": "Progressive Disclosure: What, Where, When, and Why", "platform": "devto", "value": 9.0, "timestamp": "2026-09-16T18:01:55Z"}
+{"keyword": "A 4 GB Laptop GPU Beats a 12-Core CPU by 4.3x on Gemma 4", "platform": "devto", "value": 6.0, "timestamp": "2026-09-16T20:03:02Z"}
+{"keyword": "An MI300X Over MCP: What the Matrix Cores Execute, and What They Don't", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T02:43:18Z"}
+{"keyword": "Git Bisect for Your Data", "platform": "devto", "value": 13.0, "timestamp": "2026-09-17T14:00:00Z"}
+{"keyword": "How to Lead DevRel in the AI Era: Stop Playing It Safe", "platform": "devto", "value": 0.0, "timestamp": "2026-09-16T22:00:19Z"}
+{"keyword": "My First AI Judge Interview: What Could Possibly Go Wrong?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T02:22:25Z"}
+{"keyword": "Show a model your old code and it writes your old bugs: 32 runs, 0% reuse", "platform": "devto", "value": 12.0, "timestamp": "2026-09-17T06:47:00Z"}
+{"keyword": "World geography gotchas", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T09:02:00Z"}
+{"keyword": "I Let AI Plan 170 Changes. It Made the Same 3 Mistakes Every Time.", "platform": "devto", "value": 9.0, "timestamp": "2026-09-17T03:59:17Z"}
+{"keyword": "I'm 12. I asked for a co-founder. 24 hours later, we launched a holding company.", "platform": "devto", "value": 29.0, "timestamp": "2026-09-16T16:13:49Z"}
+{"keyword": "The Code I Couldn't Leave Alone", "platform": "devto", "value": 13.0, "timestamp": "2026-09-17T12:20:21Z"}
+{"keyword": "Pick One Contact Without Asking for the Address Book", "platform": "devto", "value": 0.0, "timestamp": "2026-09-16T17:39:18Z"}
+{"keyword": "API Performance Testing: How to Design Realistic Tests", "platform": "devto", "value": 25.0, "timestamp": "2026-09-17T06:56:32Z"}
+{"keyword": "Stop Debouncing Resize. The Browser Already Watches It.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T11:19:53Z"}
+{"keyword": "AI agents introduced several new layers to the development stack. You are probably missing this one.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T01:39:19Z"}
+{"keyword": "Why we stopped using one Elasticsearch index per tenant and built our own", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T08:13:38Z"}
+{"keyword": "A Million Go Map Entries Take 38MB, Not 16MB", "platform": "devto", "value": 16.0, "timestamp": "2026-09-16T14:47:35Z"}
+{"keyword": "Learn Programming by Building Real Projects With Hyperskill", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T09:07:26Z"}
+{"keyword": "Deno 2.6's minimum dependency age flag ignores year and month durations", "platform": "devto", "value": 11.0, "timestamp": "2026-09-17T08:00:00Z"}
+{"keyword": "Paid to Disappear", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T11:00:00Z"}
+{"keyword": "Temp Squads: How to Organize Ephemeral and Mixed Teams for Hyper-Performance with AI.", "platform": "devto", "value": 14.0, "timestamp": "2026-09-16T17:16:20Z"}
+{"keyword": "Deploying a real-time voice agent with AgentCore Runtime and Amplify Gen 2", "platform": "devto", "value": 4.0, "timestamp": "2026-09-16T20:58:25Z"}
+{"keyword": "I had a model translate my locale file. The bug it introduced was correct Japanese.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T10:22:00Z"}
+{"keyword": "[Boost]", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T07:01:35Z"}
+{"keyword": "My Benchmark Judged Five Models Against a Threshold Built for Three", "platform": "devto", "value": 2.0, "timestamp": "2026-09-17T08:25:12Z"}
+{"keyword": "Give Your Coding Agent Eyes: Debug Cypress Through a Live Browser Session", "platform": "devto", "value": 4.0, "timestamp": "2026-09-16T17:31:00Z"}
+{"keyword": "What If Your Terminal Had an Infinite Canvas? Meet Fuse.", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T02:09:44Z"}
+{"keyword": "Twelve Checks That Could Not Fail", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T10:55:05Z"}
