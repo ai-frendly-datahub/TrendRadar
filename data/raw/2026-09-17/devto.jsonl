@@ -172,3 +172,111 @@
 {"keyword": "Give Your Coding Agent Eyes: Debug Cypress Through a Live Browser Session", "platform": "devto", "value": 4.0, "timestamp": "2026-09-16T17:31:00Z"}
 {"keyword": "What If Your Terminal Had an Infinite Canvas? Meet Fuse.", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T02:09:44Z"}
 {"keyword": "Twelve Checks That Could Not Fail", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T10:55:05Z"}
+{"keyword": "Congrats to the DEV Weekend Challenge: Dog Days Edition Winners!", "platform": "devto", "value": 16.0, "timestamp": "2026-09-17T20:22:43Z"}
+{"keyword": "API Performance Testing: How to Design Realistic Tests", "platform": "devto", "value": 35.0, "timestamp": "2026-09-17T06:56:32Z"}
+{"keyword": "Git Bisect for Your Data", "platform": "devto", "value": 19.0, "timestamp": "2026-09-17T14:00:00Z"}
+{"keyword": "An MI300X Over MCP: What the Matrix Cores Execute, and What They Don't", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T02:43:18Z"}
+{"keyword": "Show a model your old code and it writes your old bugs: 32 runs, 0% reuse", "platform": "devto", "value": 17.0, "timestamp": "2026-09-17T06:47:00Z"}
+{"keyword": "My First AI Judge Interview: What Could Possibly Go Wrong?", "platform": "devto", "value": 8.0, "timestamp": "2026-09-17T02:22:25Z"}
+{"keyword": "The Code I Couldn't Leave Alone", "platform": "devto", "value": 18.0, "timestamp": "2026-09-17T12:20:21Z"}
+{"keyword": "Deno 2.6's minimum dependency age flag ignores year and month durations", "platform": "devto", "value": 12.0, "timestamp": "2026-09-17T08:00:00Z"}
+{"keyword": "Frameworks Are Institutional Memory", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T17:07:00Z"}
+{"keyword": "I Let AI Plan 170 Changes. It Made the Same 3 Mistakes Every Time.", "platform": "devto", "value": 11.0, "timestamp": "2026-09-17T03:59:17Z"}
+{"keyword": "How I built an AI Coding Mentor (KODA) entirely on a $150 Android phone 📱🐯", "platform": "devto", "value": 13.0, "timestamp": "2026-09-17T12:23:36Z"}
+{"keyword": "Stop Debouncing Resize. The Browser Already Watches It.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T11:19:53Z"}
+{"keyword": "AI agents introduced several new layers to the development stack. You are probably missing this one.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T01:39:19Z"}
+{"keyword": "My Benchmark Judged Five Models Against a Threshold Built for Three", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T08:25:12Z"}
+{"keyword": "Why we stopped using one Elasticsearch index per tenant and built our own", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T08:13:38Z"}
+{"keyword": "TypeSafe Jev Played Chess — And Landed Next to Reasoning Models", "platform": "devto", "value": 10.0, "timestamp": "2026-09-17T17:13:09Z"}
+{"keyword": "Serving Gemma 4 on an AMD MI300X: What $1.99 an Hour Buys", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T21:36:22Z"}
+{"keyword": "Learn Programming by Building Real Projects With Hyperskill", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T09:07:26Z"}
+{"keyword": "The clipboard bridge that had to wait for the device", "platform": "devto", "value": 10.0, "timestamp": "2026-09-17T17:06:38Z"}
+{"keyword": "Is Claude Watermarking Code? What Developers Need to Know", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T15:43:56Z"}
+{"keyword": "Dependency Injection in ASP.NET Core", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T15:40:56Z"}
+{"keyword": "LLM agents turn code interpreters into portfolio sizing engines when you evolve the prompt", "platform": "devto", "value": 6.0, "timestamp": "2026-09-17T16:45:35Z"}
+{"keyword": "Algorithmic Trading: Debug Your Backtest Before Upgrading Your Model", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T19:27:55Z"}
+{"keyword": "Cosas que no sabías que no sabías: tamaño de un struct", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T11:56:42Z"}
+{"keyword": "A failed compaction wiped my AI session, so I built it infinite memory", "platform": "devto", "value": 2.0, "timestamp": "2026-09-17T15:16:12Z"}
+{"keyword": "[Boost]", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T07:01:35Z"}
+{"keyword": "What If Your Coding Agent Could Remember What It Learned Yesterday?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T16:28:47Z"}
+{"keyword": "Congrats to the DEV Weekend Challenge: Dog Days Edition Winners!", "platform": "devto", "value": 16.0, "timestamp": "2026-09-17T20:22:43Z"}
+{"keyword": "API Performance Testing: How to Design Realistic Tests", "platform": "devto", "value": 35.0, "timestamp": "2026-09-17T06:56:32Z"}
+{"keyword": "Git Bisect for Your Data", "platform": "devto", "value": 19.0, "timestamp": "2026-09-17T14:00:00Z"}
+{"keyword": "An MI300X Over MCP: What the Matrix Cores Execute, and What They Don't", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T02:43:18Z"}
+{"keyword": "Show a model your old code and it writes your old bugs: 32 runs, 0% reuse", "platform": "devto", "value": 17.0, "timestamp": "2026-09-17T06:47:00Z"}
+{"keyword": "My First AI Judge Interview: What Could Possibly Go Wrong?", "platform": "devto", "value": 8.0, "timestamp": "2026-09-17T02:22:25Z"}
+{"keyword": "The Code I Couldn't Leave Alone", "platform": "devto", "value": 18.0, "timestamp": "2026-09-17T12:20:21Z"}
+{"keyword": "Deno 2.6's minimum dependency age flag ignores year and month durations", "platform": "devto", "value": 12.0, "timestamp": "2026-09-17T08:00:00Z"}
+{"keyword": "Frameworks Are Institutional Memory", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T17:07:00Z"}
+{"keyword": "I Let AI Plan 170 Changes. It Made the Same 3 Mistakes Every Time.", "platform": "devto", "value": 11.0, "timestamp": "2026-09-17T03:59:17Z"}
+{"keyword": "How I built an AI Coding Mentor (KODA) entirely on a $150 Android phone 📱🐯", "platform": "devto", "value": 13.0, "timestamp": "2026-09-17T12:23:36Z"}
+{"keyword": "Stop Debouncing Resize. The Browser Already Watches It.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T11:19:53Z"}
+{"keyword": "AI agents introduced several new layers to the development stack. You are probably missing this one.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T01:39:19Z"}
+{"keyword": "My Benchmark Judged Five Models Against a Threshold Built for Three", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T08:25:12Z"}
+{"keyword": "Why we stopped using one Elasticsearch index per tenant and built our own", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T08:13:38Z"}
+{"keyword": "TypeSafe Jev Played Chess — And Landed Next to Reasoning Models", "platform": "devto", "value": 10.0, "timestamp": "2026-09-17T17:13:09Z"}
+{"keyword": "Serving Gemma 4 on an AMD MI300X: What $1.99 an Hour Buys", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T21:36:22Z"}
+{"keyword": "Learn Programming by Building Real Projects With Hyperskill", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T09:07:26Z"}
+{"keyword": "The clipboard bridge that had to wait for the device", "platform": "devto", "value": 10.0, "timestamp": "2026-09-17T17:06:38Z"}
+{"keyword": "Is Claude Watermarking Code? What Developers Need to Know", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T15:43:56Z"}
+{"keyword": "Dependency Injection in ASP.NET Core", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T15:40:56Z"}
+{"keyword": "LLM agents turn code interpreters into portfolio sizing engines when you evolve the prompt", "platform": "devto", "value": 6.0, "timestamp": "2026-09-17T16:45:35Z"}
+{"keyword": "Algorithmic Trading: Debug Your Backtest Before Upgrading Your Model", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T19:27:55Z"}
+{"keyword": "Cosas que no sabías que no sabías: tamaño de un struct", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T11:56:42Z"}
+{"keyword": "A failed compaction wiped my AI session, so I built it infinite memory", "platform": "devto", "value": 2.0, "timestamp": "2026-09-17T15:16:12Z"}
+{"keyword": "[Boost]", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T07:01:35Z"}
+{"keyword": "What If Your Coding Agent Could Remember What It Learned Yesterday?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T16:28:47Z"}
+{"keyword": "Congrats to the DEV Weekend Challenge: Dog Days Edition Winners!", "platform": "devto", "value": 16.0, "timestamp": "2026-09-17T20:22:43Z"}
+{"keyword": "API Performance Testing: How to Design Realistic Tests", "platform": "devto", "value": 35.0, "timestamp": "2026-09-17T06:56:32Z"}
+{"keyword": "Git Bisect for Your Data", "platform": "devto", "value": 19.0, "timestamp": "2026-09-17T14:00:00Z"}
+{"keyword": "An MI300X Over MCP: What the Matrix Cores Execute, and What They Don't", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T02:43:18Z"}
+{"keyword": "Show a model your old code and it writes your old bugs: 32 runs, 0% reuse", "platform": "devto", "value": 17.0, "timestamp": "2026-09-17T06:47:00Z"}
+{"keyword": "My First AI Judge Interview: What Could Possibly Go Wrong?", "platform": "devto", "value": 8.0, "timestamp": "2026-09-17T02:22:25Z"}
+{"keyword": "The Code I Couldn't Leave Alone", "platform": "devto", "value": 18.0, "timestamp": "2026-09-17T12:20:21Z"}
+{"keyword": "Deno 2.6's minimum dependency age flag ignores year and month durations", "platform": "devto", "value": 12.0, "timestamp": "2026-09-17T08:00:00Z"}
+{"keyword": "Frameworks Are Institutional Memory", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T17:07:00Z"}
+{"keyword": "I Let AI Plan 170 Changes. It Made the Same 3 Mistakes Every Time.", "platform": "devto", "value": 11.0, "timestamp": "2026-09-17T03:59:17Z"}
+{"keyword": "How I built an AI Coding Mentor (KODA) entirely on a $150 Android phone 📱🐯", "platform": "devto", "value": 13.0, "timestamp": "2026-09-17T12:23:36Z"}
+{"keyword": "Stop Debouncing Resize. The Browser Already Watches It.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T11:19:53Z"}
+{"keyword": "AI agents introduced several new layers to the development stack. You are probably missing this one.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T01:39:19Z"}
+{"keyword": "My Benchmark Judged Five Models Against a Threshold Built for Three", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T08:25:12Z"}
+{"keyword": "Why we stopped using one Elasticsearch index per tenant and built our own", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T08:13:38Z"}
+{"keyword": "TypeSafe Jev Played Chess — And Landed Next to Reasoning Models", "platform": "devto", "value": 10.0, "timestamp": "2026-09-17T17:13:09Z"}
+{"keyword": "Serving Gemma 4 on an AMD MI300X: What $1.99 an Hour Buys", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T21:36:22Z"}
+{"keyword": "Learn Programming by Building Real Projects With Hyperskill", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T09:07:26Z"}
+{"keyword": "The clipboard bridge that had to wait for the device", "platform": "devto", "value": 10.0, "timestamp": "2026-09-17T17:06:38Z"}
+{"keyword": "Is Claude Watermarking Code? What Developers Need to Know", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T15:43:56Z"}
+{"keyword": "Dependency Injection in ASP.NET Core", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T15:40:56Z"}
+{"keyword": "LLM agents turn code interpreters into portfolio sizing engines when you evolve the prompt", "platform": "devto", "value": 6.0, "timestamp": "2026-09-17T16:45:35Z"}
+{"keyword": "Algorithmic Trading: Debug Your Backtest Before Upgrading Your Model", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T19:27:55Z"}
+{"keyword": "Cosas que no sabías que no sabías: tamaño de un struct", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T11:56:42Z"}
+{"keyword": "A failed compaction wiped my AI session, so I built it infinite memory", "platform": "devto", "value": 2.0, "timestamp": "2026-09-17T15:16:12Z"}
+{"keyword": "[Boost]", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T07:01:35Z"}
+{"keyword": "What If Your Coding Agent Could Remember What It Learned Yesterday?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T16:28:47Z"}
+{"keyword": "Congrats to the DEV Weekend Challenge: Dog Days Edition Winners!", "platform": "devto", "value": 16.0, "timestamp": "2026-09-17T20:22:43Z"}
+{"keyword": "API Performance Testing: How to Design Realistic Tests", "platform": "devto", "value": 35.0, "timestamp": "2026-09-17T06:56:32Z"}
+{"keyword": "Git Bisect for Your Data", "platform": "devto", "value": 19.0, "timestamp": "2026-09-17T14:00:00Z"}
+{"keyword": "An MI300X Over MCP: What the Matrix Cores Execute, and What They Don't", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T02:43:18Z"}
+{"keyword": "Show a model your old code and it writes your old bugs: 32 runs, 0% reuse", "platform": "devto", "value": 17.0, "timestamp": "2026-09-17T06:47:00Z"}
+{"keyword": "My First AI Judge Interview: What Could Possibly Go Wrong?", "platform": "devto", "value": 8.0, "timestamp": "2026-09-17T02:22:25Z"}
+{"keyword": "The Code I Couldn't Leave Alone", "platform": "devto", "value": 18.0, "timestamp": "2026-09-17T12:20:21Z"}
+{"keyword": "Deno 2.6's minimum dependency age flag ignores year and month durations", "platform": "devto", "value": 12.0, "timestamp": "2026-09-17T08:00:00Z"}
+{"keyword": "Frameworks Are Institutional Memory", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T17:07:00Z"}
+{"keyword": "I Let AI Plan 170 Changes. It Made the Same 3 Mistakes Every Time.", "platform": "devto", "value": 11.0, "timestamp": "2026-09-17T03:59:17Z"}
+{"keyword": "How I built an AI Coding Mentor (KODA) entirely on a $150 Android phone 📱🐯", "platform": "devto", "value": 13.0, "timestamp": "2026-09-17T12:23:36Z"}
+{"keyword": "Stop Debouncing Resize. The Browser Already Watches It.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T11:19:53Z"}
+{"keyword": "AI agents introduced several new layers to the development stack. You are probably missing this one.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T01:39:19Z"}
+{"keyword": "My Benchmark Judged Five Models Against a Threshold Built for Three", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T08:25:12Z"}
+{"keyword": "Why we stopped using one Elasticsearch index per tenant and built our own", "platform": "devto", "value": 7.0, "timestamp": "2026-09-17T08:13:38Z"}
+{"keyword": "TypeSafe Jev Played Chess — And Landed Next to Reasoning Models", "platform": "devto", "value": 10.0, "timestamp": "2026-09-17T17:13:09Z"}
+{"keyword": "Serving Gemma 4 on an AMD MI300X: What $1.99 an Hour Buys", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T21:36:22Z"}
+{"keyword": "Learn Programming by Building Real Projects With Hyperskill", "platform": "devto", "value": 3.0, "timestamp": "2026-09-17T09:07:26Z"}
+{"keyword": "The clipboard bridge that had to wait for the device", "platform": "devto", "value": 10.0, "timestamp": "2026-09-17T17:06:38Z"}
+{"keyword": "Is Claude Watermarking Code? What Developers Need to Know", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T15:43:56Z"}
+{"keyword": "Dependency Injection in ASP.NET Core", "platform": "devto", "value": 4.0, "timestamp": "2026-09-17T15:40:56Z"}
+{"keyword": "LLM agents turn code interpreters into portfolio sizing engines when you evolve the prompt", "platform": "devto", "value": 6.0, "timestamp": "2026-09-17T16:45:35Z"}
+{"keyword": "Algorithmic Trading: Debug Your Backtest Before Upgrading Your Model", "platform": "devto", "value": 1.0, "timestamp": "2026-09-17T19:27:55Z"}
+{"keyword": "Cosas que no sabías que no sabías: tamaño de un struct", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T11:56:42Z"}
+{"keyword": "A failed compaction wiped my AI session, so I built it infinite memory", "platform": "devto", "value": 2.0, "timestamp": "2026-09-17T15:16:12Z"}
+{"keyword": "[Boost]", "platform": "devto", "value": 0.0, "timestamp": "2026-09-17T07:01:35Z"}
+{"keyword": "What If Your Coding Agent Could Remember What It Learned Yesterday?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-17T16:28:47Z"}
