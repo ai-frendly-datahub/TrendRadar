@@ -6,27 +6,7 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Bitcoin",
-      "count": 11
-    },
-    {
-      "name": "Climate change",
-      "count": 11
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 11
-    },
-    {
-      "name": "E-commerce",
-      "count": 11
-    },
-    {
-      "name": "YouTube",
-      "count": 11
-    },
-    {
-      "name": "OpenAI",
+      "name": "Seoul",
       "count": 11
     },
     {
@@ -62,15 +42,39 @@
       "count": 11
     },
     {
-      "name": "Seoul",
+      "name": "Bitcoin",
       "count": 11
     },
     {
-      "name": "정치인",
-      "count": 2
+      "name": "Climate change",
+      "count": 11
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 11
+    },
+    {
+      "name": "E-commerce",
+      "count": 11
+    },
+    {
+      "name": "YouTube",
+      "count": 11
+    },
+    {
+      "name": "OpenAI",
+      "count": 11
     },
     {
       "name": "강남 아파트",
+      "count": 2
+    },
+    {
+      "name": "에스파",
+      "count": 2
+    },
+    {
+      "name": "송파 전세",
       "count": 2
     },
     {
@@ -78,11 +82,7 @@
       "count": 2
     },
     {
-      "name": "분양권",
-      "count": 2
-    },
-    {
-      "name": "서울 부동산",
+      "name": "정치인",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 165,
     "google": 35
   },
-  "generated_at": "2026-09-18T23:04:36.481407+09:00"
+  "generated_at": "2026-09-18T23:52:20.659548+00:00"
 }
