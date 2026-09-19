@@ -56,3 +56,123 @@
 {"keyword": "How we tuned TypeSafe Jev for log triage without alert storms", "platform": "devto", "value": 1.0, "timestamp": "2026-09-18T22:57:27Z"}
 {"keyword": "How common is AGENTS.md, really? I sampled GitHub: 6.2% of active repos, 1.0% of all repos", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T08:30:25Z"}
 {"keyword": "What Building a Fintech Ledger Taught Me About Idempotency", "platform": "devto", "value": 2.0, "timestamp": "2026-09-19T02:55:47Z"}
+{"keyword": "Dev log #21 Hardening WebRTC-Direct and solving SCM leaks", "platform": "devto", "value": 31.0, "timestamp": "2026-09-19T05:49:17Z"}
+{"keyword": "Why AI Coding Agents Crash at 3 AM: The Happy-Path Mirage & The Forced Continuity Defect", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T01:56:39Z"}
+{"keyword": "Caddy 2.11's default post-quantum key exchange sends six times more handshake bytes", "platform": "devto", "value": 12.0, "timestamp": "2026-09-19T08:00:00Z"}
+{"keyword": "Frozendict 🧊: State of the Art Immutable Hashmap for Python and Node JS.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-19T04:25:17Z"}
+{"keyword": "What Do You Do While AI Codes? I Make Mine Argue With Itself.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T06:31:24Z"}
+{"keyword": "Thrown Into a Huge Unfamiliar Codebase? Here's Your Survival Guide.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-19T04:03:30Z"}
+{"keyword": "I got rejected for using AI in an interview. Then I watched the interviewer do it.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T07:53:38Z"}
+{"keyword": "I Let AI Write My Tests for 6 Months. Here Is What Actually Survived Production", "platform": "devto", "value": 13.0, "timestamp": "2026-09-19T06:01:42Z"}
+{"keyword": "Your AI Coding Agent Can Be Attacked by the Repository It Opens", "platform": "devto", "value": 34.0, "timestamp": "2026-09-19T03:50:55Z"}
+{"keyword": "What Go Taught Us About Java Garbage Collection", "platform": "devto", "value": 0.0, "timestamp": "2026-09-19T16:28:01Z"}
+{"keyword": "I Put Jev Behind a TLA+ Spec and Ran 1,680 Chaos-Tested Pharmacy Decisions. Zero Wrong Verdicts.", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T15:18:04Z"}
+{"keyword": "How to make your own Vim operator", "platform": "devto", "value": 0.0, "timestamp": "2026-09-19T20:55:00Z"}
+{"keyword": "I Built EchoCadence: A Vocabulary App Built to Make Words Stick 🔁", "platform": "devto", "value": 12.0, "timestamp": "2026-09-19T14:18:26Z"}
+{"keyword": "Running a Tech Holding Company at 12: How I Manage Multiple Projects on a $150 Phone 📱🏢", "platform": "devto", "value": 16.0, "timestamp": "2026-09-19T14:59:01Z"}
+{"keyword": "How to Send Email With SMTPfast Two Ways, and Actually Watch Where It Went", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T13:16:00Z"}
+{"keyword": "How common is AGENTS.md, really? I sampled GitHub: 6.2% of active repos, 1.0% of all repos", "platform": "devto", "value": 4.0, "timestamp": "2026-09-19T08:30:25Z"}
+{"keyword": "A browser arcade in plain TypeScript: 8 classic games, 35 kB, no framework", "platform": "devto", "value": 3.0, "timestamp": "2026-09-19T05:50:26Z"}
+{"keyword": "1,558 Tests Green and No Auth: The Tests That Never Actually Ran", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T20:43:50Z"}
+{"keyword": "Claude Code Session Compaction in 2026: How Context Summarization Works and What Your Agent Forgets", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T18:28:21Z"}
+{"keyword": "Token-Efficient Agentic Development — Part 1: What Are You Actually Paying For?", "platform": "devto", "value": 6.0, "timestamp": "2026-09-19T18:47:40Z"}
+{"keyword": "Why I Built VortexMQ: A 167M ops/sec Message Broker in 100% Pure Go", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T09:33:56Z"}
+{"keyword": "How Eventual Consistency Breaks System Logic (And How to Handle It in Distributed Systems)", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T12:31:59Z"}
+{"keyword": "AI Is Making You a Worse Engineer and a Better Employee", "platform": "devto", "value": 11.0, "timestamp": "2026-09-19T16:20:21Z"}
+{"keyword": "Your Tenant Isolation Is One Forgotten WHERE Clause Away", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T09:00:00Z"}
+{"keyword": "What Building a Fintech Ledger Taught Me About Idempotency", "platform": "devto", "value": 2.0, "timestamp": "2026-09-19T02:55:47Z"}
+{"keyword": "How to Stop a Leaked AI Agent Key From Still Working With Kinde Access Tokens", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T02:20:21Z"}
+{"keyword": "How I Built an Offline AI-Powered HTML to WordPress Theme Generator", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T18:24:58Z"}
+{"keyword": "When curl, TLS spoofing and headless all fail: how I got past Akamai with a real browser", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T07:39:21Z"}
+{"keyword": "I'm building a scripting language for whiteboard animations", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T10:24:50Z"}
+{"keyword": "The Lease Loop Is Not a Chat Completion", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T09:56:33Z"}
+{"keyword": "Dev log #21 Hardening WebRTC-Direct and solving SCM leaks", "platform": "devto", "value": 31.0, "timestamp": "2026-09-19T05:49:17Z"}
+{"keyword": "Why AI Coding Agents Crash at 3 AM: The Happy-Path Mirage & The Forced Continuity Defect", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T01:56:39Z"}
+{"keyword": "Caddy 2.11's default post-quantum key exchange sends six times more handshake bytes", "platform": "devto", "value": 12.0, "timestamp": "2026-09-19T08:00:00Z"}
+{"keyword": "Frozendict 🧊: State of the Art Immutable Hashmap for Python and Node JS.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-19T04:25:17Z"}
+{"keyword": "What Do You Do While AI Codes? I Make Mine Argue With Itself.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T06:31:24Z"}
+{"keyword": "Thrown Into a Huge Unfamiliar Codebase? Here's Your Survival Guide.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-19T04:03:30Z"}
+{"keyword": "I got rejected for using AI in an interview. Then I watched the interviewer do it.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T07:53:38Z"}
+{"keyword": "I Let AI Write My Tests for 6 Months. Here Is What Actually Survived Production", "platform": "devto", "value": 13.0, "timestamp": "2026-09-19T06:01:42Z"}
+{"keyword": "Your AI Coding Agent Can Be Attacked by the Repository It Opens", "platform": "devto", "value": 34.0, "timestamp": "2026-09-19T03:50:55Z"}
+{"keyword": "What Go Taught Us About Java Garbage Collection", "platform": "devto", "value": 0.0, "timestamp": "2026-09-19T16:28:01Z"}
+{"keyword": "I Put Jev Behind a TLA+ Spec and Ran 1,680 Chaos-Tested Pharmacy Decisions. Zero Wrong Verdicts.", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T15:18:04Z"}
+{"keyword": "How to make your own Vim operator", "platform": "devto", "value": 0.0, "timestamp": "2026-09-19T20:55:00Z"}
+{"keyword": "I Built EchoCadence: A Vocabulary App Built to Make Words Stick 🔁", "platform": "devto", "value": 12.0, "timestamp": "2026-09-19T14:18:26Z"}
+{"keyword": "Running a Tech Holding Company at 12: How I Manage Multiple Projects on a $150 Phone 📱🏢", "platform": "devto", "value": 16.0, "timestamp": "2026-09-19T14:59:01Z"}
+{"keyword": "How to Send Email With SMTPfast Two Ways, and Actually Watch Where It Went", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T13:16:00Z"}
+{"keyword": "How common is AGENTS.md, really? I sampled GitHub: 6.2% of active repos, 1.0% of all repos", "platform": "devto", "value": 4.0, "timestamp": "2026-09-19T08:30:25Z"}
+{"keyword": "A browser arcade in plain TypeScript: 8 classic games, 35 kB, no framework", "platform": "devto", "value": 3.0, "timestamp": "2026-09-19T05:50:26Z"}
+{"keyword": "1,558 Tests Green and No Auth: The Tests That Never Actually Ran", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T20:43:50Z"}
+{"keyword": "Claude Code Session Compaction in 2026: How Context Summarization Works and What Your Agent Forgets", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T18:28:21Z"}
+{"keyword": "Token-Efficient Agentic Development — Part 1: What Are You Actually Paying For?", "platform": "devto", "value": 6.0, "timestamp": "2026-09-19T18:47:40Z"}
+{"keyword": "Why I Built VortexMQ: A 167M ops/sec Message Broker in 100% Pure Go", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T09:33:56Z"}
+{"keyword": "How Eventual Consistency Breaks System Logic (And How to Handle It in Distributed Systems)", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T12:31:59Z"}
+{"keyword": "AI Is Making You a Worse Engineer and a Better Employee", "platform": "devto", "value": 11.0, "timestamp": "2026-09-19T16:20:21Z"}
+{"keyword": "Your Tenant Isolation Is One Forgotten WHERE Clause Away", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T09:00:00Z"}
+{"keyword": "What Building a Fintech Ledger Taught Me About Idempotency", "platform": "devto", "value": 2.0, "timestamp": "2026-09-19T02:55:47Z"}
+{"keyword": "How to Stop a Leaked AI Agent Key From Still Working With Kinde Access Tokens", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T02:20:21Z"}
+{"keyword": "How I Built an Offline AI-Powered HTML to WordPress Theme Generator", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T18:24:58Z"}
+{"keyword": "When curl, TLS spoofing and headless all fail: how I got past Akamai with a real browser", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T07:39:21Z"}
+{"keyword": "I'm building a scripting language for whiteboard animations", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T10:24:50Z"}
+{"keyword": "The Lease Loop Is Not a Chat Completion", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T09:56:33Z"}
+{"keyword": "Dev log #21 Hardening WebRTC-Direct and solving SCM leaks", "platform": "devto", "value": 31.0, "timestamp": "2026-09-19T05:49:17Z"}
+{"keyword": "Why AI Coding Agents Crash at 3 AM: The Happy-Path Mirage & The Forced Continuity Defect", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T01:56:39Z"}
+{"keyword": "Caddy 2.11's default post-quantum key exchange sends six times more handshake bytes", "platform": "devto", "value": 12.0, "timestamp": "2026-09-19T08:00:00Z"}
+{"keyword": "Frozendict 🧊: State of the Art Immutable Hashmap for Python and Node JS.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-19T04:25:17Z"}
+{"keyword": "What Do You Do While AI Codes? I Make Mine Argue With Itself.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T06:31:24Z"}
+{"keyword": "Thrown Into a Huge Unfamiliar Codebase? Here's Your Survival Guide.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-19T04:03:30Z"}
+{"keyword": "I got rejected for using AI in an interview. Then I watched the interviewer do it.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T07:53:38Z"}
+{"keyword": "I Let AI Write My Tests for 6 Months. Here Is What Actually Survived Production", "platform": "devto", "value": 13.0, "timestamp": "2026-09-19T06:01:42Z"}
+{"keyword": "Your AI Coding Agent Can Be Attacked by the Repository It Opens", "platform": "devto", "value": 34.0, "timestamp": "2026-09-19T03:50:55Z"}
+{"keyword": "What Go Taught Us About Java Garbage Collection", "platform": "devto", "value": 0.0, "timestamp": "2026-09-19T16:28:01Z"}
+{"keyword": "I Put Jev Behind a TLA+ Spec and Ran 1,680 Chaos-Tested Pharmacy Decisions. Zero Wrong Verdicts.", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T15:18:04Z"}
+{"keyword": "How to make your own Vim operator", "platform": "devto", "value": 0.0, "timestamp": "2026-09-19T20:55:00Z"}
+{"keyword": "I Built EchoCadence: A Vocabulary App Built to Make Words Stick 🔁", "platform": "devto", "value": 12.0, "timestamp": "2026-09-19T14:18:26Z"}
+{"keyword": "Running a Tech Holding Company at 12: How I Manage Multiple Projects on a $150 Phone 📱🏢", "platform": "devto", "value": 16.0, "timestamp": "2026-09-19T14:59:01Z"}
+{"keyword": "How to Send Email With SMTPfast Two Ways, and Actually Watch Where It Went", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T13:16:00Z"}
+{"keyword": "How common is AGENTS.md, really? I sampled GitHub: 6.2% of active repos, 1.0% of all repos", "platform": "devto", "value": 4.0, "timestamp": "2026-09-19T08:30:25Z"}
+{"keyword": "A browser arcade in plain TypeScript: 8 classic games, 35 kB, no framework", "platform": "devto", "value": 3.0, "timestamp": "2026-09-19T05:50:26Z"}
+{"keyword": "1,558 Tests Green and No Auth: The Tests That Never Actually Ran", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T20:43:50Z"}
+{"keyword": "Claude Code Session Compaction in 2026: How Context Summarization Works and What Your Agent Forgets", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T18:28:21Z"}
+{"keyword": "Token-Efficient Agentic Development — Part 1: What Are You Actually Paying For?", "platform": "devto", "value": 6.0, "timestamp": "2026-09-19T18:47:40Z"}
+{"keyword": "Why I Built VortexMQ: A 167M ops/sec Message Broker in 100% Pure Go", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T09:33:56Z"}
+{"keyword": "How Eventual Consistency Breaks System Logic (And How to Handle It in Distributed Systems)", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T12:31:59Z"}
+{"keyword": "AI Is Making You a Worse Engineer and a Better Employee", "platform": "devto", "value": 11.0, "timestamp": "2026-09-19T16:20:21Z"}
+{"keyword": "Your Tenant Isolation Is One Forgotten WHERE Clause Away", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T09:00:00Z"}
+{"keyword": "What Building a Fintech Ledger Taught Me About Idempotency", "platform": "devto", "value": 2.0, "timestamp": "2026-09-19T02:55:47Z"}
+{"keyword": "How to Stop a Leaked AI Agent Key From Still Working With Kinde Access Tokens", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T02:20:21Z"}
+{"keyword": "How I Built an Offline AI-Powered HTML to WordPress Theme Generator", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T18:24:58Z"}
+{"keyword": "When curl, TLS spoofing and headless all fail: how I got past Akamai with a real browser", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T07:39:21Z"}
+{"keyword": "I'm building a scripting language for whiteboard animations", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T10:24:50Z"}
+{"keyword": "The Lease Loop Is Not a Chat Completion", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T09:56:33Z"}
+{"keyword": "Dev log #21 Hardening WebRTC-Direct and solving SCM leaks", "platform": "devto", "value": 31.0, "timestamp": "2026-09-19T05:49:17Z"}
+{"keyword": "Why AI Coding Agents Crash at 3 AM: The Happy-Path Mirage & The Forced Continuity Defect", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T01:56:39Z"}
+{"keyword": "Caddy 2.11's default post-quantum key exchange sends six times more handshake bytes", "platform": "devto", "value": 12.0, "timestamp": "2026-09-19T08:00:00Z"}
+{"keyword": "Frozendict 🧊: State of the Art Immutable Hashmap for Python and Node JS.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-19T04:25:17Z"}
+{"keyword": "What Do You Do While AI Codes? I Make Mine Argue With Itself.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T06:31:24Z"}
+{"keyword": "Thrown Into a Huge Unfamiliar Codebase? Here's Your Survival Guide.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-19T04:03:30Z"}
+{"keyword": "I got rejected for using AI in an interview. Then I watched the interviewer do it.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T07:53:38Z"}
+{"keyword": "I Let AI Write My Tests for 6 Months. Here Is What Actually Survived Production", "platform": "devto", "value": 13.0, "timestamp": "2026-09-19T06:01:42Z"}
+{"keyword": "Your AI Coding Agent Can Be Attacked by the Repository It Opens", "platform": "devto", "value": 34.0, "timestamp": "2026-09-19T03:50:55Z"}
+{"keyword": "What Go Taught Us About Java Garbage Collection", "platform": "devto", "value": 0.0, "timestamp": "2026-09-19T16:28:01Z"}
+{"keyword": "I Put Jev Behind a TLA+ Spec and Ran 1,680 Chaos-Tested Pharmacy Decisions. Zero Wrong Verdicts.", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T15:18:04Z"}
+{"keyword": "How to make your own Vim operator", "platform": "devto", "value": 0.0, "timestamp": "2026-09-19T20:55:00Z"}
+{"keyword": "I Built EchoCadence: A Vocabulary App Built to Make Words Stick 🔁", "platform": "devto", "value": 12.0, "timestamp": "2026-09-19T14:18:26Z"}
+{"keyword": "Running a Tech Holding Company at 12: How I Manage Multiple Projects on a $150 Phone 📱🏢", "platform": "devto", "value": 16.0, "timestamp": "2026-09-19T14:59:01Z"}
+{"keyword": "How to Send Email With SMTPfast Two Ways, and Actually Watch Where It Went", "platform": "devto", "value": 17.0, "timestamp": "2026-09-19T13:16:00Z"}
+{"keyword": "How common is AGENTS.md, really? I sampled GitHub: 6.2% of active repos, 1.0% of all repos", "platform": "devto", "value": 4.0, "timestamp": "2026-09-19T08:30:25Z"}
+{"keyword": "A browser arcade in plain TypeScript: 8 classic games, 35 kB, no framework", "platform": "devto", "value": 3.0, "timestamp": "2026-09-19T05:50:26Z"}
+{"keyword": "1,558 Tests Green and No Auth: The Tests That Never Actually Ran", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T20:43:50Z"}
+{"keyword": "Claude Code Session Compaction in 2026: How Context Summarization Works and What Your Agent Forgets", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T18:28:21Z"}
+{"keyword": "Token-Efficient Agentic Development — Part 1: What Are You Actually Paying For?", "platform": "devto", "value": 6.0, "timestamp": "2026-09-19T18:47:40Z"}
+{"keyword": "Why I Built VortexMQ: A 167M ops/sec Message Broker in 100% Pure Go", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T09:33:56Z"}
+{"keyword": "How Eventual Consistency Breaks System Logic (And How to Handle It in Distributed Systems)", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T12:31:59Z"}
+{"keyword": "AI Is Making You a Worse Engineer and a Better Employee", "platform": "devto", "value": 11.0, "timestamp": "2026-09-19T16:20:21Z"}
+{"keyword": "Your Tenant Isolation Is One Forgotten WHERE Clause Away", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T09:00:00Z"}
+{"keyword": "What Building a Fintech Ledger Taught Me About Idempotency", "platform": "devto", "value": 2.0, "timestamp": "2026-09-19T02:55:47Z"}
+{"keyword": "How to Stop a Leaked AI Agent Key From Still Working With Kinde Access Tokens", "platform": "devto", "value": 5.0, "timestamp": "2026-09-19T02:20:21Z"}
+{"keyword": "How I Built an Offline AI-Powered HTML to WordPress Theme Generator", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T18:24:58Z"}
+{"keyword": "When curl, TLS spoofing and headless all fail: how I got past Akamai with a real browser", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T07:39:21Z"}
+{"keyword": "I'm building a scripting language for whiteboard animations", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T10:24:50Z"}
+{"keyword": "The Lease Loop Is Not a Chat Completion", "platform": "devto", "value": 1.0, "timestamp": "2026-09-19T09:56:33Z"}

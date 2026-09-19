@@ -14,3 +14,29 @@
 {"keyword": "How I can use python in order to populate and modify groups?", "platform": "stackexchange", "value": 1.0, "timestamp": "1789749563"}
 {"keyword": "Tile map renderer fails to render some tiles", "platform": "stackexchange", "value": 0.0, "timestamp": "1789755975"}
 {"keyword": "Run a separate main()-function within a Project - Is that still possible in Android Studio Quail 4?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789716276"}
+{"keyword": "Why does DbContext prohibit concurrent read operations if reads don&#39;t modify entity state?", "platform": "stackexchange", "value": 4.0, "timestamp": "1789859766"}
+{"keyword": "Console.ReadKey recording excess keypresses when used more frequently than a loop can finish running", "platform": "stackexchange", "value": 0.0, "timestamp": "1789855490"}
+{"keyword": "onclick=&quot;showContent(&#39;x&#39;)&quot; only works once", "platform": "stackexchange", "value": 1.0, "timestamp": "1789845443"}
+{"keyword": "Replace a printed line when it overflows to the next line", "platform": "stackexchange", "value": 2.0, "timestamp": "1789848559"}
+{"keyword": "Adding columns in matplotlib graph breaks row layout", "platform": "stackexchange", "value": 1.0, "timestamp": "1789846009"}
+{"keyword": "printf - char values are not printed as expected", "platform": "stackexchange", "value": 2.0, "timestamp": "1789836732"}
+{"keyword": "How should I learn PostgreSQL internals such as WAL and DISTINCT execution?", "platform": "stackexchange", "value": 1.0, "timestamp": "1789830365"}
+{"keyword": "Installing pyenv on Ubuntu 26.04 running WSL1", "platform": "stackexchange", "value": 0.0, "timestamp": "1789831820"}
+{"keyword": "How can I use the Afghan Solar Hijri (Shamsi) calendar in a WinUI 3 CalendarDatePicker?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789791696"}
+{"keyword": "MathML renders incorrectly in Firefox/Safari", "platform": "stackexchange", "value": 4.0, "timestamp": "1789784101"}
+{"keyword": "How can map_windows preserve state after None?", "platform": "stackexchange", "value": 2.0, "timestamp": "1789809481"}
+{"keyword": "Build update from Server to Client", "platform": "stackexchange", "value": 0.0, "timestamp": "1789816846"}
+{"keyword": "What can cause a .NET app to crash when launched via .exe but not via `dotnet [...].dll`?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789799997"}
+{"keyword": "Why does DbContext prohibit concurrent read operations if reads don&#39;t modify entity state?", "platform": "stackexchange", "value": 4.0, "timestamp": "1789859766"}
+{"keyword": "Console.ReadKey recording excess keypresses when used more frequently than a loop can finish running", "platform": "stackexchange", "value": 0.0, "timestamp": "1789855490"}
+{"keyword": "onclick=&quot;showContent(&#39;x&#39;)&quot; only works once", "platform": "stackexchange", "value": 1.0, "timestamp": "1789845443"}
+{"keyword": "Replace a printed line when it overflows to the next line", "platform": "stackexchange", "value": 2.0, "timestamp": "1789848559"}
+{"keyword": "Adding columns in matplotlib graph breaks row layout", "platform": "stackexchange", "value": 1.0, "timestamp": "1789846009"}
+{"keyword": "printf - char values are not printed as expected", "platform": "stackexchange", "value": 2.0, "timestamp": "1789836732"}
+{"keyword": "How should I learn PostgreSQL internals such as WAL and DISTINCT execution?", "platform": "stackexchange", "value": 1.0, "timestamp": "1789830365"}
+{"keyword": "Installing pyenv on Ubuntu 26.04 running WSL1", "platform": "stackexchange", "value": 0.0, "timestamp": "1789831820"}
+{"keyword": "How can I use the Afghan Solar Hijri (Shamsi) calendar in a WinUI 3 CalendarDatePicker?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789791696"}
+{"keyword": "MathML renders incorrectly in Firefox/Safari", "platform": "stackexchange", "value": 4.0, "timestamp": "1789784101"}
+{"keyword": "How can map_windows preserve state after None?", "platform": "stackexchange", "value": 2.0, "timestamp": "1789809481"}
+{"keyword": "Build update from Server to Client", "platform": "stackexchange", "value": 0.0, "timestamp": "1789816846"}
+{"keyword": "What can cause a .NET app to crash when launched via .exe but not via `dotnet [...].dll`?", "platform": "stackexchange", "value": 0.0, "timestamp": "1789799997"}
