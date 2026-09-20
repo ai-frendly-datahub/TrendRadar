@@ -10,20 +10,36 @@
       "count": 10
     },
     {
-      "name": "South Korea",
+      "name": "Electric vehicle",
       "count": 10
+    },
+    {
+      "name": "E-commerce",
+      "count": 10
+    },
+    {
+      "name": "YouTube",
+      "count": 10
+    },
+    {
+      "name": "OpenAI",
+      "count": 10
+    },
+    {
+      "name": "South Korea",
+      "count": 9
     },
     {
       "name": "Python (programming language)",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Artificial intelligence",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Machine learning",
-      "count": 10
+      "count": 9
     },
     {
       "name": "K-pop",
@@ -50,39 +66,23 @@
       "count": 9
     },
     {
-      "name": "Electric vehicle",
-      "count": 9
-    },
-    {
-      "name": "E-commerce",
-      "count": 9
-    },
-    {
-      "name": "YouTube",
-      "count": 9
-    },
-    {
-      "name": "OpenAI",
-      "count": 9
-    },
-    {
-      "name": "부동산 시장",
+      "name": "스포츠 선수",
       "count": 2
     },
     {
-      "name": "정치인",
+      "name": "아이돌",
       "count": 2
     },
     {
-      "name": "재건축",
+      "name": "뉴진스",
       "count": 2
     },
     {
-      "name": "에스파",
+      "name": "멜론",
       "count": 2
     },
     {
-      "name": "청약",
+      "name": "송파 전세",
       "count": 2
     }
   ],
@@ -90,5 +90,5 @@
     "google": 60,
     "wikipedia": 140
   },
-  "generated_at": "2026-09-20T22:55:10.401623+09:00"
+  "generated_at": "2026-09-20T23:50:38.027655+00:00"
 }
