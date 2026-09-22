@@ -118,3 +118,59 @@
 {"keyword": "LSP-ember for Sublime Text", "platform": "devto", "value": 1.0, "timestamp": "2026-09-21T08:30:19Z"}
 {"keyword": "How many WebSocket connections can a $6 server hold? 99,770, and memory is the wall", "platform": "devto", "value": 6.0, "timestamp": "2026-09-21T13:41:24Z"}
 {"keyword": "Infostealers Are Selling Your Claude and ChatGPT Sessions for $5 on Telegram", "platform": "devto", "value": 1.0, "timestamp": "2026-09-21T20:29:29Z"}
+{"keyword": "Clean Code Is Not the Same as Clear Code: Comments Were Never the Problem", "platform": "devto", "value": 45.0, "timestamp": "2026-09-21T18:07:10Z"}
+{"keyword": "You're not an impostor, you just started from a different line", "platform": "devto", "value": 134.0, "timestamp": "2026-09-21T22:59:00Z"}
+{"keyword": "Two Weeks In: A 15-Year QA Veteran, Back to Being the New Guy", "platform": "devto", "value": 64.0, "timestamp": "2026-09-22T07:22:16Z"}
+{"keyword": "Cheap RAG in Go with Gemini File Search: no vector DB, two calls, one hosted store", "platform": "devto", "value": 25.0, "timestamp": "2026-09-22T07:12:46Z"}
+{"keyword": "10 Cool CodePen Demos (August 2026)", "platform": "devto", "value": 6.0, "timestamp": "2026-09-21T14:19:26Z"}
+{"keyword": "The Git Recovery Guide: How to Undo Anything (Without Panic)", "platform": "devto", "value": 20.0, "timestamp": "2026-09-22T06:36:57Z"}
+{"keyword": "React 19's useTransition Looked Simple. Then I Found a Second Bug Hiding Inside the First One", "platform": "devto", "value": 13.0, "timestamp": "2026-09-21T15:32:13Z"}
+{"keyword": "Put the Arithmetic in the Tool: an MCP Server for an AWS Waste Scanner", "platform": "devto", "value": 2.0, "timestamp": "2026-09-21T16:34:32Z"}
+{"keyword": "An Agent That Counts My Receipts, Not My Claims", "platform": "devto", "value": 17.0, "timestamp": "2026-09-21T14:26:01Z"}
+{"keyword": "The Curiosity Gap: Why We've Stopped Asking Questions", "platform": "devto", "value": 10.0, "timestamp": "2026-09-22T08:26:58Z"}
+{"keyword": "What are your goals for the week? #197", "platform": "devto", "value": 5.0, "timestamp": "2026-09-21T15:12:30Z"}
+{"keyword": "What happens when enterprise requirements hit Strands, LangGraph, and CrewAI - 45 runs measured", "platform": "devto", "value": 5.0, "timestamp": "2026-09-21T15:46:51Z"}
+{"keyword": "I Wrote the Code This Time. Does It Count If the Answer Was Wrong?", "platform": "devto", "value": 6.0, "timestamp": "2026-09-22T04:24:02Z"}
+{"keyword": "We Solved the How to Code Problem. We Still Haven't Solved \"What to Build.\"", "platform": "devto", "value": 16.0, "timestamp": "2026-09-22T13:15:03Z"}
+{"keyword": "I wired Django to Next.js. Four things broke and only one of them threw an error.", "platform": "devto", "value": 6.0, "timestamp": "2026-09-21T15:55:25Z"}
+{"keyword": "A sticker over 15% of a QR code is fine. Erasing 0.7% of it kills the code.", "platform": "devto", "value": 6.0, "timestamp": "2026-09-22T09:29:16Z"}
+{"keyword": "We Measured the 200x Claim, and Got It Wrong Twice First", "platform": "devto", "value": 7.0, "timestamp": "2026-09-21T15:00:00Z"}
+{"keyword": "Faster Starts, Less JavaScript Overhead", "platform": "devto", "value": 5.0, "timestamp": "2026-09-21T18:40:10Z"}
+{"keyword": "Laravel Is Not As Heavy As You Think", "platform": "devto", "value": 11.0, "timestamp": "2026-09-22T13:25:12Z"}
+{"keyword": "I Told a PR Nothing Would Break. Qodo Checked.", "platform": "devto", "value": 5.0, "timestamp": "2026-09-22T11:51:43Z"}
+{"keyword": "PostgreSQL 19's data checksums can now be switched on without stopping the server", "platform": "devto", "value": 11.0, "timestamp": "2026-09-22T10:00:00Z"}
+{"keyword": "AI Coding Tip 037 - Stop Patching Blind", "platform": "devto", "value": 0.0, "timestamp": "2026-09-22T11:00:00Z"}
+{"keyword": "RAG ranking is not the same as judging with Jev", "platform": "devto", "value": 1.0, "timestamp": "2026-09-22T13:30:00Z"}
+{"keyword": "I Cut 2,490 Agent Test Runs to 206 and Kept the Same Coverage", "platform": "devto", "value": 7.0, "timestamp": "2026-09-22T12:19:00Z"}
+{"keyword": "Managing the Hidden Overhead of AI Software Engineering", "platform": "devto", "value": 11.0, "timestamp": "2026-09-22T04:43:03Z"}
+{"keyword": "Where Dart stops and Freezed starts", "platform": "devto", "value": 6.0, "timestamp": "2026-09-21T18:30:24Z"}
+{"keyword": "CSS-Only Custom Elements", "platform": "devto", "value": 4.0, "timestamp": "2026-09-21T17:48:12Z"}
+{"keyword": "Azure Virtual Network Routing Appliance: peering performance, hub-and-spoke control", "platform": "devto", "value": 0.0, "timestamp": "2026-09-21T20:06:37Z"}
+{"keyword": "Clean Code Is Not the Same as Clear Code: Comments Were Never the Problem", "platform": "devto", "value": 45.0, "timestamp": "2026-09-21T18:07:10Z"}
+{"keyword": "You're not an impostor, you just started from a different line", "platform": "devto", "value": 134.0, "timestamp": "2026-09-21T22:59:00Z"}
+{"keyword": "Two Weeks In: A 15-Year QA Veteran, Back to Being the New Guy", "platform": "devto", "value": 64.0, "timestamp": "2026-09-22T07:22:16Z"}
+{"keyword": "Cheap RAG in Go with Gemini File Search: no vector DB, two calls, one hosted store", "platform": "devto", "value": 25.0, "timestamp": "2026-09-22T07:12:46Z"}
+{"keyword": "10 Cool CodePen Demos (August 2026)", "platform": "devto", "value": 6.0, "timestamp": "2026-09-21T14:19:26Z"}
+{"keyword": "The Git Recovery Guide: How to Undo Anything (Without Panic)", "platform": "devto", "value": 20.0, "timestamp": "2026-09-22T06:36:57Z"}
+{"keyword": "React 19's useTransition Looked Simple. Then I Found a Second Bug Hiding Inside the First One", "platform": "devto", "value": 13.0, "timestamp": "2026-09-21T15:32:13Z"}
+{"keyword": "Put the Arithmetic in the Tool: an MCP Server for an AWS Waste Scanner", "platform": "devto", "value": 2.0, "timestamp": "2026-09-21T16:34:32Z"}
+{"keyword": "An Agent That Counts My Receipts, Not My Claims", "platform": "devto", "value": 17.0, "timestamp": "2026-09-21T14:26:01Z"}
+{"keyword": "The Curiosity Gap: Why We've Stopped Asking Questions", "platform": "devto", "value": 10.0, "timestamp": "2026-09-22T08:26:58Z"}
+{"keyword": "What are your goals for the week? #197", "platform": "devto", "value": 5.0, "timestamp": "2026-09-21T15:12:30Z"}
+{"keyword": "What happens when enterprise requirements hit Strands, LangGraph, and CrewAI - 45 runs measured", "platform": "devto", "value": 5.0, "timestamp": "2026-09-21T15:46:51Z"}
+{"keyword": "I Wrote the Code This Time. Does It Count If the Answer Was Wrong?", "platform": "devto", "value": 6.0, "timestamp": "2026-09-22T04:24:02Z"}
+{"keyword": "We Solved the How to Code Problem. We Still Haven't Solved \"What to Build.\"", "platform": "devto", "value": 16.0, "timestamp": "2026-09-22T13:15:03Z"}
+{"keyword": "I wired Django to Next.js. Four things broke and only one of them threw an error.", "platform": "devto", "value": 6.0, "timestamp": "2026-09-21T15:55:25Z"}
+{"keyword": "A sticker over 15% of a QR code is fine. Erasing 0.7% of it kills the code.", "platform": "devto", "value": 6.0, "timestamp": "2026-09-22T09:29:16Z"}
+{"keyword": "We Measured the 200x Claim, and Got It Wrong Twice First", "platform": "devto", "value": 7.0, "timestamp": "2026-09-21T15:00:00Z"}
+{"keyword": "Faster Starts, Less JavaScript Overhead", "platform": "devto", "value": 5.0, "timestamp": "2026-09-21T18:40:10Z"}
+{"keyword": "Laravel Is Not As Heavy As You Think", "platform": "devto", "value": 11.0, "timestamp": "2026-09-22T13:25:12Z"}
+{"keyword": "I Told a PR Nothing Would Break. Qodo Checked.", "platform": "devto", "value": 5.0, "timestamp": "2026-09-22T11:51:43Z"}
+{"keyword": "PostgreSQL 19's data checksums can now be switched on without stopping the server", "platform": "devto", "value": 11.0, "timestamp": "2026-09-22T10:00:00Z"}
+{"keyword": "AI Coding Tip 037 - Stop Patching Blind", "platform": "devto", "value": 0.0, "timestamp": "2026-09-22T11:00:00Z"}
+{"keyword": "RAG ranking is not the same as judging with Jev", "platform": "devto", "value": 1.0, "timestamp": "2026-09-22T13:30:00Z"}
+{"keyword": "I Cut 2,490 Agent Test Runs to 206 and Kept the Same Coverage", "platform": "devto", "value": 7.0, "timestamp": "2026-09-22T12:19:00Z"}
+{"keyword": "Managing the Hidden Overhead of AI Software Engineering", "platform": "devto", "value": 11.0, "timestamp": "2026-09-22T04:43:03Z"}
+{"keyword": "Where Dart stops and Freezed starts", "platform": "devto", "value": 6.0, "timestamp": "2026-09-21T18:30:24Z"}
+{"keyword": "CSS-Only Custom Elements", "platform": "devto", "value": 4.0, "timestamp": "2026-09-21T17:48:12Z"}
+{"keyword": "Azure Virtual Network Routing Appliance: peering performance, hub-and-spoke control", "platform": "devto", "value": 0.0, "timestamp": "2026-09-21T20:06:37Z"}
