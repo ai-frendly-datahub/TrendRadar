@@ -6,6 +6,10 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "Seoul",
+      "count": 10
+    },
+    {
       "name": "South Korea",
       "count": 10
     },
@@ -19,10 +23,6 @@
     },
     {
       "name": "Machine learning",
-      "count": 10
-    },
-    {
-      "name": "Seoul",
       "count": 10
     },
     {
@@ -70,15 +70,15 @@
       "count": 2
     },
     {
-      "name": "음악방송",
-      "count": 2
-    },
-    {
-      "name": "뉴진스",
-      "count": 2
-    },
-    {
       "name": "에스파",
+      "count": 2
+    },
+    {
+      "name": "케이팝",
+      "count": 2
+    },
+    {
+      "name": "가수",
       "count": 2
     },
     {
@@ -87,8 +87,8 @@
     }
   ],
   "sources": {
-    "google": 60,
-    "wikipedia": 140
+    "wikipedia": 140,
+    "google": 60
   },
-  "generated_at": "2026-09-22T00:35:21.917881+00:00"
+  "generated_at": "2026-09-22T23:20:16.496101+09:00"
 }
