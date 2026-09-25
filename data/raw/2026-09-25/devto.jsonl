@@ -106,3 +106,61 @@
 {"keyword": "CI Passed 6 of 6 Migrations. A Neon Branch of Production Passed 1", "platform": "devto", "value": 7.0, "timestamp": "2026-09-24T09:00:00Z"}
 {"keyword": "I vibe-coded a Next.js knowledge base that argues with itself", "platform": "devto", "value": 0.0, "timestamp": "2026-09-24T01:17:02Z"}
 {"keyword": "Stop Mocking Everything in Integration Tests: Why Testcontainers Changed My CI Strategy", "platform": "devto", "value": 5.0, "timestamp": "2026-09-24T16:13:43Z"}
+{"keyword": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T12:06:34Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 11.0, "timestamp": "2026-09-25T13:00:00Z"}
+{"keyword": "Pointers Aren't Arrows. How C and C++ Actually Talk to Hardware.", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T12:12:28Z"}
+{"keyword": "Moving to European Digital Services, One Decision at a Time", "platform": "devto", "value": 3.0, "timestamp": "2026-09-24T16:13:19Z"}
+{"keyword": "Double Engine Failure: Back to the Hangar After Two Data Providers Changed Course", "platform": "devto", "value": 8.0, "timestamp": "2026-09-24T18:00:16Z"}
+{"keyword": "Android 17 Without the Last-Minute Scramble", "platform": "devto", "value": 6.0, "timestamp": "2026-09-24T17:57:20Z"}
+{"keyword": "Kubernetes 1.37's kyaml output closes a YAML bug that still deletes data on apply", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T10:00:00Z"}
+{"keyword": "FinePrint: an agent that checks your hackathon entry against the rules it reads", "platform": "devto", "value": 8.0, "timestamp": "2026-09-24T17:01:07Z"}
+{"keyword": "INKSHIFT: cross out a table, keep the booking", "platform": "devto", "value": 6.0, "timestamp": "2026-09-24T17:03:36Z"}
+{"keyword": "I Trusted My Agent Demos for Years. Then I Built a Gate That Says No.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T03:21:08Z"}
+{"keyword": "Copying Chrome's handshake opened 18 doors that had been closed", "platform": "devto", "value": 6.0, "timestamp": "2026-09-24T17:35:00Z"}
+{"keyword": "Inline vs. Separate Tables for Vectors in Postgres: Measuring the Join Overhead", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T04:29:18Z"}
+{"keyword": "I rebuilt my 2018 agar.io clone around real orbital physics, with no game server", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T04:21:51Z"}
+{"keyword": "What the AI isn't allowed to do", "platform": "devto", "value": 3.0, "timestamp": "2026-09-24T18:25:42Z"}
+{"keyword": "I Think AI Is Making Coding Easier and Learning Harder", "platform": "devto", "value": 6.0, "timestamp": "2026-09-25T03:57:07Z"}
+{"keyword": "The No-Backend Backend: Neon Data API, RLS and 27 Attacks", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T09:00:00Z"}
+{"keyword": "Your API's newest users are agents...", "platform": "devto", "value": 54.0, "timestamp": "2026-09-25T08:14:55Z"}
+{"keyword": "I Followed the n8n AWS Docs and It Broke at the First Command", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T14:09:50Z"}
+{"keyword": "What a server knows about you before it reads a single header", "platform": "devto", "value": 6.0, "timestamp": "2026-09-24T16:35:15Z"}
+{"keyword": "Should You Add Projects to Your CV?", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T07:28:09Z"}
+{"keyword": "I Built Nabsun: An Open-Source AI Browser That Works in Your Real Tabs", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T00:57:06Z"}
+{"keyword": "What Protobuf descriptors don't tell you: building a generic mock generator", "platform": "devto", "value": 1.0, "timestamp": "2026-09-25T13:57:01Z"}
+{"keyword": "When should an agent stop?", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T07:57:42Z"}
+{"keyword": "Why I Built a Code-Native Visual Studio for My Developer Posts", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T06:05:33Z"}
+{"keyword": "I Built a Free IP Lookup Tool with Vanilla JS — Here's What I Learned", "platform": "devto", "value": 3.0, "timestamp": "2026-09-24T20:39:38Z"}
+{"keyword": "AI Is My Workforce, Not My Replacement", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T02:30:00Z"}
+{"keyword": "Building RAVEL: Detecting Complex Fraud Rings with TigerGraph Cloud & Agentic GraphRAG", "platform": "devto", "value": 2.0, "timestamp": "2026-09-24T16:21:12Z"}
+{"keyword": "Goodbye pbxproj: A Friendly Guide to Xcode 27.2's New JSON Project Format", "platform": "devto", "value": 8.0, "timestamp": "2026-09-24T16:08:54Z"}
+{"keyword": "AI doesn't need a new Git workflow. It needs better gates", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T13:08:42Z"}
+{"keyword": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T12:06:34Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 11.0, "timestamp": "2026-09-25T13:00:00Z"}
+{"keyword": "Pointers Aren't Arrows. How C and C++ Actually Talk to Hardware.", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T12:12:28Z"}
+{"keyword": "Moving to European Digital Services, One Decision at a Time", "platform": "devto", "value": 3.0, "timestamp": "2026-09-24T16:13:19Z"}
+{"keyword": "Double Engine Failure: Back to the Hangar After Two Data Providers Changed Course", "platform": "devto", "value": 8.0, "timestamp": "2026-09-24T18:00:16Z"}
+{"keyword": "Android 17 Without the Last-Minute Scramble", "platform": "devto", "value": 6.0, "timestamp": "2026-09-24T17:57:20Z"}
+{"keyword": "Kubernetes 1.37's kyaml output closes a YAML bug that still deletes data on apply", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T10:00:00Z"}
+{"keyword": "FinePrint: an agent that checks your hackathon entry against the rules it reads", "platform": "devto", "value": 8.0, "timestamp": "2026-09-24T17:01:07Z"}
+{"keyword": "INKSHIFT: cross out a table, keep the booking", "platform": "devto", "value": 6.0, "timestamp": "2026-09-24T17:03:36Z"}
+{"keyword": "I Trusted My Agent Demos for Years. Then I Built a Gate That Says No.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T03:21:08Z"}
+{"keyword": "Copying Chrome's handshake opened 18 doors that had been closed", "platform": "devto", "value": 6.0, "timestamp": "2026-09-24T17:35:00Z"}
+{"keyword": "Inline vs. Separate Tables for Vectors in Postgres: Measuring the Join Overhead", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T04:29:18Z"}
+{"keyword": "I rebuilt my 2018 agar.io clone around real orbital physics, with no game server", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T04:21:51Z"}
+{"keyword": "What the AI isn't allowed to do", "platform": "devto", "value": 3.0, "timestamp": "2026-09-24T18:25:42Z"}
+{"keyword": "I Think AI Is Making Coding Easier and Learning Harder", "platform": "devto", "value": 6.0, "timestamp": "2026-09-25T03:57:07Z"}
+{"keyword": "The No-Backend Backend: Neon Data API, RLS and 27 Attacks", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T09:00:00Z"}
+{"keyword": "Your API's newest users are agents...", "platform": "devto", "value": 54.0, "timestamp": "2026-09-25T08:14:55Z"}
+{"keyword": "I Followed the n8n AWS Docs and It Broke at the First Command", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T14:09:50Z"}
+{"keyword": "What a server knows about you before it reads a single header", "platform": "devto", "value": 6.0, "timestamp": "2026-09-24T16:35:15Z"}
+{"keyword": "Should You Add Projects to Your CV?", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T07:28:09Z"}
+{"keyword": "I Built Nabsun: An Open-Source AI Browser That Works in Your Real Tabs", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T00:57:06Z"}
+{"keyword": "What Protobuf descriptors don't tell you: building a generic mock generator", "platform": "devto", "value": 1.0, "timestamp": "2026-09-25T13:57:01Z"}
+{"keyword": "When should an agent stop?", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T07:57:42Z"}
+{"keyword": "Why I Built a Code-Native Visual Studio for My Developer Posts", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T06:05:33Z"}
+{"keyword": "I Built a Free IP Lookup Tool with Vanilla JS — Here's What I Learned", "platform": "devto", "value": 3.0, "timestamp": "2026-09-24T20:39:38Z"}
+{"keyword": "AI Is My Workforce, Not My Replacement", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T02:30:00Z"}
+{"keyword": "Building RAVEL: Detecting Complex Fraud Rings with TigerGraph Cloud & Agentic GraphRAG", "platform": "devto", "value": 2.0, "timestamp": "2026-09-24T16:21:12Z"}
+{"keyword": "Goodbye pbxproj: A Friendly Guide to Xcode 27.2's New JSON Project Format", "platform": "devto", "value": 8.0, "timestamp": "2026-09-24T16:08:54Z"}
+{"keyword": "AI doesn't need a new Git workflow. It needs better gates", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T13:08:42Z"}
