@@ -6,31 +6,27 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Artificial intelligence",
+      "name": "YouTube",
       "count": 12
     },
     {
-      "name": "Python (programming language)",
+      "name": "E-commerce",
       "count": 12
     },
     {
-      "name": "South Korea",
+      "name": "Electric vehicle",
+      "count": 12
+    },
+    {
+      "name": "World Wide Web",
+      "count": 12
+    },
+    {
+      "name": "Seoul",
       "count": 12
     },
     {
       "name": "OpenAI",
-      "count": 11
-    },
-    {
-      "name": "YouTube",
-      "count": 11
-    },
-    {
-      "name": "E-commerce",
-      "count": 11
-    },
-    {
-      "name": "Electric vehicle",
       "count": 11
     },
     {
@@ -50,10 +46,6 @@
       "count": 11
     },
     {
-      "name": "World Wide Web",
-      "count": 11
-    },
-    {
       "name": "K-pop",
       "count": 11
     },
@@ -62,33 +54,41 @@
       "count": 11
     },
     {
-      "name": "Seoul",
+      "name": "Artificial intelligence",
       "count": 11
     },
     {
-      "name": "가수",
-      "count": 2
+      "name": "Python (programming language)",
+      "count": 11
     },
     {
-      "name": "연예인",
-      "count": 2
+      "name": "South Korea",
+      "count": 11
     },
     {
-      "name": "스포츠 선수",
+      "name": "음원차트",
       "count": 1
     },
     {
-      "name": "멜론",
+      "name": "강남 아파트",
+      "count": 1
+    },
+    {
+      "name": "가수",
       "count": 1
     },
     {
       "name": "송파 전세",
       "count": 1
+    },
+    {
+      "name": "멜론",
+      "count": 1
     }
   ],
   "sources": {
-    "wikipedia": 168,
-    "google": 32
+    "wikipedia": 170,
+    "google": 30
   },
-  "generated_at": "2026-09-26T00:22:19.513284+00:00"
+  "generated_at": "2026-09-26T23:02:10.800207+09:00"
 }

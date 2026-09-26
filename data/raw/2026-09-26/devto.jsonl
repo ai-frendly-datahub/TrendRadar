@@ -114,3 +114,61 @@
 {"keyword": "I Built Nabsun: An Open-Source AI Browser That Works in Your Real Tabs", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T00:57:06Z"}
 {"keyword": "My Agent Shipped a Post I Gated. It Stayed Live for a Day.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-25T17:57:29Z"}
 {"keyword": "The 1.4 milliseconds that separate managed Postgres from a local one", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T17:10:58Z"}
+{"keyword": "I Built a Better Codex Pet Than OpenAI Did", "platform": "devto", "value": 15.0, "timestamp": "2026-09-26T11:16:56Z"}
+{"keyword": "I Followed the n8n AWS Docs and It Broke at the First Command", "platform": "devto", "value": 16.0, "timestamp": "2026-09-25T14:09:50Z"}
+{"keyword": "The Impostor Was Never Dealt. So We Made the Deal Provable.", "platform": "devto", "value": 21.0, "timestamp": "2026-09-25T18:19:58Z"}
+{"keyword": "Did I Miss Anything? Rails World FOMO and What I Actually Want From a Conference", "platform": "devto", "value": 11.0, "timestamp": "2026-09-25T17:07:17Z"}
+{"keyword": "If AI Writes the Code and AI Reviews the Code, What Exactly Is the Developer Verifying?", "platform": "devto", "value": 23.0, "timestamp": "2026-09-26T03:59:59Z"}
+{"keyword": "Can Two Local AI Agents Build an App Without Me? I Gave Them 6 Rounds to Find Out", "platform": "devto", "value": 9.0, "timestamp": "2026-09-25T17:04:39Z"}
+{"keyword": "Everyone's learning to prompt better. That's the wrong skill.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-26T05:18:08Z"}
+{"keyword": "Vim's Swan Song: Is It Time to :q!?", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T19:01:14Z"}
+{"keyword": "Vibe Was Never the Problem: The Missing Half of Vibe Coding", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T17:05:16Z"}
+{"keyword": "GRO Hid My TLS Handshake's Real Packet Split, Even Over a Real Network", "platform": "devto", "value": 9.0, "timestamp": "2026-09-25T15:00:00Z"}
+{"keyword": "SHIPCHECK: An Autonomous ReAct Agent That Stops Cloud Outages Before They Happen", "platform": "devto", "value": 7.0, "timestamp": "2026-09-26T00:09:15Z"}
+{"keyword": "The 1.4 milliseconds that separate managed Postgres from a local one", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T17:10:58Z"}
+{"keyword": "Same app. Same taps. Why does one feel premium?", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T18:05:32Z"}
+{"keyword": "getCurrentPosition() Doesn't Just Check — It Prompts", "platform": "devto", "value": 5.0, "timestamp": "2026-09-26T12:26:10Z"}
+{"keyword": "What Protobuf descriptors don't tell you: building a generic mock generator", "platform": "devto", "value": 1.0, "timestamp": "2026-09-25T13:57:01Z"}
+{"keyword": "I switched my nine broken RimWorld mods back on to see if an agent could find them", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T22:47:13Z"}
+{"keyword": "The Estian Tattler: a gossip rag for my RimWorld colony that has to cite the save file", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T23:02:01Z"}
+{"keyword": "How I built deferred tool discovery for my desktop AI assistant (no embeddings needed)", "platform": "devto", "value": 1.0, "timestamp": "2026-09-26T10:26:04Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:44Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4", "platform": "devto", "value": 0.0, "timestamp": "2026-09-26T11:10:27Z"}
+{"keyword": "A Field Guide to AI Documentation: Model Cards, Eval Reports, Agent Cards, and More", "platform": "devto", "value": 15.0, "timestamp": "2026-09-26T05:25:38Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:55:07Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:54Z"}
+{"keyword": "We Didn't Want to Build Another Java Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T17:57:03Z"}
+{"keyword": "NestJS Guards: CanActivate, ExecutionContext & Reflector", "platform": "devto", "value": 6.0, "timestamp": "2026-09-26T12:25:38Z"}
+{"keyword": "localStorage Isn't Free — It's Blocking Your Main Thread", "platform": "devto", "value": 5.0, "timestamp": "2026-09-26T12:25:07Z"}
+{"keyword": "JSON.stringify Is Quietly Deleting Your File Uploads", "platform": "devto", "value": 5.0, "timestamp": "2026-09-26T12:24:36Z"}
+{"keyword": "The Background Task That Waited 40 Seconds for 'Idle'", "platform": "devto", "value": 5.0, "timestamp": "2026-09-26T12:24:05Z"}
+{"keyword": "Do you ever feel demotivated?", "platform": "devto", "value": 26.0, "timestamp": "2026-09-25T18:24:14Z"}
+{"keyword": "I Built a Better Codex Pet Than OpenAI Did", "platform": "devto", "value": 15.0, "timestamp": "2026-09-26T11:16:56Z"}
+{"keyword": "I Followed the n8n AWS Docs and It Broke at the First Command", "platform": "devto", "value": 16.0, "timestamp": "2026-09-25T14:09:50Z"}
+{"keyword": "The Impostor Was Never Dealt. So We Made the Deal Provable.", "platform": "devto", "value": 21.0, "timestamp": "2026-09-25T18:19:58Z"}
+{"keyword": "Did I Miss Anything? Rails World FOMO and What I Actually Want From a Conference", "platform": "devto", "value": 11.0, "timestamp": "2026-09-25T17:07:17Z"}
+{"keyword": "If AI Writes the Code and AI Reviews the Code, What Exactly Is the Developer Verifying?", "platform": "devto", "value": 23.0, "timestamp": "2026-09-26T03:59:59Z"}
+{"keyword": "Can Two Local AI Agents Build an App Without Me? I Gave Them 6 Rounds to Find Out", "platform": "devto", "value": 9.0, "timestamp": "2026-09-25T17:04:39Z"}
+{"keyword": "Everyone's learning to prompt better. That's the wrong skill.", "platform": "devto", "value": 17.0, "timestamp": "2026-09-26T05:18:08Z"}
+{"keyword": "Vim's Swan Song: Is It Time to :q!?", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T19:01:14Z"}
+{"keyword": "Vibe Was Never the Problem: The Missing Half of Vibe Coding", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T17:05:16Z"}
+{"keyword": "GRO Hid My TLS Handshake's Real Packet Split, Even Over a Real Network", "platform": "devto", "value": 9.0, "timestamp": "2026-09-25T15:00:00Z"}
+{"keyword": "SHIPCHECK: An Autonomous ReAct Agent That Stops Cloud Outages Before They Happen", "platform": "devto", "value": 7.0, "timestamp": "2026-09-26T00:09:15Z"}
+{"keyword": "The 1.4 milliseconds that separate managed Postgres from a local one", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T17:10:58Z"}
+{"keyword": "Same app. Same taps. Why does one feel premium?", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T18:05:32Z"}
+{"keyword": "getCurrentPosition() Doesn't Just Check — It Prompts", "platform": "devto", "value": 5.0, "timestamp": "2026-09-26T12:26:10Z"}
+{"keyword": "What Protobuf descriptors don't tell you: building a generic mock generator", "platform": "devto", "value": 1.0, "timestamp": "2026-09-25T13:57:01Z"}
+{"keyword": "I switched my nine broken RimWorld mods back on to see if an agent could find them", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T22:47:13Z"}
+{"keyword": "The Estian Tattler: a gossip rag for my RimWorld colony that has to cite the save file", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T23:02:01Z"}
+{"keyword": "How I built deferred tool discovery for my desktop AI assistant (no embeddings needed)", "platform": "devto", "value": 1.0, "timestamp": "2026-09-26T10:26:04Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:44Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4", "platform": "devto", "value": 0.0, "timestamp": "2026-09-26T11:10:27Z"}
+{"keyword": "A Field Guide to AI Documentation: Model Cards, Eval Reports, Agent Cards, and More", "platform": "devto", "value": 15.0, "timestamp": "2026-09-26T05:25:38Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:55:07Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:54Z"}
+{"keyword": "We Didn't Want to Build Another Java Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T17:57:03Z"}
+{"keyword": "NestJS Guards: CanActivate, ExecutionContext & Reflector", "platform": "devto", "value": 6.0, "timestamp": "2026-09-26T12:25:38Z"}
+{"keyword": "localStorage Isn't Free — It's Blocking Your Main Thread", "platform": "devto", "value": 5.0, "timestamp": "2026-09-26T12:25:07Z"}
+{"keyword": "JSON.stringify Is Quietly Deleting Your File Uploads", "platform": "devto", "value": 5.0, "timestamp": "2026-09-26T12:24:36Z"}
+{"keyword": "The Background Task That Waited 40 Seconds for 'Idle'", "platform": "devto", "value": 5.0, "timestamp": "2026-09-26T12:24:05Z"}
+{"keyword": "Do you ever feel demotivated?", "platform": "devto", "value": 26.0, "timestamp": "2026-09-25T18:24:14Z"}
