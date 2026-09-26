@@ -1,0 +1,116 @@
+{"keyword": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight", "platform": "devto", "value": 21.0, "timestamp": "2026-09-25T12:06:34Z"}
+{"keyword": "Pointers Aren't Arrows. How C and C++ Actually Talk to Hardware.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T12:12:28Z"}
+{"keyword": "I Followed the n8n AWS Docs and It Broke at the First Command", "platform": "devto", "value": 16.0, "timestamp": "2026-09-25T14:09:50Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 22.0, "timestamp": "2026-09-25T13:00:00Z"}
+{"keyword": "The Impostor Was Never Dealt. So We Made the Deal Provable.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-25T18:19:58Z"}
+{"keyword": "Did I Miss Anything? Rails World FOMO and What I Actually Want From a Conference", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T17:07:17Z"}
+{"keyword": "The No-Backend Backend: Neon Data API, RLS and 27 Attacks", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T09:00:00Z"}
+{"keyword": "Your API's newest users are agents...", "platform": "devto", "value": 54.0, "timestamp": "2026-09-25T08:14:55Z"}
+{"keyword": "Can Two Local AI Agents Build an App Without Me? I Gave Them 6 Rounds to Find Out", "platform": "devto", "value": 5.0, "timestamp": "2026-09-25T17:04:39Z"}
+{"keyword": "Vim's Swan Song: Is It Time to :q!?", "platform": "devto", "value": 4.0, "timestamp": "2026-09-25T19:01:14Z"}
+{"keyword": "Kubernetes 1.37's kyaml output closes a YAML bug that still deletes data on apply", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T10:00:00Z"}
+{"keyword": "I Think AI Is Making Coding Easier and Learning Harder", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T03:57:07Z"}
+{"keyword": "I Trusted My Agent Demos for Years. Then I Built a Gate That Says No.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-25T03:21:08Z"}
+{"keyword": "GRO Hid My TLS Handshake's Real Packet Split, Even Over a Real Network", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T15:00:00Z"}
+{"keyword": "I rebuilt my 2018 agar.io clone around real orbital physics, with no game server", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T04:21:51Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:44Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:56Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:41Z"}
+{"keyword": "Gemma 4 on an Amazon SageMaker Endpoint: AWS CLI, NVIDIA L4, and an MCP Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:50:14Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:54Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:55:07Z"}
+{"keyword": "Keeping up with docs reviews: Building a tracker for Mautic's documentation PRs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T13:31:34Z"}
+{"keyword": "We Didn't Want to Build Another Java Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T17:57:03Z"}
+{"keyword": "Vibe Was Never the Problem: The Missing Half of Vibe Coding", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T17:05:16Z"}
+{"keyword": "I wrote Git objects by hand until real Git stopped complaining", "platform": "devto", "value": 6.0, "timestamp": "2026-09-25T12:30:57Z"}
+{"keyword": "AI doesn't need a new Git workflow. It needs better gates", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T13:08:42Z"}
+{"keyword": "I Built Nabsun: An Open-Source AI Browser That Works in Your Real Tabs", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T00:57:06Z"}
+{"keyword": "My Agent Shipped a Post I Gated. It Stayed Live for a Day.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-25T17:57:29Z"}
+{"keyword": "The 1.4 milliseconds that separate managed Postgres from a local one", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T17:10:58Z"}
+{"keyword": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight", "platform": "devto", "value": 21.0, "timestamp": "2026-09-25T12:06:34Z"}
+{"keyword": "Pointers Aren't Arrows. How C and C++ Actually Talk to Hardware.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T12:12:28Z"}
+{"keyword": "I Followed the n8n AWS Docs and It Broke at the First Command", "platform": "devto", "value": 16.0, "timestamp": "2026-09-25T14:09:50Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 22.0, "timestamp": "2026-09-25T13:00:00Z"}
+{"keyword": "The Impostor Was Never Dealt. So We Made the Deal Provable.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-25T18:19:58Z"}
+{"keyword": "Did I Miss Anything? Rails World FOMO and What I Actually Want From a Conference", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T17:07:17Z"}
+{"keyword": "The No-Backend Backend: Neon Data API, RLS and 27 Attacks", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T09:00:00Z"}
+{"keyword": "Your API's newest users are agents...", "platform": "devto", "value": 54.0, "timestamp": "2026-09-25T08:14:55Z"}
+{"keyword": "Can Two Local AI Agents Build an App Without Me? I Gave Them 6 Rounds to Find Out", "platform": "devto", "value": 5.0, "timestamp": "2026-09-25T17:04:39Z"}
+{"keyword": "Vim's Swan Song: Is It Time to :q!?", "platform": "devto", "value": 4.0, "timestamp": "2026-09-25T19:01:14Z"}
+{"keyword": "Kubernetes 1.37's kyaml output closes a YAML bug that still deletes data on apply", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T10:00:00Z"}
+{"keyword": "I Think AI Is Making Coding Easier and Learning Harder", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T03:57:07Z"}
+{"keyword": "I Trusted My Agent Demos for Years. Then I Built a Gate That Says No.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-25T03:21:08Z"}
+{"keyword": "GRO Hid My TLS Handshake's Real Packet Split, Even Over a Real Network", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T15:00:00Z"}
+{"keyword": "I rebuilt my 2018 agar.io clone around real orbital physics, with no game server", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T04:21:51Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:44Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:56Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:41Z"}
+{"keyword": "Gemma 4 on an Amazon SageMaker Endpoint: AWS CLI, NVIDIA L4, and an MCP Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:50:14Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:54Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:55:07Z"}
+{"keyword": "Keeping up with docs reviews: Building a tracker for Mautic's documentation PRs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T13:31:34Z"}
+{"keyword": "We Didn't Want to Build Another Java Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T17:57:03Z"}
+{"keyword": "Vibe Was Never the Problem: The Missing Half of Vibe Coding", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T17:05:16Z"}
+{"keyword": "I wrote Git objects by hand until real Git stopped complaining", "platform": "devto", "value": 6.0, "timestamp": "2026-09-25T12:30:57Z"}
+{"keyword": "AI doesn't need a new Git workflow. It needs better gates", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T13:08:42Z"}
+{"keyword": "I Built Nabsun: An Open-Source AI Browser That Works in Your Real Tabs", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T00:57:06Z"}
+{"keyword": "My Agent Shipped a Post I Gated. It Stayed Live for a Day.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-25T17:57:29Z"}
+{"keyword": "The 1.4 milliseconds that separate managed Postgres from a local one", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T17:10:58Z"}
+{"keyword": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight", "platform": "devto", "value": 21.0, "timestamp": "2026-09-25T12:06:34Z"}
+{"keyword": "Pointers Aren't Arrows. How C and C++ Actually Talk to Hardware.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T12:12:28Z"}
+{"keyword": "I Followed the n8n AWS Docs and It Broke at the First Command", "platform": "devto", "value": 16.0, "timestamp": "2026-09-25T14:09:50Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 22.0, "timestamp": "2026-09-25T13:00:00Z"}
+{"keyword": "The Impostor Was Never Dealt. So We Made the Deal Provable.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-25T18:19:58Z"}
+{"keyword": "Did I Miss Anything? Rails World FOMO and What I Actually Want From a Conference", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T17:07:17Z"}
+{"keyword": "The No-Backend Backend: Neon Data API, RLS and 27 Attacks", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T09:00:00Z"}
+{"keyword": "Your API's newest users are agents...", "platform": "devto", "value": 54.0, "timestamp": "2026-09-25T08:14:55Z"}
+{"keyword": "Can Two Local AI Agents Build an App Without Me? I Gave Them 6 Rounds to Find Out", "platform": "devto", "value": 5.0, "timestamp": "2026-09-25T17:04:39Z"}
+{"keyword": "Vim's Swan Song: Is It Time to :q!?", "platform": "devto", "value": 4.0, "timestamp": "2026-09-25T19:01:14Z"}
+{"keyword": "Kubernetes 1.37's kyaml output closes a YAML bug that still deletes data on apply", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T10:00:00Z"}
+{"keyword": "I Think AI Is Making Coding Easier and Learning Harder", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T03:57:07Z"}
+{"keyword": "I Trusted My Agent Demos for Years. Then I Built a Gate That Says No.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-25T03:21:08Z"}
+{"keyword": "GRO Hid My TLS Handshake's Real Packet Split, Even Over a Real Network", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T15:00:00Z"}
+{"keyword": "I rebuilt my 2018 agar.io clone around real orbital physics, with no game server", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T04:21:51Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:44Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:56Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:41Z"}
+{"keyword": "Gemma 4 on an Amazon SageMaker Endpoint: AWS CLI, NVIDIA L4, and an MCP Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:50:14Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:54Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:55:07Z"}
+{"keyword": "Keeping up with docs reviews: Building a tracker for Mautic's documentation PRs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T13:31:34Z"}
+{"keyword": "We Didn't Want to Build Another Java Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T17:57:03Z"}
+{"keyword": "Vibe Was Never the Problem: The Missing Half of Vibe Coding", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T17:05:16Z"}
+{"keyword": "I wrote Git objects by hand until real Git stopped complaining", "platform": "devto", "value": 6.0, "timestamp": "2026-09-25T12:30:57Z"}
+{"keyword": "AI doesn't need a new Git workflow. It needs better gates", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T13:08:42Z"}
+{"keyword": "I Built Nabsun: An Open-Source AI Browser That Works in Your Real Tabs", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T00:57:06Z"}
+{"keyword": "My Agent Shipped a Post I Gated. It Stayed Live for a Day.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-25T17:57:29Z"}
+{"keyword": "The 1.4 milliseconds that separate managed Postgres from a local one", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T17:10:58Z"}
+{"keyword": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight", "platform": "devto", "value": 21.0, "timestamp": "2026-09-25T12:06:34Z"}
+{"keyword": "Pointers Aren't Arrows. How C and C++ Actually Talk to Hardware.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-25T12:12:28Z"}
+{"keyword": "I Followed the n8n AWS Docs and It Broke at the First Command", "platform": "devto", "value": 16.0, "timestamp": "2026-09-25T14:09:50Z"}
+{"keyword": "What was your win this week!?", "platform": "devto", "value": 22.0, "timestamp": "2026-09-25T13:00:00Z"}
+{"keyword": "The Impostor Was Never Dealt. So We Made the Deal Provable.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-25T18:19:58Z"}
+{"keyword": "Did I Miss Anything? Rails World FOMO and What I Actually Want From a Conference", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T17:07:17Z"}
+{"keyword": "The No-Backend Backend: Neon Data API, RLS and 27 Attacks", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T09:00:00Z"}
+{"keyword": "Your API's newest users are agents...", "platform": "devto", "value": 54.0, "timestamp": "2026-09-25T08:14:55Z"}
+{"keyword": "Can Two Local AI Agents Build an App Without Me? I Gave Them 6 Rounds to Find Out", "platform": "devto", "value": 5.0, "timestamp": "2026-09-25T17:04:39Z"}
+{"keyword": "Vim's Swan Song: Is It Time to :q!?", "platform": "devto", "value": 4.0, "timestamp": "2026-09-25T19:01:14Z"}
+{"keyword": "Kubernetes 1.37's kyaml output closes a YAML bug that still deletes data on apply", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T10:00:00Z"}
+{"keyword": "I Think AI Is Making Coding Easier and Learning Harder", "platform": "devto", "value": 10.0, "timestamp": "2026-09-25T03:57:07Z"}
+{"keyword": "I Trusted My Agent Demos for Years. Then I Built a Gate That Says No.", "platform": "devto", "value": 15.0, "timestamp": "2026-09-25T03:21:08Z"}
+{"keyword": "GRO Hid My TLS Handshake's Real Packet Split, Even Over a Real Network", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T15:00:00Z"}
+{"keyword": "I rebuilt my 2018 agar.io clone around real orbital physics, with no game server", "platform": "devto", "value": 2.0, "timestamp": "2026-09-25T04:21:51Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:44Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:56Z"}
+{"keyword": "Two Iceberg Clients, One Protocol: Where the Time Goes", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:40:41Z"}
+{"keyword": "Gemma 4 on an Amazon SageMaker Endpoint: AWS CLI, NVIDIA L4, and an MCP Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:50:14Z"}
+{"keyword": "What One Rust Client Can Reach Across Seven Iceberg Catalogs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T16:20:54Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker: QAT Weights Decode 2.05x Faster Than bf16 on One L4", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T21:55:07Z"}
+{"keyword": "Keeping up with docs reviews: Building a tracker for Mautic's documentation PRs", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T13:31:34Z"}
+{"keyword": "We Didn't Want to Build Another Java Server", "platform": "devto", "value": 0.0, "timestamp": "2026-09-25T17:57:03Z"}
+{"keyword": "Vibe Was Never the Problem: The Missing Half of Vibe Coding", "platform": "devto", "value": 8.0, "timestamp": "2026-09-25T17:05:16Z"}
+{"keyword": "I wrote Git objects by hand until real Git stopped complaining", "platform": "devto", "value": 6.0, "timestamp": "2026-09-25T12:30:57Z"}
+{"keyword": "AI doesn't need a new Git workflow. It needs better gates", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T13:08:42Z"}
+{"keyword": "I Built Nabsun: An Open-Source AI Browser That Works in Your Real Tabs", "platform": "devto", "value": 3.0, "timestamp": "2026-09-25T00:57:06Z"}
+{"keyword": "My Agent Shipped a Post I Gated. It Stayed Live for a Day.", "platform": "devto", "value": 4.0, "timestamp": "2026-09-25T17:57:29Z"}
+{"keyword": "The 1.4 milliseconds that separate managed Postgres from a local one", "platform": "devto", "value": 7.0, "timestamp": "2026-09-25T17:10:58Z"}
