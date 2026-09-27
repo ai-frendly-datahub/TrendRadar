@@ -24,3 +24,21 @@
 {"keyword": "How to solve System.InvalidCastException: Unable to cast object of type `x` to object of type `y`", "platform": "stackexchange", "value": 3.0, "timestamp": "1790435229"}
 {"keyword": "Undefined references to c23 variants", "platform": "stackexchange", "value": 1.0, "timestamp": "1790398738"}
 {"keyword": "Persistence on web Storage API", "platform": "stackexchange", "value": 0.0, "timestamp": "1790426495"}
+{"keyword": "Parse available SOAP operations from WSDL", "platform": "stackexchange", "value": 0.0, "timestamp": "1790518815"}
+{"keyword": "Whole word highlight with VS Code diff", "platform": "stackexchange", "value": 0.0, "timestamp": "1790517947"}
+{"keyword": "Why does HWAddressSanitizer miss a heap over-read that AddressSanitizer reports?", "platform": "stackexchange", "value": 1.0, "timestamp": "1790520393"}
+{"keyword": "Return multiple text and associated number from string", "platform": "stackexchange", "value": 1.0, "timestamp": "1790517024"}
+{"keyword": "Copyability conundrum for a class which is sometimes a value-type, sometimes a ref-type", "platform": "stackexchange", "value": 0.0, "timestamp": "1790512804"}
+{"keyword": "Detecting keypress and keyrelease on arrow keys", "platform": "stackexchange", "value": 0.0, "timestamp": "1790513681"}
+{"keyword": "Does the “Reflection” category in dotTrace show the time spent executing reflection in my own code?", "platform": "stackexchange", "value": 3.0, "timestamp": "1790504338"}
+{"keyword": "How can I update rows in GridDB based on a condition from another table", "platform": "stackexchange", "value": 0.0, "timestamp": "1790499654"}
+{"keyword": "NetArchTest does not detect direct assembly dependency or namespace dependency as expected", "platform": "stackexchange", "value": 0.0, "timestamp": "1790497323"}
+{"keyword": "Proxmox Ubuntu VM getting a significantly lower amount of memory than allocated", "platform": "stackexchange", "value": 0.0, "timestamp": "1790502375"}
+{"keyword": "C++ gcc 15.2 compilation fail with template nested vector in module", "platform": "stackexchange", "value": 3.0, "timestamp": "1790457672"}
+{"keyword": "Building Delphi package, using $LIBSUFFIX option. Compiler cannot find .bpl w/o suffix", "platform": "stackexchange", "value": 1.0, "timestamp": "1790453517"}
+{"keyword": "DropDownList controls not responding to OnSelectedIndexChanged", "platform": "stackexchange", "value": 1.0, "timestamp": "1790462173"}
+{"keyword": "SqlQueryRaw with count claiming &quot;Invalid column name &#39;Value&#39;&quot;", "platform": "stackexchange", "value": 0.0, "timestamp": "1790462396"}
+{"keyword": "Importing Supabase Client breaks React Page", "platform": "stackexchange", "value": 1.0, "timestamp": "1790479667"}
+{"keyword": "Elegant way to return a filter function from an HTML element", "platform": "stackexchange", "value": 2.0, "timestamp": "1790433648"}
+{"keyword": "Displaying max of 5 columns of images using DIV tags in a Repeater", "platform": "stackexchange", "value": 2.0, "timestamp": "1790448874"}
+{"keyword": "How to solve System.InvalidCastException: Unable to cast object of type `x` to object of type `y`", "platform": "stackexchange", "value": 1.0, "timestamp": "1790435229"}

@@ -114,3 +114,59 @@
 {"keyword": "How I Built a .NET + React Islands Site With a Playwright Snapshot Worker", "platform": "devto", "value": 1.0, "timestamp": "2026-09-26T15:35:31Z"}
 {"keyword": "Open Call: an agent that says where every hackathon fact came from", "platform": "devto", "value": 2.0, "timestamp": "2026-09-26T12:07:55Z"}
 {"keyword": "x402 + MCP: where does the budget check go?", "platform": "devto", "value": 3.0, "timestamp": "2026-09-26T09:06:14Z"}
+{"keyword": "I Got Rejected 2 Minutes After Applying. So Much for 'Skills-Based Hiring.'", "platform": "devto", "value": 27.0, "timestamp": "2026-09-26T22:36:24Z"}
+{"keyword": "containerd 2.2's mount manager panics on a one-mount mkfs chain", "platform": "devto", "value": 6.0, "timestamp": "2026-09-27T10:00:00Z"}
+{"keyword": "I Built Two Agent Systems. Each One Proved the Other One Wrong.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-27T12:30:00Z"}
+{"keyword": "I Tried to Prompt a 3D DEV Library Into Existence. Then I Had to Build My Own Level Editor.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-27T13:04:40Z"}
+{"keyword": "I burned out. Now I don't know how to start again.", "platform": "devto", "value": 10.0, "timestamp": "2026-09-27T12:10:45Z"}
+{"keyword": "My Newsletter Server Is 1,258 Lines of node:sqlite", "platform": "devto", "value": 3.0, "timestamp": "2026-09-26T18:00:08Z"}
+{"keyword": "One operator, a fleet of agents", "platform": "devto", "value": 2.0, "timestamp": "2026-09-26T15:38:58Z"}
+{"keyword": "I put Spotify on a $25 Win98 desk player (ESP32, no PSRAM)", "platform": "devto", "value": 0.0, "timestamp": "2026-09-26T16:56:53Z"}
+{"keyword": "I Built a Better Web Search MCP for AI Agents — No API Key Required", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T09:35:18Z"}
+{"keyword": "Incident War Room: an incident-response tool where the approval gate and the AI can't be faked out", "platform": "devto", "value": 6.0, "timestamp": "2026-09-26T18:05:38Z"}
+{"keyword": "Prompt Injection Is the New SQL Injection (and We're Not Ready)", "platform": "devto", "value": 17.0, "timestamp": "2026-09-27T05:32:50Z"}
+{"keyword": "Do We Still Need Code Reviews in the Age of Coding Agents?", "platform": "devto", "value": 4.0, "timestamp": "2026-09-27T08:25:14Z"}
+{"keyword": "What an anthill can teach us about orchestrating agents.", "platform": "devto", "value": 0.0, "timestamp": "2026-09-27T12:42:37Z"}
+{"keyword": "Can Claude Code and Cursor actually enforce your org rules and coding standards?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-27T13:44:59Z"}
+{"keyword": "Your AI Coding Agent Says “Tests Pass.” But Did It Actually Run Them?", "platform": "devto", "value": 11.0, "timestamp": "2026-09-27T05:07:41Z"}
+{"keyword": "🃏 Card RS: Extremely Customizable Card component for WASM frameworks", "platform": "devto", "value": 2.0, "timestamp": "2026-09-27T11:11:08Z"}
+{"keyword": "Dev log #23 Polishing the stack: Diagrams, async shutdowns, and a whole lot of code reviews", "platform": "devto", "value": 4.0, "timestamp": "2026-09-27T14:02:10Z"}
+{"keyword": "🪪 Avatar RS: Very Efficient Avatar Components for WASM Frameworks", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T11:01:40Z"}
+{"keyword": "AI models catch bad code, then cry wolf on the good code", "platform": "devto", "value": 0.0, "timestamp": "2026-09-27T05:20:55Z"}
+{"keyword": "🤖 Staying Sane with AI + My Journey", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T12:34:01Z"}
+{"keyword": "Workflow or agent? A practical line I use to decide", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T12:28:46Z"}
+{"keyword": "Stop hand-tuning prompts: build and optimize an LLM program with DSPy", "platform": "devto", "value": 1.0, "timestamp": "2026-09-26T22:07:39Z"}
+{"keyword": "The Engine Is Finally Becoming an Engine", "platform": "devto", "value": 3.0, "timestamp": "2026-09-26T16:30:00Z"}
+{"keyword": "AURA v0.1.0: Deterministic Trigger Extraction, Auditable Math & a Self-Healing Analytics Engine", "platform": "devto", "value": 3.0, "timestamp": "2026-09-26T16:18:50Z"}
+{"keyword": "AWS Lambda Durable Functions and the Replay Bug in Human-in-the-Loop Agents", "platform": "devto", "value": 0.0, "timestamp": "2026-09-27T09:59:05Z"}
+{"keyword": "Build to Break: Your Guide to Cybersecurity at Hacktoberfest HackDay x OWASP JIS Univerity", "platform": "devto", "value": 6.0, "timestamp": "2026-09-27T12:34:08Z"}
+{"keyword": "Stop Sending Half-Sentences to OpenAI in a Tencent RTC Voice Companion", "platform": "devto", "value": 1.0, "timestamp": "2026-09-26T17:11:27Z"}
+{"keyword": "Customizing Keycloak: Themes, Login Flows, and Disabled-User Handling", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T02:58:36Z"}
+{"keyword": "I Got Rejected 2 Minutes After Applying. So Much for 'Skills-Based Hiring.'", "platform": "devto", "value": 27.0, "timestamp": "2026-09-26T22:36:24Z"}
+{"keyword": "containerd 2.2's mount manager panics on a one-mount mkfs chain", "platform": "devto", "value": 6.0, "timestamp": "2026-09-27T10:00:00Z"}
+{"keyword": "I Built Two Agent Systems. Each One Proved the Other One Wrong.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-27T12:30:00Z"}
+{"keyword": "I Tried to Prompt a 3D DEV Library Into Existence. Then I Had to Build My Own Level Editor.", "platform": "devto", "value": 13.0, "timestamp": "2026-09-27T13:04:40Z"}
+{"keyword": "I burned out. Now I don't know how to start again.", "platform": "devto", "value": 10.0, "timestamp": "2026-09-27T12:10:45Z"}
+{"keyword": "My Newsletter Server Is 1,258 Lines of node:sqlite", "platform": "devto", "value": 3.0, "timestamp": "2026-09-26T18:00:08Z"}
+{"keyword": "One operator, a fleet of agents", "platform": "devto", "value": 2.0, "timestamp": "2026-09-26T15:38:58Z"}
+{"keyword": "I put Spotify on a $25 Win98 desk player (ESP32, no PSRAM)", "platform": "devto", "value": 0.0, "timestamp": "2026-09-26T16:56:53Z"}
+{"keyword": "I Built a Better Web Search MCP for AI Agents — No API Key Required", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T09:35:18Z"}
+{"keyword": "Incident War Room: an incident-response tool where the approval gate and the AI can't be faked out", "platform": "devto", "value": 6.0, "timestamp": "2026-09-26T18:05:38Z"}
+{"keyword": "Prompt Injection Is the New SQL Injection (and We're Not Ready)", "platform": "devto", "value": 17.0, "timestamp": "2026-09-27T05:32:50Z"}
+{"keyword": "Do We Still Need Code Reviews in the Age of Coding Agents?", "platform": "devto", "value": 4.0, "timestamp": "2026-09-27T08:25:14Z"}
+{"keyword": "What an anthill can teach us about orchestrating agents.", "platform": "devto", "value": 0.0, "timestamp": "2026-09-27T12:42:37Z"}
+{"keyword": "Can Claude Code and Cursor actually enforce your org rules and coding standards?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-27T13:44:59Z"}
+{"keyword": "Your AI Coding Agent Says “Tests Pass.” But Did It Actually Run Them?", "platform": "devto", "value": 11.0, "timestamp": "2026-09-27T05:07:41Z"}
+{"keyword": "🃏 Card RS: Extremely Customizable Card component for WASM frameworks", "platform": "devto", "value": 2.0, "timestamp": "2026-09-27T11:11:08Z"}
+{"keyword": "Dev log #23 Polishing the stack: Diagrams, async shutdowns, and a whole lot of code reviews", "platform": "devto", "value": 4.0, "timestamp": "2026-09-27T14:02:10Z"}
+{"keyword": "🪪 Avatar RS: Very Efficient Avatar Components for WASM Frameworks", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T11:01:40Z"}
+{"keyword": "AI models catch bad code, then cry wolf on the good code", "platform": "devto", "value": 0.0, "timestamp": "2026-09-27T05:20:55Z"}
+{"keyword": "🤖 Staying Sane with AI + My Journey", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T12:34:01Z"}
+{"keyword": "Workflow or agent? A practical line I use to decide", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T12:28:46Z"}
+{"keyword": "Stop hand-tuning prompts: build and optimize an LLM program with DSPy", "platform": "devto", "value": 1.0, "timestamp": "2026-09-26T22:07:39Z"}
+{"keyword": "The Engine Is Finally Becoming an Engine", "platform": "devto", "value": 3.0, "timestamp": "2026-09-26T16:30:00Z"}
+{"keyword": "AURA v0.1.0: Deterministic Trigger Extraction, Auditable Math & a Self-Healing Analytics Engine", "platform": "devto", "value": 3.0, "timestamp": "2026-09-26T16:18:50Z"}
+{"keyword": "AWS Lambda Durable Functions and the Replay Bug in Human-in-the-Loop Agents", "platform": "devto", "value": 0.0, "timestamp": "2026-09-27T09:59:05Z"}
+{"keyword": "Build to Break: Your Guide to Cybersecurity at Hacktoberfest HackDay x OWASP JIS Univerity", "platform": "devto", "value": 6.0, "timestamp": "2026-09-27T12:34:08Z"}
+{"keyword": "Stop Sending Half-Sentences to OpenAI in a Tencent RTC Voice Companion", "platform": "devto", "value": 1.0, "timestamp": "2026-09-26T17:11:27Z"}
+{"keyword": "Customizing Keycloak: Themes, Login Flows, and Disabled-User Handling", "platform": "devto", "value": 1.0, "timestamp": "2026-09-27T02:58:36Z"}
