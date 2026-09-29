@@ -28,3 +28,21 @@
 {"keyword": "How can I show per-minute average sensor data from GridDB in Grafana?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790621658"}
 {"keyword": "How to specify formula for a field in SqlAlchemy?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790606326"}
 {"keyword": "How to animate multiple lines of marquee text separately in JavaScript?", "platform": "stackexchange", "value": 3.0, "timestamp": "1790573769"}
+{"keyword": "Push experimental git branch to GitHub", "platform": "stackexchange", "value": 0.0, "timestamp": "1790694924"}
+{"keyword": "How is the number of bins/bin width determined in a seaborn histogram by default?", "platform": "stackexchange", "value": 1.0, "timestamp": "1790694297"}
+{"keyword": "Ruby on Rails SQLException: no such table: main.tos: (ActiveRecord::StatementInvalid)", "platform": "stackexchange", "value": 1.0, "timestamp": "1790694582"}
+{"keyword": "Can a null pointer be an operand of unary *?", "platform": "stackexchange", "value": 2.0, "timestamp": "1790686485"}
+{"keyword": "How to log reason Spring Boot tests are not using cached application context?", "platform": "stackexchange", "value": 1.0, "timestamp": "1790691174"}
+{"keyword": "From a base class List, accessing a method that multiple child classes have but not the base class", "platform": "stackexchange", "value": 0.0, "timestamp": "1790686565"}
+{"keyword": "&quot;Object has been deleted&quot; error in Word add-in that used to work fine", "platform": "stackexchange", "value": 0.0, "timestamp": "1790679994"}
+{"keyword": "Error when using JavaCC with a token used in two different contexts", "platform": "stackexchange", "value": 0.0, "timestamp": "1790679856"}
+{"keyword": "Is there a circular, colorblind-friendly color scale in ggplot?", "platform": "stackexchange", "value": 2.0, "timestamp": "1790665662"}
+{"keyword": "How should I prevent HTML injection in user input added to a C# HTML email?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790681011"}
+{"keyword": "Android BLE scan performance significantly degrades in the background", "platform": "stackexchange", "value": 1.0, "timestamp": "1790683381"}
+{"keyword": "Flutter Stream Video: handle incoming call Answer in background without opening Flutter UI first", "platform": "stackexchange", "value": 1.0, "timestamp": "1790672094"}
+{"keyword": "Rails ActiveStorage incompatibility with openssl 3.x", "platform": "stackexchange", "value": 0.0, "timestamp": "1790677399"}
+{"keyword": "INNO Setup script .NET check incorrectly reaching Result=False", "platform": "stackexchange", "value": 1.0, "timestamp": "1790671467"}
+{"keyword": "Inconsistent query results using node-oracledb 6.10.0 compared to Oracle client", "platform": "stackexchange", "value": 2.0, "timestamp": "1790657404"}
+{"keyword": "Laravel Event Listener Queue Not Processing Automatically on Hostinger", "platform": "stackexchange", "value": 0.0, "timestamp": "1790667256"}
+{"keyword": "Why does Pyright reject protocol methods with a &quot;pass&quot; body?", "platform": "stackexchange", "value": 2.0, "timestamp": "1790658191"}
+{"keyword": "How to get the address of a CUDA/C++ struct member without dereferencing the member", "platform": "stackexchange", "value": 2.0, "timestamp": "1790615124"}
