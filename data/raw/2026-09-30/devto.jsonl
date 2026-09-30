@@ -114,3 +114,63 @@
 {"keyword": "OpenAI DevDay 2026: every announcement, with prices and availability", "platform": "devto", "value": 0.0, "timestamp": "2026-09-29T20:09:34Z"}
 {"keyword": "I'm 13, I run a software company, and I just shipped 4 apps. Try them all.", "platform": "devto", "value": 9.0, "timestamp": "2026-09-29T10:42:41Z"}
 {"keyword": "Googlebot Crawl Management: Why Facets, Pagination and Languages Can Expand Small Sites", "platform": "devto", "value": 0.0, "timestamp": "2026-09-29T21:15:30Z"}
+{"keyword": "Confident Isn't Accurate: How AI Hallucinations Actually Work", "platform": "devto", "value": 21.0, "timestamp": "2026-09-29T17:11:47Z"}
+{"keyword": "🎡 Social Ferris Wheel: Sanity is the Hub", "platform": "devto", "value": 12.0, "timestamp": "2026-09-30T01:25:29Z"}
+{"keyword": "Gemma 4 on a Tesla T4, Part 3: Int4 Embeddings Serve E2B in 2.86 GiB at 2.30x bf16", "platform": "devto", "value": 7.0, "timestamp": "2026-09-30T13:00:26Z"}
+{"keyword": "The Data Was Public. The Agent Path Wasn't. So His Mock Became My Documentation.", "platform": "devto", "value": 30.0, "timestamp": "2026-09-30T04:36:02Z"}
+{"keyword": "1 in 5 Packages Your AI Suggests Don't Exist. Attackers Know Which Ones.", "platform": "devto", "value": 23.0, "timestamp": "2026-09-30T08:37:59Z"}
+{"keyword": "Coupon Calculator, A lightweight Flask app", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T11:52:47Z"}
+{"keyword": "Everything About This Secrets Manager Screamed 'Too Good to Be True.' So I Tested That.", "platform": "devto", "value": 9.0, "timestamp": "2026-09-30T02:09:02Z"}
+{"keyword": "I Ran My Career Like a Production System for 12 Weeks. The Dashboard Was Wrong Before I Was.", "platform": "devto", "value": 14.0, "timestamp": "2026-09-30T02:10:27Z"}
+{"keyword": "Your Metric Is Not Your State", "platform": "devto", "value": 11.0, "timestamp": "2026-09-29T16:13:00Z"}
+{"keyword": "I couldn't find a good Google Trends MCP. So I just built one", "platform": "devto", "value": 2.0, "timestamp": "2026-09-29T19:12:49Z"}
+{"keyword": "NixOS for government: why the Netherlands is leaving Microsoft", "platform": "devto", "value": 1.0, "timestamp": "2026-09-29T16:30:00Z"}
+{"keyword": "How to Moderate Live Chat in Real Time with Jev and Composio (Discord + Twitch)", "platform": "devto", "value": 14.0, "timestamp": "2026-09-30T13:05:00Z"}
+{"keyword": "Vibe Was Never the Problem. But the Missing Half Starts Before the Build.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-29T21:41:23Z"}
+{"keyword": "The Version of Me Who Looks Better on Paper Doesn't Exist", "platform": "devto", "value": 11.0, "timestamp": "2026-09-30T11:09:16Z"}
+{"keyword": "CrowdStrike outage explained: 21 fields, 20 slots, 8.5M blue screens", "platform": "devto", "value": 1.0, "timestamp": "2026-09-29T23:46:44Z"}
+{"keyword": "Why You Should(n’t) Use AI: The Trouble With Reading Carefully", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T01:29:48Z"}
+{"keyword": "TypeScript Compiler API: Preserving Child Node Narrowing in Reusable Type Guards 🔧", "platform": "devto", "value": 11.0, "timestamp": "2026-09-30T14:34:27Z"}
+{"keyword": "🔍 Human Code Review Will Not Die Anytime Soon", "platform": "devto", "value": 10.0, "timestamp": "2026-09-29T20:49:00Z"}
+{"keyword": "My OSS Projects: Electron.NET", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T13:30:00Z"}
+{"keyword": "I've been a developer for 10 years. AI just showed me I only had one real skill.\"", "platform": "devto", "value": 22.0, "timestamp": "2026-09-30T05:34:48Z"}
+{"keyword": "The Death of the Traditional Software Engineer? Meet the Forward Deployed Engineer (FDE)", "platform": "devto", "value": 6.0, "timestamp": "2026-09-30T13:31:01Z"}
+{"keyword": "VRAM for local LLMs: why memory bandwidth sets your tokens per second", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T07:46:44Z"}
+{"keyword": "🛜 The Journey of Data Through a Wi-Fi 7 NIC", "platform": "devto", "value": 0.0, "timestamp": "2026-09-30T15:50:50Z"}
+{"keyword": "Rust malware in arrayref: how a build.rs ran a payload at compile time", "platform": "devto", "value": 0.0, "timestamp": "2026-09-30T11:46:44Z"}
+{"keyword": "I built CyberMira: An AI-Powered Cybersecurity Assistant Grounded in Sanity", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T15:03:22Z"}
+{"keyword": "Claude Fable 5.1 solves the Cyphral Distich, then hacks a chess eval", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T03:46:44Z"}
+{"keyword": "Progressive Disclosure: Claude Code Hooks, Events and Telemetry", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T12:49:50Z"}
+{"keyword": "\"You Pressed Accept and Forgot About It.\" That's the Flaw.", "platform": "devto", "value": 0.0, "timestamp": "2026-09-30T15:30:00Z"}
+{"keyword": "OpenAI DevDay 2026: every announcement, with prices and availability", "platform": "devto", "value": 2.0, "timestamp": "2026-09-29T20:09:34Z"}
+{"keyword": "So... What Actually Happens Inside the Database?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T11:20:35Z"}
+{"keyword": "Confident Isn't Accurate: How AI Hallucinations Actually Work", "platform": "devto", "value": 21.0, "timestamp": "2026-09-29T17:11:47Z"}
+{"keyword": "🎡 Social Ferris Wheel: Sanity is the Hub", "platform": "devto", "value": 12.0, "timestamp": "2026-09-30T01:25:29Z"}
+{"keyword": "Gemma 4 on a Tesla T4, Part 3: Int4 Embeddings Serve E2B in 2.86 GiB at 2.30x bf16", "platform": "devto", "value": 7.0, "timestamp": "2026-09-30T13:00:26Z"}
+{"keyword": "The Data Was Public. The Agent Path Wasn't. So His Mock Became My Documentation.", "platform": "devto", "value": 30.0, "timestamp": "2026-09-30T04:36:02Z"}
+{"keyword": "1 in 5 Packages Your AI Suggests Don't Exist. Attackers Know Which Ones.", "platform": "devto", "value": 23.0, "timestamp": "2026-09-30T08:37:59Z"}
+{"keyword": "Coupon Calculator, A lightweight Flask app", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T11:52:47Z"}
+{"keyword": "Everything About This Secrets Manager Screamed 'Too Good to Be True.' So I Tested That.", "platform": "devto", "value": 9.0, "timestamp": "2026-09-30T02:09:02Z"}
+{"keyword": "I Ran My Career Like a Production System for 12 Weeks. The Dashboard Was Wrong Before I Was.", "platform": "devto", "value": 14.0, "timestamp": "2026-09-30T02:10:27Z"}
+{"keyword": "Your Metric Is Not Your State", "platform": "devto", "value": 11.0, "timestamp": "2026-09-29T16:13:00Z"}
+{"keyword": "I couldn't find a good Google Trends MCP. So I just built one", "platform": "devto", "value": 2.0, "timestamp": "2026-09-29T19:12:49Z"}
+{"keyword": "NixOS for government: why the Netherlands is leaving Microsoft", "platform": "devto", "value": 1.0, "timestamp": "2026-09-29T16:30:00Z"}
+{"keyword": "How to Moderate Live Chat in Real Time with Jev and Composio (Discord + Twitch)", "platform": "devto", "value": 14.0, "timestamp": "2026-09-30T13:05:00Z"}
+{"keyword": "Vibe Was Never the Problem. But the Missing Half Starts Before the Build.", "platform": "devto", "value": 7.0, "timestamp": "2026-09-29T21:41:23Z"}
+{"keyword": "The Version of Me Who Looks Better on Paper Doesn't Exist", "platform": "devto", "value": 11.0, "timestamp": "2026-09-30T11:09:16Z"}
+{"keyword": "CrowdStrike outage explained: 21 fields, 20 slots, 8.5M blue screens", "platform": "devto", "value": 1.0, "timestamp": "2026-09-29T23:46:44Z"}
+{"keyword": "Why You Should(n’t) Use AI: The Trouble With Reading Carefully", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T01:29:48Z"}
+{"keyword": "TypeScript Compiler API: Preserving Child Node Narrowing in Reusable Type Guards 🔧", "platform": "devto", "value": 11.0, "timestamp": "2026-09-30T14:34:27Z"}
+{"keyword": "🔍 Human Code Review Will Not Die Anytime Soon", "platform": "devto", "value": 10.0, "timestamp": "2026-09-29T20:49:00Z"}
+{"keyword": "My OSS Projects: Electron.NET", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T13:30:00Z"}
+{"keyword": "I've been a developer for 10 years. AI just showed me I only had one real skill.\"", "platform": "devto", "value": 22.0, "timestamp": "2026-09-30T05:34:48Z"}
+{"keyword": "The Death of the Traditional Software Engineer? Meet the Forward Deployed Engineer (FDE)", "platform": "devto", "value": 6.0, "timestamp": "2026-09-30T13:31:01Z"}
+{"keyword": "VRAM for local LLMs: why memory bandwidth sets your tokens per second", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T07:46:44Z"}
+{"keyword": "🛜 The Journey of Data Through a Wi-Fi 7 NIC", "platform": "devto", "value": 0.0, "timestamp": "2026-09-30T15:50:50Z"}
+{"keyword": "Rust malware in arrayref: how a build.rs ran a payload at compile time", "platform": "devto", "value": 0.0, "timestamp": "2026-09-30T11:46:44Z"}
+{"keyword": "I built CyberMira: An AI-Powered Cybersecurity Assistant Grounded in Sanity", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T15:03:22Z"}
+{"keyword": "Claude Fable 5.1 solves the Cyphral Distich, then hacks a chess eval", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T03:46:44Z"}
+{"keyword": "Progressive Disclosure: Claude Code Hooks, Events and Telemetry", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T12:49:50Z"}
+{"keyword": "\"You Pressed Accept and Forgot About It.\" That's the Flaw.", "platform": "devto", "value": 0.0, "timestamp": "2026-09-30T15:30:00Z"}
+{"keyword": "OpenAI DevDay 2026: every announcement, with prices and availability", "platform": "devto", "value": 2.0, "timestamp": "2026-09-29T20:09:34Z"}
+{"keyword": "So... What Actually Happens Inside the Database?", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T11:20:35Z"}

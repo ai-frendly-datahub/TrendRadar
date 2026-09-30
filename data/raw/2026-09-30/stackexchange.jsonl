@@ -36,3 +36,19 @@
 {"keyword": "&quot;Object has been deleted&quot; error in Word add-in that used to work fine", "platform": "stackexchange", "value": 1.0, "timestamp": "1790679994"}
 {"keyword": "Is there a circular, colorblind-friendly color scale in ggplot?", "platform": "stackexchange", "value": 2.0, "timestamp": "1790665662"}
 {"keyword": "Write a protocol method that allows slight variations", "platform": "stackexchange", "value": 0.0, "timestamp": "1790670618"}
+{"keyword": "How to make a compiled expression that is shared between types that implement the same interface?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790783116"}
+{"keyword": "ESP32 CH340C connection", "platform": "stackexchange", "value": 0.0, "timestamp": "1790781399"}
+{"keyword": "How to check if a cell contains a substring from a range, then return the matching value?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790782138"}
+{"keyword": "Key to activate GlobalProtect system/tool tray app menu", "platform": "stackexchange", "value": 0.0, "timestamp": "1790782862"}
+{"keyword": "How to export a macro-enabled Excel file to text so that two versions can be compared", "platform": "stackexchange", "value": 1.0, "timestamp": "1790774834"}
+{"keyword": "Why does node-mssql connect to the primary replica when using ApplicationIntent=ReadOnly?", "platform": "stackexchange", "value": 1.0, "timestamp": "1790778195"}
+{"keyword": "Stream redirection without writing to a file", "platform": "stackexchange", "value": 1.0, "timestamp": "1790779318"}
+{"keyword": "How to fix the twitching right side when I try to resize from the left side of the square?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790768327"}
+{"keyword": "how to keep Angular Signals and Router query params in sync without creating loops", "platform": "stackexchange", "value": 0.0, "timestamp": "1790773226"}
+{"keyword": "How to recive data from database tables sys_log / sys_history in typoscript", "platform": "stackexchange", "value": 1.0, "timestamp": "1790772745"}
+{"keyword": "How should WebSocket connections be handled with multiple FastAPI workers and React reconnects?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790760519"}
+{"keyword": "React hook form UseFieldArray filter already selected items and remove() problem", "platform": "stackexchange", "value": 1.0, "timestamp": "1790772370"}
+{"keyword": "How to reduce the time complexity of a lookup operation", "platform": "stackexchange", "value": 5.0, "timestamp": "1790754323"}
+{"keyword": "How to destroy kmalloc allocated objects Hashtable in Linux kernel", "platform": "stackexchange", "value": 2.0, "timestamp": "1790753903"}
+{"keyword": "Insert ,show, update, delete picture with PDO", "platform": "stackexchange", "value": 0.0, "timestamp": "1790754977"}
+{"keyword": "Isolation Forest performs best with max_samples set to 1.0", "platform": "stackexchange", "value": 0.0, "timestamp": "1790762247"}
