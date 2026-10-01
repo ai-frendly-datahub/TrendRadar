@@ -114,3 +114,59 @@
 {"keyword": "Gemma 4 on Amazon SageMaker: The NVIDIA T4 Decodes at 0.8x of the L4 With the Same Answers", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T17:33:20Z"}
 {"keyword": "VRAM for local LLMs: why memory bandwidth sets your tokens per second", "platform": "devto", "value": 2.0, "timestamp": "2026-09-30T07:46:44Z"}
 {"keyword": "A wine cellar that remembers what you used to believe", "platform": "devto", "value": 3.0, "timestamp": "2026-09-30T22:49:21Z"}
+{"keyword": "Building an Offline Arduino UNO Q Cyberdeck That Identifies Birdsong and Draws Vintage Field Notes", "platform": "devto", "value": 18.0, "timestamp": "2026-09-30T19:36:21Z"}
+{"keyword": "Everything You Need To Know About Hacktoberfest 2026: AI Belongs to Everyone 🎃", "platform": "devto", "value": 14.0, "timestamp": "2026-10-01T16:19:06Z"}
+{"keyword": "Are Frontend Developers Cooked? Is Frontend design safe?", "platform": "devto", "value": 45.0, "timestamp": "2026-09-30T20:38:21Z"}
+{"keyword": "🎵 Burnout: I wrote a song - \"Bleeding Knuckles\"", "platform": "devto", "value": 17.0, "timestamp": "2026-09-30T21:44:27Z"}
+{"keyword": "Structs Aren't on the Stack. How C# Actually Manages Memory.", "platform": "devto", "value": 12.0, "timestamp": "2026-10-01T10:45:35Z"}
+{"keyword": "I Applied to 59 Tech Jobs in 14 Days. Here's What Actually Happened", "platform": "devto", "value": 27.0, "timestamp": "2026-10-01T11:07:11Z"}
+{"keyword": "10 Internal Inconsistencies in 3 Published Groundwater Surveys", "platform": "devto", "value": 11.0, "timestamp": "2026-10-01T11:43:19Z"}
+{"keyword": "A wine cellar that remembers what you used to believe", "platform": "devto", "value": 18.0, "timestamp": "2026-09-30T22:49:21Z"}
+{"keyword": "CHRONOS-HEIST: A Playable Multi-Era Temporal Mystery Game Powered by Sanity Content Lake", "platform": "devto", "value": 39.0, "timestamp": "2026-09-30T21:02:30Z"}
+{"keyword": "I Tried to Sneak Four Bad Agents Past My Own Certification Gate. All Four Got Blocked.", "platform": "devto", "value": 17.0, "timestamp": "2026-10-01T03:24:00Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker or a VM? The Same Model Server at 1.40x the Price", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T18:11:26Z"}
+{"keyword": "The Code Exorcist: an AI agent diagnoses bugs, a human banishes them (Sanity + Next.js)", "platform": "devto", "value": 24.0, "timestamp": "2026-09-30T22:37:10Z"}
+{"keyword": "Entitled: An AI Agent That Tells Indians Which Government Schemes They're Owed (Built on Sanity)", "platform": "devto", "value": 6.0, "timestamp": "2026-10-01T14:42:34Z"}
+{"keyword": "When Your AI Agent Reads Outdated Docs, Who Checks the Docs?", "platform": "devto", "value": 5.0, "timestamp": "2026-10-01T01:52:23Z"}
+{"keyword": "One route type, two sides: a PureScript client and server that share their HTTP API", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T17:39:53Z"}
+{"keyword": "The Emotional Journey of Deploying on Friday", "platform": "devto", "value": 0.0, "timestamp": "2026-10-01T11:25:07Z"}
+{"keyword": "How Kubernetes Actually Schedules Your Pod (and What the Network Does After)", "platform": "devto", "value": 11.0, "timestamp": "2026-10-01T14:23:31Z"}
+{"keyword": "Hacktoberfest 2026 Stopped Counting PRs. Make Your First Ones Anyway, One a Day", "platform": "devto", "value": 10.0, "timestamp": "2026-10-01T15:04:37Z"}
+{"keyword": "I Asked 10 AI Models to Reconstruct Real Cyber Attacks", "platform": "devto", "value": 0.0, "timestamp": "2026-10-01T15:33:59Z"}
+{"keyword": "The Most Useful Line on Your AI Cost Report Is the One You Can't Explain", "platform": "devto", "value": 8.0, "timestamp": "2026-10-01T13:16:00Z"}
+{"keyword": "What is BGP? How Facebook's 2021 outage took it off the internet", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T19:46:44Z"}
+{"keyword": "Your AI feature isn't a feature. It's a dependency you don't control.", "platform": "devto", "value": 16.0, "timestamp": "2026-10-01T06:34:06Z"}
+{"keyword": "Recursive self-improvement: what Google's Dream-RSI paper really does", "platform": "devto", "value": 0.0, "timestamp": "2026-10-01T11:46:44Z"}
+{"keyword": "TanStack npm supply-chain attack: how a Dependabot bump spread a worm", "platform": "devto", "value": 1.0, "timestamp": "2026-10-01T03:46:44Z"}
+{"keyword": "AI consciousness and model welfare: Suleyman's case against Anthropic", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T23:46:44Z"}
+{"keyword": "Can AI Write a Sports Recap Without Making Up Stats? Mostly.", "platform": "devto", "value": 1.0, "timestamp": "2026-10-01T16:53:12Z"}
+{"keyword": "How to add Live Web Search to an AI Agent", "platform": "devto", "value": 10.0, "timestamp": "2026-10-01T16:23:49Z"}
+{"keyword": "OpenAI lawsuit: Microsoft's 'theft of labor' memo in the NYT case", "platform": "devto", "value": 0.0, "timestamp": "2026-10-01T15:46:44Z"}
+{"keyword": "Building an Offline Arduino UNO Q Cyberdeck That Identifies Birdsong and Draws Vintage Field Notes", "platform": "devto", "value": 18.0, "timestamp": "2026-09-30T19:36:21Z"}
+{"keyword": "Everything You Need To Know About Hacktoberfest 2026: AI Belongs to Everyone 🎃", "platform": "devto", "value": 14.0, "timestamp": "2026-10-01T16:19:06Z"}
+{"keyword": "Are Frontend Developers Cooked? Is Frontend design safe?", "platform": "devto", "value": 45.0, "timestamp": "2026-09-30T20:38:21Z"}
+{"keyword": "🎵 Burnout: I wrote a song - \"Bleeding Knuckles\"", "platform": "devto", "value": 17.0, "timestamp": "2026-09-30T21:44:27Z"}
+{"keyword": "Structs Aren't on the Stack. How C# Actually Manages Memory.", "platform": "devto", "value": 12.0, "timestamp": "2026-10-01T10:45:35Z"}
+{"keyword": "I Applied to 59 Tech Jobs in 14 Days. Here's What Actually Happened", "platform": "devto", "value": 27.0, "timestamp": "2026-10-01T11:07:11Z"}
+{"keyword": "10 Internal Inconsistencies in 3 Published Groundwater Surveys", "platform": "devto", "value": 11.0, "timestamp": "2026-10-01T11:43:19Z"}
+{"keyword": "A wine cellar that remembers what you used to believe", "platform": "devto", "value": 18.0, "timestamp": "2026-09-30T22:49:21Z"}
+{"keyword": "CHRONOS-HEIST: A Playable Multi-Era Temporal Mystery Game Powered by Sanity Content Lake", "platform": "devto", "value": 39.0, "timestamp": "2026-09-30T21:02:30Z"}
+{"keyword": "I Tried to Sneak Four Bad Agents Past My Own Certification Gate. All Four Got Blocked.", "platform": "devto", "value": 17.0, "timestamp": "2026-10-01T03:24:00Z"}
+{"keyword": "Gemma 4 on Amazon SageMaker or a VM? The Same Model Server at 1.40x the Price", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T18:11:26Z"}
+{"keyword": "The Code Exorcist: an AI agent diagnoses bugs, a human banishes them (Sanity + Next.js)", "platform": "devto", "value": 24.0, "timestamp": "2026-09-30T22:37:10Z"}
+{"keyword": "Entitled: An AI Agent That Tells Indians Which Government Schemes They're Owed (Built on Sanity)", "platform": "devto", "value": 6.0, "timestamp": "2026-10-01T14:42:34Z"}
+{"keyword": "When Your AI Agent Reads Outdated Docs, Who Checks the Docs?", "platform": "devto", "value": 5.0, "timestamp": "2026-10-01T01:52:23Z"}
+{"keyword": "One route type, two sides: a PureScript client and server that share their HTTP API", "platform": "devto", "value": 5.0, "timestamp": "2026-09-30T17:39:53Z"}
+{"keyword": "The Emotional Journey of Deploying on Friday", "platform": "devto", "value": 0.0, "timestamp": "2026-10-01T11:25:07Z"}
+{"keyword": "How Kubernetes Actually Schedules Your Pod (and What the Network Does After)", "platform": "devto", "value": 11.0, "timestamp": "2026-10-01T14:23:31Z"}
+{"keyword": "Hacktoberfest 2026 Stopped Counting PRs. Make Your First Ones Anyway, One a Day", "platform": "devto", "value": 10.0, "timestamp": "2026-10-01T15:04:37Z"}
+{"keyword": "I Asked 10 AI Models to Reconstruct Real Cyber Attacks", "platform": "devto", "value": 0.0, "timestamp": "2026-10-01T15:33:59Z"}
+{"keyword": "The Most Useful Line on Your AI Cost Report Is the One You Can't Explain", "platform": "devto", "value": 8.0, "timestamp": "2026-10-01T13:16:00Z"}
+{"keyword": "What is BGP? How Facebook's 2021 outage took it off the internet", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T19:46:44Z"}
+{"keyword": "Your AI feature isn't a feature. It's a dependency you don't control.", "platform": "devto", "value": 16.0, "timestamp": "2026-10-01T06:34:06Z"}
+{"keyword": "Recursive self-improvement: what Google's Dream-RSI paper really does", "platform": "devto", "value": 0.0, "timestamp": "2026-10-01T11:46:44Z"}
+{"keyword": "TanStack npm supply-chain attack: how a Dependabot bump spread a worm", "platform": "devto", "value": 1.0, "timestamp": "2026-10-01T03:46:44Z"}
+{"keyword": "AI consciousness and model welfare: Suleyman's case against Anthropic", "platform": "devto", "value": 1.0, "timestamp": "2026-09-30T23:46:44Z"}
+{"keyword": "Can AI Write a Sports Recap Without Making Up Stats? Mostly.", "platform": "devto", "value": 1.0, "timestamp": "2026-10-01T16:53:12Z"}
+{"keyword": "How to add Live Web Search to an AI Agent", "platform": "devto", "value": 10.0, "timestamp": "2026-10-01T16:23:49Z"}
+{"keyword": "OpenAI lawsuit: Microsoft's 'theft of labor' memo in the NYT case", "platform": "devto", "value": 0.0, "timestamp": "2026-10-01T15:46:44Z"}

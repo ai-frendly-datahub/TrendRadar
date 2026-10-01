@@ -40,3 +40,17 @@
 {"keyword": "Powershell runspaces duplicated when added to pool", "platform": "stackexchange", "value": 0.0, "timestamp": "1790782597"}
 {"keyword": "How to export a macro-enabled Excel file to text so that two versions can be compared", "platform": "stackexchange", "value": 0.0, "timestamp": "1790774834"}
 {"keyword": "Why does node-mssql connect to the primary replica when using ApplicationIntent=ReadOnly?", "platform": "stackexchange", "value": 1.0, "timestamp": "1790778195"}
+{"keyword": "How to get proper syntax highlighting for emacs lisp files", "platform": "stackexchange", "value": 0.0, "timestamp": "1790869070"}
+{"keyword": "Why do we need to create an automatic Arena in order to allocate native memory?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790856690"}
+{"keyword": "Is deleting both non-const and const copy constructor, or copy assignment operator, redundant?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790859739"}
+{"keyword": "Changing the class of a column using dplyr tools", "platform": "stackexchange", "value": 2.0, "timestamp": "1790850706"}
+{"keyword": "Python multiprocessing (pool, imap) performance degradation on Linux host", "platform": "stackexchange", "value": 2.0, "timestamp": "1790858239"}
+{"keyword": "Examine Library - How to manage searches on two or more words seperately", "platform": "stackexchange", "value": 0.0, "timestamp": "1790860570"}
+{"keyword": "What happens when you std::bit_cast a std::meta::info?", "platform": "stackexchange", "value": 4.0, "timestamp": "1790849300"}
+{"keyword": "When/why does `pnpm exec` call `pnpm install`?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790855641"}
+{"keyword": "How to implement Squeezeback and L-shaped (L-banner) ads with ExoPlayer / Media3 using Google SGAI?", "platform": "stackexchange", "value": 1.0, "timestamp": "1790855497"}
+{"keyword": "Elastic Security webhook connector fails to push a case when `{{{case.id}}}` is used", "platform": "stackexchange", "value": 0.0, "timestamp": "1790855357"}
+{"keyword": "How to create a reusable nested FormGroup component in Angular?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790853595"}
+{"keyword": "Why are Key-Down-Event and Key-Up-event of a key-press not called on the same widget?", "platform": "stackexchange", "value": 1.0, "timestamp": "1790852848"}
+{"keyword": "How to avoid invalid-method-override?", "platform": "stackexchange", "value": 1.0, "timestamp": "1790841265"}
+{"keyword": "Use TextField submission to trigger NavigationLink", "platform": "stackexchange", "value": 0.0, "timestamp": "1790845783"}
