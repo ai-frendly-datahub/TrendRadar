@@ -36,3 +36,18 @@
 {"keyword": "Why do we need to create an automatic Arena in order to allocate native memory?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790856690"}
 {"keyword": "Changing the class of a column using dplyr tools", "platform": "stackexchange", "value": 2.0, "timestamp": "1790850706"}
 {"keyword": "Python multiprocessing (pool, imap) performance degradation on Linux host", "platform": "stackexchange", "value": 2.0, "timestamp": "1790858239"}
+{"keyword": "GCC11 fails to create string or string_view from range iterators", "platform": "stackexchange", "value": 0.0, "timestamp": "1790949688"}
+{"keyword": "Does an item expired in a MemoryCache becomes available for garbage collection?", "platform": "stackexchange", "value": 1.0, "timestamp": "1790946926"}
+{"keyword": "Blazor not reading connection strings from appsettings.json but reads from app.config", "platform": "stackexchange", "value": 0.0, "timestamp": "1790941443"}
+{"keyword": "Pod OOMKilled at 2Gi limit when loading ~1GB sentence-transformers ONNX model (Python 3.11)", "platform": "stackexchange", "value": 0.0, "timestamp": "1790947907"}
+{"keyword": "Vector of std::string_view from std::filesystem::path is not correctly passed as a parameter", "platform": "stackexchange", "value": 0.0, "timestamp": "1790944979"}
+{"keyword": "Inline Script-In-Head With notFound Explicit Calling Issue At NextJS", "platform": "stackexchange", "value": 1.0, "timestamp": "1790938236"}
+{"keyword": "View the content of a message in Wildfly ActiveMQ subsystem", "platform": "stackexchange", "value": 0.0, "timestamp": "1790943250"}
+{"keyword": "Interpreting output of a clmm", "platform": "stackexchange", "value": 0.0, "timestamp": "1790933043"}
+{"keyword": "PyCharm option Jupyter: Notebook File Root (Set the root directory for Jupyter Notebooks) missing", "platform": "stackexchange", "value": 0.0, "timestamp": "1790937896"}
+{"keyword": "Finding value within nested dictionary with arrays", "platform": "stackexchange", "value": 0.0, "timestamp": "1790934548"}
+{"keyword": "Why is my AAB file 85 MB while my APK is only 25 MB in React Native?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790935438"}
+{"keyword": "How can I make chrono::year work with simdjson deserialization?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790935168"}
+{"keyword": "Querying &amp; filtering Tableau data based on names from a dropdown", "platform": "stackexchange", "value": 0.0, "timestamp": "1790938176"}
+{"keyword": "QtCreator&#39;s Design Tab can&#39;t resolve paths for sources", "platform": "stackexchange", "value": 0.0, "timestamp": "1790928334"}
+{"keyword": "How does AttachedToVisualTree work in Avalonia UI?", "platform": "stackexchange", "value": 0.0, "timestamp": "1790910397"}
