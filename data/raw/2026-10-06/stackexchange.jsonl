@@ -34,3 +34,15 @@
 {"keyword": "ModuleNotFoundError: No module named &#39;nubra_sdk&#39; after pip install nubra-sdk", "platform": "stackexchange", "value": 0.0, "timestamp": "1791175376"}
 {"keyword": "System.IO.File, one writer, one reader, different computers. shared read open error", "platform": "stackexchange", "value": 4.0, "timestamp": "1791192307"}
 {"keyword": "Can&#39;t make PATCH request using Endpoint Explorer in Visual Studio 2025", "platform": "stackexchange", "value": 0.0, "timestamp": "1791200663"}
+{"keyword": "Can two Android apps use the same domain with different path prefixes?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791298967"}
+{"keyword": "C++ has pointers, smart pointers and references for indirect access, so what is std::indirect?", "platform": "stackexchange", "value": 0.0, "timestamp": "1791295123"}
+{"keyword": "MinGW g++ result of std::source_location is a relative path. Should it be absolute?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791292527"}
+{"keyword": "How can I get the BPM", "platform": "stackexchange", "value": 0.0, "timestamp": "1791289020"}
+{"keyword": "How to set up a policy to use Django two-factor auth for all logins?", "platform": "stackexchange", "value": 0.0, "timestamp": "1791292222"}
+{"keyword": "How do i increase the segment size in TwinCAT3?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791290402"}
+{"keyword": "Why python app keeps getting DisconnectNonTransientConnectionException every two weeks?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791281746"}
+{"keyword": "Converting Vector&lt;vector&lt;int&gt;&gt; to int", "platform": "stackexchange", "value": 1.0, "timestamp": "1791272072"}
+{"keyword": "Nubra ref_id is different in UAT and PROD: how to look up a NIFTY option ref_id by strike and expiry", "platform": "stackexchange", "value": 1.0, "timestamp": "1791280641"}
+{"keyword": "KMP, Kdoctor tell me that Kotlin Multiplatform Mobile Plugin: not installed", "platform": "stackexchange", "value": 0.0, "timestamp": "1791288851"}
+{"keyword": "How do I get all hosts on my Mininet custom topology to respond to ping using pingall?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791277252"}
+{"keyword": "Open ports in VS Code dev containers", "platform": "stackexchange", "value": 0.0, "timestamp": "1791265573"}
