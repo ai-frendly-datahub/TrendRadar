@@ -66,23 +66,23 @@
       "count": 5
     },
     {
-      "name": "유튜버",
+      "name": "음악방송",
       "count": 1
     },
     {
-      "name": "보이그룹",
+      "name": "정치인",
       "count": 1
     },
     {
-      "name": "걸그룹",
+      "name": "가수",
       "count": 1
     },
     {
-      "name": "아이돌",
+      "name": "배우",
       "count": 1
     },
     {
-      "name": "K-POP",
+      "name": "연예인",
       "count": 1
     }
   ],
@@ -90,5 +90,5 @@
     "wikipedia": 75,
     "google": 30
   },
-  "generated_at": "2026-10-07T01:29:10.790546+09:00"
+  "generated_at": "2026-10-07T01:13:01.838383+00:00"
 }
