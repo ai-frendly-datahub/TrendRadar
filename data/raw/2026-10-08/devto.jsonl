@@ -1,0 +1,120 @@
+{"keyword": "I Think We're Forgetting How to Be Bored", "platform": "devto", "value": 42.0, "timestamp": "2026-10-07T06:59:26Z"}
+{"keyword": "Bash Isn't a Programming Language. It's a Text Substitution Engine.", "platform": "devto", "value": 23.0, "timestamp": "2026-10-07T13:50:20Z"}
+{"keyword": "The job market is absolutely disgusting - I'm doing something about it!", "platform": "devto", "value": 12.0, "timestamp": "2026-10-07T17:46:36Z"}
+{"keyword": "I Write on a 2006 iMac and Code on a $200 Laptop", "platform": "devto", "value": 35.0, "timestamp": "2026-10-07T13:27:39Z"}
+{"keyword": "Single line CV", "platform": "devto", "value": 16.0, "timestamp": "2026-10-07T08:33:53Z"}
+{"keyword": "I built an AI that only works when my phone is in my pocket", "platform": "devto", "value": 21.0, "timestamp": "2026-10-07T05:56:15Z"}
+{"keyword": "Migrating a Real TypeScript OSS Library from tsup to tsdown", "platform": "devto", "value": 32.0, "timestamp": "2026-10-07T15:59:28Z"}
+{"keyword": "Touch Grass, Pack Your Docs: An Offline Coding Agent on a 4 GB Laptop GPU", "platform": "devto", "value": 1.0, "timestamp": "2026-10-07T18:55:15Z"}
+{"keyword": "What email APIs cost in 2026: 7 workloads priced on 6 providers", "platform": "devto", "value": 10.0, "timestamp": "2026-10-07T16:34:23Z"}
+{"keyword": "Brunch Gem: Isolated Development Environments for Git Branches and Worktrees", "platform": "devto", "value": 3.0, "timestamp": "2026-10-07T16:11:54Z"}
+{"keyword": "Where the four minutes go when a cluster adds a node", "platform": "devto", "value": 7.0, "timestamp": "2026-10-07T20:22:38Z"}
+{"keyword": "People Won't Go Outside so I made this", "platform": "devto", "value": 9.0, "timestamp": "2026-10-07T01:38:29Z"}
+{"keyword": "I let my AI agents merge to production. Once.", "platform": "devto", "value": 18.0, "timestamp": "2026-10-07T04:38:27Z"}
+{"keyword": "I'm 12. I code on a $150 phone. I want to start a newsletter for devs like me. Roast my idea.", "platform": "devto", "value": 37.0, "timestamp": "2026-10-07T07:58:38Z"}
+{"keyword": "The internet's root key rotates in five days. Your resolver may not be ready.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T09:26:02Z"}
+{"keyword": "Obsidian + Claude Code: The Shared Memory Stack I Actually Use", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T00:40:27Z"}
+{"keyword": "What Agent Builders Can Borrow from OpenAI's Math Research", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T16:52:57Z"}
+{"keyword": "“It Worked” Is Not the Same as “It Can Run in Production”", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T16:02:58Z"}
+{"keyword": "Valkey 9.2's INCREX command removes the crash window between INCR and EXPIRE", "platform": "devto", "value": 9.0, "timestamp": "2026-10-07T10:00:00Z"}
+{"keyword": "A Coding System That Refuses to Trust Its Own Output", "platform": "devto", "value": 19.0, "timestamp": "2026-10-07T13:35:57Z"}
+{"keyword": "Pagination Done Right: Cursor vs. Offset in Practice", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T14:11:54Z"}
+{"keyword": "Making cross-platform local AI easier with llamadart", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T00:52:40Z"}
+{"keyword": "How to use the OpenAI Decisions API with Strands Agents", "platform": "devto", "value": 16.0, "timestamp": "2026-10-07T18:50:13Z"}
+{"keyword": "Progressive Disclosure: Why Isn't Claude Code Following My Instructions?", "platform": "devto", "value": 1.0, "timestamp": "2026-10-07T17:17:36Z"}
+{"keyword": "I Linted 14 Public AI SDK Repos. 12 Ship a Call With No Token Ceiling.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-07T07:49:42Z"}
+{"keyword": "AI Should Propose. Systems Should Verify.", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T05:44:22Z"}
+{"keyword": "🤖📞How AI Calling Agents Actually Work: STT, LLM, TTS & the 1-Second Rule Nobody Talks About", "platform": "devto", "value": 6.0, "timestamp": "2026-10-07T09:39:08Z"}
+{"keyword": "Claude Code in VS Code: The Official Extension, Set Up Properly", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T03:11:48Z"}
+{"keyword": "Stop Retrying Immediately. Exponential Backoff Fixes It.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-07T06:10:20Z"}
+{"keyword": "Same prompt, four models: what Opus, Sonnet, Astra and Sol each got wrong", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T13:56:29Z"}
+{"keyword": "I Think We're Forgetting How to Be Bored", "platform": "devto", "value": 42.0, "timestamp": "2026-10-07T06:59:26Z"}
+{"keyword": "Bash Isn't a Programming Language. It's a Text Substitution Engine.", "platform": "devto", "value": 23.0, "timestamp": "2026-10-07T13:50:20Z"}
+{"keyword": "The job market is absolutely disgusting - I'm doing something about it!", "platform": "devto", "value": 12.0, "timestamp": "2026-10-07T17:46:36Z"}
+{"keyword": "I Write on a 2006 iMac and Code on a $200 Laptop", "platform": "devto", "value": 35.0, "timestamp": "2026-10-07T13:27:39Z"}
+{"keyword": "Single line CV", "platform": "devto", "value": 16.0, "timestamp": "2026-10-07T08:33:53Z"}
+{"keyword": "I built an AI that only works when my phone is in my pocket", "platform": "devto", "value": 21.0, "timestamp": "2026-10-07T05:56:15Z"}
+{"keyword": "Migrating a Real TypeScript OSS Library from tsup to tsdown", "platform": "devto", "value": 32.0, "timestamp": "2026-10-07T15:59:28Z"}
+{"keyword": "Touch Grass, Pack Your Docs: An Offline Coding Agent on a 4 GB Laptop GPU", "platform": "devto", "value": 1.0, "timestamp": "2026-10-07T18:55:15Z"}
+{"keyword": "What email APIs cost in 2026: 7 workloads priced on 6 providers", "platform": "devto", "value": 10.0, "timestamp": "2026-10-07T16:34:23Z"}
+{"keyword": "Brunch Gem: Isolated Development Environments for Git Branches and Worktrees", "platform": "devto", "value": 3.0, "timestamp": "2026-10-07T16:11:54Z"}
+{"keyword": "Where the four minutes go when a cluster adds a node", "platform": "devto", "value": 7.0, "timestamp": "2026-10-07T20:22:38Z"}
+{"keyword": "People Won't Go Outside so I made this", "platform": "devto", "value": 9.0, "timestamp": "2026-10-07T01:38:29Z"}
+{"keyword": "I let my AI agents merge to production. Once.", "platform": "devto", "value": 18.0, "timestamp": "2026-10-07T04:38:27Z"}
+{"keyword": "I'm 12. I code on a $150 phone. I want to start a newsletter for devs like me. Roast my idea.", "platform": "devto", "value": 37.0, "timestamp": "2026-10-07T07:58:38Z"}
+{"keyword": "The internet's root key rotates in five days. Your resolver may not be ready.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T09:26:02Z"}
+{"keyword": "Obsidian + Claude Code: The Shared Memory Stack I Actually Use", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T00:40:27Z"}
+{"keyword": "What Agent Builders Can Borrow from OpenAI's Math Research", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T16:52:57Z"}
+{"keyword": "“It Worked” Is Not the Same as “It Can Run in Production”", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T16:02:58Z"}
+{"keyword": "Valkey 9.2's INCREX command removes the crash window between INCR and EXPIRE", "platform": "devto", "value": 9.0, "timestamp": "2026-10-07T10:00:00Z"}
+{"keyword": "A Coding System That Refuses to Trust Its Own Output", "platform": "devto", "value": 19.0, "timestamp": "2026-10-07T13:35:57Z"}
+{"keyword": "Pagination Done Right: Cursor vs. Offset in Practice", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T14:11:54Z"}
+{"keyword": "Making cross-platform local AI easier with llamadart", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T00:52:40Z"}
+{"keyword": "How to use the OpenAI Decisions API with Strands Agents", "platform": "devto", "value": 16.0, "timestamp": "2026-10-07T18:50:13Z"}
+{"keyword": "Progressive Disclosure: Why Isn't Claude Code Following My Instructions?", "platform": "devto", "value": 1.0, "timestamp": "2026-10-07T17:17:36Z"}
+{"keyword": "I Linted 14 Public AI SDK Repos. 12 Ship a Call With No Token Ceiling.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-07T07:49:42Z"}
+{"keyword": "AI Should Propose. Systems Should Verify.", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T05:44:22Z"}
+{"keyword": "🤖📞How AI Calling Agents Actually Work: STT, LLM, TTS & the 1-Second Rule Nobody Talks About", "platform": "devto", "value": 6.0, "timestamp": "2026-10-07T09:39:08Z"}
+{"keyword": "Claude Code in VS Code: The Official Extension, Set Up Properly", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T03:11:48Z"}
+{"keyword": "Stop Retrying Immediately. Exponential Backoff Fixes It.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-07T06:10:20Z"}
+{"keyword": "Same prompt, four models: what Opus, Sonnet, Astra and Sol each got wrong", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T13:56:29Z"}
+{"keyword": "I Think We're Forgetting How to Be Bored", "platform": "devto", "value": 42.0, "timestamp": "2026-10-07T06:59:26Z"}
+{"keyword": "Bash Isn't a Programming Language. It's a Text Substitution Engine.", "platform": "devto", "value": 23.0, "timestamp": "2026-10-07T13:50:20Z"}
+{"keyword": "The job market is absolutely disgusting - I'm doing something about it!", "platform": "devto", "value": 12.0, "timestamp": "2026-10-07T17:46:36Z"}
+{"keyword": "I Write on a 2006 iMac and Code on a $200 Laptop", "platform": "devto", "value": 35.0, "timestamp": "2026-10-07T13:27:39Z"}
+{"keyword": "Single line CV", "platform": "devto", "value": 16.0, "timestamp": "2026-10-07T08:33:53Z"}
+{"keyword": "I built an AI that only works when my phone is in my pocket", "platform": "devto", "value": 21.0, "timestamp": "2026-10-07T05:56:15Z"}
+{"keyword": "Migrating a Real TypeScript OSS Library from tsup to tsdown", "platform": "devto", "value": 32.0, "timestamp": "2026-10-07T15:59:28Z"}
+{"keyword": "Touch Grass, Pack Your Docs: An Offline Coding Agent on a 4 GB Laptop GPU", "platform": "devto", "value": 1.0, "timestamp": "2026-10-07T18:55:15Z"}
+{"keyword": "What email APIs cost in 2026: 7 workloads priced on 6 providers", "platform": "devto", "value": 10.0, "timestamp": "2026-10-07T16:34:23Z"}
+{"keyword": "Brunch Gem: Isolated Development Environments for Git Branches and Worktrees", "platform": "devto", "value": 3.0, "timestamp": "2026-10-07T16:11:54Z"}
+{"keyword": "Where the four minutes go when a cluster adds a node", "platform": "devto", "value": 7.0, "timestamp": "2026-10-07T20:22:38Z"}
+{"keyword": "People Won't Go Outside so I made this", "platform": "devto", "value": 9.0, "timestamp": "2026-10-07T01:38:29Z"}
+{"keyword": "I let my AI agents merge to production. Once.", "platform": "devto", "value": 18.0, "timestamp": "2026-10-07T04:38:27Z"}
+{"keyword": "I'm 12. I code on a $150 phone. I want to start a newsletter for devs like me. Roast my idea.", "platform": "devto", "value": 37.0, "timestamp": "2026-10-07T07:58:38Z"}
+{"keyword": "The internet's root key rotates in five days. Your resolver may not be ready.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T09:26:02Z"}
+{"keyword": "Obsidian + Claude Code: The Shared Memory Stack I Actually Use", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T00:40:27Z"}
+{"keyword": "What Agent Builders Can Borrow from OpenAI's Math Research", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T16:52:57Z"}
+{"keyword": "“It Worked” Is Not the Same as “It Can Run in Production”", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T16:02:58Z"}
+{"keyword": "Valkey 9.2's INCREX command removes the crash window between INCR and EXPIRE", "platform": "devto", "value": 9.0, "timestamp": "2026-10-07T10:00:00Z"}
+{"keyword": "A Coding System That Refuses to Trust Its Own Output", "platform": "devto", "value": 19.0, "timestamp": "2026-10-07T13:35:57Z"}
+{"keyword": "Pagination Done Right: Cursor vs. Offset in Practice", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T14:11:54Z"}
+{"keyword": "Making cross-platform local AI easier with llamadart", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T00:52:40Z"}
+{"keyword": "How to use the OpenAI Decisions API with Strands Agents", "platform": "devto", "value": 16.0, "timestamp": "2026-10-07T18:50:13Z"}
+{"keyword": "Progressive Disclosure: Why Isn't Claude Code Following My Instructions?", "platform": "devto", "value": 1.0, "timestamp": "2026-10-07T17:17:36Z"}
+{"keyword": "I Linted 14 Public AI SDK Repos. 12 Ship a Call With No Token Ceiling.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-07T07:49:42Z"}
+{"keyword": "AI Should Propose. Systems Should Verify.", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T05:44:22Z"}
+{"keyword": "🤖📞How AI Calling Agents Actually Work: STT, LLM, TTS & the 1-Second Rule Nobody Talks About", "platform": "devto", "value": 6.0, "timestamp": "2026-10-07T09:39:08Z"}
+{"keyword": "Claude Code in VS Code: The Official Extension, Set Up Properly", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T03:11:48Z"}
+{"keyword": "Stop Retrying Immediately. Exponential Backoff Fixes It.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-07T06:10:20Z"}
+{"keyword": "Same prompt, four models: what Opus, Sonnet, Astra and Sol each got wrong", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T13:56:29Z"}
+{"keyword": "I Think We're Forgetting How to Be Bored", "platform": "devto", "value": 42.0, "timestamp": "2026-10-07T06:59:26Z"}
+{"keyword": "Bash Isn't a Programming Language. It's a Text Substitution Engine.", "platform": "devto", "value": 23.0, "timestamp": "2026-10-07T13:50:20Z"}
+{"keyword": "The job market is absolutely disgusting - I'm doing something about it!", "platform": "devto", "value": 12.0, "timestamp": "2026-10-07T17:46:36Z"}
+{"keyword": "I Write on a 2006 iMac and Code on a $200 Laptop", "platform": "devto", "value": 35.0, "timestamp": "2026-10-07T13:27:39Z"}
+{"keyword": "Single line CV", "platform": "devto", "value": 16.0, "timestamp": "2026-10-07T08:33:53Z"}
+{"keyword": "I built an AI that only works when my phone is in my pocket", "platform": "devto", "value": 21.0, "timestamp": "2026-10-07T05:56:15Z"}
+{"keyword": "Migrating a Real TypeScript OSS Library from tsup to tsdown", "platform": "devto", "value": 32.0, "timestamp": "2026-10-07T15:59:28Z"}
+{"keyword": "Touch Grass, Pack Your Docs: An Offline Coding Agent on a 4 GB Laptop GPU", "platform": "devto", "value": 1.0, "timestamp": "2026-10-07T18:55:15Z"}
+{"keyword": "What email APIs cost in 2026: 7 workloads priced on 6 providers", "platform": "devto", "value": 10.0, "timestamp": "2026-10-07T16:34:23Z"}
+{"keyword": "Brunch Gem: Isolated Development Environments for Git Branches and Worktrees", "platform": "devto", "value": 3.0, "timestamp": "2026-10-07T16:11:54Z"}
+{"keyword": "Where the four minutes go when a cluster adds a node", "platform": "devto", "value": 7.0, "timestamp": "2026-10-07T20:22:38Z"}
+{"keyword": "People Won't Go Outside so I made this", "platform": "devto", "value": 9.0, "timestamp": "2026-10-07T01:38:29Z"}
+{"keyword": "I let my AI agents merge to production. Once.", "platform": "devto", "value": 18.0, "timestamp": "2026-10-07T04:38:27Z"}
+{"keyword": "I'm 12. I code on a $150 phone. I want to start a newsletter for devs like me. Roast my idea.", "platform": "devto", "value": 37.0, "timestamp": "2026-10-07T07:58:38Z"}
+{"keyword": "The internet's root key rotates in five days. Your resolver may not be ready.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T09:26:02Z"}
+{"keyword": "Obsidian + Claude Code: The Shared Memory Stack I Actually Use", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T00:40:27Z"}
+{"keyword": "What Agent Builders Can Borrow from OpenAI's Math Research", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T16:52:57Z"}
+{"keyword": "“It Worked” Is Not the Same as “It Can Run in Production”", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T16:02:58Z"}
+{"keyword": "Valkey 9.2's INCREX command removes the crash window between INCR and EXPIRE", "platform": "devto", "value": 9.0, "timestamp": "2026-10-07T10:00:00Z"}
+{"keyword": "A Coding System That Refuses to Trust Its Own Output", "platform": "devto", "value": 19.0, "timestamp": "2026-10-07T13:35:57Z"}
+{"keyword": "Pagination Done Right: Cursor vs. Offset in Practice", "platform": "devto", "value": 5.0, "timestamp": "2026-10-07T14:11:54Z"}
+{"keyword": "Making cross-platform local AI easier with llamadart", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T00:52:40Z"}
+{"keyword": "How to use the OpenAI Decisions API with Strands Agents", "platform": "devto", "value": 16.0, "timestamp": "2026-10-07T18:50:13Z"}
+{"keyword": "Progressive Disclosure: Why Isn't Claude Code Following My Instructions?", "platform": "devto", "value": 1.0, "timestamp": "2026-10-07T17:17:36Z"}
+{"keyword": "I Linted 14 Public AI SDK Repos. 12 Ship a Call With No Token Ceiling.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-07T07:49:42Z"}
+{"keyword": "AI Should Propose. Systems Should Verify.", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T05:44:22Z"}
+{"keyword": "🤖📞How AI Calling Agents Actually Work: STT, LLM, TTS & the 1-Second Rule Nobody Talks About", "platform": "devto", "value": 6.0, "timestamp": "2026-10-07T09:39:08Z"}
+{"keyword": "Claude Code in VS Code: The Official Extension, Set Up Properly", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T03:11:48Z"}
+{"keyword": "Stop Retrying Immediately. Exponential Backoff Fixes It.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-07T06:10:20Z"}
+{"keyword": "Same prompt, four models: what Opus, Sonnet, Astra and Sol each got wrong", "platform": "devto", "value": 4.0, "timestamp": "2026-10-07T13:56:29Z"}
