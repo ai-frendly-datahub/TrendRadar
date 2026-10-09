@@ -1,0 +1,120 @@
+{"keyword": "Every Software Developer Has Blamed…", "platform": "devto", "value": 81.0, "timestamp": "2026-10-08T06:52:08Z"}
+{"keyword": "How React Actually Works Under the Hood (And Why Your Mental Model Might Be Wrong)", "platform": "devto", "value": 36.0, "timestamp": "2026-10-08T08:28:30Z"}
+{"keyword": "I got Jev to zero mistakes. I'm still using Flash-Lite.", "platform": "devto", "value": 13.0, "timestamp": "2026-10-08T20:00:18Z"}
+{"keyword": "To Retry or Not to Retry? That Is the Question.", "platform": "devto", "value": 44.0, "timestamp": "2026-10-08T07:00:15Z"}
+{"keyword": "The September cut took 17% of my Claude Code week. Subagents were taking 48%.", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T16:37:20Z"}
+{"keyword": "My Problem With Omarchy Is What I Like About Arch", "platform": "devto", "value": 9.0, "timestamp": "2026-10-08T09:03:40Z"}
+{"keyword": "How to resolve merge conflicts in Git without guessing: markers, --ours/--theirs and the rebase flip", "platform": "devto", "value": 20.0, "timestamp": "2026-10-08T10:15:49Z"}
+{"keyword": "How Our Engineering Team Uses AI, Part II: Meat Proxies", "platform": "devto", "value": 29.0, "timestamp": "2026-10-08T10:33:43Z"}
+{"keyword": "ParadeDB's pg_search 0.26 cuts a ten-term BM25 search from 129ms to 29ms", "platform": "devto", "value": 8.0, "timestamp": "2026-10-08T10:00:00Z"}
+{"keyword": "Polars 2.0: why joins no longer keep their row order", "platform": "devto", "value": 3.0, "timestamp": "2026-10-08T06:40:40Z"}
+{"keyword": "Human-in-the-Loop", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T14:55:36Z"}
+{"keyword": "TouchGrass: The Open-AI Agent That Succeeds When You Stop Using It", "platform": "devto", "value": 11.0, "timestamp": "2026-10-08T20:24:00Z"}
+{"keyword": "Guess the Speed: Building a Family Internet Speed Guessing Game", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T15:55:18Z"}
+{"keyword": "Does compacting tool output lower a coding agent's API bill?", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T04:37:06Z"}
+{"keyword": "Shipping faster with AI isn't engineering maturity. It's a demo that hasn't met year two yet.", "platform": "devto", "value": 14.0, "timestamp": "2026-10-08T06:53:18Z"}
+{"keyword": "Day 6 of Building Crowdwide — I Think I’m Finally Done Adding Features", "platform": "devto", "value": 21.0, "timestamp": "2026-10-08T04:26:37Z"}
+{"keyword": "I Turned 149k Messy Images into an Offline Recognition System", "platform": "devto", "value": 12.0, "timestamp": "2026-10-08T06:31:39Z"}
+{"keyword": "Llama Village: a virtual world powered by local AI with llamadart", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T22:34:10Z"}
+{"keyword": "Your Page Loaded Fast. So Why Does It Still Feel Slow?", "platform": "devto", "value": 8.0, "timestamp": "2026-10-08T14:30:00Z"}
+{"keyword": "Show Me Your Dev Setup — I'll Roast It 🖥️🔥", "platform": "devto", "value": 12.0, "timestamp": "2026-10-08T18:12:31Z"}
+{"keyword": "Bulk Buy Calculator", "platform": "devto", "value": 7.0, "timestamp": "2026-10-08T13:00:04Z"}
+{"keyword": "CSS-Zero: Reuse-sharpened CSS-in-TS with Zero Runtime", "platform": "devto", "value": 5.0, "timestamp": "2026-10-08T05:00:00Z"}
+{"keyword": "AI coding agents and Theo's Rust TypeScript compiler: the caveats", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T17:00:00Z"}
+{"keyword": "Native Desktop Themes for Production Apps", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T19:21:49Z"}
+{"keyword": "I shipped a linter for checks that cannot fail. It had four of them.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-08T12:30:00Z"}
+{"keyword": "AI Models Have a Spine Until You Give Them a Manager", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T21:34:28Z"}
+{"keyword": "700 manuscripts, 48 hours, three withdrawals. The verifier won.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-08T09:53:33Z"}
+{"keyword": "AgriSensa Garden Studio: Spatial Precision Garden Planner with Open-Source AI & Digital Twin", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T07:29:47Z"}
+{"keyword": "EU AI Transparency Rules Take Effect in 2026: What Businesses Must Disclose", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T12:45:30Z"}
+{"keyword": "Your repo is not trusted context. What I changed after giving coding agents real repositories", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T09:11:51Z"}
+{"keyword": "Every Software Developer Has Blamed…", "platform": "devto", "value": 81.0, "timestamp": "2026-10-08T06:52:08Z"}
+{"keyword": "How React Actually Works Under the Hood (And Why Your Mental Model Might Be Wrong)", "platform": "devto", "value": 36.0, "timestamp": "2026-10-08T08:28:30Z"}
+{"keyword": "I got Jev to zero mistakes. I'm still using Flash-Lite.", "platform": "devto", "value": 13.0, "timestamp": "2026-10-08T20:00:18Z"}
+{"keyword": "To Retry or Not to Retry? That Is the Question.", "platform": "devto", "value": 44.0, "timestamp": "2026-10-08T07:00:15Z"}
+{"keyword": "The September cut took 17% of my Claude Code week. Subagents were taking 48%.", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T16:37:20Z"}
+{"keyword": "My Problem With Omarchy Is What I Like About Arch", "platform": "devto", "value": 9.0, "timestamp": "2026-10-08T09:03:40Z"}
+{"keyword": "How to resolve merge conflicts in Git without guessing: markers, --ours/--theirs and the rebase flip", "platform": "devto", "value": 20.0, "timestamp": "2026-10-08T10:15:49Z"}
+{"keyword": "How Our Engineering Team Uses AI, Part II: Meat Proxies", "platform": "devto", "value": 29.0, "timestamp": "2026-10-08T10:33:43Z"}
+{"keyword": "ParadeDB's pg_search 0.26 cuts a ten-term BM25 search from 129ms to 29ms", "platform": "devto", "value": 8.0, "timestamp": "2026-10-08T10:00:00Z"}
+{"keyword": "Polars 2.0: why joins no longer keep their row order", "platform": "devto", "value": 3.0, "timestamp": "2026-10-08T06:40:40Z"}
+{"keyword": "Human-in-the-Loop", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T14:55:36Z"}
+{"keyword": "TouchGrass: The Open-AI Agent That Succeeds When You Stop Using It", "platform": "devto", "value": 11.0, "timestamp": "2026-10-08T20:24:00Z"}
+{"keyword": "Guess the Speed: Building a Family Internet Speed Guessing Game", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T15:55:18Z"}
+{"keyword": "Does compacting tool output lower a coding agent's API bill?", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T04:37:06Z"}
+{"keyword": "Shipping faster with AI isn't engineering maturity. It's a demo that hasn't met year two yet.", "platform": "devto", "value": 14.0, "timestamp": "2026-10-08T06:53:18Z"}
+{"keyword": "Day 6 of Building Crowdwide — I Think I’m Finally Done Adding Features", "platform": "devto", "value": 21.0, "timestamp": "2026-10-08T04:26:37Z"}
+{"keyword": "I Turned 149k Messy Images into an Offline Recognition System", "platform": "devto", "value": 12.0, "timestamp": "2026-10-08T06:31:39Z"}
+{"keyword": "Llama Village: a virtual world powered by local AI with llamadart", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T22:34:10Z"}
+{"keyword": "Your Page Loaded Fast. So Why Does It Still Feel Slow?", "platform": "devto", "value": 8.0, "timestamp": "2026-10-08T14:30:00Z"}
+{"keyword": "Show Me Your Dev Setup — I'll Roast It 🖥️🔥", "platform": "devto", "value": 12.0, "timestamp": "2026-10-08T18:12:31Z"}
+{"keyword": "Bulk Buy Calculator", "platform": "devto", "value": 7.0, "timestamp": "2026-10-08T13:00:04Z"}
+{"keyword": "CSS-Zero: Reuse-sharpened CSS-in-TS with Zero Runtime", "platform": "devto", "value": 5.0, "timestamp": "2026-10-08T05:00:00Z"}
+{"keyword": "AI coding agents and Theo's Rust TypeScript compiler: the caveats", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T17:00:00Z"}
+{"keyword": "Native Desktop Themes for Production Apps", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T19:21:49Z"}
+{"keyword": "I shipped a linter for checks that cannot fail. It had four of them.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-08T12:30:00Z"}
+{"keyword": "AI Models Have a Spine Until You Give Them a Manager", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T21:34:28Z"}
+{"keyword": "700 manuscripts, 48 hours, three withdrawals. The verifier won.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-08T09:53:33Z"}
+{"keyword": "AgriSensa Garden Studio: Spatial Precision Garden Planner with Open-Source AI & Digital Twin", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T07:29:47Z"}
+{"keyword": "EU AI Transparency Rules Take Effect in 2026: What Businesses Must Disclose", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T12:45:30Z"}
+{"keyword": "Your repo is not trusted context. What I changed after giving coding agents real repositories", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T09:11:51Z"}
+{"keyword": "Every Software Developer Has Blamed…", "platform": "devto", "value": 81.0, "timestamp": "2026-10-08T06:52:08Z"}
+{"keyword": "How React Actually Works Under the Hood (And Why Your Mental Model Might Be Wrong)", "platform": "devto", "value": 36.0, "timestamp": "2026-10-08T08:28:30Z"}
+{"keyword": "I got Jev to zero mistakes. I'm still using Flash-Lite.", "platform": "devto", "value": 13.0, "timestamp": "2026-10-08T20:00:18Z"}
+{"keyword": "To Retry or Not to Retry? That Is the Question.", "platform": "devto", "value": 44.0, "timestamp": "2026-10-08T07:00:15Z"}
+{"keyword": "The September cut took 17% of my Claude Code week. Subagents were taking 48%.", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T16:37:20Z"}
+{"keyword": "My Problem With Omarchy Is What I Like About Arch", "platform": "devto", "value": 9.0, "timestamp": "2026-10-08T09:03:40Z"}
+{"keyword": "How to resolve merge conflicts in Git without guessing: markers, --ours/--theirs and the rebase flip", "platform": "devto", "value": 20.0, "timestamp": "2026-10-08T10:15:49Z"}
+{"keyword": "How Our Engineering Team Uses AI, Part II: Meat Proxies", "platform": "devto", "value": 29.0, "timestamp": "2026-10-08T10:33:43Z"}
+{"keyword": "ParadeDB's pg_search 0.26 cuts a ten-term BM25 search from 129ms to 29ms", "platform": "devto", "value": 8.0, "timestamp": "2026-10-08T10:00:00Z"}
+{"keyword": "Polars 2.0: why joins no longer keep their row order", "platform": "devto", "value": 3.0, "timestamp": "2026-10-08T06:40:40Z"}
+{"keyword": "Human-in-the-Loop", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T14:55:36Z"}
+{"keyword": "TouchGrass: The Open-AI Agent That Succeeds When You Stop Using It", "platform": "devto", "value": 11.0, "timestamp": "2026-10-08T20:24:00Z"}
+{"keyword": "Guess the Speed: Building a Family Internet Speed Guessing Game", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T15:55:18Z"}
+{"keyword": "Does compacting tool output lower a coding agent's API bill?", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T04:37:06Z"}
+{"keyword": "Shipping faster with AI isn't engineering maturity. It's a demo that hasn't met year two yet.", "platform": "devto", "value": 14.0, "timestamp": "2026-10-08T06:53:18Z"}
+{"keyword": "Day 6 of Building Crowdwide — I Think I’m Finally Done Adding Features", "platform": "devto", "value": 21.0, "timestamp": "2026-10-08T04:26:37Z"}
+{"keyword": "I Turned 149k Messy Images into an Offline Recognition System", "platform": "devto", "value": 12.0, "timestamp": "2026-10-08T06:31:39Z"}
+{"keyword": "Llama Village: a virtual world powered by local AI with llamadart", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T22:34:10Z"}
+{"keyword": "Your Page Loaded Fast. So Why Does It Still Feel Slow?", "platform": "devto", "value": 8.0, "timestamp": "2026-10-08T14:30:00Z"}
+{"keyword": "Show Me Your Dev Setup — I'll Roast It 🖥️🔥", "platform": "devto", "value": 12.0, "timestamp": "2026-10-08T18:12:31Z"}
+{"keyword": "Bulk Buy Calculator", "platform": "devto", "value": 7.0, "timestamp": "2026-10-08T13:00:04Z"}
+{"keyword": "CSS-Zero: Reuse-sharpened CSS-in-TS with Zero Runtime", "platform": "devto", "value": 5.0, "timestamp": "2026-10-08T05:00:00Z"}
+{"keyword": "AI coding agents and Theo's Rust TypeScript compiler: the caveats", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T17:00:00Z"}
+{"keyword": "Native Desktop Themes for Production Apps", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T19:21:49Z"}
+{"keyword": "I shipped a linter for checks that cannot fail. It had four of them.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-08T12:30:00Z"}
+{"keyword": "AI Models Have a Spine Until You Give Them a Manager", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T21:34:28Z"}
+{"keyword": "700 manuscripts, 48 hours, three withdrawals. The verifier won.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-08T09:53:33Z"}
+{"keyword": "AgriSensa Garden Studio: Spatial Precision Garden Planner with Open-Source AI & Digital Twin", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T07:29:47Z"}
+{"keyword": "EU AI Transparency Rules Take Effect in 2026: What Businesses Must Disclose", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T12:45:30Z"}
+{"keyword": "Your repo is not trusted context. What I changed after giving coding agents real repositories", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T09:11:51Z"}
+{"keyword": "Every Software Developer Has Blamed…", "platform": "devto", "value": 81.0, "timestamp": "2026-10-08T06:52:08Z"}
+{"keyword": "How React Actually Works Under the Hood (And Why Your Mental Model Might Be Wrong)", "platform": "devto", "value": 36.0, "timestamp": "2026-10-08T08:28:30Z"}
+{"keyword": "I got Jev to zero mistakes. I'm still using Flash-Lite.", "platform": "devto", "value": 13.0, "timestamp": "2026-10-08T20:00:18Z"}
+{"keyword": "To Retry or Not to Retry? That Is the Question.", "platform": "devto", "value": 44.0, "timestamp": "2026-10-08T07:00:15Z"}
+{"keyword": "The September cut took 17% of my Claude Code week. Subagents were taking 48%.", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T16:37:20Z"}
+{"keyword": "My Problem With Omarchy Is What I Like About Arch", "platform": "devto", "value": 9.0, "timestamp": "2026-10-08T09:03:40Z"}
+{"keyword": "How to resolve merge conflicts in Git without guessing: markers, --ours/--theirs and the rebase flip", "platform": "devto", "value": 20.0, "timestamp": "2026-10-08T10:15:49Z"}
+{"keyword": "How Our Engineering Team Uses AI, Part II: Meat Proxies", "platform": "devto", "value": 29.0, "timestamp": "2026-10-08T10:33:43Z"}
+{"keyword": "ParadeDB's pg_search 0.26 cuts a ten-term BM25 search from 129ms to 29ms", "platform": "devto", "value": 8.0, "timestamp": "2026-10-08T10:00:00Z"}
+{"keyword": "Polars 2.0: why joins no longer keep their row order", "platform": "devto", "value": 3.0, "timestamp": "2026-10-08T06:40:40Z"}
+{"keyword": "Human-in-the-Loop", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T14:55:36Z"}
+{"keyword": "TouchGrass: The Open-AI Agent That Succeeds When You Stop Using It", "platform": "devto", "value": 11.0, "timestamp": "2026-10-08T20:24:00Z"}
+{"keyword": "Guess the Speed: Building a Family Internet Speed Guessing Game", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T15:55:18Z"}
+{"keyword": "Does compacting tool output lower a coding agent's API bill?", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T04:37:06Z"}
+{"keyword": "Shipping faster with AI isn't engineering maturity. It's a demo that hasn't met year two yet.", "platform": "devto", "value": 14.0, "timestamp": "2026-10-08T06:53:18Z"}
+{"keyword": "Day 6 of Building Crowdwide — I Think I’m Finally Done Adding Features", "platform": "devto", "value": 21.0, "timestamp": "2026-10-08T04:26:37Z"}
+{"keyword": "I Turned 149k Messy Images into an Offline Recognition System", "platform": "devto", "value": 12.0, "timestamp": "2026-10-08T06:31:39Z"}
+{"keyword": "Llama Village: a virtual world powered by local AI with llamadart", "platform": "devto", "value": 1.0, "timestamp": "2026-10-08T22:34:10Z"}
+{"keyword": "Your Page Loaded Fast. So Why Does It Still Feel Slow?", "platform": "devto", "value": 8.0, "timestamp": "2026-10-08T14:30:00Z"}
+{"keyword": "Show Me Your Dev Setup — I'll Roast It 🖥️🔥", "platform": "devto", "value": 12.0, "timestamp": "2026-10-08T18:12:31Z"}
+{"keyword": "Bulk Buy Calculator", "platform": "devto", "value": 7.0, "timestamp": "2026-10-08T13:00:04Z"}
+{"keyword": "CSS-Zero: Reuse-sharpened CSS-in-TS with Zero Runtime", "platform": "devto", "value": 5.0, "timestamp": "2026-10-08T05:00:00Z"}
+{"keyword": "AI coding agents and Theo's Rust TypeScript compiler: the caveats", "platform": "devto", "value": 6.0, "timestamp": "2026-10-08T17:00:00Z"}
+{"keyword": "Native Desktop Themes for Production Apps", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T19:21:49Z"}
+{"keyword": "I shipped a linter for checks that cannot fail. It had four of them.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-08T12:30:00Z"}
+{"keyword": "AI Models Have a Spine Until You Give Them a Manager", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T21:34:28Z"}
+{"keyword": "700 manuscripts, 48 hours, three withdrawals. The verifier won.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-08T09:53:33Z"}
+{"keyword": "AgriSensa Garden Studio: Spatial Precision Garden Planner with Open-Source AI & Digital Twin", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T07:29:47Z"}
+{"keyword": "EU AI Transparency Rules Take Effect in 2026: What Businesses Must Disclose", "platform": "devto", "value": 0.0, "timestamp": "2026-10-08T12:45:30Z"}
+{"keyword": "Your repo is not trusted context. What I changed after giving coding agents real repositories", "platform": "devto", "value": 2.0, "timestamp": "2026-10-08T09:11:51Z"}
