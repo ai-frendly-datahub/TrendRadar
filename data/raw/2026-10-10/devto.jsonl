@@ -102,3 +102,59 @@
 {"keyword": "Your CLI Is an API — Even If You Never Meant It to Be", "platform": "devto", "value": 6.0, "timestamp": "2026-10-09T08:52:46Z"}
 {"keyword": "The AI Memo Went Out. Then What?", "platform": "devto", "value": 6.0, "timestamp": "2026-10-09T23:14:59Z"}
 {"keyword": "Claude Code ft. Codex, Gemini and clickable hyperlinks", "platform": "devto", "value": 1.0, "timestamp": "2026-10-09T12:38:57Z"}
+{"keyword": "What Do You Drink While You Work?", "platform": "devto", "value": 61.0, "timestamp": "2026-10-10T09:07:47Z"}
+{"keyword": "The Stack I'd Need for Claude to Direct a Whole YouTube Video in Blender", "platform": "devto", "value": 24.0, "timestamp": "2026-10-09T18:10:15Z"}
+{"keyword": "AI agent benchmark: I gave 9 models a destroy button and a job that needed it", "platform": "devto", "value": 11.0, "timestamp": "2026-10-10T11:46:22Z"}
+{"keyword": "WildProof: Go Outside With a Question, Come Back With Evidence", "platform": "devto", "value": 30.0, "timestamp": "2026-10-10T06:46:29Z"}
+{"keyword": "Gemma 4 E2B in Pure JAX on a Colab TPU: Google's 4-Bit Export Against an Exact Repack", "platform": "devto", "value": 1.0, "timestamp": "2026-10-10T00:51:07Z"}
+{"keyword": "Does Your LLM Know the Boundary? I Left the Doors Open and 6 of 10 AI Agents Crowned Themselves", "platform": "devto", "value": 15.0, "timestamp": "2026-10-09T20:37:48Z"}
+{"keyword": "Node.js 26's default Temporal API fixes a one-hour DST drift that Date still has", "platform": "devto", "value": 9.0, "timestamp": "2026-10-10T10:00:00Z"}
+{"keyword": "I Built an AI Game That Wants You to Go Outside", "platform": "devto", "value": 36.0, "timestamp": "2026-10-10T03:58:49Z"}
+{"keyword": "Leaf Peep: an open model reads the trees, so you know where to walk this weekend", "platform": "devto", "value": 14.0, "timestamp": "2026-10-10T06:10:39Z"}
+{"keyword": "Evidence-Driven Development: Give Your Coding Agent Something to Prove", "platform": "devto", "value": 8.0, "timestamp": "2026-10-10T05:28:21Z"}
+{"keyword": "I let an agent run unattended overnight. At 3am it emailed 400 customers the wrong thing.", "platform": "devto", "value": 13.0, "timestamp": "2026-10-10T06:21:13Z"}
+{"keyword": "Why Learn Rust in 2026? A Developer's Guide", "platform": "devto", "value": 5.0, "timestamp": "2026-10-10T12:15:07Z"}
+{"keyword": "VLLM_ROCM_USE_AITER=1 Slows Gemma 4 on an AMD MI300X: What the Flag Changes and Why", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T14:07:19Z"}
+{"keyword": "Universal Search MCP for Google Workspace with Claude Code", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T14:07:38Z"}
+{"keyword": "From T-Shirt Sizes to Token Quotes?", "platform": "devto", "value": 4.0, "timestamp": "2026-10-10T02:11:08Z"}
+{"keyword": "Stop Asking AI to Fix the Bug. Ask It to Prove the Cause.", "platform": "devto", "value": 12.0, "timestamp": "2026-10-10T06:07:43Z"}
+{"keyword": "The Epistemology of Quality", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T00:28:26Z"}
+{"keyword": "One unescaped semicolon was enough to steal Telegram accounts", "platform": "devto", "value": 6.0, "timestamp": "2026-10-10T08:25:10Z"}
+{"keyword": "12 of 13 AI models knew the new name and still wrote the old one", "platform": "devto", "value": 10.0, "timestamp": "2026-10-10T15:38:25Z"}
+{"keyword": "Does AI Lie More in Hinglish? I Benchmarked 5 Models published: false", "platform": "devto", "value": 10.0, "timestamp": "2026-10-10T15:20:20Z"}
+{"keyword": "Inventory reservation in MySQL: Shopify's row-lock design", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T03:00:00Z"}
+{"keyword": "Where the spending rules live: agent authorization on AWS vs Sui", "platform": "devto", "value": 2.0, "timestamp": "2026-10-09T21:52:13Z"}
+{"keyword": "I Have 1 Hour Free\" A Walk Plan in 10 Seconds, Powered by Local AI", "platform": "devto", "value": 10.0, "timestamp": "2026-10-10T09:54:41Z"}
+{"keyword": "Your AI Dashboard Is Green. Your Delivery Isn't.", "platform": "devto", "value": 16.0, "timestamp": "2026-10-10T06:23:00Z"}
+{"keyword": "FieldQuest: Your Neighbourhood Is More Interesting Than Your Feed", "platform": "devto", "value": 5.0, "timestamp": "2026-10-10T09:02:03Z"}
+{"keyword": "SlopShape Finds AI Writing Patterns That Survive Paraphrasing in Commercial Content", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T14:15:31Z"}
+{"keyword": "Meowfolio: I Built an AI Scrapbook for the Cats You Meet Outside 🐱🌿", "platform": "devto", "value": 7.0, "timestamp": "2026-10-10T03:01:04Z"}
+{"keyword": "Grow a Song: my run wrote its own soundtrack, with Gemma running on my phone", "platform": "devto", "value": 1.0, "timestamp": "2026-10-10T08:38:35Z"}
+{"keyword": "What Do You Drink While You Work?", "platform": "devto", "value": 61.0, "timestamp": "2026-10-10T09:07:47Z"}
+{"keyword": "The Stack I'd Need for Claude to Direct a Whole YouTube Video in Blender", "platform": "devto", "value": 24.0, "timestamp": "2026-10-09T18:10:15Z"}
+{"keyword": "AI agent benchmark: I gave 9 models a destroy button and a job that needed it", "platform": "devto", "value": 11.0, "timestamp": "2026-10-10T11:46:22Z"}
+{"keyword": "WildProof: Go Outside With a Question, Come Back With Evidence", "platform": "devto", "value": 30.0, "timestamp": "2026-10-10T06:46:29Z"}
+{"keyword": "Gemma 4 E2B in Pure JAX on a Colab TPU: Google's 4-Bit Export Against an Exact Repack", "platform": "devto", "value": 1.0, "timestamp": "2026-10-10T00:51:07Z"}
+{"keyword": "Does Your LLM Know the Boundary? I Left the Doors Open and 6 of 10 AI Agents Crowned Themselves", "platform": "devto", "value": 15.0, "timestamp": "2026-10-09T20:37:48Z"}
+{"keyword": "Node.js 26's default Temporal API fixes a one-hour DST drift that Date still has", "platform": "devto", "value": 9.0, "timestamp": "2026-10-10T10:00:00Z"}
+{"keyword": "I Built an AI Game That Wants You to Go Outside", "platform": "devto", "value": 36.0, "timestamp": "2026-10-10T03:58:49Z"}
+{"keyword": "Leaf Peep: an open model reads the trees, so you know where to walk this weekend", "platform": "devto", "value": 14.0, "timestamp": "2026-10-10T06:10:39Z"}
+{"keyword": "Evidence-Driven Development: Give Your Coding Agent Something to Prove", "platform": "devto", "value": 8.0, "timestamp": "2026-10-10T05:28:21Z"}
+{"keyword": "I let an agent run unattended overnight. At 3am it emailed 400 customers the wrong thing.", "platform": "devto", "value": 13.0, "timestamp": "2026-10-10T06:21:13Z"}
+{"keyword": "Why Learn Rust in 2026? A Developer's Guide", "platform": "devto", "value": 5.0, "timestamp": "2026-10-10T12:15:07Z"}
+{"keyword": "VLLM_ROCM_USE_AITER=1 Slows Gemma 4 on an AMD MI300X: What the Flag Changes and Why", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T14:07:19Z"}
+{"keyword": "Universal Search MCP for Google Workspace with Claude Code", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T14:07:38Z"}
+{"keyword": "From T-Shirt Sizes to Token Quotes?", "platform": "devto", "value": 4.0, "timestamp": "2026-10-10T02:11:08Z"}
+{"keyword": "Stop Asking AI to Fix the Bug. Ask It to Prove the Cause.", "platform": "devto", "value": 12.0, "timestamp": "2026-10-10T06:07:43Z"}
+{"keyword": "The Epistemology of Quality", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T00:28:26Z"}
+{"keyword": "One unescaped semicolon was enough to steal Telegram accounts", "platform": "devto", "value": 6.0, "timestamp": "2026-10-10T08:25:10Z"}
+{"keyword": "12 of 13 AI models knew the new name and still wrote the old one", "platform": "devto", "value": 10.0, "timestamp": "2026-10-10T15:38:25Z"}
+{"keyword": "Does AI Lie More in Hinglish? I Benchmarked 5 Models published: false", "platform": "devto", "value": 10.0, "timestamp": "2026-10-10T15:20:20Z"}
+{"keyword": "Inventory reservation in MySQL: Shopify's row-lock design", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T03:00:00Z"}
+{"keyword": "Where the spending rules live: agent authorization on AWS vs Sui", "platform": "devto", "value": 2.0, "timestamp": "2026-10-09T21:52:13Z"}
+{"keyword": "I Have 1 Hour Free\" A Walk Plan in 10 Seconds, Powered by Local AI", "platform": "devto", "value": 10.0, "timestamp": "2026-10-10T09:54:41Z"}
+{"keyword": "Your AI Dashboard Is Green. Your Delivery Isn't.", "platform": "devto", "value": 16.0, "timestamp": "2026-10-10T06:23:00Z"}
+{"keyword": "FieldQuest: Your Neighbourhood Is More Interesting Than Your Feed", "platform": "devto", "value": 5.0, "timestamp": "2026-10-10T09:02:03Z"}
+{"keyword": "SlopShape Finds AI Writing Patterns That Survive Paraphrasing in Commercial Content", "platform": "devto", "value": 0.0, "timestamp": "2026-10-10T14:15:31Z"}
+{"keyword": "Meowfolio: I Built an AI Scrapbook for the Cats You Meet Outside 🐱🌿", "platform": "devto", "value": 7.0, "timestamp": "2026-10-10T03:01:04Z"}
+{"keyword": "Grow a Song: my run wrote its own soundtrack, with Gemma running on my phone", "platform": "devto", "value": 1.0, "timestamp": "2026-10-10T08:38:35Z"}
