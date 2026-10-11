@@ -12,3 +12,13 @@
 {"keyword": "Why is XQueryKeymap() returning empty bit field for the keyboard in C?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791634708"}
 {"keyword": "Why do POSIX and the C FAQ suggest casting char ** to const char * const *?", "platform": "stackexchange", "value": 0.0, "timestamp": "1791583718"}
 {"keyword": "The static in a URL is being duplicated when serving with Vite to Django backend", "platform": "stackexchange", "value": 0.0, "timestamp": "1791631867"}
+{"keyword": "Is there any disadvantage to calling document.createElement with the “wrong” document?", "platform": "stackexchange", "value": 2.0, "timestamp": "1791732350"}
+{"keyword": "fgets keeping printf from printing to terminal output", "platform": "stackexchange", "value": 0.0, "timestamp": "1791650607"}
+{"keyword": "How to detect UB stemming from a std::string being initialized from a null pointer?", "platform": "stackexchange", "value": 7.0, "timestamp": "1791533889"}
+{"keyword": "Why do POSIX and the C FAQ suggest casting char ** to const char * const *?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791583718"}
+{"keyword": "Boost Beast async_read occasional stalls", "platform": "stackexchange", "value": 0.0, "timestamp": "1791644832"}
+{"keyword": "Is it possible to SUMIF based on a column heading as well as rows?", "platform": "stackexchange", "value": 2.0, "timestamp": "1791639105"}
+{"keyword": "How to coerce Propshaft to reload .manifest.json", "platform": "stackexchange", "value": 0.0, "timestamp": "1791636880"}
+{"keyword": "Why is XQueryKeymap() returning empty bit field for the keyboard in C?", "platform": "stackexchange", "value": 2.0, "timestamp": "1791634708"}
+{"keyword": "How do I accurately detect gamepad button presses in JavaScript?", "platform": "stackexchange", "value": 2.0, "timestamp": "1791645141"}
+{"keyword": "How to implement 1:N fingerprint identification using DigitalPersona SDK in C#?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791652645"}
