@@ -18,3 +18,9 @@
 {"keyword": "How to detect UB stemming from a std::string being initialized from a null pointer?", "platform": "stackexchange", "value": 7.0, "timestamp": "1791533889"}
 {"keyword": "fgets keeping printf from printing to terminal output", "platform": "stackexchange", "value": 0.0, "timestamp": "1791650607"}
 {"keyword": "Why do POSIX and the C FAQ suggest casting char ** to const char * const *?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791583718"}
+{"keyword": "How can I use C++17 aligned new to replace _aligned_malloc?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791830940"}
+{"keyword": "How do I safely remove unused asyncio locks without causing duplicate requests?", "platform": "stackexchange", "value": 1.0, "timestamp": "1791810562"}
+{"keyword": "Why do I get errors about performing a jump when there is a variable array in between?", "platform": "stackexchange", "value": 8.0, "timestamp": "1791735673"}
+{"keyword": "Oracle APEX Human Task: Release Action redirects to error page", "platform": "stackexchange", "value": 1.0, "timestamp": "1791813791"}
+{"keyword": "Javascript if statement only runs once", "platform": "stackexchange", "value": 0.0, "timestamp": "1791764107"}
+{"keyword": "Android 15: AccessibilityService magnification resets to 1.0 when switching to the home screen", "platform": "stackexchange", "value": 1.0, "timestamp": "1791801645"}
