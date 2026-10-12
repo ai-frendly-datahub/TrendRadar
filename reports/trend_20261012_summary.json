@@ -6,6 +6,10 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "OpenAI",
+      "count": 10
+    },
+    {
       "name": "YouTube",
       "count": 10
     },
@@ -18,20 +22,8 @@
       "count": 10
     },
     {
-      "name": "Python (programming language)",
-      "count": 10
-    },
-    {
-      "name": "OpenAI",
-      "count": 10
-    },
-    {
-      "name": "South Korea",
-      "count": 9
-    },
-    {
       "name": "Seoul",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Climate change",
@@ -66,15 +58,19 @@
       "count": 9
     },
     {
-      "name": "강남 아파트",
-      "count": 2
+      "name": "Python (programming language)",
+      "count": 9
     },
     {
-      "name": "보이그룹",
-      "count": 2
+      "name": "South Korea",
+      "count": 9
     },
     {
       "name": "유튜버",
+      "count": 2
+    },
+    {
+      "name": "강남 아파트",
       "count": 2
     },
     {
@@ -84,11 +80,15 @@
     {
       "name": "스포츠 선수",
       "count": 2
+    },
+    {
+      "name": "정치인",
+      "count": 2
     }
   ],
   "sources": {
     "google": 60,
     "wikipedia": 140
   },
-  "generated_at": "2026-10-12T01:08:11.191784+09:00"
+  "generated_at": "2026-10-12T00:57:44.772168+00:00"
 }
