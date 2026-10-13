@@ -106,3 +106,61 @@
 {"keyword": "Let's talk about redaction", "platform": "devto", "value": 3.0, "timestamp": "2026-10-12T16:01:17Z"}
 {"keyword": "Claude Code and Linus Torvalds: the Linux patch tradeoffs", "platform": "devto", "value": 1.0, "timestamp": "2026-10-12T16:30:00Z"}
 {"keyword": "Birds.Quest - My Effortless Bird Watching Auto Blogging Buddy that Inspires Me to Go Back to Nature", "platform": "devto", "value": 12.0, "timestamp": "2026-10-12T06:53:09Z"}
+{"keyword": "How I Feel about the Grace Hopper Celebration Getting Cancelled", "platform": "devto", "value": 20.0, "timestamp": "2026-10-13T14:57:57Z"}
+{"keyword": "What 9,050 AI-Written Scripts Taught Me About Slop", "platform": "devto", "value": 8.0, "timestamp": "2026-10-12T21:03:36Z"}
+{"keyword": "Local embeddings with llamadart: how llamas share secrets", "platform": "devto", "value": 30.0, "timestamp": "2026-10-12T18:18:49Z"}
+{"keyword": "AI Needs a Test That Fights Back", "platform": "devto", "value": 7.0, "timestamp": "2026-10-12T21:03:49Z"}
+{"keyword": "Solodesk-Ai", "platform": "devto", "value": 7.0, "timestamp": "2026-10-12T20:49:24Z"}
+{"keyword": "People Are Vibe-Coding Clones of Every Paid App. What Actually Survives?", "platform": "devto", "value": 34.0, "timestamp": "2026-10-13T07:15:38Z"}
+{"keyword": "Don't Try This at Home: What Happened When I Sent Kiro to Work and Went Gardening", "platform": "devto", "value": 6.0, "timestamp": "2026-10-13T05:58:56Z"}
+{"keyword": "Small Apache-2.0 Models Against Gemma 4 E2B on One TPU v5e: Which Ones Keep Up?", "platform": "devto", "value": 1.0, "timestamp": "2026-10-13T00:57:26Z"}
+{"keyword": "What's Your Favorite Car, and Why? (Mine Is the Lamborghini Urus, and Yes, I'll Defend It)", "platform": "devto", "value": 19.0, "timestamp": "2026-10-13T12:58:23Z"}
+{"keyword": "AI Fatigue? Yea I know.", "platform": "devto", "value": 22.0, "timestamp": "2026-10-13T14:57:34Z"}
+{"keyword": "Changing def to async def let one blocking call freeze an entire FastAPI app", "platform": "devto", "value": 13.0, "timestamp": "2026-10-13T09:05:00Z"}
+{"keyword": "I put Temporal's Rust SDK 1.0 on a conference badge", "platform": "devto", "value": 1.0, "timestamp": "2026-10-13T14:00:00Z"}
+{"keyword": "Debian on a Samsung Galaxy Book Go, Written on the Galaxy Book Go", "platform": "devto", "value": 2.0, "timestamp": "2026-10-13T01:00:40Z"}
+{"keyword": "Your Marketing Site Has 40 Scripts. Which Ones Are Actually Worth Keeping?", "platform": "devto", "value": 18.0, "timestamp": "2026-10-13T09:09:59Z"}
+{"keyword": "Do You Actually Need an LLM?", "platform": "devto", "value": 9.0, "timestamp": "2026-10-13T13:03:00Z"}
+{"keyword": "Talk to my bots through Alexa: building an Alexa skill for Grok Bot", "platform": "devto", "value": 3.0, "timestamp": "2026-10-13T10:55:09Z"}
+{"keyword": "Hacktoberfest From the Maintainer's Side: Faster PR Closing", "platform": "devto", "value": 2.0, "timestamp": "2026-10-12T18:30:10Z"}
+{"keyword": "From $0 to my first dev job in 6 months — no CS degree", "platform": "devto", "value": 20.0, "timestamp": "2026-10-13T09:45:01Z"}
+{"keyword": "Can a local LLM replace Claude Code? The benchmark everyone quotes is the wrong one.", "platform": "devto", "value": 21.0, "timestamp": "2026-10-12T23:43:44Z"}
+{"keyword": "Your failover is a retry loop pretending to be resilience", "platform": "devto", "value": 6.0, "timestamp": "2026-10-13T05:32:26Z"}
+{"keyword": "Do You Prefer Gradle?", "platform": "devto", "value": 0.0, "timestamp": "2026-10-12T21:43:37Z"}
+{"keyword": "How Engineers Should Learn a New Technology in the AI Era", "platform": "devto", "value": 6.0, "timestamp": "2026-10-13T03:40:17Z"}
+{"keyword": "Your Auth Check Passed. The Agent Still Did Something Nobody Asked For", "platform": "devto", "value": 22.0, "timestamp": "2026-10-13T07:30:23Z"}
+{"keyword": "Your Metrics Are Lying After They Hit the Cardinality Limit", "platform": "devto", "value": 8.0, "timestamp": "2026-10-13T14:30:00Z"}
+{"keyword": "CSS only game: Point and click puzzle cube", "platform": "devto", "value": 3.0, "timestamp": "2026-10-13T06:52:29Z"}
+{"keyword": "Your AI Coding Agent Just Built an App. Would You Trust It With Production Data?", "platform": "devto", "value": 13.0, "timestamp": "2026-10-13T09:53:52Z"}
+{"keyword": "Cosine Similarity Said 0.92. The Payload Was Already Dead.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-13T13:45:59Z"}
+{"keyword": "One MCP Server for Six AWS Inference Backends: Bedrock, SageMaker, GPUs, Inferentia and Trainium", "platform": "devto", "value": 0.0, "timestamp": "2026-10-13T03:04:09Z"}
+{"keyword": "I built a 200-line tool that catches an AI agent exfiltrating data — while your test says PASS", "platform": "devto", "value": 6.0, "timestamp": "2026-10-13T14:28:09Z"}
+{"keyword": "How I Feel about the Grace Hopper Celebration Getting Cancelled", "platform": "devto", "value": 20.0, "timestamp": "2026-10-13T14:57:57Z"}
+{"keyword": "What 9,050 AI-Written Scripts Taught Me About Slop", "platform": "devto", "value": 8.0, "timestamp": "2026-10-12T21:03:36Z"}
+{"keyword": "Local embeddings with llamadart: how llamas share secrets", "platform": "devto", "value": 30.0, "timestamp": "2026-10-12T18:18:49Z"}
+{"keyword": "AI Needs a Test That Fights Back", "platform": "devto", "value": 7.0, "timestamp": "2026-10-12T21:03:49Z"}
+{"keyword": "Solodesk-Ai", "platform": "devto", "value": 7.0, "timestamp": "2026-10-12T20:49:24Z"}
+{"keyword": "People Are Vibe-Coding Clones of Every Paid App. What Actually Survives?", "platform": "devto", "value": 34.0, "timestamp": "2026-10-13T07:15:38Z"}
+{"keyword": "Don't Try This at Home: What Happened When I Sent Kiro to Work and Went Gardening", "platform": "devto", "value": 6.0, "timestamp": "2026-10-13T05:58:56Z"}
+{"keyword": "Small Apache-2.0 Models Against Gemma 4 E2B on One TPU v5e: Which Ones Keep Up?", "platform": "devto", "value": 1.0, "timestamp": "2026-10-13T00:57:26Z"}
+{"keyword": "What's Your Favorite Car, and Why? (Mine Is the Lamborghini Urus, and Yes, I'll Defend It)", "platform": "devto", "value": 19.0, "timestamp": "2026-10-13T12:58:23Z"}
+{"keyword": "Changing def to async def let one blocking call freeze an entire FastAPI app", "platform": "devto", "value": 13.0, "timestamp": "2026-10-13T09:05:00Z"}
+{"keyword": "AI Fatigue? Yea I know.", "platform": "devto", "value": 22.0, "timestamp": "2026-10-13T14:57:34Z"}
+{"keyword": "Debian on a Samsung Galaxy Book Go, Written on the Galaxy Book Go", "platform": "devto", "value": 2.0, "timestamp": "2026-10-13T01:00:40Z"}
+{"keyword": "I put Temporal's Rust SDK 1.0 on a conference badge", "platform": "devto", "value": 1.0, "timestamp": "2026-10-13T14:00:00Z"}
+{"keyword": "Your Marketing Site Has 40 Scripts. Which Ones Are Actually Worth Keeping?", "platform": "devto", "value": 18.0, "timestamp": "2026-10-13T09:09:59Z"}
+{"keyword": "Do You Actually Need an LLM?", "platform": "devto", "value": 9.0, "timestamp": "2026-10-13T13:03:00Z"}
+{"keyword": "Talk to my bots through Alexa: building an Alexa skill for Grok Bot", "platform": "devto", "value": 3.0, "timestamp": "2026-10-13T10:55:09Z"}
+{"keyword": "Hacktoberfest From the Maintainer's Side: Faster PR Closing", "platform": "devto", "value": 2.0, "timestamp": "2026-10-12T18:30:10Z"}
+{"keyword": "From $0 to my first dev job in 6 months — no CS degree", "platform": "devto", "value": 20.0, "timestamp": "2026-10-13T09:45:01Z"}
+{"keyword": "Can a local LLM replace Claude Code? The benchmark everyone quotes is the wrong one.", "platform": "devto", "value": 21.0, "timestamp": "2026-10-12T23:43:44Z"}
+{"keyword": "Your failover is a retry loop pretending to be resilience", "platform": "devto", "value": 6.0, "timestamp": "2026-10-13T05:32:26Z"}
+{"keyword": "Do You Prefer Gradle?", "platform": "devto", "value": 0.0, "timestamp": "2026-10-12T21:43:37Z"}
+{"keyword": "How Engineers Should Learn a New Technology in the AI Era", "platform": "devto", "value": 6.0, "timestamp": "2026-10-13T03:40:17Z"}
+{"keyword": "Your Auth Check Passed. The Agent Still Did Something Nobody Asked For", "platform": "devto", "value": 22.0, "timestamp": "2026-10-13T07:30:23Z"}
+{"keyword": "Your Metrics Are Lying After They Hit the Cardinality Limit", "platform": "devto", "value": 8.0, "timestamp": "2026-10-13T14:30:00Z"}
+{"keyword": "CSS only game: Point and click puzzle cube", "platform": "devto", "value": 3.0, "timestamp": "2026-10-13T06:52:29Z"}
+{"keyword": "Your AI Coding Agent Just Built an App. Would You Trust It With Production Data?", "platform": "devto", "value": 13.0, "timestamp": "2026-10-13T09:53:52Z"}
+{"keyword": "Cosine Similarity Said 0.92. The Payload Was Already Dead.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-13T13:45:59Z"}
+{"keyword": "One MCP Server for Six AWS Inference Backends: Bedrock, SageMaker, GPUs, Inferentia and Trainium", "platform": "devto", "value": 0.0, "timestamp": "2026-10-13T03:04:09Z"}
+{"keyword": "I built a 200-line tool that catches an AI agent exfiltrating data — while your test says PASS", "platform": "devto", "value": 6.0, "timestamp": "2026-10-13T14:28:09Z"}
