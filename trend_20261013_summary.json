@@ -6,6 +6,18 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "Artificial intelligence",
+      "count": 10
+    },
+    {
+      "name": "Bitcoin",
+      "count": 10
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 10
+    },
+    {
       "name": "South Korea",
       "count": 10
     },
@@ -14,27 +26,7 @@
       "count": 10
     },
     {
-      "name": "Climate change",
-      "count": 10
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 10
-    },
-    {
-      "name": "E-commerce",
-      "count": 10
-    },
-    {
       "name": "Seoul",
-      "count": 9
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 9
-    },
-    {
-      "name": "Artificial intelligence",
       "count": 9
     },
     {
@@ -54,7 +46,11 @@
       "count": 9
     },
     {
-      "name": "Bitcoin",
+      "name": "Climate change",
+      "count": 9
+    },
+    {
+      "name": "E-commerce",
       "count": 9
     },
     {
@@ -66,29 +62,33 @@
       "count": 9
     },
     {
-      "name": "뉴진스",
-      "count": 2
-    },
-    {
-      "name": "서울 부동산",
-      "count": 2
-    },
-    {
-      "name": "블랙핑크",
-      "count": 2
+      "name": "Python (programming language)",
+      "count": 9
     },
     {
       "name": "BTS",
       "count": 2
     },
     {
-      "name": "음원차트",
+      "name": "부동산 시장",
+      "count": 2
+    },
+    {
+      "name": "멜론",
+      "count": 2
+    },
+    {
+      "name": "음악방송",
+      "count": 2
+    },
+    {
+      "name": "유명인",
       "count": 2
     }
   ],
   "sources": {
-    "google": 60,
-    "wikipedia": 140
+    "wikipedia": 140,
+    "google": 60
   },
-  "generated_at": "2026-10-13T04:36:15.644388+09:00"
+  "generated_at": "2026-10-13T02:50:34.087298+00:00"
 }
