@@ -1,0 +1,50 @@
+{
+  "skipped": [
+    {
+      "source": "naver",
+      "label": "Naver DataLab",
+      "missing_env": [
+        "NAVER_CLIENT_ID",
+        "NAVER_CLIENT_SECRET"
+      ],
+      "keyless_alternative": "none",
+      "reason": "no keyless DataLab API"
+    },
+    {
+      "source": "reddit",
+      "label": "Reddit Trending",
+      "missing_env": [
+        "REDDIT_CLIENT_ID",
+        "REDDIT_CLIENT_SECRET"
+      ],
+      "keyless_alternative": "none",
+      "reason": "public JSON is blocked without OAuth"
+    },
+    {
+      "source": "youtube",
+      "label": "YouTube Trending",
+      "missing_env": [
+        "YOUTUBE_API_KEY"
+      ],
+      "keyless_alternative": "none",
+      "reason": "no keyless most-popular chart"
+    },
+    {
+      "source": "naver_shopping",
+      "label": "Naver Shopping",
+      "missing_env": [
+        "NAVER_CLIENT_ID",
+        "NAVER_CLIENT_SECRET"
+      ],
+      "keyless_alternative": "none",
+      "reason": "no keyless Shopping Insight API"
+    }
+  ],
+  "keyless_added": [
+    {
+      "source": "google_trends_rss",
+      "channel": "google_trending",
+      "url": "https://trends.google.com/trending/rss?geo=KR"
+    }
+  ]
+}
