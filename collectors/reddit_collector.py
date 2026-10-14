@@ -8,7 +8,6 @@ import requests
 
 from trendradar.models import ContentItem
 
-
 SortType = Literal["hot", "new", "top", "rising", "controversial"]
 TimeFilter = Literal["hour", "day", "week", "month", "year", "all"]
 
@@ -108,16 +107,8 @@ class RedditCollector:
             data = response.json()
 
         except requests.exceptions.RequestException as e:
-            return [
-                ContentItem(
-                    title=f"Sample {subreddit} discussion",
-                    url=f"https://reddit.com/r/{subreddit}",
-                    source="reddit",
-                    author="sample",
-                    score=1.0,
-                    metadata={"post_id": "sample", "subreddit": subreddit, "error": str(e)},
-                )
-            ]
+            print(f"Reddit r/{subreddit} skipped: request failed ({e})")
+            return []
 
         # 응답 파싱
         posts: list[ContentItem] = []
@@ -176,16 +167,8 @@ class RedditCollector:
             data = response.json()
 
         except requests.exceptions.RequestException as e:
-            return [
-                ContentItem(
-                    title="Sample popular discussion",
-                    url="https://reddit.com/r/popular",
-                    source="reddit",
-                    author="sample",
-                    score=1.0,
-                    metadata={"post_id": "sample", "subreddit": "popular", "error": str(e)},
-                )
-            ]
+            print(f"Reddit r/popular skipped: request failed ({e})")
+            return []
 
         posts: list[ContentItem] = []
 

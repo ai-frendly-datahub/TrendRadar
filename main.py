@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import shutil
@@ -13,7 +14,6 @@ from importlib import import_module
 from pathlib import Path
 
 import yaml
-
 from radar_core.ontology import build_event_model_payload, build_summary_ontology_metadata
 
 from analyzers.spike_detector import SpikeDetector
@@ -36,17 +36,13 @@ from reporters.html_reporter import generate_daily_report
 from reporters.spike_reporter import generate_spike_report
 from storage import trend_store
 from storage.search_index import SearchIndex
+from trendradar.common.validators import validate_keyword, validate_score
 from trendradar.date_storage import (
     cleanup_date_directories,
     cleanup_dated_reports,
+    compact_duckdb_before_snapshot,
     snapshot_database,
 )
-from trendradar.quality_report import (
-    build_quality_report,
-    load_keyword_quality_config,
-    write_quality_report,
-)
-from trendradar.common.validators import validate_keyword, validate_score
 from trendradar.models import (
     ContentItem,
     KeywordSet,
@@ -54,7 +50,11 @@ from trendradar.models import (
     TrendPoint,
     TrendRadarSettings,
 )
-
+from trendradar.quality_report import (
+    build_quality_report,
+    load_keyword_quality_config,
+    write_quality_report,
+)
 
 CONFIG_ENV_VAR = "TRENDRADAR_CONFIG_PATH"
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -84,6 +84,17 @@ CORE_SOURCE_LABELS: dict[str, str] = {
     "youtube": "YouTube Trending",
     "naver_shopping": "Naver Shopping",
 }
+# Official APIs only. Probes from this environment: Reddit public JSON is HTTP 403
+# without OAuth, and YouTube has no public most-popular chart feed.
+CORE_SOURCE_SKIP_REASONS: dict[str, str] = {
+    "naver": "no keyless DataLab API",
+    "reddit": "public JSON is blocked without OAuth",
+    "youtube": "no keyless most-popular chart",
+    "naver_shopping": "no keyless Shopping Insight API",
+}
+_ANNOTATED_CREDENTIAL_SKIPS: set[str] = set()
+CONTENT_KEYWORD_LIMIT = 100
+WIKIPEDIA_EMPTY_LOOKBACK_DAYS = 3
 TOTAL_CORE_SOURCES = len(CORE_SOURCE_REQUIREMENTS)
 MAX_KEYWORDS_PER_TRENDS_REQUEST = 5
 SUMMARY_POINT_LIMIT = 200
@@ -112,6 +123,45 @@ def get_core_source_availability() -> dict[str, tuple[bool, list[str]]]:
     return availability
 
 
+def credential_skip_records(
+    source_availability: dict[str, tuple[bool, list[str]]] | None = None,
+) -> list[dict[str, object]]:
+    """Describe credential skips. Values are env var names, never secret values."""
+    availability = source_availability or get_core_source_availability()
+    records: list[dict[str, object]] = []
+    for source_name in CORE_SOURCE_REQUIREMENTS:
+        is_available, missing_env_vars = availability.get(source_name, (True, []))
+        if is_available:
+            continue
+        records.append(
+            {
+                "source": source_name,
+                "label": CORE_SOURCE_LABELS.get(source_name, source_name),
+                "missing_env": list(missing_env_vars),
+                "keyless_alternative": "none",
+                "reason": CORE_SOURCE_SKIP_REASONS.get(source_name, "missing credentials"),
+            }
+        )
+    return records
+
+
+def _credential_skip_message(source_name: str, missing_env_vars: list[str]) -> str:
+    source_label = CORE_SOURCE_LABELS.get(source_name, source_name)
+    missing_vars_text = ", ".join(missing_env_vars) if missing_env_vars else "credentials"
+    reason = CORE_SOURCE_SKIP_REASONS.get(source_name, "missing credentials")
+    return f"{source_label} skipped: missing env ({missing_vars_text}); {reason}"
+
+
+def _emit_credential_skip(source_name: str, missing_env_vars: list[str]) -> None:
+    message = _credential_skip_message(source_name, missing_env_vars)
+    print(f"  - {message}")
+    if source_name in _ANNOTATED_CREDENTIAL_SKIPS:
+        return
+    _ANNOTATED_CREDENTIAL_SKIPS.add(source_name)
+    # GitHub Actions surfaces this in the run annotations. It is a skip, not a failure.
+    print(f"::warning title=TrendRadar source skipped::{message}")
+
+
 def _print_core_source_availability_report(
     source_availability: dict[str, tuple[bool, list[str]]],
 ) -> None:
@@ -123,8 +173,13 @@ def _print_core_source_availability_report(
             print(f"    - {source_label}: ready")
             continue
 
-        missing_vars_text = ", ".join(missing_env_vars)
-        print(f"    - {source_label}: skipped (missing env: {missing_vars_text})")
+        print(f"    - {_credential_skip_message(source_name, missing_env_vars)}")
+        if source_name not in _ANNOTATED_CREDENTIAL_SKIPS:
+            _ANNOTATED_CREDENTIAL_SKIPS.add(source_name)
+            print(
+                "::warning title=TrendRadar source skipped::"
+                f"{_credential_skip_message(source_name, missing_env_vars)}"
+            )
 
 
 def _is_source_available(
@@ -134,6 +189,38 @@ def _is_source_available(
     if source_availability is None:
         return True, []
     return source_availability.get(source_name, (True, []))
+
+
+def _accept_content_keyword(
+    *,
+    source: str,
+    keyword: str,
+    score: float,
+    errors: list[str],
+) -> tuple[str, float] | None:
+    """Keep a community title that is non-empty.
+
+    Titles longer than the keyword limit are truncated instead of dropped.
+    Community scores may be negative (downvotes) and are stored as-is.
+    """
+    text = keyword.strip() if isinstance(keyword, str) else ""
+    if not text:
+        errors.append(f"{source}: invalid keyword/score")
+        return None
+    if len(text) > CONTENT_KEYWORD_LIMIT:
+        text = text[:CONTENT_KEYWORD_LIMIT].rstrip()
+    if not text:
+        errors.append(f"{source}: invalid keyword/score")
+        return None
+    try:
+        numeric = float(score)
+    except (TypeError, ValueError):
+        errors.append(f"{source}: invalid keyword/score")
+        return None
+    if numeric != numeric or numeric in {float("inf"), float("-inf")}:
+        errors.append(f"{source}: invalid keyword/score")
+        return None
+    return text, numeric
 
 
 def _filter_valid_points(
@@ -509,6 +596,31 @@ def _trend_summary_articles(
     return articles
 
 
+def _write_source_skip_report(
+    report_dir: Path,
+    source_availability: dict[str, tuple[bool, list[str]]],
+) -> Path | None:
+    """Persist credential skips so a green run still shows which sources did not collect."""
+    try:
+        report_dir.mkdir(parents=True, exist_ok=True)
+        payload = {
+            "skipped": credential_skip_records(source_availability),
+            "keyless_added": [
+                {
+                    "source": "google_trends_rss",
+                    "channel": "google_trending",
+                    "url": "https://trends.google.com/trending/rss?geo=KR",
+                }
+            ],
+        }
+        path = report_dir / "source_skips.json"
+        path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return path
+    except OSError as exc:
+        print(f"  - Credential skip report failed: {exc}")
+        return None
+
+
 def _write_summary_report(
     *,
     target_date: date,
@@ -633,8 +745,7 @@ def collect_trends(
     if "naver" in channels and (source_filter is None or source_filter == "naver"):
         source_ready, missing_env_vars = _is_source_available("naver", source_availability)
         if not source_ready:
-            missing_vars_text = ", ".join(missing_env_vars)
-            print(f"  - Naver DataLab skipped: missing env vars ({missing_vars_text})")
+            _emit_credential_skip("naver", missing_env_vars)
         else:
             try:
                 naver_collector = NaverDataLabCollector(
@@ -705,8 +816,7 @@ def collect_trends(
     if "google" in channels and (source_filter is None or source_filter == "google"):
         source_ready, missing_env_vars = _is_source_available("google", source_availability)
         if not source_ready:
-            missing_vars_text = ", ".join(missing_env_vars)
-            print(f"  - Google Trends skipped: missing env vars ({missing_vars_text})")
+            _emit_credential_skip("google", missing_env_vars)
         else:
             try:
                 google_collector = GoogleTrendsCollector()
@@ -837,15 +947,38 @@ def collect_trends(
     if "wikipedia" in channels and (source_filter is None or source_filter == "wikipedia"):
         try:
             wiki_collector = WikipediaPageviewsCollector()
+            wiki_kwargs = {
+                "keywords": keywords,
+                "project": filters.get("wikipedia_project", "ko.wikipedia"),
+                "access": filters.get("wikipedia_access", "all-access"),
+                "agent": filters.get("wikipedia_agent", "user"),
+                "granularity": filters.get("wikipedia_granularity", "daily"),
+            }
             wiki_data = wiki_collector.collect(
-                keywords=keywords,
                 start_date=start_date,
                 end_date=end_date,
-                project=filters.get("wikipedia_project", "ko.wikipedia"),
-                access=filters.get("wikipedia_access", "all-access"),
-                agent=filters.get("wikipedia_agent", "user"),
-                granularity=filters.get("wikipedia_granularity", "daily"),
+                **wiki_kwargs,
             )
+            # Pageviews for "yesterday" are often unpublished just after UTC midnight.
+            # Walk the same window backward until a day with views appears.
+            if not any(wiki_data.values()):
+                end_day = date.fromisoformat(end_date)
+                if end_day >= today - timedelta(days=1):
+                    start_day = date.fromisoformat(start_date)
+                    for offset in range(1, WIKIPEDIA_EMPTY_LOOKBACK_DAYS + 1):
+                        shifted_start = (start_day - timedelta(days=offset)).isoformat()
+                        shifted_end = (end_day - timedelta(days=offset)).isoformat()
+                        print(
+                            "  - Wikipedia Pageviews empty for "
+                            f"{start_date}..{end_date}; retry {shifted_start}..{shifted_end}"
+                        )
+                        wiki_data = wiki_collector.collect(
+                            start_date=shifted_start,
+                            end_date=shifted_end,
+                            **wiki_kwargs,
+                        )
+                        if any(wiki_data.values()):
+                            break
 
             wiki_points = 0
             wiki_raw_records: list[dict[str, object]] = []
@@ -901,8 +1034,7 @@ def collect_trends(
     if "reddit" in channels and (source_filter is None or source_filter == "reddit"):
         source_ready, missing_env_vars = _is_source_available("reddit", source_availability)
         if not source_ready:
-            missing_vars_text = ", ".join(missing_env_vars)
-            print(f"  - Reddit Trending skipped: missing env vars ({missing_vars_text})")
+            _emit_credential_skip("reddit", missing_env_vars)
         else:
             try:
                 reddit_collector = RedditCollector(
@@ -982,8 +1114,7 @@ def collect_trends(
     if "youtube" in channels and (source_filter is None or source_filter == "youtube"):
         source_ready, missing_env_vars = _is_source_available("youtube", source_availability)
         if not source_ready:
-            missing_vars_text = ", ".join(missing_env_vars)
-            print(f"  - YouTube Trending skipped: missing env vars ({missing_vars_text})")
+            _emit_credential_skip("youtube", missing_env_vars)
         else:
             try:
                 youtube_collector = YouTubeTrendingCollector(
@@ -1058,8 +1189,7 @@ def collect_trends(
     ):
         source_ready, missing_env_vars = _is_source_available("naver_shopping", source_availability)
         if not source_ready:
-            missing_vars_text = ", ".join(missing_env_vars)
-            print(f"  - Naver Shopping skipped: missing env vars ({missing_vars_text})")
+            _emit_credential_skip("naver_shopping", missing_env_vars)
         else:
             try:
                 naver_shopping_collector = NaverShoppingCollector(
@@ -1145,11 +1275,15 @@ def collect_trends(
 
             hn_raw_records: list[dict[str, object]] = []
             for story in hn_stories:
-                keyword = story.title
-                score = story.score
-                if not validate_keyword(keyword) or not validate_score(score):
-                    errors.append("hackernews: invalid keyword/score")
+                accepted = _accept_content_keyword(
+                    source="hackernews",
+                    keyword=story.title,
+                    score=story.score,
+                    errors=errors,
+                )
+                if accepted is None:
                     continue
+                keyword, score = accepted
 
                 story_record = _build_content_raw_record(
                     keyword=keyword,
@@ -1179,11 +1313,15 @@ def collect_trends(
 
             devto_raw_records: list[dict[str, object]] = []
             for article in devto_articles:
-                keyword = article.title
-                score = article.score
-                if not validate_keyword(keyword) or not validate_score(score):
-                    errors.append("devto: invalid keyword/score")
+                accepted = _accept_content_keyword(
+                    source="devto",
+                    keyword=article.title,
+                    score=article.score,
+                    errors=errors,
+                )
+                if accepted is None:
                     continue
+                keyword, score = accepted
 
                 article_record = _build_content_raw_record(
                     keyword=keyword,
@@ -1213,11 +1351,15 @@ def collect_trends(
 
             se_raw_records: list[dict[str, object]] = []
             for question in se_questions:
-                keyword = question.title
-                score = question.score
-                if not validate_keyword(keyword) or not validate_score(score):
-                    errors.append("stackexchange: invalid keyword/score")
+                accepted = _accept_content_keyword(
+                    source="stackexchange",
+                    keyword=question.title,
+                    score=question.score,
+                    errors=errors,
+                )
+                if accepted is None:
                     continue
+                keyword, score = accepted
 
                 question_record = _build_content_raw_record(
                     keyword=keyword,
@@ -1247,11 +1389,15 @@ def collect_trends(
 
             ph_raw_records: list[dict[str, object]] = []
             for product in ph_products:
-                keyword = product.title
-                score = product.score
-                if not validate_keyword(keyword) or not validate_score(score):
-                    errors.append("producthunt: invalid keyword/score")
+                accepted = _accept_content_keyword(
+                    source="producthunt",
+                    keyword=product.title,
+                    score=product.score,
+                    errors=errors,
+                )
+                if accepted is None:
                     continue
+                keyword, score = accepted
 
                 product_record = _build_content_raw_record(
                     keyword=keyword,
@@ -1292,11 +1438,15 @@ def collect_trends(
 
             browser_raw_records: list[dict[str, object]] = []
             for item in browser_items:
-                keyword = item.title
-                score = item.score
-                if not validate_keyword(keyword) or not validate_score(score):
-                    errors.append("browser: invalid keyword/score")
+                accepted = _accept_content_keyword(
+                    source="browser",
+                    keyword=item.title,
+                    score=item.score,
+                    errors=errors,
+                )
+                if accepted is None:
                     continue
+                keyword, score = accepted
 
                 item_record = _build_content_raw_record(
                     keyword=keyword,
@@ -1485,14 +1635,23 @@ def run_once(
             print(f"  [error] 급상승 감지 실패: {e}")
             all_errors.append(f"Spike detection: {str(e)[:100]}")
 
+    compact_result = compact_duckdb_before_snapshot(resolved_db_path)
     snapshot_path = snapshot_database(resolved_db_path) if snapshot_db else None
     raw_removed = cleanup_date_directories(DEFAULT_RAW_DIR, keep_days=keep_raw_days)
     report_removed = cleanup_dated_reports(report_dir, keep_days=keep_report_days)
     print(
         "  - 날짜별 저장 정책: "
         f"snapshot={snapshot_path if snapshot_path is not None else 'skipped'}, "
+        f"db_bytes={compact_result.get('bytes')}, "
+        f"db_bytes_before={compact_result.get('bytes_before')}, "
+        f"db_compacted={compact_result.get('compacted')}, "
+        f"db_rows_deleted={compact_result.get('rows_deleted')}, "
+        f"db_reason={compact_result.get('reason')}, "
         f"raw_removed={raw_removed}, report_removed={report_removed}"
     )
+    skip_report_path = _write_source_skip_report(report_dir, source_availability)
+    if skip_report_path is not None:
+        print(f"  - Credential skip report: {skip_report_path}")
 
     try:
         if quality_report is None:
@@ -1526,11 +1685,14 @@ def run_once(
                 index_path,
                 quality_paths["latest"] if quality_paths else None,
                 quality_paths["dated"] if quality_paths else None,
+                skip_report_path,
             ],
             canonical_dir=DEFAULT_REPORT_DIR,
         )
         if synced_paths:
-            canonical_removed = cleanup_dated_reports(DEFAULT_REPORT_DIR, keep_days=keep_report_days)
+            canonical_removed = cleanup_dated_reports(
+                DEFAULT_REPORT_DIR, keep_days=keep_report_days
+            )
             print(
                 "  - Canonical report sync: "
                 f"target={DEFAULT_REPORT_DIR}, synced={len(synced_paths)}, "

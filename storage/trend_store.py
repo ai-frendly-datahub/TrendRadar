@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import logging
 from collections.abc import Iterable
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
@@ -10,6 +11,8 @@ import duckdb
 
 from exceptions import StorageError
 from trendradar.models import Article, TrendPoint
+
+logger = logging.getLogger(__name__)
 
 
 def _utc_naive(dt: datetime | None) -> datetime | None:
@@ -32,6 +35,14 @@ class RadarStorage:
 
     def close(self) -> None:
         self.conn.close()
+        # Compact after the connection is released. A failure must not raise
+        # out of close(); the file already on disk stays as it is.
+        try:
+            from trendradar.date_storage import compact_duckdb_before_snapshot
+
+            compact_duckdb_before_snapshot(self.db_path)
+        except Exception as exc:
+            logger.warning("duckdb_compact_on_close_failed path=%s error=%s", self.db_path, exc)
 
     def __enter__(self) -> RadarStorage:
         return self
@@ -40,8 +51,7 @@ class RadarStorage:
         self.close()
 
     def _ensure_tables(self) -> None:
-        _ = self.conn.execute(
-            """
+        _ = self.conn.execute("""
             CREATE SEQUENCE IF NOT EXISTS articles_id_seq START 1;
             CREATE TABLE IF NOT EXISTS articles (
                 id BIGINT PRIMARY KEY DEFAULT nextval('articles_id_seq'),
@@ -54,8 +64,7 @@ class RadarStorage:
                 collected_at TIMESTAMP NOT NULL,
                 entities_json TEXT
             );
-            """
-        )
+            """)
         _ = self.conn.execute(
             "CREATE INDEX IF NOT EXISTS idx_articles_category_time ON articles (category, published, collected_at);"
         )
@@ -182,6 +191,9 @@ class RadarStorage:
         _ = self.conn.execute("CHECKPOINT")
         self.conn.close()
         try:
+            from trendradar.date_storage import compact_duckdb_before_snapshot
+
+            compact_duckdb_before_snapshot(self.db_path)
             return snapshot_database(self.db_path, snapshot_root=snapshot_root)
         finally:
             self.conn = duckdb.connect(str(self.db_path))
@@ -208,8 +220,7 @@ def _resolve_db_path(db_path: Path | None) -> Path:
 
 def _ensure_trend_points_table(conn: duckdb.DuckDBPyConnection) -> None:
     """Create trend_points table and index if they don't exist."""
-    _ = conn.execute(
-        """
+    _ = conn.execute("""
         CREATE SEQUENCE IF NOT EXISTS trend_points_id_seq START 1;
         CREATE TABLE IF NOT EXISTS trend_points (
             id BIGINT PRIMARY KEY DEFAULT nextval('trend_points_id_seq'),
@@ -220,8 +231,7 @@ def _ensure_trend_points_table(conn: duckdb.DuckDBPyConnection) -> None:
             metadata_json TEXT,
             created_at TIMESTAMP NOT NULL
         );
-        """
-    )
+        """)
     _ = conn.execute(
         "CREATE INDEX IF NOT EXISTS idx_tp_source_keyword "
         "ON trend_points (source, keyword, timestamp);"
