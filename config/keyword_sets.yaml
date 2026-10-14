@@ -135,6 +135,26 @@ keyword_sets:
       wikipedia_agent: user
       wikipedia_granularity: daily
 
+  # 키 없는 Google Trends daily RSS. pytrends trending_searches 대체.
+  - name: "Google Trends RSS"
+    enabled: true
+    description: "공개 Google Trends RSS (geo=KR). API 키 없음."
+    version: "2026.10"
+    taxonomy:
+      vertical: public_trending
+      intent: public_attention
+    keywords:
+      - "trending"
+    channels:
+      - google_trending
+    time_range:
+      start: "today"
+      end: "today"
+    filters:
+      google_trending_region: south_korea
+      google_trending_mode: daily
+      google_trending_top_n: 20
+
   # 예시 1: 위스키 시장 동향
   - name: "위스키 시장 동향"
     enabled: true

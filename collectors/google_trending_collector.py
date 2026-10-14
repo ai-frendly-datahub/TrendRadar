@@ -28,7 +28,9 @@ class GoogleTrendingCollector:
             hl: Interface language for pytrends.
             tz: Timezone offset in minutes (default 540 = UTC+9).
         """
-        self.pytrends = _FallbackTrendReq(hl=hl, tz=tz) if TrendReq is None else TrendReq(hl=hl, tz=tz)
+        self.pytrends = (
+            _FallbackTrendReq(hl=hl, tz=tz) if TrendReq is None else TrendReq(hl=hl, tz=tz)
+        )
 
     def collect(
         self,
@@ -49,7 +51,9 @@ class GoogleTrendingCollector:
             date_override: Optional date (YYYY-MM-DD) to store; defaults to today UTC.
 
         Returns:
-            Mapping keyword -> list of points [{date, value, timestamp}], where value is rank (1 = most popular).
+            Mapping keyword -> list of points. Daily mode uses the public Trends RSS
+            feed; ``value`` is the approximate traffic lower bound when the feed
+            provides one, otherwise the rank (1 = most popular).
         """
         today = datetime.now(UTC).date()
         date_str = date_override or today.isoformat()
@@ -59,9 +63,22 @@ class GoogleTrendingCollector:
         if mode not in {"daily", "realtime"}:
             raise ValueError("mode must be 'daily' or 'realtime'")
 
+        # Daily trending searches via pytrends is the retired endpoint. The public
+        # RSS feed is the keyless replacement and is preferred when it returns items.
+        if mode == "daily":
+            try:
+                from collectors.google_trends_rss_collector import GoogleTrendsRssCollector
+
+                geo = self._normalize_realtime_region(region)
+                rss_results = GoogleTrendsRssCollector().collect(geo=geo, top_n=top_n)
+                if rss_results:
+                    return rss_results
+            except Exception as exc:
+                logging.warning("Google Trends RSS fetch failed: %s", exc)
+
         try:
             if TrendReq is None:
-                keywords = ["AI", "Python", "Data"]
+                keywords = []
             elif mode == "daily":
                 df = self.pytrends.trending_searches(pn=region)
                 if df is not None and not df.empty:
