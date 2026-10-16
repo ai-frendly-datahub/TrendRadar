@@ -58,3 +58,33 @@
 {"keyword": "Synchronous call to child workflow in Azure logic app standard", "platform": "stackexchange", "value": 0.0, "timestamp": "1792081707"}
 {"keyword": "rust or c++ for program that required fast compute and OpenAI sdk integration?", "platform": "stackexchange", "value": -7.0, "timestamp": "1792076195"}
 {"keyword": "How to do simple blocking with virtual threads?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792061798"}
+{"keyword": "How can I optimize my database setup program?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792159175"}
+{"keyword": "Manage Azure SQL Server delete protection using Terraform", "platform": "stackexchange", "value": -3.0, "timestamp": "1792157419"}
+{"keyword": "BusyBox httpd does not display directories", "platform": "stackexchange", "value": -3.0, "timestamp": "1792156466"}
+{"keyword": "Slack app: incoming webhook URL is only in the OAuth response, and each install covers only one chan", "platform": "stackexchange", "value": -2.0, "timestamp": "1792158657"}
+{"keyword": "sha1 not returning correctly", "platform": "stackexchange", "value": 0.0, "timestamp": "1792153936"}
+{"keyword": "I am tryiyng to insert One data from one table to another table in for of INSERT INTO .......SELECT.", "platform": "stackexchange", "value": -6.0, "timestamp": "1792154679"}
+{"keyword": "Synchronous text file reading in browser", "platform": "stackexchange", "value": -3.0, "timestamp": "1792153216"}
+{"keyword": "Verify the integrity of a junction table data", "platform": "stackexchange", "value": 1.0, "timestamp": "1792143299"}
+{"keyword": "Sharing Data from an iOS Network Extension to the Main App Using App Groups", "platform": "stackexchange", "value": -4.0, "timestamp": "1792153926"}
+{"keyword": "How to configure a .NET 10 WinForms application to use a local .NET runtime during a normal build in", "platform": "stackexchange", "value": 1.0, "timestamp": "1792141831"}
+{"keyword": "WhatsApp Cloud API: POST /messages returns 132001 for every template, but GET message_templates list", "platform": "stackexchange", "value": -7.0, "timestamp": "1792147571"}
+{"keyword": "Select the input value of a select element from the .aspx file, through the .cs file", "platform": "stackexchange", "value": -3.0, "timestamp": "1792145719"}
+{"keyword": "How to formulate a string to png and not corrupt the png?", "platform": "stackexchange", "value": -8.0, "timestamp": "1792146102"}
+{"keyword": "How can I read raster TIFFs with the library NetTopologySuite in C#?", "platform": "stackexchange", "value": -3.0, "timestamp": "1792145174"}
+{"keyword": "Ad-hoc, temporary print-based debugging Rust code without new type constraints", "platform": "stackexchange", "value": -1.0, "timestamp": "1792134185"}
+{"keyword": "Postfix Header Checks seem to ignore headers", "platform": "stackexchange", "value": -2.0, "timestamp": "1792145212"}
+{"keyword": "Tabulator with nested tables jumping to top when updating a sub-table", "platform": "stackexchange", "value": 0.0, "timestamp": "1792139065"}
+{"keyword": "Rust in Visual Studio - Console closes automatically", "platform": "stackexchange", "value": -1.0, "timestamp": "1792142688"}
+{"keyword": "How to Bound Deduplication History for Idempotent HBase CAS Updates With Out-of-Order Retries?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792143580"}
+{"keyword": "AnzoGraph: first SELECT on a newly created empty graph throws an exception &quot;bad request (400)&q", "platform": "stackexchange", "value": 4.0, "timestamp": "1792143166"}
+{"keyword": "Ubuntu desktop displays a persistent ghost image of a previously opened application, even after rebo", "platform": "stackexchange", "value": -9.0, "timestamp": "1792135322"}
+{"keyword": "WhatsApp Cloud API Error 130429: Rate Limit Hit Even When Sending Single Messages", "platform": "stackexchange", "value": -8.0, "timestamp": "1792134422"}
+{"keyword": "Startup warnings after updating to ThingsDB 1.10.2", "platform": "stackexchange", "value": 0.0, "timestamp": "1792131116"}
+{"keyword": "What &quot;quirks&quot; does SplFileObject have?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792127856"}
+{"keyword": "Getting a timeout error when trying to make a node web server run a stored proc on SQL Server 2022 E", "platform": "stackexchange", "value": 1.0, "timestamp": "1792109314"}
+{"keyword": "Replace consequential if statements with for loop &amp; switch in C", "platform": "stackexchange", "value": 4.0, "timestamp": "1792052111"}
+{"keyword": "Why does adding ORDER BY time DESC cause the query to return no data?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792121826"}
+{"keyword": "What is the difference between `std::launder(ptr)` and `reinterpret_cast&lt;T*&gt;(reinterpret_cast&", "platform": "stackexchange", "value": 13.0, "timestamp": "1792068046"}
+{"keyword": "Can I broadcast with numpy character find", "platform": "stackexchange", "value": -4.0, "timestamp": "1792102770"}
+{"keyword": "Is there a way to use a library from crates.io using rustc?", "platform": "stackexchange", "value": -5.0, "timestamp": "1792118697"}
