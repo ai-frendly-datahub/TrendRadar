@@ -58,3 +58,33 @@
 {"keyword": "Select the input value of a select element from the .aspx file, through the .cs file", "platform": "stackexchange", "value": -4.0, "timestamp": "1792145719"}
 {"keyword": "Ad-hoc, temporary print-based debugging Rust code without new type constraints", "platform": "stackexchange", "value": -1.0, "timestamp": "1792134185"}
 {"keyword": "What is the difference between `std::launder(ptr)` and `reinterpret_cast&lt;T*&gt;(reinterpret_cast&", "platform": "stackexchange", "value": 14.0, "timestamp": "1792068046"}
+{"keyword": "Why does removing an entry from a HashMap during iteration throw ConcurrentModificationException?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792238495"}
+{"keyword": "new to Python and i need help shipping app", "platform": "stackexchange", "value": -4.0, "timestamp": "1792241372"}
+{"keyword": "How to test rate limit in Rails?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792235848"}
+{"keyword": "How to run an executable using Win32 API in x86 ASM?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792233549"}
+{"keyword": "Problem with PHP function with referenced (&amp;) parameter", "platform": "stackexchange", "value": 0.0, "timestamp": "1792226444"}
+{"keyword": "doxygen generation reports clang errors - how can I tell which file compilation triggered them?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792224656"}
+{"keyword": "GridDB Python client returns an unexpected type for TQL aggregation results", "platform": "stackexchange", "value": -2.0, "timestamp": "1792219073"}
+{"keyword": "Substitution with sed in an address range using variables", "platform": "stackexchange", "value": -1.0, "timestamp": "1792200389"}
+{"keyword": "Python can&#39;t find function from imported module - first time creating an __init__.py file", "platform": "stackexchange", "value": -3.0, "timestamp": "1792209346"}
+{"keyword": "Can setting/retrieving properties on any HTML element be a security risk?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792172020"}
+{"keyword": "Handle captcha in Playwright", "platform": "stackexchange", "value": -9.0, "timestamp": "1792214540"}
+{"keyword": "PS5 - AnyPS5 - GitHub - http://github.com/boykopovar/AnyPShttp://github.com/boykopovar/AnyPS5 - PkgC", "platform": "stackexchange", "value": -3.0, "timestamp": "1792209994"}
+{"keyword": "Nested asyncio.timeout(): both expired() return True, how to tell which one raised?", "platform": "stackexchange", "value": 2.0, "timestamp": "1792171711"}
+{"keyword": "CameraX PreviewView.getBitmap() returns null", "platform": "stackexchange", "value": -3.0, "timestamp": "1792211786"}
+{"keyword": "Pydantic v2: default a generic Literal discriminator from its type parameter", "platform": "stackexchange", "value": -2.0, "timestamp": "1792206223"}
+{"keyword": "Why cant the input() command let me output more commands?", "platform": "stackexchange", "value": -10.0, "timestamp": "1792172036"}
+{"keyword": "I&#39;m getting an error in qemu when trying to run linux", "platform": "stackexchange", "value": -3.0, "timestamp": "1792209068"}
+{"keyword": "How to implement RK45 algorithm for N-body simulation", "platform": "stackexchange", "value": 2.0, "timestamp": "1792192512"}
+{"keyword": "Assembler for zos addressability problem when using db2 (exec sql)", "platform": "stackexchange", "value": -2.0, "timestamp": "1792202579"}
+{"keyword": "How to formulate a string to png and not corrupt the png?", "platform": "stackexchange", "value": -12.0, "timestamp": "1792146102"}
+{"keyword": "How to link SPIRV-Cross to SDL_shadercross in a CMake project?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792198761"}
+{"keyword": "Why do the slices of my pie chart have different radii and wrong proportions?", "platform": "stackexchange", "value": 2.0, "timestamp": "1792174587"}
+{"keyword": "QGraphicsScene subclass will not add items which reimplement QGraphicsItem.itemChange, due to diamon", "platform": "stackexchange", "value": -3.0, "timestamp": "1792176595"}
+{"keyword": "Replace consecutive if statements with for loop &amp; switch in C", "platform": "stackexchange", "value": 5.0, "timestamp": "1792052111"}
+{"keyword": "Fillable PDF unfillable in Acrobat after being modified by PdfSharp library, but remains fillable in", "platform": "stackexchange", "value": -1.0, "timestamp": "1792192386"}
+{"keyword": "Issue with Powershell function written in $PROFILE path", "platform": "stackexchange", "value": 3.0, "timestamp": "1792163027"}
+{"keyword": "Synchronous text file reading in browser", "platform": "stackexchange", "value": -5.0, "timestamp": "1792153216"}
+{"keyword": "vim: Stop underlining line numbers", "platform": "stackexchange", "value": -2.0, "timestamp": "1792176432"}
+{"keyword": "Dealing with various AH01215: PHP errors", "platform": "stackexchange", "value": -1.0, "timestamp": "1792168957"}
+{"keyword": "Why does adding ORDER BY time DESC cause the query to return no data?", "platform": "stackexchange", "value": 3.0, "timestamp": "1792121826"}
