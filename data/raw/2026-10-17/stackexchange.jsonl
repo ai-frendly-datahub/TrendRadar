@@ -88,3 +88,63 @@
 {"keyword": "vim: Stop underlining line numbers", "platform": "stackexchange", "value": -2.0, "timestamp": "1792176432"}
 {"keyword": "Dealing with various AH01215: PHP errors", "platform": "stackexchange", "value": -1.0, "timestamp": "1792168957"}
 {"keyword": "Why does adding ORDER BY time DESC cause the query to return no data?", "platform": "stackexchange", "value": 3.0, "timestamp": "1792121826"}
+{"keyword": "How do I translate the algorithm from a peer-reviewed IEEE conference paper claiming P=NP into code?", "platform": "stackexchange", "value": -4.0, "timestamp": "1792275479"}
+{"keyword": "PS5 - AnyPS5 - http://github.com/boykopovar/AnyPShttp://github.com/boykopovar/AnyPS5 - ANYPS5_MINGW_", "platform": "stackexchange", "value": -4.0, "timestamp": "1792276834"}
+{"keyword": "Creating a Kotlin project without the standard library", "platform": "stackexchange", "value": 0.0, "timestamp": "1792267523"}
+{"keyword": "How can I find someone who is a good coder and wants to build", "platform": "stackexchange", "value": -6.0, "timestamp": "1792270666"}
+{"keyword": "How to safely manipulate or inspect stack frames in C++ using inline assembly without triggering Und", "platform": "stackexchange", "value": 1.0, "timestamp": "1792254532"}
+{"keyword": "iOS build fails after upgrading to React Native 0.87: &#39;RCTBridge.h&#39; file not found in a libr", "platform": "stackexchange", "value": 0.0, "timestamp": "1792265731"}
+{"keyword": "My bootloader fails to properly read the FAT12 root directory", "platform": "stackexchange", "value": -1.0, "timestamp": "1792267023"}
+{"keyword": "Content Negotiation Standard HTTP response", "platform": "stackexchange", "value": -4.0, "timestamp": "1792261259"}
+{"keyword": "How to copy both a jar and its source jar to a specific folder in one command?", "platform": "stackexchange", "value": 2.0, "timestamp": "1792251172"}
+{"keyword": "How can I format a large number so that it contains a comma (group separator) only between the 100s", "platform": "stackexchange", "value": -2.0, "timestamp": "1792247055"}
+{"keyword": "Import hook at the AST level", "platform": "stackexchange", "value": -4.0, "timestamp": "1792249079"}
+{"keyword": "throwing exceptions to specific parts of the code in python", "platform": "stackexchange", "value": -3.0, "timestamp": "1792251509"}
+{"keyword": "iPhone Duo: tab bar briefly moves right after dismissing a fullScreen modal", "platform": "stackexchange", "value": 0.0, "timestamp": "1792259904"}
+{"keyword": "new to Python and i need help shipping app", "platform": "stackexchange", "value": -6.0, "timestamp": "1792241372"}
+{"keyword": "Retrieve parameters of a redirected website on aiohttp", "platform": "stackexchange", "value": 0.0, "timestamp": "1792249480"}
+{"keyword": "Playwright JavaScript: MakeMyTrip flight search shows NETWORK PROBLEM despite HTTP 200 responses", "platform": "stackexchange", "value": -4.0, "timestamp": "1792249313"}
+{"keyword": "My configurations for Security Onion has not verified successfully in Oracle Virtual Box. What shoul", "platform": "stackexchange", "value": -2.0, "timestamp": "1792249652"}
+{"keyword": "Create a Frame that contains many different Series objects", "platform": "stackexchange", "value": -1.0, "timestamp": "1792251788"}
+{"keyword": "How to quickly transition into blockchain development", "platform": "stackexchange", "value": -7.0, "timestamp": "1792246305"}
+{"keyword": "Cloud Run validateOnly: how do I verify success?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792251324"}
+{"keyword": "Why does removing an entry from a HashMap during iteration throw ConcurrentModificationException?", "platform": "stackexchange", "value": -4.0, "timestamp": "1792238495"}
+{"keyword": "Python can&#39;t find function from imported module - first time creating an __init__.py file", "platform": "stackexchange", "value": -3.0, "timestamp": "1792209346"}
+{"keyword": "Problem with PHP function with referenced (&amp;) parameter", "platform": "stackexchange", "value": -2.0, "timestamp": "1792226444"}
+{"keyword": "How to test rate limit in Rails?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792235848"}
+{"keyword": "doxygen generation reports clang errors - how can I tell which file compilation triggered them?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792224656"}
+{"keyword": "Pydantic v2: default a generic Literal discriminator from its type parameter", "platform": "stackexchange", "value": -2.0, "timestamp": "1792206223"}
+{"keyword": "GridDB Python client returns an unexpected type for TQL aggregation results", "platform": "stackexchange", "value": -2.0, "timestamp": "1792219073"}
+{"keyword": "How to run an executable using Win32 API in x86 ASM?", "platform": "stackexchange", "value": -4.0, "timestamp": "1792233549"}
+{"keyword": "QGraphicsScene subclass will not add items which reimplement QGraphicsItem.itemChange, due to diamon", "platform": "stackexchange", "value": -3.0, "timestamp": "1792176595"}
+{"keyword": "How to link SPIRV-Cross to SDL_shadercross in a CMake project?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792198761"}
+{"keyword": "How do I translate the algorithm from a peer-reviewed IEEE conference paper claiming P=NP into code?", "platform": "stackexchange", "value": -4.0, "timestamp": "1792275479"}
+{"keyword": "PS5 - AnyPS5 - http://github.com/boykopovar/AnyPShttp://github.com/boykopovar/AnyPS5 - ANYPS5_MINGW_", "platform": "stackexchange", "value": -4.0, "timestamp": "1792276834"}
+{"keyword": "Creating a Kotlin project without the standard library", "platform": "stackexchange", "value": 0.0, "timestamp": "1792267523"}
+{"keyword": "How can I find someone who is a good coder and wants to build", "platform": "stackexchange", "value": -6.0, "timestamp": "1792270666"}
+{"keyword": "How to safely manipulate or inspect stack frames in C++ using inline assembly without triggering Und", "platform": "stackexchange", "value": 1.0, "timestamp": "1792254532"}
+{"keyword": "iOS build fails after upgrading to React Native 0.87: &#39;RCTBridge.h&#39; file not found in a libr", "platform": "stackexchange", "value": 0.0, "timestamp": "1792265731"}
+{"keyword": "My bootloader fails to properly read the FAT12 root directory", "platform": "stackexchange", "value": -1.0, "timestamp": "1792267023"}
+{"keyword": "Content Negotiation Standard HTTP response", "platform": "stackexchange", "value": -4.0, "timestamp": "1792261259"}
+{"keyword": "How to copy both a jar and its source jar to a specific folder in one command?", "platform": "stackexchange", "value": 2.0, "timestamp": "1792251172"}
+{"keyword": "How can I format a large number so that it contains a comma (group separator) only between the 100s", "platform": "stackexchange", "value": -2.0, "timestamp": "1792247055"}
+{"keyword": "Import hook at the AST level", "platform": "stackexchange", "value": -4.0, "timestamp": "1792249079"}
+{"keyword": "throwing exceptions to specific parts of the code in python", "platform": "stackexchange", "value": -3.0, "timestamp": "1792251509"}
+{"keyword": "iPhone Duo: tab bar briefly moves right after dismissing a fullScreen modal", "platform": "stackexchange", "value": 0.0, "timestamp": "1792259904"}
+{"keyword": "new to Python and i need help shipping app", "platform": "stackexchange", "value": -6.0, "timestamp": "1792241372"}
+{"keyword": "Retrieve parameters of a redirected website on aiohttp", "platform": "stackexchange", "value": 0.0, "timestamp": "1792249480"}
+{"keyword": "Playwright JavaScript: MakeMyTrip flight search shows NETWORK PROBLEM despite HTTP 200 responses", "platform": "stackexchange", "value": -4.0, "timestamp": "1792249313"}
+{"keyword": "My configurations for Security Onion has not verified successfully in Oracle Virtual Box. What shoul", "platform": "stackexchange", "value": -2.0, "timestamp": "1792249652"}
+{"keyword": "Create a Frame that contains many different Series objects", "platform": "stackexchange", "value": -1.0, "timestamp": "1792251788"}
+{"keyword": "How to quickly transition into blockchain development", "platform": "stackexchange", "value": -7.0, "timestamp": "1792246305"}
+{"keyword": "Cloud Run validateOnly: how do I verify success?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792251324"}
+{"keyword": "Why does removing an entry from a HashMap during iteration throw ConcurrentModificationException?", "platform": "stackexchange", "value": -4.0, "timestamp": "1792238495"}
+{"keyword": "Python can&#39;t find function from imported module - first time creating an __init__.py file", "platform": "stackexchange", "value": -3.0, "timestamp": "1792209346"}
+{"keyword": "Problem with PHP function with referenced (&amp;) parameter", "platform": "stackexchange", "value": -2.0, "timestamp": "1792226444"}
+{"keyword": "How to test rate limit in Rails?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792235848"}
+{"keyword": "doxygen generation reports clang errors - how can I tell which file compilation triggered them?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792224656"}
+{"keyword": "Pydantic v2: default a generic Literal discriminator from its type parameter", "platform": "stackexchange", "value": -2.0, "timestamp": "1792206223"}
+{"keyword": "GridDB Python client returns an unexpected type for TQL aggregation results", "platform": "stackexchange", "value": -2.0, "timestamp": "1792219073"}
+{"keyword": "How to run an executable using Win32 API in x86 ASM?", "platform": "stackexchange", "value": -4.0, "timestamp": "1792233549"}
+{"keyword": "QGraphicsScene subclass will not add items which reimplement QGraphicsItem.itemChange, due to diamon", "platform": "stackexchange", "value": -3.0, "timestamp": "1792176595"}
+{"keyword": "How to link SPIRV-Cross to SDL_shadercross in a CMake project?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792198761"}
