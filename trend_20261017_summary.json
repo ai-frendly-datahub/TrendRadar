@@ -6,59 +6,31 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Seoul",
-      "count": 7
-    },
-    {
-      "name": "South Korea",
-      "count": 7
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 7
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 7
-    },
-    {
-      "name": "Machine learning",
-      "count": 7
-    },
-    {
-      "name": "Climate change",
-      "count": 7
+      "name": "YouTube",
+      "count": 6
     },
     {
       "name": "Electric vehicle",
-      "count": 7
+      "count": 6
     },
     {
       "name": "E-commerce",
-      "count": 7
+      "count": 6
     },
     {
-      "name": "YouTube",
-      "count": 7
+      "name": "Artificial intelligence",
+      "count": 6
     },
     {
       "name": "OpenAI",
-      "count": 7
-    },
-    {
-      "name": "K-pop",
       "count": 6
     },
     {
-      "name": "World Wide Web",
+      "name": "Seoul",
       "count": 6
     },
     {
-      "name": "Samsung",
-      "count": 6
-    },
-    {
-      "name": "Netflix",
+      "name": "Climate change",
       "count": 6
     },
     {
@@ -66,30 +38,58 @@
       "count": 6
     },
     {
-      "name": "persita vs persija jakarta",
+      "name": "Netflix",
+      "count": 6
+    },
+    {
+      "name": "Samsung",
+      "count": 6
+    },
+    {
+      "name": "World Wide Web",
+      "count": 6
+    },
+    {
+      "name": "K-pop",
+      "count": 6
+    },
+    {
+      "name": "Machine learning",
+      "count": 6
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 6
+    },
+    {
+      "name": "South Korea",
+      "count": 6
+    },
+    {
+      "name": "후보",
       "count": 1
     },
     {
-      "name": "데마시아컵",
+      "name": "thứ hạng của real betis gặp barcelona",
       "count": 1
     },
     {
-      "name": "사건",
+      "name": "경주 국제 마라톤",
       "count": 1
     },
     {
-      "name": "zimbabwe vs bangladesh",
+      "name": "음식",
       "count": 1
     },
     {
-      "name": "내일 날씨",
+      "name": "전투기",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 70,
-    "wikipedia": 100,
+    "google_trending": 80,
+    "wikipedia": 90,
     "google": 30
   },
-  "generated_at": "2026-10-17T22:26:43.730394+09:00"
+  "generated_at": "2026-10-17T23:44:33.741427+00:00"
 }
