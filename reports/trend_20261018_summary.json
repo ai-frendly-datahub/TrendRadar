@@ -6,11 +6,11 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Bitcoin",
+      "name": "Electric vehicle",
       "count": 4
     },
     {
-      "name": "YouTube",
+      "name": "Seoul",
       "count": 4
     },
     {
@@ -46,7 +46,7 @@
       "count": 4
     },
     {
-      "name": "OpenAI",
+      "name": "Bitcoin",
       "count": 4
     },
     {
@@ -54,15 +54,15 @@
       "count": 4
     },
     {
-      "name": "Electric vehicle",
-      "count": 4
-    },
-    {
       "name": "E-commerce",
       "count": 4
     },
     {
-      "name": "Seoul",
+      "name": "YouTube",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
       "count": 4
     },
     {
@@ -70,26 +70,26 @@
       "count": 2
     },
     {
-      "name": "인플루언서",
+      "name": "정치인",
       "count": 2
     },
     {
-      "name": "뉴진스",
+      "name": "아이돌",
       "count": 2
     },
     {
-      "name": "스포츠 선수",
+      "name": "K-POP",
       "count": 2
     },
     {
-      "name": "보이그룹",
+      "name": "가수",
       "count": 2
     }
   ],
   "sources": {
-    "google_trending": 90,
-    "google": 50,
+    "google_trending": 100,
+    "google": 40,
     "wikipedia": 60
   },
-  "generated_at": "2026-10-18T22:45:35.822272+09:00"
+  "generated_at": "2026-10-18T23:54:48.948555+00:00"
 }
