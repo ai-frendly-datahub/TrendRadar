@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-18",
+  "category": "trend",
+  "article_count": 200,
+  "source_count": 3,
+  "matched_count": 200,
+  "top_entities": [
+    {
+      "name": "Bitcoin",
+      "count": 4
+    },
+    {
+      "name": "YouTube",
+      "count": 4
+    },
+    {
+      "name": "South Korea",
+      "count": 4
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 4
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 4
+    },
+    {
+      "name": "Machine learning",
+      "count": 4
+    },
+    {
+      "name": "K-pop",
+      "count": 4
+    },
+    {
+      "name": "World Wide Web",
+      "count": 4
+    },
+    {
+      "name": "Samsung",
+      "count": 4
+    },
+    {
+      "name": "Netflix",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
+      "count": 4
+    },
+    {
+      "name": "Climate change",
+      "count": 4
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 4
+    },
+    {
+      "name": "E-commerce",
+      "count": 4
+    },
+    {
+      "name": "Seoul",
+      "count": 4
+    },
+    {
+      "name": "음원차트",
+      "count": 2
+    },
+    {
+      "name": "인플루언서",
+      "count": 2
+    },
+    {
+      "name": "뉴진스",
+      "count": 2
+    },
+    {
+      "name": "스포츠 선수",
+      "count": 2
+    },
+    {
+      "name": "보이그룹",
+      "count": 2
+    }
+  ],
+  "sources": {
+    "google_trending": 90,
+    "google": 50,
+    "wikipedia": 60
+  },
+  "generated_at": "2026-10-18T22:45:35.822272+09:00"
+}
