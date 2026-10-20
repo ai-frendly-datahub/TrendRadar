@@ -6,18 +6,6 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "YouTube",
-      "count": 4
-    },
-    {
-      "name": "Seoul",
-      "count": 4
-    },
-    {
-      "name": "OpenAI",
-      "count": 4
-    },
-    {
       "name": "South Korea",
       "count": 4
     },
@@ -26,70 +14,82 @@
       "count": 4
     },
     {
-      "name": "Artificial intelligence",
-      "count": 4
-    },
-    {
       "name": "Machine learning",
       "count": 4
     },
     {
-      "name": "K-pop",
+      "name": "Artificial intelligence",
+      "count": 4
+    },
+    {
+      "name": "Seoul",
       "count": 4
     },
     {
       "name": "World Wide Web",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Samsung",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Netflix",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Bitcoin",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Climate change",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Electric vehicle",
-      "count": 4
+      "count": 3
     },
     {
       "name": "E-commerce",
-      "count": 4
+      "count": 3
     },
     {
-      "name": "블리치",
+      "name": "YouTube",
+      "count": 3
+    },
+    {
+      "name": "OpenAI",
+      "count": 3
+    },
+    {
+      "name": "K-pop",
+      "count": 3
+    },
+    {
+      "name": "삼성증권",
       "count": 1
     },
     {
-      "name": "사이버펑크",
+      "name": "세종특별자치시",
       "count": 1
     },
     {
-      "name": "수영",
+      "name": "심형래",
       "count": 1
     },
     {
-      "name": "icc cwc league 2",
+      "name": "가디언즈 대 레이스",
       "count": 1
     },
     {
-      "name": "로이킴",
+      "name": "독도의 날",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 110,
-    "google": 30,
-    "wikipedia": 60
+    "google_trending": 120,
+    "wikipedia": 50,
+    "google": 30
   },
-  "generated_at": "2026-10-20T01:47:08.204141+09:00"
+  "generated_at": "2026-10-20T00:55:12.998326+00:00"
 }
