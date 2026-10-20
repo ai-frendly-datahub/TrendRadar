@@ -58,3 +58,33 @@
 {"keyword": "Split and capture text ending with brackets and two letters", "platform": "stackexchange", "value": 0.0, "timestamp": "1792402960"}
 {"keyword": "Bindgen doesn&#39;t convert functions for WASI", "platform": "stackexchange", "value": 1.0, "timestamp": "1792399330"}
 {"keyword": "Render table without a wrapper table in quarto with docx output", "platform": "stackexchange", "value": -2.0, "timestamp": "1792421060"}
+{"keyword": "Flex container not expanding width for text", "platform": "stackexchange", "value": 0.0, "timestamp": "1792505559"}
+{"keyword": "Introducing unit tests in an existing C project", "platform": "stackexchange", "value": 1.0, "timestamp": "1792506328"}
+{"keyword": "How can I capture system audio and pass it to a C++17 DSP engine on Windows?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792505906"}
+{"keyword": "Focus effect applied to a div does nothing", "platform": "stackexchange", "value": 1.0, "timestamp": "1792502273"}
+{"keyword": "How can I use different output templates for different log levels with Serilog when using appsetting", "platform": "stackexchange", "value": 1.0, "timestamp": "1792504718"}
+{"keyword": "openxlsx2 and long hyperlinks", "platform": "stackexchange", "value": 2.0, "timestamp": "1792503519"}
+{"keyword": "AZCopy &quot;File Creation Error destination file has no known flags&quot;", "platform": "stackexchange", "value": 0.0, "timestamp": "1792502923"}
+{"keyword": "How can I conditionally load a JavaScript file only on WooCommerce product pages in WordPress?", "platform": "stackexchange", "value": 3.0, "timestamp": "1792495057"}
+{"keyword": "White flicker after animation", "platform": "stackexchange", "value": 0.0, "timestamp": "1792497476"}
+{"keyword": "Alexa custom skill in nl-NL locale is never invoked (&quot;Ik weet niet zeker hoe ik je daarmee kan", "platform": "stackexchange", "value": 0.0, "timestamp": "1792501175"}
+{"keyword": "What sort of smoothing function is this?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792496615"}
+{"keyword": "Quantum Espresso The calculation on gipaw.x causes an error: Program received signal SIGSEGV: Segmen", "platform": "stackexchange", "value": -2.0, "timestamp": "1792495851"}
+{"keyword": "Determining the Global Position of a Rect", "platform": "stackexchange", "value": 0.0, "timestamp": "1792494918"}
+{"keyword": "Does FairPlay capture protection extend to HTML images beneath a video with mix-blend-mode in Safari", "platform": "stackexchange", "value": 1.0, "timestamp": "1792495047"}
+{"keyword": "Why I get that response when I try to install library to Laravel inside Docker container?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792492828"}
+{"keyword": "How should I define structs if I want to load data into them and then immediately change its type", "platform": "stackexchange", "value": 1.0, "timestamp": "1792477090"}
+{"keyword": "Flaky tests on laravel imports", "platform": "stackexchange", "value": 1.0, "timestamp": "1792490820"}
+{"keyword": "Unable to copy file hex1bpty.exe", "platform": "stackexchange", "value": 0.0, "timestamp": "1792487277"}
+{"keyword": "Buttons disappear while using &#39;TAB&#39; key in my SWT UI", "platform": "stackexchange", "value": 0.0, "timestamp": "1792481010"}
+{"keyword": "Why doesn&#39;t this static_assert pass in GCC, but passes in Clang and MSVC?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792482679"}
+{"keyword": "What is difference between #embed and #include in C", "platform": "stackexchange", "value": 7.0, "timestamp": "1792434998"}
+{"keyword": "Switch / IF Errors", "platform": "stackexchange", "value": 0.0, "timestamp": "1792423705"}
+{"keyword": "An empty alarm window makes APPROX_COUNT_DISTINCT fail with a HyperLogLog error", "platform": "stackexchange", "value": 3.0, "timestamp": "1792478510"}
+{"keyword": "One app, two windows, but not split screen", "platform": "stackexchange", "value": 0.0, "timestamp": "1792477087"}
+{"keyword": "Draw letters in python console given x y coordinates and characters", "platform": "stackexchange", "value": -6.0, "timestamp": "1792471061"}
+{"keyword": "Hibernate 6.6.x throws NullPointerException when using LEFT JOIN FETCH for ManyToOne associations", "platform": "stackexchange", "value": -1.0, "timestamp": "1792477208"}
+{"keyword": "Access Eiffel attributes inside external C++ code", "platform": "stackexchange", "value": -5.0, "timestamp": "1792474106"}
+{"keyword": "How do I add another parent to a Jujutsu commit?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792473885"}
+{"keyword": "What constitutes a unit test vs. an integration test in Rust? Testing best practices", "platform": "stackexchange", "value": -2.0, "timestamp": "1792473219"}
+{"keyword": "&quot;ffconcat merge method is not supported for fMP4 streams. Using append instead&quot;", "platform": "stackexchange", "value": -7.0, "timestamp": "1792459181"}
