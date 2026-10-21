@@ -6,10 +6,6 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "K-pop",
-      "count": 3
-    },
-    {
       "name": "World Wide Web",
       "count": 3
     },
@@ -18,35 +14,11 @@
       "count": 3
     },
     {
-      "name": "Netflix",
-      "count": 3
-    },
-    {
-      "name": "Bitcoin",
+      "name": "Climate change",
       "count": 3
     },
     {
       "name": "Seoul",
-      "count": 3
-    },
-    {
-      "name": "South Korea",
-      "count": 3
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 3
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 3
-    },
-    {
-      "name": "Machine learning",
-      "count": 3
-    },
-    {
-      "name": "Climate change",
       "count": 3
     },
     {
@@ -66,23 +38,51 @@
       "count": 3
     },
     {
-      "name": "lucero acosta",
+      "name": "South Korea",
+      "count": 3
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 3
+    },
+    {
+      "name": "K-pop",
+      "count": 3
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 3
+    },
+    {
+      "name": "Machine learning",
+      "count": 3
+    },
+    {
+      "name": "Netflix",
+      "count": 3
+    },
+    {
+      "name": "Bitcoin",
+      "count": 3
+    },
+    {
+      "name": "明天的天氣",
+      "count": 2
+    },
+    {
+      "name": "샘 김",
       "count": 1
     },
     {
-      "name": "seoul weather",
+      "name": "파울루 벤투",
       "count": 1
     },
     {
-      "name": "황선우",
+      "name": "잭 로그",
       "count": 1
     },
     {
-      "name": "외환시장",
-      "count": 1
-    },
-    {
-      "name": "문재인",
+      "name": "비정규직",
       "count": 1
     }
   ],
@@ -91,5 +91,5 @@
     "wikipedia": 45,
     "google": 30
   },
-  "generated_at": "2026-10-21T00:23:19.983316+00:00"
+  "generated_at": "2026-10-21T23:50:42.286148+09:00"
 }

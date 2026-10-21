@@ -118,3 +118,63 @@
 {"keyword": "Processes vs Threads, as the Linux Kernel Sees Them", "platform": "devto", "value": 5.0, "timestamp": "2026-10-20T20:59:17Z"}
 {"keyword": "Slow productivity", "platform": "devto", "value": 0.0, "timestamp": "2026-10-20T10:51:00Z"}
 {"keyword": "I'm 12. I Built an Ephemeral Cloud Platform on a $150 Phone (And Fought 10 Bugs to Win)", "platform": "devto", "value": 22.0, "timestamp": "2026-10-20T05:22:03Z"}
+{"keyword": "How to Become a Tech Conference Speaker (And Why You Might Regret It)", "platform": "devto", "value": 63.0, "timestamp": "2026-10-21T08:05:30Z"}
+{"keyword": "In Ruby, Objects Don't Have Methods. How Method Lookup Actually Works.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-21T09:57:18Z"}
+{"keyword": "I'm Building a Hiring Platform That Starts With People, Not Job Descriptions", "platform": "devto", "value": 5.0, "timestamp": "2026-10-20T22:01:20Z"}
+{"keyword": "How to publish posts via the dev.to API", "platform": "devto", "value": 10.0, "timestamp": "2026-10-21T07:01:00Z"}
+{"keyword": "Building an Open-Source Support Tool That Turns Your Docs into Reusable Knowledge", "platform": "devto", "value": 92.0, "timestamp": "2026-10-20T17:15:15Z"}
+{"keyword": "Processes vs Threads, as the Linux Kernel Sees Them", "platform": "devto", "value": 25.0, "timestamp": "2026-10-20T20:59:17Z"}
+{"keyword": "2 Agent Skills Every Frontend Developer Should Try", "platform": "devto", "value": 20.0, "timestamp": "2026-10-20T18:15:41Z"}
+{"keyword": "I'm a First-Year ECE Student Trying to Figure Out \"The Prestige Path\" vs. Just Building Stuff", "platform": "devto", "value": 26.0, "timestamp": "2026-10-21T11:27:02Z"}
+{"keyword": "My OSS Projects: dets", "platform": "devto", "value": 6.0, "timestamp": "2026-10-21T09:16:08Z"}
+{"keyword": "What Do You Make When You Can Make Anything?", "platform": "devto", "value": 13.0, "timestamp": "2026-10-20T16:45:47Z"}
+{"keyword": "Stuck in the same dev.to topics? An open model fixed it.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-21T02:13:00Z"}
+{"keyword": "Where Do Your Users' Passwords Actually Live? Self-Hosted vs Managed Keycloak", "platform": "devto", "value": 12.0, "timestamp": "2026-10-21T09:06:20Z"}
+{"keyword": "SlothFinance: The Autonomous Open-Source AI Financial Tamer That Rewards Your Laziness 🦥", "platform": "devto", "value": 20.0, "timestamp": "2026-10-20T21:45:31Z"}
+{"keyword": "A Gemini 500 on a resume upload turned into a .docx bug, a frozen DigitalOcean droplet, a timed-out", "platform": "devto", "value": 0.0, "timestamp": "2026-10-21T08:25:54Z"}
+{"keyword": "What happens to your Redis data in Docker", "platform": "devto", "value": 12.0, "timestamp": "2026-10-20T16:46:47Z"}
+{"keyword": "Five World Series Pitching Predictions, Locked Before Game 1", "platform": "devto", "value": 5.0, "timestamp": "2026-10-20T18:20:49Z"}
+{"keyword": "I broke an Elementor site on purpose, then built a tool to find the bugs", "platform": "devto", "value": 2.0, "timestamp": "2026-10-20T21:22:10Z"}
+{"keyword": "Kubernetes 1.35's kubelet refuses to start on a cgroup v1 host by default", "platform": "devto", "value": 6.0, "timestamp": "2026-10-21T10:00:00Z"}
+{"keyword": "5 Best LLM Gateways", "platform": "devto", "value": 7.0, "timestamp": "2026-10-21T10:00:36Z"}
+{"keyword": "Reverse Engineer Anything: The Open-Source Tool That Turns Any Binary Into a Readable Spec (And Why", "platform": "devto", "value": 8.0, "timestamp": "2026-10-21T00:01:58Z"}
+{"keyword": "I wrote a 10,000-line Windows security suite in one Python file. Here's how the crypto container wor", "platform": "devto", "value": 26.0, "timestamp": "2026-10-21T05:05:38Z"}
+{"keyword": "In Defense of Being a Little Lazy", "platform": "devto", "value": 9.0, "timestamp": "2026-10-21T02:02:53Z"}
+{"keyword": "VOX: I asked for two support replies. Then I turned the server off.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-21T06:45:42Z"}
+{"keyword": "Who watches the watcher when the watcher is a file in the repo?", "platform": "devto", "value": 8.0, "timestamp": "2026-10-21T08:47:40Z"}
+{"keyword": "Try Real Java in Your Browser, Compiler Errors Included", "platform": "devto", "value": 1.0, "timestamp": "2026-10-20T18:39:41Z"}
+{"keyword": "A 9.2 unauthenticated RCE in PHP: the audit, the patch window, and the offline switch", "platform": "devto", "value": 6.0, "timestamp": "2026-10-21T07:59:29Z"}
+{"keyword": "Your Platform Engineering Investment Is Not Paying Off. Here's Why.", "platform": "devto", "value": 1.0, "timestamp": "2026-10-21T12:50:56Z"}
+{"keyword": "I Let an LLM Agent Search for Trading Strategies. A Simple Heuristic Beat It.", "platform": "devto", "value": 9.0, "timestamp": "2026-10-20T18:22:17Z"}
+{"keyword": "Best Preview Environment Tools for Kubernetes", "platform": "devto", "value": 8.0, "timestamp": "2026-10-21T13:39:30Z"}
+{"keyword": "Requests that fail after a Kubernetes rollout has finished", "platform": "devto", "value": 8.0, "timestamp": "2026-10-21T06:14:15Z"}
+{"keyword": "How to Become a Tech Conference Speaker (And Why You Might Regret It)", "platform": "devto", "value": 63.0, "timestamp": "2026-10-21T08:05:30Z"}
+{"keyword": "In Ruby, Objects Don't Have Methods. How Method Lookup Actually Works.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-21T09:57:18Z"}
+{"keyword": "I'm Building a Hiring Platform That Starts With People, Not Job Descriptions", "platform": "devto", "value": 5.0, "timestamp": "2026-10-20T22:01:20Z"}
+{"keyword": "How to publish posts via the dev.to API", "platform": "devto", "value": 10.0, "timestamp": "2026-10-21T07:01:00Z"}
+{"keyword": "Building an Open-Source Support Tool That Turns Your Docs into Reusable Knowledge", "platform": "devto", "value": 92.0, "timestamp": "2026-10-20T17:15:15Z"}
+{"keyword": "Processes vs Threads, as the Linux Kernel Sees Them", "platform": "devto", "value": 25.0, "timestamp": "2026-10-20T20:59:17Z"}
+{"keyword": "2 Agent Skills Every Frontend Developer Should Try", "platform": "devto", "value": 20.0, "timestamp": "2026-10-20T18:15:41Z"}
+{"keyword": "I'm a First-Year ECE Student Trying to Figure Out \"The Prestige Path\" vs. Just Building Stuff", "platform": "devto", "value": 26.0, "timestamp": "2026-10-21T11:27:02Z"}
+{"keyword": "My OSS Projects: dets", "platform": "devto", "value": 6.0, "timestamp": "2026-10-21T09:16:08Z"}
+{"keyword": "What Do You Make When You Can Make Anything?", "platform": "devto", "value": 13.0, "timestamp": "2026-10-20T16:45:47Z"}
+{"keyword": "Stuck in the same dev.to topics? An open model fixed it.", "platform": "devto", "value": 3.0, "timestamp": "2026-10-21T02:13:00Z"}
+{"keyword": "Where Do Your Users' Passwords Actually Live? Self-Hosted vs Managed Keycloak", "platform": "devto", "value": 12.0, "timestamp": "2026-10-21T09:06:20Z"}
+{"keyword": "SlothFinance: The Autonomous Open-Source AI Financial Tamer That Rewards Your Laziness 🦥", "platform": "devto", "value": 20.0, "timestamp": "2026-10-20T21:45:31Z"}
+{"keyword": "A Gemini 500 on a resume upload turned into a .docx bug, a frozen DigitalOcean droplet, a timed-out", "platform": "devto", "value": 0.0, "timestamp": "2026-10-21T08:25:54Z"}
+{"keyword": "What happens to your Redis data in Docker", "platform": "devto", "value": 12.0, "timestamp": "2026-10-20T16:46:47Z"}
+{"keyword": "Five World Series Pitching Predictions, Locked Before Game 1", "platform": "devto", "value": 5.0, "timestamp": "2026-10-20T18:20:49Z"}
+{"keyword": "I broke an Elementor site on purpose, then built a tool to find the bugs", "platform": "devto", "value": 2.0, "timestamp": "2026-10-20T21:22:10Z"}
+{"keyword": "Kubernetes 1.35's kubelet refuses to start on a cgroup v1 host by default", "platform": "devto", "value": 6.0, "timestamp": "2026-10-21T10:00:00Z"}
+{"keyword": "5 Best LLM Gateways", "platform": "devto", "value": 7.0, "timestamp": "2026-10-21T10:00:36Z"}
+{"keyword": "Reverse Engineer Anything: The Open-Source Tool That Turns Any Binary Into a Readable Spec (And Why", "platform": "devto", "value": 8.0, "timestamp": "2026-10-21T00:01:58Z"}
+{"keyword": "I wrote a 10,000-line Windows security suite in one Python file. Here's how the crypto container wor", "platform": "devto", "value": 26.0, "timestamp": "2026-10-21T05:05:38Z"}
+{"keyword": "In Defense of Being a Little Lazy", "platform": "devto", "value": 9.0, "timestamp": "2026-10-21T02:02:53Z"}
+{"keyword": "VOX: I asked for two support replies. Then I turned the server off.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-21T06:45:42Z"}
+{"keyword": "Who watches the watcher when the watcher is a file in the repo?", "platform": "devto", "value": 8.0, "timestamp": "2026-10-21T08:47:40Z"}
+{"keyword": "Try Real Java in Your Browser, Compiler Errors Included", "platform": "devto", "value": 1.0, "timestamp": "2026-10-20T18:39:41Z"}
+{"keyword": "A 9.2 unauthenticated RCE in PHP: the audit, the patch window, and the offline switch", "platform": "devto", "value": 6.0, "timestamp": "2026-10-21T07:59:29Z"}
+{"keyword": "Your Platform Engineering Investment Is Not Paying Off. Here's Why.", "platform": "devto", "value": 1.0, "timestamp": "2026-10-21T12:50:56Z"}
+{"keyword": "I Let an LLM Agent Search for Trading Strategies. A Simple Heuristic Beat It.", "platform": "devto", "value": 9.0, "timestamp": "2026-10-20T18:22:17Z"}
+{"keyword": "Best Preview Environment Tools for Kubernetes", "platform": "devto", "value": 8.0, "timestamp": "2026-10-21T13:39:30Z"}
+{"keyword": "Requests that fail after a Kubernetes rollout has finished", "platform": "devto", "value": 8.0, "timestamp": "2026-10-21T06:14:15Z"}

@@ -114,3 +114,61 @@
 {"keyword": "'Der Viener Schlinger': The meat cannon that launched 20k hot dogs", "platform": "hackernews", "value": 86.0, "timestamp": "1792370581"}
 {"keyword": "2026 is an exciting year for the Rust compiler (and me)", "platform": "hackernews", "value": 152.0, "timestamp": "1792504428"}
 {"keyword": "Facebook Pages require paid subscription to post more than two links per month", "platform": "hackernews", "value": 406.0, "timestamp": "1792508768"}
+{"keyword": "PHP 8.2.35", "platform": "hackernews", "value": 318.0, "timestamp": "1792590333"}
+{"keyword": "PHP2Shell: AI uncovers critical RCE in PHP", "platform": "hackernews", "value": 142.0, "timestamp": "1792590199"}
+{"keyword": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds", "platform": "hackernews", "value": 490.0, "timestamp": "1792573688"}
+{"keyword": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"", "platform": "hackernews", "value": 53.0, "timestamp": "1792591282"}
+{"keyword": "Qwen3-Coder writes less secure code when told it's for a US persona", "platform": "hackernews", "value": 171.0, "timestamp": "1792585359"}
+{"keyword": "Most advice is right for the person giving it", "platform": "hackernews", "value": 63.0, "timestamp": "1792588653"}
+{"keyword": "Patch the Planet: global response coordination as agents uncover vulnerabilities", "platform": "hackernews", "value": 55.0, "timestamp": "1792591423"}
+{"keyword": "LayerFS: The filesystem for AI coding agents", "platform": "hackernews", "value": 37.0, "timestamp": "1792586086"}
+{"keyword": "The No Kings Takedown Is Why You Shouldn't Rent Your Megaphone from Zuck", "platform": "hackernews", "value": 77.0, "timestamp": "1792591285"}
+{"keyword": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)", "platform": "hackernews", "value": 1388.0, "timestamp": "1792527350"}
+{"keyword": "The Future of CSS", "platform": "hackernews", "value": 502.0, "timestamp": "1792547248"}
+{"keyword": "Whatever Happened to Fire Escapes", "platform": "hackernews", "value": 115.0, "timestamp": "1792577683"}
+{"keyword": "C++ futures part 1: The mental model", "platform": "hackernews", "value": 12.0, "timestamp": "1792433153"}
+{"keyword": "Way to Play Super Mario 64: On Apple Vision Pro", "platform": "hackernews", "value": 104.0, "timestamp": "1792401694"}
+{"keyword": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor", "platform": "hackernews", "value": 6.0, "timestamp": "1792591226"}
+{"keyword": "Dutch National Cyber Security Center is Offline because it uses PHP", "platform": "hackernews", "value": 207.0, "timestamp": "1792585888"}
+{"keyword": "Show HN: SimCity, but with Permits", "platform": "hackernews", "value": 867.0, "timestamp": "1792520949"}
+{"keyword": "Muse exposes users' personal and business secrets when they share conversations", "platform": "hackernews", "value": 277.0, "timestamp": "1792543559"}
+{"keyword": "eMudhra intermediate CA compromise", "platform": "hackernews", "value": 1115.0, "timestamp": "1792504713"}
+{"keyword": "The Lucrative World of Literary Scams", "platform": "hackernews", "value": 32.0, "timestamp": "1792410215"}
+{"keyword": "The Decoherence Trap", "platform": "hackernews", "value": 105.0, "timestamp": "1792398944"}
+{"keyword": "Voxtral 3", "platform": "hackernews", "value": 736.0, "timestamp": "1792512127"}
+{"keyword": "Feds suspect ransom negotiator ran ShinyHunters extortion site", "platform": "hackernews", "value": 242.0, "timestamp": "1792534865"}
+{"keyword": "OpenAI: Using AI agents to uncover new leads in biological data", "platform": "hackernews", "value": 11.0, "timestamp": "1792589820"}
+{"keyword": "Good type against all odds", "platform": "hackernews", "value": 172.0, "timestamp": "1792547107"}
+{"keyword": "The Other Epidemic: Trying to get off benzodiazepines", "platform": "hackernews", "value": 241.0, "timestamp": "1792537449"}
+{"keyword": "In Hilbert space, all things are quantumly possible", "platform": "hackernews", "value": 120.0, "timestamp": "1792548255"}
+{"keyword": "A page looks innocent: the algorithms behind a typeset page", "platform": "hackernews", "value": 11.0, "timestamp": "1792328814"}
+{"keyword": "Google open-sources TorchTPU, a native PyTorch back end for TPUs", "platform": "hackernews", "value": 368.0, "timestamp": "1792514424"}
+{"keyword": "PHP 8.2.35", "platform": "hackernews", "value": 318.0, "timestamp": "1792590333"}
+{"keyword": "PHP2Shell: AI uncovers critical RCE in PHP", "platform": "hackernews", "value": 142.0, "timestamp": "1792590199"}
+{"keyword": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds", "platform": "hackernews", "value": 490.0, "timestamp": "1792573688"}
+{"keyword": "DuckDB 2.0.0 LTS \"Cinnamon Teal\"", "platform": "hackernews", "value": 53.0, "timestamp": "1792591282"}
+{"keyword": "Qwen3-Coder writes less secure code when told it's for a US persona", "platform": "hackernews", "value": 171.0, "timestamp": "1792585359"}
+{"keyword": "Most advice is right for the person giving it", "platform": "hackernews", "value": 63.0, "timestamp": "1792588653"}
+{"keyword": "Patch the Planet: global response coordination as agents uncover vulnerabilities", "platform": "hackernews", "value": 55.0, "timestamp": "1792591423"}
+{"keyword": "LayerFS: The filesystem for AI coding agents", "platform": "hackernews", "value": 37.0, "timestamp": "1792586086"}
+{"keyword": "The No Kings Takedown Is Why You Shouldn't Rent Your Megaphone from Zuck", "platform": "hackernews", "value": 77.0, "timestamp": "1792591285"}
+{"keyword": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)", "platform": "hackernews", "value": 1388.0, "timestamp": "1792527350"}
+{"keyword": "The Future of CSS", "platform": "hackernews", "value": 502.0, "timestamp": "1792547248"}
+{"keyword": "Whatever Happened to Fire Escapes", "platform": "hackernews", "value": 115.0, "timestamp": "1792577683"}
+{"keyword": "C++ futures part 1: The mental model", "platform": "hackernews", "value": 12.0, "timestamp": "1792433153"}
+{"keyword": "Way to Play Super Mario 64: On Apple Vision Pro", "platform": "hackernews", "value": 104.0, "timestamp": "1792401694"}
+{"keyword": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor", "platform": "hackernews", "value": 6.0, "timestamp": "1792591226"}
+{"keyword": "Dutch National Cyber Security Center is Offline because it uses PHP", "platform": "hackernews", "value": 207.0, "timestamp": "1792585888"}
+{"keyword": "Show HN: SimCity, but with Permits", "platform": "hackernews", "value": 867.0, "timestamp": "1792520949"}
+{"keyword": "Muse exposes users' personal and business secrets when they share conversations", "platform": "hackernews", "value": 277.0, "timestamp": "1792543559"}
+{"keyword": "eMudhra intermediate CA compromise", "platform": "hackernews", "value": 1115.0, "timestamp": "1792504713"}
+{"keyword": "The Lucrative World of Literary Scams", "platform": "hackernews", "value": 32.0, "timestamp": "1792410215"}
+{"keyword": "The Decoherence Trap", "platform": "hackernews", "value": 105.0, "timestamp": "1792398944"}
+{"keyword": "Voxtral 3", "platform": "hackernews", "value": 736.0, "timestamp": "1792512127"}
+{"keyword": "Feds suspect ransom negotiator ran ShinyHunters extortion site", "platform": "hackernews", "value": 242.0, "timestamp": "1792534865"}
+{"keyword": "OpenAI: Using AI agents to uncover new leads in biological data", "platform": "hackernews", "value": 11.0, "timestamp": "1792589820"}
+{"keyword": "Good type against all odds", "platform": "hackernews", "value": 172.0, "timestamp": "1792547107"}
+{"keyword": "The Other Epidemic: Trying to get off benzodiazepines", "platform": "hackernews", "value": 241.0, "timestamp": "1792537449"}
+{"keyword": "In Hilbert space, all things are quantumly possible", "platform": "hackernews", "value": 120.0, "timestamp": "1792548255"}
+{"keyword": "A page looks innocent: the algorithms behind a typeset page", "platform": "hackernews", "value": 11.0, "timestamp": "1792328814"}
+{"keyword": "Google open-sources TorchTPU, a native PyTorch back end for TPUs", "platform": "hackernews", "value": 368.0, "timestamp": "1792514424"}
