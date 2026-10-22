@@ -58,3 +58,33 @@
 {"keyword": "How can I route system/game audio through a real-time C++ DSP pipeline instead of microphone capture", "platform": "stackexchange", "value": -1.0, "timestamp": "1792588045"}
 {"keyword": "Object initialisation and firing initialisation event", "platform": "stackexchange", "value": 1.0, "timestamp": "1792592448"}
 {"keyword": "How to use variadic system calls from assembly? (Linux, x86-64)", "platform": "stackexchange", "value": 2.0, "timestamp": "1792587703"}
+{"keyword": "How to prevent race conditions when processing real-time sports events from a WebSocket API in Node.", "platform": "stackexchange", "value": 0.0, "timestamp": "1792679285"}
+{"keyword": "dbeaver community edition: How to show only non NULL columns", "platform": "stackexchange", "value": 0.0, "timestamp": "1792671280"}
+{"keyword": "Open application from keyboard extension – current status?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792674637"}
+{"keyword": "Alternative import hook for modifying source code before compiling", "platform": "stackexchange", "value": 0.0, "timestamp": "1792671199"}
+{"keyword": "Working with noise words in CONTAINSTABLE", "platform": "stackexchange", "value": 3.0, "timestamp": "1792670598"}
+{"keyword": "iPhone mirroring SwiftUI NavigationSplitView only showing sidebar on launch", "platform": "stackexchange", "value": 1.0, "timestamp": "1792673825"}
+{"keyword": "Is it possible to re-attach an application automatically when it restarts?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792673266"}
+{"keyword": "Customer Engagement Platform", "platform": "stackexchange", "value": -5.0, "timestamp": "1792671004"}
+{"keyword": "How can I know if my application is affected by the &quot;PHP2Shell&quot; vulnerabilities CVE-2026-1", "platform": "stackexchange", "value": 4.0, "timestamp": "1792658274"}
+{"keyword": "How to filter color vector with values from other vector", "platform": "stackexchange", "value": 1.0, "timestamp": "1792662607"}
+{"keyword": "Move chat notify window settings into hook config for custom reminder scripts", "platform": "stackexchange", "value": -4.0, "timestamp": "1792668485"}
+{"keyword": "DocuSign API endpoint /restapi/v2.1/accounts/{accountId}/envelopes search_text problem", "platform": "stackexchange", "value": 0.0, "timestamp": "1792667479"}
+{"keyword": "How to configure Nginx to benchmark TCP connection limits and observe Recv-Q bottlenecks without a b", "platform": "stackexchange", "value": 0.0, "timestamp": "1792669980"}
+{"keyword": "Alma Linux PHP update upload progress no longer working", "platform": "stackexchange", "value": -1.0, "timestamp": "1792665248"}
+{"keyword": "Corepoint 7.5.3 Administration REST API: what is the base URL and authentication for calling it?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792666897"}
+{"keyword": "GridDB Python client: RowSet becomes invalid when the same query result is fetched twice", "platform": "stackexchange", "value": 0.0, "timestamp": "1792667221"}
+{"keyword": "#include file name clash vs. generated header", "platform": "stackexchange", "value": 1.0, "timestamp": "1792654157"}
+{"keyword": "Can I use EntityManager CRUD operations with only Jakarta Persistence API, without a JPA provider or", "platform": "stackexchange", "value": 0.0, "timestamp": "1792662516"}
+{"keyword": "Why is my C++ program giving me some answers that are not the same as the solution answers?", "platform": "stackexchange", "value": -6.0, "timestamp": "1792647763"}
+{"keyword": "ACC Webhook Event Delays and Multiple Notifications During File and Folder Operations", "platform": "stackexchange", "value": 0.0, "timestamp": "1792666142"}
+{"keyword": "Xcelium 24.03+: how to get a single $setuphold line in annotation summary (without separate $setup/$", "platform": "stackexchange", "value": 0.0, "timestamp": "1792653533"}
+{"keyword": "How to stop Inkscape drawing outline around original shapes after union?", "platform": "stackexchange", "value": -3.0, "timestamp": "1792661729"}
+{"keyword": "Force CSS overline to appear on right side of vertical Japanese text", "platform": "stackexchange", "value": 0.0, "timestamp": "1792657146"}
+{"keyword": "Instagram Login API: text DM webhooks missing, reactions lack sender/recipient IDs, and conversation", "platform": "stackexchange", "value": 1.0, "timestamp": "1792661916"}
+{"keyword": "X11 event loop behavior", "platform": "stackexchange", "value": 1.0, "timestamp": "1792641738"}
+{"keyword": "Infinite page scroll causing problem in image display", "platform": "stackexchange", "value": 0.0, "timestamp": "1792648355"}
+{"keyword": "What is the most stable hardware identifier for machine licensing in Java — works on Windows, Linux,", "platform": "stackexchange", "value": -6.0, "timestamp": "1792654486"}
+{"keyword": "Breaking long URLs in comments, still having them selectable/clickable", "platform": "stackexchange", "value": -2.0, "timestamp": "1792586465"}
+{"keyword": "How to use one sequence per table in Entity Framework Core to generate new primary keys on INSERT in", "platform": "stackexchange", "value": 0.0, "timestamp": "1792618460"}
+{"keyword": "How can I temporarily mitigate CVE-2026-109618 and CVE-2026-109619 on Bitnami PHP-FPM Wordpress - PH", "platform": "stackexchange", "value": 3.0, "timestamp": "1792611605"}
