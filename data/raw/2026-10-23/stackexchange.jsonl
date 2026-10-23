@@ -58,3 +58,33 @@
 {"keyword": "EPERM issue in VS Code", "platform": "stackexchange", "value": -7.0, "timestamp": "1792684567"}
 {"keyword": "Signaling Mach semaphores from an IOProc", "platform": "stackexchange", "value": 1.0, "timestamp": "1792682973"}
 {"keyword": "Artifactory Debian virtual repo shows &quot;Origin: Artifactory&quot; instead of the Origin/Label se", "platform": "stackexchange", "value": -2.0, "timestamp": "1792682071"}
+{"keyword": "Apache2 mod_userdir mod_php disabling php_admin_engine Off php file gets downloaded", "platform": "stackexchange", "value": 0.0, "timestamp": "1792764076"}
+{"keyword": "Why does this linked-list C code segfault?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792760628"}
+{"keyword": "Occasionally, when executing a closeNow on a MINA IoSession, the close times out and the connection", "platform": "stackexchange", "value": -1.0, "timestamp": "1792764613"}
+{"keyword": "How can the choice of `a` of a `Maybe a` being pattern matched cause both `Nothing` and `Just _` gua", "platform": "stackexchange", "value": 0.0, "timestamp": "1792757056"}
+{"keyword": "issues with facet_wrap and ggsignif", "platform": "stackexchange", "value": -1.0, "timestamp": "1792750261"}
+{"keyword": "Why does available storage on Android emulator goes down every debug run?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792755526"}
+{"keyword": "Sign in with a digital certificate a bundle or msi project done with WiX 5", "platform": "stackexchange", "value": 0.0, "timestamp": "1792752682"}
+{"keyword": "Hidden grids can enter a persistent geometry refresh loop when non-finite viewport dimensions are st", "platform": "stackexchange", "value": -3.0, "timestamp": "1792753632"}
+{"keyword": "Xcode macOS widget builds successfully but fails at runtime", "platform": "stackexchange", "value": -2.0, "timestamp": "1792750482"}
+{"keyword": "Built-in browser VS Code", "platform": "stackexchange", "value": -10.0, "timestamp": "1792743310"}
+{"keyword": "Cannot copy file from W11 to Android Studio simulated device where name contains a semicolon", "platform": "stackexchange", "value": -3.0, "timestamp": "1792749359"}
+{"keyword": "Collibra edge: ADF", "platform": "stackexchange", "value": -8.0, "timestamp": "1792746640"}
+{"keyword": "file_get_contents fails for reCaptcha siteverify", "platform": "stackexchange", "value": -2.0, "timestamp": "1792721109"}
+{"keyword": "Drop database with missing .mdf file in SQL Server (localdb)", "platform": "stackexchange", "value": -3.0, "timestamp": "1792738952"}
+{"keyword": "Why does my local Qwen LLM report that no business indicators are available when my pandas DataFrame", "platform": "stackexchange", "value": -3.0, "timestamp": "1792742302"}
+{"keyword": "How can I prevent infinite recursion and a SIGSEGV when using std::shared_ptr with an incomplete typ", "platform": "stackexchange", "value": 4.0, "timestamp": "1792707680"}
+{"keyword": "jaspr failed to read InheritedComponent", "platform": "stackexchange", "value": -2.0, "timestamp": "1792732795"}
+{"keyword": "Pump utilisation ratios from two INT32 series lose their fractional part", "platform": "stackexchange", "value": -4.0, "timestamp": "1792740768"}
+{"keyword": "How can I know if my application is affected by the &quot;PHP2Shell&quot; vulnerabilities CVE-2026-1", "platform": "stackexchange", "value": 15.0, "timestamp": "1792658274"}
+{"keyword": "How can I make a vector append function type-agnostic in C?", "platform": "stackexchange", "value": 3.0, "timestamp": "1792685973"}
+{"keyword": "error: Calling setState synchronously within an effect can trigger cascading renders", "platform": "stackexchange", "value": -4.0, "timestamp": "1792735543"}
+{"keyword": "Is there a Slack API to retrieve incoming webhook URLs for channels where my app was never installed", "platform": "stackexchange", "value": -3.0, "timestamp": "1792733825"}
+{"keyword": "How can I split double hyphens in a Python word counter while preserving single hyphens and apostrop", "platform": "stackexchange", "value": 1.0, "timestamp": "1792688997"}
+{"keyword": "Downcast generic interface (INumber&lt;T&gt;) to derived generic interface (IBinaryInteger&lt;T&gt;)", "platform": "stackexchange", "value": 3.0, "timestamp": "1792692929"}
+{"keyword": "Optimize query to get row-based data with lots of attributes?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792685101"}
+{"keyword": "The property &#39;{EntityName}.{PropertyName}&#39; is part of a key and so cannot be modified or mar", "platform": "stackexchange", "value": 1.0, "timestamp": "1792704909"}
+{"keyword": "Alternative import hook for modifying source code before compiling", "platform": "stackexchange", "value": -4.0, "timestamp": "1792671199"}
+{"keyword": "Working with noise words in CONTAINSTABLE", "platform": "stackexchange", "value": 3.0, "timestamp": "1792670598"}
+{"keyword": "How to split the string value of an environment variable on underscore into two strings?", "platform": "stackexchange", "value": -4.0, "timestamp": "1792695237"}
+{"keyword": "Multi-file HTML IDE that runs in a browser (is a website)", "platform": "stackexchange", "value": -9.0, "timestamp": "1792716582"}
