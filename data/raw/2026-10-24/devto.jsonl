@@ -118,3 +118,63 @@
 {"keyword": "multiple points of failure – lawnmower", "platform": "devto", "value": 0.0, "timestamp": "2026-10-23T10:13:00Z"}
 {"keyword": "Most Package Managers Won't Stop a Tampered Download by Default", "platform": "devto", "value": 8.0, "timestamp": "2026-10-23T17:22:37Z"}
 {"keyword": "98 Calls, 98 Errors, 0 Detections: The Bug My Test Suite Called Green", "platform": "devto", "value": 14.0, "timestamp": "2026-10-23T05:53:00Z"}
+{"keyword": "Dev Opportunity Radar #22: $50K Basis Fellowship, Perplexity AI Research Fellowship, and FC Barcelon", "platform": "devto", "value": 60.0, "timestamp": "2026-10-23T18:29:07Z"}
+{"keyword": "Hours, Not Weeks: How AI Rewrote the Clock of Software Security", "platform": "devto", "value": 20.0, "timestamp": "2026-10-24T05:41:38Z"}
+{"keyword": "Sloth Reads: an open model reads my read-later pile overnight, then reads me the good ones", "platform": "devto", "value": 19.0, "timestamp": "2026-10-24T07:48:29Z"}
+{"keyword": "Availazy: Gemma 4 reads the volunteer group chat on my laptop, Python does the dates, and I just say", "platform": "devto", "value": 25.0, "timestamp": "2026-10-23T15:19:32Z"}
+{"keyword": "Breach Week Dropped 10 'Patch Now' Posts. A Local Gemma Boiled Them Down to 2 Lines, and Code Checke", "platform": "devto", "value": 11.0, "timestamp": "2026-10-23T16:46:59Z"}
+{"keyword": "🔢 The JSON Numbers JavaScript Quietly Corrupts", "platform": "devto", "value": 11.0, "timestamp": "2026-10-23T14:37:45Z"}
+{"keyword": "PyTorch on TPU: Hands On With Colab", "platform": "devto", "value": 1.0, "timestamp": "2026-10-24T03:03:30Z"}
+{"keyword": "Understanding What AI just Created in the 500mph Landscape", "platform": "devto", "value": 4.0, "timestamp": "2026-10-23T15:59:05Z"}
+{"keyword": "Comic Studio AI: Turning Voice & Text Prompts into 4-Panel Comics with Google AI Studio, Gemini & Im", "platform": "devto", "value": 8.0, "timestamp": "2026-10-23T15:22:41Z"}
+{"keyword": "I Built Mimu Because Even Taking Notes Is Too Much Work", "platform": "devto", "value": 12.0, "timestamp": "2026-10-24T02:35:32Z"}
+{"keyword": "Rent the Cores, Keep the Phone: Building LineageOS 24 on EC2 and Iterating at Home", "platform": "devto", "value": 0.0, "timestamp": "2026-10-24T03:17:23Z"}
+{"keyword": "My AI Coding Workflow, v3", "platform": "devto", "value": 1.0, "timestamp": "2026-10-24T09:51:31Z"}
+{"keyword": "“Bas do minute ka kaam hai”: I built VOX so 24 support tickets stop keeping me up", "platform": "devto", "value": 6.0, "timestamp": "2026-10-24T01:19:59Z"}
+{"keyword": "'Baad mein' means later. Gemma reads the WhatsApp chat you keep with yourself, and tells you what yo", "platform": "devto", "value": 6.0, "timestamp": "2026-10-24T02:45:49Z"}
+{"keyword": "Black October hit PHP, npm and PyPI. So I built a system that catches it in my app before I ship, wi", "platform": "devto", "value": 16.0, "timestamp": "2026-10-24T09:10:51Z"}
+{"keyword": "Day 22 of Building Crowdwide: I Thought UI Polish Would Be Easy, BUT I WAS WRONGGGGG 😭", "platform": "devto", "value": 18.0, "timestamp": "2026-10-24T11:37:01Z"}
+{"keyword": "I'm too lazy to check my emails and Classroom stuff, so I built Hermes", "platform": "devto", "value": 22.0, "timestamp": "2026-10-23T21:28:05Z"}
+{"keyword": "Gemma 4 on a 4 GB GPU in Plain PyTorch: From Out of Memory to Faster Than llama.cpp", "platform": "devto", "value": 0.0, "timestamp": "2026-10-24T13:44:48Z"}
+{"keyword": "Not Letting PHP Have All the Fun: Ruby’s Regexp Fixes for GitLab’s CVEs", "platform": "devto", "value": 6.0, "timestamp": "2026-10-23T15:44:51Z"}
+{"keyword": "Caddy 2.11.6 turns a silent config failure on /load into an HTTP 400", "platform": "devto", "value": 6.0, "timestamp": "2026-10-24T10:00:00Z"}
+{"keyword": "Best AI Code Review Tools for Claude Code: CodeRabbit vs Greptile vs cubic vs Qodo", "platform": "devto", "value": 7.0, "timestamp": "2026-10-24T00:19:35Z"}
+{"keyword": "Claude Code File System Boundaries in 2026: What `--add-dir`, Allowed Paths, and Sandbox Roots Actua", "platform": "devto", "value": 0.0, "timestamp": "2026-10-24T06:07:19Z"}
+{"keyword": "The 'BREAKING' unpatched PHP RCE that wasn't: what CVE-2026-115560 actually requires", "platform": "devto", "value": 6.0, "timestamp": "2026-10-23T14:56:35Z"}
+{"keyword": "How to Integrate Deep Research into Your AI Agent", "platform": "devto", "value": 7.0, "timestamp": "2026-10-23T16:20:29Z"}
+{"keyword": "Most Package Managers Won't Stop a Tampered Download by Default", "platform": "devto", "value": 9.0, "timestamp": "2026-10-23T17:22:37Z"}
+{"keyword": "Humanizer has about 60,000 stars. On 12 public tasks my linter plugin scored 2.67 higher", "platform": "devto", "value": 5.0, "timestamp": "2026-10-24T09:32:54Z"}
+{"keyword": "n8n’s AI Agent Governance Guide Brings Identity, Guardrails and Approvals Into Workflows", "platform": "devto", "value": 1.0, "timestamp": "2026-10-23T16:15:30Z"}
+{"keyword": "Off-Peak: the AI agent whose best feature is doing nothing", "platform": "devto", "value": 1.0, "timestamp": "2026-10-23T18:01:29Z"}
+{"keyword": "Free Assets and the Stigma people enforce behind them", "platform": "devto", "value": 41.0, "timestamp": "2026-10-23T19:00:28Z"}
+{"keyword": "Sloth Sorter 🦥 — a local LLM tidies my Downloads folder, and every move can be undone", "platform": "devto", "value": 1.0, "timestamp": "2026-10-23T19:45:47Z"}
+{"keyword": "Dev Opportunity Radar #22: $50K Basis Fellowship, Perplexity AI Research Fellowship, and FC Barcelon", "platform": "devto", "value": 60.0, "timestamp": "2026-10-23T18:29:07Z"}
+{"keyword": "Hours, Not Weeks: How AI Rewrote the Clock of Software Security", "platform": "devto", "value": 20.0, "timestamp": "2026-10-24T05:41:38Z"}
+{"keyword": "Sloth Reads: an open model reads my read-later pile overnight, then reads me the good ones", "platform": "devto", "value": 19.0, "timestamp": "2026-10-24T07:48:29Z"}
+{"keyword": "Availazy: Gemma 4 reads the volunteer group chat on my laptop, Python does the dates, and I just say", "platform": "devto", "value": 25.0, "timestamp": "2026-10-23T15:19:32Z"}
+{"keyword": "Breach Week Dropped 10 'Patch Now' Posts. A Local Gemma Boiled Them Down to 2 Lines, and Code Checke", "platform": "devto", "value": 11.0, "timestamp": "2026-10-23T16:46:59Z"}
+{"keyword": "🔢 The JSON Numbers JavaScript Quietly Corrupts", "platform": "devto", "value": 11.0, "timestamp": "2026-10-23T14:37:45Z"}
+{"keyword": "PyTorch on TPU: Hands On With Colab", "platform": "devto", "value": 1.0, "timestamp": "2026-10-24T03:03:30Z"}
+{"keyword": "Understanding What AI just Created in the 500mph Landscape", "platform": "devto", "value": 4.0, "timestamp": "2026-10-23T15:59:05Z"}
+{"keyword": "Comic Studio AI: Turning Voice & Text Prompts into 4-Panel Comics with Google AI Studio, Gemini & Im", "platform": "devto", "value": 8.0, "timestamp": "2026-10-23T15:22:41Z"}
+{"keyword": "I Built Mimu Because Even Taking Notes Is Too Much Work", "platform": "devto", "value": 12.0, "timestamp": "2026-10-24T02:35:32Z"}
+{"keyword": "Rent the Cores, Keep the Phone: Building LineageOS 24 on EC2 and Iterating at Home", "platform": "devto", "value": 0.0, "timestamp": "2026-10-24T03:17:23Z"}
+{"keyword": "My AI Coding Workflow, v3", "platform": "devto", "value": 1.0, "timestamp": "2026-10-24T09:51:31Z"}
+{"keyword": "“Bas do minute ka kaam hai”: I built VOX so 24 support tickets stop keeping me up", "platform": "devto", "value": 6.0, "timestamp": "2026-10-24T01:19:59Z"}
+{"keyword": "'Baad mein' means later. Gemma reads the WhatsApp chat you keep with yourself, and tells you what yo", "platform": "devto", "value": 6.0, "timestamp": "2026-10-24T02:45:49Z"}
+{"keyword": "Black October hit PHP, npm and PyPI. So I built a system that catches it in my app before I ship, wi", "platform": "devto", "value": 16.0, "timestamp": "2026-10-24T09:10:51Z"}
+{"keyword": "Day 22 of Building Crowdwide: I Thought UI Polish Would Be Easy, BUT I WAS WRONGGGGG 😭", "platform": "devto", "value": 18.0, "timestamp": "2026-10-24T11:37:01Z"}
+{"keyword": "I'm too lazy to check my emails and Classroom stuff, so I built Hermes", "platform": "devto", "value": 22.0, "timestamp": "2026-10-23T21:28:05Z"}
+{"keyword": "Gemma 4 on a 4 GB GPU in Plain PyTorch: From Out of Memory to Faster Than llama.cpp", "platform": "devto", "value": 0.0, "timestamp": "2026-10-24T13:44:48Z"}
+{"keyword": "Not Letting PHP Have All the Fun: Ruby’s Regexp Fixes for GitLab’s CVEs", "platform": "devto", "value": 6.0, "timestamp": "2026-10-23T15:44:51Z"}
+{"keyword": "Caddy 2.11.6 turns a silent config failure on /load into an HTTP 400", "platform": "devto", "value": 6.0, "timestamp": "2026-10-24T10:00:00Z"}
+{"keyword": "Best AI Code Review Tools for Claude Code: CodeRabbit vs Greptile vs cubic vs Qodo", "platform": "devto", "value": 7.0, "timestamp": "2026-10-24T00:19:35Z"}
+{"keyword": "Claude Code File System Boundaries in 2026: What `--add-dir`, Allowed Paths, and Sandbox Roots Actua", "platform": "devto", "value": 0.0, "timestamp": "2026-10-24T06:07:19Z"}
+{"keyword": "The 'BREAKING' unpatched PHP RCE that wasn't: what CVE-2026-115560 actually requires", "platform": "devto", "value": 6.0, "timestamp": "2026-10-23T14:56:35Z"}
+{"keyword": "How to Integrate Deep Research into Your AI Agent", "platform": "devto", "value": 7.0, "timestamp": "2026-10-23T16:20:29Z"}
+{"keyword": "Most Package Managers Won't Stop a Tampered Download by Default", "platform": "devto", "value": 9.0, "timestamp": "2026-10-23T17:22:37Z"}
+{"keyword": "Humanizer has about 60,000 stars. On 12 public tasks my linter plugin scored 2.67 higher", "platform": "devto", "value": 5.0, "timestamp": "2026-10-24T09:32:54Z"}
+{"keyword": "n8n’s AI Agent Governance Guide Brings Identity, Guardrails and Approvals Into Workflows", "platform": "devto", "value": 1.0, "timestamp": "2026-10-23T16:15:30Z"}
+{"keyword": "Off-Peak: the AI agent whose best feature is doing nothing", "platform": "devto", "value": 1.0, "timestamp": "2026-10-23T18:01:29Z"}
+{"keyword": "Free Assets and the Stigma people enforce behind them", "platform": "devto", "value": 41.0, "timestamp": "2026-10-23T19:00:28Z"}
+{"keyword": "Sloth Sorter 🦥 — a local LLM tidies my Downloads folder, and every move can be undone", "platform": "devto", "value": 1.0, "timestamp": "2026-10-23T19:45:47Z"}
