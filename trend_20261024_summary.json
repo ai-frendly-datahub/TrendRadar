@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-24",
+  "category": "trend",
+  "article_count": 200,
+  "source_count": 3,
+  "matched_count": 200,
+  "top_entities": [
+    {
+      "name": "Seoul",
+      "count": 5
+    },
+    {
+      "name": "South Korea",
+      "count": 5
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 5
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 5
+    },
+    {
+      "name": "Machine learning",
+      "count": 5
+    },
+    {
+      "name": "K-pop",
+      "count": 5
+    },
+    {
+      "name": "World Wide Web",
+      "count": 5
+    },
+    {
+      "name": "Samsung",
+      "count": 5
+    },
+    {
+      "name": "Netflix",
+      "count": 5
+    },
+    {
+      "name": "Bitcoin",
+      "count": 5
+    },
+    {
+      "name": "Climate change",
+      "count": 5
+    },
+    {
+      "name": "E-commerce",
+      "count": 5
+    },
+    {
+      "name": "YouTube",
+      "count": 5
+    },
+    {
+      "name": "OpenAI",
+      "count": 5
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 4
+    },
+    {
+      "name": "독도의 날",
+      "count": 2
+    },
+    {
+      "name": "明天的天氣",
+      "count": 2
+    },
+    {
+      "name": "단체교섭",
+      "count": 1
+    },
+    {
+      "name": "미래에셋증권",
+      "count": 1
+    },
+    {
+      "name": "颱風動態",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "google_trending": 120,
+    "wikipedia": 74,
+    "google": 6
+  },
+  "generated_at": "2026-10-24T00:16:04.958912+00:00"
+}
