@@ -2,7 +2,7 @@
   "date": "2026-10-24",
   "category": "trend",
   "article_count": 200,
-  "source_count": 3,
+  "source_count": 2,
   "matched_count": 200,
   "top_entities": [
     {
@@ -11,6 +11,26 @@
     },
     {
       "name": "South Korea",
+      "count": 5
+    },
+    {
+      "name": "Climate change",
+      "count": 5
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 5
+    },
+    {
+      "name": "E-commerce",
+      "count": 5
+    },
+    {
+      "name": "YouTube",
+      "count": 5
+    },
+    {
+      "name": "OpenAI",
       "count": 5
     },
     {
@@ -46,50 +66,29 @@
       "count": 5
     },
     {
-      "name": "Climate change",
-      "count": 5
-    },
-    {
-      "name": "E-commerce",
-      "count": 5
-    },
-    {
-      "name": "YouTube",
-      "count": 5
-    },
-    {
-      "name": "OpenAI",
-      "count": 5
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 4
-    },
-    {
       "name": "독도의 날",
       "count": 2
     },
     {
-      "name": "明天的天氣",
-      "count": 2
-    },
-    {
-      "name": "단체교섭",
+      "name": "맨시티",
       "count": 1
     },
     {
-      "name": "미래에셋증권",
+      "name": "아카데미상",
       "count": 1
     },
     {
-      "name": "颱風動態",
+      "name": "안효섭",
+      "count": 1
+    },
+    {
+      "name": "루턴 타운 대 레스터 시티",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 120,
-    "wikipedia": 74,
-    "google": 6
+    "google_trending": 125,
+    "wikipedia": 75
   },
-  "generated_at": "2026-10-24T00:16:04.958912+00:00"
+  "generated_at": "2026-10-24T22:49:51.870186+09:00"
 }
