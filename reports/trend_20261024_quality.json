@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:49:46.967049+00:00",
+  "generated_at": "2026-10-24T23:59:59.512025+00:00",
   "target_date": "2026-10-24",
   "repo": "TrendRadar",
   "summary": {
@@ -18,8 +18,8 @@
     "attention_signal_count": 200,
     "conversion_proxy_signal_count": 0,
     "community_signal_count": 0,
-    "fresh_signal_count": 45,
-    "stale_signal_count": 155,
+    "fresh_signal_count": 55,
+    "stale_signal_count": 145,
     "undated_signal_count": 0,
     "distinct_signal_channel_count": 2,
     "distinct_keyword_pack_event_count": 2,
@@ -341,6 +341,70 @@
   "events": [
     {
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-376b19ea5379:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "여행",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 5000.0,
+      "normalized_value": 5.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 5.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-653308559f45:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "세균",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 2000.0,
+      "normalized_value": 2.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 2.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-b27da9ef0a6e:2026-10-24",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -405,6 +469,38 @@
     },
     {
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-2c06ef598b3d:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "박현호",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 500.0,
+      "normalized_value": 0.5,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:1247:2026-10-24",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -415,6 +511,38 @@
       "taxonomy_vertical": "public_trending",
       "taxonomy_intent": "public_attention",
       "keyword": "로또1247",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 500.0,
+      "normalized_value": 0.5,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-722eb4aa2e9f:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "สภาพอากาศ",
       "channel": "google_trending",
       "source": "google_trending",
       "signal_date": "2026-10-24",
@@ -469,6 +597,70 @@
     },
     {
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-df7e569ae6ad:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "유해란",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 200.0,
+      "normalized_value": 0.2,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.2,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-3a48b4e41a77:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "에코프로",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 200.0,
+      "normalized_value": 0.2,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.2,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-36e1a86d7e6c:2026-10-24",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -479,6 +671,38 @@
       "taxonomy_vertical": "public_trending",
       "taxonomy_intent": "public_attention",
       "keyword": "루턴 타운 대 레스터 시티",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 200.0,
+      "normalized_value": 0.2,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.2,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-73fb22f883ee:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "군수산업",
       "channel": "google_trending",
       "source": "google_trending",
       "signal_date": "2026-10-24",
@@ -533,6 +757,70 @@
     },
     {
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:rbny-vs-inter-miami:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "rbny vs inter miami",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 200.0,
+      "normalized_value": 0.2,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.2,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-911375a17988:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "젠지",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 100.0,
+      "normalized_value": 0.1,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.1,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-0a2539a5af06:2026-10-24",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -575,6 +863,38 @@
       "taxonomy_vertical": "public_trending",
       "taxonomy_intent": "public_attention",
       "keyword": "이준수",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-24",
+      "raw_value": 100.0,
+      "normalized_value": 0.1,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.1,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-9552677741b6:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "여수세계박람회장",
       "channel": "google_trending",
       "source": "google_trending",
       "signal_date": "2026-10-24",
@@ -6261,134 +6581,6 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-ed3514401758:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "십자가",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 2000.0,
-      "normalized_value": 2.0,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 2.0,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-81b82d114d41:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "복권",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 1000.0,
-      "normalized_value": 1.0,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 1.0,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-53d9ed161f04:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "ลีดส์ พบ แมนยู",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 500.0,
-      "normalized_value": 0.5,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.5,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:leeds-u-v-i-man-utd:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "leeds đấu với man utd",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 500.0,
-      "normalized_value": 0.5,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.5,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-9af2ff03fa93:2026-10-18",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -6399,70 +6591,6 @@
       "taxonomy_vertical": "public_trending",
       "taxonomy_intent": "public_attention",
       "keyword": "허양임",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-0fbdb40060cb:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "채무",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:2:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "신인감독 김연경 시즌2",
       "channel": "google_trending",
       "source": "google_trending",
       "signal_date": "2026-10-18",
@@ -6517,38 +6645,6 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-b474315a26b0:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "나마디 조엘 진",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-f55da45549e5:2026-10-18",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -6559,102 +6655,6 @@
       "taxonomy_vertical": "public_trending",
       "taxonomy_intent": "public_attention",
       "keyword": "권상우",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:klasemen-real-madrid-vs-sevilla-fc:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "klasemen real madrid vs sevilla fc",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:gpt-6:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "gpt-6 아스트라",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-18",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:catl:2026-10-18",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "catl",
       "channel": "google_trending",
       "source": "google_trending",
       "signal_date": "2026-10-18",
@@ -6744,6 +6744,28 @@
     {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-376b19ea5379:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "여행",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-653308559f45:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "세균",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-b27da9ef0a6e:2026-10-24",
       "keyword_set_name": "Google Trends RSS",
       "keyword": "맨시티",
@@ -6766,9 +6788,31 @@
     {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-2c06ef598b3d:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "박현호",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:1247:2026-10-24",
       "keyword_set_name": "Google Trends RSS",
       "keyword": "로또1247",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-722eb4aa2e9f:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "สภาพอากาศ",
       "channel": "google_trending",
       "required_field_gaps": [
         "source_url"
@@ -6788,6 +6832,28 @@
     {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-df7e569ae6ad:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "유해란",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-3a48b4e41a77:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "에코프로",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-36e1a86d7e6c:2026-10-24",
       "keyword_set_name": "Google Trends RSS",
       "keyword": "루턴 타운 대 레스터 시티",
@@ -6799,9 +6865,42 @@
     {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-73fb22f883ee:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "군수산업",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-fac33bcc6bc5:2026-10-24",
       "keyword_set_name": "Google Trends RSS",
       "keyword": "астон вилла – манчестер сити",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:rbny-vs-inter-miami:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "rbny vs inter miami",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-911375a17988:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "젠지",
       "channel": "google_trending",
       "required_field_gaps": [
         "source_url"
@@ -6824,6 +6923,17 @@
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-6e46db7d2bec:2026-10-24",
       "keyword_set_name": "Google Trends RSS",
       "keyword": "이준수",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-9552677741b6:2026-10-24",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "여수세계박람회장",
       "channel": "google_trending",
       "required_field_gaps": [
         "source_url"
@@ -7176,112 +7286,6 @@
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-cdae68677d6c:2026-10-23",
       "keyword_set_name": "Google Trends RSS",
       "keyword": "颱風動態",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:cfo:2026-10-23",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "cfo",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-946d4adcf014:2026-10-23",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "황영웅",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-95ef27a677b8:2026-10-23",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "영구 결번",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-7c86fa34d7bc:2026-10-23",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "박지환",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-450703b4fb41:2026-10-23",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "미래에셋증권",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:youtube:2026-10-22",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "YouTube",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:youtube:2026-10-22",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:artificial-intelligence:2026-10-22",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Artificial intelligence",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:artificial-intelligence:2026-10-22",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-de634d7270e0:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "상속",
       "channel": "google_trending",
       "required_field_gaps": [
         "source_url"

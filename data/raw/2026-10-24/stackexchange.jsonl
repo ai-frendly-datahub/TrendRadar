@@ -88,3 +88,33 @@
 {"keyword": "How can the choice of `a` of a `Maybe a` being pattern matched cause both `Nothing` and `Just _` gua", "platform": "stackexchange", "value": 1.0, "timestamp": "1792757056"}
 {"keyword": "Drop database with missing .mdf file in SQL Server (localdb)", "platform": "stackexchange", "value": -4.0, "timestamp": "1792738952"}
 {"keyword": "How to average two (or more) hexadecimal color codes into one color code?", "platform": "stackexchange", "value": -3.0, "timestamp": "1792776540"}
+{"keyword": "Does PageSpeed Insights API v5 support X-Goog-Api-Key and project quota attribution?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792879556"}
+{"keyword": "PHP 8.5 from deb.sury.org - cannot execute binary file exec format error on WSL1", "platform": "stackexchange", "value": 0.0, "timestamp": "1792875858"}
+{"keyword": "Fastboot doesn&#39;t detect plugged in smartphone", "platform": "stackexchange", "value": 0.0, "timestamp": "1792879086"}
+{"keyword": "ggsurvplot not returning a plot", "platform": "stackexchange", "value": 0.0, "timestamp": "1792872530"}
+{"keyword": "Windows WebDAV client fails to read files over a certain size (~50 MB, 0x800700DF) but uploads work.", "platform": "stackexchange", "value": 0.0, "timestamp": "1792872944"}
+{"keyword": "&quot;Error in -rm(list = ls()) : invalid argument to unary operator&quot;", "platform": "stackexchange", "value": -2.0, "timestamp": "1792872841"}
+{"keyword": "Why isn’t the stdout of my program redirected into a file?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792867155"}
+{"keyword": "What is the complexity of this algorithm? Common elements in two lists", "platform": "stackexchange", "value": -6.0, "timestamp": "1792857947"}
+{"keyword": "My cel phone crashed and I can&#39;t authenticate my login", "platform": "stackexchange", "value": -4.0, "timestamp": "1792871760"}
+{"keyword": "PDFBox: incremental signature on an AES-encrypted PDF leaves encrypted bytes in the /Contents paddin", "platform": "stackexchange", "value": -2.0, "timestamp": "1792862053"}
+{"keyword": "VS code displaying only path to folder but no files in the explorer", "platform": "stackexchange", "value": -1.0, "timestamp": "1792853537"}
+{"keyword": "How to assign information in a table on the basis of another table in excel 2016?", "platform": "stackexchange", "value": -6.0, "timestamp": "1792871512"}
+{"keyword": "Writing code to plot the trajectory of a particle undergoing projectile motion, then a graph of the", "platform": "stackexchange", "value": -4.0, "timestamp": "1792850050"}
+{"keyword": "How can I solve a SIGSEGV when using std::regex at a large string?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792852188"}
+{"keyword": "Borders on html website/background image over smaller content area?", "platform": "stackexchange", "value": -4.0, "timestamp": "1792859230"}
+{"keyword": "Ollama is not getting downloaded in Windows Operating System", "platform": "stackexchange", "value": -6.0, "timestamp": "1792861997"}
+{"keyword": "Find All Sets of Viable Row/Column Pairings in a Table of Checkboxes", "platform": "stackexchange", "value": 0.0, "timestamp": "1792863800"}
+{"keyword": "How do I put buttons on top of a fixed picture?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792851281"}
+{"keyword": "Ambigous type conversion in switch statement with only one viable conversion", "platform": "stackexchange", "value": 4.0, "timestamp": "1792831681"}
+{"keyword": "Why does getObject() throw ORA-17004 for a VECTOR OUT parameter?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792836524"}
+{"keyword": "micropython on pico 2w ftp connection", "platform": "stackexchange", "value": -3.0, "timestamp": "1792840948"}
+{"keyword": "Setting italic conditional formatting in Openpyxl", "platform": "stackexchange", "value": -2.0, "timestamp": "1792838135"}
+{"keyword": "SwiftUI List hides nested DisclosureGroup indicators when reorderContainer is enabled", "platform": "stackexchange", "value": -2.0, "timestamp": "1792851670"}
+{"keyword": "?How to implement automatic topographic drawing from survey codes in an Android Kotlin app", "platform": "stackexchange", "value": -6.0, "timestamp": "1792842579"}
+{"keyword": "How can I detect whether a font supports a specific Unicode character in JavaScript?", "platform": "stackexchange", "value": 5.0, "timestamp": "1792781436"}
+{"keyword": "Request for organic assistance debugging my fading-toolbar(JS)", "platform": "stackexchange", "value": -7.0, "timestamp": "1792791934"}
+{"keyword": "Why does this linked-list C code segfault?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792760628"}
+{"keyword": "Create a sheet where cells are locked, but still allows tables to be sorted", "platform": "stackexchange", "value": -4.0, "timestamp": "1792833493"}
+{"keyword": "For loop within a function that writes contents of list parameter to desired file name", "platform": "stackexchange", "value": -4.0, "timestamp": "1792811293"}
+{"keyword": "Looking for active Discord servers/communities for software developers", "platform": "stackexchange", "value": -8.0, "timestamp": "1792838447"}
