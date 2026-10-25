@@ -2,93 +2,94 @@
   "date": "2026-10-25",
   "category": "trend",
   "article_count": 200,
-  "source_count": 2,
+  "source_count": 3,
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "Climate change",
+      "count": 4
+    },
+    {
       "name": "Seoul",
-      "count": 5
+      "count": 4
     },
     {
       "name": "South Korea",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Python (programming language)",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Artificial intelligence",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Machine learning",
-      "count": 5
-    },
-    {
-      "name": "K-pop",
-      "count": 5
-    },
-    {
-      "name": "World Wide Web",
-      "count": 5
-    },
-    {
-      "name": "Samsung",
-      "count": 5
-    },
-    {
-      "name": "Netflix",
-      "count": 5
-    },
-    {
-      "name": "Bitcoin",
-      "count": 5
-    },
-    {
-      "name": "Climate change",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Electric vehicle",
-      "count": 5
+      "count": 4
     },
     {
       "name": "E-commerce",
-      "count": 5
+      "count": 4
     },
     {
       "name": "YouTube",
-      "count": 5
+      "count": 4
     },
     {
       "name": "OpenAI",
-      "count": 5
+      "count": 4
     },
     {
-      "name": "독도의 날",
-      "count": 2
+      "name": "K-pop",
+      "count": 4
     },
     {
-      "name": "군수산업",
+      "name": "World Wide Web",
+      "count": 4
+    },
+    {
+      "name": "Samsung",
+      "count": 4
+    },
+    {
+      "name": "Netflix",
+      "count": 4
+    },
+    {
+      "name": "Bitcoin",
+      "count": 4
+    },
+    {
+      "name": "맨유 대 본머스",
       "count": 1
     },
     {
-      "name": "rbny vs inter miami",
+      "name": "감우성",
       "count": 1
     },
     {
-      "name": "젠지",
+      "name": "벙커버스터",
       "count": 1
     },
     {
-      "name": "세균",
+      "name": "노태 문",
+      "count": 1
+    },
+    {
+      "name": "관광",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 125,
-    "wikipedia": 75
+    "google_trending": 110,
+    "google": 30,
+    "wikipedia": 60
   },
-  "generated_at": "2026-10-25T00:00:02.436948+00:00"
+  "generated_at": "2026-10-25T23:06:06.919911+09:00"
 }
