@@ -28,3 +28,63 @@
 {"keyword": "Create a sheet where cells are locked, but still allows tables to be sorted", "platform": "stackexchange", "value": -4.0, "timestamp": "1792833493"}
 {"keyword": "For loop within a function that writes contents of list parameter to desired file name", "platform": "stackexchange", "value": -4.0, "timestamp": "1792811293"}
 {"keyword": "Looking for active Discord servers/communities for software developers", "platform": "stackexchange", "value": -8.0, "timestamp": "1792838447"}
+{"keyword": "Why does casting to Object[] prevent a ClassCastException?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792967124"}
+{"keyword": "Does Unique make sense on unique values?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792962123"}
+{"keyword": "What are sanitizers and how could they help me find problems in my code?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792952193"}
+{"keyword": "In Java, Is an Object[] Homogeneous or Heterogeneous?", "platform": "stackexchange", "value": -7.0, "timestamp": "1792952362"}
+{"keyword": "Why does fflush(stdin) not clear the input buffer in C on macOS (GCC)?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792957669"}
+{"keyword": "Sending/Receiving SMS using Android apps", "platform": "stackexchange", "value": -6.0, "timestamp": "1792951480"}
+{"keyword": "Segmentation fault when inserting a node at the end of a singly linked list in C", "platform": "stackexchange", "value": -1.0, "timestamp": "1792946818"}
+{"keyword": "ValueError: failed to validate MultiPolygons when trying to create interactive map using Carto basem", "platform": "stackexchange", "value": 2.0, "timestamp": "1792940779"}
+{"keyword": "I fail to understand in simple terms what `eglSwapBuffers` does in this piece of code", "platform": "stackexchange", "value": -4.0, "timestamp": "1792948677"}
+{"keyword": "Why are spaces misaligned in the bottom half of my C diamond pattern?", "platform": "stackexchange", "value": -5.0, "timestamp": "1792938834"}
+{"keyword": "JQuery validation not working in new ASP.NET Core MVC web application", "platform": "stackexchange", "value": 1.0, "timestamp": "1792936962"}
+{"keyword": "Div is expanding to fit content when I don&#39;t want it to", "platform": "stackexchange", "value": 3.0, "timestamp": "1792932440"}
+{"keyword": "How to ignore whitespace in the review page when calling `git commit --verbose`?", "platform": "stackexchange", "value": -5.0, "timestamp": "1792937227"}
+{"keyword": "How to fix WampServer addons defaulting to C:\\wamp64 after migrating to another computer?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792939121"}
+{"keyword": "How to rank a user&#39;s top 8 friends by interaction score in SQL (Snapchat-style planets)?", "platform": "stackexchange", "value": -5.0, "timestamp": "1792935270"}
+{"keyword": "SoundCloud API rate limits introduced/tightened overnight?", "platform": "stackexchange", "value": -8.0, "timestamp": "1792938671"}
+{"keyword": "How to fix sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792923326"}
+{"keyword": "Get rid of unwanted splash of color which is not splashColor in Flutter FilterChip widget", "platform": "stackexchange", "value": 0.0, "timestamp": "1792930861"}
+{"keyword": "How to access Eiffel attribute inside a C++ external", "platform": "stackexchange", "value": -3.0, "timestamp": "1792885758"}
+{"keyword": "Should picture URLs include file extensions?", "platform": "stackexchange", "value": 2.0, "timestamp": "1792886438"}
+{"keyword": "DBD::DB2 column name decoding", "platform": "stackexchange", "value": -4.0, "timestamp": "1792919028"}
+{"keyword": "How to ignore other files other than Python file", "platform": "stackexchange", "value": -7.0, "timestamp": "1792905461"}
+{"keyword": "How to fix unused variable warning in recursive pattern matching?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792922793"}
+{"keyword": "Possible software solution on how to ensure a 20 microsecond cycle during real time testing", "platform": "stackexchange", "value": 1.0, "timestamp": "1792899628"}
+{"keyword": "Can a modern compiler be instructed to allow reading from an uninitialized array", "platform": "stackexchange", "value": 3.0, "timestamp": "1792904743"}
+{"keyword": "Incremental signature on an AES-encrypted PDF leaves encrypted bytes in the /Contents padding instea", "platform": "stackexchange", "value": -1.0, "timestamp": "1792862053"}
+{"keyword": "Does PageSpeed Insights API v5 accept an API key exclusively through the X-Goog-Api-Key header?", "platform": "stackexchange", "value": -6.0, "timestamp": "1792879556"}
+{"keyword": "GridDB Python client raises TypeError when reading the result of a MAX() aggregation query", "platform": "stackexchange", "value": 1.0, "timestamp": "1792916191"}
+{"keyword": "Aligning comment columns with clang-format", "platform": "stackexchange", "value": 0.0, "timestamp": "1792915937"}
+{"keyword": "How can I connect an AI chatbot to a local AI coding agent to automate the entire development loop w", "platform": "stackexchange", "value": -7.0, "timestamp": "1792904534"}
+{"keyword": "Why does casting to Object[] prevent a ClassCastException?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792967124"}
+{"keyword": "Does Unique make sense on unique values?", "platform": "stackexchange", "value": -2.0, "timestamp": "1792962123"}
+{"keyword": "What are sanitizers and how could they help me find problems in my code?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792952193"}
+{"keyword": "In Java, Is an Object[] Homogeneous or Heterogeneous?", "platform": "stackexchange", "value": -7.0, "timestamp": "1792952362"}
+{"keyword": "Why does fflush(stdin) not clear the input buffer in C on macOS (GCC)?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792957669"}
+{"keyword": "Sending/Receiving SMS using Android apps", "platform": "stackexchange", "value": -6.0, "timestamp": "1792951480"}
+{"keyword": "Segmentation fault when inserting a node at the end of a singly linked list in C", "platform": "stackexchange", "value": -1.0, "timestamp": "1792946818"}
+{"keyword": "ValueError: failed to validate MultiPolygons when trying to create interactive map using Carto basem", "platform": "stackexchange", "value": 2.0, "timestamp": "1792940779"}
+{"keyword": "I fail to understand in simple terms what `eglSwapBuffers` does in this piece of code", "platform": "stackexchange", "value": -4.0, "timestamp": "1792948677"}
+{"keyword": "Why are spaces misaligned in the bottom half of my C diamond pattern?", "platform": "stackexchange", "value": -5.0, "timestamp": "1792938834"}
+{"keyword": "JQuery validation not working in new ASP.NET Core MVC web application", "platform": "stackexchange", "value": 1.0, "timestamp": "1792936962"}
+{"keyword": "Div is expanding to fit content when I don&#39;t want it to", "platform": "stackexchange", "value": 3.0, "timestamp": "1792932440"}
+{"keyword": "How to ignore whitespace in the review page when calling `git commit --verbose`?", "platform": "stackexchange", "value": -5.0, "timestamp": "1792937227"}
+{"keyword": "How to fix WampServer addons defaulting to C:\\wamp64 after migrating to another computer?", "platform": "stackexchange", "value": -1.0, "timestamp": "1792939121"}
+{"keyword": "How to rank a user&#39;s top 8 friends by interaction score in SQL (Snapchat-style planets)?", "platform": "stackexchange", "value": -5.0, "timestamp": "1792935270"}
+{"keyword": "SoundCloud API rate limits introduced/tightened overnight?", "platform": "stackexchange", "value": -8.0, "timestamp": "1792938671"}
+{"keyword": "How to fix sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file?", "platform": "stackexchange", "value": 1.0, "timestamp": "1792923326"}
+{"keyword": "Get rid of unwanted splash of color which is not splashColor in Flutter FilterChip widget", "platform": "stackexchange", "value": 0.0, "timestamp": "1792930861"}
+{"keyword": "How to access Eiffel attribute inside a C++ external", "platform": "stackexchange", "value": -3.0, "timestamp": "1792885758"}
+{"keyword": "Should picture URLs include file extensions?", "platform": "stackexchange", "value": 2.0, "timestamp": "1792886438"}
+{"keyword": "DBD::DB2 column name decoding", "platform": "stackexchange", "value": -4.0, "timestamp": "1792919028"}
+{"keyword": "How to ignore other files other than Python file", "platform": "stackexchange", "value": -7.0, "timestamp": "1792905461"}
+{"keyword": "How to fix unused variable warning in recursive pattern matching?", "platform": "stackexchange", "value": 0.0, "timestamp": "1792922793"}
+{"keyword": "Possible software solution on how to ensure a 20 microsecond cycle during real time testing", "platform": "stackexchange", "value": 1.0, "timestamp": "1792899628"}
+{"keyword": "Can a modern compiler be instructed to allow reading from an uninitialized array", "platform": "stackexchange", "value": 3.0, "timestamp": "1792904743"}
+{"keyword": "Incremental signature on an AES-encrypted PDF leaves encrypted bytes in the /Contents padding instea", "platform": "stackexchange", "value": -1.0, "timestamp": "1792862053"}
+{"keyword": "Does PageSpeed Insights API v5 accept an API key exclusively through the X-Goog-Api-Key header?", "platform": "stackexchange", "value": -6.0, "timestamp": "1792879556"}
+{"keyword": "GridDB Python client raises TypeError when reading the result of a MAX() aggregation query", "platform": "stackexchange", "value": 1.0, "timestamp": "1792916191"}
+{"keyword": "Aligning comment columns with clang-format", "platform": "stackexchange", "value": 0.0, "timestamp": "1792915937"}
+{"keyword": "How can I connect an AI chatbot to a local AI coding agent to automate the entire development loop w", "platform": "stackexchange", "value": -7.0, "timestamp": "1792904534"}

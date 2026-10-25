@@ -6,27 +6,11 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Climate change",
-      "count": 4
-    },
-    {
       "name": "Seoul",
       "count": 4
     },
     {
-      "name": "South Korea",
-      "count": 4
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 4
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 4
-    },
-    {
-      "name": "Machine learning",
+      "name": "Climate change",
       "count": 4
     },
     {
@@ -43,6 +27,22 @@
     },
     {
       "name": "OpenAI",
+      "count": 4
+    },
+    {
+      "name": "South Korea",
+      "count": 4
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 4
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 4
+    },
+    {
+      "name": "Machine learning",
       "count": 4
     },
     {
@@ -66,23 +66,23 @@
       "count": 4
     },
     {
-      "name": "맨유 대 본머스",
+      "name": "젠지",
+      "count": 2
+    },
+    {
+      "name": "열병합발전소",
       "count": 1
     },
     {
-      "name": "감우성",
+      "name": "베트남",
       "count": 1
     },
     {
-      "name": "벙커버스터",
+      "name": "이건희",
       "count": 1
     },
     {
-      "name": "노태 문",
-      "count": 1
-    },
-    {
-      "name": "관광",
+      "name": "klasemen fc barcelona vs real madrid",
       "count": 1
     }
   ],
@@ -91,5 +91,5 @@
     "google": 30,
     "wikipedia": 60
   },
-  "generated_at": "2026-10-25T23:06:06.919911+09:00"
+  "generated_at": "2026-10-25T23:48:14.801071+00:00"
 }
