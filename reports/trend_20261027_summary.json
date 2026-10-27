@@ -6,23 +6,7 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Machine learning",
-      "count": 4
-    },
-    {
-      "name": "OpenAI",
-      "count": 4
-    },
-    {
-      "name": "YouTube",
-      "count": 4
-    },
-    {
-      "name": "Netflix",
-      "count": 4
-    },
-    {
-      "name": "Bitcoin",
+      "name": "Seoul",
       "count": 4
     },
     {
@@ -34,11 +18,11 @@
       "count": 4
     },
     {
-      "name": "E-commerce",
+      "name": "YouTube",
       "count": 4
     },
     {
-      "name": "Seoul",
+      "name": "OpenAI",
       "count": 4
     },
     {
@@ -54,7 +38,7 @@
       "count": 4
     },
     {
-      "name": "Samsung",
+      "name": "Machine learning",
       "count": 4
     },
     {
@@ -62,34 +46,50 @@
       "count": 4
     },
     {
+      "name": "Bitcoin",
+      "count": 4
+    },
+    {
       "name": "World Wide Web",
       "count": 4
+    },
+    {
+      "name": "Samsung",
+      "count": 4
+    },
+    {
+      "name": "Netflix",
+      "count": 4
+    },
+    {
+      "name": "E-commerce",
+      "count": 4
+    },
+    {
+      "name": "월즈 2026",
+      "count": 2
     },
     {
       "name": "젠지",
       "count": 2
     },
     {
-      "name": "베식타시 대 이스탄불 바샥셰히르",
+      "name": "삼성역",
       "count": 1
     },
     {
-      "name": "북한 자주포",
+      "name": "브루어스 대 레이스",
       "count": 1
     },
     {
-      "name": "범죄",
-      "count": 1
-    },
-    {
-      "name": "마린 칠리치",
+      "name": "배드민턴",
       "count": 1
     }
   ],
   "sources": {
     "google_trending": 110,
-    "google": 30,
-    "wikipedia": 60
+    "wikipedia": 60,
+    "google": 30
   },
-  "generated_at": "2026-10-27T01:27:47.256812+09:00"
+  "generated_at": "2026-10-27T01:06:52.088476+00:00"
 }
