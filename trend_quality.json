@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T00:59:22.043353+00:00",
+  "generated_at": "2026-10-28T16:26:00.146570+00:00",
   "target_date": "2026-10-28",
   "repo": "TrendRadar",
   "summary": {
@@ -18,8 +18,8 @@
     "attention_signal_count": 200,
     "conversion_proxy_signal_count": 0,
     "community_signal_count": 0,
-    "fresh_signal_count": 21,
-    "stale_signal_count": 179,
+    "fresh_signal_count": 46,
+    "stale_signal_count": 154,
     "undated_signal_count": 0,
     "distinct_signal_channel_count": 3,
     "distinct_keyword_pack_event_count": 5,
@@ -91,7 +91,7 @@
       "attention_signal_count": 60,
       "conversion_proxy_signal_count": 0,
       "community_signal_count": 0,
-      "latest_signal_date": "2026-10-26"
+      "latest_signal_date": "2026-10-27"
     },
     {
       "name": "Google Trends RSS",
@@ -118,7 +118,7 @@
       "attention_signal_count": 110,
       "conversion_proxy_signal_count": 0,
       "community_signal_count": 0,
-      "latest_signal_date": "2026-10-27"
+      "latest_signal_date": "2026-10-28"
     },
     {
       "name": "위스키 시장 동향",
@@ -341,6 +341,390 @@
   "events": [
     {
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-b4415c518faf:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "신진 서",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 2000.0,
+      "normalized_value": 2.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 2.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-acecb1a8094d:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "이계인",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 1000.0,
+      "normalized_value": 1.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 1.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-6ad38386b34b:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "크랙",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 500.0,
+      "normalized_value": 0.5,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-ea02bb97d8ba:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "일본 지진",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 200.0,
+      "normalized_value": 0.2,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.2,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-174594b1f236:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "올림픽파크 포레온",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 200.0,
+      "normalized_value": 0.2,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.2,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-6ffb6c97140f:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "김민",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 200.0,
+      "normalized_value": 0.2,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.2,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-6fc74601752f:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "한겨레",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 100.0,
+      "normalized_value": 0.1,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.1,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-37c078e8b35a:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "하림",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 100.0,
+      "normalized_value": 0.1,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.1,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-a17a814efa24:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "서울반도체",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 100.0,
+      "normalized_value": 0.1,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.1,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-9705e8f9f35d:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "메달",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-10-28",
+      "raw_value": 100.0,
+      "normalized_value": 0.1,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.1,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:youtube:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "YouTube",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 74360.0,
+      "normalized_value": 100.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 100.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:artificial-intelligence:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "Artificial intelligence",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 18981.0,
+      "normalized_value": 25.526,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 25.526,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-111b05a9b69e:2026-10-27",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -364,6 +748,294 @@
       "community": null,
       "signal_value": null,
       "attention_score": 10.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:openai:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "OpenAI",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 9305.0,
+      "normalized_value": 12.513,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 12.513,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:netflix:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "Netflix",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 6537.0,
+      "normalized_value": 8.791,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 8.791,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:south-korea:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "South Korea",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 6489.0,
+      "normalized_value": 8.726,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 8.726,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:world-wide-web:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "World Wide Web",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 5322.0,
+      "normalized_value": 7.157,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 7.157,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:python-programming-language:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "Python (programming language)",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 3963.0,
+      "normalized_value": 5.329,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 5.329,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:bitcoin:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "Bitcoin",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 2827.0,
+      "normalized_value": 3.802,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 3.802,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:machine-learning:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "Machine learning",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 2602.0,
+      "normalized_value": 3.499,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 3.499,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "Seoul",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 2383.0,
+      "normalized_value": 3.205,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 3.205,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:samsung:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "Samsung",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 2108.0,
+      "normalized_value": 2.835,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 2.835,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -428,6 +1100,70 @@
       "community": null,
       "signal_value": null,
       "attention_score": 2.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:climate-change:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "Climate change",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 1858.0,
+      "normalized_value": 2.499,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 2.499,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:k-pop:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "K-pop",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 1204.0,
+      "normalized_value": 1.619,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 1.619,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -533,6 +1269,38 @@
     },
     {
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:e-commerce:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "E-commerce",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 775.0,
+      "normalized_value": 1.042,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 1.042,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-5e3f7f4dc5bd:2026-10-27",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -556,6 +1324,38 @@
       "community": null,
       "signal_value": null,
       "attention_score": 0.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:electric-vehicle:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "Electric vehicle",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-10-27",
+      "raw_value": 383.0,
+      "normalized_value": 0.515,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 1,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.515,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1027,7 +1827,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 73216.0,
-      "normalized_value": 100.0,
+      "normalized_value": 98.462,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1035,7 +1835,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 100.0,
+      "attention_score": 98.462,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1059,7 +1859,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 16943.0,
-      "normalized_value": 23.141,
+      "normalized_value": 22.785,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1067,7 +1867,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 23.141,
+      "attention_score": 22.785,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1091,7 +1891,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 9032.0,
-      "normalized_value": 12.336,
+      "normalized_value": 12.146,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1099,7 +1899,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 12.336,
+      "attention_score": 12.146,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1123,7 +1923,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 6579.0,
-      "normalized_value": 8.986,
+      "normalized_value": 8.847,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1131,7 +1931,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 8.986,
+      "attention_score": 8.847,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1155,7 +1955,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 6435.0,
-      "normalized_value": 8.789,
+      "normalized_value": 8.654,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1163,7 +1963,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 8.789,
+      "attention_score": 8.654,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1219,7 +2019,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 4997.0,
-      "normalized_value": 6.825,
+      "normalized_value": 6.72,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1227,7 +2027,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 6.825,
+      "attention_score": 6.72,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1251,7 +2051,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 4226.0,
-      "normalized_value": 5.772,
+      "normalized_value": 5.683,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1259,7 +2059,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 5.772,
+      "attention_score": 5.683,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1283,7 +2083,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 2564.0,
-      "normalized_value": 3.502,
+      "normalized_value": 3.448,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1291,7 +2091,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.502,
+      "attention_score": 3.448,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1315,7 +2115,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 2495.0,
-      "normalized_value": 3.408,
+      "normalized_value": 3.355,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1323,7 +2123,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.408,
+      "attention_score": 3.355,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1347,7 +2147,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 2052.0,
-      "normalized_value": 2.803,
+      "normalized_value": 2.76,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1355,7 +2155,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.803,
+      "attention_score": 2.76,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1475,7 +2275,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 1931.0,
-      "normalized_value": 2.637,
+      "normalized_value": 2.597,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1483,7 +2283,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.637,
+      "attention_score": 2.597,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1507,7 +2307,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 1792.0,
-      "normalized_value": 2.448,
+      "normalized_value": 2.41,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1515,7 +2315,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.448,
+      "attention_score": 2.41,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1539,7 +2339,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 1196.0,
-      "normalized_value": 1.634,
+      "normalized_value": 1.608,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1547,7 +2347,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 1.634,
+      "attention_score": 1.608,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1635,7 +2435,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 687.0,
-      "normalized_value": 0.938,
+      "normalized_value": 0.924,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1643,7 +2443,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 0.938,
+      "attention_score": 0.924,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -1699,7 +2499,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-26",
       "raw_value": 469.0,
-      "normalized_value": 0.641,
+      "normalized_value": 0.631,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 2,
@@ -1707,7 +2507,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 0.641,
+      "attention_score": 0.631,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2115,7 +2915,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 60017.0,
-      "normalized_value": 81.973,
+      "normalized_value": 80.711,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2123,7 +2923,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 81.973,
+      "attention_score": 80.711,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2147,7 +2947,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 12179.0,
-      "normalized_value": 16.634,
+      "normalized_value": 16.378,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2155,7 +2955,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 16.634,
+      "attention_score": 16.378,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2179,7 +2979,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 6750.0,
-      "normalized_value": 9.219,
+      "normalized_value": 9.077,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2187,7 +2987,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 9.219,
+      "attention_score": 9.077,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2211,7 +3011,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 6337.0,
-      "normalized_value": 8.655,
+      "normalized_value": 8.522,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2219,7 +3019,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 8.655,
+      "attention_score": 8.522,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2243,7 +3043,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 5982.0,
-      "normalized_value": 8.17,
+      "normalized_value": 8.045,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2251,7 +3051,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 8.17,
+      "attention_score": 8.045,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2339,7 +3139,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 4247.0,
-      "normalized_value": 5.801,
+      "normalized_value": 5.711,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2347,7 +3147,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 5.801,
+      "attention_score": 5.711,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2371,7 +3171,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 3593.0,
-      "normalized_value": 4.907,
+      "normalized_value": 4.832,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2379,7 +3179,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 4.907,
+      "attention_score": 4.832,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2403,7 +3203,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 2508.0,
-      "normalized_value": 3.425,
+      "normalized_value": 3.373,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2411,7 +3211,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.425,
+      "attention_score": 3.373,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2435,7 +3235,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 2044.0,
-      "normalized_value": 2.792,
+      "normalized_value": 2.749,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2443,7 +3243,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.792,
+      "attention_score": 2.749,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2595,7 +3395,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 1807.0,
-      "normalized_value": 2.468,
+      "normalized_value": 2.43,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2603,7 +3403,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.468,
+      "attention_score": 2.43,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2627,7 +3427,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 1526.0,
-      "normalized_value": 2.084,
+      "normalized_value": 2.052,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2635,7 +3435,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.084,
+      "attention_score": 2.052,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2659,7 +3459,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 1278.0,
-      "normalized_value": 1.746,
+      "normalized_value": 1.719,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2667,7 +3467,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 1.746,
+      "attention_score": 1.719,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2691,7 +3491,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 1135.0,
-      "normalized_value": 1.55,
+      "normalized_value": 1.526,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2699,7 +3499,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 1.55,
+      "attention_score": 1.526,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2755,7 +3555,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 685.0,
-      "normalized_value": 0.936,
+      "normalized_value": 0.921,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2763,7 +3563,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 0.936,
+      "attention_score": 0.921,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -2915,7 +3715,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-25",
       "raw_value": 340.0,
-      "normalized_value": 0.464,
+      "normalized_value": 0.457,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -2923,7 +3723,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 0.464,
+      "attention_score": 0.457,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3221,7 +4021,7 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:u-7cfde84b1889:2026-10-25",
+      "signal_key": "attention_signal:k-pop:google:u-b96fedea401b:2026-10-25",
       "keyword_set_name": "K-POP 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
@@ -3230,11 +4030,11 @@
       },
       "taxonomy_vertical": "entertainment",
       "taxonomy_intent": "fan_attention",
-      "keyword": "아이돌",
+      "keyword": "멜론",
       "channel": "google",
       "source": "google",
       "signal_date": "2026-10-25",
-      "raw_value": 65.0,
+      "raw_value": 68.0,
       "normalized_value": 100.0,
       "score_axis": "attention",
       "freshness_sla_days": 1,
@@ -3253,7 +4053,7 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:u-b96fedea401b:2026-10-25",
+      "signal_key": "attention_signal:k-pop:google:u-7cfde84b1889:2026-10-25",
       "keyword_set_name": "K-POP 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
@@ -3262,12 +4062,12 @@
       },
       "taxonomy_vertical": "entertainment",
       "taxonomy_intent": "fan_attention",
-      "keyword": "멜론",
+      "keyword": "아이돌",
       "channel": "google",
       "source": "google",
       "signal_date": "2026-10-25",
-      "raw_value": 65.0,
-      "normalized_value": 100.0,
+      "raw_value": 64.0,
+      "normalized_value": 94.118,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3275,7 +4075,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 100.0,
+      "attention_score": 94.118,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3299,7 +4099,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 57.0,
-      "normalized_value": 87.692,
+      "normalized_value": 83.824,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3307,7 +4107,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 87.692,
+      "attention_score": 83.824,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3330,8 +4130,8 @@
       "channel": "google",
       "source": "google",
       "signal_date": "2026-10-25",
-      "raw_value": 42.0,
-      "normalized_value": 64.615,
+      "raw_value": 43.0,
+      "normalized_value": 63.235,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3339,7 +4139,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 64.615,
+      "attention_score": 63.235,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3363,7 +4163,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 21.0,
-      "normalized_value": 32.308,
+      "normalized_value": 30.882,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3371,7 +4171,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 32.308,
+      "attention_score": 30.882,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3394,8 +4194,8 @@
       "channel": "google",
       "source": "google",
       "signal_date": "2026-10-25",
-      "raw_value": 19.0,
-      "normalized_value": 29.231,
+      "raw_value": 20.0,
+      "normalized_value": 29.412,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3403,7 +4203,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 29.231,
+      "attention_score": 29.412,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3427,7 +4227,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 17.0,
-      "normalized_value": 26.154,
+      "normalized_value": 25.0,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3435,7 +4235,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 26.154,
+      "attention_score": 25.0,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3459,7 +4259,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 13.0,
-      "normalized_value": 20.0,
+      "normalized_value": 19.118,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3467,7 +4267,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 20.0,
+      "attention_score": 19.118,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3491,7 +4291,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 11.0,
-      "normalized_value": 16.923,
+      "normalized_value": 16.176,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3499,7 +4299,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 16.923,
+      "attention_score": 16.176,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3522,8 +4322,8 @@
       "channel": "google",
       "source": "google",
       "signal_date": "2026-10-25",
-      "raw_value": 11.0,
-      "normalized_value": 16.923,
+      "raw_value": 10.0,
+      "normalized_value": 14.706,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3531,7 +4331,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 16.923,
+      "attention_score": 14.706,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3555,7 +4355,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 9.0,
-      "normalized_value": 13.846,
+      "normalized_value": 13.235,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3563,7 +4363,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 13.846,
+      "attention_score": 13.235,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3587,7 +4387,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 8.0,
-      "normalized_value": 12.308,
+      "normalized_value": 11.765,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3595,7 +4395,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 12.308,
+      "attention_score": 11.765,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3619,7 +4419,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 6.0,
-      "normalized_value": 9.231,
+      "normalized_value": 8.824,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3627,7 +4427,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 9.231,
+      "attention_score": 8.824,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3651,7 +4451,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 5.0,
-      "normalized_value": 7.692,
+      "normalized_value": 7.353,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3659,7 +4459,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 7.692,
+      "attention_score": 7.353,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3683,7 +4483,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 4.0,
-      "normalized_value": 6.154,
+      "normalized_value": 5.882,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3691,7 +4491,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 6.154,
+      "attention_score": 5.882,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3715,7 +4515,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 2.0,
-      "normalized_value": 3.077,
+      "normalized_value": 2.941,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3723,7 +4523,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.077,
+      "attention_score": 2.941,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3747,7 +4547,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 2.0,
-      "normalized_value": 3.077,
+      "normalized_value": 2.941,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3755,7 +4555,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.077,
+      "attention_score": 2.941,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3779,7 +4579,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 2.0,
-      "normalized_value": 3.077,
+      "normalized_value": 2.941,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3787,7 +4587,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.077,
+      "attention_score": 2.941,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3811,7 +4611,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 2.0,
-      "normalized_value": 3.077,
+      "normalized_value": 2.941,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3819,7 +4619,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.077,
+      "attention_score": 2.941,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3843,7 +4643,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 2.0,
-      "normalized_value": 3.077,
+      "normalized_value": 2.941,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3851,7 +4651,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.077,
+      "attention_score": 2.941,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3875,7 +4675,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 2.0,
-      "normalized_value": 3.077,
+      "normalized_value": 2.941,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3883,39 +4683,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.077,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:k-pop:2026-10-25",
-      "keyword_set_name": "K-POP 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "entertainment",
-        "intent": "fan_attention"
-      },
-      "taxonomy_vertical": "entertainment",
-      "taxonomy_intent": "fan_attention",
-      "keyword": "K-POP",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-10-25",
-      "raw_value": 2.0,
-      "normalized_value": 3.077,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 3,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 3.077,
+      "attention_score": 2.941,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3939,7 +4707,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 1.0,
-      "normalized_value": 1.538,
+      "normalized_value": 1.471,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3947,7 +4715,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 1.538,
+      "attention_score": 1.471,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -3971,7 +4739,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 1.0,
-      "normalized_value": 1.538,
+      "normalized_value": 1.471,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -3979,7 +4747,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 1.538,
+      "attention_score": 1.471,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4003,7 +4771,7 @@
       "source": "google",
       "signal_date": "2026-10-25",
       "raw_value": 1.0,
-      "normalized_value": 1.538,
+      "normalized_value": 1.471,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 3,
@@ -4011,7 +4779,39 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 1.538,
+      "attention_score": 1.471,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:k-pop:google:k-pop:2026-10-25",
+      "keyword_set_name": "K-POP 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "entertainment",
+        "intent": "fan_attention"
+      },
+      "taxonomy_vertical": "entertainment",
+      "taxonomy_intent": "fan_attention",
+      "keyword": "K-POP",
+      "channel": "google",
+      "source": "google",
+      "signal_date": "2026-10-25",
+      "raw_value": 1.0,
+      "normalized_value": 1.471,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 3,
+      "freshness_status": "stale",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 1.471,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4195,7 +4995,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 63954.0,
-      "normalized_value": 87.35,
+      "normalized_value": 86.006,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4203,7 +5003,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 87.35,
+      "attention_score": 86.006,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4227,7 +5027,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 11802.0,
-      "normalized_value": 16.119,
+      "normalized_value": 15.871,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4235,7 +5035,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 16.119,
+      "attention_score": 15.871,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4259,7 +5059,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 10863.0,
-      "normalized_value": 14.837,
+      "normalized_value": 14.609,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4267,7 +5067,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 14.837,
+      "attention_score": 14.609,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4291,7 +5091,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 10000.0,
-      "normalized_value": 13.658,
+      "normalized_value": 13.448,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4299,7 +5099,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 13.658,
+      "attention_score": 13.448,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4323,7 +5123,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 6768.0,
-      "normalized_value": 9.244,
+      "normalized_value": 9.102,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4331,7 +5131,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 9.244,
+      "attention_score": 9.102,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4355,7 +5155,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 6134.0,
-      "normalized_value": 8.378,
+      "normalized_value": 8.249,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4363,7 +5163,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 8.378,
+      "attention_score": 8.249,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4387,7 +5187,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 6127.0,
-      "normalized_value": 8.368,
+      "normalized_value": 8.24,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4395,7 +5195,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 8.368,
+      "attention_score": 8.24,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4451,7 +5251,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 2374.0,
-      "normalized_value": 3.242,
+      "normalized_value": 3.193,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4459,7 +5259,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 3.242,
+      "attention_score": 3.193,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4483,7 +5283,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 2012.0,
-      "normalized_value": 2.748,
+      "normalized_value": 2.706,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4491,7 +5291,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.748,
+      "attention_score": 2.706,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4547,7 +5347,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 1914.0,
-      "normalized_value": 2.614,
+      "normalized_value": 2.574,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4555,7 +5355,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.614,
+      "attention_score": 2.574,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4579,7 +5379,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 1562.0,
-      "normalized_value": 2.133,
+      "normalized_value": 2.101,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4587,7 +5387,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.133,
+      "attention_score": 2.101,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4611,7 +5411,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 1178.0,
-      "normalized_value": 1.609,
+      "normalized_value": 1.584,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4619,7 +5419,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 1.609,
+      "attention_score": 1.584,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4643,7 +5443,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 1089.0,
-      "normalized_value": 1.487,
+      "normalized_value": 1.464,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4651,7 +5451,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 1.487,
+      "attention_score": 1.464,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4707,7 +5507,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 627.0,
-      "normalized_value": 0.856,
+      "normalized_value": 0.843,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4715,7 +5515,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 0.856,
+      "attention_score": 0.843,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -4867,7 +5667,7 @@
       "source": "wikipedia",
       "signal_date": "2026-10-24",
       "raw_value": 397.0,
-      "normalized_value": 0.542,
+      "normalized_value": 0.534,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 4,
@@ -4875,7 +5675,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 0.542,
+      "attention_score": 0.534,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -5333,326 +6133,6 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:youtube:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "YouTube",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 71686.0,
-      "normalized_value": 97.91,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 97.91,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:world-wide-web:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "World Wide Web",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 28027.0,
-      "normalized_value": 38.28,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 38.28,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:python-programming-language:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Python (programming language)",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 27546.0,
-      "normalized_value": 37.623,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 37.623,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:artificial-intelligence:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Artificial intelligence",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 15060.0,
-      "normalized_value": 20.569,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 20.569,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:openai:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "OpenAI",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 7382.0,
-      "normalized_value": 10.082,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 10.082,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:netflix:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Netflix",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 6825.0,
-      "normalized_value": 9.322,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 9.322,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:south-korea:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "South Korea",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 6274.0,
-      "normalized_value": 8.569,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 8.569,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:bitcoin:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Bitcoin",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 2875.0,
-      "normalized_value": 3.927,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 3.927,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Seoul",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 2470.0,
-      "normalized_value": 3.374,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 3.374,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:climate-change:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Climate change",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 2138.0,
-      "normalized_value": 2.92,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 2.92,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-02ba75d2cb9b:2026-10-23",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -5708,102 +6188,6 @@
       "community": null,
       "signal_value": null,
       "attention_score": 2.0,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:machine-learning:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Machine learning",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 1845.0,
-      "normalized_value": 2.52,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 2.52,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:samsung:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Samsung",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 1837.0,
-      "normalized_value": 2.509,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 2.509,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:k-pop:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "K-pop",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 1244.0,
-      "normalized_value": 1.699,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 1.699,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -5941,38 +6325,6 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:e-commerce:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "E-commerce",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 772.0,
-      "normalized_value": 1.054,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 1.054,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-c37450d6156c:2026-10-23",
       "keyword_set_name": "Google Trends RSS",
       "keyword_pack_version": "2026.10",
@@ -6028,38 +6380,6 @@
       "community": null,
       "signal_value": null,
       "attention_score": 0.5,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:electric-vehicle:2026-10-23",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Electric vehicle",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-10-23",
-      "raw_value": 446.0,
-      "normalized_value": 0.609,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 5,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.609,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6418,329 +6738,141 @@
         "source_url"
       ],
       "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-de634d7270e0:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "상속",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 10000.0,
-      "normalized_value": 10.0,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 10.0,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-e2be634c4d8c:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "파리",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 2000.0,
-      "normalized_value": 2.0,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 2.0,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-615c4bdfdcea:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "테오스카 에르난데스",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 2000.0,
-      "normalized_value": 2.0,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 2.0,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-a59456080daa:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "필라데피아 대 클리블랜드",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 1000.0,
-      "normalized_value": 1.0,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 1.0,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-500b9e606183:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "술",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 1000.0,
-      "normalized_value": 1.0,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 1.0,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-4e0c749fd105:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "아코스타",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-356572134354:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "록히드 마틴",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-98ab717c5902:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "독도의 날",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-1a30f3cec922:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "금양",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 200.0,
-      "normalized_value": 0.2,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.2,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-7cd963dbcf86:2026-10-22",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword_pack_version": "2026.10",
-      "taxonomy": {
-        "vertical": "public_trending",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "public_trending",
-      "taxonomy_intent": "public_attention",
-      "keyword": "김태원",
-      "channel": "google_trending",
-      "source": "google_trending",
-      "signal_date": "2026-10-22",
-      "raw_value": 100.0,
-      "normalized_value": 0.1,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.1,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-b4415c518faf:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "신진 서",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-acecb1a8094d:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "이계인",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-6ad38386b34b:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "크랙",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-ea02bb97d8ba:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "일본 지진",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-174594b1f236:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "올림픽파크 포레온",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-6ffb6c97140f:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "김민",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-6fc74601752f:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "한겨레",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-37c078e8b35a:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "하림",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-a17a814efa24:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "서울반도체",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-9705e8f9f35d:2026-10-28",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "메달",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:youtube:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "YouTube",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:artificial-intelligence:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "Artificial intelligence",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
@@ -6748,6 +6880,105 @@
       "keyword_set_name": "Google Trends RSS",
       "keyword": "송가 인",
       "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:openai:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "OpenAI",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:netflix:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "Netflix",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:south-korea:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "South Korea",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:world-wide-web:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "World Wide Web",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:python-programming-language:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "Python (programming language)",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:bitcoin:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "Bitcoin",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:machine-learning:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "Machine learning",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "Seoul",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:samsung:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "Samsung",
+      "channel": "wikipedia",
       "required_field_gaps": [
         "source_url"
       ]
@@ -6770,6 +7001,28 @@
       "keyword_set_name": "Google Trends RSS",
       "keyword": "아버지",
       "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:climate-change:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "Climate change",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:k-pop:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "K-pop",
+      "channel": "wikipedia",
       "required_field_gaps": [
         "source_url"
       ]
@@ -6810,10 +7063,32 @@
     {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:e-commerce:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "E-commerce",
+      "channel": "wikipedia",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-5e3f7f4dc5bd:2026-10-27",
       "keyword_set_name": "Google Trends RSS",
       "keyword": "국민연금",
       "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:electric-vehicle:2026-10-27",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword": "Electric vehicle",
+      "channel": "wikipedia",
       "required_field_gaps": [
         "source_url"
       ]
@@ -7011,257 +7286,6 @@
       "channel": "wikipedia",
       "age_days": 2,
       "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:openai:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "OpenAI",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:openai:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:netflix:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Netflix",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:netflix:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:south-korea:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "South Korea",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:south-korea:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-f7a24a00da88:2026-10-26",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "브루어스 대 레이스",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-f7a24a00da88:2026-10-26",
-      "keyword_set_name": "Google Trends RSS",
-      "channel": "google_trending",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:world-wide-web:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "World Wide Web",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:world-wide-web:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:python-programming-language:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Python (programming language)",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:python-programming-language:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Seoul",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:bitcoin:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Bitcoin",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:bitcoin:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:samsung:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Samsung",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:samsung:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-8c2fa1981d45:2026-10-26",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "북한 자주포",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-8c2fa1981d45:2026-10-26",
-      "keyword_set_name": "Google Trends RSS",
-      "channel": "google_trending",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-536f1be0c2c0:2026-10-26",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "범죄",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-536f1be0c2c0:2026-10-26",
-      "keyword_set_name": "Google Trends RSS",
-      "channel": "google_trending",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-493c7c99ac6d:2026-10-26",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "배드민턴",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-493c7c99ac6d:2026-10-26",
-      "keyword_set_name": "Google Trends RSS",
-      "channel": "google_trending",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:climate-change:2026-10-26",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Climate change",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
     }
   ],
   "source_backlog": [
