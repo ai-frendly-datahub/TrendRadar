@@ -58,3 +58,33 @@
 {"keyword": "How can I constrain AI coding assistants to implement only specified requirements?", "platform": "stackexchange", "value": -8.0, "timestamp": "1793109415"}
 {"keyword": "MSTest test classes and methods disappeared from testing side bar in VS Code", "platform": "stackexchange", "value": -2.0, "timestamp": "1793069294"}
 {"keyword": "Does send() ever report WSAEWOULDBLOCK?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793046222"}
+{"keyword": "Exceptions in IAsyncEnumerable not passed upwards properly", "platform": "stackexchange", "value": 0.0, "timestamp": "1793203788"}
+{"keyword": "Phpspreadsheet throwing a php deprecated error", "platform": "stackexchange", "value": 0.0, "timestamp": "1793200912"}
+{"keyword": "Why does the compiler fail with an error &quot;invalid suffix&quot;", "platform": "stackexchange", "value": 0.0, "timestamp": "1793202979"}
+{"keyword": "Eclipse does not format code when Lombok @Log4j2 is used", "platform": "stackexchange", "value": 0.0, "timestamp": "1793200646"}
+{"keyword": "LEON3 SPARC V8 processor: Unexpected saved PC/nPC values in %l1/%l2 registers when interrupt was cal", "platform": "stackexchange", "value": 1.0, "timestamp": "1793200590"}
+{"keyword": "Apply a function with summarize() for a set of predefined columns?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793202770"}
+{"keyword": "CAST fails when included in SELECT, works if outside of it", "platform": "stackexchange", "value": 0.0, "timestamp": "1793195246"}
+{"keyword": "How to update files after hosting a new website on github?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793196127"}
+{"keyword": "I can not install car on R 4.6 on MacOS 27", "platform": "stackexchange", "value": -3.0, "timestamp": "1793196450"}
+{"keyword": "How do I insert a string variable into a JSON string in C#", "platform": "stackexchange", "value": -1.0, "timestamp": "1793193923"}
+{"keyword": "(How) can I use CMake&#39;s new &#39;discover_tests&#39; statement with Boost.Test suites?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793194311"}
+{"keyword": "Why is Pyright saying I have already declared this enum member?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793195981"}
+{"keyword": "How do I generate and use the PKCE code_verifier and code_challenge in a Keycloak authentication flo", "platform": "stackexchange", "value": 0.0, "timestamp": "1793193250"}
+{"keyword": "How do I get the DataContext from within a ListViewItem", "platform": "stackexchange", "value": 1.0, "timestamp": "1793195689"}
+{"keyword": "Next.js 15 memory usage keeps increasing when polling a live darts API every second", "platform": "stackexchange", "value": 2.0, "timestamp": "1793194842"}
+{"keyword": "Have difficulty understanding Type traits using Generic Lambda", "platform": "stackexchange", "value": -1.0, "timestamp": "1793194984"}
+{"keyword": "How to classify expression statements into prvalue?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793188101"}
+{"keyword": "Any tools or scripts to parse Qlikview scripts into Power BI / Power Query?", "platform": "stackexchange", "value": -5.0, "timestamp": "1793189606"}
+{"keyword": "How can I get started writing code from a blank file instead of only following tutorials?", "platform": "stackexchange", "value": -8.0, "timestamp": "1793181718"}
+{"keyword": "Stylus Extension css important don&#39;t work", "platform": "stackexchange", "value": -2.0, "timestamp": "1793183530"}
+{"keyword": "Spring Boot endpoint that returns 202 with a jobId and runs a long sync task in the background", "platform": "stackexchange", "value": 0.0, "timestamp": "1793186168"}
+{"keyword": "TinyMCE 5 editor displays a blank white area when Android keyboard opens", "platform": "stackexchange", "value": 0.0, "timestamp": "1793183667"}
+{"keyword": "How to enable logging for PHP-FPM inside a container", "platform": "stackexchange", "value": 1.0, "timestamp": "1793173911"}
+{"keyword": "React-PDF + IntersectionObserver not working correctly on multi page PDF", "platform": "stackexchange", "value": -3.0, "timestamp": "1793178968"}
+{"keyword": "Load multiple copies of shared library in Rust C FFI", "platform": "stackexchange", "value": 1.0, "timestamp": "1793167245"}
+{"keyword": "Does AutoCAD&#39;s managed SymbolTable API support enumerating AcDbFontTable and AcDbVXTable?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793182068"}
+{"keyword": "Block model doesn&#39;t show it texture, and item icon doesn&#39;t show up too", "platform": "stackexchange", "value": -1.0, "timestamp": "1793180179"}
+{"keyword": "Product links don&#39;t respond to the first tap on Android after swiping", "platform": "stackexchange", "value": -4.0, "timestamp": "1793180971"}
+{"keyword": "Does prvalue specifically include the constructor of a class?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793160746"}
+{"keyword": "How to build an effective sales and revenue analytics dashboard?", "platform": "stackexchange", "value": -5.0, "timestamp": "1793180793"}

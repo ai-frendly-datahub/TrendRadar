@@ -118,3 +118,63 @@
 {"keyword": "AI wrote the first 90% of my app in an afternoon. The last 10% took three weeks.", "platform": "devto", "value": 10.0, "timestamp": "2026-10-27T10:25:10Z"}
 {"keyword": "What SKIP LOCKED Solves, and What It Leaves to You", "platform": "devto", "value": 8.0, "timestamp": "2026-10-27T12:00:00Z"}
 {"keyword": "From Side Projects to Your First Paying Client: A Practical Guide for Developers", "platform": "devto", "value": 1.0, "timestamp": "2026-10-27T10:00:15Z"}
+{"keyword": "Your DEV posts have a beautiful new share card ✨", "platform": "devto", "value": 76.0, "timestamp": "2026-10-27T16:44:29Z"}
+{"keyword": "Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.", "platform": "devto", "value": 97.0, "timestamp": "2026-10-27T16:46:17Z"}
+{"keyword": "Lessons Learned: Wifi Server Disaster", "platform": "devto", "value": 17.0, "timestamp": "2026-10-28T04:35:13Z"}
+{"keyword": "MQTT Doesn't Have Message Queues. Inside the 2-Byte Protocol Powering Modern IoT.", "platform": "devto", "value": 24.0, "timestamp": "2026-10-28T10:15:57Z"}
+{"keyword": "Not the End, but a Shift: How AI Is Pushing Computer Science Toward Deeper Engineering", "platform": "devto", "value": 23.0, "timestamp": "2026-10-28T05:13:04Z"}
+{"keyword": "Accuracy vs Speed: Gemma 4 E2B Quantization Tradeoffs, BF16 to Q2_K", "platform": "devto", "value": 6.0, "timestamp": "2026-10-28T16:02:20Z"}
+{"keyword": "Give Your Desktop App a Useful Title Bar and Real Tools", "platform": "devto", "value": 7.0, "timestamp": "2026-10-27T19:01:49Z"}
+{"keyword": "The cheapest GitHub Actions runners in 2026: what 100,000 minutes cost", "platform": "devto", "value": 4.0, "timestamp": "2026-10-27T19:15:00Z"}
+{"keyword": "Your SaaS Has 10,000 Users. Who Removes Their Access When They Leave?", "platform": "devto", "value": 53.0, "timestamp": "2026-10-28T09:52:39Z"}
+{"keyword": "From Code to Culture: Building 101 Indian Monuments in 3D", "platform": "devto", "value": 7.0, "timestamp": "2026-10-28T00:39:09Z"}
+{"keyword": "MemoriaViva: A Cute Ghost in the Machine That Preserves Family Oral Histories & Heirloom Recipes wit", "platform": "devto", "value": 2.0, "timestamp": "2026-10-27T20:05:29Z"}
+{"keyword": "What I learned building wfreq", "platform": "devto", "value": 11.0, "timestamp": "2026-10-28T15:10:42Z"}
+{"keyword": "My AI was in the cloud. I brought it home.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-28T00:50:24Z"}
+{"keyword": "Four Ways a Test Can Lie to You", "platform": "devto", "value": 6.0, "timestamp": "2026-10-28T13:32:00Z"}
+{"keyword": "What Hermes is fast at, and what it isn't", "platform": "devto", "value": 10.0, "timestamp": "2026-10-28T09:38:40Z"}
+{"keyword": "aria-selected on tabs: the selected tab that lies (WCAG 4.1.2)", "platform": "devto", "value": 2.0, "timestamp": "2026-10-28T08:25:18Z"}
+{"keyword": "Last Witness: an AI detective for a dead 1999 website, graded on its ghosts", "platform": "devto", "value": 2.0, "timestamp": "2026-10-28T14:15:37Z"}
+{"keyword": "Linterna: keep the voice behind the memory", "platform": "devto", "value": 1.0, "timestamp": "2026-10-27T22:06:12Z"}
+{"keyword": "Laser pointer for Obsidian: how my messy tldraw canvas during midsems became a plugin", "platform": "devto", "value": 2.0, "timestamp": "2026-10-27T19:14:32Z"}
+{"keyword": "We instrumented 11 production agents with real token accounting. In 9 of them, the most expensive st", "platform": "devto", "value": 6.0, "timestamp": "2026-10-28T01:06:28Z"}
+{"keyword": "I Compared 6 TypeScript Validation Libraries. Here's What Surprised Me 🤔", "platform": "devto", "value": 14.0, "timestamp": "2026-10-28T15:37:53Z"}
+{"keyword": "Mercury 3: When AI Is Fast Enough to Stay in the Loop", "platform": "devto", "value": 10.0, "timestamp": "2026-10-28T15:45:10Z"}
+{"keyword": "My OSS Projects: Codegen", "platform": "devto", "value": 6.0, "timestamp": "2026-10-28T10:19:49Z"}
+{"keyword": "Vite+ 1.0 Is Out. You Don't Need ESLint or Prettier Anymore", "platform": "devto", "value": 10.0, "timestamp": "2026-10-28T14:48:04Z"}
+{"keyword": "Astro Wellness: The First Project Built Start to Finish by My Agent Team 🏋️", "platform": "devto", "value": 5.0, "timestamp": "2026-10-28T08:00:00Z"}
+{"keyword": "Where MongoDB puts the writes it took back", "platform": "devto", "value": 10.0, "timestamp": "2026-10-28T07:44:04Z"}
+{"keyword": "What even is a developer experience audit?", "platform": "devto", "value": 4.0, "timestamp": "2026-10-28T15:19:31Z"}
+{"keyword": "Every Developer Has a Shortcut They’re Too Embarrassed to Admit", "platform": "devto", "value": 18.0, "timestamp": "2026-10-28T11:08:46Z"}
+{"keyword": "TypeScript Tuples in 2026: Labeled Elements, Variadic Spreads, and When a Tuple Beats an Interface", "platform": "devto", "value": 3.0, "timestamp": "2026-10-28T06:06:15Z"}
+{"keyword": "Air-Gapped AI Code Review: Which Tools Support Self-Hosted LLMs?", "platform": "devto", "value": 5.0, "timestamp": "2026-10-28T15:23:30Z"}
+{"keyword": "Your DEV posts have a beautiful new share card ✨", "platform": "devto", "value": 76.0, "timestamp": "2026-10-27T16:44:29Z"}
+{"keyword": "Stratagems #32: The AI Logged a Withdrawal. P Took It as Proof.", "platform": "devto", "value": 97.0, "timestamp": "2026-10-27T16:46:17Z"}
+{"keyword": "Lessons Learned: Wifi Server Disaster", "platform": "devto", "value": 17.0, "timestamp": "2026-10-28T04:35:13Z"}
+{"keyword": "MQTT Doesn't Have Message Queues. Inside the 2-Byte Protocol Powering Modern IoT.", "platform": "devto", "value": 24.0, "timestamp": "2026-10-28T10:15:57Z"}
+{"keyword": "Not the End, but a Shift: How AI Is Pushing Computer Science Toward Deeper Engineering", "platform": "devto", "value": 23.0, "timestamp": "2026-10-28T05:13:04Z"}
+{"keyword": "Accuracy vs Speed: Gemma 4 E2B Quantization Tradeoffs, BF16 to Q2_K", "platform": "devto", "value": 6.0, "timestamp": "2026-10-28T16:02:20Z"}
+{"keyword": "Give Your Desktop App a Useful Title Bar and Real Tools", "platform": "devto", "value": 7.0, "timestamp": "2026-10-27T19:01:49Z"}
+{"keyword": "The cheapest GitHub Actions runners in 2026: what 100,000 minutes cost", "platform": "devto", "value": 4.0, "timestamp": "2026-10-27T19:15:00Z"}
+{"keyword": "Your SaaS Has 10,000 Users. Who Removes Their Access When They Leave?", "platform": "devto", "value": 53.0, "timestamp": "2026-10-28T09:52:39Z"}
+{"keyword": "From Code to Culture: Building 101 Indian Monuments in 3D", "platform": "devto", "value": 7.0, "timestamp": "2026-10-28T00:39:09Z"}
+{"keyword": "MemoriaViva: A Cute Ghost in the Machine That Preserves Family Oral Histories & Heirloom Recipes wit", "platform": "devto", "value": 2.0, "timestamp": "2026-10-27T20:05:29Z"}
+{"keyword": "What I learned building wfreq", "platform": "devto", "value": 11.0, "timestamp": "2026-10-28T15:10:42Z"}
+{"keyword": "My AI was in the cloud. I brought it home.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-28T00:50:24Z"}
+{"keyword": "Four Ways a Test Can Lie to You", "platform": "devto", "value": 6.0, "timestamp": "2026-10-28T13:32:00Z"}
+{"keyword": "What Hermes is fast at, and what it isn't", "platform": "devto", "value": 10.0, "timestamp": "2026-10-28T09:38:40Z"}
+{"keyword": "aria-selected on tabs: the selected tab that lies (WCAG 4.1.2)", "platform": "devto", "value": 2.0, "timestamp": "2026-10-28T08:25:18Z"}
+{"keyword": "Last Witness: an AI detective for a dead 1999 website, graded on its ghosts", "platform": "devto", "value": 2.0, "timestamp": "2026-10-28T14:15:37Z"}
+{"keyword": "Linterna: keep the voice behind the memory", "platform": "devto", "value": 1.0, "timestamp": "2026-10-27T22:06:12Z"}
+{"keyword": "Laser pointer for Obsidian: how my messy tldraw canvas during midsems became a plugin", "platform": "devto", "value": 2.0, "timestamp": "2026-10-27T19:14:32Z"}
+{"keyword": "We instrumented 11 production agents with real token accounting. In 9 of them, the most expensive st", "platform": "devto", "value": 6.0, "timestamp": "2026-10-28T01:06:28Z"}
+{"keyword": "I Compared 6 TypeScript Validation Libraries. Here's What Surprised Me 🤔", "platform": "devto", "value": 14.0, "timestamp": "2026-10-28T15:37:53Z"}
+{"keyword": "Mercury 3: When AI Is Fast Enough to Stay in the Loop", "platform": "devto", "value": 10.0, "timestamp": "2026-10-28T15:45:10Z"}
+{"keyword": "My OSS Projects: Codegen", "platform": "devto", "value": 6.0, "timestamp": "2026-10-28T10:19:49Z"}
+{"keyword": "Vite+ 1.0 Is Out. You Don't Need ESLint or Prettier Anymore", "platform": "devto", "value": 10.0, "timestamp": "2026-10-28T14:48:04Z"}
+{"keyword": "Astro Wellness: The First Project Built Start to Finish by My Agent Team 🏋️", "platform": "devto", "value": 5.0, "timestamp": "2026-10-28T08:00:00Z"}
+{"keyword": "Where MongoDB puts the writes it took back", "platform": "devto", "value": 10.0, "timestamp": "2026-10-28T07:44:04Z"}
+{"keyword": "What even is a developer experience audit?", "platform": "devto", "value": 4.0, "timestamp": "2026-10-28T15:19:31Z"}
+{"keyword": "Every Developer Has a Shortcut They’re Too Embarrassed to Admit", "platform": "devto", "value": 18.0, "timestamp": "2026-10-28T11:08:46Z"}
+{"keyword": "TypeScript Tuples in 2026: Labeled Elements, Variadic Spreads, and When a Tuple Beats an Interface", "platform": "devto", "value": 3.0, "timestamp": "2026-10-28T06:06:15Z"}
+{"keyword": "Air-Gapped AI Code Review: Which Tools Support Self-Hosted LLMs?", "platform": "devto", "value": 5.0, "timestamp": "2026-10-28T15:23:30Z"}
