@@ -6,47 +6,7 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "E-commerce",
-      "count": 4
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 4
-    },
-    {
-      "name": "YouTube",
-      "count": 4
-    },
-    {
-      "name": "OpenAI",
-      "count": 4
-    },
-    {
-      "name": "Machine learning",
-      "count": 4
-    },
-    {
-      "name": "Netflix",
-      "count": 4
-    },
-    {
       "name": "Seoul",
-      "count": 4
-    },
-    {
-      "name": "K-pop",
-      "count": 4
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 4
-    },
-    {
-      "name": "Bitcoin",
-      "count": 4
-    },
-    {
-      "name": "World Wide Web",
       "count": 4
     },
     {
@@ -58,11 +18,51 @@
       "count": 4
     },
     {
-      "name": "Samsung",
+      "name": "E-commerce",
+      "count": 4
+    },
+    {
+      "name": "YouTube",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
       "count": 4
     },
     {
       "name": "South Korea",
+      "count": 4
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 4
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 4
+    },
+    {
+      "name": "Machine learning",
+      "count": 4
+    },
+    {
+      "name": "K-pop",
+      "count": 4
+    },
+    {
+      "name": "World Wide Web",
+      "count": 4
+    },
+    {
+      "name": "Samsung",
+      "count": 4
+    },
+    {
+      "name": "Netflix",
+      "count": 4
+    },
+    {
+      "name": "Bitcoin",
       "count": 4
     },
     {
@@ -74,15 +74,15 @@
       "count": 2
     },
     {
-      "name": "리그컵",
+      "name": "대신증권",
       "count": 1
     },
     {
-      "name": "엄태웅",
+      "name": "도박",
       "count": 1
     },
     {
-      "name": "승리",
+      "name": "아주대 소아 응급실",
       "count": 1
     }
   ],
@@ -91,5 +91,5 @@
     "wikipedia": 60,
     "google": 30
   },
-  "generated_at": "2026-10-28T00:56:32.680743+09:00"
+  "generated_at": "2026-10-28T00:59:12.497441+00:00"
 }
