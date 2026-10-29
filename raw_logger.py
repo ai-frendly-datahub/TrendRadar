@@ -5,6 +5,8 @@ from collections.abc import Iterable
 from datetime import UTC, datetime
 from pathlib import Path
 
+from radar_core.dates import daily_partition_date
+
 
 class RawLogger:
     raw_dir: Path
@@ -14,7 +16,8 @@ class RawLogger:
 
     def log(self, records: Iterable[dict[str, object]], *, source_name: str) -> Path:
         """Log trend data dicts to JSONL."""
-        target_dir = self.raw_dir / datetime.now(tz=UTC).date().isoformat()
+        now = datetime.now(UTC)
+        target_dir = self.raw_dir / daily_partition_date(now).isoformat()
         target_dir.mkdir(parents=True, exist_ok=True)
 
         safe_source_name = source_name.replace("/", "_").replace("\\", "_")

@@ -14,13 +14,15 @@ import duckdb
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+from radar_core.dates import daily_partition_date  # noqa: E402
+
+from storage import trend_store  # noqa: E402
 from trendradar.common.quality_checks import run_all_checks  # noqa: E402
 from trendradar.quality_report import (  # noqa: E402
     build_quality_report,
     load_keyword_quality_config,
     write_quality_report,
 )
-from storage import trend_store  # noqa: E402
 
 
 def _quality_output_dir(project_root: Path, config: dict[str, Any]) -> Path:
@@ -62,12 +64,14 @@ def _latest_trend_point_date(db_path: Path) -> date | None:
     return None
 
 
-def generate_quality_artifacts(project_root: Path = PROJECT_ROOT) -> tuple[dict[str, str], dict[str, Any]]:
+def generate_quality_artifacts(
+    project_root: Path = PROJECT_ROOT,
+) -> tuple[dict[str, str], dict[str, Any]]:
     config_path = project_root / "config" / "keyword_sets.yaml"
     db_path = project_root / "data" / "trendradar.duckdb"
     quality_config = load_keyword_quality_config(config_path)
     output_dir = _quality_output_dir(project_root, quality_config)
-    target_date = _latest_trend_point_date(db_path) or datetime.now(UTC).date()
+    target_date = _latest_trend_point_date(db_path) or daily_partition_date()
     start_date = target_date.replace(day=1).isoformat()
     end_date = (target_date + timedelta(days=1)).isoformat()
     trend_points = trend_store.query_trend_points(

@@ -5,6 +5,9 @@ import shutil
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
+from radar_core.dates import daily_partition_date
+
+
 logger = logging.getLogger(__name__)
 
 
@@ -52,7 +55,8 @@ def snapshot_database(
         return None
 
     if snapshot_date is None:
-        snapshot_date = datetime.now(UTC).date()
+        # KST calendar date of this collection, not the UTC date.
+        snapshot_date = daily_partition_date(datetime.now(UTC))
     if snapshot_root is None:
         snapshot_root = db_path.parent / "daily"
 
@@ -64,7 +68,7 @@ def snapshot_database(
 
 def cleanup_date_directories(base_dir: Path, *, keep_days: int, today: date | None = None) -> int:
     if today is None:
-        today = datetime.now(UTC).date()
+        today = daily_partition_date(datetime.now(UTC))
     if not base_dir.exists():
         return 0
 
@@ -85,7 +89,7 @@ def cleanup_date_directories(base_dir: Path, *, keep_days: int, today: date | No
 
 def cleanup_dated_reports(report_dir: Path, *, keep_days: int, today: date | None = None) -> int:
     if today is None:
-        today = datetime.now(UTC).date()
+        today = daily_partition_date(datetime.now(UTC))
     if not report_dir.exists():
         return 0
 

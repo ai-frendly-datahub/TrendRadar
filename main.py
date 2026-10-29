@@ -14,6 +14,7 @@ from importlib import import_module
 from pathlib import Path
 
 import yaml
+from radar_core.dates import daily_partition_date
 from radar_core.ontology import build_event_model_payload, build_summary_ontology_metadata
 
 from analyzers.spike_detector import SpikeDetector
@@ -1487,6 +1488,7 @@ def run_once(
     """트렌드 수집을 한 번 실행합니다."""
     start_time = time.time()
     now = datetime.now(UTC)
+    partition_date = daily_partition_date(now)
 
     print(f"[{now.isoformat()}] TrendRadar run_once 시작")
 
@@ -1564,12 +1566,12 @@ def run_once(
         )
         quality_config = load_keyword_quality_config(quality_config_path)
         quality_points = _quality_trend_points(
-            target_date=now.date(),
+            target_date=partition_date,
             db_path=resolved_db_path,
         )
         quality_report = build_quality_report(
             quality_config,
-            target_date=now.date(),
+            target_date=partition_date,
             trend_points=quality_points,
         )
     except Exception as e:
@@ -1582,15 +1584,15 @@ def run_once(
             report_dir.mkdir(parents=True, exist_ok=True)
 
             generate_daily_report(
-                target_date=now.date(),
+                target_date=partition_date,
                 keyword_sets=keyword_sets,
                 db_path=resolved_db_path,
                 output_dir=report_dir,
                 quality_report=quality_report,
             )
-            daily_report_path = report_dir / f"trend_{now.date().strftime('%Y%m%d')}.html"
+            daily_report_path = report_dir / f"trend_{partition_date.strftime('%Y%m%d')}.html"
             summary_path = _write_summary_report(
-                target_date=now.date(),
+                target_date=partition_date,
                 db_path=resolved_db_path,
                 report_dir=report_dir,
             )
@@ -1623,11 +1625,11 @@ def run_once(
 
                 report_dir = report_output_dir or DEFAULT_REPORT_DIR
                 generate_spike_report(
-                    target_date=now.date(),
+                    target_date=partition_date,
                     db_path=db_path,
                     output_dir=report_dir,
                 )
-                spike_report_path = report_dir / f"spike_{now.date().strftime('%Y%m%d')}.html"
+                spike_report_path = report_dir / f"spike_{partition_date.strftime('%Y%m%d')}.html"
                 print(f"  [ok] 급상승 리포트 저장: {report_dir}")
             else:
                 print("  [info] 급상승 신호 없음 (데이터 부족 가능)")
@@ -1661,16 +1663,16 @@ def run_once(
             quality_config = load_keyword_quality_config(quality_config_path)
             quality_report = build_quality_report(
                 quality_config,
-                target_date=now.date(),
+                target_date=partition_date,
                 trend_points=_quality_trend_points(
-                    target_date=now.date(),
+                    target_date=partition_date,
                     db_path=resolved_db_path,
                 ),
             )
         quality_paths = write_quality_report(
             quality_report,
             report_dir,
-            target_date=now.date(),
+            target_date=partition_date,
         )
         print(f"  - Data quality report saved: {quality_paths['latest']}")
     except Exception as e:

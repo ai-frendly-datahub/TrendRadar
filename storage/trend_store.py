@@ -16,12 +16,26 @@ logger = logging.getLogger(__name__)
 
 
 def _utc_naive(dt: datetime | None) -> datetime | None:
-    """Convert tz-aware datetime to UTC naive for DuckDB."""
+    """UTC wall time for DuckDB TIMESTAMP columns.
+
+    Those columns stay ``TIMESTAMP`` and cannot store an offset. Naive inputs
+    are already UTC wall time. Aware inputs are converted to UTC, then the
+    offset is stripped. The original text belongs in ``published_raw``.
+    """
     if dt is None:
         return None
-    if dt.tzinfo:
-        return dt.astimezone(UTC).replace(tzinfo=None)
-    return dt
+    if dt.tzinfo is None or dt.tzinfo.utcoffset(dt) is None:
+        return dt.replace(tzinfo=None)
+    return dt.astimezone(UTC).replace(tzinfo=None)
+
+
+def _utc_aware(dt: datetime | None) -> datetime | None:
+    """Reattach UTC to a TIMESTAMP read back from DuckDB."""
+    if not isinstance(dt, datetime):
+        return None
+    if dt.tzinfo is None or dt.tzinfo.utcoffset(dt) is None:
+        return dt.replace(tzinfo=UTC)
+    return dt.astimezone(UTC)
 
 
 class RadarStorage:
@@ -138,8 +152,8 @@ class RadarStorage:
             category_value, source, title, link, summary, published, collected_at, raw_entities = (
                 row
             )
-            published_at = published if isinstance(published, datetime) else None
-            collected = collected_at if isinstance(collected_at, datetime) else None
+            published_at = _utc_aware(published)
+            collected = _utc_aware(collected_at)
 
             entities: dict[str, list[str]] = {}
             if raw_entities:

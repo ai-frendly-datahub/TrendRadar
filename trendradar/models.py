@@ -1,10 +1,11 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
-from datetime import UTC, datetime
 import json
 from collections.abc import Mapping
+from dataclasses import dataclass, field
+from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
 
 
 @dataclass
@@ -12,6 +13,8 @@ class Source:
     name: str
     type: str
     url: str
+    default_timezone: str = ""
+    config: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass
@@ -31,6 +34,7 @@ class Article:
     category: str
     matched_entities: dict[str, list[str]] = field(default_factory=dict)
     collected_at: datetime | None = None
+    published_raw: str | None = None
 
 
 @dataclass

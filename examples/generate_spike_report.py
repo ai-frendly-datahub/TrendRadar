@@ -1,7 +1,8 @@
 """급상승 키워드 리포트 생성 예시."""
 
-from datetime import UTC, datetime
 from pathlib import Path
+
+from radar_core.dates import daily_partition_date
 
 from reporters.spike_reporter import generate_spike_report
 
@@ -22,7 +23,7 @@ def main():
     output_dir = Path("docs/reports")
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    today = datetime.now(tz=UTC).date()
+    today = daily_partition_date()
 
     print(f"📅 리포트 날짜: {today}")
     print(f"📁 출력 디렉토리: {output_dir}")
