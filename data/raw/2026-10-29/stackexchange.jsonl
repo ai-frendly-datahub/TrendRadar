@@ -58,3 +58,33 @@
 {"keyword": "trouble w/ shortcuts", "platform": "stackexchange", "value": -4.0, "timestamp": "1793206974"}
 {"keyword": "Dependency error when installing package car on macOS", "platform": "stackexchange", "value": -5.0, "timestamp": "1793196450"}
 {"keyword": "CAST fails when included in SELECT, works if outside of it", "platform": "stackexchange", "value": 0.0, "timestamp": "1793195246"}
+{"keyword": "NuGet vulnerable with Microsoft.Data.SqlClient 7.1.1 depending on System.Security.Cryptography.Pkcs", "platform": "stackexchange", "value": 0.0, "timestamp": "1793289932"}
+{"keyword": "Why does PostgreSQL ignore my B-tree index on WHERE upper(name) LIKE &#39;GARC%&#39; and do a sequen", "platform": "stackexchange", "value": 0.0, "timestamp": "1793290845"}
+{"keyword": "Why does comparing two visually identical strings &quot;Jos&#233;&quot; and &quot;Jos&#233;&quot; re", "platform": "stackexchange", "value": -1.0, "timestamp": "1793286576"}
+{"keyword": "Problem in sending message in php telegram bot", "platform": "stackexchange", "value": -2.0, "timestamp": "1793289211"}
+{"keyword": "VPS relay connection to a C# desktop app is blocked in restricted networks — how to diagnose and han", "platform": "stackexchange", "value": -1.0, "timestamp": "1793287454"}
+{"keyword": "Cloud SQL db-g1-small: CPU allocation, minimum share, and relation to Compute Engine g1-small", "platform": "stackexchange", "value": -2.0, "timestamp": "1793288155"}
+{"keyword": "How can I display localized dates in Jetpack Compose without breaking ISO date filtering?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793286023"}
+{"keyword": "How to repair double-encoded (mojibake) text in ~1.3M rows of a live MySQL 8 table when data came fr", "platform": "stackexchange", "value": -2.0, "timestamp": "1793284909"}
+{"keyword": "How do I convert the name of a struct to a string?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793285690"}
+{"keyword": "How to idiomatically implement a C++26 reflection-based enum-to-string serializer using std::meta?", "platform": "stackexchange", "value": 3.0, "timestamp": "1793282877"}
+{"keyword": "Multi Language compiler", "platform": "stackexchange", "value": -8.0, "timestamp": "1793283643"}
+{"keyword": "Why does my async function return &quot;Promise { &lt;pending&gt; }&quot; instead of the fetched dat", "platform": "stackexchange", "value": -5.0, "timestamp": "1793283235"}
+{"keyword": "Why does my program work in C23 and not in C11?", "platform": "stackexchange", "value": 7.0, "timestamp": "1793270168"}
+{"keyword": "i&#39;m fairly new to linux and i installed cachyos with hyprland and noctalia i&#39;m trying to imp", "platform": "stackexchange", "value": -5.0, "timestamp": "1793284317"}
+{"keyword": "What are the best practices for setting up a Python development environment for beginners?", "platform": "stackexchange", "value": -6.0, "timestamp": "1793279085"}
+{"keyword": "Seeking a Permanent Architectural Fix for HumHub 1.19.x MustChangePasswordGate Null User Crash on PH", "platform": "stackexchange", "value": -4.0, "timestamp": "1793277394"}
+{"keyword": "BIOS teletyping string does not type out properly", "platform": "stackexchange", "value": 1.0, "timestamp": "1793273003"}
+{"keyword": "{ } syntax in PHP - not understood", "platform": "stackexchange", "value": -2.0, "timestamp": "1793279726"}
+{"keyword": "Starting a Netbox Plugin with Template Extension fails with ModuleNotFoundError", "platform": "stackexchange", "value": -3.0, "timestamp": "1793281924"}
+{"keyword": "const auto reference parameter not protecting against changing a value", "platform": "stackexchange", "value": 0.0, "timestamp": "1793273932"}
+{"keyword": "Define generic for array consisting of only elements in another array of the same object", "platform": "stackexchange", "value": 2.0, "timestamp": "1793277095"}
+{"keyword": "Different results in cox regression with step functions", "platform": "stackexchange", "value": 0.0, "timestamp": "1793279700"}
+{"keyword": "Well-defined change of representation from 2D to 1D array type", "platform": "stackexchange", "value": 3.0, "timestamp": "1793274641"}
+{"keyword": "Submit google forms with prefilled csv or xlsx files", "platform": "stackexchange", "value": -5.0, "timestamp": "1793275882"}
+{"keyword": "Spring Boot Entities", "platform": "stackexchange", "value": -9.0, "timestamp": "1793275856"}
+{"keyword": "IIS and Event viewer: A network-related or instance-specific error occurred while establishing a con", "platform": "stackexchange", "value": 0.0, "timestamp": "1793268745"}
+{"keyword": "mysql - compose foreign key from multiple tables", "platform": "stackexchange", "value": 0.0, "timestamp": "1793274586"}
+{"keyword": "iText 9.8.0 (.NET): SetRelativePosition on an inline Image has no effect (regression from 9.7.0?)", "platform": "stackexchange", "value": 1.0, "timestamp": "1793272058"}
+{"keyword": "What Azure cloud tooling can I use to solve a problem that doesn&#39;t have any cloud involvement?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793271063"}
+{"keyword": "How do I add a custom search box for a Leaflet map that is CRS.Simple based, such as an interactive", "platform": "stackexchange", "value": -1.0, "timestamp": "1793274525"}
