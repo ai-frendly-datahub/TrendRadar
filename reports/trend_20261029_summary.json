@@ -6,39 +6,15 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Climate change",
-      "count": 4
-    },
-    {
       "name": "Electric vehicle",
       "count": 4
     },
     {
-      "name": "E-commerce",
-      "count": 4
-    },
-    {
-      "name": "YouTube",
-      "count": 4
-    },
-    {
-      "name": "OpenAI",
-      "count": 4
-    },
-    {
-      "name": "Seoul",
-      "count": 4
-    },
-    {
-      "name": "South Korea",
-      "count": 4
-    },
-    {
-      "name": "Python (programming language)",
-      "count": 4
-    },
-    {
       "name": "Artificial intelligence",
+      "count": 4
+    },
+    {
+      "name": "E-commerce",
       "count": 4
     },
     {
@@ -47,6 +23,14 @@
     },
     {
       "name": "K-pop",
+      "count": 4
+    },
+    {
+      "name": "YouTube",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
       "count": 4
     },
     {
@@ -66,6 +50,22 @@
       "count": 4
     },
     {
+      "name": "Climate change",
+      "count": 4
+    },
+    {
+      "name": "Seoul",
+      "count": 4
+    },
+    {
+      "name": "South Korea",
+      "count": 4
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 4
+    },
+    {
       "name": "월즈 2026",
       "count": 2
     },
@@ -74,15 +74,15 @@
       "count": 2
     },
     {
-      "name": "한겨레",
+      "name": "티앤이코리아",
       "count": 1
     },
     {
-      "name": "일본 지진",
+      "name": "김영옥",
       "count": 1
     },
     {
-      "name": "크랙",
+      "name": "inter miami vs cincinnati",
       "count": 1
     }
   ],
@@ -91,5 +91,5 @@
     "wikipedia": 60,
     "google": 30
   },
-  "generated_at": "2026-10-29T01:26:03.214623+09:00"
+  "generated_at": "2026-10-29T01:31:39.012170+00:00"
 }
