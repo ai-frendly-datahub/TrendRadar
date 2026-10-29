@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
+from radar_core.dates import daily_partition_date
 
 
 DEFAULT_REPORT_NAME = "trend_quality.json"
@@ -35,7 +36,7 @@ def build_quality_report(
     event_limit: int = DEFAULT_EVENT_LIMIT,
 ) -> dict[str, Any]:
     generated_at = generated_at or datetime.now(UTC)
-    target_date = target_date or generated_at.date()
+    target_date = target_date or daily_partition_date(generated_at)
     data_quality = _dict_value(keyword_config.get("data_quality"))
     keyword_sets = [
         item for item in keyword_config.get("keyword_sets", []) if isinstance(item, dict)
@@ -687,7 +688,7 @@ def main(argv: list[str] | None = None) -> None:
     target_date = date.fromisoformat(args.target_date) if args.target_date else None
     config = load_keyword_quality_config(args.config)
     trend_points = (
-        _query_trend_points_for_cli(args.db_path, target_date or datetime.now(UTC).date())
+        _query_trend_points_for_cli(args.db_path, target_date or daily_partition_date())
         if args.db_path is not None
         else None
     )

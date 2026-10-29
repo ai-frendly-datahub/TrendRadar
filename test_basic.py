@@ -5,7 +5,6 @@ import sys
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
-
 # Windows 인코딩 문제 해결
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
@@ -130,11 +129,12 @@ try:
     report_dir = Path("docs/reports")
     report_dir.mkdir(parents=True, exist_ok=True)
 
-    generate_spike_report(
-        target_date=datetime.now(tz=UTC).date(), db_path=test_db, output_dir=report_dir
-    )
+    from radar_core.dates import daily_partition_date
 
-    report_file = report_dir / f"spike_{datetime.now(tz=UTC).date().isoformat()}.html"
+    report_date = daily_partition_date()
+    generate_spike_report(target_date=report_date, db_path=test_db, output_dir=report_dir)
+
+    report_file = report_dir / f"spike_{report_date.strftime('%Y%m%d')}.html"
     if report_file.exists():
         print(f"✓ 급상승 리포트 생성 성공: {report_file}")
     else:
