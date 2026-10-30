@@ -9,6 +9,7 @@ on:
       - 'requirements.txt'
       - 'pyproject.toml'
       - '.github/workflows/pr-checks.yml'
+      - '.github/workflows/**'
 
 permissions:
   contents: read
