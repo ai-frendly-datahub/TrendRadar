@@ -28,3 +28,63 @@
 {"keyword": "How do I convert the name of a struct to a string?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793285690"}
 {"keyword": "Netbox Plugin with Template Extension does not take account of PluginTemplateExtension.models", "platform": "stackexchange", "value": 3.0, "timestamp": "1793348482"}
 {"keyword": "How to input number in brainfuck?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793336019"}
+{"keyword": "Increase wait time for custom alexa skill / Lambda event function to listen after invoking", "platform": "stackexchange", "value": -1.0, "timestamp": "1793406028"}
+{"keyword": "How does one configure .vscode to stop applying JSON Schemas to a yaml configuration file?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793408126"}
+{"keyword": "Codex permissions suddenly missing for important tasks", "platform": "stackexchange", "value": -1.0, "timestamp": "1793402397"}
+{"keyword": "int main(int argc, char* argv[]) is causing compilation issues", "platform": "stackexchange", "value": 1.0, "timestamp": "1793396878"}
+{"keyword": "How can a user uninstall a Chrome JavaScript SpeechRecognition.install language pack?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793401274"}
+{"keyword": "How to display the numbers after using API Get question", "platform": "stackexchange", "value": -1.0, "timestamp": "1793396582"}
+{"keyword": "Dealing with unsupported media type in HTML5 audio element?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793395187"}
+{"keyword": "My for loop is reaching an index of 3, but it shouldn&#39;t. What&#39;s wrong with it?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793393066"}
+{"keyword": "What Are the Biggest Limitations of Current AI Chatbots in Enterprise Environments?", "platform": "stackexchange", "value": -6.0, "timestamp": "1793391729"}
+{"keyword": "Resolving &quot;log in to confirm youre not a bot&quot; when deploying yt-dlp through Vercel", "platform": "stackexchange", "value": -2.0, "timestamp": "1793389134"}
+{"keyword": "In WebGPU, is it faster to use a single interleaved GPUBuffer for positions, normals, and UVs? Or sh", "platform": "stackexchange", "value": 1.0, "timestamp": "1793387808"}
+{"keyword": "win-acme : Authorization result: invalid. Timeout during connect (likely firewall problem)&quot;,&qu", "platform": "stackexchange", "value": -1.0, "timestamp": "1793384916"}
+{"keyword": "Excel VBA Selenium problems opening port", "platform": "stackexchange", "value": -4.0, "timestamp": "1793362979"}
+{"keyword": "Beta distribution for binned percentage data with Poisson-like shape", "platform": "stackexchange", "value": 0.0, "timestamp": "1793389999"}
+{"keyword": "How to distinguish Npgsql connection pool wait time from EF Core BeginTransactionAsync latency?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793384813"}
+{"keyword": "How do I implement different modified objects by using classes?", "platform": "stackexchange", "value": -2.0, "timestamp": "1793377681"}
+{"keyword": "How can I remove an outdated contributor from a GitHub repository when the commit history is clean?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793380021"}
+{"keyword": "Excel vba selenium problems opening port", "platform": "stackexchange", "value": -4.0, "timestamp": "1793388749"}
+{"keyword": "Write Prim&#39;s algorithm in Python", "platform": "stackexchange", "value": -4.0, "timestamp": "1793342190"}
+{"keyword": "Why does my program work in C23 and not in C11?", "platform": "stackexchange", "value": 19.0, "timestamp": "1793270168"}
+{"keyword": "Computing li(x) the logarithmic integral accurately in double precision when x ~ 10^16", "platform": "stackexchange", "value": 5.0, "timestamp": "1793369761"}
+{"keyword": "How to ignore or negate CSS class if other class does not exist?", "platform": "stackexchange", "value": -1.0, "timestamp": "1793373838"}
+{"keyword": "How to smoothly animate container width/height when switching between slides with different text con", "platform": "stackexchange", "value": 1.0, "timestamp": "1793374485"}
+{"keyword": "Qt QList - check for first item - bool conversion error", "platform": "stackexchange", "value": 0.0, "timestamp": "1793373216"}
+{"keyword": "Best free LLM for coding with local and cloud options?", "platform": "stackexchange", "value": -6.0, "timestamp": "1793365796"}
+{"keyword": "Invoke-Command not passing variable to target machine", "platform": "stackexchange", "value": 3.0, "timestamp": "1793361449"}
+{"keyword": "How to iterate a dictionary which has custom objects defined by a class for keys?", "platform": "stackexchange", "value": -1.0, "timestamp": "1793370902"}
+{"keyword": "avr/io.h port IO address as template parameter in avr-g++", "platform": "stackexchange", "value": 1.0, "timestamp": "1793373530"}
+{"keyword": "How to build Nuxt 4 static SPA once and deploy under any sub-path (no per-path rebuild)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793369958"}
+{"keyword": "How to deploy properly a full-stack proyect on the cloud", "platform": "stackexchange", "value": -10.0, "timestamp": "1793370991"}
+{"keyword": "Increase wait time for custom alexa skill / Lambda event function to listen after invoking", "platform": "stackexchange", "value": -1.0, "timestamp": "1793406028"}
+{"keyword": "How does one configure .vscode to stop applying JSON Schemas to a yaml configuration file?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793408126"}
+{"keyword": "Codex permissions suddenly missing for important tasks", "platform": "stackexchange", "value": -1.0, "timestamp": "1793402397"}
+{"keyword": "int main(int argc, char* argv[]) is causing compilation issues", "platform": "stackexchange", "value": 1.0, "timestamp": "1793396878"}
+{"keyword": "How can a user uninstall a Chrome JavaScript SpeechRecognition.install language pack?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793401274"}
+{"keyword": "How to display the numbers after using API Get question", "platform": "stackexchange", "value": -1.0, "timestamp": "1793396582"}
+{"keyword": "Dealing with unsupported media type in HTML5 audio element?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793395187"}
+{"keyword": "My for loop is reaching an index of 3, but it shouldn&#39;t. What&#39;s wrong with it?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793393066"}
+{"keyword": "What Are the Biggest Limitations of Current AI Chatbots in Enterprise Environments?", "platform": "stackexchange", "value": -6.0, "timestamp": "1793391729"}
+{"keyword": "Resolving &quot;log in to confirm youre not a bot&quot; when deploying yt-dlp through Vercel", "platform": "stackexchange", "value": -2.0, "timestamp": "1793389134"}
+{"keyword": "In WebGPU, is it faster to use a single interleaved GPUBuffer for positions, normals, and UVs? Or sh", "platform": "stackexchange", "value": 1.0, "timestamp": "1793387808"}
+{"keyword": "win-acme : Authorization result: invalid. Timeout during connect (likely firewall problem)&quot;,&qu", "platform": "stackexchange", "value": -1.0, "timestamp": "1793384916"}
+{"keyword": "Excel VBA Selenium problems opening port", "platform": "stackexchange", "value": -4.0, "timestamp": "1793362979"}
+{"keyword": "Beta distribution for binned percentage data with Poisson-like shape", "platform": "stackexchange", "value": 0.0, "timestamp": "1793389999"}
+{"keyword": "How to distinguish Npgsql connection pool wait time from EF Core BeginTransactionAsync latency?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793384813"}
+{"keyword": "How do I implement different modified objects by using classes?", "platform": "stackexchange", "value": -2.0, "timestamp": "1793377681"}
+{"keyword": "How can I remove an outdated contributor from a GitHub repository when the commit history is clean?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793380021"}
+{"keyword": "Excel vba selenium problems opening port", "platform": "stackexchange", "value": -4.0, "timestamp": "1793388749"}
+{"keyword": "Write Prim&#39;s algorithm in Python", "platform": "stackexchange", "value": -4.0, "timestamp": "1793342190"}
+{"keyword": "Why does my program work in C23 and not in C11?", "platform": "stackexchange", "value": 19.0, "timestamp": "1793270168"}
+{"keyword": "Computing li(x) the logarithmic integral accurately in double precision when x ~ 10^16", "platform": "stackexchange", "value": 5.0, "timestamp": "1793369761"}
+{"keyword": "How to ignore or negate CSS class if other class does not exist?", "platform": "stackexchange", "value": -1.0, "timestamp": "1793373838"}
+{"keyword": "How to smoothly animate container width/height when switching between slides with different text con", "platform": "stackexchange", "value": 1.0, "timestamp": "1793374485"}
+{"keyword": "Qt QList - check for first item - bool conversion error", "platform": "stackexchange", "value": 0.0, "timestamp": "1793373216"}
+{"keyword": "Best free LLM for coding with local and cloud options?", "platform": "stackexchange", "value": -6.0, "timestamp": "1793365796"}
+{"keyword": "Invoke-Command not passing variable to target machine", "platform": "stackexchange", "value": 3.0, "timestamp": "1793361449"}
+{"keyword": "How to iterate a dictionary which has custom objects defined by a class for keys?", "platform": "stackexchange", "value": -1.0, "timestamp": "1793370902"}
+{"keyword": "avr/io.h port IO address as template parameter in avr-g++", "platform": "stackexchange", "value": 1.0, "timestamp": "1793373530"}
+{"keyword": "How to build Nuxt 4 static SPA once and deploy under any sub-path (no per-path rebuild)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793369958"}
+{"keyword": "How to deploy properly a full-stack proyect on the cloud", "platform": "stackexchange", "value": -10.0, "timestamp": "1793370991"}

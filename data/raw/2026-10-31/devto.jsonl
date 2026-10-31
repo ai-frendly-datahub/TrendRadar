@@ -58,3 +58,123 @@
 {"keyword": "I got tired of production incidents caused by bad config, so I built a scanner", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T16:26:43Z"}
 {"keyword": "Microsoft Just Shipped Visual Studio's October Update. Here's What It Actually Changes.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T03:03:13Z"}
 {"keyword": "How I stopped re-explaining my repo when switching between Claude Code, Codex, and Cursor", "platform": "devto", "value": 6.0, "timestamp": "2026-10-30T13:35:08Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 21.0, "timestamp": "2026-10-30T13:00:00Z"}
+{"keyword": "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built an AI to Catch It)", "platform": "devto", "value": 35.0, "timestamp": "2026-10-30T11:35:31Z"}
+{"keyword": "MoE Offloading Isn’t Always Faster: I Tested 5 Models on a 16GB GPU", "platform": "devto", "value": 19.0, "timestamp": "2026-10-30T14:04:55Z"}
+{"keyword": "My open source project is brand new and already has contributors. Here's what I did.", "platform": "devto", "value": 60.0, "timestamp": "2026-10-30T16:03:47Z"}
+{"keyword": "I Built 101 Indian Monuments in the Browser Using Only Code (No 3D Models)", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T18:48:22Z"}
+{"keyword": "Neon Realtime vs Supabase Realtime", "platform": "devto", "value": 10.0, "timestamp": "2026-10-30T14:30:24Z"}
+{"keyword": "Ofrenda: Yaadon ka Diya — Virtual Remembrance Altar with Open-Weight AI", "platform": "devto", "value": 22.0, "timestamp": "2026-10-30T16:01:43Z"}
+{"keyword": "Marigold /router - A Private Ofrenda for the Memories We Refuse to Lose", "platform": "devto", "value": 18.0, "timestamp": "2026-10-30T14:01:01Z"}
+{"keyword": "Undead Agent - My AI Agent Dies, Comes Back, and Tells Me What It Saw(Gemma + Ollama + Temporal)", "platform": "devto", "value": 15.0, "timestamp": "2026-10-30T05:49:09Z"}
+{"keyword": "A trojanized Claude Code extension plants an SSH backdoor: the 7-point audit for your machine", "platform": "devto", "value": 13.0, "timestamp": "2026-10-30T08:15:52Z"}
+{"keyword": "pip install could have been hijacked: I tested every trust store on my Mac against the compromised e", "platform": "devto", "value": 6.0, "timestamp": "2026-10-30T19:51:27Z"}
+{"keyword": "👻 Ghostlet: While you’re away, the ghosts will play.", "platform": "devto", "value": 17.0, "timestamp": "2026-10-30T15:38:40Z"}
+{"keyword": "I Tested 7 Crypto Models. The Best Signal Failed the Cost Test.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-30T09:17:47Z"}
+{"keyword": "GhostCache: Deleting the file didn't delete the secret", "platform": "devto", "value": 10.0, "timestamp": "2026-10-30T20:27:40Z"}
+{"keyword": "Open Source Maintainers Are the First People Whose Inbox Got Automated", "platform": "devto", "value": 14.0, "timestamp": "2026-10-30T09:28:27Z"}
+{"keyword": "Day 28 of Building Crowdwide — More Personalization, Bug Fixes & Still Looking for a Brand Ambassado", "platform": "devto", "value": 25.0, "timestamp": "2026-10-30T08:14:27Z"}
+{"keyword": "How I Made Yet Another Project During a Global Teen Hackathon with Prizes", "platform": "devto", "value": 8.0, "timestamp": "2026-10-30T21:07:45Z"}
+{"keyword": "Bun 1.4.4's bun fmt checks Prettier's own repository about 280 times faster than Prettier", "platform": "devto", "value": 8.0, "timestamp": "2026-10-30T11:00:00Z"}
+{"keyword": "Self-Hosted Vercel and Heroku Alternatives, Compared", "platform": "devto", "value": 3.0, "timestamp": "2026-10-30T22:23:44Z"}
+{"keyword": "WAF は有効だが、完全な防御ではない —— Web サイトと API を守るために経営者・管理者が理解すべきこと", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T20:51:56Z"}
+{"keyword": "IDS/IPS を導入しても安心ではない —— IDS/IPS とは ? インシデント (事例) からの教訓", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:49:00Z"}
+{"keyword": "IDS/IPS are useful, but they do not provide complete protection: What Are IDS/IPS ? Lessons from Inc", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T22:19:29Z"}
+{"keyword": "Rewrite Everything in Java: Not Rust", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T22:46:41Z"}
+{"keyword": "Our AI assistant saw every feature as a tool. That cost $0.148 per turn", "platform": "devto", "value": 4.0, "timestamp": "2026-10-30T10:34:49Z"}
+{"keyword": "Binance hack, Claude Code extension backdoor, Northflank and Mistral Large 4: what each source says", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T18:15:00Z"}
+{"keyword": "Monitor what Xiaohongshu (RedNote) users say about a brand in Python", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:15:35Z"}
+{"keyword": "I got tired of production incidents caused by bad config, so I built a scanner", "platform": "devto", "value": 6.0, "timestamp": "2026-10-30T16:26:43Z"}
+{"keyword": "What T3 Code Solves for Developers — and Its Key Limitations", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:36:48Z"}
+{"keyword": "Bayesian Optimization: Why a Surrogate Model Plus an Acquisition Function Beats Grid Search", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:12:35Z"}
+{"keyword": "Microsoft Just Shipped Visual Studio's October Update. Here's What It Actually Changes.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T03:03:13Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 21.0, "timestamp": "2026-10-30T13:00:00Z"}
+{"keyword": "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built an AI to Catch It)", "platform": "devto", "value": 35.0, "timestamp": "2026-10-30T11:35:31Z"}
+{"keyword": "MoE Offloading Isn’t Always Faster: I Tested 5 Models on a 16GB GPU", "platform": "devto", "value": 19.0, "timestamp": "2026-10-30T14:04:55Z"}
+{"keyword": "My open source project is brand new and already has contributors. Here's what I did.", "platform": "devto", "value": 60.0, "timestamp": "2026-10-30T16:03:47Z"}
+{"keyword": "I Built 101 Indian Monuments in the Browser Using Only Code (No 3D Models)", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T18:48:22Z"}
+{"keyword": "Neon Realtime vs Supabase Realtime", "platform": "devto", "value": 10.0, "timestamp": "2026-10-30T14:30:24Z"}
+{"keyword": "Ofrenda: Yaadon ka Diya — Virtual Remembrance Altar with Open-Weight AI", "platform": "devto", "value": 22.0, "timestamp": "2026-10-30T16:01:43Z"}
+{"keyword": "Marigold /router - A Private Ofrenda for the Memories We Refuse to Lose", "platform": "devto", "value": 18.0, "timestamp": "2026-10-30T14:01:01Z"}
+{"keyword": "Undead Agent - My AI Agent Dies, Comes Back, and Tells Me What It Saw(Gemma + Ollama + Temporal)", "platform": "devto", "value": 15.0, "timestamp": "2026-10-30T05:49:09Z"}
+{"keyword": "A trojanized Claude Code extension plants an SSH backdoor: the 7-point audit for your machine", "platform": "devto", "value": 13.0, "timestamp": "2026-10-30T08:15:52Z"}
+{"keyword": "pip install could have been hijacked: I tested every trust store on my Mac against the compromised e", "platform": "devto", "value": 6.0, "timestamp": "2026-10-30T19:51:27Z"}
+{"keyword": "👻 Ghostlet: While you’re away, the ghosts will play.", "platform": "devto", "value": 17.0, "timestamp": "2026-10-30T15:38:40Z"}
+{"keyword": "I Tested 7 Crypto Models. The Best Signal Failed the Cost Test.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-30T09:17:47Z"}
+{"keyword": "GhostCache: Deleting the file didn't delete the secret", "platform": "devto", "value": 10.0, "timestamp": "2026-10-30T20:27:40Z"}
+{"keyword": "Open Source Maintainers Are the First People Whose Inbox Got Automated", "platform": "devto", "value": 14.0, "timestamp": "2026-10-30T09:28:27Z"}
+{"keyword": "Day 28 of Building Crowdwide — More Personalization, Bug Fixes & Still Looking for a Brand Ambassado", "platform": "devto", "value": 25.0, "timestamp": "2026-10-30T08:14:27Z"}
+{"keyword": "How I Made Yet Another Project During a Global Teen Hackathon with Prizes", "platform": "devto", "value": 8.0, "timestamp": "2026-10-30T21:07:45Z"}
+{"keyword": "Bun 1.4.4's bun fmt checks Prettier's own repository about 280 times faster than Prettier", "platform": "devto", "value": 8.0, "timestamp": "2026-10-30T11:00:00Z"}
+{"keyword": "Self-Hosted Vercel and Heroku Alternatives, Compared", "platform": "devto", "value": 3.0, "timestamp": "2026-10-30T22:23:44Z"}
+{"keyword": "WAF は有効だが、完全な防御ではない —— Web サイトと API を守るために経営者・管理者が理解すべきこと", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T20:51:56Z"}
+{"keyword": "IDS/IPS を導入しても安心ではない —— IDS/IPS とは ? インシデント (事例) からの教訓", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:49:00Z"}
+{"keyword": "IDS/IPS are useful, but they do not provide complete protection: What Are IDS/IPS ? Lessons from Inc", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T22:19:29Z"}
+{"keyword": "Rewrite Everything in Java: Not Rust", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T22:46:41Z"}
+{"keyword": "Our AI assistant saw every feature as a tool. That cost $0.148 per turn", "platform": "devto", "value": 4.0, "timestamp": "2026-10-30T10:34:49Z"}
+{"keyword": "Binance hack, Claude Code extension backdoor, Northflank and Mistral Large 4: what each source says", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T18:15:00Z"}
+{"keyword": "Monitor what Xiaohongshu (RedNote) users say about a brand in Python", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:15:35Z"}
+{"keyword": "I got tired of production incidents caused by bad config, so I built a scanner", "platform": "devto", "value": 6.0, "timestamp": "2026-10-30T16:26:43Z"}
+{"keyword": "What T3 Code Solves for Developers — and Its Key Limitations", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:36:48Z"}
+{"keyword": "Bayesian Optimization: Why a Surrogate Model Plus an Acquisition Function Beats Grid Search", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:12:35Z"}
+{"keyword": "Microsoft Just Shipped Visual Studio's October Update. Here's What It Actually Changes.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T03:03:13Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 21.0, "timestamp": "2026-10-30T13:00:00Z"}
+{"keyword": "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built an AI to Catch It)", "platform": "devto", "value": 35.0, "timestamp": "2026-10-30T11:35:31Z"}
+{"keyword": "MoE Offloading Isn’t Always Faster: I Tested 5 Models on a 16GB GPU", "platform": "devto", "value": 19.0, "timestamp": "2026-10-30T14:04:55Z"}
+{"keyword": "My open source project is brand new and already has contributors. Here's what I did.", "platform": "devto", "value": 60.0, "timestamp": "2026-10-30T16:03:47Z"}
+{"keyword": "I Built 101 Indian Monuments in the Browser Using Only Code (No 3D Models)", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T18:48:22Z"}
+{"keyword": "Neon Realtime vs Supabase Realtime", "platform": "devto", "value": 10.0, "timestamp": "2026-10-30T14:30:24Z"}
+{"keyword": "Ofrenda: Yaadon ka Diya — Virtual Remembrance Altar with Open-Weight AI", "platform": "devto", "value": 22.0, "timestamp": "2026-10-30T16:01:43Z"}
+{"keyword": "Marigold /router - A Private Ofrenda for the Memories We Refuse to Lose", "platform": "devto", "value": 18.0, "timestamp": "2026-10-30T14:01:01Z"}
+{"keyword": "Undead Agent - My AI Agent Dies, Comes Back, and Tells Me What It Saw(Gemma + Ollama + Temporal)", "platform": "devto", "value": 15.0, "timestamp": "2026-10-30T05:49:09Z"}
+{"keyword": "A trojanized Claude Code extension plants an SSH backdoor: the 7-point audit for your machine", "platform": "devto", "value": 13.0, "timestamp": "2026-10-30T08:15:52Z"}
+{"keyword": "pip install could have been hijacked: I tested every trust store on my Mac against the compromised e", "platform": "devto", "value": 6.0, "timestamp": "2026-10-30T19:51:27Z"}
+{"keyword": "👻 Ghostlet: While you’re away, the ghosts will play.", "platform": "devto", "value": 17.0, "timestamp": "2026-10-30T15:38:40Z"}
+{"keyword": "I Tested 7 Crypto Models. The Best Signal Failed the Cost Test.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-30T09:17:47Z"}
+{"keyword": "GhostCache: Deleting the file didn't delete the secret", "platform": "devto", "value": 10.0, "timestamp": "2026-10-30T20:27:40Z"}
+{"keyword": "Open Source Maintainers Are the First People Whose Inbox Got Automated", "platform": "devto", "value": 14.0, "timestamp": "2026-10-30T09:28:27Z"}
+{"keyword": "Day 28 of Building Crowdwide — More Personalization, Bug Fixes & Still Looking for a Brand Ambassado", "platform": "devto", "value": 25.0, "timestamp": "2026-10-30T08:14:27Z"}
+{"keyword": "How I Made Yet Another Project During a Global Teen Hackathon with Prizes", "platform": "devto", "value": 8.0, "timestamp": "2026-10-30T21:07:45Z"}
+{"keyword": "Bun 1.4.4's bun fmt checks Prettier's own repository about 280 times faster than Prettier", "platform": "devto", "value": 8.0, "timestamp": "2026-10-30T11:00:00Z"}
+{"keyword": "Self-Hosted Vercel and Heroku Alternatives, Compared", "platform": "devto", "value": 3.0, "timestamp": "2026-10-30T22:23:44Z"}
+{"keyword": "WAF は有効だが、完全な防御ではない —— Web サイトと API を守るために経営者・管理者が理解すべきこと", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T20:51:56Z"}
+{"keyword": "IDS/IPS を導入しても安心ではない —— IDS/IPS とは ? インシデント (事例) からの教訓", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:49:00Z"}
+{"keyword": "IDS/IPS are useful, but they do not provide complete protection: What Are IDS/IPS ? Lessons from Inc", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T22:19:29Z"}
+{"keyword": "Rewrite Everything in Java: Not Rust", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T22:46:41Z"}
+{"keyword": "Our AI assistant saw every feature as a tool. That cost $0.148 per turn", "platform": "devto", "value": 4.0, "timestamp": "2026-10-30T10:34:49Z"}
+{"keyword": "Binance hack, Claude Code extension backdoor, Northflank and Mistral Large 4: what each source says", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T18:15:00Z"}
+{"keyword": "Monitor what Xiaohongshu (RedNote) users say about a brand in Python", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:15:35Z"}
+{"keyword": "I got tired of production incidents caused by bad config, so I built a scanner", "platform": "devto", "value": 6.0, "timestamp": "2026-10-30T16:26:43Z"}
+{"keyword": "What T3 Code Solves for Developers — and Its Key Limitations", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:36:48Z"}
+{"keyword": "Bayesian Optimization: Why a Surrogate Model Plus an Acquisition Function Beats Grid Search", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:12:35Z"}
+{"keyword": "Microsoft Just Shipped Visual Studio's October Update. Here's What It Actually Changes.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T03:03:13Z"}
+{"keyword": "What was your win this week?", "platform": "devto", "value": 21.0, "timestamp": "2026-10-30T13:00:00Z"}
+{"keyword": "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built an AI to Catch It)", "platform": "devto", "value": 35.0, "timestamp": "2026-10-30T11:35:31Z"}
+{"keyword": "MoE Offloading Isn’t Always Faster: I Tested 5 Models on a 16GB GPU", "platform": "devto", "value": 19.0, "timestamp": "2026-10-30T14:04:55Z"}
+{"keyword": "My open source project is brand new and already has contributors. Here's what I did.", "platform": "devto", "value": 60.0, "timestamp": "2026-10-30T16:03:47Z"}
+{"keyword": "I Built 101 Indian Monuments in the Browser Using Only Code (No 3D Models)", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T18:48:22Z"}
+{"keyword": "Neon Realtime vs Supabase Realtime", "platform": "devto", "value": 10.0, "timestamp": "2026-10-30T14:30:24Z"}
+{"keyword": "Ofrenda: Yaadon ka Diya — Virtual Remembrance Altar with Open-Weight AI", "platform": "devto", "value": 22.0, "timestamp": "2026-10-30T16:01:43Z"}
+{"keyword": "Marigold /router - A Private Ofrenda for the Memories We Refuse to Lose", "platform": "devto", "value": 18.0, "timestamp": "2026-10-30T14:01:01Z"}
+{"keyword": "Undead Agent - My AI Agent Dies, Comes Back, and Tells Me What It Saw(Gemma + Ollama + Temporal)", "platform": "devto", "value": 15.0, "timestamp": "2026-10-30T05:49:09Z"}
+{"keyword": "A trojanized Claude Code extension plants an SSH backdoor: the 7-point audit for your machine", "platform": "devto", "value": 13.0, "timestamp": "2026-10-30T08:15:52Z"}
+{"keyword": "pip install could have been hijacked: I tested every trust store on my Mac against the compromised e", "platform": "devto", "value": 6.0, "timestamp": "2026-10-30T19:51:27Z"}
+{"keyword": "👻 Ghostlet: While you’re away, the ghosts will play.", "platform": "devto", "value": 17.0, "timestamp": "2026-10-30T15:38:40Z"}
+{"keyword": "I Tested 7 Crypto Models. The Best Signal Failed the Cost Test.", "platform": "devto", "value": 7.0, "timestamp": "2026-10-30T09:17:47Z"}
+{"keyword": "GhostCache: Deleting the file didn't delete the secret", "platform": "devto", "value": 10.0, "timestamp": "2026-10-30T20:27:40Z"}
+{"keyword": "Open Source Maintainers Are the First People Whose Inbox Got Automated", "platform": "devto", "value": 14.0, "timestamp": "2026-10-30T09:28:27Z"}
+{"keyword": "Day 28 of Building Crowdwide — More Personalization, Bug Fixes & Still Looking for a Brand Ambassado", "platform": "devto", "value": 25.0, "timestamp": "2026-10-30T08:14:27Z"}
+{"keyword": "How I Made Yet Another Project During a Global Teen Hackathon with Prizes", "platform": "devto", "value": 8.0, "timestamp": "2026-10-30T21:07:45Z"}
+{"keyword": "Bun 1.4.4's bun fmt checks Prettier's own repository about 280 times faster than Prettier", "platform": "devto", "value": 8.0, "timestamp": "2026-10-30T11:00:00Z"}
+{"keyword": "Self-Hosted Vercel and Heroku Alternatives, Compared", "platform": "devto", "value": 3.0, "timestamp": "2026-10-30T22:23:44Z"}
+{"keyword": "WAF は有効だが、完全な防御ではない —— Web サイトと API を守るために経営者・管理者が理解すべきこと", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T20:51:56Z"}
+{"keyword": "IDS/IPS を導入しても安心ではない —— IDS/IPS とは ? インシデント (事例) からの教訓", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:49:00Z"}
+{"keyword": "IDS/IPS are useful, but they do not provide complete protection: What Are IDS/IPS ? Lessons from Inc", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T22:19:29Z"}
+{"keyword": "Rewrite Everything in Java: Not Rust", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T22:46:41Z"}
+{"keyword": "Our AI assistant saw every feature as a tool. That cost $0.148 per turn", "platform": "devto", "value": 4.0, "timestamp": "2026-10-30T10:34:49Z"}
+{"keyword": "Binance hack, Claude Code extension backdoor, Northflank and Mistral Large 4: what each source says", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T18:15:00Z"}
+{"keyword": "Monitor what Xiaohongshu (RedNote) users say about a brand in Python", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:15:35Z"}
+{"keyword": "I got tired of production incidents caused by bad config, so I built a scanner", "platform": "devto", "value": 6.0, "timestamp": "2026-10-30T16:26:43Z"}
+{"keyword": "What T3 Code Solves for Developers — and Its Key Limitations", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:36:48Z"}
+{"keyword": "Bayesian Optimization: Why a Surrogate Model Plus an Acquisition Function Beats Grid Search", "platform": "devto", "value": 0.0, "timestamp": "2026-10-30T23:12:35Z"}
+{"keyword": "Microsoft Just Shipped Visual Studio's October Update. Here's What It Actually Changes.", "platform": "devto", "value": 5.0, "timestamp": "2026-10-30T03:03:13Z"}

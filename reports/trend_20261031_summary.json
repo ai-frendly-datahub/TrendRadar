@@ -6,36 +6,8 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Machine learning",
-      "count": 5
-    },
-    {
-      "name": "Bitcoin",
-      "count": 5
-    },
-    {
-      "name": "Climate change",
-      "count": 5
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 5
-    },
-    {
-      "name": "E-commerce",
-      "count": 5
-    },
-    {
-      "name": "K-pop",
-      "count": 5
-    },
-    {
-      "name": "YouTube",
-      "count": 5
-    },
-    {
-      "name": "OpenAI",
-      "count": 5
+      "name": "Seoul",
+      "count": 4
     },
     {
       "name": "South Korea",
@@ -50,11 +22,15 @@
       "count": 4
     },
     {
-      "name": "World Wide Web",
+      "name": "Machine learning",
       "count": 4
     },
     {
-      "name": "Seoul",
+      "name": "K-pop",
+      "count": 4
+    },
+    {
+      "name": "World Wide Web",
       "count": 4
     },
     {
@@ -63,6 +39,30 @@
     },
     {
       "name": "Netflix",
+      "count": 4
+    },
+    {
+      "name": "Bitcoin",
+      "count": 4
+    },
+    {
+      "name": "Climate change",
+      "count": 4
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 4
+    },
+    {
+      "name": "E-commerce",
+      "count": 4
+    },
+    {
+      "name": "YouTube",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
       "count": 4
     },
     {
@@ -78,18 +78,18 @@
       "count": 2
     },
     {
-      "name": "카를로스 알카라스",
+      "name": "수익률",
       "count": 1
     },
     {
-      "name": "핼러윈",
+      "name": "주식",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 110,
-    "wikipedia": 68,
-    "google": 22
+    "google_trending": 120,
+    "wikipedia": 60,
+    "google": 20
   },
-  "generated_at": "2026-10-30T16:30:24.654446+00:00"
+  "generated_at": "2026-10-31T01:26:26.962045+00:00"
 }
