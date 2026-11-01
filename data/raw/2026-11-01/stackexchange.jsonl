@@ -28,3 +28,63 @@
 {"keyword": "How does one configure .vscode to stop applying JSON Schemas to a yaml configuration file?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793408126"}
 {"keyword": "win-acme : Authorization result: invalid. Timeout during connect (likely firewall problem)&quot;,&qu", "platform": "stackexchange", "value": -3.0, "timestamp": "1793384916"}
 {"keyword": "avr/io.h port IO address as template parameter in avr-g++", "platform": "stackexchange", "value": 1.0, "timestamp": "1793373530"}
+{"keyword": "Does Stack Overflow answer Math Problems?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793489607"}
+{"keyword": "modifying one inner list in `[[0]] * 3` changes all three. How to avoid it?", "platform": "stackexchange", "value": -2.0, "timestamp": "1793485419"}
+{"keyword": "How Can I Improve ROC AUC in a Click-Through Rate Recommendation Model with 10 Candidates per Event?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793482520"}
+{"keyword": "Qt scale visible content globally in main()", "platform": "stackexchange", "value": 1.0, "timestamp": "1793482322"}
+{"keyword": "Non-terminal variadic arguments via deduction guide and perfect forwarding constructor", "platform": "stackexchange", "value": 0.0, "timestamp": "1793479484"}
+{"keyword": "Python 3.14: NameError for a self-referencing annotation, but only when it’s read in __init_subclass", "platform": "stackexchange", "value": 0.0, "timestamp": "1793483882"}
+{"keyword": "Why can&#39;t I use key.A and key.B after importing Pyglet?", "platform": "stackexchange", "value": -1.0, "timestamp": "1793470614"}
+{"keyword": "forecast the future price of a stock based on the past prices of other stocks", "platform": "stackexchange", "value": -7.0, "timestamp": "1793461961"}
+{"keyword": "converting to php 8.5.12 on windows using firebird 2.5 but unable to load pdo_firebird", "platform": "stackexchange", "value": 1.0, "timestamp": "1793476864"}
+{"keyword": "Domain vs Application layers", "platform": "stackexchange", "value": 0.0, "timestamp": "1793476585"}
+{"keyword": "&#39;antialising&#39; key missing when trying to run flutter", "platform": "stackexchange", "value": 0.0, "timestamp": "1793471315"}
+{"keyword": "Clicking on &quot;Email&quot; Textfied (not obscureText), keyboard did not appears, or appears and d", "platform": "stackexchange", "value": -2.0, "timestamp": "1793474120"}
+{"keyword": "Karatsuba algorithm without recursion", "platform": "stackexchange", "value": 3.0, "timestamp": "1793460573"}
+{"keyword": "Jetpack Compose: How can I prevent LaunchedEffect from cancelling an ongoing animation when StateFlo", "platform": "stackexchange", "value": 3.0, "timestamp": "1793453679"}
+{"keyword": "Use of modal-dialog in Bootstrap", "platform": "stackexchange", "value": -3.0, "timestamp": "1793461624"}
+{"keyword": "Is there any syntax highlighter that handles C trigraphs", "platform": "stackexchange", "value": 4.0, "timestamp": "1793454496"}
+{"keyword": "Can I use a bom to set plugin versions, similar to how I do for &lt;dependencyManagement&gt; and &lt", "platform": "stackexchange", "value": 1.0, "timestamp": "1793469399"}
+{"keyword": "How does the Workday Core Connector Worker use the date launch parameters?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793466146"}
+{"keyword": "How to style a JFileChooser", "platform": "stackexchange", "value": 1.0, "timestamp": "1793443949"}
+{"keyword": "Open query not fetching all rows from the table", "platform": "stackexchange", "value": -1.0, "timestamp": "1793461091"}
+{"keyword": "Needing help and advice", "platform": "stackexchange", "value": -8.0, "timestamp": "1793456178"}
+{"keyword": "Python command not working in a particular project", "platform": "stackexchange", "value": -1.0, "timestamp": "1793455530"}
+{"keyword": "Why does my program work in C23 and not in C11?", "platform": "stackexchange", "value": 21.0, "timestamp": "1793270168"}
+{"keyword": "Why does Python return True when comparing two datetime objects with different UTC timestamps?", "platform": "stackexchange", "value": 3.0, "timestamp": "1793434350"}
+{"keyword": "I am trying to install the new rnmabox/navigation package in Expo, but I am getting this error. Buil", "platform": "stackexchange", "value": -1.0, "timestamp": "1793435955"}
+{"keyword": "How do I remove the black bar on fullscreen?", "platform": "stackexchange", "value": -4.0, "timestamp": "1793445827"}
+{"keyword": "What tools and best practices do you recommend for developing Android applications with Kotlin?", "platform": "stackexchange", "value": -5.0, "timestamp": "1793422429"}
+{"keyword": "int main(int argc, char* argv[]) is causing compilation issues", "platform": "stackexchange", "value": -2.0, "timestamp": "1793396878"}
+{"keyword": "How to idiomatically map data&#160;(in my case prime numbers) to a reusable class in Python?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793417402"}
+{"keyword": "How should a Vite project share configuration between production builds and Vitest without coupling", "platform": "stackexchange", "value": -3.0, "timestamp": "1793445348"}
+{"keyword": "Does Stack Overflow answer Math Problems?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793489607"}
+{"keyword": "modifying one inner list in `[[0]] * 3` changes all three. How to avoid it?", "platform": "stackexchange", "value": -2.0, "timestamp": "1793485419"}
+{"keyword": "How Can I Improve ROC AUC in a Click-Through Rate Recommendation Model with 10 Candidates per Event?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793482520"}
+{"keyword": "Qt scale visible content globally in main()", "platform": "stackexchange", "value": 1.0, "timestamp": "1793482322"}
+{"keyword": "Non-terminal variadic arguments via deduction guide and perfect forwarding constructor", "platform": "stackexchange", "value": 0.0, "timestamp": "1793479484"}
+{"keyword": "Python 3.14: NameError for a self-referencing annotation, but only when it’s read in __init_subclass", "platform": "stackexchange", "value": 0.0, "timestamp": "1793483882"}
+{"keyword": "Why can&#39;t I use key.A and key.B after importing Pyglet?", "platform": "stackexchange", "value": -1.0, "timestamp": "1793470614"}
+{"keyword": "forecast the future price of a stock based on the past prices of other stocks", "platform": "stackexchange", "value": -7.0, "timestamp": "1793461961"}
+{"keyword": "converting to php 8.5.12 on windows using firebird 2.5 but unable to load pdo_firebird", "platform": "stackexchange", "value": 1.0, "timestamp": "1793476864"}
+{"keyword": "Domain vs Application layers", "platform": "stackexchange", "value": 0.0, "timestamp": "1793476585"}
+{"keyword": "&#39;antialising&#39; key missing when trying to run flutter", "platform": "stackexchange", "value": 0.0, "timestamp": "1793471315"}
+{"keyword": "Clicking on &quot;Email&quot; Textfied (not obscureText), keyboard did not appears, or appears and d", "platform": "stackexchange", "value": -2.0, "timestamp": "1793474120"}
+{"keyword": "Karatsuba algorithm without recursion", "platform": "stackexchange", "value": 3.0, "timestamp": "1793460573"}
+{"keyword": "Jetpack Compose: How can I prevent LaunchedEffect from cancelling an ongoing animation when StateFlo", "platform": "stackexchange", "value": 3.0, "timestamp": "1793453679"}
+{"keyword": "Use of modal-dialog in Bootstrap", "platform": "stackexchange", "value": -3.0, "timestamp": "1793461624"}
+{"keyword": "Is there any syntax highlighter that handles C trigraphs", "platform": "stackexchange", "value": 4.0, "timestamp": "1793454496"}
+{"keyword": "Can I use a bom to set plugin versions, similar to how I do for &lt;dependencyManagement&gt; and &lt", "platform": "stackexchange", "value": 1.0, "timestamp": "1793469399"}
+{"keyword": "How does the Workday Core Connector Worker use the date launch parameters?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793466146"}
+{"keyword": "How to style a JFileChooser", "platform": "stackexchange", "value": 1.0, "timestamp": "1793443949"}
+{"keyword": "Open query not fetching all rows from the table", "platform": "stackexchange", "value": -1.0, "timestamp": "1793461091"}
+{"keyword": "Needing help and advice", "platform": "stackexchange", "value": -8.0, "timestamp": "1793456178"}
+{"keyword": "Python command not working in a particular project", "platform": "stackexchange", "value": -1.0, "timestamp": "1793455530"}
+{"keyword": "Why does my program work in C23 and not in C11?", "platform": "stackexchange", "value": 21.0, "timestamp": "1793270168"}
+{"keyword": "Why does Python return True when comparing two datetime objects with different UTC timestamps?", "platform": "stackexchange", "value": 3.0, "timestamp": "1793434350"}
+{"keyword": "I am trying to install the new rnmabox/navigation package in Expo, but I am getting this error. Buil", "platform": "stackexchange", "value": -1.0, "timestamp": "1793435955"}
+{"keyword": "How do I remove the black bar on fullscreen?", "platform": "stackexchange", "value": -4.0, "timestamp": "1793445827"}
+{"keyword": "What tools and best practices do you recommend for developing Android applications with Kotlin?", "platform": "stackexchange", "value": -5.0, "timestamp": "1793422429"}
+{"keyword": "int main(int argc, char* argv[]) is causing compilation issues", "platform": "stackexchange", "value": -2.0, "timestamp": "1793396878"}
+{"keyword": "How to idiomatically map data&#160;(in my case prime numbers) to a reusable class in Python?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793417402"}
+{"keyword": "How should a Vite project share configuration between production builds and Vitest without coupling", "platform": "stackexchange", "value": -3.0, "timestamp": "1793445348"}
