@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-02",
+  "category": "trend",
+  "article_count": 40,
+  "source_count": 2,
+  "matched_count": 40,
+  "top_entities": [
+    {
+      "name": "리버풀 대 아스널",
+      "count": 1
+    },
+    {
+      "name": "라치오",
+      "count": 1
+    },
+    {
+      "name": "расинг – реал мадрид",
+      "count": 1
+    },
+    {
+      "name": "스타링크",
+      "count": 1
+    },
+    {
+      "name": "racing santander vs madrid",
+      "count": 1
+    },
+    {
+      "name": "성유리",
+      "count": 1
+    },
+    {
+      "name": "racing santander vs real madrid",
+      "count": 1
+    },
+    {
+      "name": "우니온 베를린 대 쾰른",
+      "count": 1
+    },
+    {
+      "name": "코리아 오픈",
+      "count": 1
+    },
+    {
+      "name": "손석구",
+      "count": 1
+    },
+    {
+      "name": "케이팝",
+      "count": 1
+    },
+    {
+      "name": "유튜버",
+      "count": 1
+    },
+    {
+      "name": "마포 매매",
+      "count": 1
+    },
+    {
+      "name": "분양권",
+      "count": 1
+    },
+    {
+      "name": "서울 부동산",
+      "count": 1
+    },
+    {
+      "name": "아파트 매매",
+      "count": 1
+    },
+    {
+      "name": "전세 시세",
+      "count": 1
+    },
+    {
+      "name": "부동산 시장",
+      "count": 1
+    },
+    {
+      "name": "재건축",
+      "count": 1
+    },
+    {
+      "name": "청약",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "google_trending": 10,
+    "google": 30
+  },
+  "generated_at": "2026-11-01T16:34:31.427799+00:00"
+}
