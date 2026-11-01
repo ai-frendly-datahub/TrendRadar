@@ -1,10 +1,93 @@
 {
   "date": "2026-11-01",
   "category": "trend",
-  "article_count": 0,
-  "source_count": 0,
-  "matched_count": 0,
-  "top_entities": [],
-  "sources": {},
-  "generated_at": "2026-10-31T15:36:33.687077+00:00"
+  "article_count": 30,
+  "source_count": 1,
+  "matched_count": 30,
+  "top_entities": [
+    {
+      "name": "강남 아파트",
+      "count": 1
+    },
+    {
+      "name": "연예인",
+      "count": 1
+    },
+    {
+      "name": "마포 매매",
+      "count": 1
+    },
+    {
+      "name": "분양권",
+      "count": 1
+    },
+    {
+      "name": "서울 부동산",
+      "count": 1
+    },
+    {
+      "name": "아파트 매매",
+      "count": 1
+    },
+    {
+      "name": "전세 시세",
+      "count": 1
+    },
+    {
+      "name": "부동산 시장",
+      "count": 1
+    },
+    {
+      "name": "송파 전세",
+      "count": 1
+    },
+    {
+      "name": "청약",
+      "count": 1
+    },
+    {
+      "name": "케이팝",
+      "count": 1
+    },
+    {
+      "name": "K-POP",
+      "count": 1
+    },
+    {
+      "name": "아이돌",
+      "count": 1
+    },
+    {
+      "name": "걸그룹",
+      "count": 1
+    },
+    {
+      "name": "보이그룹",
+      "count": 1
+    },
+    {
+      "name": "뉴진스",
+      "count": 1
+    },
+    {
+      "name": "에스파",
+      "count": 1
+    },
+    {
+      "name": "블랙핑크",
+      "count": 1
+    },
+    {
+      "name": "BTS",
+      "count": 1
+    },
+    {
+      "name": "음원차트",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "google": 30
+  },
+  "generated_at": "2026-11-01T00:41:37.657867+00:00"
 }
