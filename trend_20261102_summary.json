@@ -1,10 +1,50 @@
 {
   "date": "2026-11-02",
   "category": "trend",
-  "article_count": 40,
+  "article_count": 50,
   "source_count": 2,
-  "matched_count": 40,
+  "matched_count": 50,
   "top_entities": [
+    {
+      "name": "한국투자증권",
+      "count": 1
+    },
+    {
+      "name": "교도소",
+      "count": 1
+    },
+    {
+      "name": "뉴잉글랜드 대 인터 마이애미",
+      "count": 1
+    },
+    {
+      "name": "원태인",
+      "count": 1
+    },
+    {
+      "name": "영감의 샘터",
+      "count": 1
+    },
+    {
+      "name": "레이더",
+      "count": 1
+    },
+    {
+      "name": "키미 안토넬리",
+      "count": 1
+    },
+    {
+      "name": "aapl",
+      "count": 1
+    },
+    {
+      "name": "2027년 afc 아시안컵",
+      "count": 1
+    },
+    {
+      "name": "홍지선",
+      "count": 1
+    },
     {
       "name": "리버풀 대 아스널",
       "count": 1
@@ -44,51 +84,11 @@
     {
       "name": "손석구",
       "count": 1
-    },
-    {
-      "name": "케이팝",
-      "count": 1
-    },
-    {
-      "name": "유튜버",
-      "count": 1
-    },
-    {
-      "name": "마포 매매",
-      "count": 1
-    },
-    {
-      "name": "분양권",
-      "count": 1
-    },
-    {
-      "name": "서울 부동산",
-      "count": 1
-    },
-    {
-      "name": "아파트 매매",
-      "count": 1
-    },
-    {
-      "name": "전세 시세",
-      "count": 1
-    },
-    {
-      "name": "부동산 시장",
-      "count": 1
-    },
-    {
-      "name": "재건축",
-      "count": 1
-    },
-    {
-      "name": "청약",
-      "count": 1
     }
   ],
   "sources": {
-    "google_trending": 10,
+    "google_trending": 20,
     "google": 30
   },
-  "generated_at": "2026-11-01T16:34:31.427799+00:00"
+  "generated_at": "2026-11-02T01:15:18.946065+00:00"
 }
