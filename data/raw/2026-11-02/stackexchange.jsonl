@@ -28,3 +28,63 @@
 {"keyword": "Karatsuba algorithm without recursion", "platform": "stackexchange", "value": 6.0, "timestamp": "1793460573"}
 {"keyword": "How to get data from cricapi.com in Flutter", "platform": "stackexchange", "value": 0.0, "timestamp": "1793502870"}
 {"keyword": "Why does my program work in C23 and not in C11?", "platform": "stackexchange", "value": 20.0, "timestamp": "1793270168"}
+{"keyword": "population a column based on a character in a specific position in a string in another column", "platform": "stackexchange", "value": 0.0, "timestamp": "1793572667"}
+{"keyword": "Why is the 2nd overload picked-up?", "platform": "stackexchange", "value": -1.0, "timestamp": "1793575987"}
+{"keyword": "Swapping unique values in mongoose without swapping all properties", "platform": "stackexchange", "value": 0.0, "timestamp": "1793568814"}
+{"keyword": "Determining maximum number of characters in MEDIUMTEXT when using utf8mb4 (specifically, utf8mb4_uni", "platform": "stackexchange", "value": -5.0, "timestamp": "1793560923"}
+{"keyword": "How does the .NET SDK/Nuget determine which version to use when converting a ProjectReference to Pac", "platform": "stackexchange", "value": 0.0, "timestamp": "1793555510"}
+{"keyword": "Logic to check if Long Value is less then Long.MIN_VALUE", "platform": "stackexchange", "value": 0.0, "timestamp": "1793559042"}
+{"keyword": "How to place app-ads.txt at the root of GitHub", "platform": "stackexchange", "value": -5.0, "timestamp": "1793566633"}
+{"keyword": "Unwanted background artifacts around ContextMenu and Tooltip despite custom styling", "platform": "stackexchange", "value": 3.0, "timestamp": "1793549695"}
+{"keyword": "Why does attrs treat a frozen attrs class differently from a frozen attrs field", "platform": "stackexchange", "value": 5.0, "timestamp": "1793549261"}
+{"keyword": "Elements in nav bar overlapping on zoom", "platform": "stackexchange", "value": 1.0, "timestamp": "1793551560"}
+{"keyword": "How to center MathML&#39;s &lt;math&gt; in Firefox?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793537221"}
+{"keyword": "Match-Case in python 3. I do not know how to use Match case so could someone please explain?", "platform": "stackexchange", "value": -14.0, "timestamp": "1793556442"}
+{"keyword": "Looking for a practical example where making a super call in the body of __init__ method of a metacl", "platform": "stackexchange", "value": -1.0, "timestamp": "1793541191"}
+{"keyword": "Job Assitance for landing job (Specially fresher )", "platform": "stackexchange", "value": -4.0, "timestamp": "1793552519"}
+{"keyword": "presentationPlacement(.leading) sheet won&#39;t go half width on iPhone Duo when fully unfolded", "platform": "stackexchange", "value": 0.0, "timestamp": "1793547301"}
+{"keyword": "How to see result of Eiffel print routine in GUI application?", "platform": "stackexchange", "value": 3.0, "timestamp": "1793555094"}
+{"keyword": "Terraform azure function flex consumption creates broken configuration when using system assigned id", "platform": "stackexchange", "value": -2.0, "timestamp": "1793554431"}
+{"keyword": "Unable to build (slightly modified) Frecon Lite from source", "platform": "stackexchange", "value": -3.0, "timestamp": "1793542104"}
+{"keyword": "Python 2 vs. Python 3: what does &quot;not backward compatible&quot; mean exactly?", "platform": "stackexchange", "value": -5.0, "timestamp": "1793520199"}
+{"keyword": "How to cache neighbouring variables in a 2D array?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793513698"}
+{"keyword": "Adding a Private property to CanvasRenderingContext2D", "platform": "stackexchange", "value": 4.0, "timestamp": "1793507686"}
+{"keyword": "CMake configuration and expected APT packages absent in magic_enum while building isaac_ros on jetso", "platform": "stackexchange", "value": 1.0, "timestamp": "1793555415"}
+{"keyword": "Do I need a try/finally clause when calling cv2.VideoCapture.release()?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793531979"}
+{"keyword": "Python 3.14: NameError for a self-referencing annotation, but only when it’s read in __init_subclass", "platform": "stackexchange", "value": 4.0, "timestamp": "1793483882"}
+{"keyword": "Experiencing bad control flow with Roslyn | .NET | RyuJIT", "platform": "stackexchange", "value": -4.0, "timestamp": "1793542663"}
+{"keyword": "CMake Download &amp; Extract .xz File", "platform": "stackexchange", "value": 1.0, "timestamp": "1793540026"}
+{"keyword": "Not sure if I have complete separation in binomial GLMM and what to do", "platform": "stackexchange", "value": 0.0, "timestamp": "1793542548"}
+{"keyword": "Karatsuba algorithm without recursion", "platform": "stackexchange", "value": 6.0, "timestamp": "1793460573"}
+{"keyword": "How to make it so that the title of the infobox can be anything instead of taking the name of the pa", "platform": "stackexchange", "value": 0.0, "timestamp": "1793519220"}
+{"keyword": "Issues with Win32 NC Titlebar", "platform": "stackexchange", "value": -3.0, "timestamp": "1793541177"}
+{"keyword": "population a column based on a character in a specific position in a string in another column", "platform": "stackexchange", "value": 0.0, "timestamp": "1793572667"}
+{"keyword": "Why is the 2nd overload picked-up?", "platform": "stackexchange", "value": -1.0, "timestamp": "1793575987"}
+{"keyword": "Swapping unique values in mongoose without swapping all properties", "platform": "stackexchange", "value": 0.0, "timestamp": "1793568814"}
+{"keyword": "Determining maximum number of characters in MEDIUMTEXT when using utf8mb4 (specifically, utf8mb4_uni", "platform": "stackexchange", "value": -5.0, "timestamp": "1793560923"}
+{"keyword": "How does the .NET SDK/Nuget determine which version to use when converting a ProjectReference to Pac", "platform": "stackexchange", "value": 0.0, "timestamp": "1793555510"}
+{"keyword": "Logic to check if Long Value is less then Long.MIN_VALUE", "platform": "stackexchange", "value": 0.0, "timestamp": "1793559042"}
+{"keyword": "How to place app-ads.txt at the root of GitHub", "platform": "stackexchange", "value": -5.0, "timestamp": "1793566633"}
+{"keyword": "Unwanted background artifacts around ContextMenu and Tooltip despite custom styling", "platform": "stackexchange", "value": 3.0, "timestamp": "1793549695"}
+{"keyword": "Why does attrs treat a frozen attrs class differently from a frozen attrs field", "platform": "stackexchange", "value": 5.0, "timestamp": "1793549261"}
+{"keyword": "Elements in nav bar overlapping on zoom", "platform": "stackexchange", "value": 1.0, "timestamp": "1793551560"}
+{"keyword": "How to center MathML&#39;s &lt;math&gt; in Firefox?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793537221"}
+{"keyword": "Match-Case in python 3. I do not know how to use Match case so could someone please explain?", "platform": "stackexchange", "value": -14.0, "timestamp": "1793556442"}
+{"keyword": "Looking for a practical example where making a super call in the body of __init__ method of a metacl", "platform": "stackexchange", "value": -1.0, "timestamp": "1793541191"}
+{"keyword": "Job Assitance for landing job (Specially fresher )", "platform": "stackexchange", "value": -4.0, "timestamp": "1793552519"}
+{"keyword": "presentationPlacement(.leading) sheet won&#39;t go half width on iPhone Duo when fully unfolded", "platform": "stackexchange", "value": 0.0, "timestamp": "1793547301"}
+{"keyword": "How to see result of Eiffel print routine in GUI application?", "platform": "stackexchange", "value": 3.0, "timestamp": "1793555094"}
+{"keyword": "Terraform azure function flex consumption creates broken configuration when using system assigned id", "platform": "stackexchange", "value": -2.0, "timestamp": "1793554431"}
+{"keyword": "Unable to build (slightly modified) Frecon Lite from source", "platform": "stackexchange", "value": -3.0, "timestamp": "1793542104"}
+{"keyword": "Python 2 vs. Python 3: what does &quot;not backward compatible&quot; mean exactly?", "platform": "stackexchange", "value": -5.0, "timestamp": "1793520199"}
+{"keyword": "How to cache neighbouring variables in a 2D array?", "platform": "stackexchange", "value": 4.0, "timestamp": "1793513698"}
+{"keyword": "Adding a Private property to CanvasRenderingContext2D", "platform": "stackexchange", "value": 4.0, "timestamp": "1793507686"}
+{"keyword": "CMake configuration and expected APT packages absent in magic_enum while building isaac_ros on jetso", "platform": "stackexchange", "value": 1.0, "timestamp": "1793555415"}
+{"keyword": "Do I need a try/finally clause when calling cv2.VideoCapture.release()?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793531979"}
+{"keyword": "Python 3.14: NameError for a self-referencing annotation, but only when it’s read in __init_subclass", "platform": "stackexchange", "value": 4.0, "timestamp": "1793483882"}
+{"keyword": "Experiencing bad control flow with Roslyn | .NET | RyuJIT", "platform": "stackexchange", "value": -4.0, "timestamp": "1793542663"}
+{"keyword": "CMake Download &amp; Extract .xz File", "platform": "stackexchange", "value": 1.0, "timestamp": "1793540026"}
+{"keyword": "Not sure if I have complete separation in binomial GLMM and what to do", "platform": "stackexchange", "value": 0.0, "timestamp": "1793542548"}
+{"keyword": "Karatsuba algorithm without recursion", "platform": "stackexchange", "value": 6.0, "timestamp": "1793460573"}
+{"keyword": "How to make it so that the title of the infobox can be anything instead of taking the name of the pa", "platform": "stackexchange", "value": 0.0, "timestamp": "1793519220"}
+{"keyword": "Issues with Win32 NC Titlebar", "platform": "stackexchange", "value": -3.0, "timestamp": "1793541177"}
