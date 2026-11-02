@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-03",
+  "category": "trend",
+  "article_count": 75,
+  "source_count": 3,
+  "matched_count": 75,
+  "top_entities": [
+    {
+      "name": "심수봉",
+      "count": 1
+    },
+    {
+      "name": "한화그룹",
+      "count": 1
+    },
+    {
+      "name": "에어부산",
+      "count": 1
+    },
+    {
+      "name": "노숙인",
+      "count": 1
+    },
+    {
+      "name": "김지영",
+      "count": 1
+    },
+    {
+      "name": "김태균",
+      "count": 1
+    },
+    {
+      "name": "크랙",
+      "count": 1
+    },
+    {
+      "name": "알나스르",
+      "count": 1
+    },
+    {
+      "name": "손정범",
+      "count": 1
+    },
+    {
+      "name": "걷기",
+      "count": 1
+    },
+    {
+      "name": "한국투자증권",
+      "count": 1
+    },
+    {
+      "name": "교도소",
+      "count": 1
+    },
+    {
+      "name": "뉴잉글랜드 대 인터 마이애미",
+      "count": 1
+    },
+    {
+      "name": "원태인",
+      "count": 1
+    },
+    {
+      "name": "영감의 샘터",
+      "count": 1
+    },
+    {
+      "name": "레이더",
+      "count": 1
+    },
+    {
+      "name": "키미 안토넬리",
+      "count": 1
+    },
+    {
+      "name": "aapl",
+      "count": 1
+    },
+    {
+      "name": "2027년 afc 아시안컵",
+      "count": 1
+    },
+    {
+      "name": "홍지선",
+      "count": 1
+    }
+  ],
+  "sources": {
+    "google_trending": 30,
+    "wikipedia": 15,
+    "google": 30
+  },
+  "generated_at": "2026-11-02T19:58:38.445962+00:00"
+}
