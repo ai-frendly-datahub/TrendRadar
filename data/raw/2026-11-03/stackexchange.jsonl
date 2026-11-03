@@ -28,3 +28,63 @@
 {"keyword": "Is usage of std::atomic with type std::optional&lt;int&gt; thread safe?", "platform": "stackexchange", "value": 3.0, "timestamp": "1793597186"}
 {"keyword": "JS image dithering converter and compression", "platform": "stackexchange", "value": 0.0, "timestamp": "1793608798"}
 {"keyword": "Search string in a specific GitHub branch", "platform": "stackexchange", "value": -3.0, "timestamp": "1793597080"}
+{"keyword": "Unusual syntax for declaring or extending a class - how does this work?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793671443"}
+{"keyword": "Does anyone know how images in pyglet work?", "platform": "stackexchange", "value": -2.0, "timestamp": "1793669619"}
+{"keyword": "Raylib drawing images", "platform": "stackexchange", "value": -3.0, "timestamp": "1793669946"}
+{"keyword": "Android Auto POI app notifications not displaying on car screen (Not using MessagingStyle)", "platform": "stackexchange", "value": 0.0, "timestamp": "1793670740"}
+{"keyword": "Cross-sectional engine only fires when the next minute&#39;s data arrives: how do I trigger a delaye", "platform": "stackexchange", "value": 0.0, "timestamp": "1793670642"}
+{"keyword": "Google OAuth token exchange gives 401 invalid_client after successful consent", "platform": "stackexchange", "value": -3.0, "timestamp": "1793662279"}
+{"keyword": "Enabling IDE/editor code-completion for projects/files that use C++20 modules?", "platform": "stackexchange", "value": -2.0, "timestamp": "1793659844"}
+{"keyword": "Add a decimated signal: the user enters a number (e.g., 4), and the system should remove signals tha", "platform": "stackexchange", "value": -8.0, "timestamp": "1793655803"}
+{"keyword": "Classic (non-ML) method to remove in-band noise (electrode motion / muscle) from ECG, suitable for a", "platform": "stackexchange", "value": -3.0, "timestamp": "1793659792"}
+{"keyword": ":nth-child() with selectors inconsistent behavior", "platform": "stackexchange", "value": 3.0, "timestamp": "1793652111"}
+{"keyword": "Why does scikit-image skeletonization produce off-center loops and unwanted branches in thresholded", "platform": "stackexchange", "value": -1.0, "timestamp": "1793659683"}
+{"keyword": "Java generator showing &quot;warning: ambiguous type name&quot; from two functions with same name, d", "platform": "stackexchange", "value": 0.0, "timestamp": "1793653374"}
+{"keyword": "Should module-level constants in constants.py be annotated with typing.Final", "platform": "stackexchange", "value": 1.0, "timestamp": "1793624411"}
+{"keyword": "What other LiDAR data processing software exist apart from LP360? (commercial or open-source)", "platform": "stackexchange", "value": -8.0, "timestamp": "1793648245"}
+{"keyword": "NinjaOne webhook arrives before psaTicketId is set by the native Zendesk integration. Is there an ev", "platform": "stackexchange", "value": 0.0, "timestamp": "1793653313"}
+{"keyword": "Does the order of columns matter in Liquid Clustered Tables in Databricks?", "platform": "stackexchange", "value": -4.0, "timestamp": "1793640359"}
+{"keyword": "How to have a &#39;bungie&#39; like animation for a div that plays on scroll of the page", "platform": "stackexchange", "value": -6.0, "timestamp": "1793637107"}
+{"keyword": "Why is my /etc/timezone a directory insted of a file?", "platform": "stackexchange", "value": -6.0, "timestamp": "1793614993"}
+{"keyword": "Can ast be used to parse a single line?", "platform": "stackexchange", "value": -5.0, "timestamp": "1793637378"}
+{"keyword": ".NET MAUI Android: CollectionView inside horizontal ScrollView causes 2-second (and more) UI freezes", "platform": "stackexchange", "value": -2.0, "timestamp": "1793642020"}
+{"keyword": "How to call apt update in C with or without header", "platform": "stackexchange", "value": -5.0, "timestamp": "1793619536"}
+{"keyword": "Install of pixz on Fedora fails repeatedly", "platform": "stackexchange", "value": -7.0, "timestamp": "1793639957"}
+{"keyword": "Compare lists in one column to the first n elements of another column in Python Polars lazyframes, w", "platform": "stackexchange", "value": 3.0, "timestamp": "1793633937"}
+{"keyword": "Why does ContextVar return its default value inside run_in_executor() in Python asyncio?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793635353"}
+{"keyword": "IP Issue and may be also DNS ones", "platform": "stackexchange", "value": -4.0, "timestamp": "1793630741"}
+{"keyword": "Python API returns 8 and 22 instead of dates and symbols when selecting individual columns", "platform": "stackexchange", "value": 0.0, "timestamp": "1793598714"}
+{"keyword": "Recommended config file format suitable for simple code editor written in C", "platform": "stackexchange", "value": 0.0, "timestamp": "1793634580"}
+{"keyword": "How to make a generic type that accepts Ellipsis like tuple[int, ...]", "platform": "stackexchange", "value": 1.0, "timestamp": "1793636401"}
+{"keyword": "Multiple inputs of a gate changing simultaneously, which conditions from the specify block apply?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793628532"}
+{"keyword": "Autodesk Viewer , Why are most repeated DWG block instances not selectable in APS Viewer?", "platform": "stackexchange", "value": -8.0, "timestamp": "1793640314"}
+{"keyword": "Unusual syntax for declaring or extending a class - how does this work?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793671443"}
+{"keyword": "Does anyone know how images in pyglet work?", "platform": "stackexchange", "value": -2.0, "timestamp": "1793669619"}
+{"keyword": "Raylib drawing images", "platform": "stackexchange", "value": -3.0, "timestamp": "1793669946"}
+{"keyword": "Android Auto POI app notifications not displaying on car screen (Not using MessagingStyle)", "platform": "stackexchange", "value": 0.0, "timestamp": "1793670740"}
+{"keyword": "Cross-sectional engine only fires when the next minute&#39;s data arrives: how do I trigger a delaye", "platform": "stackexchange", "value": 0.0, "timestamp": "1793670642"}
+{"keyword": "Google OAuth token exchange gives 401 invalid_client after successful consent", "platform": "stackexchange", "value": -3.0, "timestamp": "1793662279"}
+{"keyword": "Enabling IDE/editor code-completion for projects/files that use C++20 modules?", "platform": "stackexchange", "value": -2.0, "timestamp": "1793659844"}
+{"keyword": "Add a decimated signal: the user enters a number (e.g., 4), and the system should remove signals tha", "platform": "stackexchange", "value": -8.0, "timestamp": "1793655803"}
+{"keyword": "Classic (non-ML) method to remove in-band noise (electrode motion / muscle) from ECG, suitable for a", "platform": "stackexchange", "value": -3.0, "timestamp": "1793659792"}
+{"keyword": ":nth-child() with selectors inconsistent behavior", "platform": "stackexchange", "value": 3.0, "timestamp": "1793652111"}
+{"keyword": "Why does scikit-image skeletonization produce off-center loops and unwanted branches in thresholded", "platform": "stackexchange", "value": -1.0, "timestamp": "1793659683"}
+{"keyword": "Java generator showing &quot;warning: ambiguous type name&quot; from two functions with same name, d", "platform": "stackexchange", "value": 0.0, "timestamp": "1793653374"}
+{"keyword": "Should module-level constants in constants.py be annotated with typing.Final", "platform": "stackexchange", "value": 1.0, "timestamp": "1793624411"}
+{"keyword": "What other LiDAR data processing software exist apart from LP360? (commercial or open-source)", "platform": "stackexchange", "value": -8.0, "timestamp": "1793648245"}
+{"keyword": "NinjaOne webhook arrives before psaTicketId is set by the native Zendesk integration. Is there an ev", "platform": "stackexchange", "value": 0.0, "timestamp": "1793653313"}
+{"keyword": "Does the order of columns matter in Liquid Clustered Tables in Databricks?", "platform": "stackexchange", "value": -4.0, "timestamp": "1793640359"}
+{"keyword": "How to have a &#39;bungie&#39; like animation for a div that plays on scroll of the page", "platform": "stackexchange", "value": -6.0, "timestamp": "1793637107"}
+{"keyword": "Why is my /etc/timezone a directory insted of a file?", "platform": "stackexchange", "value": -6.0, "timestamp": "1793614993"}
+{"keyword": "Can ast be used to parse a single line?", "platform": "stackexchange", "value": -5.0, "timestamp": "1793637378"}
+{"keyword": ".NET MAUI Android: CollectionView inside horizontal ScrollView causes 2-second (and more) UI freezes", "platform": "stackexchange", "value": -2.0, "timestamp": "1793642020"}
+{"keyword": "How to call apt update in C with or without header", "platform": "stackexchange", "value": -5.0, "timestamp": "1793619536"}
+{"keyword": "Install of pixz on Fedora fails repeatedly", "platform": "stackexchange", "value": -7.0, "timestamp": "1793639957"}
+{"keyword": "Compare lists in one column to the first n elements of another column in Python Polars lazyframes, w", "platform": "stackexchange", "value": 3.0, "timestamp": "1793633937"}
+{"keyword": "Why does ContextVar return its default value inside run_in_executor() in Python asyncio?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793635353"}
+{"keyword": "IP Issue and may be also DNS ones", "platform": "stackexchange", "value": -4.0, "timestamp": "1793630741"}
+{"keyword": "Python API returns 8 and 22 instead of dates and symbols when selecting individual columns", "platform": "stackexchange", "value": 0.0, "timestamp": "1793598714"}
+{"keyword": "Recommended config file format suitable for simple code editor written in C", "platform": "stackexchange", "value": 0.0, "timestamp": "1793634580"}
+{"keyword": "How to make a generic type that accepts Ellipsis like tuple[int, ...]", "platform": "stackexchange", "value": 1.0, "timestamp": "1793636401"}
+{"keyword": "Multiple inputs of a gate changing simultaneously, which conditions from the specify block apply?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793628532"}
+{"keyword": "Autodesk Viewer , Why are most repeated DWG block instances not selectable in APS Viewer?", "platform": "stackexchange", "value": -8.0, "timestamp": "1793640314"}

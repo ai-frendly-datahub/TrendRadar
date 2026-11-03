@@ -1,10 +1,58 @@
 {
   "date": "2026-11-03",
   "category": "trend",
-  "article_count": 75,
+  "article_count": 87,
   "source_count": 3,
-  "matched_count": 75,
+  "matched_count": 87,
   "top_entities": [
+    {
+      "name": "Bitcoin",
+      "count": 2
+    },
+    {
+      "name": "South Korea",
+      "count": 2
+    },
+    {
+      "name": "디에이치 반포124",
+      "count": 1
+    },
+    {
+      "name": "lg디스플레이",
+      "count": 1
+    },
+    {
+      "name": "저기압",
+      "count": 1
+    },
+    {
+      "name": "춘천 마라톤",
+      "count": 1
+    },
+    {
+      "name": "박지선",
+      "count": 1
+    },
+    {
+      "name": "상속세",
+      "count": 1
+    },
+    {
+      "name": "띠별 운세",
+      "count": 1
+    },
+    {
+      "name": "지밀 레니 얼",
+      "count": 1
+    },
+    {
+      "name": "비야 디",
+      "count": 1
+    },
+    {
+      "name": "말자쇼",
+      "count": 1
+    },
     {
       "name": "심수봉",
       "count": 1
@@ -34,62 +82,14 @@
       "count": 1
     },
     {
-      "name": "알나스르",
-      "count": 1
-    },
-    {
       "name": "손정범",
-      "count": 1
-    },
-    {
-      "name": "걷기",
-      "count": 1
-    },
-    {
-      "name": "한국투자증권",
-      "count": 1
-    },
-    {
-      "name": "교도소",
-      "count": 1
-    },
-    {
-      "name": "뉴잉글랜드 대 인터 마이애미",
-      "count": 1
-    },
-    {
-      "name": "원태인",
-      "count": 1
-    },
-    {
-      "name": "영감의 샘터",
-      "count": 1
-    },
-    {
-      "name": "레이더",
-      "count": 1
-    },
-    {
-      "name": "키미 안토넬리",
-      "count": 1
-    },
-    {
-      "name": "aapl",
-      "count": 1
-    },
-    {
-      "name": "2027년 afc 아시안컵",
-      "count": 1
-    },
-    {
-      "name": "홍지선",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 30,
-    "wikipedia": 15,
+    "google_trending": 40,
+    "wikipedia": 17,
     "google": 30
   },
-  "generated_at": "2026-11-02T19:58:38.445962+00:00"
+  "generated_at": "2026-11-03T03:18:36.005299+00:00"
 }
