@@ -28,3 +28,63 @@
 {"keyword": "Dart shelf: transform shelf_static response body while preserving Range, and decouple public URL fro", "platform": "stackexchange", "value": -4.0, "timestamp": "1793782370"}
 {"keyword": "How to quickly inject asynchronous inks into an ActiveX InkEdit window based on screen mouse coordin", "platform": "stackexchange", "value": 0.0, "timestamp": "1793796948"}
 {"keyword": "What should developers consider when choosing a cloud platform for business applications", "platform": "stackexchange", "value": -7.0, "timestamp": "1793793279"}
+{"keyword": "Policy for &quot;Send scan results to Log Analytics&quot; Microsoft Defender for Storage setting", "platform": "stackexchange", "value": 0.0, "timestamp": "1793839662"}
+{"keyword": "Confirmit respondent data fetch erroring out in Forsta", "platform": "stackexchange", "value": 0.0, "timestamp": "1793834416"}
+{"keyword": "How can I sum elements of a tensor based on a condition of one out of two values in its index pair i", "platform": "stackexchange", "value": 3.0, "timestamp": "1793829778"}
+{"keyword": "Logged in users seeing someone else&#39;s cached content", "platform": "stackexchange", "value": -4.0, "timestamp": "1793831522"}
+{"keyword": "Building a CSS image display modal", "platform": "stackexchange", "value": 0.0, "timestamp": "1793824024"}
+{"keyword": "How to use Ellipsis as function argument default", "platform": "stackexchange", "value": -2.0, "timestamp": "1793825573"}
+{"keyword": "Is there an equivalent to __import__ but for lazy imports?", "platform": "stackexchange", "value": 1.0, "timestamp": "1793828909"}
+{"keyword": "bug between v10.7 and v10.8 and later", "platform": "stackexchange", "value": 0.0, "timestamp": "1793829629"}
+{"keyword": "git clone over HTTPS hangs indefinitely", "platform": "stackexchange", "value": -1.0, "timestamp": "1793829244"}
+{"keyword": "Connect Claude server to QuickBooks through MCP server", "platform": "stackexchange", "value": 0.0, "timestamp": "1793828669"}
+{"keyword": "SESV2Client from AWS SES - no super call in its instantiation", "platform": "stackexchange", "value": -2.0, "timestamp": "1793825904"}
+{"keyword": "Uzbekistan central bank rates using Frankfurter API is not updating", "platform": "stackexchange", "value": -3.0, "timestamp": "1793825243"}
+{"keyword": "Yellow warning in terminal when I run scripts in VS Code", "platform": "stackexchange", "value": 1.0, "timestamp": "1793825072"}
+{"keyword": "How do I list out directories sorted based on how recently they were added?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793821639"}
+{"keyword": "Why does Java suggest List&lt;? extends Class&lt;?&gt;&gt; instead of List&lt;Class&lt;?&gt;&gt;?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793796987"}
+{"keyword": "Try/except failing to catch exceptions", "platform": "stackexchange", "value": -3.0, "timestamp": "1793817808"}
+{"keyword": "Memory deallocation with fork and exec", "platform": "stackexchange", "value": 0.0, "timestamp": "1793818025"}
+{"keyword": "React Native app fails to detect netis nc63 router in live mode", "platform": "stackexchange", "value": -3.0, "timestamp": "1793821941"}
+{"keyword": "What to use instead switch in update() for a game engine", "platform": "stackexchange", "value": 2.0, "timestamp": "1793805289"}
+{"keyword": "Best way to attach one “primary image” per row to a paginated SKU listing", "platform": "stackexchange", "value": 0.0, "timestamp": "1793818240"}
+{"keyword": "nftables: outgoing connections blocked though there are no country-specific ipset involved", "platform": "stackexchange", "value": -1.0, "timestamp": "1793819907"}
+{"keyword": "What is the best approach to map the live read / update of data from GCP firestore to postgress DB", "platform": "stackexchange", "value": 0.0, "timestamp": "1793816564"}
+{"keyword": "Best way to move a large SQS FIFO backlog into Kafka on MSK?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793820865"}
+{"keyword": "Why does calling tcgetattr(int fd, struct termios *p) ending up in Segmentation fault?", "platform": "stackexchange", "value": 3.0, "timestamp": "1793799008"}
+{"keyword": "What does the output of V8&#39;s %DebugPrint mean?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793797759"}
+{"keyword": "Do proxy credentials containing @ or : need percent-encoding in requests&#39; proxies dict, and is q", "platform": "stackexchange", "value": 2.0, "timestamp": "1793800348"}
+{"keyword": "twopi: How to reduce the distance between ranks of &gt;1600-node tree?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793812118"}
+{"keyword": "Text typed into an HTML textarea by an iOS keyboard extension can&#39;t be accessed using val()", "platform": "stackexchange", "value": 0.0, "timestamp": "1793810630"}
+{"keyword": "VS Code agent&#39;s terminal opening icon disappeared", "platform": "stackexchange", "value": 2.0, "timestamp": "1793806362"}
+{"keyword": "Fixing &quot;the procedure entry point SSL_get0_group_name could not be located in the dynamic link", "platform": "stackexchange", "value": 3.0, "timestamp": "1793795501"}
+{"keyword": "Policy for &quot;Send scan results to Log Analytics&quot; Microsoft Defender for Storage setting", "platform": "stackexchange", "value": 0.0, "timestamp": "1793839662"}
+{"keyword": "Confirmit respondent data fetch erroring out in Forsta", "platform": "stackexchange", "value": 0.0, "timestamp": "1793834416"}
+{"keyword": "How can I sum elements of a tensor based on a condition of one out of two values in its index pair i", "platform": "stackexchange", "value": 3.0, "timestamp": "1793829778"}
+{"keyword": "Logged in users seeing someone else&#39;s cached content", "platform": "stackexchange", "value": -4.0, "timestamp": "1793831522"}
+{"keyword": "Building a CSS image display modal", "platform": "stackexchange", "value": 0.0, "timestamp": "1793824024"}
+{"keyword": "How to use Ellipsis as function argument default", "platform": "stackexchange", "value": -2.0, "timestamp": "1793825573"}
+{"keyword": "Is there an equivalent to __import__ but for lazy imports?", "platform": "stackexchange", "value": 1.0, "timestamp": "1793828909"}
+{"keyword": "bug between v10.7 and v10.8 and later", "platform": "stackexchange", "value": 0.0, "timestamp": "1793829629"}
+{"keyword": "git clone over HTTPS hangs indefinitely", "platform": "stackexchange", "value": -1.0, "timestamp": "1793829244"}
+{"keyword": "Connect Claude server to QuickBooks through MCP server", "platform": "stackexchange", "value": 0.0, "timestamp": "1793828669"}
+{"keyword": "SESV2Client from AWS SES - no super call in its instantiation", "platform": "stackexchange", "value": -2.0, "timestamp": "1793825904"}
+{"keyword": "Uzbekistan central bank rates using Frankfurter API is not updating", "platform": "stackexchange", "value": -3.0, "timestamp": "1793825243"}
+{"keyword": "Yellow warning in terminal when I run scripts in VS Code", "platform": "stackexchange", "value": 1.0, "timestamp": "1793825072"}
+{"keyword": "How do I list out directories sorted based on how recently they were added?", "platform": "stackexchange", "value": -3.0, "timestamp": "1793821639"}
+{"keyword": "Why does Java suggest List&lt;? extends Class&lt;?&gt;&gt; instead of List&lt;Class&lt;?&gt;&gt;?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793796987"}
+{"keyword": "Try/except failing to catch exceptions", "platform": "stackexchange", "value": -3.0, "timestamp": "1793817808"}
+{"keyword": "Memory deallocation with fork and exec", "platform": "stackexchange", "value": 0.0, "timestamp": "1793818025"}
+{"keyword": "React Native app fails to detect netis nc63 router in live mode", "platform": "stackexchange", "value": -3.0, "timestamp": "1793821941"}
+{"keyword": "What to use instead switch in update() for a game engine", "platform": "stackexchange", "value": 2.0, "timestamp": "1793805289"}
+{"keyword": "Best way to attach one “primary image” per row to a paginated SKU listing", "platform": "stackexchange", "value": 0.0, "timestamp": "1793818240"}
+{"keyword": "nftables: outgoing connections blocked though there are no country-specific ipset involved", "platform": "stackexchange", "value": -1.0, "timestamp": "1793819907"}
+{"keyword": "What is the best approach to map the live read / update of data from GCP firestore to postgress DB", "platform": "stackexchange", "value": 0.0, "timestamp": "1793816564"}
+{"keyword": "Best way to move a large SQS FIFO backlog into Kafka on MSK?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793820865"}
+{"keyword": "Why does calling tcgetattr(int fd, struct termios *p) ending up in Segmentation fault?", "platform": "stackexchange", "value": 3.0, "timestamp": "1793799008"}
+{"keyword": "What does the output of V8&#39;s %DebugPrint mean?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793797759"}
+{"keyword": "Do proxy credentials containing @ or : need percent-encoding in requests&#39; proxies dict, and is q", "platform": "stackexchange", "value": 2.0, "timestamp": "1793800348"}
+{"keyword": "twopi: How to reduce the distance between ranks of &gt;1600-node tree?", "platform": "stackexchange", "value": 0.0, "timestamp": "1793812118"}
+{"keyword": "Text typed into an HTML textarea by an iOS keyboard extension can&#39;t be accessed using val()", "platform": "stackexchange", "value": 0.0, "timestamp": "1793810630"}
+{"keyword": "VS Code agent&#39;s terminal opening icon disappeared", "platform": "stackexchange", "value": 2.0, "timestamp": "1793806362"}
+{"keyword": "Fixing &quot;the procedure entry point SSL_get0_group_name could not be located in the dynamic link", "platform": "stackexchange", "value": 3.0, "timestamp": "1793795501"}
