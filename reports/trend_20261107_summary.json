@@ -66,30 +66,30 @@
       "count": 5
     },
     {
-      "name": "일론 머스크",
+      "name": "조명우",
       "count": 1
     },
     {
-      "name": "t1 kc",
+      "name": "신세계백화점",
       "count": 1
     },
     {
-      "name": "유튜버",
+      "name": "집",
       "count": 1
     },
     {
-      "name": "숲",
+      "name": "폭탄",
       "count": 1
     },
     {
-      "name": "삼성증권",
+      "name": "주차장",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 110,
+    "google_trending": 120,
     "wikipedia": 75,
-    "google": 15
+    "google": 5
   },
-  "generated_at": "2026-11-06T17:08:25.172057+00:00"
+  "generated_at": "2026-11-07T01:36:38.759777+00:00"
 }
