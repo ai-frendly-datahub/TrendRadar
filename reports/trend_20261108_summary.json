@@ -2,93 +2,94 @@
   "date": "2026-11-08",
   "category": "trend",
   "article_count": 200,
-  "source_count": 2,
+  "source_count": 3,
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Seoul",
-      "count": 5
-    },
-    {
-      "name": "Samsung",
-      "count": 5
-    },
-    {
-      "name": "Netflix",
-      "count": 5
-    },
-    {
-      "name": "Bitcoin",
-      "count": 5
-    },
-    {
-      "name": "Climate change",
-      "count": 5
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 5
+      "name": "K-pop",
+      "count": 4
     },
     {
       "name": "E-commerce",
-      "count": 5
+      "count": 4
     },
     {
       "name": "YouTube",
-      "count": 5
+      "count": 4
     },
     {
       "name": "OpenAI",
-      "count": 5
+      "count": 4
     },
     {
-      "name": "Python (programming language)",
-      "count": 5
+      "name": "Seoul",
+      "count": 4
+    },
+    {
+      "name": "Samsung",
+      "count": 4
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 4
+    },
+    {
+      "name": "Climate change",
+      "count": 4
+    },
+    {
+      "name": "Bitcoin",
+      "count": 4
+    },
+    {
+      "name": "Netflix",
+      "count": 4
     },
     {
       "name": "World Wide Web",
-      "count": 5
-    },
-    {
-      "name": "K-pop",
-      "count": 5
-    },
-    {
-      "name": "Machine learning",
-      "count": 5
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 5
+      "count": 4
     },
     {
       "name": "South Korea",
-      "count": 5
+      "count": 4
     },
     {
-      "name": "김성우",
+      "name": "Python (programming language)",
+      "count": 4
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 4
+    },
+    {
+      "name": "Machine learning",
+      "count": 4
+    },
+    {
+      "name": "유튜버",
+      "count": 2
+    },
+    {
+      "name": "마포 매매",
       "count": 1
     },
     {
-      "name": "nepal premier league",
+      "name": "배우",
       "count": 1
     },
     {
-      "name": "버밍엄 대 스완지 시티",
+      "name": "분양권",
       "count": 1
     },
     {
-      "name": "arsenal vs hull",
-      "count": 1
-    },
-    {
-      "name": "아스널 대 헐 시티",
+      "name": "재건축",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 125,
-    "wikipedia": 75
+    "google": 30,
+    "google_trending": 110,
+    "wikipedia": 60
   },
-  "generated_at": "2026-11-07T16:04:51.877713+00:00"
+  "generated_at": "2026-11-08T01:04:11.063428+00:00"
 }

@@ -28,3 +28,63 @@
 {"keyword": "Argument is not consteval in a &#39;if consteval&#39; branch?", "platform": "stackexchange", "value": 1.0, "timestamp": "1793988147"}
 {"keyword": "C++20 allows known-to-unknown bound array convertion. Why doesn&#39;t it work in templates?", "platform": "stackexchange", "value": 1.0, "timestamp": "1793973424"}
 {"keyword": "amCharts4: legend clipping issue", "platform": "stackexchange", "value": 0.0, "timestamp": "1793997160"}
+{"keyword": "`except` doesn’t catch my custom exception raised inside `InterpreterPoolExecutor` (Python 3.14)", "platform": "stackexchange", "value": 0.0, "timestamp": "1794095886"}
+{"keyword": "t-string HTML renderer ignores `:.2f` and escapes nested templates as raw text", "platform": "stackexchange", "value": 0.0, "timestamp": "1794089586"}
+{"keyword": "MSB3721 error and CUDA 13.5 targets for a simple CUDA code", "platform": "stackexchange", "value": 0.0, "timestamp": "1794094641"}
+{"keyword": "Postgres inequality behavior with composite values vs. ARRAYs: (a,b,c) vs. ARRAY[a,b,c]", "platform": "stackexchange", "value": 2.0, "timestamp": "1794079687"}
+{"keyword": "Unable to install Tkinter on CachyOS", "platform": "stackexchange", "value": -2.0, "timestamp": "1794085844"}
+{"keyword": "What is the best code minification website", "platform": "stackexchange", "value": -9.0, "timestamp": "1794083835"}
+{"keyword": "git push to a local server and recieved Permission denied (publickey). fatal: Could not read from re", "platform": "stackexchange", "value": 0.0, "timestamp": "1794088644"}
+{"keyword": "Would multiple instances (processes) of Redis on the same machine scale total throughput?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794085010"}
+{"keyword": "Adding an extra line changes the lazy import object entirely", "platform": "stackexchange", "value": 5.0, "timestamp": "1794053392"}
+{"keyword": "GCC and EDG rejects valid program involving calling a function template with empty braces", "platform": "stackexchange", "value": 2.0, "timestamp": "1794074631"}
+{"keyword": "How do I make my movement not cancel out when left and right inputs are active at the same time?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794076179"}
+{"keyword": "How should long-context tiered pricing be applied when estimating LLM API cost in JavaScript?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794079740"}
+{"keyword": "I want to convert Adjacency list to Matrix", "platform": "stackexchange", "value": 1.0, "timestamp": "1794057849"}
+{"keyword": "How to make data virtualization in ListBox of images in WPF", "platform": "stackexchange", "value": -1.0, "timestamp": "1794059897"}
+{"keyword": "Connecting to Azure SQL from .NET Framework 4.0 WCF Service using TLS 1.2", "platform": "stackexchange", "value": -3.0, "timestamp": "1794071945"}
+{"keyword": "database connection error in laravel 13.40", "platform": "stackexchange", "value": -6.0, "timestamp": "1794053742"}
+{"keyword": "Remove all characters between brackets and the brackets as well from file names", "platform": "stackexchange", "value": 2.0, "timestamp": "1794017413"}
+{"keyword": "SwiftData ModelContainer failure?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794072226"}
+{"keyword": "phrase_to_file/2 in Scryer Prolog is giving me unexpected results", "platform": "stackexchange", "value": 1.0, "timestamp": "1794065746"}
+{"keyword": "CSS grid not/weirdly working when the divs are in a details element", "platform": "stackexchange", "value": -1.0, "timestamp": "1794054799"}
+{"keyword": "Suggestions for a game using Visual Studio", "platform": "stackexchange", "value": -7.0, "timestamp": "1794056439"}
+{"keyword": "How can a CMake release tag and an embedded About-screen version stay in sync?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794055424"}
+{"keyword": "Why can&#39;t I give my elements a box-shadow?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794053782"}
+{"keyword": "Did C++26 get cancelled, and if so, what does it mean for C++26 written programs?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793941424"}
+{"keyword": "OkHttp HTTP/2 writeTimeout when server sets INITIAL_WINDOW_SIZE to 4096: Http2Writer.dataFrame does", "platform": "stackexchange", "value": 1.0, "timestamp": "1794047210"}
+{"keyword": "Can an Android app reliably determine after a crash whether a maxUsageCount=1 Keystore key was consu", "platform": "stackexchange", "value": -2.0, "timestamp": "1794054197"}
+{"keyword": "How do I know which types are expected? Where do I get that information from?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794041350"}
+{"keyword": "How do get a program which transforms its input into standard output, to act in-place?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794044768"}
+{"keyword": "How do I find the VS Code keybindings for a different OS?", "platform": "stackexchange", "value": 1.0, "timestamp": "1793999131"}
+{"keyword": "Problem with asterisk parsing when debugging a calculator code using lldb", "platform": "stackexchange", "value": 1.0, "timestamp": "1794036184"}
+{"keyword": "`except` doesn’t catch my custom exception raised inside `InterpreterPoolExecutor` (Python 3.14)", "platform": "stackexchange", "value": 0.0, "timestamp": "1794095886"}
+{"keyword": "t-string HTML renderer ignores `:.2f` and escapes nested templates as raw text", "platform": "stackexchange", "value": 0.0, "timestamp": "1794089586"}
+{"keyword": "MSB3721 error and CUDA 13.5 targets for a simple CUDA code", "platform": "stackexchange", "value": 0.0, "timestamp": "1794094641"}
+{"keyword": "Postgres inequality behavior with composite values vs. ARRAYs: (a,b,c) vs. ARRAY[a,b,c]", "platform": "stackexchange", "value": 2.0, "timestamp": "1794079687"}
+{"keyword": "Unable to install Tkinter on CachyOS", "platform": "stackexchange", "value": -2.0, "timestamp": "1794085844"}
+{"keyword": "What is the best code minification website", "platform": "stackexchange", "value": -9.0, "timestamp": "1794083835"}
+{"keyword": "git push to a local server and recieved Permission denied (publickey). fatal: Could not read from re", "platform": "stackexchange", "value": 0.0, "timestamp": "1794088644"}
+{"keyword": "Would multiple instances (processes) of Redis on the same machine scale total throughput?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794085010"}
+{"keyword": "Adding an extra line changes the lazy import object entirely", "platform": "stackexchange", "value": 5.0, "timestamp": "1794053392"}
+{"keyword": "GCC and EDG rejects valid program involving calling a function template with empty braces", "platform": "stackexchange", "value": 2.0, "timestamp": "1794074631"}
+{"keyword": "How do I make my movement not cancel out when left and right inputs are active at the same time?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794076179"}
+{"keyword": "How should long-context tiered pricing be applied when estimating LLM API cost in JavaScript?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794079740"}
+{"keyword": "I want to convert Adjacency list to Matrix", "platform": "stackexchange", "value": 1.0, "timestamp": "1794057849"}
+{"keyword": "How to make data virtualization in ListBox of images in WPF", "platform": "stackexchange", "value": -1.0, "timestamp": "1794059897"}
+{"keyword": "Connecting to Azure SQL from .NET Framework 4.0 WCF Service using TLS 1.2", "platform": "stackexchange", "value": -3.0, "timestamp": "1794071945"}
+{"keyword": "database connection error in laravel 13.40", "platform": "stackexchange", "value": -6.0, "timestamp": "1794053742"}
+{"keyword": "Remove all characters between brackets and the brackets as well from file names", "platform": "stackexchange", "value": 2.0, "timestamp": "1794017413"}
+{"keyword": "SwiftData ModelContainer failure?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794072226"}
+{"keyword": "phrase_to_file/2 in Scryer Prolog is giving me unexpected results", "platform": "stackexchange", "value": 1.0, "timestamp": "1794065746"}
+{"keyword": "CSS grid not/weirdly working when the divs are in a details element", "platform": "stackexchange", "value": -1.0, "timestamp": "1794054799"}
+{"keyword": "Suggestions for a game using Visual Studio", "platform": "stackexchange", "value": -7.0, "timestamp": "1794056439"}
+{"keyword": "How can a CMake release tag and an embedded About-screen version stay in sync?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794055424"}
+{"keyword": "Why can&#39;t I give my elements a box-shadow?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794053782"}
+{"keyword": "Did C++26 get cancelled, and if so, what does it mean for C++26 written programs?", "platform": "stackexchange", "value": 2.0, "timestamp": "1793941424"}
+{"keyword": "OkHttp HTTP/2 writeTimeout when server sets INITIAL_WINDOW_SIZE to 4096: Http2Writer.dataFrame does", "platform": "stackexchange", "value": 1.0, "timestamp": "1794047210"}
+{"keyword": "Can an Android app reliably determine after a crash whether a maxUsageCount=1 Keystore key was consu", "platform": "stackexchange", "value": -2.0, "timestamp": "1794054197"}
+{"keyword": "How do I know which types are expected? Where do I get that information from?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794041350"}
+{"keyword": "How do get a program which transforms its input into standard output, to act in-place?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794044768"}
+{"keyword": "How do I find the VS Code keybindings for a different OS?", "platform": "stackexchange", "value": 1.0, "timestamp": "1793999131"}
+{"keyword": "Problem with asterisk parsing when debugging a calculator code using lldb", "platform": "stackexchange", "value": 1.0, "timestamp": "1794036184"}
