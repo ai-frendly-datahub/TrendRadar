@@ -28,3 +28,63 @@
 {"keyword": "How do I write a string to a file or socket in Python?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794010802"}
 {"keyword": "git push to a local server and recieved Permission denied (publickey). fatal: Could not read from re", "platform": "stackexchange", "value": -1.0, "timestamp": "1794088644"}
 {"keyword": "SwiftData ModelContainer failure?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794072226"}
+{"keyword": "RunPod Serverless Load Balancer endpoint running llama.cpp server always fails with &quot;timed out", "platform": "stackexchange", "value": 0.0, "timestamp": "1794177554"}
+{"keyword": "How to go about making a flashlight effect that allows users to see the screen underneath?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794174137"}
+{"keyword": "uniswap-python cannot be installed", "platform": "stackexchange", "value": -3.0, "timestamp": "1794174145"}
+{"keyword": "Chrome returns non-unit calc() results but firefox does not - is there an alternative approach?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794169818"}
+{"keyword": "Image resource location for ScalaDoc", "platform": "stackexchange", "value": 0.0, "timestamp": "1794171077"}
+{"keyword": "Why is min-height and overflow-y not working properly on a flexbox item?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794161837"}
+{"keyword": "How can I handle AWS verification of a AWS generated certificate for a non-existant dns www at Squar", "platform": "stackexchange", "value": 0.0, "timestamp": "1794157165"}
+{"keyword": "How to force langchain model to use my language instead of English", "platform": "stackexchange", "value": -4.0, "timestamp": "1794166658"}
+{"keyword": "YouTube Data API v3: how to list my Subscriptions feed while excluding videos I&#39;ve hidden or wat", "platform": "stackexchange", "value": 0.0, "timestamp": "1794169526"}
+{"keyword": "How to check what an in-app product looks like before putting in the market?", "platform": "stackexchange", "value": -8.0, "timestamp": "1794161323"}
+{"keyword": "Bulk Geocoding with Census Geocoder in R", "platform": "stackexchange", "value": 1.0, "timestamp": "1794157599"}
+{"keyword": "Docker deployment issue with the browser", "platform": "stackexchange", "value": -6.0, "timestamp": "1794164387"}
+{"keyword": "Google Slides Presentation with Video, Audio, AND Speaker Notes", "platform": "stackexchange", "value": -6.0, "timestamp": "1794157688"}
+{"keyword": "PHP session_id() breaks session", "platform": "stackexchange", "value": 1.0, "timestamp": "1794150709"}
+{"keyword": "How to stop scrolling on sidebar..?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794151270"}
+{"keyword": "How to make data virtualization in WPF", "platform": "stackexchange", "value": -4.0, "timestamp": "1794141162"}
+{"keyword": "What is the daily quota behind &quot;Service invoked too many times for one day: gmail&quot; in Apps", "platform": "stackexchange", "value": -2.0, "timestamp": "1794149897"}
+{"keyword": "How to get the location of a Node dependency&#39;s executable/script", "platform": "stackexchange", "value": -4.0, "timestamp": "1794121391"}
+{"keyword": "SwiftUI macOS toolbar item without Liquid Glass background", "platform": "stackexchange", "value": 0.0, "timestamp": "1794138132"}
+{"keyword": "Postgres inequality behavior with composite values vs. ARRAYs: (a,b,c) vs. ARRAY[a,b,c]", "platform": "stackexchange", "value": 4.0, "timestamp": "1794079687"}
+{"keyword": "How to learn real world AEM development", "platform": "stackexchange", "value": -6.0, "timestamp": "1794149627"}
+{"keyword": "How can I add Scroll to Top to HTML with HelpNDoc?", "platform": "stackexchange", "value": -4.0, "timestamp": "1794135729"}
+{"keyword": "t-string HTML renderer ignores `:.2f` and escapes nested templates as raw text", "platform": "stackexchange", "value": 0.0, "timestamp": "1794089586"}
+{"keyword": "Is there built-in cryptography in Odoo?", "platform": "stackexchange", "value": -10.0, "timestamp": "1794135827"}
+{"keyword": "Build a static dispatch table of non-static methods in C#", "platform": "stackexchange", "value": 4.0, "timestamp": "1794110464"}
+{"keyword": "How can I add Lightbox to HTML with HelpNDoc?", "platform": "stackexchange", "value": -3.0, "timestamp": "1794132514"}
+{"keyword": "How to optimize this IVF code for vectors in C++?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794127394"}
+{"keyword": "GCC and EDG rejects valid program involving calling a function template with empty braces", "platform": "stackexchange", "value": 3.0, "timestamp": "1794074631"}
+{"keyword": "Adding an extra line changes the lazy import object entirely", "platform": "stackexchange", "value": 5.0, "timestamp": "1794053392"}
+{"keyword": "workingDirectoryFailed error in VS Code without using Claude Code", "platform": "stackexchange", "value": -4.0, "timestamp": "1794131016"}
+{"keyword": "RunPod Serverless Load Balancer endpoint running llama.cpp server always fails with &quot;timed out", "platform": "stackexchange", "value": 0.0, "timestamp": "1794177554"}
+{"keyword": "How to go about making a flashlight effect that allows users to see the screen underneath?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794174137"}
+{"keyword": "uniswap-python cannot be installed", "platform": "stackexchange", "value": -3.0, "timestamp": "1794174145"}
+{"keyword": "Chrome returns non-unit calc() results but firefox does not - is there an alternative approach?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794169818"}
+{"keyword": "Image resource location for ScalaDoc", "platform": "stackexchange", "value": 0.0, "timestamp": "1794171077"}
+{"keyword": "Why is min-height and overflow-y not working properly on a flexbox item?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794161837"}
+{"keyword": "How can I handle AWS verification of a AWS generated certificate for a non-existant dns www at Squar", "platform": "stackexchange", "value": 0.0, "timestamp": "1794157165"}
+{"keyword": "How to force langchain model to use my language instead of English", "platform": "stackexchange", "value": -4.0, "timestamp": "1794166658"}
+{"keyword": "YouTube Data API v3: how to list my Subscriptions feed while excluding videos I&#39;ve hidden or wat", "platform": "stackexchange", "value": 0.0, "timestamp": "1794169526"}
+{"keyword": "How to check what an in-app product looks like before putting in the market?", "platform": "stackexchange", "value": -8.0, "timestamp": "1794161323"}
+{"keyword": "Bulk Geocoding with Census Geocoder in R", "platform": "stackexchange", "value": 1.0, "timestamp": "1794157599"}
+{"keyword": "Docker deployment issue with the browser", "platform": "stackexchange", "value": -6.0, "timestamp": "1794164387"}
+{"keyword": "Google Slides Presentation with Video, Audio, AND Speaker Notes", "platform": "stackexchange", "value": -6.0, "timestamp": "1794157688"}
+{"keyword": "PHP session_id() breaks session", "platform": "stackexchange", "value": 1.0, "timestamp": "1794150709"}
+{"keyword": "How to stop scrolling on sidebar..?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794151270"}
+{"keyword": "How to make data virtualization in WPF", "platform": "stackexchange", "value": -4.0, "timestamp": "1794141162"}
+{"keyword": "What is the daily quota behind &quot;Service invoked too many times for one day: gmail&quot; in Apps", "platform": "stackexchange", "value": -2.0, "timestamp": "1794149897"}
+{"keyword": "How to get the location of a Node dependency&#39;s executable/script", "platform": "stackexchange", "value": -4.0, "timestamp": "1794121391"}
+{"keyword": "SwiftUI macOS toolbar item without Liquid Glass background", "platform": "stackexchange", "value": 0.0, "timestamp": "1794138132"}
+{"keyword": "Postgres inequality behavior with composite values vs. ARRAYs: (a,b,c) vs. ARRAY[a,b,c]", "platform": "stackexchange", "value": 4.0, "timestamp": "1794079687"}
+{"keyword": "How to learn real world AEM development", "platform": "stackexchange", "value": -6.0, "timestamp": "1794149627"}
+{"keyword": "How can I add Scroll to Top to HTML with HelpNDoc?", "platform": "stackexchange", "value": -4.0, "timestamp": "1794135729"}
+{"keyword": "t-string HTML renderer ignores `:.2f` and escapes nested templates as raw text", "platform": "stackexchange", "value": 0.0, "timestamp": "1794089586"}
+{"keyword": "Is there built-in cryptography in Odoo?", "platform": "stackexchange", "value": -10.0, "timestamp": "1794135827"}
+{"keyword": "Build a static dispatch table of non-static methods in C#", "platform": "stackexchange", "value": 4.0, "timestamp": "1794110464"}
+{"keyword": "How can I add Lightbox to HTML with HelpNDoc?", "platform": "stackexchange", "value": -3.0, "timestamp": "1794132514"}
+{"keyword": "How to optimize this IVF code for vectors in C++?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794127394"}
+{"keyword": "GCC and EDG rejects valid program involving calling a function template with empty braces", "platform": "stackexchange", "value": 3.0, "timestamp": "1794074631"}
+{"keyword": "Adding an extra line changes the lazy import object entirely", "platform": "stackexchange", "value": 5.0, "timestamp": "1794053392"}
+{"keyword": "workingDirectoryFailed error in VS Code without using Claude Code", "platform": "stackexchange", "value": -4.0, "timestamp": "1794131016"}

@@ -58,3 +58,123 @@
 {"keyword": "Every Mac comes with an (undocumented) family member classifier", "platform": "hackernews", "value": 791.0, "timestamp": "1794044763"}
 {"keyword": "Every Windows 11 app should kill Electron, and Discord just showed why", "platform": "hackernews", "value": 402.0, "timestamp": "1794049875"}
 {"keyword": "Consumer brain wave headsets threaten privacy", "platform": "hackernews", "value": 102.0, "timestamp": "1794103358"}
+{"keyword": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU", "platform": "hackernews", "value": 173.0, "timestamp": "1794177335"}
+{"keyword": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]", "platform": "hackernews", "value": 49.0, "timestamp": "1794180481"}
+{"keyword": "Unlocking any car from X brand in most of the world", "platform": "hackernews", "value": 26.0, "timestamp": "1794183050"}
+{"keyword": "Chimera Vocal Synth", "platform": "hackernews", "value": 75.0, "timestamp": "1794177363"}
+{"keyword": "Ask HN: What are you working on? (November 2026)", "platform": "hackernews", "value": 115.0, "timestamp": "1794172820"}
+{"keyword": "Dux: Free, open-source Wayland desktop shell with file manager and theming", "platform": "hackernews", "value": 194.0, "timestamp": "1794164931"}
+{"keyword": "Declarative Dragging", "platform": "hackernews", "value": 335.0, "timestamp": "1793811907"}
+{"keyword": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC", "platform": "hackernews", "value": 234.0, "timestamp": "1794165632"}
+{"keyword": "Goldman Sachs is pulling Claude Code from its bankers and traders", "platform": "hackernews", "value": 587.0, "timestamp": "1794161767"}
+{"keyword": "The Web Is More Than Enough, by Paul Ford", "platform": "hackernews", "value": 69.0, "timestamp": "1794167312"}
+{"keyword": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU", "platform": "hackernews", "value": 360.0, "timestamp": "1794133324"}
+{"keyword": "The History of Djgpp (1998)", "platform": "hackernews", "value": 43.0, "timestamp": "1793722237"}
+{"keyword": "Edward Hopper's Iconic Painting, \"Nighthawks", "platform": "hackernews", "value": 68.0, "timestamp": "1793834588"}
+{"keyword": "Writing as a thinking tool", "platform": "hackernews", "value": 276.0, "timestamp": "1794134512"}
+{"keyword": "Playing with the STM32MP2", "platform": "hackernews", "value": 35.0, "timestamp": "1794164647"}
+{"keyword": "Air holes turn silicon wafers into flat UV focusing mirrors for compact optics", "platform": "hackernews", "value": 15.0, "timestamp": "1794063100"}
+{"keyword": "Nvidia CEO Jensen Huang's letter to staff about affair", "platform": "hackernews", "value": 328.0, "timestamp": "1794176409"}
+{"keyword": "Goodbye Claude, hello Pi", "platform": "hackernews", "value": 696.0, "timestamp": "1794107508"}
+{"keyword": "The Kekulé Problem – Cormac McCarthy", "platform": "hackernews", "value": 6.0, "timestamp": "1793913929"}
+{"keyword": "Show HN: Vegetable Gardening for Engineers", "platform": "hackernews", "value": 162.0, "timestamp": "1793782467"}
+{"keyword": "I'm not a fan of Deno's security model (2024)", "platform": "hackernews", "value": 84.0, "timestamp": "1794148958"}
+{"keyword": "How I Fight AI Brain Fry", "platform": "hackernews", "value": 146.0, "timestamp": "1794166662"}
+{"keyword": "A Little Snitch for Windows", "platform": "hackernews", "value": 94.0, "timestamp": "1794158167"}
+{"keyword": "Porting Android 16 to my blind mother's keypad phone", "platform": "hackernews", "value": 156.0, "timestamp": "1793805539"}
+{"keyword": "Playing Zork 1 on a CP/M emulator on Linux (2021)", "platform": "hackernews", "value": 29.0, "timestamp": "1794162830"}
+{"keyword": "Nvidia Board of Directors Is Investigating Jensen Huang", "platform": "hackernews", "value": 377.0, "timestamp": "1794169603"}
+{"keyword": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files", "platform": "hackernews", "value": 584.0, "timestamp": "1794084332"}
+{"keyword": "Starship Flight 15 on 11/13 plans to catch both booster and ship", "platform": "hackernews", "value": 88.0, "timestamp": "1794167386"}
+{"keyword": "The Reconstruction of Torn Documents", "platform": "hackernews", "value": 91.0, "timestamp": "1793955918"}
+{"keyword": "How to prove equations using diagrams, part 1", "platform": "hackernews", "value": 65.0, "timestamp": "1794142298"}
+{"keyword": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU", "platform": "hackernews", "value": 173.0, "timestamp": "1794177335"}
+{"keyword": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]", "platform": "hackernews", "value": 49.0, "timestamp": "1794180481"}
+{"keyword": "Unlocking any car from X brand in most of the world", "platform": "hackernews", "value": 27.0, "timestamp": "1794183050"}
+{"keyword": "Chimera Vocal Synth", "platform": "hackernews", "value": 75.0, "timestamp": "1794177363"}
+{"keyword": "Ask HN: What are you working on? (November 2026)", "platform": "hackernews", "value": 115.0, "timestamp": "1794172820"}
+{"keyword": "Dux: Free, open-source Wayland desktop shell with file manager and theming", "platform": "hackernews", "value": 194.0, "timestamp": "1794164931"}
+{"keyword": "Declarative Dragging", "platform": "hackernews", "value": 336.0, "timestamp": "1793811907"}
+{"keyword": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC", "platform": "hackernews", "value": 234.0, "timestamp": "1794165632"}
+{"keyword": "Goldman Sachs is pulling Claude Code from its bankers and traders", "platform": "hackernews", "value": 587.0, "timestamp": "1794161767"}
+{"keyword": "The Web Is More Than Enough, by Paul Ford", "platform": "hackernews", "value": 69.0, "timestamp": "1794167312"}
+{"keyword": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU", "platform": "hackernews", "value": 361.0, "timestamp": "1794133324"}
+{"keyword": "The History of Djgpp (1998)", "platform": "hackernews", "value": 43.0, "timestamp": "1793722237"}
+{"keyword": "Edward Hopper's Iconic Painting, \"Nighthawks", "platform": "hackernews", "value": 68.0, "timestamp": "1793834588"}
+{"keyword": "Writing as a thinking tool", "platform": "hackernews", "value": 276.0, "timestamp": "1794134512"}
+{"keyword": "Playing with the STM32MP2", "platform": "hackernews", "value": 35.0, "timestamp": "1794164647"}
+{"keyword": "Air holes turn silicon wafers into flat UV focusing mirrors for compact optics", "platform": "hackernews", "value": 16.0, "timestamp": "1794063100"}
+{"keyword": "Nvidia CEO Jensen Huang's letter to staff about affair", "platform": "hackernews", "value": 329.0, "timestamp": "1794176409"}
+{"keyword": "Goodbye Claude, hello Pi", "platform": "hackernews", "value": 696.0, "timestamp": "1794107508"}
+{"keyword": "The Kekulé Problem – Cormac McCarthy", "platform": "hackernews", "value": 6.0, "timestamp": "1793913929"}
+{"keyword": "Show HN: Vegetable Gardening for Engineers", "platform": "hackernews", "value": 162.0, "timestamp": "1793782467"}
+{"keyword": "I'm not a fan of Deno's security model (2024)", "platform": "hackernews", "value": 84.0, "timestamp": "1794148958"}
+{"keyword": "How I Fight AI Brain Fry", "platform": "hackernews", "value": 146.0, "timestamp": "1794166662"}
+{"keyword": "A Little Snitch for Windows", "platform": "hackernews", "value": 94.0, "timestamp": "1794158167"}
+{"keyword": "Porting Android 16 to my blind mother's keypad phone", "platform": "hackernews", "value": 156.0, "timestamp": "1793805539"}
+{"keyword": "Playing Zork 1 on a CP/M emulator on Linux (2021)", "platform": "hackernews", "value": 29.0, "timestamp": "1794162830"}
+{"keyword": "Nvidia Board of Directors Is Investigating Jensen Huang", "platform": "hackernews", "value": 377.0, "timestamp": "1794169603"}
+{"keyword": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files", "platform": "hackernews", "value": 584.0, "timestamp": "1794084332"}
+{"keyword": "Starship Flight 15 on 11/13 plans to catch both booster and ship", "platform": "hackernews", "value": 88.0, "timestamp": "1794167386"}
+{"keyword": "The Reconstruction of Torn Documents", "platform": "hackernews", "value": 91.0, "timestamp": "1793955918"}
+{"keyword": "How to prove equations using diagrams, part 1", "platform": "hackernews", "value": 65.0, "timestamp": "1794142298"}
+{"keyword": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU", "platform": "hackernews", "value": 173.0, "timestamp": "1794177335"}
+{"keyword": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]", "platform": "hackernews", "value": 49.0, "timestamp": "1794180481"}
+{"keyword": "Unlocking any car from X brand in most of the world", "platform": "hackernews", "value": 27.0, "timestamp": "1794183050"}
+{"keyword": "Chimera Vocal Synth", "platform": "hackernews", "value": 75.0, "timestamp": "1794177363"}
+{"keyword": "Ask HN: What are you working on? (November 2026)", "platform": "hackernews", "value": 115.0, "timestamp": "1794172820"}
+{"keyword": "Dux: Free, open-source Wayland desktop shell with file manager and theming", "platform": "hackernews", "value": 194.0, "timestamp": "1794164931"}
+{"keyword": "Declarative Dragging", "platform": "hackernews", "value": 336.0, "timestamp": "1793811907"}
+{"keyword": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC", "platform": "hackernews", "value": 234.0, "timestamp": "1794165632"}
+{"keyword": "Goldman Sachs is pulling Claude Code from its bankers and traders", "platform": "hackernews", "value": 587.0, "timestamp": "1794161767"}
+{"keyword": "The Web Is More Than Enough, by Paul Ford", "platform": "hackernews", "value": 69.0, "timestamp": "1794167312"}
+{"keyword": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU", "platform": "hackernews", "value": 361.0, "timestamp": "1794133324"}
+{"keyword": "The History of Djgpp (1998)", "platform": "hackernews", "value": 43.0, "timestamp": "1793722237"}
+{"keyword": "Edward Hopper's Iconic Painting, \"Nighthawks", "platform": "hackernews", "value": 68.0, "timestamp": "1793834588"}
+{"keyword": "Writing as a thinking tool", "platform": "hackernews", "value": 276.0, "timestamp": "1794134512"}
+{"keyword": "Playing with the STM32MP2", "platform": "hackernews", "value": 35.0, "timestamp": "1794164647"}
+{"keyword": "Air holes turn silicon wafers into flat UV focusing mirrors for compact optics", "platform": "hackernews", "value": 16.0, "timestamp": "1794063100"}
+{"keyword": "Nvidia CEO Jensen Huang's letter to staff about affair", "platform": "hackernews", "value": 329.0, "timestamp": "1794176409"}
+{"keyword": "Goodbye Claude, hello Pi", "platform": "hackernews", "value": 696.0, "timestamp": "1794107508"}
+{"keyword": "The Kekulé Problem – Cormac McCarthy", "platform": "hackernews", "value": 6.0, "timestamp": "1793913929"}
+{"keyword": "Show HN: Vegetable Gardening for Engineers", "platform": "hackernews", "value": 162.0, "timestamp": "1793782467"}
+{"keyword": "I'm not a fan of Deno's security model (2024)", "platform": "hackernews", "value": 84.0, "timestamp": "1794148958"}
+{"keyword": "How I Fight AI Brain Fry", "platform": "hackernews", "value": 146.0, "timestamp": "1794166662"}
+{"keyword": "A Little Snitch for Windows", "platform": "hackernews", "value": 94.0, "timestamp": "1794158167"}
+{"keyword": "Porting Android 16 to my blind mother's keypad phone", "platform": "hackernews", "value": 156.0, "timestamp": "1793805539"}
+{"keyword": "Playing Zork 1 on a CP/M emulator on Linux (2021)", "platform": "hackernews", "value": 29.0, "timestamp": "1794162830"}
+{"keyword": "Nvidia Board of Directors Is Investigating Jensen Huang", "platform": "hackernews", "value": 377.0, "timestamp": "1794169603"}
+{"keyword": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files", "platform": "hackernews", "value": 584.0, "timestamp": "1794084332"}
+{"keyword": "Starship Flight 15 on 11/13 plans to catch both booster and ship", "platform": "hackernews", "value": 88.0, "timestamp": "1794167386"}
+{"keyword": "The Reconstruction of Torn Documents", "platform": "hackernews", "value": 91.0, "timestamp": "1793955918"}
+{"keyword": "How to prove equations using diagrams, part 1", "platform": "hackernews", "value": 65.0, "timestamp": "1794142298"}
+{"keyword": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU", "platform": "hackernews", "value": 173.0, "timestamp": "1794177335"}
+{"keyword": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]", "platform": "hackernews", "value": 49.0, "timestamp": "1794180481"}
+{"keyword": "Unlocking any car from X brand in most of the world", "platform": "hackernews", "value": 27.0, "timestamp": "1794183050"}
+{"keyword": "Chimera Vocal Synth", "platform": "hackernews", "value": 75.0, "timestamp": "1794177363"}
+{"keyword": "Ask HN: What are you working on? (November 2026)", "platform": "hackernews", "value": 115.0, "timestamp": "1794172820"}
+{"keyword": "Dux: Free, open-source Wayland desktop shell with file manager and theming", "platform": "hackernews", "value": 194.0, "timestamp": "1794164931"}
+{"keyword": "Declarative Dragging", "platform": "hackernews", "value": 336.0, "timestamp": "1793811907"}
+{"keyword": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC", "platform": "hackernews", "value": 234.0, "timestamp": "1794165632"}
+{"keyword": "Goldman Sachs is pulling Claude Code from its bankers and traders", "platform": "hackernews", "value": 587.0, "timestamp": "1794161767"}
+{"keyword": "The Web Is More Than Enough, by Paul Ford", "platform": "hackernews", "value": 69.0, "timestamp": "1794167312"}
+{"keyword": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU", "platform": "hackernews", "value": 361.0, "timestamp": "1794133324"}
+{"keyword": "The History of Djgpp (1998)", "platform": "hackernews", "value": 43.0, "timestamp": "1793722237"}
+{"keyword": "Edward Hopper's Iconic Painting, \"Nighthawks", "platform": "hackernews", "value": 68.0, "timestamp": "1793834588"}
+{"keyword": "Writing as a thinking tool", "platform": "hackernews", "value": 276.0, "timestamp": "1794134512"}
+{"keyword": "Playing with the STM32MP2", "platform": "hackernews", "value": 35.0, "timestamp": "1794164647"}
+{"keyword": "Air holes turn silicon wafers into flat UV focusing mirrors for compact optics", "platform": "hackernews", "value": 16.0, "timestamp": "1794063100"}
+{"keyword": "Nvidia CEO Jensen Huang's letter to staff about affair", "platform": "hackernews", "value": 329.0, "timestamp": "1794176409"}
+{"keyword": "Goodbye Claude, hello Pi", "platform": "hackernews", "value": 696.0, "timestamp": "1794107508"}
+{"keyword": "The Kekulé Problem – Cormac McCarthy", "platform": "hackernews", "value": 6.0, "timestamp": "1793913929"}
+{"keyword": "Show HN: Vegetable Gardening for Engineers", "platform": "hackernews", "value": 162.0, "timestamp": "1793782467"}
+{"keyword": "I'm not a fan of Deno's security model (2024)", "platform": "hackernews", "value": 84.0, "timestamp": "1794148958"}
+{"keyword": "How I Fight AI Brain Fry", "platform": "hackernews", "value": 146.0, "timestamp": "1794166662"}
+{"keyword": "A Little Snitch for Windows", "platform": "hackernews", "value": 94.0, "timestamp": "1794158167"}
+{"keyword": "Porting Android 16 to my blind mother's keypad phone", "platform": "hackernews", "value": 156.0, "timestamp": "1793805539"}
+{"keyword": "Playing Zork 1 on a CP/M emulator on Linux (2021)", "platform": "hackernews", "value": 29.0, "timestamp": "1794162830"}
+{"keyword": "Nvidia Board of Directors Is Investigating Jensen Huang", "platform": "hackernews", "value": 377.0, "timestamp": "1794169603"}
+{"keyword": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files", "platform": "hackernews", "value": 584.0, "timestamp": "1794084332"}
+{"keyword": "Starship Flight 15 on 11/13 plans to catch both booster and ship", "platform": "hackernews", "value": 88.0, "timestamp": "1794167386"}
+{"keyword": "The Reconstruction of Torn Documents", "platform": "hackernews", "value": 91.0, "timestamp": "1793955918"}
+{"keyword": "How to prove equations using diagrams, part 1", "platform": "hackernews", "value": 65.0, "timestamp": "1794142298"}
