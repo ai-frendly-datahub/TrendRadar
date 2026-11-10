@@ -6,6 +6,26 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "K-pop",
+      "count": 4
+    },
+    {
+      "name": "World Wide Web",
+      "count": 4
+    },
+    {
+      "name": "Samsung",
+      "count": 4
+    },
+    {
+      "name": "Netflix",
+      "count": 4
+    },
+    {
+      "name": "Bitcoin",
+      "count": 4
+    },
+    {
       "name": "Climate change",
       "count": 4
     },
@@ -26,44 +46,28 @@
       "count": 4
     },
     {
-      "name": "K-pop",
-      "count": 3
-    },
-    {
-      "name": "World Wide Web",
-      "count": 3
-    },
-    {
-      "name": "Samsung",
-      "count": 3
-    },
-    {
       "name": "Seoul",
-      "count": 3
+      "count": 4
     },
     {
       "name": "South Korea",
-      "count": 3
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 3
-    },
-    {
-      "name": "Machine learning",
-      "count": 3
-    },
-    {
-      "name": "Netflix",
-      "count": 3
-    },
-    {
-      "name": "Bitcoin",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Python (programming language)",
-      "count": 3
+      "count": 4
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 4
+    },
+    {
+      "name": "Machine learning",
+      "count": 4
+    },
+    {
+      "name": "가수",
+      "count": 2
     },
     {
       "name": "매일경제신문",
@@ -74,22 +78,18 @@
       "count": 2
     },
     {
-      "name": "장례",
+      "name": "ssg 랜더스",
       "count": 1
     },
     {
-      "name": "google",
-      "count": 1
-    },
-    {
-      "name": "1인당 국민소득",
+      "name": "사채",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 120,
-    "google": 30,
-    "wikipedia": 50
+    "google_trending": 110,
+    "wikipedia": 60,
+    "google": 30
   },
-  "generated_at": "2026-11-09T20:23:43.670555+00:00"
+  "generated_at": "2026-11-10T03:58:31.485512+00:00"
 }

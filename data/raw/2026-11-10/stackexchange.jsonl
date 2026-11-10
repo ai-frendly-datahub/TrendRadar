@@ -28,3 +28,63 @@
 {"keyword": "Databricks Unity Catalog JDBC Connection: Can properties reference Databricks Secrets", "platform": "stackexchange", "value": 0.0, "timestamp": "1794221880"}
 {"keyword": "Should I use space.static_body or create my own static body?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794203244"}
 {"keyword": "Image resource location for ScalaDoc", "platform": "stackexchange", "value": 1.0, "timestamp": "1794171077"}
+{"keyword": "Why doesn&#39;t GDB automatically disassemble from RIP if _start symbol is not present?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794277660"}
+{"keyword": "I created 2 arrays that store letter values for a scrabble game. However my program assigns the wron", "platform": "stackexchange", "value": 1.0, "timestamp": "1794273737"}
+{"keyword": "Can I make a copy of a case class with abstract override while maintaining functionality", "platform": "stackexchange", "value": -1.0, "timestamp": "1794269882"}
+{"keyword": "Difference between __import__() and importlib.__import__()", "platform": "stackexchange", "value": 0.0, "timestamp": "1794263980"}
+{"keyword": "How do I add a question at the bottom that asks the user if they want to continue?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794266954"}
+{"keyword": "Malicious user and a public key", "platform": "stackexchange", "value": -5.0, "timestamp": "1794260635"}
+{"keyword": "Timeseries EDA for bootstrapping in validation", "platform": "stackexchange", "value": -2.0, "timestamp": "1794265290"}
+{"keyword": "What does __lazy_import__() return?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794264632"}
+{"keyword": "Custom UIBarButtonItem flickers on navigation transitions in iOS 27 with Liquid Glass", "platform": "stackexchange", "value": 1.0, "timestamp": "1794256160"}
+{"keyword": "Cannot run manually opened files on VS Code", "platform": "stackexchange", "value": 0.0, "timestamp": "1794252917"}
+{"keyword": "Excel using cached data for linked cells", "platform": "stackexchange", "value": -1.0, "timestamp": "1794250334"}
+{"keyword": "How are memory addresses distributed in C for this example?", "platform": "stackexchange", "value": 3.0, "timestamp": "1794240483"}
+{"keyword": "How to recognize object change while right mouse button is pressed and not released", "platform": "stackexchange", "value": -1.0, "timestamp": "1794243576"}
+{"keyword": "How can you make it to where when someone enters 2 numbers that when they click the button, a letter", "platform": "stackexchange", "value": -8.0, "timestamp": "1794251637"}
+{"keyword": "Why does Playwright not exit after test execution completes?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794247917"}
+{"keyword": "Runtime System.MissingMethodException by one project", "platform": "stackexchange", "value": -2.0, "timestamp": "1794235755"}
+{"keyword": "Why might SQL Server 2019 DMV sys.dm_exec_procedure_stats and sys.dm_exec_query_stats/sys.dm_exec_sq", "platform": "stackexchange", "value": 0.0, "timestamp": "1794244967"}
+{"keyword": "Consecutive query operations conflict because of the refresh interval", "platform": "stackexchange", "value": 0.0, "timestamp": "1794241379"}
+{"keyword": "How to fix &quot;Error: number of items to replace is not a multiple of replacement length&quot; wit", "platform": "stackexchange", "value": 1.0, "timestamp": "1794243213"}
+{"keyword": "How can I stream real-time candlestick updates to TradingView Lightweight Charts using Go?", "platform": "stackexchange", "value": -8.0, "timestamp": "1794240773"}
+{"keyword": "Push notification pipeline (Azure Function → FCM → APNs/Android): reliability and delivery measures?", "platform": "stackexchange", "value": -4.0, "timestamp": "1794241825"}
+{"keyword": "Atomic unread messages update for member in group chat", "platform": "stackexchange", "value": -3.0, "timestamp": "1794231119"}
+{"keyword": "Request for Guidance on publish/subscribe(pub/sub) Architecture", "platform": "stackexchange", "value": -9.0, "timestamp": "1794203198"}
+{"keyword": "Spring Boot Procedure call", "platform": "stackexchange", "value": -4.0, "timestamp": "1794222239"}
+{"keyword": "Setting tab size for git show", "platform": "stackexchange", "value": 2.0, "timestamp": "1794220676"}
+{"keyword": "Dice MCP search_jobs fails with PASSWORD_RESET_REQUIRED", "platform": "stackexchange", "value": -7.0, "timestamp": "1794229351"}
+{"keyword": "Marshal.GetActiveObject not seeing opened instance of Excel", "platform": "stackexchange", "value": 1.0, "timestamp": "1794188522"}
+{"keyword": "Google Play Developer API: tracks.releases.list returns 403 &quot;Listing releases quota exceeded&qu", "platform": "stackexchange", "value": -5.0, "timestamp": "1794221024"}
+{"keyword": "Reading a 0/1 pump interlock with JDBC getBoolean throws an IntColumn exception", "platform": "stackexchange", "value": 2.0, "timestamp": "1794215007"}
+{"keyword": "How can I verify phone number ownership on iOS without SMS OTP? Looking for alternatives to Firebase", "platform": "stackexchange", "value": -8.0, "timestamp": "1794207058"}
+{"keyword": "Why doesn&#39;t GDB automatically disassemble from RIP if _start symbol is not present?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794277660"}
+{"keyword": "I created 2 arrays that store letter values for a scrabble game. However my program assigns the wron", "platform": "stackexchange", "value": 1.0, "timestamp": "1794273737"}
+{"keyword": "Can I make a copy of a case class with abstract override while maintaining functionality", "platform": "stackexchange", "value": -1.0, "timestamp": "1794269882"}
+{"keyword": "Difference between __import__() and importlib.__import__()", "platform": "stackexchange", "value": 0.0, "timestamp": "1794263980"}
+{"keyword": "How do I add a question at the bottom that asks the user if they want to continue?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794266954"}
+{"keyword": "Malicious user and a public key", "platform": "stackexchange", "value": -5.0, "timestamp": "1794260635"}
+{"keyword": "Timeseries EDA for bootstrapping in validation", "platform": "stackexchange", "value": -2.0, "timestamp": "1794265290"}
+{"keyword": "What does __lazy_import__() return?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794264632"}
+{"keyword": "Custom UIBarButtonItem flickers on navigation transitions in iOS 27 with Liquid Glass", "platform": "stackexchange", "value": 1.0, "timestamp": "1794256160"}
+{"keyword": "Cannot run manually opened files on VS Code", "platform": "stackexchange", "value": 0.0, "timestamp": "1794252917"}
+{"keyword": "Excel using cached data for linked cells", "platform": "stackexchange", "value": -1.0, "timestamp": "1794250334"}
+{"keyword": "How are memory addresses distributed in C for this example?", "platform": "stackexchange", "value": 3.0, "timestamp": "1794240483"}
+{"keyword": "How to recognize object change while right mouse button is pressed and not released", "platform": "stackexchange", "value": -1.0, "timestamp": "1794243576"}
+{"keyword": "How can you make it to where when someone enters 2 numbers that when they click the button, a letter", "platform": "stackexchange", "value": -8.0, "timestamp": "1794251637"}
+{"keyword": "Why does Playwright not exit after test execution completes?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794247917"}
+{"keyword": "Runtime System.MissingMethodException by one project", "platform": "stackexchange", "value": -2.0, "timestamp": "1794235755"}
+{"keyword": "Why might SQL Server 2019 DMV sys.dm_exec_procedure_stats and sys.dm_exec_query_stats/sys.dm_exec_sq", "platform": "stackexchange", "value": 0.0, "timestamp": "1794244967"}
+{"keyword": "Consecutive query operations conflict because of the refresh interval", "platform": "stackexchange", "value": 0.0, "timestamp": "1794241379"}
+{"keyword": "How to fix &quot;Error: number of items to replace is not a multiple of replacement length&quot; wit", "platform": "stackexchange", "value": 1.0, "timestamp": "1794243213"}
+{"keyword": "How can I stream real-time candlestick updates to TradingView Lightweight Charts using Go?", "platform": "stackexchange", "value": -8.0, "timestamp": "1794240773"}
+{"keyword": "Push notification pipeline (Azure Function → FCM → APNs/Android): reliability and delivery measures?", "platform": "stackexchange", "value": -4.0, "timestamp": "1794241825"}
+{"keyword": "Atomic unread messages update for member in group chat", "platform": "stackexchange", "value": -3.0, "timestamp": "1794231119"}
+{"keyword": "Request for Guidance on publish/subscribe(pub/sub) Architecture", "platform": "stackexchange", "value": -9.0, "timestamp": "1794203198"}
+{"keyword": "Spring Boot Procedure call", "platform": "stackexchange", "value": -4.0, "timestamp": "1794222239"}
+{"keyword": "Setting tab size for git show", "platform": "stackexchange", "value": 2.0, "timestamp": "1794220676"}
+{"keyword": "Dice MCP search_jobs fails with PASSWORD_RESET_REQUIRED", "platform": "stackexchange", "value": -7.0, "timestamp": "1794229351"}
+{"keyword": "Marshal.GetActiveObject not seeing opened instance of Excel", "platform": "stackexchange", "value": 1.0, "timestamp": "1794188522"}
+{"keyword": "Google Play Developer API: tracks.releases.list returns 403 &quot;Listing releases quota exceeded&qu", "platform": "stackexchange", "value": -5.0, "timestamp": "1794221024"}
+{"keyword": "Reading a 0/1 pump interlock with JDBC getBoolean throws an IntColumn exception", "platform": "stackexchange", "value": 2.0, "timestamp": "1794215007"}
+{"keyword": "How can I verify phone number ownership on iOS without SMS OTP? Looking for alternatives to Firebase", "platform": "stackexchange", "value": -8.0, "timestamp": "1794207058"}
