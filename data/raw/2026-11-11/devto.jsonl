@@ -58,3 +58,123 @@
 {"keyword": "Why Website Migrations Can Hurt SEO Even When URLs Stay the Same", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T03:15:30Z"}
 {"keyword": "Developers saving 10+ hours a week with AI fell from 68% to 26%. The bottleneck moved.", "platform": "devto", "value": 0.0, "timestamp": "2026-11-10T04:30:00Z"}
 {"keyword": "I review my AI agent's code like a merge request", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T07:32:09Z"}
+{"keyword": "Detecting Flaky Tests and Finding Their Root Causes with Strands Agents and Gemini", "platform": "devto", "value": 47.0, "timestamp": "2026-11-10T22:52:28Z"}
+{"keyword": "Stop Trusting npm Scans: Run Untrusted Packages in an Isolated AWS Sandbox", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T18:45:54Z"}
+{"keyword": "From Attention to 3-Bit Caches: How LLMs Learned to Remember Less (MHA, GQA, MLA, MoE, Quantisation", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T18:42:22Z"}
+{"keyword": "Blazor Native: HTML and CSS Without a Browser", "platform": "devto", "value": 4.0, "timestamp": "2026-11-10T15:45:27Z"}
+{"keyword": "Dev Log # 28 A Quiet Week on the OSS Front", "platform": "devto", "value": 7.0, "timestamp": "2026-11-10T06:42:33Z"}
+{"keyword": "I built a macOS app that makes your screen feel like paper!", "platform": "devto", "value": 1.0, "timestamp": "2026-11-10T07:45:13Z"}
+{"keyword": "Behind the scenes, two months later: How we ship Google Agent Skills like products", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T15:22:39Z"}
+{"keyword": "I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features", "platform": "devto", "value": 91.0, "timestamp": "2026-11-10T09:04:10Z"}
+{"keyword": "AI Agents Need a Runtime, Not Another Framework", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T23:43:49Z"}
+{"keyword": "Cheapest AI API: 6 Options Compared for Real Workloads", "platform": "devto", "value": 10.0, "timestamp": "2026-11-10T13:20:47Z"}
+{"keyword": "Once Upon Agentic AI (Part 1): Create your own agent and forge its tools with Strands Agents", "platform": "devto", "value": 23.0, "timestamp": "2026-11-10T08:45:56Z"}
+{"keyword": "Django 6.1's FETCH_PEERS against my own select_related", "platform": "devto", "value": 8.0, "timestamp": "2026-11-10T05:41:37Z"}
+{"keyword": "Software Engineering Is Becoming Factory Engineering", "platform": "devto", "value": 3.0, "timestamp": "2026-11-11T01:28:03Z"}
+{"keyword": "Ask More of Your UI", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:39:15Z"}
+{"keyword": "Google AI Classroom Part 4: Defeating Proxy Attendance & Lab Keyloggers with WebAuthn Passkeys, Rota", "platform": "devto", "value": 12.0, "timestamp": "2026-11-10T07:25:07Z"}
+{"keyword": "LLMs Aren’t the Only Game in Town: A Beginner’s Guide to JEPA, Concept Models and Decision Models", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T18:52:51Z"}
+{"keyword": "Bifrost vs LiteLLM Rust: Do the 7x Benchmark Claims Hold Up?", "platform": "devto", "value": 28.0, "timestamp": "2026-11-10T19:47:10Z"}
+{"keyword": "What Are Human Code Reviews For?", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T17:51:14Z"}
+{"keyword": "Top 5 AI Agent Patterns for Frontend Devs", "platform": "devto", "value": 9.0, "timestamp": "2026-11-10T16:52:22Z"}
+{"keyword": "Node.js 26's Map.getOrInsertComputed is slower than the get-and-set it replaces", "platform": "devto", "value": 7.0, "timestamp": "2026-11-10T11:00:00Z"}
+{"keyword": "Dev log # 29 The Review Marathon: Hardening libp2p across C# and Python", "platform": "devto", "value": 11.0, "timestamp": "2026-11-10T10:19:21Z"}
+{"keyword": "Kent C. Dodds Hasn't Looked at His Code All Year", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:36:37Z"}
+{"keyword": "A Word List Tied the Model", "platform": "devto", "value": 1.0, "timestamp": "2026-11-10T14:16:00Z"}
+{"keyword": "Google AI Classroom Part 5: Real-Time Multilingual Live Subtitles & Hong Kong Code-Switching with Ge", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T14:25:13Z"}
+{"keyword": "Google AI Classroom Part 6: Low-Bandwidth Classroom Screen Broadcasting & Single-Pass Whole-Lecture", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:27:06Z"}
+{"keyword": "Does Promise.all() Cancel Other Promises When One Rejects?", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T14:45:25Z"}
+{"keyword": "Coding Agent Updater: The Tool You Didn't Know You Needed", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T16:21:48Z"}
+{"keyword": "How We Review 4x More AI Code Without Reading Every Line", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:27:30Z"}
+{"keyword": "Vue.js Is My Workhorse. Now It's an Agent Skill.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T08:00:00Z"}
+{"keyword": "I can build the product with AI. Getting the first users is harder.", "platform": "devto", "value": 0.0, "timestamp": "2026-11-10T20:37:14Z"}
+{"keyword": "Detecting Flaky Tests and Finding Their Root Causes with Strands Agents and Gemini", "platform": "devto", "value": 47.0, "timestamp": "2026-11-10T22:52:28Z"}
+{"keyword": "Stop Trusting npm Scans: Run Untrusted Packages in an Isolated AWS Sandbox", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T18:45:54Z"}
+{"keyword": "From Attention to 3-Bit Caches: How LLMs Learned to Remember Less (MHA, GQA, MLA, MoE, Quantisation", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T18:42:22Z"}
+{"keyword": "Blazor Native: HTML and CSS Without a Browser", "platform": "devto", "value": 4.0, "timestamp": "2026-11-10T15:45:27Z"}
+{"keyword": "Dev Log # 28 A Quiet Week on the OSS Front", "platform": "devto", "value": 7.0, "timestamp": "2026-11-10T06:42:33Z"}
+{"keyword": "I built a macOS app that makes your screen feel like paper!", "platform": "devto", "value": 1.0, "timestamp": "2026-11-10T07:45:13Z"}
+{"keyword": "Behind the scenes, two months later: How we ship Google Agent Skills like products", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T15:22:39Z"}
+{"keyword": "I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features", "platform": "devto", "value": 91.0, "timestamp": "2026-11-10T09:04:10Z"}
+{"keyword": "AI Agents Need a Runtime, Not Another Framework", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T23:43:49Z"}
+{"keyword": "Cheapest AI API: 6 Options Compared for Real Workloads", "platform": "devto", "value": 10.0, "timestamp": "2026-11-10T13:20:47Z"}
+{"keyword": "Once Upon Agentic AI (Part 1): Create your own agent and forge its tools with Strands Agents", "platform": "devto", "value": 23.0, "timestamp": "2026-11-10T08:45:56Z"}
+{"keyword": "Django 6.1's FETCH_PEERS against my own select_related", "platform": "devto", "value": 8.0, "timestamp": "2026-11-10T05:41:37Z"}
+{"keyword": "Software Engineering Is Becoming Factory Engineering", "platform": "devto", "value": 3.0, "timestamp": "2026-11-11T01:28:03Z"}
+{"keyword": "Ask More of Your UI", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:39:15Z"}
+{"keyword": "Google AI Classroom Part 4: Defeating Proxy Attendance & Lab Keyloggers with WebAuthn Passkeys, Rota", "platform": "devto", "value": 12.0, "timestamp": "2026-11-10T07:25:07Z"}
+{"keyword": "LLMs Aren’t the Only Game in Town: A Beginner’s Guide to JEPA, Concept Models and Decision Models", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T18:52:51Z"}
+{"keyword": "Bifrost vs LiteLLM Rust: Do the 7x Benchmark Claims Hold Up?", "platform": "devto", "value": 28.0, "timestamp": "2026-11-10T19:47:10Z"}
+{"keyword": "What Are Human Code Reviews For?", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T17:51:14Z"}
+{"keyword": "Top 5 AI Agent Patterns for Frontend Devs", "platform": "devto", "value": 9.0, "timestamp": "2026-11-10T16:52:22Z"}
+{"keyword": "Node.js 26's Map.getOrInsertComputed is slower than the get-and-set it replaces", "platform": "devto", "value": 7.0, "timestamp": "2026-11-10T11:00:00Z"}
+{"keyword": "Dev log # 29 The Review Marathon: Hardening libp2p across C# and Python", "platform": "devto", "value": 11.0, "timestamp": "2026-11-10T10:19:21Z"}
+{"keyword": "Kent C. Dodds Hasn't Looked at His Code All Year", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:36:37Z"}
+{"keyword": "A Word List Tied the Model", "platform": "devto", "value": 1.0, "timestamp": "2026-11-10T14:16:00Z"}
+{"keyword": "Google AI Classroom Part 5: Real-Time Multilingual Live Subtitles & Hong Kong Code-Switching with Ge", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T14:25:13Z"}
+{"keyword": "Google AI Classroom Part 6: Low-Bandwidth Classroom Screen Broadcasting & Single-Pass Whole-Lecture", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:27:06Z"}
+{"keyword": "Does Promise.all() Cancel Other Promises When One Rejects?", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T14:45:25Z"}
+{"keyword": "Coding Agent Updater: The Tool You Didn't Know You Needed", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T16:21:48Z"}
+{"keyword": "How We Review 4x More AI Code Without Reading Every Line", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:27:30Z"}
+{"keyword": "Vue.js Is My Workhorse. Now It's an Agent Skill.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T08:00:00Z"}
+{"keyword": "I can build the product with AI. Getting the first users is harder.", "platform": "devto", "value": 0.0, "timestamp": "2026-11-10T20:37:14Z"}
+{"keyword": "Detecting Flaky Tests and Finding Their Root Causes with Strands Agents and Gemini", "platform": "devto", "value": 47.0, "timestamp": "2026-11-10T22:52:28Z"}
+{"keyword": "Stop Trusting npm Scans: Run Untrusted Packages in an Isolated AWS Sandbox", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T18:45:54Z"}
+{"keyword": "From Attention to 3-Bit Caches: How LLMs Learned to Remember Less (MHA, GQA, MLA, MoE, Quantisation", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T18:42:22Z"}
+{"keyword": "Blazor Native: HTML and CSS Without a Browser", "platform": "devto", "value": 4.0, "timestamp": "2026-11-10T15:45:27Z"}
+{"keyword": "Dev Log # 28 A Quiet Week on the OSS Front", "platform": "devto", "value": 7.0, "timestamp": "2026-11-10T06:42:33Z"}
+{"keyword": "I built a macOS app that makes your screen feel like paper!", "platform": "devto", "value": 1.0, "timestamp": "2026-11-10T07:45:13Z"}
+{"keyword": "Behind the scenes, two months later: How we ship Google Agent Skills like products", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T15:22:39Z"}
+{"keyword": "I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features", "platform": "devto", "value": 91.0, "timestamp": "2026-11-10T09:04:10Z"}
+{"keyword": "AI Agents Need a Runtime, Not Another Framework", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T23:43:49Z"}
+{"keyword": "Cheapest AI API: 6 Options Compared for Real Workloads", "platform": "devto", "value": 10.0, "timestamp": "2026-11-10T13:20:47Z"}
+{"keyword": "Once Upon Agentic AI (Part 1): Create your own agent and forge its tools with Strands Agents", "platform": "devto", "value": 23.0, "timestamp": "2026-11-10T08:45:56Z"}
+{"keyword": "Django 6.1's FETCH_PEERS against my own select_related", "platform": "devto", "value": 8.0, "timestamp": "2026-11-10T05:41:37Z"}
+{"keyword": "Software Engineering Is Becoming Factory Engineering", "platform": "devto", "value": 3.0, "timestamp": "2026-11-11T01:28:03Z"}
+{"keyword": "Ask More of Your UI", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:39:15Z"}
+{"keyword": "Google AI Classroom Part 4: Defeating Proxy Attendance & Lab Keyloggers with WebAuthn Passkeys, Rota", "platform": "devto", "value": 12.0, "timestamp": "2026-11-10T07:25:07Z"}
+{"keyword": "LLMs Aren’t the Only Game in Town: A Beginner’s Guide to JEPA, Concept Models and Decision Models", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T18:52:51Z"}
+{"keyword": "Bifrost vs LiteLLM Rust: Do the 7x Benchmark Claims Hold Up?", "platform": "devto", "value": 28.0, "timestamp": "2026-11-10T19:47:10Z"}
+{"keyword": "What Are Human Code Reviews For?", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T17:51:14Z"}
+{"keyword": "Top 5 AI Agent Patterns for Frontend Devs", "platform": "devto", "value": 9.0, "timestamp": "2026-11-10T16:52:22Z"}
+{"keyword": "Node.js 26's Map.getOrInsertComputed is slower than the get-and-set it replaces", "platform": "devto", "value": 7.0, "timestamp": "2026-11-10T11:00:00Z"}
+{"keyword": "Dev log # 29 The Review Marathon: Hardening libp2p across C# and Python", "platform": "devto", "value": 11.0, "timestamp": "2026-11-10T10:19:21Z"}
+{"keyword": "Kent C. Dodds Hasn't Looked at His Code All Year", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:36:37Z"}
+{"keyword": "A Word List Tied the Model", "platform": "devto", "value": 1.0, "timestamp": "2026-11-10T14:16:00Z"}
+{"keyword": "Google AI Classroom Part 5: Real-Time Multilingual Live Subtitles & Hong Kong Code-Switching with Ge", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T14:25:13Z"}
+{"keyword": "Google AI Classroom Part 6: Low-Bandwidth Classroom Screen Broadcasting & Single-Pass Whole-Lecture", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:27:06Z"}
+{"keyword": "Does Promise.all() Cancel Other Promises When One Rejects?", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T14:45:25Z"}
+{"keyword": "Coding Agent Updater: The Tool You Didn't Know You Needed", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T16:21:48Z"}
+{"keyword": "How We Review 4x More AI Code Without Reading Every Line", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:27:30Z"}
+{"keyword": "Vue.js Is My Workhorse. Now It's an Agent Skill.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T08:00:00Z"}
+{"keyword": "I can build the product with AI. Getting the first users is harder.", "platform": "devto", "value": 0.0, "timestamp": "2026-11-10T20:37:14Z"}
+{"keyword": "Detecting Flaky Tests and Finding Their Root Causes with Strands Agents and Gemini", "platform": "devto", "value": 47.0, "timestamp": "2026-11-10T22:52:28Z"}
+{"keyword": "Stop Trusting npm Scans: Run Untrusted Packages in an Isolated AWS Sandbox", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T18:45:54Z"}
+{"keyword": "From Attention to 3-Bit Caches: How LLMs Learned to Remember Less (MHA, GQA, MLA, MoE, Quantisation", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T18:42:22Z"}
+{"keyword": "Blazor Native: HTML and CSS Without a Browser", "platform": "devto", "value": 4.0, "timestamp": "2026-11-10T15:45:27Z"}
+{"keyword": "Dev Log # 28 A Quiet Week on the OSS Front", "platform": "devto", "value": 7.0, "timestamp": "2026-11-10T06:42:33Z"}
+{"keyword": "I built a macOS app that makes your screen feel like paper!", "platform": "devto", "value": 1.0, "timestamp": "2026-11-10T07:45:13Z"}
+{"keyword": "Behind the scenes, two months later: How we ship Google Agent Skills like products", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T15:22:39Z"}
+{"keyword": "I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features", "platform": "devto", "value": 91.0, "timestamp": "2026-11-10T09:04:10Z"}
+{"keyword": "AI Agents Need a Runtime, Not Another Framework", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T23:43:49Z"}
+{"keyword": "Cheapest AI API: 6 Options Compared for Real Workloads", "platform": "devto", "value": 10.0, "timestamp": "2026-11-10T13:20:47Z"}
+{"keyword": "Once Upon Agentic AI (Part 1): Create your own agent and forge its tools with Strands Agents", "platform": "devto", "value": 23.0, "timestamp": "2026-11-10T08:45:56Z"}
+{"keyword": "Django 6.1's FETCH_PEERS against my own select_related", "platform": "devto", "value": 8.0, "timestamp": "2026-11-10T05:41:37Z"}
+{"keyword": "Software Engineering Is Becoming Factory Engineering", "platform": "devto", "value": 3.0, "timestamp": "2026-11-11T01:28:03Z"}
+{"keyword": "Ask More of Your UI", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:39:15Z"}
+{"keyword": "Google AI Classroom Part 4: Defeating Proxy Attendance & Lab Keyloggers with WebAuthn Passkeys, Rota", "platform": "devto", "value": 12.0, "timestamp": "2026-11-10T07:25:07Z"}
+{"keyword": "LLMs Aren’t the Only Game in Town: A Beginner’s Guide to JEPA, Concept Models and Decision Models", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T18:52:51Z"}
+{"keyword": "Bifrost vs LiteLLM Rust: Do the 7x Benchmark Claims Hold Up?", "platform": "devto", "value": 28.0, "timestamp": "2026-11-10T19:47:10Z"}
+{"keyword": "What Are Human Code Reviews For?", "platform": "devto", "value": 5.0, "timestamp": "2026-11-10T17:51:14Z"}
+{"keyword": "Top 5 AI Agent Patterns for Frontend Devs", "platform": "devto", "value": 9.0, "timestamp": "2026-11-10T16:52:22Z"}
+{"keyword": "Node.js 26's Map.getOrInsertComputed is slower than the get-and-set it replaces", "platform": "devto", "value": 7.0, "timestamp": "2026-11-10T11:00:00Z"}
+{"keyword": "Dev log # 29 The Review Marathon: Hardening libp2p across C# and Python", "platform": "devto", "value": 11.0, "timestamp": "2026-11-10T10:19:21Z"}
+{"keyword": "Kent C. Dodds Hasn't Looked at His Code All Year", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:36:37Z"}
+{"keyword": "A Word List Tied the Model", "platform": "devto", "value": 1.0, "timestamp": "2026-11-10T14:16:00Z"}
+{"keyword": "Google AI Classroom Part 5: Real-Time Multilingual Live Subtitles & Hong Kong Code-Switching with Ge", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T14:25:13Z"}
+{"keyword": "Google AI Classroom Part 6: Low-Bandwidth Classroom Screen Broadcasting & Single-Pass Whole-Lecture", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:27:06Z"}
+{"keyword": "Does Promise.all() Cancel Other Promises When One Rejects?", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T14:45:25Z"}
+{"keyword": "Coding Agent Updater: The Tool You Didn't Know You Needed", "platform": "devto", "value": 2.0, "timestamp": "2026-11-10T16:21:48Z"}
+{"keyword": "How We Review 4x More AI Code Without Reading Every Line", "platform": "devto", "value": 0.0, "timestamp": "2026-11-11T01:27:30Z"}
+{"keyword": "Vue.js Is My Workhorse. Now It's an Agent Skill.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-10T08:00:00Z"}
+{"keyword": "I can build the product with AI. Getting the first users is harder.", "platform": "devto", "value": 0.0, "timestamp": "2026-11-10T20:37:14Z"}

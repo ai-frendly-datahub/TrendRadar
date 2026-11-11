@@ -28,3 +28,63 @@
 {"keyword": "Why might SQL Server 2019 DMV sys.dm_exec_procedure_stats and sys.dm_exec_query_stats/sys.dm_exec_sq", "platform": "stackexchange", "value": 2.0, "timestamp": "1794244967"}
 {"keyword": "Difference between __import__() and importlib.__import__()", "platform": "stackexchange", "value": 1.0, "timestamp": "1794263980"}
 {"keyword": "How do I add a question at the bottom that asks the user if they want to continue?", "platform": "stackexchange", "value": -3.0, "timestamp": "1794266954"}
+{"keyword": "Installing git in a OpenBSD jail", "platform": "stackexchange", "value": -2.0, "timestamp": "1794357757"}
+{"keyword": "pastclim::download_dataset eval(parse error", "platform": "stackexchange", "value": -1.0, "timestamp": "1794356205"}
+{"keyword": "Why is the original array still affected?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794352373"}
+{"keyword": "How to get the lowest value from a tuple, contained within a list with other tuples as elements?", "platform": "stackexchange", "value": -4.0, "timestamp": "1794347901"}
+{"keyword": "Defining functions and then printing values", "platform": "stackexchange", "value": -5.0, "timestamp": "1794349149"}
+{"keyword": "In which condition RPI Pico DBGPAUSE flags stop the TIMER clocks?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794352112"}
+{"keyword": "Where-object cmdlet does not seem to behave as expected and returns error", "platform": "stackexchange", "value": 0.0, "timestamp": "1794348801"}
+{"keyword": "How do I pull truly unique dictionaries from a list of dictionaries in Python?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794343388"}
+{"keyword": "Does Sleep(0) lets the core to execute other core&#39;s thread that is ready to run?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794347196"}
+{"keyword": "What is the cheapest way to host a small web app with a database?", "platform": "stackexchange", "value": -9.0, "timestamp": "1794334231"}
+{"keyword": "Use reference for the evaluated cell in Apple Numbers", "platform": "stackexchange", "value": 0.0, "timestamp": "1794344681"}
+{"keyword": "How would you design and implement a local data infrastructure?", "platform": "stackexchange", "value": -6.0, "timestamp": "1794332755"}
+{"keyword": "How to compile a dual-purpose ELF binary (Executable &amp; Shared Library) that supports both dlopen", "platform": "stackexchange", "value": 2.0, "timestamp": "1794336192"}
+{"keyword": "Accessing a model&#39;s individual layer", "platform": "stackexchange", "value": -6.0, "timestamp": "1794339308"}
+{"keyword": "how does the createServer() work in node.js", "platform": "stackexchange", "value": -6.0, "timestamp": "1794338653"}
+{"keyword": "Adding Go Packages", "platform": "stackexchange", "value": -7.0, "timestamp": "1794337265"}
+{"keyword": "Why does MSVC compile a structured binding of `std::pair&lt;int, float&gt;` worse in `/std:c++20` th", "platform": "stackexchange", "value": 3.0, "timestamp": "1794333247"}
+{"keyword": "Trigonometric computation using math library", "platform": "stackexchange", "value": -7.0, "timestamp": "1794326808"}
+{"keyword": "Connecting multiple entities with same fields in a Criteria Builder process", "platform": "stackexchange", "value": -3.0, "timestamp": "1794334087"}
+{"keyword": "I created 2 arrays that store letter values for a scrabble game. However my program assigns the wron", "platform": "stackexchange", "value": 4.0, "timestamp": "1794273737"}
+{"keyword": "git identity switcher for linux", "platform": "stackexchange", "value": -4.0, "timestamp": "1794324426"}
+{"keyword": "std::formattable fails on custom std::formatter specialization", "platform": "stackexchange", "value": 5.0, "timestamp": "1794308794"}
+{"keyword": "Visual Studio Code started adding extra &quot;\\&quot; to file paths; can no longer run files", "platform": "stackexchange", "value": -1.0, "timestamp": "1794328718"}
+{"keyword": "How to fix error when installing a 64-bit component: Never-build package &#39;rtl&#39; must be recom", "platform": "stackexchange", "value": 0.0, "timestamp": "1794334155"}
+{"keyword": "Why does changing a value twice work for modifying a bound textbox?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794306562"}
+{"keyword": "How do I go about pivoting/summarizing this data frame when the variables are spread between multipl", "platform": "stackexchange", "value": 2.0, "timestamp": "1794327048"}
+{"keyword": "Passing form data from a popup window in Flask", "platform": "stackexchange", "value": 2.0, "timestamp": "1794314347"}
+{"keyword": "Asyncio Unhandled Exception in atexit", "platform": "stackexchange", "value": 0.0, "timestamp": "1794327765"}
+{"keyword": "iText pdfSweep loses image transparency when redacting a PDF with a JBIG2-encoded explicit image mas", "platform": "stackexchange", "value": -3.0, "timestamp": "1794333330"}
+{"keyword": "Out of host capacity fix", "platform": "stackexchange", "value": -5.0, "timestamp": "1794332237"}
+{"keyword": "Installing git in a OpenBSD jail", "platform": "stackexchange", "value": -2.0, "timestamp": "1794357757"}
+{"keyword": "pastclim::download_dataset eval(parse error", "platform": "stackexchange", "value": -1.0, "timestamp": "1794356205"}
+{"keyword": "Why is the original array still affected?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794352373"}
+{"keyword": "How to get the lowest value from a tuple, contained within a list with other tuples as elements?", "platform": "stackexchange", "value": -4.0, "timestamp": "1794347901"}
+{"keyword": "Defining functions and then printing values", "platform": "stackexchange", "value": -5.0, "timestamp": "1794349149"}
+{"keyword": "In which condition RPI Pico DBGPAUSE flags stop the TIMER clocks?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794352112"}
+{"keyword": "Where-object cmdlet does not seem to behave as expected and returns error", "platform": "stackexchange", "value": 0.0, "timestamp": "1794348801"}
+{"keyword": "How do I pull truly unique dictionaries from a list of dictionaries in Python?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794343388"}
+{"keyword": "Does Sleep(0) lets the core to execute other core&#39;s thread that is ready to run?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794347196"}
+{"keyword": "What is the cheapest way to host a small web app with a database?", "platform": "stackexchange", "value": -9.0, "timestamp": "1794334231"}
+{"keyword": "Use reference for the evaluated cell in Apple Numbers", "platform": "stackexchange", "value": 0.0, "timestamp": "1794344681"}
+{"keyword": "How would you design and implement a local data infrastructure?", "platform": "stackexchange", "value": -6.0, "timestamp": "1794332755"}
+{"keyword": "How to compile a dual-purpose ELF binary (Executable &amp; Shared Library) that supports both dlopen", "platform": "stackexchange", "value": 2.0, "timestamp": "1794336192"}
+{"keyword": "Accessing a model&#39;s individual layer", "platform": "stackexchange", "value": -6.0, "timestamp": "1794339308"}
+{"keyword": "how does the createServer() work in node.js", "platform": "stackexchange", "value": -6.0, "timestamp": "1794338653"}
+{"keyword": "Adding Go Packages", "platform": "stackexchange", "value": -7.0, "timestamp": "1794337265"}
+{"keyword": "Why does MSVC compile a structured binding of `std::pair&lt;int, float&gt;` worse in `/std:c++20` th", "platform": "stackexchange", "value": 3.0, "timestamp": "1794333247"}
+{"keyword": "Trigonometric computation using math library", "platform": "stackexchange", "value": -7.0, "timestamp": "1794326808"}
+{"keyword": "Connecting multiple entities with same fields in a Criteria Builder process", "platform": "stackexchange", "value": -3.0, "timestamp": "1794334087"}
+{"keyword": "I created 2 arrays that store letter values for a scrabble game. However my program assigns the wron", "platform": "stackexchange", "value": 4.0, "timestamp": "1794273737"}
+{"keyword": "git identity switcher for linux", "platform": "stackexchange", "value": -4.0, "timestamp": "1794324426"}
+{"keyword": "std::formattable fails on custom std::formatter specialization", "platform": "stackexchange", "value": 5.0, "timestamp": "1794308794"}
+{"keyword": "Visual Studio Code started adding extra &quot;\\&quot; to file paths; can no longer run files", "platform": "stackexchange", "value": -1.0, "timestamp": "1794328718"}
+{"keyword": "How to fix error when installing a 64-bit component: Never-build package &#39;rtl&#39; must be recom", "platform": "stackexchange", "value": 0.0, "timestamp": "1794334155"}
+{"keyword": "Why does changing a value twice work for modifying a bound textbox?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794306562"}
+{"keyword": "How do I go about pivoting/summarizing this data frame when the variables are spread between multipl", "platform": "stackexchange", "value": 2.0, "timestamp": "1794327048"}
+{"keyword": "Passing form data from a popup window in Flask", "platform": "stackexchange", "value": 2.0, "timestamp": "1794314347"}
+{"keyword": "Asyncio Unhandled Exception in atexit", "platform": "stackexchange", "value": 0.0, "timestamp": "1794327765"}
+{"keyword": "iText pdfSweep loses image transparency when redacting a PDF with a JBIG2-encoded explicit image mas", "platform": "stackexchange", "value": -3.0, "timestamp": "1794333330"}
+{"keyword": "Out of host capacity fix", "platform": "stackexchange", "value": -5.0, "timestamp": "1794332237"}
