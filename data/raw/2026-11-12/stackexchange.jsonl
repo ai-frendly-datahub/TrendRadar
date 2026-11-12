@@ -28,3 +28,63 @@
 {"keyword": "Regarding eval with read-from-string", "platform": "stackexchange", "value": 3.0, "timestamp": "1794361953"}
 {"keyword": "Why does MSVC compile a structured binding of `std::pair&lt;int, float&gt;` worse in `/std:c++20` th", "platform": "stackexchange", "value": 11.0, "timestamp": "1794333247"}
 {"keyword": "Do Sleep(0) and SwitchToThread behave the same?", "platform": "stackexchange", "value": -3.0, "timestamp": "1794347196"}
+{"keyword": "Is pg_last_wal_replay_lsn() a sufficient read-after-write barrier on a PolarDB for PostgreSQL replic", "platform": "stackexchange", "value": 0.0, "timestamp": "1794449400"}
+{"keyword": "How can I programmatically create an MDList with KivyMD?", "platform": "stackexchange", "value": 2.0, "timestamp": "1794430544"}
+{"keyword": "Why is my code not adding the last character when converting Roman numerals?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794424435"}
+{"keyword": "Color points by density when plotting continuous variable by categorical variable with modern {ggplo", "platform": "stackexchange", "value": 0.0, "timestamp": "1794439178"}
+{"keyword": "How to remove expanded image in Android alerts", "platform": "stackexchange", "value": 1.0, "timestamp": "1794427942"}
+{"keyword": "How to exit an APR thread with a specific error code", "platform": "stackexchange", "value": 1.0, "timestamp": "1794431225"}
+{"keyword": "Advice on Implementing a JavaFX Google Earth / God&#39;s eye View like viewer with JDK 27", "platform": "stackexchange", "value": -3.0, "timestamp": "1794412846"}
+{"keyword": "How To Make A Car Turn In Godot", "platform": "stackexchange", "value": 0.0, "timestamp": "1794421558"}
+{"keyword": "Why does this picture refuse to move under my other image?", "platform": "stackexchange", "value": 2.0, "timestamp": "1794421678"}
+{"keyword": "Firebase Auth: saving any email template field fails with EMAIL_TEMPLATE_UPDATE_NOT_ALLOWED", "platform": "stackexchange", "value": -1.0, "timestamp": "1794428193"}
+{"keyword": "How to fix bad version number in a melpa-hosted package", "platform": "stackexchange", "value": -2.0, "timestamp": "1794427620"}
+{"keyword": "Why do two mediafiles differ 2 times in size despite equal content, the same codec and encoding data", "platform": "stackexchange", "value": -2.0, "timestamp": "1794426844"}
+{"keyword": "Plot ranked data against two different rankings", "platform": "stackexchange", "value": 3.0, "timestamp": "1794406203"}
+{"keyword": "Show RAM and runtime with different geom and different scales", "platform": "stackexchange", "value": 3.0, "timestamp": "1794416217"}
+{"keyword": "Windows ANSI terminal commands do not work on some WIndows installs", "platform": "stackexchange", "value": 0.0, "timestamp": "1794409988"}
+{"keyword": "Headless Edge --print-to-pdf sometimes produces blank pages for canvas content; how do I detect it b", "platform": "stackexchange", "value": -7.0, "timestamp": "1794419446"}
+{"keyword": "Service worker keeps serving the previous deploy&#39;s JavaScript after a new Vercel deploy", "platform": "stackexchange", "value": -8.0, "timestamp": "1794419336"}
+{"keyword": "How to prevent restricted method error in JavaFX program", "platform": "stackexchange", "value": -1.0, "timestamp": "1794415055"}
+{"keyword": "How do you remove Claude as contributor to the project in GitHub repo", "platform": "stackexchange", "value": -4.0, "timestamp": "1794413893"}
+{"keyword": "Understanding RETURN 1 – exiting a stored procedure in SQL Server", "platform": "stackexchange", "value": -5.0, "timestamp": "1794412606"}
+{"keyword": "How can I exclude sampling gaps when calculating accompanying time between two Ganos trajectories?", "platform": "stackexchange", "value": 6.0, "timestamp": "1794377816"}
+{"keyword": "Rounding a float number", "platform": "stackexchange", "value": -6.0, "timestamp": "1794408010"}
+{"keyword": "Maximo logs access", "platform": "stackexchange", "value": 0.0, "timestamp": "1794415995"}
+{"keyword": "Regarding eval with read-from-string", "platform": "stackexchange", "value": 3.0, "timestamp": "1794361953"}
+{"keyword": "Is the dependency cost of Lua worth it over plain Python modules?", "platform": "stackexchange", "value": -7.0, "timestamp": "1794393573"}
+{"keyword": "Why is the original array still affected?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794352373"}
+{"keyword": "Basic guide about how to work with C++ modules, CMake, and external libraries from a package manager", "platform": "stackexchange", "value": 1.0, "timestamp": "1794365040"}
+{"keyword": "Set custom width for tick labels", "platform": "stackexchange", "value": 2.0, "timestamp": "1794386973"}
+{"keyword": "Python Flask webhook receives Meta Lead Ads test event with HTTP 200, but no POST request arrives fo", "platform": "stackexchange", "value": -6.0, "timestamp": "1794403786"}
+{"keyword": "How are memory addresses distributed in C for this example?", "platform": "stackexchange", "value": 8.0, "timestamp": "1794240483"}
+{"keyword": "Is pg_last_wal_replay_lsn() a sufficient read-after-write barrier on a PolarDB for PostgreSQL replic", "platform": "stackexchange", "value": 0.0, "timestamp": "1794449400"}
+{"keyword": "How can I programmatically create an MDList with KivyMD?", "platform": "stackexchange", "value": 2.0, "timestamp": "1794430544"}
+{"keyword": "Why is my code not adding the last character when converting Roman numerals?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794424435"}
+{"keyword": "Color points by density when plotting continuous variable by categorical variable with modern {ggplo", "platform": "stackexchange", "value": 0.0, "timestamp": "1794439178"}
+{"keyword": "How to remove expanded image in Android alerts", "platform": "stackexchange", "value": 1.0, "timestamp": "1794427942"}
+{"keyword": "How to exit an APR thread with a specific error code", "platform": "stackexchange", "value": 1.0, "timestamp": "1794431225"}
+{"keyword": "Advice on Implementing a JavaFX Google Earth / God&#39;s eye View like viewer with JDK 27", "platform": "stackexchange", "value": -3.0, "timestamp": "1794412846"}
+{"keyword": "How To Make A Car Turn In Godot", "platform": "stackexchange", "value": 0.0, "timestamp": "1794421558"}
+{"keyword": "Why does this picture refuse to move under my other image?", "platform": "stackexchange", "value": 2.0, "timestamp": "1794421678"}
+{"keyword": "Firebase Auth: saving any email template field fails with EMAIL_TEMPLATE_UPDATE_NOT_ALLOWED", "platform": "stackexchange", "value": -1.0, "timestamp": "1794428193"}
+{"keyword": "How to fix bad version number in a melpa-hosted package", "platform": "stackexchange", "value": -2.0, "timestamp": "1794427620"}
+{"keyword": "Why do two mediafiles differ 2 times in size despite equal content, the same codec and encoding data", "platform": "stackexchange", "value": -2.0, "timestamp": "1794426844"}
+{"keyword": "Plot ranked data against two different rankings", "platform": "stackexchange", "value": 3.0, "timestamp": "1794406203"}
+{"keyword": "Show RAM and runtime with different geom and different scales", "platform": "stackexchange", "value": 3.0, "timestamp": "1794416217"}
+{"keyword": "Windows ANSI terminal commands do not work on some WIndows installs", "platform": "stackexchange", "value": 0.0, "timestamp": "1794409988"}
+{"keyword": "Headless Edge --print-to-pdf sometimes produces blank pages for canvas content; how do I detect it b", "platform": "stackexchange", "value": -7.0, "timestamp": "1794419446"}
+{"keyword": "Service worker keeps serving the previous deploy&#39;s JavaScript after a new Vercel deploy", "platform": "stackexchange", "value": -8.0, "timestamp": "1794419336"}
+{"keyword": "How to prevent restricted method error in JavaFX program", "platform": "stackexchange", "value": -1.0, "timestamp": "1794415055"}
+{"keyword": "How do you remove Claude as contributor to the project in GitHub repo", "platform": "stackexchange", "value": -4.0, "timestamp": "1794413893"}
+{"keyword": "Understanding RETURN 1 – exiting a stored procedure in SQL Server", "platform": "stackexchange", "value": -5.0, "timestamp": "1794412606"}
+{"keyword": "How can I exclude sampling gaps when calculating accompanying time between two Ganos trajectories?", "platform": "stackexchange", "value": 6.0, "timestamp": "1794377816"}
+{"keyword": "Rounding a float number", "platform": "stackexchange", "value": -6.0, "timestamp": "1794408010"}
+{"keyword": "Maximo logs access", "platform": "stackexchange", "value": 0.0, "timestamp": "1794415995"}
+{"keyword": "Regarding eval with read-from-string", "platform": "stackexchange", "value": 3.0, "timestamp": "1794361953"}
+{"keyword": "Is the dependency cost of Lua worth it over plain Python modules?", "platform": "stackexchange", "value": -7.0, "timestamp": "1794393573"}
+{"keyword": "Why is the original array still affected?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794352373"}
+{"keyword": "Basic guide about how to work with C++ modules, CMake, and external libraries from a package manager", "platform": "stackexchange", "value": 1.0, "timestamp": "1794365040"}
+{"keyword": "Set custom width for tick labels", "platform": "stackexchange", "value": 2.0, "timestamp": "1794386973"}
+{"keyword": "Python Flask webhook receives Meta Lead Ads test event with HTTP 200, but no POST request arrives fo", "platform": "stackexchange", "value": -6.0, "timestamp": "1794403786"}
+{"keyword": "How are memory addresses distributed in C for this example?", "platform": "stackexchange", "value": 8.0, "timestamp": "1794240483"}
