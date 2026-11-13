@@ -58,3 +58,123 @@
 {"keyword": "Research taste in history: the importance of learning Babylonian math", "platform": "hackernews", "value": 50.0, "timestamp": "1794339764"}
 {"keyword": "A false smoke alarm almost drowned Jane Street's only NYC datacenter", "platform": "hackernews", "value": 558.0, "timestamp": "1794415124"}
 {"keyword": "Show HN: Fable52.games – Play and inspect Fable 5.2 single-file HTML games", "platform": "hackernews", "value": 51.0, "timestamp": "1794497401"}
+{"keyword": "Jensen Huang resigns", "platform": "hackernews", "value": 3008.0, "timestamp": "1794491549"}
+{"keyword": "Rust 1.100", "platform": "hackernews", "value": 444.0, "timestamp": "1794508745"}
+{"keyword": "Gemini 4 Hydrogen and Orchestrator", "platform": "hackernews", "value": 312.0, "timestamp": "1794509521"}
+{"keyword": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app", "platform": "hackernews", "value": 351.0, "timestamp": "1794502962"}
+{"keyword": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun", "platform": "hackernews", "value": 205.0, "timestamp": "1794510333"}
+{"keyword": "Foundation Models framework", "platform": "hackernews", "value": 131.0, "timestamp": "1794518006"}
+{"keyword": "Edge0-145B: Frontier AI Capabilities on Your Own Computer", "platform": "hackernews", "value": 57.0, "timestamp": "1794524777"}
+{"keyword": "Service degradation on Microsoft 365", "platform": "hackernews", "value": 528.0, "timestamp": "1794507648"}
+{"keyword": "Turning a 22-year-old Postgres type-confusion primitive into RCE", "platform": "hackernews", "value": 147.0, "timestamp": "1794507742"}
+{"keyword": "AI is turning Apple's app review process into a nightmare for synth developers", "platform": "hackernews", "value": 107.0, "timestamp": "1794517789"}
+{"keyword": "I'm making LLMs work on small and old devices", "platform": "hackernews", "value": 282.0, "timestamp": "1794496990"}
+{"keyword": "Abandoned Quake 4 expansion finished by modders and now playable", "platform": "hackernews", "value": 243.0, "timestamp": "1794493129"}
+{"keyword": "Sift: LSP, Lint, Format Lisp, Scheme and Emacs Lisp", "platform": "hackernews", "value": 14.0, "timestamp": "1794438567"}
+{"keyword": "Relax: JIT compiler for Rust to reduce build times", "platform": "hackernews", "value": 121.0, "timestamp": "1794432001"}
+{"keyword": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI", "platform": "hackernews", "value": 46.0, "timestamp": "1794530321"}
+{"keyword": "Announcement: Conductor Is Back", "platform": "hackernews", "value": 11.0, "timestamp": "1794515875"}
+{"keyword": "Gemini 4 Hydrogen", "platform": "hackernews", "value": 471.0, "timestamp": "1794506508"}
+{"keyword": "Talking Zen 6 with Mike Clark at AMD In-Depth", "platform": "hackernews", "value": 192.0, "timestamp": "1794492757"}
+{"keyword": "Before Pixels: Speed-Minder", "platform": "hackernews", "value": 17.0, "timestamp": "1794411605"}
+{"keyword": "Anthropic IPO", "platform": "hackernews", "value": 828.0, "timestamp": "1794484001"}
+{"keyword": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs", "platform": "hackernews", "value": 175.0, "timestamp": "1794520571"}
+{"keyword": "Show HN: Kapso – Iterative learning from enterprise data", "platform": "hackernews", "value": 38.0, "timestamp": "1794505883"}
+{"keyword": "Safety in Algae Home Experiments", "platform": "hackernews", "value": 28.0, "timestamp": "1794313206"}
+{"keyword": "Our software engineering interviews are changing a little", "platform": "hackernews", "value": 174.0, "timestamp": "1794492328"}
+{"keyword": "Show HN: AgentRun – open-source, Self-improving Managed Agents", "platform": "hackernews", "value": 77.0, "timestamp": "1794507348"}
+{"keyword": "Adapting CPython for Yk", "platform": "hackernews", "value": 45.0, "timestamp": "1794487898"}
+{"keyword": "Words of warning about radiocarbon dating medieval human bones", "platform": "hackernews", "value": 59.0, "timestamp": "1794435517"}
+{"keyword": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS", "platform": "hackernews", "value": 107.0, "timestamp": "1794497152"}
+{"keyword": "Distributed Ray Tracer", "platform": "hackernews", "value": 36.0, "timestamp": "1794510383"}
+{"keyword": "Libreagi – Save OSS Models", "platform": "hackernews", "value": 130.0, "timestamp": "1794492718"}
+{"keyword": "Jensen Huang resigns", "platform": "hackernews", "value": 3009.0, "timestamp": "1794491549"}
+{"keyword": "Rust 1.100", "platform": "hackernews", "value": 444.0, "timestamp": "1794508745"}
+{"keyword": "Gemini 4 Hydrogen and Orchestrator", "platform": "hackernews", "value": 312.0, "timestamp": "1794509521"}
+{"keyword": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app", "platform": "hackernews", "value": 351.0, "timestamp": "1794502962"}
+{"keyword": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun", "platform": "hackernews", "value": 205.0, "timestamp": "1794510333"}
+{"keyword": "Foundation Models framework", "platform": "hackernews", "value": 131.0, "timestamp": "1794518006"}
+{"keyword": "Edge0-145B: Frontier AI Capabilities on Your Own Computer", "platform": "hackernews", "value": 57.0, "timestamp": "1794524777"}
+{"keyword": "Service degradation on Microsoft 365", "platform": "hackernews", "value": 529.0, "timestamp": "1794507648"}
+{"keyword": "Turning a 22-year-old Postgres type-confusion primitive into RCE", "platform": "hackernews", "value": 147.0, "timestamp": "1794507742"}
+{"keyword": "AI is turning Apple's app review process into a nightmare for synth developers", "platform": "hackernews", "value": 107.0, "timestamp": "1794517789"}
+{"keyword": "I'm making LLMs work on small and old devices", "platform": "hackernews", "value": 282.0, "timestamp": "1794496990"}
+{"keyword": "Abandoned Quake 4 expansion finished by modders and now playable", "platform": "hackernews", "value": 243.0, "timestamp": "1794493129"}
+{"keyword": "Sift: LSP, Lint, Format Lisp, Scheme and Emacs Lisp", "platform": "hackernews", "value": 14.0, "timestamp": "1794438567"}
+{"keyword": "Relax: JIT compiler for Rust to reduce build times", "platform": "hackernews", "value": 121.0, "timestamp": "1794432001"}
+{"keyword": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI", "platform": "hackernews", "value": 48.0, "timestamp": "1794530321"}
+{"keyword": "Announcement: Conductor Is Back", "platform": "hackernews", "value": 11.0, "timestamp": "1794515875"}
+{"keyword": "Gemini 4 Hydrogen", "platform": "hackernews", "value": 471.0, "timestamp": "1794506508"}
+{"keyword": "Talking Zen 6 with Mike Clark at AMD In-Depth", "platform": "hackernews", "value": 192.0, "timestamp": "1794492757"}
+{"keyword": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs", "platform": "hackernews", "value": 176.0, "timestamp": "1794520571"}
+{"keyword": "Before Pixels: Speed-Minder", "platform": "hackernews", "value": 17.0, "timestamp": "1794411605"}
+{"keyword": "Anthropic IPO", "platform": "hackernews", "value": 828.0, "timestamp": "1794484001"}
+{"keyword": "Show HN: Kapso – Iterative learning from enterprise data", "platform": "hackernews", "value": 38.0, "timestamp": "1794505883"}
+{"keyword": "Safety in Algae Home Experiments", "platform": "hackernews", "value": 28.0, "timestamp": "1794313206"}
+{"keyword": "Our software engineering interviews are changing a little", "platform": "hackernews", "value": 174.0, "timestamp": "1794492328"}
+{"keyword": "Show HN: AgentRun – open-source, Self-improving Managed Agents", "platform": "hackernews", "value": 77.0, "timestamp": "1794507348"}
+{"keyword": "Words of warning about radiocarbon dating medieval human bones", "platform": "hackernews", "value": 59.0, "timestamp": "1794435517"}
+{"keyword": "Adapting CPython for Yk", "platform": "hackernews", "value": 45.0, "timestamp": "1794487898"}
+{"keyword": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS", "platform": "hackernews", "value": 107.0, "timestamp": "1794497152"}
+{"keyword": "Distributed Ray Tracer", "platform": "hackernews", "value": 36.0, "timestamp": "1794510383"}
+{"keyword": "Libreagi – Save OSS Models", "platform": "hackernews", "value": 130.0, "timestamp": "1794492718"}
+{"keyword": "Jensen Huang resigns", "platform": "hackernews", "value": 3009.0, "timestamp": "1794491549"}
+{"keyword": "Rust 1.100", "platform": "hackernews", "value": 444.0, "timestamp": "1794508745"}
+{"keyword": "Gemini 4 Hydrogen and Orchestrator", "platform": "hackernews", "value": 312.0, "timestamp": "1794509521"}
+{"keyword": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app", "platform": "hackernews", "value": 351.0, "timestamp": "1794502962"}
+{"keyword": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun", "platform": "hackernews", "value": 205.0, "timestamp": "1794510333"}
+{"keyword": "Foundation Models framework", "platform": "hackernews", "value": 131.0, "timestamp": "1794518006"}
+{"keyword": "Edge0-145B: Frontier AI Capabilities on Your Own Computer", "platform": "hackernews", "value": 57.0, "timestamp": "1794524777"}
+{"keyword": "Service degradation on Microsoft 365", "platform": "hackernews", "value": 529.0, "timestamp": "1794507648"}
+{"keyword": "Turning a 22-year-old Postgres type-confusion primitive into RCE", "platform": "hackernews", "value": 147.0, "timestamp": "1794507742"}
+{"keyword": "AI is turning Apple's app review process into a nightmare for synth developers", "platform": "hackernews", "value": 107.0, "timestamp": "1794517789"}
+{"keyword": "I'm making LLMs work on small and old devices", "platform": "hackernews", "value": 282.0, "timestamp": "1794496990"}
+{"keyword": "Abandoned Quake 4 expansion finished by modders and now playable", "platform": "hackernews", "value": 243.0, "timestamp": "1794493129"}
+{"keyword": "Sift: LSP, Lint, Format Lisp, Scheme and Emacs Lisp", "platform": "hackernews", "value": 14.0, "timestamp": "1794438567"}
+{"keyword": "Relax: JIT compiler for Rust to reduce build times", "platform": "hackernews", "value": 121.0, "timestamp": "1794432001"}
+{"keyword": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI", "platform": "hackernews", "value": 48.0, "timestamp": "1794530321"}
+{"keyword": "Announcement: Conductor Is Back", "platform": "hackernews", "value": 11.0, "timestamp": "1794515875"}
+{"keyword": "Gemini 4 Hydrogen", "platform": "hackernews", "value": 471.0, "timestamp": "1794506508"}
+{"keyword": "Talking Zen 6 with Mike Clark at AMD In-Depth", "platform": "hackernews", "value": 192.0, "timestamp": "1794492757"}
+{"keyword": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs", "platform": "hackernews", "value": 176.0, "timestamp": "1794520571"}
+{"keyword": "Before Pixels: Speed-Minder", "platform": "hackernews", "value": 17.0, "timestamp": "1794411605"}
+{"keyword": "Anthropic IPO", "platform": "hackernews", "value": 828.0, "timestamp": "1794484001"}
+{"keyword": "Show HN: Kapso – Iterative learning from enterprise data", "platform": "hackernews", "value": 38.0, "timestamp": "1794505883"}
+{"keyword": "Safety in Algae Home Experiments", "platform": "hackernews", "value": 28.0, "timestamp": "1794313206"}
+{"keyword": "Our software engineering interviews are changing a little", "platform": "hackernews", "value": 174.0, "timestamp": "1794492328"}
+{"keyword": "Show HN: AgentRun – open-source, Self-improving Managed Agents", "platform": "hackernews", "value": 77.0, "timestamp": "1794507348"}
+{"keyword": "Words of warning about radiocarbon dating medieval human bones", "platform": "hackernews", "value": 59.0, "timestamp": "1794435517"}
+{"keyword": "Adapting CPython for Yk", "platform": "hackernews", "value": 45.0, "timestamp": "1794487898"}
+{"keyword": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS", "platform": "hackernews", "value": 107.0, "timestamp": "1794497152"}
+{"keyword": "Distributed Ray Tracer", "platform": "hackernews", "value": 36.0, "timestamp": "1794510383"}
+{"keyword": "Libreagi – Save OSS Models", "platform": "hackernews", "value": 130.0, "timestamp": "1794492718"}
+{"keyword": "Jensen Huang resigns", "platform": "hackernews", "value": 3009.0, "timestamp": "1794491549"}
+{"keyword": "Rust 1.100", "platform": "hackernews", "value": 444.0, "timestamp": "1794508745"}
+{"keyword": "Gemini 4 Hydrogen and Orchestrator", "platform": "hackernews", "value": 312.0, "timestamp": "1794509521"}
+{"keyword": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app", "platform": "hackernews", "value": 351.0, "timestamp": "1794502962"}
+{"keyword": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun", "platform": "hackernews", "value": 205.0, "timestamp": "1794510333"}
+{"keyword": "Foundation Models framework", "platform": "hackernews", "value": 131.0, "timestamp": "1794518006"}
+{"keyword": "Edge0-145B: Frontier AI Capabilities on Your Own Computer", "platform": "hackernews", "value": 57.0, "timestamp": "1794524777"}
+{"keyword": "Service degradation on Microsoft 365", "platform": "hackernews", "value": 529.0, "timestamp": "1794507648"}
+{"keyword": "Turning a 22-year-old Postgres type-confusion primitive into RCE", "platform": "hackernews", "value": 147.0, "timestamp": "1794507742"}
+{"keyword": "AI is turning Apple's app review process into a nightmare for synth developers", "platform": "hackernews", "value": 107.0, "timestamp": "1794517789"}
+{"keyword": "I'm making LLMs work on small and old devices", "platform": "hackernews", "value": 282.0, "timestamp": "1794496990"}
+{"keyword": "Abandoned Quake 4 expansion finished by modders and now playable", "platform": "hackernews", "value": 243.0, "timestamp": "1794493129"}
+{"keyword": "Sift: LSP, Lint, Format Lisp, Scheme and Emacs Lisp", "platform": "hackernews", "value": 14.0, "timestamp": "1794438567"}
+{"keyword": "Relax: JIT compiler for Rust to reduce build times", "platform": "hackernews", "value": 121.0, "timestamp": "1794432001"}
+{"keyword": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI", "platform": "hackernews", "value": 48.0, "timestamp": "1794530321"}
+{"keyword": "Announcement: Conductor Is Back", "platform": "hackernews", "value": 11.0, "timestamp": "1794515875"}
+{"keyword": "Gemini 4 Hydrogen", "platform": "hackernews", "value": 471.0, "timestamp": "1794506508"}
+{"keyword": "Talking Zen 6 with Mike Clark at AMD In-Depth", "platform": "hackernews", "value": 192.0, "timestamp": "1794492757"}
+{"keyword": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs", "platform": "hackernews", "value": 176.0, "timestamp": "1794520571"}
+{"keyword": "Before Pixels: Speed-Minder", "platform": "hackernews", "value": 17.0, "timestamp": "1794411605"}
+{"keyword": "Anthropic IPO", "platform": "hackernews", "value": 828.0, "timestamp": "1794484001"}
+{"keyword": "Show HN: Kapso – Iterative learning from enterprise data", "platform": "hackernews", "value": 38.0, "timestamp": "1794505883"}
+{"keyword": "Safety in Algae Home Experiments", "platform": "hackernews", "value": 28.0, "timestamp": "1794313206"}
+{"keyword": "Our software engineering interviews are changing a little", "platform": "hackernews", "value": 174.0, "timestamp": "1794492328"}
+{"keyword": "Show HN: AgentRun – open-source, Self-improving Managed Agents", "platform": "hackernews", "value": 77.0, "timestamp": "1794507348"}
+{"keyword": "Words of warning about radiocarbon dating medieval human bones", "platform": "hackernews", "value": 59.0, "timestamp": "1794435517"}
+{"keyword": "Adapting CPython for Yk", "platform": "hackernews", "value": 45.0, "timestamp": "1794487898"}
+{"keyword": "ExcalidrawZ: Local Native Excalidraw on macOS/iOS", "platform": "hackernews", "value": 107.0, "timestamp": "1794497152"}
+{"keyword": "Distributed Ray Tracer", "platform": "hackernews", "value": 36.0, "timestamp": "1794510383"}
+{"keyword": "Libreagi – Save OSS Models", "platform": "hackernews", "value": 130.0, "timestamp": "1794492718"}
