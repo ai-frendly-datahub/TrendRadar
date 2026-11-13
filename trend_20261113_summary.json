@@ -6,15 +6,11 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "OpenAI",
+      "name": "E-commerce",
       "count": 4
     },
     {
-      "name": "Seoul",
-      "count": 4
-    },
-    {
-      "name": "South Korea",
+      "name": "Electric vehicle",
       "count": 4
     },
     {
@@ -22,31 +18,11 @@
       "count": 4
     },
     {
-      "name": "Artificial intelligence",
+      "name": "YouTube",
       "count": 4
     },
     {
-      "name": "Machine learning",
-      "count": 4
-    },
-    {
-      "name": "K-pop",
-      "count": 4
-    },
-    {
-      "name": "World Wide Web",
-      "count": 4
-    },
-    {
-      "name": "Samsung",
-      "count": 4
-    },
-    {
-      "name": "Netflix",
-      "count": 4
-    },
-    {
-      "name": "Electric vehicle",
+      "name": "OpenAI",
       "count": 4
     },
     {
@@ -58,11 +34,35 @@
       "count": 4
     },
     {
-      "name": "E-commerce",
+      "name": "Netflix",
       "count": 4
     },
     {
-      "name": "YouTube",
+      "name": "Samsung",
+      "count": 4
+    },
+    {
+      "name": "World Wide Web",
+      "count": 4
+    },
+    {
+      "name": "K-pop",
+      "count": 4
+    },
+    {
+      "name": "Machine learning",
+      "count": 4
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 4
+    },
+    {
+      "name": "South Korea",
+      "count": 4
+    },
+    {
+      "name": "Seoul",
       "count": 4
     },
     {
@@ -70,19 +70,19 @@
       "count": 2
     },
     {
-      "name": "정선희",
+      "name": "진학사",
       "count": 1
     },
     {
-      "name": "김승원",
+      "name": "공군사관학교",
       "count": 1
     },
     {
-      "name": "네이션스리그",
+      "name": "평가",
       "count": 1
     },
     {
-      "name": "안성현",
+      "name": "금융통화위원회",
       "count": 1
     }
   ],
@@ -91,5 +91,5 @@
     "wikipedia": 60,
     "google": 30
   },
-  "generated_at": "2026-11-12T17:54:20.822125+00:00"
+  "generated_at": "2026-11-13T02:22:51.139396+00:00"
 }
