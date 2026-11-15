@@ -58,3 +58,123 @@
 {"keyword": "🕯️…and then I extracted JSONL from Gemini ...create the tools, and then what next?...", "platform": "devto", "value": 9.0, "timestamp": "2026-11-14T08:25:44Z"}
 {"keyword": "Japanese Text Breaks Your App in 7 Quiet Ways (With Code)", "platform": "devto", "value": 1.0, "timestamp": "2026-11-13T22:40:08Z"}
 {"keyword": "Why Our Java Memory Crept Up on Flat Traffic: A Modern Stack Post-Mortem", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T10:48:04Z"}
+{"keyword": "Avengers: Doomsday is 5 weeks away, so I built hexagon README badges. What are you building?", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T17:14:52Z"}
+{"keyword": "Devcon 8 Mumbai: Four Days at Ethereum's Biggest Builder Gathering", "platform": "devto", "value": 9.0, "timestamp": "2026-11-14T06:59:34Z"}
+{"keyword": "nginx 1.31's json_set directive rejects a bad webhook payload about 13 times faster than forwarding", "platform": "devto", "value": 8.0, "timestamp": "2026-11-14T12:48:45Z"}
+{"keyword": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust", "platform": "devto", "value": 9.0, "timestamp": "2026-11-14T14:55:59Z"}
+{"keyword": "Biology's Best Algorithms Aren't Just for Scientists Anymore", "platform": "devto", "value": 10.0, "timestamp": "2026-11-14T01:55:18Z"}
+{"keyword": "One Tool Call Instead of Four Pages: Adding WebMCP to My Site", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T21:44:09Z"}
+{"keyword": "Granny Is Watching: A Reactive Horror Experience Using SmartPectra", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T14:10:02Z"}
+{"keyword": "Dash: An Endless Runner That Races Through Your City", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T15:29:35Z"}
+{"keyword": "I Replaced $3,000 Eye-Trackers with a Laptop Webcam: Building a Hands-Free Spatial Communicator with", "platform": "devto", "value": 11.0, "timestamp": "2026-11-14T12:38:31Z"}
+{"keyword": "Snapshotting a DigitalOcean Droplet while it's running", "platform": "devto", "value": 8.0, "timestamp": "2026-11-14T07:10:41Z"}
+{"keyword": "I built a workspace that reads my body, then asked it to leave me alone", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T17:05:46Z"}
+{"keyword": "10 Lines to Give Your Coding Agent Before It Touches Your Repo", "platform": "devto", "value": 15.0, "timestamp": "2026-11-14T07:00:00Z"}
+{"keyword": "remove.bg Dies Dec 1 — I Ran the Same 3 Photos Through the Free Replacements and Timed Them", "platform": "devto", "value": 11.0, "timestamp": "2026-11-14T04:00:00Z"}
+{"keyword": "Bye, live regions. Hello, ariaNotify()", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T10:00:17Z"}
+{"keyword": "Logtide 1.7.0: Your Disks Warn You Before They Die (If Something Is Listening)", "platform": "devto", "value": 0.0, "timestamp": "2026-11-14T16:40:41Z"}
+{"keyword": "Idempotency Is a Product Feature", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T18:41:28Z"}
+{"keyword": "Securing AI Agents on Google Cloud: An SRE and Platform Engineer’s View", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T15:16:47Z"}
+{"keyword": "Prepare a WebMCP Review Without Submitting the Request", "platform": "devto", "value": 6.0, "timestamp": "2026-11-14T16:18:00Z"}
+{"keyword": "Get your site agent-ready", "platform": "devto", "value": 2.0, "timestamp": "2026-11-14T21:50:28Z"}
+{"keyword": "How to build an AI Agent with Google ADK", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T23:15:13Z"}
+{"keyword": "Snowflake Storage for Iceberg from an AWS Perspective", "platform": "devto", "value": 10.0, "timestamp": "2026-11-14T12:37:25Z"}
+{"keyword": "Why Your 19.5GB LLM Crawls on 24GB VRAM (The KV Cache Fix)", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T04:21:04Z"}
+{"keyword": "Gemini API CLI Official Guide (Part 1): Giving Your AI Agent a Stateless Multimodal CLI Toolbox", "platform": "devto", "value": 0.0, "timestamp": "2026-11-15T01:15:23Z"}
+{"keyword": "Incident Response on AWS: From Preparation to Post-Incident Review.", "platform": "devto", "value": 4.0, "timestamp": "2026-11-14T17:30:18Z"}
+{"keyword": "Google smart glasses privacy: who controls each camera path?", "platform": "devto", "value": 0.0, "timestamp": "2026-11-14T22:30:00Z"}
+{"keyword": "Be Your Own Certificate Authority: Trusted HTTPS on Your Laptop (Windows + WSL2)", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T06:26:07Z"}
+{"keyword": "Your AI Coding Agent Wrote a 600-Word Summary. What It Skipped Is in the Fine Print.", "platform": "devto", "value": 7.0, "timestamp": "2026-11-14T21:56:31Z"}
+{"keyword": "Why Our Java Memory Crept Up on Flat Traffic: A Modern Stack Post-Mortem", "platform": "devto", "value": 4.0, "timestamp": "2026-11-14T10:48:04Z"}
+{"keyword": "Is This Open-Source AI Project Still Alive? A 5-Minute GitHub Check Before You Self-Host It", "platform": "devto", "value": 2.0, "timestamp": "2026-11-14T10:15:43Z"}
+{"keyword": "I let L from Death Note grill my software experience while optical sensors monitored my blood flow", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T18:59:48Z"}
+{"keyword": "Avengers: Doomsday is 5 weeks away, so I built hexagon README badges. What are you building?", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T17:14:52Z"}
+{"keyword": "Devcon 8 Mumbai: Four Days at Ethereum's Biggest Builder Gathering", "platform": "devto", "value": 9.0, "timestamp": "2026-11-14T06:59:34Z"}
+{"keyword": "nginx 1.31's json_set directive rejects a bad webhook payload about 13 times faster than forwarding", "platform": "devto", "value": 8.0, "timestamp": "2026-11-14T12:48:45Z"}
+{"keyword": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust", "platform": "devto", "value": 9.0, "timestamp": "2026-11-14T14:55:59Z"}
+{"keyword": "Biology's Best Algorithms Aren't Just for Scientists Anymore", "platform": "devto", "value": 10.0, "timestamp": "2026-11-14T01:55:18Z"}
+{"keyword": "One Tool Call Instead of Four Pages: Adding WebMCP to My Site", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T21:44:09Z"}
+{"keyword": "Granny Is Watching: A Reactive Horror Experience Using SmartPectra", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T14:10:02Z"}
+{"keyword": "Dash: An Endless Runner That Races Through Your City", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T15:29:35Z"}
+{"keyword": "I Replaced $3,000 Eye-Trackers with a Laptop Webcam: Building a Hands-Free Spatial Communicator with", "platform": "devto", "value": 11.0, "timestamp": "2026-11-14T12:38:31Z"}
+{"keyword": "Snapshotting a DigitalOcean Droplet while it's running", "platform": "devto", "value": 8.0, "timestamp": "2026-11-14T07:10:41Z"}
+{"keyword": "I built a workspace that reads my body, then asked it to leave me alone", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T17:05:46Z"}
+{"keyword": "10 Lines to Give Your Coding Agent Before It Touches Your Repo", "platform": "devto", "value": 15.0, "timestamp": "2026-11-14T07:00:00Z"}
+{"keyword": "remove.bg Dies Dec 1 — I Ran the Same 3 Photos Through the Free Replacements and Timed Them", "platform": "devto", "value": 11.0, "timestamp": "2026-11-14T04:00:00Z"}
+{"keyword": "Bye, live regions. Hello, ariaNotify()", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T10:00:17Z"}
+{"keyword": "Logtide 1.7.0: Your Disks Warn You Before They Die (If Something Is Listening)", "platform": "devto", "value": 0.0, "timestamp": "2026-11-14T16:40:41Z"}
+{"keyword": "Idempotency Is a Product Feature", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T18:41:28Z"}
+{"keyword": "Securing AI Agents on Google Cloud: An SRE and Platform Engineer’s View", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T15:16:47Z"}
+{"keyword": "Prepare a WebMCP Review Without Submitting the Request", "platform": "devto", "value": 6.0, "timestamp": "2026-11-14T16:18:00Z"}
+{"keyword": "Get your site agent-ready", "platform": "devto", "value": 2.0, "timestamp": "2026-11-14T21:50:28Z"}
+{"keyword": "How to build an AI Agent with Google ADK", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T23:15:13Z"}
+{"keyword": "Snowflake Storage for Iceberg from an AWS Perspective", "platform": "devto", "value": 10.0, "timestamp": "2026-11-14T12:37:25Z"}
+{"keyword": "Why Your 19.5GB LLM Crawls on 24GB VRAM (The KV Cache Fix)", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T04:21:04Z"}
+{"keyword": "Gemini API CLI Official Guide (Part 1): Giving Your AI Agent a Stateless Multimodal CLI Toolbox", "platform": "devto", "value": 0.0, "timestamp": "2026-11-15T01:15:23Z"}
+{"keyword": "Incident Response on AWS: From Preparation to Post-Incident Review.", "platform": "devto", "value": 4.0, "timestamp": "2026-11-14T17:30:18Z"}
+{"keyword": "Google smart glasses privacy: who controls each camera path?", "platform": "devto", "value": 0.0, "timestamp": "2026-11-14T22:30:00Z"}
+{"keyword": "Be Your Own Certificate Authority: Trusted HTTPS on Your Laptop (Windows + WSL2)", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T06:26:07Z"}
+{"keyword": "Your AI Coding Agent Wrote a 600-Word Summary. What It Skipped Is in the Fine Print.", "platform": "devto", "value": 7.0, "timestamp": "2026-11-14T21:56:31Z"}
+{"keyword": "Why Our Java Memory Crept Up on Flat Traffic: A Modern Stack Post-Mortem", "platform": "devto", "value": 4.0, "timestamp": "2026-11-14T10:48:04Z"}
+{"keyword": "Is This Open-Source AI Project Still Alive? A 5-Minute GitHub Check Before You Self-Host It", "platform": "devto", "value": 2.0, "timestamp": "2026-11-14T10:15:43Z"}
+{"keyword": "I let L from Death Note grill my software experience while optical sensors monitored my blood flow", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T18:59:48Z"}
+{"keyword": "Avengers: Doomsday is 5 weeks away, so I built hexagon README badges. What are you building?", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T17:14:52Z"}
+{"keyword": "Devcon 8 Mumbai: Four Days at Ethereum's Biggest Builder Gathering", "platform": "devto", "value": 9.0, "timestamp": "2026-11-14T06:59:34Z"}
+{"keyword": "nginx 1.31's json_set directive rejects a bad webhook payload about 13 times faster than forwarding", "platform": "devto", "value": 8.0, "timestamp": "2026-11-14T12:48:45Z"}
+{"keyword": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust", "platform": "devto", "value": 9.0, "timestamp": "2026-11-14T14:55:59Z"}
+{"keyword": "Biology's Best Algorithms Aren't Just for Scientists Anymore", "platform": "devto", "value": 10.0, "timestamp": "2026-11-14T01:55:18Z"}
+{"keyword": "One Tool Call Instead of Four Pages: Adding WebMCP to My Site", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T21:44:09Z"}
+{"keyword": "Granny Is Watching: A Reactive Horror Experience Using SmartPectra", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T14:10:02Z"}
+{"keyword": "Dash: An Endless Runner That Races Through Your City", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T15:29:35Z"}
+{"keyword": "I Replaced $3,000 Eye-Trackers with a Laptop Webcam: Building a Hands-Free Spatial Communicator with", "platform": "devto", "value": 11.0, "timestamp": "2026-11-14T12:38:31Z"}
+{"keyword": "Snapshotting a DigitalOcean Droplet while it's running", "platform": "devto", "value": 8.0, "timestamp": "2026-11-14T07:10:41Z"}
+{"keyword": "I built a workspace that reads my body, then asked it to leave me alone", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T17:05:46Z"}
+{"keyword": "10 Lines to Give Your Coding Agent Before It Touches Your Repo", "platform": "devto", "value": 15.0, "timestamp": "2026-11-14T07:00:00Z"}
+{"keyword": "remove.bg Dies Dec 1 — I Ran the Same 3 Photos Through the Free Replacements and Timed Them", "platform": "devto", "value": 11.0, "timestamp": "2026-11-14T04:00:00Z"}
+{"keyword": "Bye, live regions. Hello, ariaNotify()", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T10:00:17Z"}
+{"keyword": "Logtide 1.7.0: Your Disks Warn You Before They Die (If Something Is Listening)", "platform": "devto", "value": 0.0, "timestamp": "2026-11-14T16:40:41Z"}
+{"keyword": "Idempotency Is a Product Feature", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T18:41:28Z"}
+{"keyword": "Securing AI Agents on Google Cloud: An SRE and Platform Engineer’s View", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T15:16:47Z"}
+{"keyword": "Prepare a WebMCP Review Without Submitting the Request", "platform": "devto", "value": 6.0, "timestamp": "2026-11-14T16:18:00Z"}
+{"keyword": "Get your site agent-ready", "platform": "devto", "value": 2.0, "timestamp": "2026-11-14T21:50:28Z"}
+{"keyword": "How to build an AI Agent with Google ADK", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T23:15:13Z"}
+{"keyword": "Snowflake Storage for Iceberg from an AWS Perspective", "platform": "devto", "value": 10.0, "timestamp": "2026-11-14T12:37:25Z"}
+{"keyword": "Why Your 19.5GB LLM Crawls on 24GB VRAM (The KV Cache Fix)", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T04:21:04Z"}
+{"keyword": "Gemini API CLI Official Guide (Part 1): Giving Your AI Agent a Stateless Multimodal CLI Toolbox", "platform": "devto", "value": 0.0, "timestamp": "2026-11-15T01:15:23Z"}
+{"keyword": "Incident Response on AWS: From Preparation to Post-Incident Review.", "platform": "devto", "value": 4.0, "timestamp": "2026-11-14T17:30:18Z"}
+{"keyword": "Google smart glasses privacy: who controls each camera path?", "platform": "devto", "value": 0.0, "timestamp": "2026-11-14T22:30:00Z"}
+{"keyword": "Be Your Own Certificate Authority: Trusted HTTPS on Your Laptop (Windows + WSL2)", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T06:26:07Z"}
+{"keyword": "Your AI Coding Agent Wrote a 600-Word Summary. What It Skipped Is in the Fine Print.", "platform": "devto", "value": 7.0, "timestamp": "2026-11-14T21:56:31Z"}
+{"keyword": "Why Our Java Memory Crept Up on Flat Traffic: A Modern Stack Post-Mortem", "platform": "devto", "value": 4.0, "timestamp": "2026-11-14T10:48:04Z"}
+{"keyword": "Is This Open-Source AI Project Still Alive? A 5-Minute GitHub Check Before You Self-Host It", "platform": "devto", "value": 2.0, "timestamp": "2026-11-14T10:15:43Z"}
+{"keyword": "I let L from Death Note grill my software experience while optical sensors monitored my blood flow", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T18:59:48Z"}
+{"keyword": "Avengers: Doomsday is 5 weeks away, so I built hexagon README badges. What are you building?", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T17:14:52Z"}
+{"keyword": "Devcon 8 Mumbai: Four Days at Ethereum's Biggest Builder Gathering", "platform": "devto", "value": 9.0, "timestamp": "2026-11-14T06:59:34Z"}
+{"keyword": "nginx 1.31's json_set directive rejects a bad webhook payload about 13 times faster than forwarding", "platform": "devto", "value": 8.0, "timestamp": "2026-11-14T12:48:45Z"}
+{"keyword": "Swizzle Runtime v0.1.0: How We Reached 209 tok/s and 43ms TTFT on a 4GB Laptop GPU in Pure Rust", "platform": "devto", "value": 9.0, "timestamp": "2026-11-14T14:55:59Z"}
+{"keyword": "Biology's Best Algorithms Aren't Just for Scientists Anymore", "platform": "devto", "value": 10.0, "timestamp": "2026-11-14T01:55:18Z"}
+{"keyword": "One Tool Call Instead of Four Pages: Adding WebMCP to My Site", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T21:44:09Z"}
+{"keyword": "Granny Is Watching: A Reactive Horror Experience Using SmartPectra", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T14:10:02Z"}
+{"keyword": "Dash: An Endless Runner That Races Through Your City", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T15:29:35Z"}
+{"keyword": "I Replaced $3,000 Eye-Trackers with a Laptop Webcam: Building a Hands-Free Spatial Communicator with", "platform": "devto", "value": 11.0, "timestamp": "2026-11-14T12:38:31Z"}
+{"keyword": "Snapshotting a DigitalOcean Droplet while it's running", "platform": "devto", "value": 8.0, "timestamp": "2026-11-14T07:10:41Z"}
+{"keyword": "I built a workspace that reads my body, then asked it to leave me alone", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T17:05:46Z"}
+{"keyword": "10 Lines to Give Your Coding Agent Before It Touches Your Repo", "platform": "devto", "value": 15.0, "timestamp": "2026-11-14T07:00:00Z"}
+{"keyword": "remove.bg Dies Dec 1 — I Ran the Same 3 Photos Through the Free Replacements and Timed Them", "platform": "devto", "value": 11.0, "timestamp": "2026-11-14T04:00:00Z"}
+{"keyword": "Bye, live regions. Hello, ariaNotify()", "platform": "devto", "value": 1.0, "timestamp": "2026-11-14T10:00:17Z"}
+{"keyword": "Logtide 1.7.0: Your Disks Warn You Before They Die (If Something Is Listening)", "platform": "devto", "value": 0.0, "timestamp": "2026-11-14T16:40:41Z"}
+{"keyword": "Idempotency Is a Product Feature", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T18:41:28Z"}
+{"keyword": "Securing AI Agents on Google Cloud: An SRE and Platform Engineer’s View", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T15:16:47Z"}
+{"keyword": "Prepare a WebMCP Review Without Submitting the Request", "platform": "devto", "value": 6.0, "timestamp": "2026-11-14T16:18:00Z"}
+{"keyword": "Get your site agent-ready", "platform": "devto", "value": 2.0, "timestamp": "2026-11-14T21:50:28Z"}
+{"keyword": "How to build an AI Agent with Google ADK", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T23:15:13Z"}
+{"keyword": "Snowflake Storage for Iceberg from an AWS Perspective", "platform": "devto", "value": 10.0, "timestamp": "2026-11-14T12:37:25Z"}
+{"keyword": "Why Your 19.5GB LLM Crawls on 24GB VRAM (The KV Cache Fix)", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T04:21:04Z"}
+{"keyword": "Gemini API CLI Official Guide (Part 1): Giving Your AI Agent a Stateless Multimodal CLI Toolbox", "platform": "devto", "value": 0.0, "timestamp": "2026-11-15T01:15:23Z"}
+{"keyword": "Incident Response on AWS: From Preparation to Post-Incident Review.", "platform": "devto", "value": 4.0, "timestamp": "2026-11-14T17:30:18Z"}
+{"keyword": "Google smart glasses privacy: who controls each camera path?", "platform": "devto", "value": 0.0, "timestamp": "2026-11-14T22:30:00Z"}
+{"keyword": "Be Your Own Certificate Authority: Trusted HTTPS on Your Laptop (Windows + WSL2)", "platform": "devto", "value": 5.0, "timestamp": "2026-11-14T06:26:07Z"}
+{"keyword": "Your AI Coding Agent Wrote a 600-Word Summary. What It Skipped Is in the Fine Print.", "platform": "devto", "value": 7.0, "timestamp": "2026-11-14T21:56:31Z"}
+{"keyword": "Why Our Java Memory Crept Up on Flat Traffic: A Modern Stack Post-Mortem", "platform": "devto", "value": 4.0, "timestamp": "2026-11-14T10:48:04Z"}
+{"keyword": "Is This Open-Source AI Project Still Alive? A 5-Minute GitHub Check Before You Self-Host It", "platform": "devto", "value": 2.0, "timestamp": "2026-11-14T10:15:43Z"}
+{"keyword": "I let L from Death Note grill my software experience while optical sensors monitored my blood flow", "platform": "devto", "value": 3.0, "timestamp": "2026-11-14T18:59:48Z"}
