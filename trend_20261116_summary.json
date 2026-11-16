@@ -6,35 +6,7 @@
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Seoul",
-      "count": 4
-    },
-    {
       "name": "Python (programming language)",
-      "count": 4
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 4
-    },
-    {
-      "name": "Machine learning",
-      "count": 4
-    },
-    {
-      "name": "K-pop",
-      "count": 4
-    },
-    {
-      "name": "World Wide Web",
-      "count": 4
-    },
-    {
-      "name": "Samsung",
-      "count": 4
-    },
-    {
-      "name": "Netflix",
       "count": 4
     },
     {
@@ -62,7 +34,35 @@
       "count": 4
     },
     {
+      "name": "Seoul",
+      "count": 4
+    },
+    {
       "name": "South Korea",
+      "count": 4
+    },
+    {
+      "name": "Machine learning",
+      "count": 4
+    },
+    {
+      "name": "Netflix",
+      "count": 4
+    },
+    {
+      "name": "Samsung",
+      "count": 4
+    },
+    {
+      "name": "World Wide Web",
+      "count": 4
+    },
+    {
+      "name": "K-pop",
+      "count": 4
+    },
+    {
+      "name": "Artificial intelligence",
       "count": 4
     },
     {
@@ -74,15 +74,15 @@
       "count": 2
     },
     {
-      "name": "스포츠조선",
+      "name": "청년미래적금",
       "count": 1
     },
     {
-      "name": "입양",
+      "name": "공직",
       "count": 1
     },
     {
-      "name": "퇴직금",
+      "name": "카우보이스 대 포티나이너스",
       "count": 1
     }
   ],
@@ -91,5 +91,5 @@
     "google": 30,
     "wikipedia": 60
   },
-  "generated_at": "2026-11-15T16:47:07.507402+00:00"
+  "generated_at": "2026-11-16T01:34:24.658301+00:00"
 }
