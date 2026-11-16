@@ -28,3 +28,63 @@
 {"keyword": "Can&#39;t manage to make Google Search to index my website", "platform": "stackexchange", "value": -9.0, "timestamp": "1794680615"}
 {"keyword": "How to start Windows Terminal in full screen from an X64 NASM Console mode Windows program", "platform": "stackexchange", "value": -4.0, "timestamp": "1794642845"}
 {"keyword": "Why Numba produces faster binary than ISPC for this simple function?", "platform": "stackexchange", "value": 5.0, "timestamp": "1794640620"}
+{"keyword": "CSS - place image behind others", "platform": "stackexchange", "value": 0.0, "timestamp": "1794791752"}
+{"keyword": "Set character amount for html input", "platform": "stackexchange", "value": -5.0, "timestamp": "1794776038"}
+{"keyword": "How to efficiently find all files that match a given glob pattern in Java?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794775875"}
+{"keyword": "NVCC emits gratuitous warning about an unused type", "platform": "stackexchange", "value": 2.0, "timestamp": "1794762036"}
+{"keyword": "IEEE 754 a bug?", "platform": "stackexchange", "value": -10.0, "timestamp": "1794751883"}
+{"keyword": "What&#39;s the best way to define a &quot;logical&quot; network between nodes?", "platform": "stackexchange", "value": -7.0, "timestamp": "1794757820"}
+{"keyword": "A scrollable text area in Java", "platform": "stackexchange", "value": -1.0, "timestamp": "1794758817"}
+{"keyword": "Unity scene player input not working upon loading scene from main menu", "platform": "stackexchange", "value": -2.0, "timestamp": "1794770151"}
+{"keyword": "How can I return a value from a function decorator and from the function itself?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794749754"}
+{"keyword": "In CLion, can I set my CMAKE_CUDA_HOST_COMPILER to the CLion toolchain C++ compiler?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794759364"}
+{"keyword": "How can I set a static lock screen wallpaper without resetting the OEM lock screen style (clock styl", "platform": "stackexchange", "value": 2.0, "timestamp": "1794747940"}
+{"keyword": "Intermittent NullReferenceException in iText 9.8.0 table layout on .NET 11", "platform": "stackexchange", "value": 6.0, "timestamp": "1794740273"}
+{"keyword": "gstreamer won&#39;t process mjpeg source", "platform": "stackexchange", "value": -3.0, "timestamp": "1794746942"}
+{"keyword": "How do I import a CSV file into MySQL Workbench 26.10.0 on macOS?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794751911"}
+{"keyword": "How can I validate if a string is a real number in Python using string methods?", "platform": "stackexchange", "value": -9.0, "timestamp": "1794753723"}
+{"keyword": "API quota reached, multiple applications affected", "platform": "stackexchange", "value": -10.0, "timestamp": "1794753737"}
+{"keyword": "Order of prints when deleting object references in Python", "platform": "stackexchange", "value": 0.0, "timestamp": "1794721268"}
+{"keyword": "Tokenize/untokenize leaves unwanted lines", "platform": "stackexchange", "value": -2.0, "timestamp": "1794748434"}
+{"keyword": "How can I improve air pollutant prediction using PM2.5 and PM10 data?", "platform": "stackexchange", "value": -8.0, "timestamp": "1794726248"}
+{"keyword": "Oh My Posh prompt renders differently in the VS Code integrated PowerShell terminal", "platform": "stackexchange", "value": -3.0, "timestamp": "1794729327"}
+{"keyword": "How do I change a list item in an unordered list upon a button in that list item being pressed?", "platform": "stackexchange", "value": -4.0, "timestamp": "1794698647"}
+{"keyword": "How does the `Promise.resolve()` static method handle arguments of the Function type?", "platform": "stackexchange", "value": 4.0, "timestamp": "1794713148"}
+{"keyword": "Why are the letters &#39;d&#39; and &#39;t&#39; highlighted in SQL using Snowsight?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794669403"}
+{"keyword": "Different behavior of Game Boy DMG game in debug and non-debug mode", "platform": "stackexchange", "value": 1.0, "timestamp": "1794715399"}
+{"keyword": "Why Numba produces faster binary than ISPC for this simple function?", "platform": "stackexchange", "value": 6.0, "timestamp": "1794640620"}
+{"keyword": "What does &quot;vcpkg integrate install&quot; do on Linux?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794697576"}
+{"keyword": "How to optimize recursive Binary Exponentiation using tail recursion and handle negative exponents w", "platform": "stackexchange", "value": 0.0, "timestamp": "1794639105"}
+{"keyword": "Gemini Live API closes sessions at exactly 58 minutes with 1011 &quot;Deadline expired&quot; despite", "platform": "stackexchange", "value": -4.0, "timestamp": "1794692075"}
+{"keyword": "Keycloak 26 Introspection Requests all return &quot;active: false&quot; for valid tokens", "platform": "stackexchange", "value": 1.0, "timestamp": "1794593162"}
+{"keyword": "Problem with decorators and how to measure the execution time a function", "platform": "stackexchange", "value": 2.0, "timestamp": "1794664592"}
+{"keyword": "CSS - place image behind others", "platform": "stackexchange", "value": 0.0, "timestamp": "1794791752"}
+{"keyword": "Set character amount for html input", "platform": "stackexchange", "value": -5.0, "timestamp": "1794776038"}
+{"keyword": "How to efficiently find all files that match a given glob pattern in Java?", "platform": "stackexchange", "value": -1.0, "timestamp": "1794775875"}
+{"keyword": "NVCC emits gratuitous warning about an unused type", "platform": "stackexchange", "value": 2.0, "timestamp": "1794762036"}
+{"keyword": "IEEE 754 a bug?", "platform": "stackexchange", "value": -10.0, "timestamp": "1794751883"}
+{"keyword": "What&#39;s the best way to define a &quot;logical&quot; network between nodes?", "platform": "stackexchange", "value": -7.0, "timestamp": "1794757820"}
+{"keyword": "A scrollable text area in Java", "platform": "stackexchange", "value": -1.0, "timestamp": "1794758817"}
+{"keyword": "Unity scene player input not working upon loading scene from main menu", "platform": "stackexchange", "value": -2.0, "timestamp": "1794770151"}
+{"keyword": "How can I return a value from a function decorator and from the function itself?", "platform": "stackexchange", "value": -5.0, "timestamp": "1794749754"}
+{"keyword": "In CLion, can I set my CMAKE_CUDA_HOST_COMPILER to the CLion toolchain C++ compiler?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794759364"}
+{"keyword": "How can I set a static lock screen wallpaper without resetting the OEM lock screen style (clock styl", "platform": "stackexchange", "value": 2.0, "timestamp": "1794747940"}
+{"keyword": "Intermittent NullReferenceException in iText 9.8.0 table layout on .NET 11", "platform": "stackexchange", "value": 6.0, "timestamp": "1794740273"}
+{"keyword": "gstreamer won&#39;t process mjpeg source", "platform": "stackexchange", "value": -3.0, "timestamp": "1794746942"}
+{"keyword": "How do I import a CSV file into MySQL Workbench 26.10.0 on macOS?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794751911"}
+{"keyword": "How can I validate if a string is a real number in Python using string methods?", "platform": "stackexchange", "value": -9.0, "timestamp": "1794753723"}
+{"keyword": "API quota reached, multiple applications affected", "platform": "stackexchange", "value": -10.0, "timestamp": "1794753737"}
+{"keyword": "Order of prints when deleting object references in Python", "platform": "stackexchange", "value": 0.0, "timestamp": "1794721268"}
+{"keyword": "Tokenize/untokenize leaves unwanted lines", "platform": "stackexchange", "value": -2.0, "timestamp": "1794748434"}
+{"keyword": "How can I improve air pollutant prediction using PM2.5 and PM10 data?", "platform": "stackexchange", "value": -8.0, "timestamp": "1794726248"}
+{"keyword": "Oh My Posh prompt renders differently in the VS Code integrated PowerShell terminal", "platform": "stackexchange", "value": -3.0, "timestamp": "1794729327"}
+{"keyword": "How do I change a list item in an unordered list upon a button in that list item being pressed?", "platform": "stackexchange", "value": -4.0, "timestamp": "1794698647"}
+{"keyword": "How does the `Promise.resolve()` static method handle arguments of the Function type?", "platform": "stackexchange", "value": 4.0, "timestamp": "1794713148"}
+{"keyword": "Why are the letters &#39;d&#39; and &#39;t&#39; highlighted in SQL using Snowsight?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794669403"}
+{"keyword": "Different behavior of Game Boy DMG game in debug and non-debug mode", "platform": "stackexchange", "value": 1.0, "timestamp": "1794715399"}
+{"keyword": "Why Numba produces faster binary than ISPC for this simple function?", "platform": "stackexchange", "value": 6.0, "timestamp": "1794640620"}
+{"keyword": "What does &quot;vcpkg integrate install&quot; do on Linux?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794697576"}
+{"keyword": "How to optimize recursive Binary Exponentiation using tail recursion and handle negative exponents w", "platform": "stackexchange", "value": 0.0, "timestamp": "1794639105"}
+{"keyword": "Gemini Live API closes sessions at exactly 58 minutes with 1011 &quot;Deadline expired&quot; despite", "platform": "stackexchange", "value": -4.0, "timestamp": "1794692075"}
+{"keyword": "Keycloak 26 Introspection Requests all return &quot;active: false&quot; for valid tokens", "platform": "stackexchange", "value": 1.0, "timestamp": "1794593162"}
+{"keyword": "Problem with decorators and how to measure the execution time a function", "platform": "stackexchange", "value": 2.0, "timestamp": "1794664592"}
