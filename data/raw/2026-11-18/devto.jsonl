@@ -58,3 +58,123 @@
 {"keyword": "I Tried Respan Gateway: An Open-Source LLM Gateway Written in Rust", "platform": "devto", "value": 6.0, "timestamp": "2026-11-17T17:58:00Z"}
 {"keyword": "Packaging Java Apps for Xbox Developer Mode, and Why Consoles Need Help", "platform": "devto", "value": 0.0, "timestamp": "2026-11-17T14:15:41Z"}
 {"keyword": "Ctrl+Rest: A Sleepy Sloth That Breathes With You (Using Your Webcam)", "platform": "devto", "value": 2.0, "timestamp": "2026-11-17T02:30:15Z"}
+{"keyword": "DEVengers Weekly #1: The MCP Reality Check, Career Moats, and 25 Weeks on the Radar 🚀", "platform": "devto", "value": 53.0, "timestamp": "2026-11-17T14:18:20Z"}
+{"keyword": "Could I Still Do This From Scratch?", "platform": "devto", "value": 40.0, "timestamp": "2026-11-17T11:26:15Z"}
+{"keyword": "Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio", "platform": "devto", "value": 16.0, "timestamp": "2026-11-17T05:41:54Z"}
+{"keyword": "AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.", "platform": "devto", "value": 19.0, "timestamp": "2026-11-17T15:45:44Z"}
+{"keyword": "The Arrogance of Having Outgrown Arrogance", "platform": "devto", "value": 26.0, "timestamp": "2026-11-17T09:48:19Z"}
+{"keyword": "Day 85: A Task That Always Changes and Two Halves", "platform": "devto", "value": 14.0, "timestamp": "2026-11-17T18:00:00Z"}
+{"keyword": "Thinking On or Off? Gemma 4 E2B on an 8 GB RTX 3050", "platform": "devto", "value": 11.0, "timestamp": "2026-11-17T17:13:33Z"}
+{"keyword": "The Hidden Cost of PostgreSQL JSONB Columns Under High Write Load", "platform": "devto", "value": 19.0, "timestamp": "2026-11-17T16:30:00Z"}
+{"keyword": "A reader found a hole in our AI inbox. Postgres closes it now", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T15:39:56Z"}
+{"keyword": "Beyond the Words: Exploring the Experience of Stuttering with AI and SmartSpectra", "platform": "devto", "value": 4.0, "timestamp": "2026-11-17T04:52:50Z"}
+{"keyword": "Your prompt contract should fail a test before your agent does", "platform": "devto", "value": 10.0, "timestamp": "2026-11-17T08:45:27Z"}
+{"keyword": "I Built a Serverless OLAP Engine in the Browser with DuckDB-WASM (No AWS, $0)", "platform": "devto", "value": 20.0, "timestamp": "2026-11-17T04:03:28Z"}
+{"keyword": "Rust Doesn't Have a Garbage Collector. It Has Something Stranger.", "platform": "devto", "value": 7.0, "timestamp": "2026-11-17T16:53:04Z"}
+{"keyword": "My Agent Scrubbed a Leaked API Key by Force-Pushing main. It Made Everything Worse.", "platform": "devto", "value": 23.0, "timestamp": "2026-11-17T07:00:00Z"}
+{"keyword": "Once Upon Agentic AI (Part 2): Develop your own MCP server and cast its tools from Strands Agents", "platform": "devto", "value": 29.0, "timestamp": "2026-11-17T08:35:35Z"}
+{"keyword": "Prompt Regression Testing for LLM Apps: A Free CI Gate, Tested on 3 Real Models", "platform": "devto", "value": 3.0, "timestamp": "2026-11-17T13:58:30Z"}
+{"keyword": "Searching my own posts with DigitalOcean Inference", "platform": "devto", "value": 6.0, "timestamp": "2026-11-17T13:59:46Z"}
+{"keyword": "C# Without a Project File: File-Based Apps in .NET 11 (a 5-Minute Refresh)", "platform": "devto", "value": 9.0, "timestamp": "2026-11-17T11:01:57Z"}
+{"keyword": "Hear Me: a long blink becomes a voice, using only a laptop webcam", "platform": "devto", "value": 52.0, "timestamp": "2026-11-17T07:11:12Z"}
+{"keyword": "Matt Pocock's Agent Skills: The Markdown Files Everyone's Installing (and Whether They Still Matter)", "platform": "devto", "value": 7.0, "timestamp": "2026-11-17T19:00:11Z"}
+{"keyword": "Packaging Java Apps for Xbox Developer Mode, and Why Consoles Need Help", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T14:15:41Z"}
+{"keyword": "Google's Open Knowledge Format: From a Karpathy Tweet to a Spec, and What the Evidence Says", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T18:29:21Z"}
+{"keyword": "Count Attempts, Not JSONL Rows", "platform": "devto", "value": 10.0, "timestamp": "2026-11-17T13:29:00Z"}
+{"keyword": "Git 2.56's git add --resolved only checks conflict markers while git still calls a file unmerged", "platform": "devto", "value": 11.0, "timestamp": "2026-11-17T11:00:00Z"}
+{"keyword": "How One Base64 Bug Can Leak Your Java Heap (Java4Shell, CVE-2026-114938)", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T02:50:58Z"}
+{"keyword": "Calif Says AI Found Java4Shell (CVE-2026-114938) in an Hour for Under $200", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T03:04:13Z"}
+{"keyword": "Java4Shell CVE-2026-114938: Is Your Server Next? Find Every Vulnerable JVM", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T02:50:55Z"}
+{"keyword": "Windows 11 telemetry and coding agents: what one researcher found", "platform": "devto", "value": 2.0, "timestamp": "2026-11-17T16:30:00Z"}
+{"keyword": "Which one have you blamed too?", "platform": "devto", "value": 0.0, "timestamp": "2026-11-17T13:51:27Z"}
+{"keyword": "Every number in a technical article should come from somewhere. @xbill shows how to prove it: resear", "platform": "devto", "value": 0.0, "timestamp": "2026-11-17T19:07:51Z"}
+{"keyword": "DEVengers Weekly #1: The MCP Reality Check, Career Moats, and 25 Weeks on the Radar 🚀", "platform": "devto", "value": 53.0, "timestamp": "2026-11-17T14:18:20Z"}
+{"keyword": "Could I Still Do This From Scratch?", "platform": "devto", "value": 40.0, "timestamp": "2026-11-17T11:26:15Z"}
+{"keyword": "Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio", "platform": "devto", "value": 16.0, "timestamp": "2026-11-17T05:41:54Z"}
+{"keyword": "AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.", "platform": "devto", "value": 19.0, "timestamp": "2026-11-17T15:45:44Z"}
+{"keyword": "The Arrogance of Having Outgrown Arrogance", "platform": "devto", "value": 26.0, "timestamp": "2026-11-17T09:48:19Z"}
+{"keyword": "Day 85: A Task That Always Changes and Two Halves", "platform": "devto", "value": 14.0, "timestamp": "2026-11-17T18:00:00Z"}
+{"keyword": "Thinking On or Off? Gemma 4 E2B on an 8 GB RTX 3050", "platform": "devto", "value": 11.0, "timestamp": "2026-11-17T17:13:33Z"}
+{"keyword": "The Hidden Cost of PostgreSQL JSONB Columns Under High Write Load", "platform": "devto", "value": 19.0, "timestamp": "2026-11-17T16:30:00Z"}
+{"keyword": "A reader found a hole in our AI inbox. Postgres closes it now", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T15:39:56Z"}
+{"keyword": "Beyond the Words: Exploring the Experience of Stuttering with AI and SmartSpectra", "platform": "devto", "value": 4.0, "timestamp": "2026-11-17T04:52:50Z"}
+{"keyword": "Your prompt contract should fail a test before your agent does", "platform": "devto", "value": 10.0, "timestamp": "2026-11-17T08:45:27Z"}
+{"keyword": "I Built a Serverless OLAP Engine in the Browser with DuckDB-WASM (No AWS, $0)", "platform": "devto", "value": 20.0, "timestamp": "2026-11-17T04:03:28Z"}
+{"keyword": "Rust Doesn't Have a Garbage Collector. It Has Something Stranger.", "platform": "devto", "value": 7.0, "timestamp": "2026-11-17T16:53:04Z"}
+{"keyword": "My Agent Scrubbed a Leaked API Key by Force-Pushing main. It Made Everything Worse.", "platform": "devto", "value": 23.0, "timestamp": "2026-11-17T07:00:00Z"}
+{"keyword": "Once Upon Agentic AI (Part 2): Develop your own MCP server and cast its tools from Strands Agents", "platform": "devto", "value": 29.0, "timestamp": "2026-11-17T08:35:35Z"}
+{"keyword": "Prompt Regression Testing for LLM Apps: A Free CI Gate, Tested on 3 Real Models", "platform": "devto", "value": 3.0, "timestamp": "2026-11-17T13:58:30Z"}
+{"keyword": "Searching my own posts with DigitalOcean Inference", "platform": "devto", "value": 6.0, "timestamp": "2026-11-17T13:59:46Z"}
+{"keyword": "C# Without a Project File: File-Based Apps in .NET 11 (a 5-Minute Refresh)", "platform": "devto", "value": 9.0, "timestamp": "2026-11-17T11:01:57Z"}
+{"keyword": "Hear Me: a long blink becomes a voice, using only a laptop webcam", "platform": "devto", "value": 52.0, "timestamp": "2026-11-17T07:11:12Z"}
+{"keyword": "Matt Pocock's Agent Skills: The Markdown Files Everyone's Installing (and Whether They Still Matter)", "platform": "devto", "value": 7.0, "timestamp": "2026-11-17T19:00:11Z"}
+{"keyword": "Packaging Java Apps for Xbox Developer Mode, and Why Consoles Need Help", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T14:15:41Z"}
+{"keyword": "Google's Open Knowledge Format: From a Karpathy Tweet to a Spec, and What the Evidence Says", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T18:29:21Z"}
+{"keyword": "Count Attempts, Not JSONL Rows", "platform": "devto", "value": 10.0, "timestamp": "2026-11-17T13:29:00Z"}
+{"keyword": "Git 2.56's git add --resolved only checks conflict markers while git still calls a file unmerged", "platform": "devto", "value": 11.0, "timestamp": "2026-11-17T11:00:00Z"}
+{"keyword": "How One Base64 Bug Can Leak Your Java Heap (Java4Shell, CVE-2026-114938)", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T02:50:58Z"}
+{"keyword": "Calif Says AI Found Java4Shell (CVE-2026-114938) in an Hour for Under $200", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T03:04:13Z"}
+{"keyword": "Java4Shell CVE-2026-114938: Is Your Server Next? Find Every Vulnerable JVM", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T02:50:55Z"}
+{"keyword": "Windows 11 telemetry and coding agents: what one researcher found", "platform": "devto", "value": 2.0, "timestamp": "2026-11-17T16:30:00Z"}
+{"keyword": "Which one have you blamed too?", "platform": "devto", "value": 0.0, "timestamp": "2026-11-17T13:51:27Z"}
+{"keyword": "Every number in a technical article should come from somewhere. @xbill shows how to prove it: resear", "platform": "devto", "value": 0.0, "timestamp": "2026-11-17T19:07:51Z"}
+{"keyword": "DEVengers Weekly #1: The MCP Reality Check, Career Moats, and 25 Weeks on the Radar 🚀", "platform": "devto", "value": 53.0, "timestamp": "2026-11-17T14:18:20Z"}
+{"keyword": "Could I Still Do This From Scratch?", "platform": "devto", "value": 40.0, "timestamp": "2026-11-17T11:26:15Z"}
+{"keyword": "Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio", "platform": "devto", "value": 16.0, "timestamp": "2026-11-17T05:41:54Z"}
+{"keyword": "AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.", "platform": "devto", "value": 19.0, "timestamp": "2026-11-17T15:45:44Z"}
+{"keyword": "The Arrogance of Having Outgrown Arrogance", "platform": "devto", "value": 26.0, "timestamp": "2026-11-17T09:48:19Z"}
+{"keyword": "Day 85: A Task That Always Changes and Two Halves", "platform": "devto", "value": 14.0, "timestamp": "2026-11-17T18:00:00Z"}
+{"keyword": "Thinking On or Off? Gemma 4 E2B on an 8 GB RTX 3050", "platform": "devto", "value": 11.0, "timestamp": "2026-11-17T17:13:33Z"}
+{"keyword": "The Hidden Cost of PostgreSQL JSONB Columns Under High Write Load", "platform": "devto", "value": 19.0, "timestamp": "2026-11-17T16:30:00Z"}
+{"keyword": "A reader found a hole in our AI inbox. Postgres closes it now", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T15:39:56Z"}
+{"keyword": "Beyond the Words: Exploring the Experience of Stuttering with AI and SmartSpectra", "platform": "devto", "value": 4.0, "timestamp": "2026-11-17T04:52:50Z"}
+{"keyword": "Your prompt contract should fail a test before your agent does", "platform": "devto", "value": 10.0, "timestamp": "2026-11-17T08:45:27Z"}
+{"keyword": "I Built a Serverless OLAP Engine in the Browser with DuckDB-WASM (No AWS, $0)", "platform": "devto", "value": 20.0, "timestamp": "2026-11-17T04:03:28Z"}
+{"keyword": "Rust Doesn't Have a Garbage Collector. It Has Something Stranger.", "platform": "devto", "value": 7.0, "timestamp": "2026-11-17T16:53:04Z"}
+{"keyword": "My Agent Scrubbed a Leaked API Key by Force-Pushing main. It Made Everything Worse.", "platform": "devto", "value": 23.0, "timestamp": "2026-11-17T07:00:00Z"}
+{"keyword": "Once Upon Agentic AI (Part 2): Develop your own MCP server and cast its tools from Strands Agents", "platform": "devto", "value": 29.0, "timestamp": "2026-11-17T08:35:35Z"}
+{"keyword": "Prompt Regression Testing for LLM Apps: A Free CI Gate, Tested on 3 Real Models", "platform": "devto", "value": 3.0, "timestamp": "2026-11-17T13:58:30Z"}
+{"keyword": "Searching my own posts with DigitalOcean Inference", "platform": "devto", "value": 6.0, "timestamp": "2026-11-17T13:59:46Z"}
+{"keyword": "C# Without a Project File: File-Based Apps in .NET 11 (a 5-Minute Refresh)", "platform": "devto", "value": 9.0, "timestamp": "2026-11-17T11:01:57Z"}
+{"keyword": "Hear Me: a long blink becomes a voice, using only a laptop webcam", "platform": "devto", "value": 52.0, "timestamp": "2026-11-17T07:11:12Z"}
+{"keyword": "Matt Pocock's Agent Skills: The Markdown Files Everyone's Installing (and Whether They Still Matter)", "platform": "devto", "value": 7.0, "timestamp": "2026-11-17T19:00:11Z"}
+{"keyword": "Packaging Java Apps for Xbox Developer Mode, and Why Consoles Need Help", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T14:15:41Z"}
+{"keyword": "Google's Open Knowledge Format: From a Karpathy Tweet to a Spec, and What the Evidence Says", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T18:29:21Z"}
+{"keyword": "Count Attempts, Not JSONL Rows", "platform": "devto", "value": 10.0, "timestamp": "2026-11-17T13:29:00Z"}
+{"keyword": "Git 2.56's git add --resolved only checks conflict markers while git still calls a file unmerged", "platform": "devto", "value": 11.0, "timestamp": "2026-11-17T11:00:00Z"}
+{"keyword": "How One Base64 Bug Can Leak Your Java Heap (Java4Shell, CVE-2026-114938)", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T02:50:58Z"}
+{"keyword": "Calif Says AI Found Java4Shell (CVE-2026-114938) in an Hour for Under $200", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T03:04:13Z"}
+{"keyword": "Java4Shell CVE-2026-114938: Is Your Server Next? Find Every Vulnerable JVM", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T02:50:55Z"}
+{"keyword": "Windows 11 telemetry and coding agents: what one researcher found", "platform": "devto", "value": 2.0, "timestamp": "2026-11-17T16:30:00Z"}
+{"keyword": "Which one have you blamed too?", "platform": "devto", "value": 0.0, "timestamp": "2026-11-17T13:51:27Z"}
+{"keyword": "Every number in a technical article should come from somewhere. @xbill shows how to prove it: resear", "platform": "devto", "value": 0.0, "timestamp": "2026-11-17T19:07:51Z"}
+{"keyword": "DEVengers Weekly #1: The MCP Reality Check, Career Moats, and 25 Weeks on the Radar 🚀", "platform": "devto", "value": 53.0, "timestamp": "2026-11-17T14:18:20Z"}
+{"keyword": "Could I Still Do This From Scratch?", "platform": "devto", "value": 40.0, "timestamp": "2026-11-17T11:26:15Z"}
+{"keyword": "Five Palaces, One Model: Testing Google’s Gemini 4 Hydrogen in AI Studio", "platform": "devto", "value": 16.0, "timestamp": "2026-11-17T05:41:54Z"}
+{"keyword": "AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.", "platform": "devto", "value": 19.0, "timestamp": "2026-11-17T15:45:44Z"}
+{"keyword": "The Arrogance of Having Outgrown Arrogance", "platform": "devto", "value": 26.0, "timestamp": "2026-11-17T09:48:19Z"}
+{"keyword": "Day 85: A Task That Always Changes and Two Halves", "platform": "devto", "value": 14.0, "timestamp": "2026-11-17T18:00:00Z"}
+{"keyword": "Thinking On or Off? Gemma 4 E2B on an 8 GB RTX 3050", "platform": "devto", "value": 11.0, "timestamp": "2026-11-17T17:13:33Z"}
+{"keyword": "The Hidden Cost of PostgreSQL JSONB Columns Under High Write Load", "platform": "devto", "value": 19.0, "timestamp": "2026-11-17T16:30:00Z"}
+{"keyword": "A reader found a hole in our AI inbox. Postgres closes it now", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T15:39:56Z"}
+{"keyword": "Beyond the Words: Exploring the Experience of Stuttering with AI and SmartSpectra", "platform": "devto", "value": 4.0, "timestamp": "2026-11-17T04:52:50Z"}
+{"keyword": "Your prompt contract should fail a test before your agent does", "platform": "devto", "value": 10.0, "timestamp": "2026-11-17T08:45:27Z"}
+{"keyword": "I Built a Serverless OLAP Engine in the Browser with DuckDB-WASM (No AWS, $0)", "platform": "devto", "value": 20.0, "timestamp": "2026-11-17T04:03:28Z"}
+{"keyword": "Rust Doesn't Have a Garbage Collector. It Has Something Stranger.", "platform": "devto", "value": 7.0, "timestamp": "2026-11-17T16:53:04Z"}
+{"keyword": "My Agent Scrubbed a Leaked API Key by Force-Pushing main. It Made Everything Worse.", "platform": "devto", "value": 23.0, "timestamp": "2026-11-17T07:00:00Z"}
+{"keyword": "Once Upon Agentic AI (Part 2): Develop your own MCP server and cast its tools from Strands Agents", "platform": "devto", "value": 29.0, "timestamp": "2026-11-17T08:35:35Z"}
+{"keyword": "Prompt Regression Testing for LLM Apps: A Free CI Gate, Tested on 3 Real Models", "platform": "devto", "value": 3.0, "timestamp": "2026-11-17T13:58:30Z"}
+{"keyword": "Searching my own posts with DigitalOcean Inference", "platform": "devto", "value": 6.0, "timestamp": "2026-11-17T13:59:46Z"}
+{"keyword": "C# Without a Project File: File-Based Apps in .NET 11 (a 5-Minute Refresh)", "platform": "devto", "value": 9.0, "timestamp": "2026-11-17T11:01:57Z"}
+{"keyword": "Hear Me: a long blink becomes a voice, using only a laptop webcam", "platform": "devto", "value": 52.0, "timestamp": "2026-11-17T07:11:12Z"}
+{"keyword": "Matt Pocock's Agent Skills: The Markdown Files Everyone's Installing (and Whether They Still Matter)", "platform": "devto", "value": 7.0, "timestamp": "2026-11-17T19:00:11Z"}
+{"keyword": "Packaging Java Apps for Xbox Developer Mode, and Why Consoles Need Help", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T14:15:41Z"}
+{"keyword": "Google's Open Knowledge Format: From a Karpathy Tweet to a Spec, and What the Evidence Says", "platform": "devto", "value": 5.0, "timestamp": "2026-11-17T18:29:21Z"}
+{"keyword": "Count Attempts, Not JSONL Rows", "platform": "devto", "value": 10.0, "timestamp": "2026-11-17T13:29:00Z"}
+{"keyword": "Git 2.56's git add --resolved only checks conflict markers while git still calls a file unmerged", "platform": "devto", "value": 11.0, "timestamp": "2026-11-17T11:00:00Z"}
+{"keyword": "How One Base64 Bug Can Leak Your Java Heap (Java4Shell, CVE-2026-114938)", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T02:50:58Z"}
+{"keyword": "Calif Says AI Found Java4Shell (CVE-2026-114938) in an Hour for Under $200", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T03:04:13Z"}
+{"keyword": "Java4Shell CVE-2026-114938: Is Your Server Next? Find Every Vulnerable JVM", "platform": "devto", "value": 6.0, "timestamp": "2026-11-18T02:50:55Z"}
+{"keyword": "Windows 11 telemetry and coding agents: what one researcher found", "platform": "devto", "value": 2.0, "timestamp": "2026-11-17T16:30:00Z"}
+{"keyword": "Which one have you blamed too?", "platform": "devto", "value": 0.0, "timestamp": "2026-11-17T13:51:27Z"}
+{"keyword": "Every number in a technical article should come from somewhere. @xbill shows how to prove it: resear", "platform": "devto", "value": 0.0, "timestamp": "2026-11-17T19:07:51Z"}

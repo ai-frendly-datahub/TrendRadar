@@ -28,3 +28,63 @@
 {"keyword": "DiskPart clean fails with semaphore timeout on a 32GB USB drive", "platform": "stackexchange", "value": -8.0, "timestamp": "1794917424"}
 {"keyword": "The Live Expressions feature in STM32CubeIDE is not behaving as expected", "platform": "stackexchange", "value": 2.0, "timestamp": "1794913518"}
 {"keyword": "Get items that pattern matches another table&#39;s item title", "platform": "stackexchange", "value": 0.0, "timestamp": "1794905459"}
+{"keyword": "Is dereferencing a null pointer undefined behavior?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794965804"}
+{"keyword": "I would like to know how to tween a float from 0 to 1", "platform": "stackexchange", "value": -4.0, "timestamp": "1794961899"}
+{"keyword": "VS 2026 C# WinForms - Trying to save forms return the error popup: &quot;Value cannot be null. Param", "platform": "stackexchange", "value": -1.0, "timestamp": "1794960185"}
+{"keyword": "Monaco failing to load web worker from CDN", "platform": "stackexchange", "value": 0.0, "timestamp": "1794955690"}
+{"keyword": "Getting Combination Permutations of Several Lists, With Segments of Length N", "platform": "stackexchange", "value": -1.0, "timestamp": "1794954442"}
+{"keyword": "iOS 26: bars don&#39;t follow vertical ScrollViews inside a horizontal paging ScrollView (hairline a", "platform": "stackexchange", "value": 0.0, "timestamp": "1794958575"}
+{"keyword": "std::exception_ptr and catching and re-throwing exceptions", "platform": "stackexchange", "value": 2.0, "timestamp": "1794954230"}
+{"keyword": "QR code to fill username and password fields for RFgen", "platform": "stackexchange", "value": -2.0, "timestamp": "1794952400"}
+{"keyword": "How can I find the maximum element in an array in C?", "platform": "stackexchange", "value": -3.0, "timestamp": "1794927740"}
+{"keyword": "Copilot Studio shows “No connections available” although connections are created and visible in Powe", "platform": "stackexchange", "value": -2.0, "timestamp": "1794954910"}
+{"keyword": "How to enable an Oracle db user to access package variables?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794946580"}
+{"keyword": "Can I git commit and push in the Agents Window in VS Code?", "platform": "stackexchange", "value": -6.0, "timestamp": "1794952523"}
+{"keyword": "Database Search with many search codes vs full text", "platform": "stackexchange", "value": -3.0, "timestamp": "1794943101"}
+{"keyword": "scipy.solve_ivp TypeError: float() argument must be a string or a real number, not &#39;function&#39", "platform": "stackexchange", "value": -1.0, "timestamp": "1794942842"}
+{"keyword": "How to make new key-value pairs in a list of dictionaries using a list of values?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794951832"}
+{"keyword": "Can a defaulted comparison operator have parameters of types `const A` and `A`?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794934876"}
+{"keyword": "Can CMake macros be undefined/removed/deleted?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794929732"}
+{"keyword": "Big-endian byte array conversion into i32: casting issues", "platform": "stackexchange", "value": -1.0, "timestamp": "1794942390"}
+{"keyword": "Supply conditional statement as function argument", "platform": "stackexchange", "value": 2.0, "timestamp": "1794920383"}
+{"keyword": "Does Kubernetes AlwaysAllow bypass PDB restrictions for healthy Pods?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794941106"}
+{"keyword": "Problems defining derivative of a function", "platform": "stackexchange", "value": 2.0, "timestamp": "1794933238"}
+{"keyword": "Python to SharePoint SPO, upload files, what is authentication flow", "platform": "stackexchange", "value": -5.0, "timestamp": "1794907363"}
+{"keyword": "How to detect &quot;silent&quot; typo mistakes in qml files", "platform": "stackexchange", "value": 1.0, "timestamp": "1794936762"}
+{"keyword": "How do I resize a background image to height: 100%;?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794933334"}
+{"keyword": "How to deal with confusing pull requests due to following gitflow branching strategy?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794933573"}
+{"keyword": "Get GPS Location Coordinates using OpenStreetMap", "platform": "stackexchange", "value": -1.0, "timestamp": "1794934278"}
+{"keyword": "Dynamic equivalent to the import statement in Python 3.15+", "platform": "stackexchange", "value": 1.0, "timestamp": "1794888722"}
+{"keyword": "SQL Server 2022 Developer Installation Failed – Database Engine Recovery Handle Error", "platform": "stackexchange", "value": -1.0, "timestamp": "1794936088"}
+{"keyword": "How to decorate OSGi service and ensure that references bind newly decorated service?", "platform": "stackexchange", "value": 2.0, "timestamp": "1794925625"}
+{"keyword": "SQL semi-join anti-pattern in DB2", "platform": "stackexchange", "value": -4.0, "timestamp": "1794921164"}
+{"keyword": "Is dereferencing a null pointer undefined behavior?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794965804"}
+{"keyword": "I would like to know how to tween a float from 0 to 1", "platform": "stackexchange", "value": -4.0, "timestamp": "1794961899"}
+{"keyword": "VS 2026 C# WinForms - Trying to save forms return the error popup: &quot;Value cannot be null. Param", "platform": "stackexchange", "value": -1.0, "timestamp": "1794960185"}
+{"keyword": "Monaco failing to load web worker from CDN", "platform": "stackexchange", "value": 0.0, "timestamp": "1794955690"}
+{"keyword": "Getting Combination Permutations of Several Lists, With Segments of Length N", "platform": "stackexchange", "value": -1.0, "timestamp": "1794954442"}
+{"keyword": "iOS 26: bars don&#39;t follow vertical ScrollViews inside a horizontal paging ScrollView (hairline a", "platform": "stackexchange", "value": 0.0, "timestamp": "1794958575"}
+{"keyword": "std::exception_ptr and catching and re-throwing exceptions", "platform": "stackexchange", "value": 2.0, "timestamp": "1794954230"}
+{"keyword": "QR code to fill username and password fields for RFgen", "platform": "stackexchange", "value": -2.0, "timestamp": "1794952400"}
+{"keyword": "How can I find the maximum element in an array in C?", "platform": "stackexchange", "value": -3.0, "timestamp": "1794927740"}
+{"keyword": "Copilot Studio shows “No connections available” although connections are created and visible in Powe", "platform": "stackexchange", "value": -2.0, "timestamp": "1794954910"}
+{"keyword": "How to enable an Oracle db user to access package variables?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794946580"}
+{"keyword": "Can I git commit and push in the Agents Window in VS Code?", "platform": "stackexchange", "value": -6.0, "timestamp": "1794952523"}
+{"keyword": "Database Search with many search codes vs full text", "platform": "stackexchange", "value": -3.0, "timestamp": "1794943101"}
+{"keyword": "scipy.solve_ivp TypeError: float() argument must be a string or a real number, not &#39;function&#39", "platform": "stackexchange", "value": -1.0, "timestamp": "1794942842"}
+{"keyword": "How to make new key-value pairs in a list of dictionaries using a list of values?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794951832"}
+{"keyword": "Can a defaulted comparison operator have parameters of types `const A` and `A`?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794934876"}
+{"keyword": "Can CMake macros be undefined/removed/deleted?", "platform": "stackexchange", "value": 1.0, "timestamp": "1794929732"}
+{"keyword": "Big-endian byte array conversion into i32: casting issues", "platform": "stackexchange", "value": -1.0, "timestamp": "1794942390"}
+{"keyword": "Supply conditional statement as function argument", "platform": "stackexchange", "value": 2.0, "timestamp": "1794920383"}
+{"keyword": "Does Kubernetes AlwaysAllow bypass PDB restrictions for healthy Pods?", "platform": "stackexchange", "value": -2.0, "timestamp": "1794941106"}
+{"keyword": "Problems defining derivative of a function", "platform": "stackexchange", "value": 2.0, "timestamp": "1794933238"}
+{"keyword": "Python to SharePoint SPO, upload files, what is authentication flow", "platform": "stackexchange", "value": -5.0, "timestamp": "1794907363"}
+{"keyword": "How to detect &quot;silent&quot; typo mistakes in qml files", "platform": "stackexchange", "value": 1.0, "timestamp": "1794936762"}
+{"keyword": "How do I resize a background image to height: 100%;?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794933334"}
+{"keyword": "How to deal with confusing pull requests due to following gitflow branching strategy?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794933573"}
+{"keyword": "Get GPS Location Coordinates using OpenStreetMap", "platform": "stackexchange", "value": -1.0, "timestamp": "1794934278"}
+{"keyword": "Dynamic equivalent to the import statement in Python 3.15+", "platform": "stackexchange", "value": 1.0, "timestamp": "1794888722"}
+{"keyword": "SQL Server 2022 Developer Installation Failed – Database Engine Recovery Handle Error", "platform": "stackexchange", "value": -1.0, "timestamp": "1794936088"}
+{"keyword": "How to decorate OSGi service and ensure that references bind newly decorated service?", "platform": "stackexchange", "value": 2.0, "timestamp": "1794925625"}
+{"keyword": "SQL semi-join anti-pattern in DB2", "platform": "stackexchange", "value": -4.0, "timestamp": "1794921164"}
