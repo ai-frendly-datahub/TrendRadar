@@ -28,3 +28,63 @@
 {"keyword": "iOS 27: bars don&#39;t follow vertical ScrollViews inside a horizontal paging ScrollView (hairline a", "platform": "stackexchange", "value": -1.0, "timestamp": "1794958575"}
 {"keyword": "Supply conditional statement as function argument", "platform": "stackexchange", "value": 2.0, "timestamp": "1794920383"}
 {"keyword": "Monaco failing to load web worker from CDN", "platform": "stackexchange", "value": -2.0, "timestamp": "1794955690"}
+{"keyword": "Getting a map to work with the current google map API", "platform": "stackexchange", "value": 0.0, "timestamp": "1795043337"}
+{"keyword": "How do I format and align buttons in Excel 2007 VBA?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795046821"}
+{"keyword": "Set a prior for bernouilli GLM to restrain model&#39;s predicted occurrence for a specific value of", "platform": "stackexchange", "value": -3.0, "timestamp": "1795044029"}
+{"keyword": "g-ir-scanner ignores rpath in shared libraries a target depends on?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795046086"}
+{"keyword": "Group-Object - enumerate only one property and not type or hash table", "platform": "stackexchange", "value": 2.0, "timestamp": "1795022451"}
+{"keyword": "How to create PBKDF2-HMAC-SHA1 hash of a string with OpenSSL?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795027191"}
+{"keyword": "GCC accepts ambiguous overloaded call to empty initializer list while Clang and MSVC rejects", "platform": "stackexchange", "value": 1.0, "timestamp": "1795008628"}
+{"keyword": "Is this type-inference trick using undocumented/unspecified Rust semantics or is it fine?", "platform": "stackexchange", "value": 4.0, "timestamp": "1795031228"}
+{"keyword": "Azure Functions Flex Consumption (Linux, .NET 10): Net.IBM.Data.Db2-lnx throws SQL0902 / AESEncryptA", "platform": "stackexchange", "value": -2.0, "timestamp": "1795031687"}
+{"keyword": "Why don&#39;t my POSTs work in Django in PythonAnywhere?", "platform": "stackexchange", "value": -5.0, "timestamp": "1795022015"}
+{"keyword": "Is dereferencing a null pointer undefined behavior in C++23?", "platform": "stackexchange", "value": -6.0, "timestamp": "1794965804"}
+{"keyword": "Which VCS for Unity projects sharing a 100–300+ GB asset library?", "platform": "stackexchange", "value": -4.0, "timestamp": "1795017239"}
+{"keyword": "Why is my div class stuck at the bottom of my page?", "platform": "stackexchange", "value": -4.0, "timestamp": "1795014252"}
+{"keyword": "std::exception_ptr and catching and re-throwing exceptions", "platform": "stackexchange", "value": 3.0, "timestamp": "1794954230"}
+{"keyword": "How should I handle an unresolved high-severity picomatch vulnerability in Vite 8", "platform": "stackexchange", "value": 0.0, "timestamp": "1795011929"}
+{"keyword": "How to find the Cost and max limit for GitHub Copilot Enterprise license and LLM credit usage in Git", "platform": "stackexchange", "value": -8.0, "timestamp": "1795016609"}
+{"keyword": "Why does filtering an INT64 field named iso fail in MilvusClient.query()?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794991045"}
+{"keyword": "How to collect axes in patchwork layout of several plots?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795008782"}
+{"keyword": "c, scanf, EOF, while loop", "platform": "stackexchange", "value": -4.0, "timestamp": "1795006980"}
+{"keyword": "How to get the right font size drawing the text?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795007393"}
+{"keyword": "Getting Combination Permutations of Several Lists, With Segments of Length N", "platform": "stackexchange", "value": -2.0, "timestamp": "1794954442"}
+{"keyword": "Configuring Android Studio to access an LLM on my LAN", "platform": "stackexchange", "value": -7.0, "timestamp": "1794999615"}
+{"keyword": "Google Cloud Run deployment fails: “Deploying container images is not supported for this project”", "platform": "stackexchange", "value": -5.0, "timestamp": "1795006997"}
+{"keyword": "How can I find the maximum element in an array in C?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794927740"}
+{"keyword": "Monaco failing to load web worker from CDN", "platform": "stackexchange", "value": -3.0, "timestamp": "1794955690"}
+{"keyword": "How should Advanced Security Dependency Scanning be configured for a multi-module Maven project in A", "platform": "stackexchange", "value": -5.0, "timestamp": "1795004377"}
+{"keyword": "WSL installation completes, but no Linux distributions are registered after restarting Windows", "platform": "stackexchange", "value": -6.0, "timestamp": "1795005609"}
+{"keyword": "What is the practical advantage of _BitInt(10) over int16_t when both have the same sizeof?", "platform": "stackexchange", "value": 9.0, "timestamp": "1794865438"}
+{"keyword": "How can I replace the spaces in the output of a bash command", "platform": "stackexchange", "value": -3.0, "timestamp": "1794973237"}
+{"keyword": "getting malloc debug for specific android program", "platform": "stackexchange", "value": -1.0, "timestamp": "1794997980"}
+{"keyword": "Getting a map to work with the current google map API", "platform": "stackexchange", "value": 0.0, "timestamp": "1795043337"}
+{"keyword": "How do I format and align buttons in Excel 2007 VBA?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795046821"}
+{"keyword": "Set a prior for bernouilli GLM to restrain model&#39;s predicted occurrence for a specific value of", "platform": "stackexchange", "value": -3.0, "timestamp": "1795044029"}
+{"keyword": "g-ir-scanner ignores rpath in shared libraries a target depends on?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795046086"}
+{"keyword": "Group-Object - enumerate only one property and not type or hash table", "platform": "stackexchange", "value": 2.0, "timestamp": "1795022451"}
+{"keyword": "How to create PBKDF2-HMAC-SHA1 hash of a string with OpenSSL?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795027191"}
+{"keyword": "GCC accepts ambiguous overloaded call to empty initializer list while Clang and MSVC rejects", "platform": "stackexchange", "value": 1.0, "timestamp": "1795008628"}
+{"keyword": "Is this type-inference trick using undocumented/unspecified Rust semantics or is it fine?", "platform": "stackexchange", "value": 4.0, "timestamp": "1795031228"}
+{"keyword": "Azure Functions Flex Consumption (Linux, .NET 10): Net.IBM.Data.Db2-lnx throws SQL0902 / AESEncryptA", "platform": "stackexchange", "value": -2.0, "timestamp": "1795031687"}
+{"keyword": "Why don&#39;t my POSTs work in Django in PythonAnywhere?", "platform": "stackexchange", "value": -5.0, "timestamp": "1795022015"}
+{"keyword": "Is dereferencing a null pointer undefined behavior in C++23?", "platform": "stackexchange", "value": -6.0, "timestamp": "1794965804"}
+{"keyword": "Which VCS for Unity projects sharing a 100–300+ GB asset library?", "platform": "stackexchange", "value": -4.0, "timestamp": "1795017239"}
+{"keyword": "Why is my div class stuck at the bottom of my page?", "platform": "stackexchange", "value": -4.0, "timestamp": "1795014252"}
+{"keyword": "std::exception_ptr and catching and re-throwing exceptions", "platform": "stackexchange", "value": 3.0, "timestamp": "1794954230"}
+{"keyword": "How should I handle an unresolved high-severity picomatch vulnerability in Vite 8", "platform": "stackexchange", "value": 0.0, "timestamp": "1795011929"}
+{"keyword": "How to find the Cost and max limit for GitHub Copilot Enterprise license and LLM credit usage in Git", "platform": "stackexchange", "value": -8.0, "timestamp": "1795016609"}
+{"keyword": "Why does filtering an INT64 field named iso fail in MilvusClient.query()?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794991045"}
+{"keyword": "How to collect axes in patchwork layout of several plots?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795008782"}
+{"keyword": "c, scanf, EOF, while loop", "platform": "stackexchange", "value": -4.0, "timestamp": "1795006980"}
+{"keyword": "How to get the right font size drawing the text?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795007393"}
+{"keyword": "Getting Combination Permutations of Several Lists, With Segments of Length N", "platform": "stackexchange", "value": -2.0, "timestamp": "1794954442"}
+{"keyword": "Configuring Android Studio to access an LLM on my LAN", "platform": "stackexchange", "value": -7.0, "timestamp": "1794999615"}
+{"keyword": "Google Cloud Run deployment fails: “Deploying container images is not supported for this project”", "platform": "stackexchange", "value": -5.0, "timestamp": "1795006997"}
+{"keyword": "How can I find the maximum element in an array in C?", "platform": "stackexchange", "value": 0.0, "timestamp": "1794927740"}
+{"keyword": "Monaco failing to load web worker from CDN", "platform": "stackexchange", "value": -3.0, "timestamp": "1794955690"}
+{"keyword": "How should Advanced Security Dependency Scanning be configured for a multi-module Maven project in A", "platform": "stackexchange", "value": -5.0, "timestamp": "1795004377"}
+{"keyword": "WSL installation completes, but no Linux distributions are registered after restarting Windows", "platform": "stackexchange", "value": -6.0, "timestamp": "1795005609"}
+{"keyword": "What is the practical advantage of _BitInt(10) over int16_t when both have the same sizeof?", "platform": "stackexchange", "value": 9.0, "timestamp": "1794865438"}
+{"keyword": "How can I replace the spaces in the output of a bash command", "platform": "stackexchange", "value": -3.0, "timestamp": "1794973237"}
+{"keyword": "getting malloc debug for specific android program", "platform": "stackexchange", "value": -1.0, "timestamp": "1794997980"}
