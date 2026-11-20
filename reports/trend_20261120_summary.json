@@ -42,14 +42,6 @@
       "count": 4
     },
     {
-      "name": "Seoul",
-      "count": 4
-    },
-    {
-      "name": "South Korea",
-      "count": 4
-    },
-    {
       "name": "Electric vehicle",
       "count": 4
     },
@@ -62,6 +54,14 @@
       "count": 4
     },
     {
+      "name": "Seoul",
+      "count": 4
+    },
+    {
+      "name": "South Korea",
+      "count": 4
+    },
+    {
       "name": "OpenAI",
       "count": 4
     },
@@ -70,19 +70,19 @@
       "count": 2
     },
     {
-      "name": "웹툰",
+      "name": "손흥민",
       "count": 1
     },
     {
-      "name": "amd",
+      "name": "제네시스 g80",
       "count": 1
     },
     {
-      "name": "플라비오 코볼리",
+      "name": "검찰",
       "count": 1
     },
     {
-      "name": "엔화",
+      "name": "샌안토니오 대 la 클리퍼스",
       "count": 1
     }
   ],
@@ -91,5 +91,5 @@
     "wikipedia": 60,
     "google": 30
   },
-  "generated_at": "2026-11-19T18:49:06.390285+00:00"
+  "generated_at": "2026-11-20T02:50:57.872618+00:00"
 }
