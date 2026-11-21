@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T18:16:34.031820+00:00",
+  "generated_at": "2026-11-21T02:59:49.501832+00:00",
   "target_date": "2026-11-21",
   "repo": "TrendRadar",
   "summary": {
@@ -18,8 +18,8 @@
     "attention_signal_count": 200,
     "conversion_proxy_signal_count": 0,
     "community_signal_count": 0,
-    "fresh_signal_count": 20,
-    "stale_signal_count": 180,
+    "fresh_signal_count": 30,
+    "stale_signal_count": 170,
     "undated_signal_count": 0,
     "distinct_signal_channel_count": 3,
     "distinct_keyword_pack_event_count": 5,
@@ -88,7 +88,7 @@
       "has_attention_signal": true,
       "has_conversion_proxy": false,
       "has_community_signal": false,
-      "attention_signal_count": 71,
+      "attention_signal_count": 69,
       "conversion_proxy_signal_count": 0,
       "community_signal_count": 0,
       "latest_signal_date": "2026-11-19"
@@ -115,10 +115,10 @@
       "has_attention_signal": true,
       "has_conversion_proxy": false,
       "has_community_signal": false,
-      "attention_signal_count": 112,
+      "attention_signal_count": 123,
       "conversion_proxy_signal_count": 0,
       "community_signal_count": 0,
-      "latest_signal_date": "2026-11-20"
+      "latest_signal_date": "2026-11-21"
     },
     {
       "name": "위스키 시장 동향",
@@ -180,7 +180,7 @@
       "has_attention_signal": true,
       "has_conversion_proxy": false,
       "has_community_signal": false,
-      "attention_signal_count": 4,
+      "attention_signal_count": 3,
       "conversion_proxy_signal_count": 0,
       "community_signal_count": 0,
       "latest_signal_date": "2026-11-15"
@@ -240,7 +240,7 @@
       "has_attention_signal": true,
       "has_conversion_proxy": false,
       "has_community_signal": false,
-      "attention_signal_count": 8,
+      "attention_signal_count": 2,
       "conversion_proxy_signal_count": 0,
       "community_signal_count": 0,
       "latest_signal_date": "2026-11-15"
@@ -332,13 +332,333 @@
       "has_attention_signal": true,
       "has_conversion_proxy": false,
       "has_community_signal": false,
-      "attention_signal_count": 5,
+      "attention_signal_count": 3,
       "conversion_proxy_signal_count": 0,
       "community_signal_count": 0,
       "latest_signal_date": "2026-11-15"
     }
   ],
   "events": [
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-44682de83009:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "패딩",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 10000.0,
+      "normalized_value": 50.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 50.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-bc4dc0c835d1:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "동아일보",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 2000.0,
+      "normalized_value": 10.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 10.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:lpga:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "lpga",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 2000.0,
+      "normalized_value": 10.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 10.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-e7af1ffe6f75:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "편의점",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 500.0,
+      "normalized_value": 2.5,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 2.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-d7789a172042:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "경부선",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 500.0,
+      "normalized_value": 2.5,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 2.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-42e963a28e5b:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "두산베어스",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 200.0,
+      "normalized_value": 1.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 1.0,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-59b034500299:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "전북특별자치도",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 100.0,
+      "normalized_value": 0.5,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-a14c8fc59a96:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "매일경제",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 100.0,
+      "normalized_value": 0.5,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:nh:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "nh농협카드",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 100.0,
+      "normalized_value": 0.5,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:jisoo-sun-showers-from-the-angry-birds-movie-3:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "jisoo sun showers (from \"the angry birds movie 3”)",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-21",
+      "raw_value": 100.0,
+      "normalized_value": 0.5,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 0,
+      "freshness_status": "fresh",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 0.5,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
     {
       "event_model": "attention_signal",
       "signal_key": "attention_signal:google-trends-rss:google-trending:u-08c231d7b68a:2026-11-20",
@@ -5301,102 +5621,6 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:artificial-intelligence:2026-11-15",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "Artificial intelligence",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-11-15",
-      "raw_value": 11399.0,
-      "normalized_value": 28.236,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 28.236,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:openai:2026-11-15",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "OpenAI",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-11-15",
-      "raw_value": 7271.0,
-      "normalized_value": 18.011,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 18.011,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:south-korea:2026-11-15",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "reference_attention",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "reference_attention",
-      "taxonomy_intent": "public_attention",
-      "keyword": "South Korea",
-      "channel": "wikipedia",
-      "source": "wikipedia",
-      "signal_date": "2026-11-15",
-      "raw_value": 5658.0,
-      "normalized_value": 14.015,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 14.015,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:netflix:2026-11-15",
       "keyword_set_name": "Wikipedia 참조 관심 트렌드",
       "keyword_pack_version": "2026.04",
@@ -5493,7 +5717,7 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-11-15",
+      "signal_key": "attention_signal:wikipedia:wikipedia:world-wide-web:2026-11-15",
       "keyword_set_name": "Wikipedia 참조 관심 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
@@ -5502,12 +5726,12 @@
       },
       "taxonomy_vertical": "reference_attention",
       "taxonomy_intent": "public_attention",
-      "keyword": "Seoul",
+      "keyword": "World Wide Web",
       "channel": "wikipedia",
       "source": "wikipedia",
       "signal_date": "2026-11-15",
-      "raw_value": 2234.0,
-      "normalized_value": 5.534,
+      "raw_value": 4042.0,
+      "normalized_value": 10.012,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 6,
@@ -5515,7 +5739,39 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 5.534,
+      "attention_score": 10.012,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-d671dd6afb08:2026-11-15",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword_pack_version": "2026.10",
+      "taxonomy": {
+        "vertical": "public_trending",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "public_trending",
+      "taxonomy_intent": "public_attention",
+      "keyword": "신인감독 김연경",
+      "channel": "google_trending",
+      "source": "google_trending",
+      "signal_date": "2026-11-15",
+      "raw_value": 2000.0,
+      "normalized_value": 10.0,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 6,
+      "freshness_status": "stale",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 10.0,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -5548,6 +5804,38 @@
       "community": null,
       "signal_value": null,
       "attention_score": 4.949,
+      "conversion_proxy_score": null,
+      "community_score": null,
+      "required_field_gaps": [
+        "source_url"
+      ],
+      "observation_count": 1
+    },
+    {
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:wikipedia:wikipedia:k-pop:2026-11-15",
+      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
+      "keyword_pack_version": "2026.04",
+      "taxonomy": {
+        "vertical": "reference_attention",
+        "intent": "public_attention"
+      },
+      "taxonomy_vertical": "reference_attention",
+      "taxonomy_intent": "public_attention",
+      "keyword": "K-pop",
+      "channel": "wikipedia",
+      "source": "wikipedia",
+      "signal_date": "2026-11-15",
+      "raw_value": 1154.0,
+      "normalized_value": 2.859,
+      "score_axis": "attention",
+      "freshness_sla_days": 1,
+      "age_days": 6,
+      "freshness_status": "stale",
+      "proxy_type": null,
+      "community": null,
+      "signal_value": null,
+      "attention_score": 2.859,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6197,7 +6485,7 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:u-72392a542b53:google:u-c4b2bde0cc34:2026-11-15",
+      "signal_key": "attention_signal:u-72392a542b53:google:u-47cf8dd0ee8c:2026-11-15",
       "keyword_set_name": "인물 검색 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
@@ -6206,11 +6494,11 @@
       },
       "taxonomy_vertical": "people",
       "taxonomy_intent": "public_attention",
-      "keyword": "배우",
+      "keyword": "유튜버",
       "channel": "google",
       "source": "google",
       "signal_date": "2026-11-15",
-      "raw_value": 45.0,
+      "raw_value": 54.0,
       "normalized_value": 100.0,
       "score_axis": "attention",
       "freshness_sla_days": 1,
@@ -6229,21 +6517,21 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:u-72392a542b53:google:u-112941bdae0a:2026-11-15",
-      "keyword_set_name": "인물 검색 트렌드",
+      "signal_key": "attention_signal:k-pop:google:u-b96fedea401b:2026-11-15",
+      "keyword_set_name": "K-POP 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
-        "vertical": "people",
-        "intent": "public_attention"
+        "vertical": "entertainment",
+        "intent": "fan_attention"
       },
-      "taxonomy_vertical": "people",
-      "taxonomy_intent": "public_attention",
-      "keyword": "가수",
+      "taxonomy_vertical": "entertainment",
+      "taxonomy_intent": "fan_attention",
+      "keyword": "멜론",
       "channel": "google",
       "source": "google",
       "signal_date": "2026-11-15",
-      "raw_value": 19.0,
-      "normalized_value": 42.222,
+      "raw_value": 53.0,
+      "normalized_value": 98.148,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 6,
@@ -6251,39 +6539,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 42.222,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:u-72392a542b53:google:u-9aeedc51becc:2026-11-15",
-      "keyword_set_name": "인물 검색 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "people",
-        "intent": "public_attention"
-      },
-      "taxonomy_vertical": "people",
-      "taxonomy_intent": "public_attention",
-      "keyword": "연예인",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-11-15",
-      "raw_value": 12.0,
-      "normalized_value": 26.667,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 26.667,
+      "attention_score": 98.148,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6306,8 +6562,8 @@
       "channel": "google",
       "source": "google",
       "signal_date": "2026-11-15",
-      "raw_value": 10.0,
-      "normalized_value": 22.222,
+      "raw_value": 11.0,
+      "normalized_value": 20.37,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 6,
@@ -6315,7 +6571,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 22.222,
+      "attention_score": 20.37,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6325,7 +6581,7 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:u-da354becd5dc:2026-11-15",
+      "signal_key": "attention_signal:k-pop:google:u-d413c75592c7:2026-11-15",
       "keyword_set_name": "K-POP 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
@@ -6334,12 +6590,12 @@
       },
       "taxonomy_vertical": "entertainment",
       "taxonomy_intent": "fan_attention",
-      "keyword": "걸그룹",
+      "keyword": "음악방송",
       "channel": "google",
       "source": "google",
       "signal_date": "2026-11-15",
-      "raw_value": 8.0,
-      "normalized_value": 17.778,
+      "raw_value": 2.0,
+      "normalized_value": 3.704,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 6,
@@ -6347,7 +6603,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 17.778,
+      "attention_score": 3.704,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6357,167 +6613,7 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:u-031da3826431:google:u-b6c7e1d43e01:2026-11-15",
-      "keyword_set_name": "서울 부동산 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "real_estate",
-        "intent": "market_attention"
-      },
-      "taxonomy_vertical": "real_estate",
-      "taxonomy_intent": "market_attention",
-      "keyword": "청약",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-11-15",
-      "raw_value": 7.0,
-      "normalized_value": 15.556,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 15.556,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:u-031da3826431:google:u-9c5790c8226d:2026-11-15",
-      "keyword_set_name": "서울 부동산 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "real_estate",
-        "intent": "market_attention"
-      },
-      "taxonomy_vertical": "real_estate",
-      "taxonomy_intent": "market_attention",
-      "keyword": "재건축",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-11-15",
-      "raw_value": 6.0,
-      "normalized_value": 13.333,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 13.333,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:u-2031a2cdfefe:2026-11-15",
-      "keyword_set_name": "K-POP 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "entertainment",
-        "intent": "fan_attention"
-      },
-      "taxonomy_vertical": "entertainment",
-      "taxonomy_intent": "fan_attention",
-      "keyword": "케이팝",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-11-15",
-      "raw_value": 5.0,
-      "normalized_value": 11.111,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 11.111,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:bts:2026-11-15",
-      "keyword_set_name": "K-POP 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "entertainment",
-        "intent": "fan_attention"
-      },
-      "taxonomy_vertical": "entertainment",
-      "taxonomy_intent": "fan_attention",
-      "keyword": "BTS",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-11-15",
-      "raw_value": 4.0,
-      "normalized_value": 8.889,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 8.889,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:u-804ab64f3db8:2026-11-15",
-      "keyword_set_name": "K-POP 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "entertainment",
-        "intent": "fan_attention"
-      },
-      "taxonomy_vertical": "entertainment",
-      "taxonomy_intent": "fan_attention",
-      "keyword": "뉴진스",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-11-15",
-      "raw_value": 3.0,
-      "normalized_value": 6.667,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 6.667,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:u-72392a542b53:google:u-68e77560f8cd:2026-11-15",
+      "signal_key": "attention_signal:u-72392a542b53:google:u-83a2d7133681:2026-11-15",
       "keyword_set_name": "인물 검색 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
@@ -6526,12 +6622,12 @@
       },
       "taxonomy_vertical": "people",
       "taxonomy_intent": "public_attention",
-      "keyword": "정치인",
+      "keyword": "유명인",
       "channel": "google",
       "source": "google",
       "signal_date": "2026-11-15",
       "raw_value": 2.0,
-      "normalized_value": 4.444,
+      "normalized_value": 3.704,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 6,
@@ -6539,39 +6635,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 4.444,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:u-3c180e80572b:2026-11-15",
-      "keyword_set_name": "K-POP 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "entertainment",
-        "intent": "fan_attention"
-      },
-      "taxonomy_vertical": "entertainment",
-      "taxonomy_intent": "fan_attention",
-      "keyword": "에스파",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-11-15",
-      "raw_value": 2.0,
-      "normalized_value": 4.444,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 4.444,
+      "attention_score": 3.704,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6595,7 +6659,7 @@
       "source": "google",
       "signal_date": "2026-11-15",
       "raw_value": 2.0,
-      "normalized_value": 4.444,
+      "normalized_value": 3.704,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 6,
@@ -6603,7 +6667,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 4.444,
+      "attention_score": 3.704,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6613,21 +6677,21 @@
     },
     {
       "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:u-7d993fe5f4b7:2026-11-15",
-      "keyword_set_name": "K-POP 트렌드",
+      "signal_key": "attention_signal:u-031da3826431:google:u-27c1d86ca076:2026-11-15",
+      "keyword_set_name": "서울 부동산 트렌드",
       "keyword_pack_version": "2026.04",
       "taxonomy": {
-        "vertical": "entertainment",
-        "intent": "fan_attention"
+        "vertical": "real_estate",
+        "intent": "market_attention"
       },
-      "taxonomy_vertical": "entertainment",
-      "taxonomy_intent": "fan_attention",
-      "keyword": "블랙핑크",
+      "taxonomy_vertical": "real_estate",
+      "taxonomy_intent": "market_attention",
+      "keyword": "아파트 매매",
       "channel": "google",
       "source": "google",
       "signal_date": "2026-11-15",
       "raw_value": 1.0,
-      "normalized_value": 2.222,
+      "normalized_value": 1.852,
       "score_axis": "attention",
       "freshness_sla_days": 1,
       "age_days": 6,
@@ -6635,71 +6699,7 @@
       "proxy_type": null,
       "community": null,
       "signal_value": null,
-      "attention_score": 2.222,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:u-eb2aabca8505:2026-11-15",
-      "keyword_set_name": "K-POP 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "entertainment",
-        "intent": "fan_attention"
-      },
-      "taxonomy_vertical": "entertainment",
-      "taxonomy_intent": "fan_attention",
-      "keyword": "보이그룹",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-11-15",
-      "raw_value": 1.0,
-      "normalized_value": 2.222,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 2.222,
-      "conversion_proxy_score": null,
-      "community_score": null,
-      "required_field_gaps": [
-        "source_url"
-      ],
-      "observation_count": 1
-    },
-    {
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:k-pop:google:u-bad83605ba18:2026-11-15",
-      "keyword_set_name": "K-POP 트렌드",
-      "keyword_pack_version": "2026.04",
-      "taxonomy": {
-        "vertical": "entertainment",
-        "intent": "fan_attention"
-      },
-      "taxonomy_vertical": "entertainment",
-      "taxonomy_intent": "fan_attention",
-      "keyword": "음원차트",
-      "channel": "google",
-      "source": "google",
-      "signal_date": "2026-11-15",
-      "raw_value": 0.0,
-      "normalized_value": 0.0,
-      "score_axis": "attention",
-      "freshness_sla_days": 1,
-      "age_days": 6,
-      "freshness_status": "stale",
-      "proxy_type": null,
-      "community": null,
-      "signal_value": null,
-      "attention_score": 0.0,
+      "attention_score": 1.852,
       "conversion_proxy_score": null,
       "community_score": null,
       "required_field_gaps": [
@@ -6741,6 +6741,116 @@
     }
   ],
   "daily_review_items": [
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-44682de83009:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "패딩",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-bc4dc0c835d1:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "동아일보",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:lpga:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "lpga",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-e7af1ffe6f75:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "편의점",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-d7789a172042:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "경부선",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-42e963a28e5b:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "두산베어스",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-59b034500299:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "전북특별자치도",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:u-a14c8fc59a96:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "매일경제",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:nh:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "nh농협카드",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
+    {
+      "reason": "missing_required_fields",
+      "event_model": "attention_signal",
+      "signal_key": "attention_signal:google-trends-rss:google-trending:jisoo-sun-showers-from-the-angry-birds-movie-3:2026-11-21",
+      "keyword_set_name": "Google Trends RSS",
+      "keyword": "jisoo sun showers (from \"the angry birds movie 3”)",
+      "channel": "google_trending",
+      "required_field_gaps": [
+        "source_url"
+      ]
+    },
     {
       "reason": "missing_required_fields",
       "event_model": "attention_signal",
@@ -7156,106 +7266,6 @@
       "reason": "stale_signal",
       "event_model": "attention_signal",
       "signal_key": "attention_signal:wikipedia:wikipedia:seoul:2026-11-19",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-46c12c2e4c39:2026-11-19",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "이혼",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-46c12c2e4c39:2026-11-19",
-      "keyword_set_name": "Google Trends RSS",
-      "channel": "google_trending",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-1da05c09d8c3:2026-11-19",
-      "keyword_set_name": "Google Trends RSS",
-      "keyword": "앤트로픽 주가",
-      "channel": "google_trending",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:google-trends-rss:google-trending:u-1da05c09d8c3:2026-11-19",
-      "keyword_set_name": "Google Trends RSS",
-      "channel": "google_trending",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:machine-learning:2026-11-19",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Machine learning",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:machine-learning:2026-11-19",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:samsung:2026-11-19",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Samsung",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:samsung:2026-11-19",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "channel": "wikipedia",
-      "age_days": 2,
-      "freshness_sla_days": 1
-    },
-    {
-      "reason": "missing_required_fields",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:climate-change:2026-11-19",
-      "keyword_set_name": "Wikipedia 참조 관심 트렌드",
-      "keyword": "Climate change",
-      "channel": "wikipedia",
-      "required_field_gaps": [
-        "source_url"
-      ]
-    },
-    {
-      "reason": "stale_signal",
-      "event_model": "attention_signal",
-      "signal_key": "attention_signal:wikipedia:wikipedia:climate-change:2026-11-19",
       "keyword_set_name": "Wikipedia 참조 관심 트렌드",
       "channel": "wikipedia",
       "age_days": 2,
