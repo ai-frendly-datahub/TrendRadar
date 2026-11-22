@@ -2,68 +2,72 @@
   "date": "2026-11-22",
   "category": "trend",
   "article_count": 200,
-  "source_count": 2,
+  "source_count": 3,
   "matched_count": 200,
   "top_entities": [
     {
-      "name": "Python (programming language)",
-      "count": 5
-    },
-    {
-      "name": "Artificial intelligence",
-      "count": 5
-    },
-    {
       "name": "Seoul",
-      "count": 5
+      "count": 4
     },
     {
       "name": "South Korea",
-      "count": 5
+      "count": 4
+    },
+    {
+      "name": "Python (programming language)",
+      "count": 4
+    },
+    {
+      "name": "Artificial intelligence",
+      "count": 4
     },
     {
       "name": "Machine learning",
-      "count": 5
+      "count": 4
     },
     {
       "name": "K-pop",
-      "count": 5
+      "count": 4
     },
     {
       "name": "World Wide Web",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Samsung",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Netflix",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Bitcoin",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Climate change",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Electric vehicle",
-      "count": 5
+      "count": 4
     },
     {
       "name": "E-commerce",
-      "count": 5
+      "count": 4
     },
     {
       "name": "YouTube",
-      "count": 5
+      "count": 4
     },
     {
       "name": "OpenAI",
-      "count": 5
+      "count": 4
+    },
+    {
+      "name": "담보 대출",
+      "count": 2
     },
     {
       "name": "장동혁",
@@ -74,21 +78,18 @@
       "count": 2
     },
     {
-      "name": "토트넘 입스위치",
+      "name": "도경완",
       "count": 1
     },
     {
-      "name": "como vs cagliari",
-      "count": 1
-    },
-    {
-      "name": "권순우",
+      "name": "나경원",
       "count": 1
     }
   ],
   "sources": {
-    "google_trending": 125,
-    "wikipedia": 75
+    "google_trending": 110,
+    "google": 30,
+    "wikipedia": 60
   },
-  "generated_at": "2026-11-21T17:05:50.861174+00:00"
+  "generated_at": "2026-11-22T01:54:37.589931+00:00"
 }
