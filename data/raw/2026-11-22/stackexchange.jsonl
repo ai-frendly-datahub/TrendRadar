@@ -28,3 +28,63 @@
 {"keyword": "CPython Compiler Flags changed in 3.15 for ARMv7", "platform": "stackexchange", "value": 3.0, "timestamp": "1795165541"}
 {"keyword": "Does the Hugging Face audio classifier modify an audio sample before classifying it?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795201598"}
 {"keyword": "Translating an object relative to another", "platform": "stackexchange", "value": 0.0, "timestamp": "1795193641"}
+{"keyword": "transfering values using a php 5.1 list statement", "platform": "stackexchange", "value": 0.0, "timestamp": "1795310091"}
+{"keyword": "Shuffle so item remains in same position, and also is different from previous shuffle", "platform": "stackexchange", "value": 0.0, "timestamp": "1795309286"}
+{"keyword": "Smart meter data has duplicated, shifted readings around dst change. How do you usually clean this b", "platform": "stackexchange", "value": -3.0, "timestamp": "1795295940"}
+{"keyword": "windows server 2025 failed update KB5122871 error 0x800f0982", "platform": "stackexchange", "value": -4.0, "timestamp": "1795302726"}
+{"keyword": "How do I find direct and indirect callers of a Go function with falkordb-auryn?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795298401"}
+{"keyword": "My Game Maker Y collision code&#39;s while loop is infinite and I can&#39;t tell why it&#39;s not st", "platform": "stackexchange", "value": 0.0, "timestamp": "1795300975"}
+{"keyword": "VS code scale issue", "platform": "stackexchange", "value": 0.0, "timestamp": "1795301488"}
+{"keyword": "Trying to identify peaks with &gt;5 points using find_peaks or other methods in python", "platform": "stackexchange", "value": 0.0, "timestamp": "1795278017"}
+{"keyword": "How to add that &quot;gap&quot; in-between sub-elements?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795295857"}
+{"keyword": "Merging CSV time-series with fixed-value dataframe", "platform": "stackexchange", "value": 0.0, "timestamp": "1795291267"}
+{"keyword": "How do I calculate $2^n$th roots of unity accurately?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795286389"}
+{"keyword": "Optimizing Rain Simulation", "platform": "stackexchange", "value": -4.0, "timestamp": "1795272071"}
+{"keyword": "Python namespace packages: is it possible for the main package give information when importing a sub", "platform": "stackexchange", "value": 1.0, "timestamp": "1795287596"}
+{"keyword": "How to use autograd.grad() to implement gradient clipping in Pytorch?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795283157"}
+{"keyword": "Why can I not assign a delegate or lambda to a C# 15+ union type?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795267149"}
+{"keyword": "Why do we use serialVersionUID and marker interface in java?", "platform": "stackexchange", "value": -10.0, "timestamp": "1795241791"}
+{"keyword": "How to not make quoted column names using liquibase for multiword field names", "platform": "stackexchange", "value": 0.0, "timestamp": "1795277440"}
+{"keyword": "Is this the correct way to use and interpret Principle Component Analysis?", "platform": "stackexchange", "value": -4.0, "timestamp": "1795269963"}
+{"keyword": "symmetric quotation marks in latex", "platform": "stackexchange", "value": -3.0, "timestamp": "1795263037"}
+{"keyword": "Connect to local Ollama Server from n8n Docker Container on Linux Arch", "platform": "stackexchange", "value": -3.0, "timestamp": "1795260856"}
+{"keyword": "Is it possible to declare constexpr function in a module .cppm file and define it in a separate .cpp", "platform": "stackexchange", "value": 3.0, "timestamp": "1795207454"}
+{"keyword": "Replace multiple different substrings in one pass", "platform": "stackexchange", "value": 0.0, "timestamp": "1795256672"}
+{"keyword": "Effectively using pnpm caching in GitHub Actions for pull request-only workflows", "platform": "stackexchange", "value": -1.0, "timestamp": "1795258927"}
+{"keyword": "How to use Azure Blob storage REST api &quot;Put Blob from Url&quot; with a File storage URL", "platform": "stackexchange", "value": 0.0, "timestamp": "1795196723"}
+{"keyword": "Balanced Ternary Division Algorithm", "platform": "stackexchange", "value": -1.0, "timestamp": "1795191903"}
+{"keyword": "Spark RPC TLS (spark.ssl.rpc.enabled) loads entire disk-cached blocks into memory, causing executor", "platform": "stackexchange", "value": 2.0, "timestamp": "1795225597"}
+{"keyword": "Which version of spyder and spyder-kernels work with Python 3.7", "platform": "stackexchange", "value": -1.0, "timestamp": "1795189705"}
+{"keyword": "Trying to blit an image onto rect in pygame", "platform": "stackexchange", "value": 2.0, "timestamp": "1795190314"}
+{"keyword": "Walmart I/O: uploading a PRODUCTION public key fails with “addPublicKey … status code 520” (sandbox", "platform": "stackexchange", "value": -1.0, "timestamp": "1795207493"}
+{"keyword": "fetch() returns index.html when URI contains %23 (#)", "platform": "stackexchange", "value": 0.0, "timestamp": "1795132656"}
+{"keyword": "transfering values using a php 5.1 list statement", "platform": "stackexchange", "value": 0.0, "timestamp": "1795310091"}
+{"keyword": "Shuffle so item remains in same position, and also is different from previous shuffle", "platform": "stackexchange", "value": 0.0, "timestamp": "1795309286"}
+{"keyword": "Smart meter data has duplicated, shifted readings around dst change. How do you usually clean this b", "platform": "stackexchange", "value": -3.0, "timestamp": "1795295940"}
+{"keyword": "windows server 2025 failed update KB5122871 error 0x800f0982", "platform": "stackexchange", "value": -4.0, "timestamp": "1795302726"}
+{"keyword": "How do I find direct and indirect callers of a Go function with falkordb-auryn?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795298401"}
+{"keyword": "My Game Maker Y collision code&#39;s while loop is infinite and I can&#39;t tell why it&#39;s not st", "platform": "stackexchange", "value": 0.0, "timestamp": "1795300975"}
+{"keyword": "VS code scale issue", "platform": "stackexchange", "value": 0.0, "timestamp": "1795301488"}
+{"keyword": "Trying to identify peaks with &gt;5 points using find_peaks or other methods in python", "platform": "stackexchange", "value": 0.0, "timestamp": "1795278017"}
+{"keyword": "How to add that &quot;gap&quot; in-between sub-elements?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795295857"}
+{"keyword": "Merging CSV time-series with fixed-value dataframe", "platform": "stackexchange", "value": 0.0, "timestamp": "1795291267"}
+{"keyword": "How do I calculate $2^n$th roots of unity accurately?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795286389"}
+{"keyword": "Optimizing Rain Simulation", "platform": "stackexchange", "value": -4.0, "timestamp": "1795272071"}
+{"keyword": "Python namespace packages: is it possible for the main package give information when importing a sub", "platform": "stackexchange", "value": 1.0, "timestamp": "1795287596"}
+{"keyword": "How to use autograd.grad() to implement gradient clipping in Pytorch?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795283157"}
+{"keyword": "Why can I not assign a delegate or lambda to a C# 15+ union type?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795267149"}
+{"keyword": "Why do we use serialVersionUID and marker interface in java?", "platform": "stackexchange", "value": -10.0, "timestamp": "1795241791"}
+{"keyword": "How to not make quoted column names using liquibase for multiword field names", "platform": "stackexchange", "value": 0.0, "timestamp": "1795277440"}
+{"keyword": "Is this the correct way to use and interpret Principle Component Analysis?", "platform": "stackexchange", "value": -4.0, "timestamp": "1795269963"}
+{"keyword": "symmetric quotation marks in latex", "platform": "stackexchange", "value": -3.0, "timestamp": "1795263037"}
+{"keyword": "Connect to local Ollama Server from n8n Docker Container on Linux Arch", "platform": "stackexchange", "value": -3.0, "timestamp": "1795260856"}
+{"keyword": "Is it possible to declare constexpr function in a module .cppm file and define it in a separate .cpp", "platform": "stackexchange", "value": 3.0, "timestamp": "1795207454"}
+{"keyword": "Replace multiple different substrings in one pass", "platform": "stackexchange", "value": 0.0, "timestamp": "1795256672"}
+{"keyword": "Effectively using pnpm caching in GitHub Actions for pull request-only workflows", "platform": "stackexchange", "value": -1.0, "timestamp": "1795258927"}
+{"keyword": "How to use Azure Blob storage REST api &quot;Put Blob from Url&quot; with a File storage URL", "platform": "stackexchange", "value": 0.0, "timestamp": "1795196723"}
+{"keyword": "Balanced Ternary Division Algorithm", "platform": "stackexchange", "value": -1.0, "timestamp": "1795191903"}
+{"keyword": "Spark RPC TLS (spark.ssl.rpc.enabled) loads entire disk-cached blocks into memory, causing executor", "platform": "stackexchange", "value": 2.0, "timestamp": "1795225597"}
+{"keyword": "Which version of spyder and spyder-kernels work with Python 3.7", "platform": "stackexchange", "value": -1.0, "timestamp": "1795189705"}
+{"keyword": "Trying to blit an image onto rect in pygame", "platform": "stackexchange", "value": 2.0, "timestamp": "1795190314"}
+{"keyword": "Walmart I/O: uploading a PRODUCTION public key fails with “addPublicKey … status code 520” (sandbox", "platform": "stackexchange", "value": -1.0, "timestamp": "1795207493"}
+{"keyword": "fetch() returns index.html when URI contains %23 (#)", "platform": "stackexchange", "value": 0.0, "timestamp": "1795132656"}

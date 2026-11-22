@@ -58,3 +58,119 @@
 {"keyword": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%", "platform": "hackernews", "value": 179.0, "timestamp": "1794934710"}
 {"keyword": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs", "platform": "hackernews", "value": 259.0, "timestamp": "1795205039"}
 {"keyword": "Finite-time blow-up for the Navier–Stokes equations", "platform": "hackernews", "value": 309.0, "timestamp": "1795188871"}
+{"keyword": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'", "platform": "hackernews", "value": 622.0, "timestamp": "1795208592"}
+{"keyword": "Lean verification of the Riemann Hypothesis", "platform": "hackernews", "value": 836.0, "timestamp": "1795271805"}
+{"keyword": "Inkling-2-Mini in 5.4 GB Memory", "platform": "hackernews", "value": 360.0, "timestamp": "1795284139"}
+{"keyword": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT", "platform": "hackernews", "value": 755.0, "timestamp": "1794928977"}
+{"keyword": "Detonating a pile of lead azide", "platform": "hackernews", "value": 524.0, "timestamp": "1795267394"}
+{"keyword": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors", "platform": "hackernews", "value": 56.0, "timestamp": "1795298998"}
+{"keyword": "Getting the mind to steer the body to steer you", "platform": "hackernews", "value": 156.0, "timestamp": "1795212665"}
+{"keyword": "My monitor was cutting my download speed by 75%", "platform": "hackernews", "value": 493.0, "timestamp": "1795257392"}
+{"keyword": "Advice for the next 100 Rust GUIs", "platform": "hackernews", "value": 92.0, "timestamp": "1795295873"}
+{"keyword": "Pandex – Official European Law for AI Agents, over MCP", "platform": "hackernews", "value": 32.0, "timestamp": "1795294061"}
+{"keyword": "Sandwich Simulator", "platform": "hackernews", "value": 17.0, "timestamp": "1795306079"}
+{"keyword": "PostgreSQL Extensions in Go", "platform": "hackernews", "value": 119.0, "timestamp": "1795280884"}
+{"keyword": "Inkling 2 Mini", "platform": "hackernews", "value": 1387.0, "timestamp": "1795205539"}
+{"keyword": "Windows has two settings that bring work back after restart, both off by default", "platform": "hackernews", "value": 38.0, "timestamp": "1795096808"}
+{"keyword": "The Emergence of Inequality in the Czech Corded Ware Culture", "platform": "hackernews", "value": 30.0, "timestamp": "1795295174"}
+{"keyword": "Show HN: Zero C# – C# without a runtime or GC", "platform": "hackernews", "value": 130.0, "timestamp": "1795275549"}
+{"keyword": "Verification files for the Lean proof of the Riemann Hypothesis", "platform": "hackernews", "value": 96.0, "timestamp": "1795276474"}
+{"keyword": "Tropical Rainforests Species may be surprisingly young", "platform": "hackernews", "value": 42.0, "timestamp": "1794928134"}
+{"keyword": "Exponential Behavior in Magic: The Gathering", "platform": "hackernews", "value": 93.0, "timestamp": "1795010829"}
+{"keyword": "Upload2Shell (CVE-2026-125396)", "platform": "hackernews", "value": 78.0, "timestamp": "1795285769"}
+{"keyword": "RCE in Gnupg", "platform": "hackernews", "value": 233.0, "timestamp": "1795249978"}
+{"keyword": "Why there are still no non-WebKit browsers on iOS", "platform": "hackernews", "value": 491.0, "timestamp": "1795187011"}
+{"keyword": "LLMs can read and write executables byte by byte from a hex dump", "platform": "hackernews", "value": 192.0, "timestamp": "1795011358"}
+{"keyword": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?", "platform": "hackernews", "value": 616.0, "timestamp": "1795216712"}
+{"keyword": "Shaping the Loops, Closing the Loops", "platform": "hackernews", "value": 4.0, "timestamp": "1795040944"}
+{"keyword": "I'm quite pleased by the tech architecture of my art website", "platform": "hackernews", "value": 151.0, "timestamp": "1795194219"}
+{"keyword": "Hurried Announcement: Alessandro Masullo GRH", "platform": "hackernews", "value": 2392.0, "timestamp": "1795199594"}
+{"keyword": "We promoted developers into architects without informing them", "platform": "hackernews", "value": 581.0, "timestamp": "1795198671"}
+{"keyword": "Context-Generic Programming v0.8.0 – Pluggable trait implementations for Rust", "platform": "hackernews", "value": 21.0, "timestamp": "1795018661"}
+{"keyword": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'", "platform": "hackernews", "value": 622.0, "timestamp": "1795208592"}
+{"keyword": "Lean verification of the Riemann Hypothesis", "platform": "hackernews", "value": 836.0, "timestamp": "1795271805"}
+{"keyword": "Inkling-2-Mini in 5.4 GB Memory", "platform": "hackernews", "value": 360.0, "timestamp": "1795284139"}
+{"keyword": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT", "platform": "hackernews", "value": 755.0, "timestamp": "1794928977"}
+{"keyword": "Detonating a pile of lead azide", "platform": "hackernews", "value": 524.0, "timestamp": "1795267394"}
+{"keyword": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors", "platform": "hackernews", "value": 56.0, "timestamp": "1795298998"}
+{"keyword": "Getting the mind to steer the body to steer you", "platform": "hackernews", "value": 157.0, "timestamp": "1795212665"}
+{"keyword": "My monitor was cutting my download speed by 75%", "platform": "hackernews", "value": 493.0, "timestamp": "1795257392"}
+{"keyword": "Advice for the next 100 Rust GUIs", "platform": "hackernews", "value": 92.0, "timestamp": "1795295873"}
+{"keyword": "Pandex – Official European Law for AI Agents, over MCP", "platform": "hackernews", "value": 32.0, "timestamp": "1795294061"}
+{"keyword": "Sandwich Simulator", "platform": "hackernews", "value": 17.0, "timestamp": "1795306079"}
+{"keyword": "PostgreSQL Extensions in Go", "platform": "hackernews", "value": 119.0, "timestamp": "1795280884"}
+{"keyword": "Inkling 2 Mini", "platform": "hackernews", "value": 1387.0, "timestamp": "1795205539"}
+{"keyword": "Windows has two settings that bring work back after restart, both off by default", "platform": "hackernews", "value": 38.0, "timestamp": "1795096808"}
+{"keyword": "The Emergence of Inequality in the Czech Corded Ware Culture", "platform": "hackernews", "value": 30.0, "timestamp": "1795295174"}
+{"keyword": "Show HN: Zero C# – C# without a runtime or GC", "platform": "hackernews", "value": 130.0, "timestamp": "1795275549"}
+{"keyword": "Verification files for the Lean proof of the Riemann Hypothesis", "platform": "hackernews", "value": 96.0, "timestamp": "1795276474"}
+{"keyword": "Tropical Rainforests Species may be surprisingly young", "platform": "hackernews", "value": 42.0, "timestamp": "1794928134"}
+{"keyword": "Exponential Behavior in Magic: The Gathering", "platform": "hackernews", "value": 93.0, "timestamp": "1795010829"}
+{"keyword": "Upload2Shell (CVE-2026-125396)", "platform": "hackernews", "value": 78.0, "timestamp": "1795285769"}
+{"keyword": "RCE in Gnupg", "platform": "hackernews", "value": 233.0, "timestamp": "1795249978"}
+{"keyword": "Why there are still no non-WebKit browsers on iOS", "platform": "hackernews", "value": 491.0, "timestamp": "1795187011"}
+{"keyword": "LLMs can read and write executables byte by byte from a hex dump", "platform": "hackernews", "value": 192.0, "timestamp": "1795011358"}
+{"keyword": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?", "platform": "hackernews", "value": 616.0, "timestamp": "1795216712"}
+{"keyword": "Shaping the Loops, Closing the Loops", "platform": "hackernews", "value": 4.0, "timestamp": "1795040944"}
+{"keyword": "I'm quite pleased by the tech architecture of my art website", "platform": "hackernews", "value": 151.0, "timestamp": "1795194219"}
+{"keyword": "Hurried Announcement: Alessandro Masullo GRH", "platform": "hackernews", "value": 2392.0, "timestamp": "1795199594"}
+{"keyword": "We promoted developers into architects without informing them", "platform": "hackernews", "value": 581.0, "timestamp": "1795198671"}
+{"keyword": "Context-Generic Programming v0.8.0 – Pluggable trait implementations for Rust", "platform": "hackernews", "value": 21.0, "timestamp": "1795018661"}
+{"keyword": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'", "platform": "hackernews", "value": 622.0, "timestamp": "1795208592"}
+{"keyword": "Lean verification of the Riemann Hypothesis", "platform": "hackernews", "value": 836.0, "timestamp": "1795271805"}
+{"keyword": "Inkling-2-Mini in 5.4 GB Memory", "platform": "hackernews", "value": 360.0, "timestamp": "1795284139"}
+{"keyword": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT", "platform": "hackernews", "value": 755.0, "timestamp": "1794928977"}
+{"keyword": "Detonating a pile of lead azide", "platform": "hackernews", "value": 524.0, "timestamp": "1795267394"}
+{"keyword": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors", "platform": "hackernews", "value": 56.0, "timestamp": "1795298998"}
+{"keyword": "Getting the mind to steer the body to steer you", "platform": "hackernews", "value": 157.0, "timestamp": "1795212665"}
+{"keyword": "My monitor was cutting my download speed by 75%", "platform": "hackernews", "value": 493.0, "timestamp": "1795257392"}
+{"keyword": "Advice for the next 100 Rust GUIs", "platform": "hackernews", "value": 92.0, "timestamp": "1795295873"}
+{"keyword": "Pandex – Official European Law for AI Agents, over MCP", "platform": "hackernews", "value": 32.0, "timestamp": "1795294061"}
+{"keyword": "Sandwich Simulator", "platform": "hackernews", "value": 17.0, "timestamp": "1795306079"}
+{"keyword": "PostgreSQL Extensions in Go", "platform": "hackernews", "value": 119.0, "timestamp": "1795280884"}
+{"keyword": "Inkling 2 Mini", "platform": "hackernews", "value": 1387.0, "timestamp": "1795205539"}
+{"keyword": "Windows has two settings that bring work back after restart, both off by default", "platform": "hackernews", "value": 38.0, "timestamp": "1795096808"}
+{"keyword": "The Emergence of Inequality in the Czech Corded Ware Culture", "platform": "hackernews", "value": 30.0, "timestamp": "1795295174"}
+{"keyword": "Show HN: Zero C# – C# without a runtime or GC", "platform": "hackernews", "value": 130.0, "timestamp": "1795275549"}
+{"keyword": "Verification files for the Lean proof of the Riemann Hypothesis", "platform": "hackernews", "value": 96.0, "timestamp": "1795276474"}
+{"keyword": "Tropical Rainforests Species may be surprisingly young", "platform": "hackernews", "value": 42.0, "timestamp": "1794928134"}
+{"keyword": "Exponential Behavior in Magic: The Gathering", "platform": "hackernews", "value": 93.0, "timestamp": "1795010829"}
+{"keyword": "Upload2Shell (CVE-2026-125396)", "platform": "hackernews", "value": 78.0, "timestamp": "1795285769"}
+{"keyword": "RCE in Gnupg", "platform": "hackernews", "value": 233.0, "timestamp": "1795249978"}
+{"keyword": "Why there are still no non-WebKit browsers on iOS", "platform": "hackernews", "value": 491.0, "timestamp": "1795187011"}
+{"keyword": "LLMs can read and write executables byte by byte from a hex dump", "platform": "hackernews", "value": 192.0, "timestamp": "1795011358"}
+{"keyword": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?", "platform": "hackernews", "value": 616.0, "timestamp": "1795216712"}
+{"keyword": "Shaping the Loops, Closing the Loops", "platform": "hackernews", "value": 4.0, "timestamp": "1795040944"}
+{"keyword": "I'm quite pleased by the tech architecture of my art website", "platform": "hackernews", "value": 151.0, "timestamp": "1795194219"}
+{"keyword": "Hurried Announcement: Alessandro Masullo GRH", "platform": "hackernews", "value": 2392.0, "timestamp": "1795199594"}
+{"keyword": "We promoted developers into architects without informing them", "platform": "hackernews", "value": 581.0, "timestamp": "1795198671"}
+{"keyword": "Context-Generic Programming v0.8.0 – Pluggable trait implementations for Rust", "platform": "hackernews", "value": 21.0, "timestamp": "1795018661"}
+{"keyword": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'", "platform": "hackernews", "value": 622.0, "timestamp": "1795208592"}
+{"keyword": "Lean verification of the Riemann Hypothesis", "platform": "hackernews", "value": 836.0, "timestamp": "1795271805"}
+{"keyword": "Inkling-2-Mini in 5.4 GB Memory", "platform": "hackernews", "value": 360.0, "timestamp": "1795284139"}
+{"keyword": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT", "platform": "hackernews", "value": 755.0, "timestamp": "1794928977"}
+{"keyword": "Detonating a pile of lead azide", "platform": "hackernews", "value": 524.0, "timestamp": "1795267394"}
+{"keyword": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors", "platform": "hackernews", "value": 56.0, "timestamp": "1795298998"}
+{"keyword": "Getting the mind to steer the body to steer you", "platform": "hackernews", "value": 157.0, "timestamp": "1795212665"}
+{"keyword": "My monitor was cutting my download speed by 75%", "platform": "hackernews", "value": 493.0, "timestamp": "1795257392"}
+{"keyword": "Advice for the next 100 Rust GUIs", "platform": "hackernews", "value": 92.0, "timestamp": "1795295873"}
+{"keyword": "Pandex – Official European Law for AI Agents, over MCP", "platform": "hackernews", "value": 32.0, "timestamp": "1795294061"}
+{"keyword": "Sandwich Simulator", "platform": "hackernews", "value": 17.0, "timestamp": "1795306079"}
+{"keyword": "PostgreSQL Extensions in Go", "platform": "hackernews", "value": 119.0, "timestamp": "1795280884"}
+{"keyword": "Inkling 2 Mini", "platform": "hackernews", "value": 1387.0, "timestamp": "1795205539"}
+{"keyword": "Windows has two settings that bring work back after restart, both off by default", "platform": "hackernews", "value": 38.0, "timestamp": "1795096808"}
+{"keyword": "The Emergence of Inequality in the Czech Corded Ware Culture", "platform": "hackernews", "value": 30.0, "timestamp": "1795295174"}
+{"keyword": "Show HN: Zero C# – C# without a runtime or GC", "platform": "hackernews", "value": 130.0, "timestamp": "1795275549"}
+{"keyword": "Verification files for the Lean proof of the Riemann Hypothesis", "platform": "hackernews", "value": 96.0, "timestamp": "1795276474"}
+{"keyword": "Tropical Rainforests Species may be surprisingly young", "platform": "hackernews", "value": 42.0, "timestamp": "1794928134"}
+{"keyword": "Exponential Behavior in Magic: The Gathering", "platform": "hackernews", "value": 93.0, "timestamp": "1795010829"}
+{"keyword": "Upload2Shell (CVE-2026-125396)", "platform": "hackernews", "value": 78.0, "timestamp": "1795285769"}
+{"keyword": "RCE in Gnupg", "platform": "hackernews", "value": 233.0, "timestamp": "1795249978"}
+{"keyword": "Why there are still no non-WebKit browsers on iOS", "platform": "hackernews", "value": 491.0, "timestamp": "1795187011"}
+{"keyword": "LLMs can read and write executables byte by byte from a hex dump", "platform": "hackernews", "value": 192.0, "timestamp": "1795011358"}
+{"keyword": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?", "platform": "hackernews", "value": 616.0, "timestamp": "1795216712"}
+{"keyword": "Shaping the Loops, Closing the Loops", "platform": "hackernews", "value": 4.0, "timestamp": "1795040944"}
+{"keyword": "I'm quite pleased by the tech architecture of my art website", "platform": "hackernews", "value": 151.0, "timestamp": "1795194219"}
+{"keyword": "Hurried Announcement: Alessandro Masullo GRH", "platform": "hackernews", "value": 2392.0, "timestamp": "1795199594"}
+{"keyword": "We promoted developers into architects without informing them", "platform": "hackernews", "value": 581.0, "timestamp": "1795198671"}
+{"keyword": "Context-Generic Programming v0.8.0 – Pluggable trait implementations for Rust", "platform": "hackernews", "value": 21.0, "timestamp": "1795018661"}
