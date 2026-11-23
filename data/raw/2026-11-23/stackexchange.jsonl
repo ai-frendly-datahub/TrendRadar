@@ -28,3 +28,63 @@
 {"keyword": "VS code scale issue", "platform": "stackexchange", "value": -1.0, "timestamp": "1795301488"}
 {"keyword": "windows server 2025 failed update KB5122871 error 0x800f0982", "platform": "stackexchange", "value": -8.0, "timestamp": "1795302726"}
 {"keyword": "How do I calculate $2^n$th roots of unity accurately?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795286389"}
+{"keyword": "Difficult GPU Installation", "platform": "stackexchange", "value": -2.0, "timestamp": "1795396383"}
+{"keyword": "Is it possible to deadlock a cython.pymutex by taking the GIL?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795396250"}
+{"keyword": "Is Khronos&#39; SPIR-V just a newer version of SPIR(-not-V)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795390137"}
+{"keyword": "Expand a tuple to explicitly instantiate multiple function templates", "platform": "stackexchange", "value": 0.0, "timestamp": "1795382919"}
+{"keyword": "Checking email uniqueness in php", "platform": "stackexchange", "value": 1.0, "timestamp": "1795391153"}
+{"keyword": "Delphi 13 FireMonkey Android app crashes immediately on Huawei/Xiaomi devices but works on Samsung", "platform": "stackexchange", "value": 0.0, "timestamp": "1795390777"}
+{"keyword": "How to use an api in php look like open-meteo api", "platform": "stackexchange", "value": -6.0, "timestamp": "1795375281"}
+{"keyword": "Cloud Run built-in Cloud SQL connection drops all pooled connections at once every few hours, but Au", "platform": "stackexchange", "value": 0.0, "timestamp": "1795384855"}
+{"keyword": "&quot;Cannot overload functions distinguished by return type alone&quot; when only one definition is", "platform": "stackexchange", "value": -1.0, "timestamp": "1795382487"}
+{"keyword": "this function is supposed to remove specific numbers from an array, but its incomplete, it doesnt re", "platform": "stackexchange", "value": -4.0, "timestamp": "1795378719"}
+{"keyword": "variable access separation in c", "platform": "stackexchange", "value": 1.0, "timestamp": "1795356375"}
+{"keyword": "What does the Google Drive drive.item scope grant access to, and where is it documented?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795364186"}
+{"keyword": "RBAC (Role-Based Access Control) - Microservices", "platform": "stackexchange", "value": -4.0, "timestamp": "1795378639"}
+{"keyword": "How to bring up IntelliJ/Android Studio&#39;s code analysis results?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795367954"}
+{"keyword": "How to use pointer-to-member with a non-thread address space in Metal?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795346639"}
+{"keyword": "Reusing view models when adding/deleting through an undo system in WPF", "platform": "stackexchange", "value": -1.0, "timestamp": "1795363690"}
+{"keyword": "(index):28 Uncaught TypeError: Cannot read properties of undefined (reading &#39;channel&#39;)", "platform": "stackexchange", "value": 1.0, "timestamp": "1795358099"}
+{"keyword": "transfering values using a php 5.1 list statement", "platform": "stackexchange", "value": 2.0, "timestamp": "1795310091"}
+{"keyword": "GitHub Actions Windows Runner Failure STL 1000: Expected Clang 22 or Newer", "platform": "stackexchange", "value": 0.0, "timestamp": "1795348034"}
+{"keyword": "main index &lt;script type=&quot;module&quot; and external iframe", "platform": "stackexchange", "value": -4.0, "timestamp": "1795330241"}
+{"keyword": "Pre-Render 3d Animation on Android Automotive?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795357136"}
+{"keyword": "Taking control of the Program Counter(PC)", "platform": "stackexchange", "value": -8.0, "timestamp": "1795356763"}
+{"keyword": "Size of words in NASM", "platform": "stackexchange", "value": 2.0, "timestamp": "1795338100"}
+{"keyword": "How do I run a Python file from a Local HTML file", "platform": "stackexchange", "value": 1.0, "timestamp": "1795318184"}
+{"keyword": "Shuffle so item remains in same position, and also is different from previous shuffle", "platform": "stackexchange", "value": 1.0, "timestamp": "1795309286"}
+{"keyword": "How to access MySQL through SSH tunnel and Python script", "platform": "stackexchange", "value": 0.0, "timestamp": "1795339642"}
+{"keyword": "Why can I not assign a delegate or lambda to a C# 15+ union type?", "platform": "stackexchange", "value": 7.0, "timestamp": "1795267149"}
+{"keyword": "How to add that &quot;gap&quot; in-between sub-elements?", "platform": "stackexchange", "value": -4.0, "timestamp": "1795295857"}
+{"keyword": "How to do file printing/reprinting using IPP when Windows Protected Print (WPP) is enabled?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795324574"}
+{"keyword": "Connect to local Ollama Server from n8n Docker Container on Linux Arch", "platform": "stackexchange", "value": -4.0, "timestamp": "1795260856"}
+{"keyword": "Difficult GPU Installation", "platform": "stackexchange", "value": -2.0, "timestamp": "1795396383"}
+{"keyword": "Is it possible to deadlock a cython.pymutex by taking the GIL?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795396250"}
+{"keyword": "Is Khronos&#39; SPIR-V just a newer version of SPIR(-not-V)?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795390137"}
+{"keyword": "Expand a tuple to explicitly instantiate multiple function templates", "platform": "stackexchange", "value": 0.0, "timestamp": "1795382919"}
+{"keyword": "Checking email uniqueness in php", "platform": "stackexchange", "value": 1.0, "timestamp": "1795391153"}
+{"keyword": "Delphi 13 FireMonkey Android app crashes immediately on Huawei/Xiaomi devices but works on Samsung", "platform": "stackexchange", "value": 0.0, "timestamp": "1795390777"}
+{"keyword": "How to use an api in php look like open-meteo api", "platform": "stackexchange", "value": -6.0, "timestamp": "1795375281"}
+{"keyword": "Cloud Run built-in Cloud SQL connection drops all pooled connections at once every few hours, but Au", "platform": "stackexchange", "value": 0.0, "timestamp": "1795384855"}
+{"keyword": "&quot;Cannot overload functions distinguished by return type alone&quot; when only one definition is", "platform": "stackexchange", "value": -1.0, "timestamp": "1795382487"}
+{"keyword": "this function is supposed to remove specific numbers from an array, but its incomplete, it doesnt re", "platform": "stackexchange", "value": -4.0, "timestamp": "1795378719"}
+{"keyword": "variable access separation in c", "platform": "stackexchange", "value": 1.0, "timestamp": "1795356375"}
+{"keyword": "What does the Google Drive drive.item scope grant access to, and where is it documented?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795364186"}
+{"keyword": "RBAC (Role-Based Access Control) - Microservices", "platform": "stackexchange", "value": -4.0, "timestamp": "1795378639"}
+{"keyword": "How to bring up IntelliJ/Android Studio&#39;s code analysis results?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795367954"}
+{"keyword": "How to use pointer-to-member with a non-thread address space in Metal?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795346639"}
+{"keyword": "Reusing view models when adding/deleting through an undo system in WPF", "platform": "stackexchange", "value": -1.0, "timestamp": "1795363690"}
+{"keyword": "(index):28 Uncaught TypeError: Cannot read properties of undefined (reading &#39;channel&#39;)", "platform": "stackexchange", "value": 1.0, "timestamp": "1795358099"}
+{"keyword": "transfering values using a php 5.1 list statement", "platform": "stackexchange", "value": 2.0, "timestamp": "1795310091"}
+{"keyword": "GitHub Actions Windows Runner Failure STL 1000: Expected Clang 22 or Newer", "platform": "stackexchange", "value": 0.0, "timestamp": "1795348034"}
+{"keyword": "main index &lt;script type=&quot;module&quot; and external iframe", "platform": "stackexchange", "value": -4.0, "timestamp": "1795330241"}
+{"keyword": "Pre-Render 3d Animation on Android Automotive?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795357136"}
+{"keyword": "Taking control of the Program Counter(PC)", "platform": "stackexchange", "value": -8.0, "timestamp": "1795356763"}
+{"keyword": "Size of words in NASM", "platform": "stackexchange", "value": 2.0, "timestamp": "1795338100"}
+{"keyword": "How do I run a Python file from a Local HTML file", "platform": "stackexchange", "value": 1.0, "timestamp": "1795318184"}
+{"keyword": "Shuffle so item remains in same position, and also is different from previous shuffle", "platform": "stackexchange", "value": 1.0, "timestamp": "1795309286"}
+{"keyword": "How to access MySQL through SSH tunnel and Python script", "platform": "stackexchange", "value": 0.0, "timestamp": "1795339642"}
+{"keyword": "Why can I not assign a delegate or lambda to a C# 15+ union type?", "platform": "stackexchange", "value": 7.0, "timestamp": "1795267149"}
+{"keyword": "How to add that &quot;gap&quot; in-between sub-elements?", "platform": "stackexchange", "value": -4.0, "timestamp": "1795295857"}
+{"keyword": "How to do file printing/reprinting using IPP when Windows Protected Print (WPP) is enabled?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795324574"}
+{"keyword": "Connect to local Ollama Server from n8n Docker Container on Linux Arch", "platform": "stackexchange", "value": -4.0, "timestamp": "1795260856"}
