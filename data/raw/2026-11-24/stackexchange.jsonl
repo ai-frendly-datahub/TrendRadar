@@ -28,3 +28,63 @@
 {"keyword": "Postgres connection refused after moving config to docker-compose (works locally)", "platform": "stackexchange", "value": -4.0, "timestamp": "1795425502"}
 {"keyword": "How can I update a SharePoint Person field using Microsoft Graph without knowing the LookupId?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795427028"}
 {"keyword": "How to find the root cause of heap corruption in .NET 4.8 application?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795419989"}
+{"keyword": "A typed NULL baseline fails in a prepared vibration export", "platform": "stackexchange", "value": 1.0, "timestamp": "1795494252"}
+{"keyword": "Why does Innodb_row_lock_current_waits stay above zero after blocked updates finish in PolarDB MySQL", "platform": "stackexchange", "value": 2.0, "timestamp": "1795490755"}
+{"keyword": "What is `importlib.metadata.Distribution.at()` in Python?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795487636"}
+{"keyword": "Physical storage implementation of Global Secondary Indexes (GSI) on partitioned tables in PolarDB-M", "platform": "stackexchange", "value": 2.0, "timestamp": "1795489840"}
+{"keyword": "Why this `attr` class adds `Any` to its attributes&#39; type annotations?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795473058"}
+{"keyword": "How can I fix the DEX code optimization score of 0%?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795485670"}
+{"keyword": "Downloading public Google Docs files in C#", "platform": "stackexchange", "value": 3.0, "timestamp": "1795469271"}
+{"keyword": "Cannot connect to Apple Store Connect account from macOS 26", "platform": "stackexchange", "value": -3.0, "timestamp": "1795480128"}
+{"keyword": "Why don&#39;t triggering options and fill affect mavg and cumsum in streamEngineParser?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795484437"}
+{"keyword": "how do i run powershell alike commands using asyncio.create_subprocess_shell()?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795474370"}
+{"keyword": "what the best way is to encrypt json data in images", "platform": "stackexchange", "value": -8.0, "timestamp": "1795477323"}
+{"keyword": "Put legend keys on top and bottom of colorbar", "platform": "stackexchange", "value": 4.0, "timestamp": "1795460403"}
+{"keyword": "Printing Contents of a Temporary Variable In FOR /F Loop As Raw Text", "platform": "stackexchange", "value": 0.0, "timestamp": "1795446173"}
+{"keyword": "What is the mystery icon of a drive on fire is in Visual Studio 2026?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795443595"}
+{"keyword": "Projectile Issues", "platform": "stackexchange", "value": -2.0, "timestamp": "1795456091"}
+{"keyword": "Receipt OCR with a vision model: one structured-output call, or a two-pass extract-then-normalize pi", "platform": "stackexchange", "value": -12.0, "timestamp": "1795476343"}
+{"keyword": "winsound.Beep() chooses not to play notes below a certain length", "platform": "stackexchange", "value": -1.0, "timestamp": "1795466160"}
+{"keyword": "How to print variables alongside other variables?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795405176"}
+{"keyword": "How to see Exception type (in Visual Studio) when in a breakpoint inside a catch block?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795457575"}
+{"keyword": "I have specified my include path in VS Code but my include statement still doesn&#39;t recognize the", "platform": "stackexchange", "value": 0.0, "timestamp": "1795412487"}
+{"keyword": "Separating out lists of lists in R with complicated symbols", "platform": "stackexchange", "value": -2.0, "timestamp": "1795468745"}
+{"keyword": "Projectile issues agregator", "platform": "stackexchange", "value": -5.0, "timestamp": "1795463693"}
+{"keyword": "Room Cost Calculation Total Only Reflects the Last Room", "platform": "stackexchange", "value": -7.0, "timestamp": "1795446629"}
+{"keyword": "Preserving all Excel formatting when opening, updating and saving a (simple) xlsx file", "platform": "stackexchange", "value": 1.0, "timestamp": "1795447046"}
+{"keyword": "How do I handle processing silent notifications on iOS?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795459802"}
+{"keyword": "I am trying to make a faux voting system, but it won’t deny non-acceptable answers", "platform": "stackexchange", "value": -5.0, "timestamp": "1795452061"}
+{"keyword": "How to read dates from mixed cells types in axyra", "platform": "stackexchange", "value": 0.0, "timestamp": "1795452236"}
+{"keyword": "Gitlab: allow the include of another project&#39;s md file into a project&#39;s readme", "platform": "stackexchange", "value": -4.0, "timestamp": "1795454308"}
+{"keyword": "How do I fix the Instagram &quot;Try another device to continue&quot; login error when I have alread", "platform": "stackexchange", "value": -4.0, "timestamp": "1795449496"}
+{"keyword": "How to fetch raw METAR text from VATSIM API using procedural PHP (non-OOP)?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795439549"}
+{"keyword": "A typed NULL baseline fails in a prepared vibration export", "platform": "stackexchange", "value": 1.0, "timestamp": "1795494252"}
+{"keyword": "Why does Innodb_row_lock_current_waits stay above zero after blocked updates finish in PolarDB MySQL", "platform": "stackexchange", "value": 2.0, "timestamp": "1795490755"}
+{"keyword": "What is `importlib.metadata.Distribution.at()` in Python?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795487636"}
+{"keyword": "Physical storage implementation of Global Secondary Indexes (GSI) on partitioned tables in PolarDB-M", "platform": "stackexchange", "value": 2.0, "timestamp": "1795489840"}
+{"keyword": "Why this `attr` class adds `Any` to its attributes&#39; type annotations?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795473058"}
+{"keyword": "How can I fix the DEX code optimization score of 0%?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795485670"}
+{"keyword": "Downloading public Google Docs files in C#", "platform": "stackexchange", "value": 3.0, "timestamp": "1795469271"}
+{"keyword": "Cannot connect to Apple Store Connect account from macOS 26", "platform": "stackexchange", "value": -3.0, "timestamp": "1795480128"}
+{"keyword": "Why don&#39;t triggering options and fill affect mavg and cumsum in streamEngineParser?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795484437"}
+{"keyword": "how do i run powershell alike commands using asyncio.create_subprocess_shell()?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795474370"}
+{"keyword": "what the best way is to encrypt json data in images", "platform": "stackexchange", "value": -8.0, "timestamp": "1795477323"}
+{"keyword": "Put legend keys on top and bottom of colorbar", "platform": "stackexchange", "value": 4.0, "timestamp": "1795460403"}
+{"keyword": "Printing Contents of a Temporary Variable In FOR /F Loop As Raw Text", "platform": "stackexchange", "value": 0.0, "timestamp": "1795446173"}
+{"keyword": "What is the mystery icon of a drive on fire is in Visual Studio 2026?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795443595"}
+{"keyword": "Projectile Issues", "platform": "stackexchange", "value": -2.0, "timestamp": "1795456091"}
+{"keyword": "Receipt OCR with a vision model: one structured-output call, or a two-pass extract-then-normalize pi", "platform": "stackexchange", "value": -12.0, "timestamp": "1795476343"}
+{"keyword": "winsound.Beep() chooses not to play notes below a certain length", "platform": "stackexchange", "value": -1.0, "timestamp": "1795466160"}
+{"keyword": "How to print variables alongside other variables?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795405176"}
+{"keyword": "How to see Exception type (in Visual Studio) when in a breakpoint inside a catch block?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795457575"}
+{"keyword": "I have specified my include path in VS Code but my include statement still doesn&#39;t recognize the", "platform": "stackexchange", "value": 0.0, "timestamp": "1795412487"}
+{"keyword": "Separating out lists of lists in R with complicated symbols", "platform": "stackexchange", "value": -2.0, "timestamp": "1795468745"}
+{"keyword": "Projectile issues agregator", "platform": "stackexchange", "value": -5.0, "timestamp": "1795463693"}
+{"keyword": "Room Cost Calculation Total Only Reflects the Last Room", "platform": "stackexchange", "value": -7.0, "timestamp": "1795446629"}
+{"keyword": "Preserving all Excel formatting when opening, updating and saving a (simple) xlsx file", "platform": "stackexchange", "value": 1.0, "timestamp": "1795447046"}
+{"keyword": "How do I handle processing silent notifications on iOS?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795459802"}
+{"keyword": "I am trying to make a faux voting system, but it won’t deny non-acceptable answers", "platform": "stackexchange", "value": -5.0, "timestamp": "1795452061"}
+{"keyword": "How to read dates from mixed cells types in axyra", "platform": "stackexchange", "value": 0.0, "timestamp": "1795452236"}
+{"keyword": "Gitlab: allow the include of another project&#39;s md file into a project&#39;s readme", "platform": "stackexchange", "value": -4.0, "timestamp": "1795454308"}
+{"keyword": "How do I fix the Instagram &quot;Try another device to continue&quot; login error when I have alread", "platform": "stackexchange", "value": -4.0, "timestamp": "1795449496"}
+{"keyword": "How to fetch raw METAR text from VATSIM API using procedural PHP (non-OOP)?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795439549"}
