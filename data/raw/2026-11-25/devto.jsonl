@@ -58,3 +58,123 @@
 {"keyword": "git bisect doesn't work on lockfiles — so I built whichdep", "platform": "devto", "value": 8.0, "timestamp": "2026-11-24T15:24:30Z"}
 {"keyword": "Terence Tao's warning about viral AI math, and what the Riemann Hypothesis release record shows", "platform": "devto", "value": 0.0, "timestamp": "2026-11-24T18:00:00Z"}
 {"keyword": "Variations of interaction Shaders", "platform": "devto", "value": 25.0, "timestamp": "2026-11-24T11:08:02Z"}
+{"keyword": "The Third Cup: After Everything Has a Name", "platform": "devto", "value": 72.0, "timestamp": "2026-11-24T07:31:20Z"}
+{"keyword": "Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition F", "platform": "devto", "value": 14.0, "timestamp": "2026-11-24T07:55:43Z"}
+{"keyword": "Why Your AI Release Notes Hallucinate: The \"Why vs What\" Problem in Git History", "platform": "devto", "value": 37.0, "timestamp": "2026-11-24T16:30:00Z"}
+{"keyword": "I Let Claude Code Create My AWS Account", "platform": "devto", "value": 12.0, "timestamp": "2026-11-24T17:33:19Z"}
+{"keyword": "String Type In C", "platform": "devto", "value": 44.0, "timestamp": "2026-11-24T12:02:45Z"}
+{"keyword": "A Year of Hacking: a Cloudinary Hackathon Retrospective", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T19:11:53Z"}
+{"keyword": "How One Blind Reply on X Took Me to DeepMind's London HQ Twice", "platform": "devto", "value": 24.0, "timestamp": "2026-11-24T07:16:26Z"}
+{"keyword": "The Art of the Canary in the Age of AI", "platform": "devto", "value": 14.0, "timestamp": "2026-11-24T06:23:47Z"}
+{"keyword": "Tuesday music", "platform": "devto", "value": 46.0, "timestamp": "2026-11-24T11:27:12Z"}
+{"keyword": "Turning on Postgres logical replication without a restart", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T11:00:00Z"}
+{"keyword": "One Script, Four Documents", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T14:03:00Z"}
+{"keyword": "Your agent isn't breaking the rules. Your rules were never enforced.", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T07:12:14Z"}
+{"keyword": "Catching sub-minute Cloud Router BGP flaps and silent route withdrawals with gcloud and jq", "platform": "devto", "value": 1.0, "timestamp": "2026-11-24T13:52:00Z"}
+{"keyword": "Lazy Senior Dev Mode Made My App Smaller. Was It Better?", "platform": "devto", "value": 10.0, "timestamp": "2026-11-25T04:03:43Z"}
+{"keyword": "What kept you going on a side project when almost nobody was using it?", "platform": "devto", "value": 2.0, "timestamp": "2026-11-24T20:32:50Z"}
+{"keyword": "git bisect doesn't work on lockfiles — so I built whichdep", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T15:24:30Z"}
+{"keyword": "How I built memory that forgets on purpose: 90 days to stale, 365 to gone, and a pin that never expi", "platform": "devto", "value": 3.0, "timestamp": "2026-11-24T10:28:46Z"}
+{"keyword": "Announcing AnalogJS 3.0 ⚡️", "platform": "devto", "value": 6.0, "timestamp": "2026-11-24T14:27:45Z"}
+{"keyword": "Install and Use the Google Workspace CLI: gwscli on Linux, From curl to Agent Skills", "platform": "devto", "value": 7.0, "timestamp": "2026-11-24T19:41:14Z"}
+{"keyword": "Updating Google's Multi-Agent Codelab for ADK 2.0 and A2A 1.x", "platform": "devto", "value": 5.0, "timestamp": "2026-11-24T20:34:20Z"}
+{"keyword": "Local Means Local: Test Firebase AI Logic Fallback Before Dispatch", "platform": "devto", "value": 9.0, "timestamp": "2026-11-24T15:22:00Z"}
+{"keyword": "Zero-Output-Token AI in Google Apps Script with Gemini Decisions API", "platform": "devto", "value": 2.0, "timestamp": "2026-11-25T03:11:21Z"}
+{"keyword": "I tested Context7 on 6 libraries that changed in 2026", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T12:36:00Z"}
+{"keyword": "Building an offline-first React Native app with Turso Sync, Measure and Claude Code", "platform": "devto", "value": 21.0, "timestamp": "2026-11-24T14:56:34Z"}
+{"keyword": "Your README lies. I built a tool that proves it with Kane CLI", "platform": "devto", "value": 2.0, "timestamp": "2026-11-25T04:17:36Z"}
+{"keyword": "I Tested My Prompt Against Plain English. One Answer Changed the Result.", "platform": "devto", "value": 1.0, "timestamp": "2026-11-25T02:28:45Z"}
+{"keyword": "It's not Silicon Valley or Mr. Robot or any other TV show featuring hackers.", "platform": "devto", "value": 0.0, "timestamp": "2026-11-24T14:16:30Z"}
+{"keyword": "I Captured 89 Product Pages in Less Than 30 Seconds. Then Codex Built the Presentation.", "platform": "devto", "value": 4.0, "timestamp": "2026-11-24T12:27:34Z"}
+{"keyword": "Terence Tao's warning about viral AI math, and what the Riemann Hypothesis release record shows", "platform": "devto", "value": 0.0, "timestamp": "2026-11-24T18:00:00Z"}
+{"keyword": "gitai: a Git server built for AI agents", "platform": "devto", "value": 6.0, "timestamp": "2026-11-24T08:56:23Z"}
+{"keyword": "The Third Cup: After Everything Has a Name", "platform": "devto", "value": 72.0, "timestamp": "2026-11-24T07:31:20Z"}
+{"keyword": "Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition F", "platform": "devto", "value": 14.0, "timestamp": "2026-11-24T07:55:43Z"}
+{"keyword": "Why Your AI Release Notes Hallucinate: The \"Why vs What\" Problem in Git History", "platform": "devto", "value": 37.0, "timestamp": "2026-11-24T16:30:00Z"}
+{"keyword": "I Let Claude Code Create My AWS Account", "platform": "devto", "value": 12.0, "timestamp": "2026-11-24T17:33:19Z"}
+{"keyword": "String Type In C", "platform": "devto", "value": 44.0, "timestamp": "2026-11-24T12:02:45Z"}
+{"keyword": "A Year of Hacking: a Cloudinary Hackathon Retrospective", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T19:11:53Z"}
+{"keyword": "How One Blind Reply on X Took Me to DeepMind's London HQ Twice", "platform": "devto", "value": 24.0, "timestamp": "2026-11-24T07:16:26Z"}
+{"keyword": "The Art of the Canary in the Age of AI", "platform": "devto", "value": 14.0, "timestamp": "2026-11-24T06:23:47Z"}
+{"keyword": "Tuesday music", "platform": "devto", "value": 46.0, "timestamp": "2026-11-24T11:27:12Z"}
+{"keyword": "Turning on Postgres logical replication without a restart", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T11:00:00Z"}
+{"keyword": "One Script, Four Documents", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T14:03:00Z"}
+{"keyword": "Your agent isn't breaking the rules. Your rules were never enforced.", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T07:12:14Z"}
+{"keyword": "Catching sub-minute Cloud Router BGP flaps and silent route withdrawals with gcloud and jq", "platform": "devto", "value": 1.0, "timestamp": "2026-11-24T13:52:00Z"}
+{"keyword": "Lazy Senior Dev Mode Made My App Smaller. Was It Better?", "platform": "devto", "value": 10.0, "timestamp": "2026-11-25T04:03:43Z"}
+{"keyword": "What kept you going on a side project when almost nobody was using it?", "platform": "devto", "value": 2.0, "timestamp": "2026-11-24T20:32:50Z"}
+{"keyword": "git bisect doesn't work on lockfiles — so I built whichdep", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T15:24:30Z"}
+{"keyword": "How I built memory that forgets on purpose: 90 days to stale, 365 to gone, and a pin that never expi", "platform": "devto", "value": 3.0, "timestamp": "2026-11-24T10:28:46Z"}
+{"keyword": "Announcing AnalogJS 3.0 ⚡️", "platform": "devto", "value": 6.0, "timestamp": "2026-11-24T14:27:45Z"}
+{"keyword": "Install and Use the Google Workspace CLI: gwscli on Linux, From curl to Agent Skills", "platform": "devto", "value": 7.0, "timestamp": "2026-11-24T19:41:14Z"}
+{"keyword": "Updating Google's Multi-Agent Codelab for ADK 2.0 and A2A 1.x", "platform": "devto", "value": 5.0, "timestamp": "2026-11-24T20:34:20Z"}
+{"keyword": "Local Means Local: Test Firebase AI Logic Fallback Before Dispatch", "platform": "devto", "value": 9.0, "timestamp": "2026-11-24T15:22:00Z"}
+{"keyword": "Zero-Output-Token AI in Google Apps Script with Gemini Decisions API", "platform": "devto", "value": 2.0, "timestamp": "2026-11-25T03:11:21Z"}
+{"keyword": "I tested Context7 on 6 libraries that changed in 2026", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T12:36:00Z"}
+{"keyword": "Building an offline-first React Native app with Turso Sync, Measure and Claude Code", "platform": "devto", "value": 21.0, "timestamp": "2026-11-24T14:56:34Z"}
+{"keyword": "Your README lies. I built a tool that proves it with Kane CLI", "platform": "devto", "value": 2.0, "timestamp": "2026-11-25T04:17:36Z"}
+{"keyword": "I Tested My Prompt Against Plain English. One Answer Changed the Result.", "platform": "devto", "value": 1.0, "timestamp": "2026-11-25T02:28:45Z"}
+{"keyword": "It's not Silicon Valley or Mr. Robot or any other TV show featuring hackers.", "platform": "devto", "value": 0.0, "timestamp": "2026-11-24T14:16:30Z"}
+{"keyword": "I Captured 89 Product Pages in Less Than 30 Seconds. Then Codex Built the Presentation.", "platform": "devto", "value": 4.0, "timestamp": "2026-11-24T12:27:34Z"}
+{"keyword": "Terence Tao's warning about viral AI math, and what the Riemann Hypothesis release record shows", "platform": "devto", "value": 0.0, "timestamp": "2026-11-24T18:00:00Z"}
+{"keyword": "gitai: a Git server built for AI agents", "platform": "devto", "value": 6.0, "timestamp": "2026-11-24T08:56:23Z"}
+{"keyword": "The Third Cup: After Everything Has a Name", "platform": "devto", "value": 72.0, "timestamp": "2026-11-24T07:31:20Z"}
+{"keyword": "Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition F", "platform": "devto", "value": 14.0, "timestamp": "2026-11-24T07:55:43Z"}
+{"keyword": "Why Your AI Release Notes Hallucinate: The \"Why vs What\" Problem in Git History", "platform": "devto", "value": 37.0, "timestamp": "2026-11-24T16:30:00Z"}
+{"keyword": "I Let Claude Code Create My AWS Account", "platform": "devto", "value": 12.0, "timestamp": "2026-11-24T17:33:19Z"}
+{"keyword": "String Type In C", "platform": "devto", "value": 44.0, "timestamp": "2026-11-24T12:02:45Z"}
+{"keyword": "A Year of Hacking: a Cloudinary Hackathon Retrospective", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T19:11:53Z"}
+{"keyword": "How One Blind Reply on X Took Me to DeepMind's London HQ Twice", "platform": "devto", "value": 24.0, "timestamp": "2026-11-24T07:16:26Z"}
+{"keyword": "The Art of the Canary in the Age of AI", "platform": "devto", "value": 14.0, "timestamp": "2026-11-24T06:23:47Z"}
+{"keyword": "Tuesday music", "platform": "devto", "value": 46.0, "timestamp": "2026-11-24T11:27:12Z"}
+{"keyword": "Turning on Postgres logical replication without a restart", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T11:00:00Z"}
+{"keyword": "One Script, Four Documents", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T14:03:00Z"}
+{"keyword": "Your agent isn't breaking the rules. Your rules were never enforced.", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T07:12:14Z"}
+{"keyword": "Catching sub-minute Cloud Router BGP flaps and silent route withdrawals with gcloud and jq", "platform": "devto", "value": 1.0, "timestamp": "2026-11-24T13:52:00Z"}
+{"keyword": "Lazy Senior Dev Mode Made My App Smaller. Was It Better?", "platform": "devto", "value": 10.0, "timestamp": "2026-11-25T04:03:43Z"}
+{"keyword": "What kept you going on a side project when almost nobody was using it?", "platform": "devto", "value": 2.0, "timestamp": "2026-11-24T20:32:50Z"}
+{"keyword": "git bisect doesn't work on lockfiles — so I built whichdep", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T15:24:30Z"}
+{"keyword": "How I built memory that forgets on purpose: 90 days to stale, 365 to gone, and a pin that never expi", "platform": "devto", "value": 3.0, "timestamp": "2026-11-24T10:28:46Z"}
+{"keyword": "Announcing AnalogJS 3.0 ⚡️", "platform": "devto", "value": 6.0, "timestamp": "2026-11-24T14:27:45Z"}
+{"keyword": "Install and Use the Google Workspace CLI: gwscli on Linux, From curl to Agent Skills", "platform": "devto", "value": 7.0, "timestamp": "2026-11-24T19:41:14Z"}
+{"keyword": "Updating Google's Multi-Agent Codelab for ADK 2.0 and A2A 1.x", "platform": "devto", "value": 5.0, "timestamp": "2026-11-24T20:34:20Z"}
+{"keyword": "Local Means Local: Test Firebase AI Logic Fallback Before Dispatch", "platform": "devto", "value": 9.0, "timestamp": "2026-11-24T15:22:00Z"}
+{"keyword": "Zero-Output-Token AI in Google Apps Script with Gemini Decisions API", "platform": "devto", "value": 2.0, "timestamp": "2026-11-25T03:11:21Z"}
+{"keyword": "I tested Context7 on 6 libraries that changed in 2026", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T12:36:00Z"}
+{"keyword": "Building an offline-first React Native app with Turso Sync, Measure and Claude Code", "platform": "devto", "value": 21.0, "timestamp": "2026-11-24T14:56:34Z"}
+{"keyword": "Your README lies. I built a tool that proves it with Kane CLI", "platform": "devto", "value": 2.0, "timestamp": "2026-11-25T04:17:36Z"}
+{"keyword": "I Tested My Prompt Against Plain English. One Answer Changed the Result.", "platform": "devto", "value": 1.0, "timestamp": "2026-11-25T02:28:45Z"}
+{"keyword": "It's not Silicon Valley or Mr. Robot or any other TV show featuring hackers.", "platform": "devto", "value": 0.0, "timestamp": "2026-11-24T14:16:30Z"}
+{"keyword": "I Captured 89 Product Pages in Less Than 30 Seconds. Then Codex Built the Presentation.", "platform": "devto", "value": 4.0, "timestamp": "2026-11-24T12:27:34Z"}
+{"keyword": "Terence Tao's warning about viral AI math, and what the Riemann Hypothesis release record shows", "platform": "devto", "value": 0.0, "timestamp": "2026-11-24T18:00:00Z"}
+{"keyword": "gitai: a Git server built for AI agents", "platform": "devto", "value": 6.0, "timestamp": "2026-11-24T08:56:23Z"}
+{"keyword": "The Third Cup: After Everything Has a Name", "platform": "devto", "value": 72.0, "timestamp": "2026-11-24T07:31:20Z"}
+{"keyword": "Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition F", "platform": "devto", "value": 14.0, "timestamp": "2026-11-24T07:55:43Z"}
+{"keyword": "Why Your AI Release Notes Hallucinate: The \"Why vs What\" Problem in Git History", "platform": "devto", "value": 37.0, "timestamp": "2026-11-24T16:30:00Z"}
+{"keyword": "I Let Claude Code Create My AWS Account", "platform": "devto", "value": 12.0, "timestamp": "2026-11-24T17:33:19Z"}
+{"keyword": "String Type In C", "platform": "devto", "value": 44.0, "timestamp": "2026-11-24T12:02:45Z"}
+{"keyword": "A Year of Hacking: a Cloudinary Hackathon Retrospective", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T19:11:53Z"}
+{"keyword": "How One Blind Reply on X Took Me to DeepMind's London HQ Twice", "platform": "devto", "value": 24.0, "timestamp": "2026-11-24T07:16:26Z"}
+{"keyword": "The Art of the Canary in the Age of AI", "platform": "devto", "value": 14.0, "timestamp": "2026-11-24T06:23:47Z"}
+{"keyword": "Tuesday music", "platform": "devto", "value": 46.0, "timestamp": "2026-11-24T11:27:12Z"}
+{"keyword": "Turning on Postgres logical replication without a restart", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T11:00:00Z"}
+{"keyword": "One Script, Four Documents", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T14:03:00Z"}
+{"keyword": "Your agent isn't breaking the rules. Your rules were never enforced.", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T07:12:14Z"}
+{"keyword": "Catching sub-minute Cloud Router BGP flaps and silent route withdrawals with gcloud and jq", "platform": "devto", "value": 1.0, "timestamp": "2026-11-24T13:52:00Z"}
+{"keyword": "Lazy Senior Dev Mode Made My App Smaller. Was It Better?", "platform": "devto", "value": 10.0, "timestamp": "2026-11-25T04:03:43Z"}
+{"keyword": "What kept you going on a side project when almost nobody was using it?", "platform": "devto", "value": 2.0, "timestamp": "2026-11-24T20:32:50Z"}
+{"keyword": "git bisect doesn't work on lockfiles — so I built whichdep", "platform": "devto", "value": 10.0, "timestamp": "2026-11-24T15:24:30Z"}
+{"keyword": "How I built memory that forgets on purpose: 90 days to stale, 365 to gone, and a pin that never expi", "platform": "devto", "value": 3.0, "timestamp": "2026-11-24T10:28:46Z"}
+{"keyword": "Announcing AnalogJS 3.0 ⚡️", "platform": "devto", "value": 6.0, "timestamp": "2026-11-24T14:27:45Z"}
+{"keyword": "Install and Use the Google Workspace CLI: gwscli on Linux, From curl to Agent Skills", "platform": "devto", "value": 7.0, "timestamp": "2026-11-24T19:41:14Z"}
+{"keyword": "Updating Google's Multi-Agent Codelab for ADK 2.0 and A2A 1.x", "platform": "devto", "value": 5.0, "timestamp": "2026-11-24T20:34:20Z"}
+{"keyword": "Local Means Local: Test Firebase AI Logic Fallback Before Dispatch", "platform": "devto", "value": 9.0, "timestamp": "2026-11-24T15:22:00Z"}
+{"keyword": "Zero-Output-Token AI in Google Apps Script with Gemini Decisions API", "platform": "devto", "value": 2.0, "timestamp": "2026-11-25T03:11:21Z"}
+{"keyword": "I tested Context7 on 6 libraries that changed in 2026", "platform": "devto", "value": 11.0, "timestamp": "2026-11-24T12:36:00Z"}
+{"keyword": "Building an offline-first React Native app with Turso Sync, Measure and Claude Code", "platform": "devto", "value": 21.0, "timestamp": "2026-11-24T14:56:34Z"}
+{"keyword": "Your README lies. I built a tool that proves it with Kane CLI", "platform": "devto", "value": 2.0, "timestamp": "2026-11-25T04:17:36Z"}
+{"keyword": "I Tested My Prompt Against Plain English. One Answer Changed the Result.", "platform": "devto", "value": 1.0, "timestamp": "2026-11-25T02:28:45Z"}
+{"keyword": "It's not Silicon Valley or Mr. Robot or any other TV show featuring hackers.", "platform": "devto", "value": 0.0, "timestamp": "2026-11-24T14:16:30Z"}
+{"keyword": "I Captured 89 Product Pages in Less Than 30 Seconds. Then Codex Built the Presentation.", "platform": "devto", "value": 4.0, "timestamp": "2026-11-24T12:27:34Z"}
+{"keyword": "Terence Tao's warning about viral AI math, and what the Riemann Hypothesis release record shows", "platform": "devto", "value": 0.0, "timestamp": "2026-11-24T18:00:00Z"}
+{"keyword": "gitai: a Git server built for AI agents", "platform": "devto", "value": 6.0, "timestamp": "2026-11-24T08:56:23Z"}

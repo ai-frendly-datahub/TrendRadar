@@ -28,3 +28,63 @@
 {"keyword": "I am trying to make a faux voting system, but it won’t deny non-acceptable answers", "platform": "stackexchange", "value": -5.0, "timestamp": "1795452061"}
 {"keyword": "Put legend keys on top and bottom of colorbar", "platform": "stackexchange", "value": 5.0, "timestamp": "1795460403"}
 {"keyword": "A typed NULL baseline fails in a prepared vibration export", "platform": "stackexchange", "value": 2.0, "timestamp": "1795494252"}
+{"keyword": "Retrieval-Augmented Generation (RAG) and structured data", "platform": "stackexchange", "value": -1.0, "timestamp": "1795577428"}
+{"keyword": "TDengine`last_row()` returns empty columns on child table while`SELECT * ... ORDER BY ts DESC LIMIT", "platform": "stackexchange", "value": 0.0, "timestamp": "1795577103"}
+{"keyword": "Electron app under Wine on Debian: Chromium FATAL hwnd_util.cc(65) error 1400 while wine notepad ope", "platform": "stackexchange", "value": -4.0, "timestamp": "1795572123"}
+{"keyword": "When testing TPC-H Q10 on PolarDB , the execution plan is unstable and the query latency fluct varie", "platform": "stackexchange", "value": 0.0, "timestamp": "1795574897"}
+{"keyword": "Java4Shell Vulnerability: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gatewa", "platform": "stackexchange", "value": -3.0, "timestamp": "1795570190"}
+{"keyword": "How to remove duplicate records in Ab Initio using the Dedup component?", "platform": "stackexchange", "value": -5.0, "timestamp": "1795571978"}
+{"keyword": "Excel VBA: Consolidation of Duplicate Rows including Sum of Values", "platform": "stackexchange", "value": -3.0, "timestamp": "1795558940"}
+{"keyword": "Robust K-means weighted clustering function for ~200,000 data points?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795564371"}
+{"keyword": "Bubble does not sort the array in C", "platform": "stackexchange", "value": 0.0, "timestamp": "1795552494"}
+{"keyword": "How can a buffer overflow allow for RCE?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795560283"}
+{"keyword": "R studio trying to install library tidyverse but &quot;Error in library(&quot;tidyverse&quot;) : the", "platform": "stackexchange", "value": 1.0, "timestamp": "1795556149"}
+{"keyword": "Attempting to find values from one column based off category in another column", "platform": "stackexchange", "value": -9.0, "timestamp": "1795552731"}
+{"keyword": "How to match operator-characters in filesets", "platform": "stackexchange", "value": 0.0, "timestamp": "1795558645"}
+{"keyword": "How do I select all instances of an &lt;a&gt; tag using a regular expression", "platform": "stackexchange", "value": -1.0, "timestamp": "1795545990"}
+{"keyword": "Improving EF Core SQLite queries and seeding (AnyAsync, AddRangeAsync) and understanding DbContext", "platform": "stackexchange", "value": 2.0, "timestamp": "1795550841"}
+{"keyword": "JSON errors in Stripe Checkout code from Stripe", "platform": "stackexchange", "value": -1.0, "timestamp": "1795555946"}
+{"keyword": "How to hook/overide the color picker tool in Windows 11", "platform": "stackexchange", "value": -3.0, "timestamp": "1795555495"}
+{"keyword": "Which install identifier does Meta compare when AppsFlyer records the iOS install and RevenueCat for", "platform": "stackexchange", "value": -1.0, "timestamp": "1795555615"}
+{"keyword": "More information needed on non-Gregorian calendars implemented in Apple OSs", "platform": "stackexchange", "value": -6.0, "timestamp": "1795547394"}
+{"keyword": "Does an interface class just have the method&#39;s name and what is the purpose of that design?", "platform": "stackexchange", "value": -5.0, "timestamp": "1795546954"}
+{"keyword": "How to manage audio player volume on a real device?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795537380"}
+{"keyword": "Detecting input prompts from SSH2 commands", "platform": "stackexchange", "value": 0.0, "timestamp": "1795542279"}
+{"keyword": "Set custom SSL context vs. SSLSocketFactory", "platform": "stackexchange", "value": 0.0, "timestamp": "1795541469"}
+{"keyword": "Pylance possibly unbound in if statement", "platform": "stackexchange", "value": 3.0, "timestamp": "1795522835"}
+{"keyword": "How do I invert a Python dictionary&#39;s key, value pair?", "platform": "stackexchange", "value": -5.0, "timestamp": "1795531690"}
+{"keyword": "Can a conforming implementation produce an execution that is different from the logical deduction ac", "platform": "stackexchange", "value": 1.0, "timestamp": "1795506774"}
+{"keyword": "Why this `attr` class adds `Any` to its attributes&#39; type annotations?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795473058"}
+{"keyword": "Using CSVW to combine values from two columns in a literal", "platform": "stackexchange", "value": 0.0, "timestamp": "1795536511"}
+{"keyword": "How to force overflow for flex container in CSS", "platform": "stackexchange", "value": -2.0, "timestamp": "1795505656"}
+{"keyword": "How to omit Xcode 27 actool 1024 px embedded fallback bitmaps for Icon Composer?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795534016"}
+{"keyword": "Retrieval-Augmented Generation (RAG) and structured data", "platform": "stackexchange", "value": -1.0, "timestamp": "1795577428"}
+{"keyword": "TDengine`last_row()` returns empty columns on child table while`SELECT * ... ORDER BY ts DESC LIMIT", "platform": "stackexchange", "value": 0.0, "timestamp": "1795577103"}
+{"keyword": "Electron app under Wine on Debian: Chromium FATAL hwnd_util.cc(65) error 1400 while wine notepad ope", "platform": "stackexchange", "value": -4.0, "timestamp": "1795572123"}
+{"keyword": "When testing TPC-H Q10 on PolarDB , the execution plan is unstable and the query latency fluct varie", "platform": "stackexchange", "value": 0.0, "timestamp": "1795574897"}
+{"keyword": "Java4Shell Vulnerability: Update Your JetBrains IDEs, ReSharper, .NET Tools, Toolbox App, and Gatewa", "platform": "stackexchange", "value": -3.0, "timestamp": "1795570190"}
+{"keyword": "How to remove duplicate records in Ab Initio using the Dedup component?", "platform": "stackexchange", "value": -5.0, "timestamp": "1795571978"}
+{"keyword": "Excel VBA: Consolidation of Duplicate Rows including Sum of Values", "platform": "stackexchange", "value": -3.0, "timestamp": "1795558940"}
+{"keyword": "Robust K-means weighted clustering function for ~200,000 data points?", "platform": "stackexchange", "value": -1.0, "timestamp": "1795564371"}
+{"keyword": "Bubble does not sort the array in C", "platform": "stackexchange", "value": 0.0, "timestamp": "1795552494"}
+{"keyword": "How can a buffer overflow allow for RCE?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795560283"}
+{"keyword": "R studio trying to install library tidyverse but &quot;Error in library(&quot;tidyverse&quot;) : the", "platform": "stackexchange", "value": 1.0, "timestamp": "1795556149"}
+{"keyword": "Attempting to find values from one column based off category in another column", "platform": "stackexchange", "value": -9.0, "timestamp": "1795552731"}
+{"keyword": "How to match operator-characters in filesets", "platform": "stackexchange", "value": 0.0, "timestamp": "1795558645"}
+{"keyword": "How do I select all instances of an &lt;a&gt; tag using a regular expression", "platform": "stackexchange", "value": -1.0, "timestamp": "1795545990"}
+{"keyword": "Improving EF Core SQLite queries and seeding (AnyAsync, AddRangeAsync) and understanding DbContext", "platform": "stackexchange", "value": 2.0, "timestamp": "1795550841"}
+{"keyword": "JSON errors in Stripe Checkout code from Stripe", "platform": "stackexchange", "value": -1.0, "timestamp": "1795555946"}
+{"keyword": "How to hook/overide the color picker tool in Windows 11", "platform": "stackexchange", "value": -3.0, "timestamp": "1795555495"}
+{"keyword": "Which install identifier does Meta compare when AppsFlyer records the iOS install and RevenueCat for", "platform": "stackexchange", "value": -1.0, "timestamp": "1795555615"}
+{"keyword": "More information needed on non-Gregorian calendars implemented in Apple OSs", "platform": "stackexchange", "value": -6.0, "timestamp": "1795547394"}
+{"keyword": "Does an interface class just have the method&#39;s name and what is the purpose of that design?", "platform": "stackexchange", "value": -5.0, "timestamp": "1795546954"}
+{"keyword": "How to manage audio player volume on a real device?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795537380"}
+{"keyword": "Detecting input prompts from SSH2 commands", "platform": "stackexchange", "value": 0.0, "timestamp": "1795542279"}
+{"keyword": "Set custom SSL context vs. SSLSocketFactory", "platform": "stackexchange", "value": 0.0, "timestamp": "1795541469"}
+{"keyword": "Pylance possibly unbound in if statement", "platform": "stackexchange", "value": 3.0, "timestamp": "1795522835"}
+{"keyword": "How do I invert a Python dictionary&#39;s key, value pair?", "platform": "stackexchange", "value": -5.0, "timestamp": "1795531690"}
+{"keyword": "Can a conforming implementation produce an execution that is different from the logical deduction ac", "platform": "stackexchange", "value": 1.0, "timestamp": "1795506774"}
+{"keyword": "Why this `attr` class adds `Any` to its attributes&#39; type annotations?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795473058"}
+{"keyword": "Using CSVW to combine values from two columns in a literal", "platform": "stackexchange", "value": 0.0, "timestamp": "1795536511"}
+{"keyword": "How to force overflow for flex container in CSS", "platform": "stackexchange", "value": -2.0, "timestamp": "1795505656"}
+{"keyword": "How to omit Xcode 27 actool 1024 px embedded fallback bitmaps for Icon Composer?", "platform": "stackexchange", "value": 0.0, "timestamp": "1795534016"}
