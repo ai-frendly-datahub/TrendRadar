@@ -6,6 +6,38 @@
   "matched_count": 200,
   "top_entities": [
     {
+      "name": "Climate change",
+      "count": 4
+    },
+    {
+      "name": "Electric vehicle",
+      "count": 4
+    },
+    {
+      "name": "E-commerce",
+      "count": 4
+    },
+    {
+      "name": "YouTube",
+      "count": 4
+    },
+    {
+      "name": "Samsung",
+      "count": 4
+    },
+    {
+      "name": "Netflix",
+      "count": 4
+    },
+    {
+      "name": "Bitcoin",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
+      "count": 4
+    },
+    {
       "name": "Seoul",
       "count": 4
     },
@@ -26,43 +58,11 @@
       "count": 4
     },
     {
-      "name": "K-pop",
-      "count": 4
-    },
-    {
       "name": "World Wide Web",
       "count": 4
     },
     {
-      "name": "Samsung",
-      "count": 4
-    },
-    {
-      "name": "Netflix",
-      "count": 4
-    },
-    {
-      "name": "Bitcoin",
-      "count": 4
-    },
-    {
-      "name": "Climate change",
-      "count": 4
-    },
-    {
-      "name": "Electric vehicle",
-      "count": 4
-    },
-    {
-      "name": "E-commerce",
-      "count": 4
-    },
-    {
-      "name": "YouTube",
-      "count": 4
-    },
-    {
-      "name": "OpenAI",
+      "name": "K-pop",
       "count": 4
     },
     {
@@ -70,19 +70,19 @@
       "count": 2
     },
     {
-      "name": "레알 마드리드 대 에인트호번",
+      "name": "오현규",
       "count": 1
     },
     {
-      "name": "아스널 대 도르트문트",
+      "name": "에디차",
       "count": 1
     },
     {
-      "name": "al-nassr vs al sadd",
+      "name": "공휴일",
       "count": 1
     },
     {
-      "name": "의대생",
+      "name": "채권",
       "count": 1
     }
   ],
@@ -91,5 +91,5 @@
     "wikipedia": 60,
     "google": 30
   },
-  "generated_at": "2026-11-24T20:30:18.166283+00:00"
+  "generated_at": "2026-11-25T04:48:07.794726+00:00"
 }
