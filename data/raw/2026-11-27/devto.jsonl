@@ -58,3 +58,123 @@
 {"keyword": "Anthropic rewrote its Messages API in Rust. The tests said 98%. Production said 25%.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T08:27:15Z"}
 {"keyword": "I didn't tune 400 puzzle levels by hand. I wrote bots to play them for me", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T13:44:50Z"}
 {"keyword": "Remotion vs. CoAnimator When Your Product Demo Needs an Update", "platform": "devto", "value": 18.0, "timestamp": "2026-11-26T12:03:28Z"}
+{"keyword": "Nostalgia and the AI Productivity Paradox", "platform": "devto", "value": 63.0, "timestamp": "2026-11-26T08:03:09Z"}
+{"keyword": "I Built AI Test Automation. Today, I Went Back to Manual Testing.", "platform": "devto", "value": 83.0, "timestamp": "2026-11-26T08:16:05Z"}
+{"keyword": "On reviewing AI-generated code", "platform": "devto", "value": 21.0, "timestamp": "2026-11-26T09:02:00Z"}
+{"keyword": "From a feed full of Fable 5.2 demos to a 20-episode Indian epic: how I built \"The Eighteen Days\"", "platform": "devto", "value": 9.0, "timestamp": "2026-11-26T12:46:19Z"}
+{"keyword": "Your Second Brain Is Just A Digital Hoarding Pile (And How To Fix It)", "platform": "devto", "value": 14.0, "timestamp": "2026-11-26T16:30:00Z"}
+{"keyword": "Why Can't We Just #include \"functions.c\" in \"main.c\"? 🤔", "platform": "devto", "value": 47.0, "timestamp": "2026-11-26T12:21:47Z"}
+{"keyword": "My Simulation Exaggerated the Cost of My Own Safety Feature", "platform": "devto", "value": 24.0, "timestamp": "2026-11-26T06:33:35Z"}
+{"keyword": "Before You Trust the Canary, Plant a Bug", "platform": "devto", "value": 12.0, "timestamp": "2026-11-26T18:02:26Z"}
+{"keyword": "Benchmarking Gemma 4 E2B with Long Contexts", "platform": "devto", "value": 9.0, "timestamp": "2026-11-26T18:18:41Z"}
+{"keyword": "[Kalamos Devlog] After Open-Sourcing: v0.2 to v0.7 Feature Evolution and Using Multi-Agents to Revie", "platform": "devto", "value": 0.0, "timestamp": "2026-11-26T14:47:32Z"}
+{"keyword": "What a cold start actually costs on DigitalOcean Functions", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T11:00:00Z"}
+{"keyword": "C# 15 Unpacked: Popping the Hood on Labeled Loops and Finding No Labels at All", "platform": "devto", "value": 7.0, "timestamp": "2026-11-26T18:50:06Z"}
+{"keyword": "CVE-Harta: Autonomous Vulnerability Remediation", "platform": "devto", "value": 7.0, "timestamp": "2026-11-26T07:47:29Z"}
+{"keyword": "Who is LoLoCoding without a job title?", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T20:25:28Z"}
+{"keyword": "Claude Code `--resume` and Session Persistence in 2026: Picking Up Long Refactors Where You Left Off", "platform": "devto", "value": 0.0, "timestamp": "2026-11-26T18:04:26Z"}
+{"keyword": "Show DEV: Beating the Browser Memory Ceiling — Streaming 50GB WebRTC Files Direct-to-Disk with OPFS", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T16:02:12Z"}
+{"keyword": "JavaScript told me to buy 8 bags of concrete. I needed 7.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T16:46:30Z"}
+{"keyword": "I didn't tune 400 puzzle levels by hand. I wrote bots to play them for me", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T13:44:50Z"}
+{"keyword": "Run an LLM and Whisper on the Phone, With No Server Bill", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T14:04:34Z"}
+{"keyword": "[Kalamos Development] Auto-Update Lessons: Private Key Isolation, Build-Signing Separation, Key Rota", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T14:06:30Z"}
+{"keyword": "Using Shebang in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:42:45Z"}
+{"keyword": "Using the Bash Read Command", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:43:11Z"}
+{"keyword": "Checking for a Substring in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:42:22Z"}
+{"keyword": "Using Bash Function", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:44:22Z"}
+{"keyword": "Using Bash HereDoc", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:43:32Z"}
+{"keyword": "Using Variables in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:46:18Z"}
+{"keyword": "Creating a Bash Script and Executing It", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:44:38Z"}
+{"keyword": "Dónde quedan tus console.log en AWS Lambda (CloudWatch Logs)", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T20:47:35Z"}
+{"keyword": "Your MCP server can ship its own skill now", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T13:39:14Z"}
+{"keyword": "Anthropic rewrote its Messages API in Rust. The tests said 98%. Production said 25%.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T08:27:15Z"}
+{"keyword": "Nostalgia and the AI Productivity Paradox", "platform": "devto", "value": 63.0, "timestamp": "2026-11-26T08:03:09Z"}
+{"keyword": "I Built AI Test Automation. Today, I Went Back to Manual Testing.", "platform": "devto", "value": 83.0, "timestamp": "2026-11-26T08:16:05Z"}
+{"keyword": "On reviewing AI-generated code", "platform": "devto", "value": 21.0, "timestamp": "2026-11-26T09:02:00Z"}
+{"keyword": "From a feed full of Fable 5.2 demos to a 20-episode Indian epic: how I built \"The Eighteen Days\"", "platform": "devto", "value": 9.0, "timestamp": "2026-11-26T12:46:19Z"}
+{"keyword": "Your Second Brain Is Just A Digital Hoarding Pile (And How To Fix It)", "platform": "devto", "value": 14.0, "timestamp": "2026-11-26T16:30:00Z"}
+{"keyword": "Why Can't We Just #include \"functions.c\" in \"main.c\"? 🤔", "platform": "devto", "value": 47.0, "timestamp": "2026-11-26T12:21:47Z"}
+{"keyword": "My Simulation Exaggerated the Cost of My Own Safety Feature", "platform": "devto", "value": 24.0, "timestamp": "2026-11-26T06:33:35Z"}
+{"keyword": "Before You Trust the Canary, Plant a Bug", "platform": "devto", "value": 12.0, "timestamp": "2026-11-26T18:02:26Z"}
+{"keyword": "Benchmarking Gemma 4 E2B with Long Contexts", "platform": "devto", "value": 9.0, "timestamp": "2026-11-26T18:18:41Z"}
+{"keyword": "[Kalamos Devlog] After Open-Sourcing: v0.2 to v0.7 Feature Evolution and Using Multi-Agents to Revie", "platform": "devto", "value": 0.0, "timestamp": "2026-11-26T14:47:32Z"}
+{"keyword": "What a cold start actually costs on DigitalOcean Functions", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T11:00:00Z"}
+{"keyword": "C# 15 Unpacked: Popping the Hood on Labeled Loops and Finding No Labels at All", "platform": "devto", "value": 7.0, "timestamp": "2026-11-26T18:50:06Z"}
+{"keyword": "CVE-Harta: Autonomous Vulnerability Remediation", "platform": "devto", "value": 7.0, "timestamp": "2026-11-26T07:47:29Z"}
+{"keyword": "Who is LoLoCoding without a job title?", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T20:25:28Z"}
+{"keyword": "Claude Code `--resume` and Session Persistence in 2026: Picking Up Long Refactors Where You Left Off", "platform": "devto", "value": 0.0, "timestamp": "2026-11-26T18:04:26Z"}
+{"keyword": "Show DEV: Beating the Browser Memory Ceiling — Streaming 50GB WebRTC Files Direct-to-Disk with OPFS", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T16:02:12Z"}
+{"keyword": "JavaScript told me to buy 8 bags of concrete. I needed 7.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T16:46:30Z"}
+{"keyword": "I didn't tune 400 puzzle levels by hand. I wrote bots to play them for me", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T13:44:50Z"}
+{"keyword": "Run an LLM and Whisper on the Phone, With No Server Bill", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T14:04:34Z"}
+{"keyword": "[Kalamos Development] Auto-Update Lessons: Private Key Isolation, Build-Signing Separation, Key Rota", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T14:06:30Z"}
+{"keyword": "Using Shebang in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:42:45Z"}
+{"keyword": "Using the Bash Read Command", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:43:11Z"}
+{"keyword": "Checking for a Substring in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:42:22Z"}
+{"keyword": "Using Bash Function", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:44:22Z"}
+{"keyword": "Using Bash HereDoc", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:43:32Z"}
+{"keyword": "Using Variables in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:46:18Z"}
+{"keyword": "Creating a Bash Script and Executing It", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:44:38Z"}
+{"keyword": "Dónde quedan tus console.log en AWS Lambda (CloudWatch Logs)", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T20:47:35Z"}
+{"keyword": "Your MCP server can ship its own skill now", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T13:39:14Z"}
+{"keyword": "Anthropic rewrote its Messages API in Rust. The tests said 98%. Production said 25%.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T08:27:15Z"}
+{"keyword": "Nostalgia and the AI Productivity Paradox", "platform": "devto", "value": 63.0, "timestamp": "2026-11-26T08:03:09Z"}
+{"keyword": "I Built AI Test Automation. Today, I Went Back to Manual Testing.", "platform": "devto", "value": 83.0, "timestamp": "2026-11-26T08:16:05Z"}
+{"keyword": "On reviewing AI-generated code", "platform": "devto", "value": 21.0, "timestamp": "2026-11-26T09:02:00Z"}
+{"keyword": "From a feed full of Fable 5.2 demos to a 20-episode Indian epic: how I built \"The Eighteen Days\"", "platform": "devto", "value": 9.0, "timestamp": "2026-11-26T12:46:19Z"}
+{"keyword": "Your Second Brain Is Just A Digital Hoarding Pile (And How To Fix It)", "platform": "devto", "value": 14.0, "timestamp": "2026-11-26T16:30:00Z"}
+{"keyword": "Why Can't We Just #include \"functions.c\" in \"main.c\"? 🤔", "platform": "devto", "value": 47.0, "timestamp": "2026-11-26T12:21:47Z"}
+{"keyword": "My Simulation Exaggerated the Cost of My Own Safety Feature", "platform": "devto", "value": 24.0, "timestamp": "2026-11-26T06:33:35Z"}
+{"keyword": "Before You Trust the Canary, Plant a Bug", "platform": "devto", "value": 12.0, "timestamp": "2026-11-26T18:02:26Z"}
+{"keyword": "Benchmarking Gemma 4 E2B with Long Contexts", "platform": "devto", "value": 9.0, "timestamp": "2026-11-26T18:18:41Z"}
+{"keyword": "[Kalamos Devlog] After Open-Sourcing: v0.2 to v0.7 Feature Evolution and Using Multi-Agents to Revie", "platform": "devto", "value": 0.0, "timestamp": "2026-11-26T14:47:32Z"}
+{"keyword": "What a cold start actually costs on DigitalOcean Functions", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T11:00:00Z"}
+{"keyword": "C# 15 Unpacked: Popping the Hood on Labeled Loops and Finding No Labels at All", "platform": "devto", "value": 7.0, "timestamp": "2026-11-26T18:50:06Z"}
+{"keyword": "CVE-Harta: Autonomous Vulnerability Remediation", "platform": "devto", "value": 7.0, "timestamp": "2026-11-26T07:47:29Z"}
+{"keyword": "Who is LoLoCoding without a job title?", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T20:25:28Z"}
+{"keyword": "Claude Code `--resume` and Session Persistence in 2026: Picking Up Long Refactors Where You Left Off", "platform": "devto", "value": 0.0, "timestamp": "2026-11-26T18:04:26Z"}
+{"keyword": "Show DEV: Beating the Browser Memory Ceiling — Streaming 50GB WebRTC Files Direct-to-Disk with OPFS", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T16:02:12Z"}
+{"keyword": "JavaScript told me to buy 8 bags of concrete. I needed 7.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T16:46:30Z"}
+{"keyword": "I didn't tune 400 puzzle levels by hand. I wrote bots to play them for me", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T13:44:50Z"}
+{"keyword": "Run an LLM and Whisper on the Phone, With No Server Bill", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T14:04:34Z"}
+{"keyword": "[Kalamos Development] Auto-Update Lessons: Private Key Isolation, Build-Signing Separation, Key Rota", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T14:06:30Z"}
+{"keyword": "Using Shebang in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:42:45Z"}
+{"keyword": "Using the Bash Read Command", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:43:11Z"}
+{"keyword": "Checking for a Substring in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:42:22Z"}
+{"keyword": "Using Bash Function", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:44:22Z"}
+{"keyword": "Using Bash HereDoc", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:43:32Z"}
+{"keyword": "Using Variables in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:46:18Z"}
+{"keyword": "Creating a Bash Script and Executing It", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:44:38Z"}
+{"keyword": "Dónde quedan tus console.log en AWS Lambda (CloudWatch Logs)", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T20:47:35Z"}
+{"keyword": "Your MCP server can ship its own skill now", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T13:39:14Z"}
+{"keyword": "Anthropic rewrote its Messages API in Rust. The tests said 98%. Production said 25%.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T08:27:15Z"}
+{"keyword": "Nostalgia and the AI Productivity Paradox", "platform": "devto", "value": 63.0, "timestamp": "2026-11-26T08:03:09Z"}
+{"keyword": "I Built AI Test Automation. Today, I Went Back to Manual Testing.", "platform": "devto", "value": 83.0, "timestamp": "2026-11-26T08:16:05Z"}
+{"keyword": "On reviewing AI-generated code", "platform": "devto", "value": 21.0, "timestamp": "2026-11-26T09:02:00Z"}
+{"keyword": "From a feed full of Fable 5.2 demos to a 20-episode Indian epic: how I built \"The Eighteen Days\"", "platform": "devto", "value": 9.0, "timestamp": "2026-11-26T12:46:19Z"}
+{"keyword": "Your Second Brain Is Just A Digital Hoarding Pile (And How To Fix It)", "platform": "devto", "value": 14.0, "timestamp": "2026-11-26T16:30:00Z"}
+{"keyword": "Why Can't We Just #include \"functions.c\" in \"main.c\"? 🤔", "platform": "devto", "value": 47.0, "timestamp": "2026-11-26T12:21:47Z"}
+{"keyword": "My Simulation Exaggerated the Cost of My Own Safety Feature", "platform": "devto", "value": 24.0, "timestamp": "2026-11-26T06:33:35Z"}
+{"keyword": "Before You Trust the Canary, Plant a Bug", "platform": "devto", "value": 12.0, "timestamp": "2026-11-26T18:02:26Z"}
+{"keyword": "Benchmarking Gemma 4 E2B with Long Contexts", "platform": "devto", "value": 9.0, "timestamp": "2026-11-26T18:18:41Z"}
+{"keyword": "[Kalamos Devlog] After Open-Sourcing: v0.2 to v0.7 Feature Evolution and Using Multi-Agents to Revie", "platform": "devto", "value": 0.0, "timestamp": "2026-11-26T14:47:32Z"}
+{"keyword": "What a cold start actually costs on DigitalOcean Functions", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T11:00:00Z"}
+{"keyword": "C# 15 Unpacked: Popping the Hood on Labeled Loops and Finding No Labels at All", "platform": "devto", "value": 7.0, "timestamp": "2026-11-26T18:50:06Z"}
+{"keyword": "CVE-Harta: Autonomous Vulnerability Remediation", "platform": "devto", "value": 7.0, "timestamp": "2026-11-26T07:47:29Z"}
+{"keyword": "Who is LoLoCoding without a job title?", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T20:25:28Z"}
+{"keyword": "Claude Code `--resume` and Session Persistence in 2026: Picking Up Long Refactors Where You Left Off", "platform": "devto", "value": 0.0, "timestamp": "2026-11-26T18:04:26Z"}
+{"keyword": "Show DEV: Beating the Browser Memory Ceiling — Streaming 50GB WebRTC Files Direct-to-Disk with OPFS", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T16:02:12Z"}
+{"keyword": "JavaScript told me to buy 8 bags of concrete. I needed 7.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T16:46:30Z"}
+{"keyword": "I didn't tune 400 puzzle levels by hand. I wrote bots to play them for me", "platform": "devto", "value": 8.0, "timestamp": "2026-11-26T13:44:50Z"}
+{"keyword": "Run an LLM and Whisper on the Phone, With No Server Bill", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T14:04:34Z"}
+{"keyword": "[Kalamos Development] Auto-Update Lessons: Private Key Isolation, Build-Signing Separation, Key Rota", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T14:06:30Z"}
+{"keyword": "Using Shebang in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:42:45Z"}
+{"keyword": "Using the Bash Read Command", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:43:11Z"}
+{"keyword": "Checking for a Substring in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:42:22Z"}
+{"keyword": "Using Bash Function", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:44:22Z"}
+{"keyword": "Using Bash HereDoc", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:43:32Z"}
+{"keyword": "Using Variables in Bash", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:46:18Z"}
+{"keyword": "Creating a Bash Script and Executing It", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T23:44:38Z"}
+{"keyword": "Dónde quedan tus console.log en AWS Lambda (CloudWatch Logs)", "platform": "devto", "value": 1.0, "timestamp": "2026-11-26T20:47:35Z"}
+{"keyword": "Your MCP server can ship its own skill now", "platform": "devto", "value": 5.0, "timestamp": "2026-11-26T13:39:14Z"}
+{"keyword": "Anthropic rewrote its Messages API in Rust. The tests said 98%. Production said 25%.", "platform": "devto", "value": 6.0, "timestamp": "2026-11-26T08:27:15Z"}
