@@ -28,3 +28,63 @@
 {"keyword": "How do I fix &quot;&#39;package:flutter/material.dart&#39; is deprecated… Use package:cupertino_ui/c", "platform": "stackexchange", "value": -2.0, "timestamp": "1795770570"}
 {"keyword": "How to filter orders with nested OR meta_query using wc_get_orders with HPOS enabled?", "platform": "stackexchange", "value": 4.0, "timestamp": "1795756047"}
 {"keyword": "Where should the cookie-setting logic live, in the controller or the service layer, when it depends", "platform": "stackexchange", "value": 1.0, "timestamp": "1795767634"}
+{"keyword": "In an A* algo how to find the min f value contained in a list of classes", "platform": "stackexchange", "value": 0.0, "timestamp": "1795832729"}
+{"keyword": "How to sum two `stars` objects with different dimensions", "platform": "stackexchange", "value": 1.0, "timestamp": "1795825303"}
+{"keyword": "Do I always need to create a header file if I want to include my class in another file?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795829296"}
+{"keyword": "How to uncheck an input radio in React and Typescript?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795826694"}
+{"keyword": "LazyConstant jdk-27", "platform": "stackexchange", "value": 1.0, "timestamp": "1795816830"}
+{"keyword": "Is it possible to get a pointer to the current function using a macro in C?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795809846"}
+{"keyword": "OAuth Data Access Verification — &quot;Home page URL is unresponsive&quot; but site is live and veri", "platform": "stackexchange", "value": -2.0, "timestamp": "1795805579"}
+{"keyword": "How can I solve this graphics issue (window shows up as a black box with a grey box inside) when run", "platform": "stackexchange", "value": 0.0, "timestamp": "1795823821"}
+{"keyword": "Why isn&#39;t the GtkWidget pointer being initialized when passed to a separate function to initiali", "platform": "stackexchange", "value": 1.0, "timestamp": "1795798047"}
+{"keyword": "Is it undefined behavior if const member function changes *this through its argument?", "platform": "stackexchange", "value": 6.0, "timestamp": "1795774106"}
+{"keyword": "Return Customer ID for rows only containing 2 values", "platform": "stackexchange", "value": 4.0, "timestamp": "1795785181"}
+{"keyword": "CSS specificity not as expected in my nested CSS", "platform": "stackexchange", "value": 0.0, "timestamp": "1795811300"}
+{"keyword": "Does C++ support UTF8 normalization and case folding?", "platform": "stackexchange", "value": 3.0, "timestamp": "1795777515"}
+{"keyword": "Difference between __class__ and self.__class__ in instance method", "platform": "stackexchange", "value": 2.0, "timestamp": "1795794606"}
+{"keyword": "having an error on production server for a bad gateway", "platform": "stackexchange", "value": -3.0, "timestamp": "1795804637"}
+{"keyword": "Numpy and python list bizarre behavior", "platform": "stackexchange", "value": -5.0, "timestamp": "1795803851"}
+{"keyword": "How to know if a is model overfitted in ecology given good DHARMa diagnostics?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795790052"}
+{"keyword": "Does the name I give Claude for myself matter?", "platform": "stackexchange", "value": -12.0, "timestamp": "1795798538"}
+{"keyword": "Heredoc Bash syntax", "platform": "stackexchange", "value": 2.0, "timestamp": "1795774222"}
+{"keyword": "updating a pySide6 label with each keystroke", "platform": "stackexchange", "value": 0.0, "timestamp": "1795794657"}
+{"keyword": "How to set up a 1.8in 360x360 round tft display using an ESP32-s3 correctly? SPI/QSPI St77916", "platform": "stackexchange", "value": 2.0, "timestamp": "1795789202"}
+{"keyword": "How to properly quote javaScript function in PHP echo", "platform": "stackexchange", "value": -3.0, "timestamp": "1795790048"}
+{"keyword": "I have a problema with this code for a bot of whatsApp", "platform": "stackexchange", "value": -6.0, "timestamp": "1795797292"}
+{"keyword": "Why do Makefile commands work in the terminal directly but not with the &#39;make&#39; command?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795794454"}
+{"keyword": "The difference between nesting resources, modules, and scope in rails", "platform": "stackexchange", "value": -3.0, "timestamp": "1795797657"}
+{"keyword": "How to handle git error: &quot;error: packfile .git/objects/pack/pack-....pack index unavailable&quo", "platform": "stackexchange", "value": 2.0, "timestamp": "1795787856"}
+{"keyword": "Why use ForeignKey(..., ondelete=&quot;CASCADE&quot;) if relationship(..., cascade=&quot;all, delete", "platform": "stackexchange", "value": 3.0, "timestamp": "1795785828"}
+{"keyword": "Tk window geometry functions are returning the wrong values on Linux (KDE Plasma)", "platform": "stackexchange", "value": 2.0, "timestamp": "1795763550"}
+{"keyword": "Is a hard timeout for asynchronous operations that don’t work with SemaphoreSlim without creating le", "platform": "stackexchange", "value": 3.0, "timestamp": "1795772486"}
+{"keyword": "Vertex AI `eu` endpoint: gemini-3.5-flash-lite time to first token 30–120 s in recurring windows. Ca", "platform": "stackexchange", "value": -5.0, "timestamp": "1795793552"}
+{"keyword": "In an A* algo how to find the min f value contained in a list of classes", "platform": "stackexchange", "value": 0.0, "timestamp": "1795832729"}
+{"keyword": "How to sum two `stars` objects with different dimensions", "platform": "stackexchange", "value": 1.0, "timestamp": "1795825303"}
+{"keyword": "Do I always need to create a header file if I want to include my class in another file?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795829296"}
+{"keyword": "How to uncheck an input radio in React and Typescript?", "platform": "stackexchange", "value": 1.0, "timestamp": "1795826694"}
+{"keyword": "LazyConstant jdk-27", "platform": "stackexchange", "value": 1.0, "timestamp": "1795816830"}
+{"keyword": "Is it possible to get a pointer to the current function using a macro in C?", "platform": "stackexchange", "value": 2.0, "timestamp": "1795809846"}
+{"keyword": "OAuth Data Access Verification — &quot;Home page URL is unresponsive&quot; but site is live and veri", "platform": "stackexchange", "value": -2.0, "timestamp": "1795805579"}
+{"keyword": "How can I solve this graphics issue (window shows up as a black box with a grey box inside) when run", "platform": "stackexchange", "value": 0.0, "timestamp": "1795823821"}
+{"keyword": "Why isn&#39;t the GtkWidget pointer being initialized when passed to a separate function to initiali", "platform": "stackexchange", "value": 1.0, "timestamp": "1795798047"}
+{"keyword": "Is it undefined behavior if const member function changes *this through its argument?", "platform": "stackexchange", "value": 6.0, "timestamp": "1795774106"}
+{"keyword": "Return Customer ID for rows only containing 2 values", "platform": "stackexchange", "value": 4.0, "timestamp": "1795785181"}
+{"keyword": "CSS specificity not as expected in my nested CSS", "platform": "stackexchange", "value": 0.0, "timestamp": "1795811300"}
+{"keyword": "Does C++ support UTF8 normalization and case folding?", "platform": "stackexchange", "value": 3.0, "timestamp": "1795777515"}
+{"keyword": "Difference between __class__ and self.__class__ in instance method", "platform": "stackexchange", "value": 2.0, "timestamp": "1795794606"}
+{"keyword": "having an error on production server for a bad gateway", "platform": "stackexchange", "value": -3.0, "timestamp": "1795804637"}
+{"keyword": "Numpy and python list bizarre behavior", "platform": "stackexchange", "value": -5.0, "timestamp": "1795803851"}
+{"keyword": "How to know if a is model overfitted in ecology given good DHARMa diagnostics?", "platform": "stackexchange", "value": -2.0, "timestamp": "1795790052"}
+{"keyword": "Does the name I give Claude for myself matter?", "platform": "stackexchange", "value": -12.0, "timestamp": "1795798538"}
+{"keyword": "Heredoc Bash syntax", "platform": "stackexchange", "value": 2.0, "timestamp": "1795774222"}
+{"keyword": "updating a pySide6 label with each keystroke", "platform": "stackexchange", "value": 0.0, "timestamp": "1795794657"}
+{"keyword": "How to set up a 1.8in 360x360 round tft display using an ESP32-s3 correctly? SPI/QSPI St77916", "platform": "stackexchange", "value": 2.0, "timestamp": "1795789202"}
+{"keyword": "How to properly quote javaScript function in PHP echo", "platform": "stackexchange", "value": -3.0, "timestamp": "1795790048"}
+{"keyword": "I have a problema with this code for a bot of whatsApp", "platform": "stackexchange", "value": -6.0, "timestamp": "1795797292"}
+{"keyword": "Why do Makefile commands work in the terminal directly but not with the &#39;make&#39; command?", "platform": "stackexchange", "value": -3.0, "timestamp": "1795794454"}
+{"keyword": "The difference between nesting resources, modules, and scope in rails", "platform": "stackexchange", "value": -3.0, "timestamp": "1795797657"}
+{"keyword": "How to handle git error: &quot;error: packfile .git/objects/pack/pack-....pack index unavailable&quo", "platform": "stackexchange", "value": 2.0, "timestamp": "1795787856"}
+{"keyword": "Why use ForeignKey(..., ondelete=&quot;CASCADE&quot;) if relationship(..., cascade=&quot;all, delete", "platform": "stackexchange", "value": 3.0, "timestamp": "1795785828"}
+{"keyword": "Tk window geometry functions are returning the wrong values on Linux (KDE Plasma)", "platform": "stackexchange", "value": 2.0, "timestamp": "1795763550"}
+{"keyword": "Is a hard timeout for asynchronous operations that don’t work with SemaphoreSlim without creating le", "platform": "stackexchange", "value": 3.0, "timestamp": "1795772486"}
+{"keyword": "Vertex AI `eu` endpoint: gemini-3.5-flash-lite time to first token 30–120 s in recurring windows. Ca", "platform": "stackexchange", "value": -5.0, "timestamp": "1795793552"}
